@@ -48,6 +48,21 @@
             ]
         },
         {
+            "name": "briar-headless",
+            "buildsystem": "simple",
+            "build-commands": [
+                "mkdir -p /app/briar",
+                "install -Dm644 briar-headless.jar /app/briar/briar-headless.jar"
+            ],
+            "sources": [
+                {
+                    "type" : "file",
+                    "url" : "https://media.dorfbrunnen.eu/briar/briar-headless.jar",
+                    "sha256": "d4d610ebdc9822f05ade455487921d0eb21469c23ae162fe63da1f557008d586"
+                }
+            ]
+        },
+        {
             "name": "briar_gtk",
             "buildsystem": "meson",
             "config-opts": [ "--libdir=lib" ],

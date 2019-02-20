@@ -3,6 +3,9 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "3.28",
     "sdk": "org.gnome.Sdk",
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.openjdk10"
+    ],
     "command": "briar_gtk",
     "finish-args": [
         "--share=network",
@@ -33,6 +36,15 @@
         "*.a"
     ],
     "modules": [
+        {
+            "name": "openjdk",
+            "buildsystem": "simple",
+            "build-commands": [
+                "/usr/lib/sdk/openjdk10/install.sh",
+                "/usr/lib/sdk/openjdk10/installjdk.sh",
+                "/usr/lib/sdk/openjdk10/enable.sh"
+            ]
+        },
         {
             "name": "briar_gtk",
             "buildsystem": "meson",

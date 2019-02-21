@@ -23,8 +23,6 @@ from .gi_composites import GtkTemplate
 class BriarGtkWindow(Gtk.ApplicationWindow):
     __gtype_name__ = 'BriarGtkWindow'
 
-    label = GtkTemplate.Child()
-
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.init_template()

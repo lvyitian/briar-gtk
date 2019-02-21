@@ -8,7 +8,7 @@
       <object class="GtkHeaderBar" id="header_bar">
         <property name="visible">True</property>
         <property name="show-close-button">True</property>
-        <property name="title">Briar GTK</property>
+        <property name="title">Welcome to Briar</property>
       </object>
     </child>
     <child>

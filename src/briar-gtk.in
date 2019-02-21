@@ -1,6 +1,6 @@
 #!@PYTHON@
 
-# briar_gtk.in
+# briar-gtk.in
 #
 # Copyright 2019 Nico Alt
 #
@@ -28,13 +28,13 @@ localedir = '@localedir@'
 
 sys.path.insert(1, pkgdatadir)
 signal.signal(signal.SIGINT, signal.SIG_DFL)
-gettext.install('briar_gtk', localedir)
+gettext.install('briar-gtk', localedir)
 
 if __name__ == '__main__':
     import gi
 
     from gi.repository import Gio
-    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'briar_gtk.gresource'))
+    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'briar-gtk.gresource'))
     resource._register()
 
     from briar_gtk import main

@@ -1,1 +1,1 @@
-i18n.gettext('briar_gtk', preset: 'glib')
+i18n.gettext('briar-gtk', preset: 'glib')

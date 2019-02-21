@@ -2,8 +2,8 @@ pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.proje
 moduledir = join_paths(pkgdatadir, 'briar_gtk')
 gnome = import('gnome')
 
-gnome.compile_resources('briar_gtk',
-  'briar_gtk.gresource.xml',
+gnome.compile_resources('briar-gtk',
+  'briar-gtk.gresource.xml',
   gresource_bundle: true,
   install: true,
   install_dir: pkgdatadir,
@@ -18,8 +18,8 @@ conf.set('localedir', join_paths(get_option('prefix'), get_option('localedir')))
 conf.set('pkgdatadir', pkgdatadir)
 
 configure_file(
-  input: 'briar_gtk.in',
-  output: 'briar_gtk',
+  input: 'briar-gtk.in',
+  output: 'briar-gtk',
   configuration: conf,
   install: true,
   install_dir: get_option('bindir')

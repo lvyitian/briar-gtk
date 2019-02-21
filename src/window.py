@@ -20,8 +20,8 @@ from .gi_composites import GtkTemplate
 
 
 @GtkTemplate(ui='/app/briar/gtk/window.ui')
-class Briar_gtkWindow(Gtk.ApplicationWindow):
-    __gtype_name__ = 'Briar_gtkWindow'
+class BriarGtkWindow(Gtk.ApplicationWindow):
+    __gtype_name__ = 'BriarGtkWindow'
 
     label = GtkTemplate.Child()
 

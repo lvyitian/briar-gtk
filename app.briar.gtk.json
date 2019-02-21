@@ -6,7 +6,7 @@
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.openjdk10"
     ],
-    "command": "briar_gtk",
+    "command": "briar-gtk",
     "finish-args": [
         "--share=network",
         "--share=ipc",
@@ -63,14 +63,14 @@
             ]
         },
         {
-            "name": "briar_gtk",
+            "name": "briar-gtk",
             "buildsystem": "meson",
             "config-opts": [ "--libdir=lib" ],
             "builddir": true,
             "sources": [
                 {
                     "type": "git",
-                    "url": "file:///home/nico/Work/Current/Briar/briar_gtk"
+                    "url": "file:///home/nico/Work/Current/Briar/briar-gtk"
                 }
             ]
         }

@@ -28,7 +28,7 @@
             <property name="row_spacing">6</property>
             <property name="column_spacing">12</property>
             <child>
-              <object class="GtkLabel" id="username-label">
+              <object class="GtkLabel" id="username_label">
                 <property name="visible">True</property>
                 <property name="halign">center</property>
                 <property name="label" translatable="yes">Nickname</property>
@@ -39,7 +39,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkEntry" id="username">
+              <object class="GtkEntry" id="username_entry">
                 <property name="visible">True</property>
                 <property name="placeholder_text" translatable="yes">Choose your nickname</property>
               </object>
@@ -49,7 +49,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="username-next">
+              <object class="GtkButton" id="username_next">
                 <property name="visible">True</property>
                 <property name="halign">center</property>
                 <property name="label" translatable="yes">Next</property>
@@ -69,7 +69,7 @@
             <property name="row_spacing">6</property>
             <property name="column_spacing">12</property>
             <child>
-              <object class="GtkLabel" id="password-label">
+              <object class="GtkLabel" id="password_label">
                 <property name="visible">True</property>
                 <property name="halign">center</property>
                 <property name="label" translatable="yes">Password</property>
@@ -80,7 +80,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkEntry" id="password">
+              <object class="GtkEntry" id="password_entry">
                 <property name="visible">True</property>
                 <property name="placeholder_text" translatable="yes">Choose your password</property>
               </object>
@@ -90,7 +90,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkEntry" id="password_confirm">
+              <object class="GtkEntry" id="password_confirm_entry">
                 <property name="visible">True</property>
                 <property name="placeholder_text" translatable="yes">Confirm your password</property>
               </object>
@@ -100,7 +100,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="password-next">
+              <object class="GtkButton" id="password_next">
                 <property name="visible">True</property>
                 <property name="halign">center</property>
                 <property name="label" translatable="yes">Next</property>
@@ -117,4 +117,5 @@
     </child>
   </template>
 </interface>
+
 

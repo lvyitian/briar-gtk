@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/app/briar/gtk">
-    <file>window.ui</file>
+    <file>ui/setup.ui</file>
   </gresource>
 </gresources>

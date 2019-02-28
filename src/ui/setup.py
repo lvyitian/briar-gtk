@@ -19,8 +19,8 @@ from gi.repository import Gtk
 from .gi_composites import GtkTemplate
 
 
-@GtkTemplate(ui='/app/briar/gtk/window.ui')
-class BriarGtkWindow(Gtk.ApplicationWindow):
+@GtkTemplate(ui='/app/briar/gtk/ui/setup.ui')
+class BriarSetupWindow(Gtk.ApplicationWindow):
     __gtype_name__ = 'BriarGtkWindow'
 
     username_grid = GtkTemplate.Child()

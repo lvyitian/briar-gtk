@@ -22,7 +22,7 @@ gi.require_version('Gtk', '3.0')
 
 from gi.repository import Gtk, Gio
 
-from .window import BriarGtkWindow
+from .setup import BriarSetupWindow
 
 
 class Application(Gtk.Application):
@@ -33,7 +33,7 @@ class Application(Gtk.Application):
     def do_activate(self):
         win = self.props.active_window
         if not win:
-            win = BriarGtkWindow(application=self)
+            win = BriarSetupWindow(application=self)
         win.present()
 
 

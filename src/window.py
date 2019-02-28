@@ -23,6 +23,21 @@ from .gi_composites import GtkTemplate
 class BriarGtkWindow(Gtk.ApplicationWindow):
     __gtype_name__ = 'BriarGtkWindow'
 
+    username_grid = GtkTemplate.Child()
+    username_entry = GtkTemplate.Child()
+
+    password_grid = GtkTemplate.Child()
+    password_entry = GtkTemplate.Child()
+    password_confirm_entry = GtkTemplate.Child()
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.init_template()
+
+    def on_username_button_clicked(self, button):
+        self.username_grid.set_visible(False)
+        self.password_grid.set_visible(True)
+        self.username = self.username_entry.get_text()
+
+    def on_password_button_clicked(self, button):
+        self.password = self.password_entry.get_text()

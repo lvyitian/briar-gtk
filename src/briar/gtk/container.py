@@ -2,9 +2,6 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from briar.gtk.define import App
-from briar.gtk.logger import Logger
-
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
@@ -14,28 +11,12 @@ class Container(Gtk.Overlay):
 
     def __init__(self):
         Gtk.Overlay.__init__(self)
+        self.builder = Gtk.Builder()
         self.__setup_view()
+        self.__register_signals()
 
     def __setup_view(self):
-        Logger.debug("Api has account: %s", App().api.has_account())
-        self.builder = Gtk.Builder()
-        if not App().api.has_account():
-            self.builder.add_from_resource("/app/briar/gtk/ui/setup.ui")
-            self.add(self.builder.get_object("setup"))
-        else:
-            self.builder.add_from_resource("/app/briar/gtk/ui/login.ui")
-            self.add(self.builder.get_object("login"))
-        self.builder.connect_signals(self)
+        pass
 
-    def on_username_button_clicked(self, button):
-        self.builder.get_object("username_grid").set_visible(False)
-        self.builder.get_object("password_grid").set_visible(True)
-        self.username = self.builder.get_object("username_entry").get_text()
-
-    def on_password_button_clicked(self, button):
-        password = self.builder.get_object("password_entry").get_text()
-        App().api.register((self.username, password))  # TODO: callback
-
-    def on_login_pressed(self, button):
-        password = self.builder.get_object("password_entry").get_text()
-        App().api.login(password)  # TODO: callback
+    def __register_signals(self):
+        pass

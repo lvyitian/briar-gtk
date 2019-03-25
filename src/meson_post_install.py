@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Copyright (c) 2019 Nico Alt
+# SPDX-License-Identifier: AGPL-3.0-only
+# License-Filename: LICENSE.md
 
 from os import environ, path
 from subprocess import call

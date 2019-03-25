@@ -2,7 +2,7 @@
 <component type="desktop">
 	<id>app.briar.gtk.desktop</id>
 	<metadata_license>CC-BY-4.0</metadata_license>
-	<project_license>GPL-3.0-or-later</project_license>
+	<project_license>AGPL-3.0-only</project_license>
 	<description>
 	</description>
 </component>

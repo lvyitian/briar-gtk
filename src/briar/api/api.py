@@ -16,16 +16,18 @@ class Api:
         from os.path import isdir, join
         return isdir(join(home, ".briar", "db"))
 
-    def login(self, password):
+    def login(self, password, callback):
         p = Popen(['java', '-jar', self.headless_jar, '-v'],
                   stdin=PIPE, universal_newlines=True)
         p.communicate(password + '\n')
+        callback()
 
-    def register(self, credentials):
+    def register(self, credentials, callback):
         p = Popen(['java', '-jar', self.headless_jar, '-v'],
                   stdin=PIPE, universal_newlines=True)
         p.communicate(credentials[0] + '\n' + credentials[1] +
                       '\n' + credentials[1] + '\n')
+        callback()
 
     def stop(self):
         pass

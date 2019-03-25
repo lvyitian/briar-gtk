@@ -1,5 +1,7 @@
 # Briar GTK
 
+_Warning: This is still in a very early state and should be considered as prototype._
+
 A simple GTK app for [Briar](https://briar.app), built with Python and GNOME Builder.
 It uses the
 [Briar REST API](https://code.briarproject.org/briar/briar/blob/master/briar-headless/README.md)

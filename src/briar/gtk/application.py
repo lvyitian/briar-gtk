@@ -18,19 +18,14 @@ from gi.repository import Gdk, Gio, GLib, Gtk
 class Application(Gtk.Application):
 
     def __init__(self, version):
-        super().__init__(application_id='app.briar.gtk',
-                         flags=Gio.ApplicationFlags.FLAGS_NONE)
-        self.__version = version
-        self.set_property("register-session", True)
-        self.window = None
-        self.debug = True  # TODO: Change this in production
         GLib.set_application_name("Briar")
-        GLib.set_prgname("briar-gtk")
-        self.api = Api('/app/briar/briar-headless.jar', self.debug)
-        self.connect("activate", self.__on_activate)
-        self.register(None)
+        GLib.set_prgname("Briar")
+        super().__init__(application_id='app.briar.gtk')
+        self.window = None
 
-    def init(self):
+    def do_startup(self):
+        Gtk.Application.do_startup(self)
+
         cssProviderFile = Gio.File.new_for_uri(
             "resource:///app/briar/gtk/ui/application.css")
         cssProvider = Gtk.CssProvider()
@@ -40,18 +35,20 @@ class Application(Gtk.Application):
         styleContext.add_provider_for_screen(screen, cssProvider,
                                              Gtk.STYLE_PROVIDER_PRIORITY_USER)
 
-    def do_startup(self):
-        Gtk.Application.do_startup(self)
+        self.debug = True  # TODO: Change this in production
+        self.__api = Api('/app/briar/briar-headless.jar', self.debug)
+
+    def do_activate(self):
         if self.window is None:
-            self.init()
             self.window = Window()
             self.window.show()
+        self.window.present()
 
     def quit(self):
-        self.api.stop()
+        self.__api.stop()
         self.window.hide()
         Gio.Application.quit(self)
 
-    def __on_activate(self, application):
-        pass
-
+    @property
+    def api(self):
+        return self.__api

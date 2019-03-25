@@ -44,7 +44,7 @@ pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.proje
 gnome = import('gnome')
 
 gnome.compile_resources('briar-gtk',
-  'ui/gresource.xml',
+  'ui/app.briar.gtk.gresource.xml',
   gresource_bundle: true,
   install: true,
   install_dir: pkgdatadir,

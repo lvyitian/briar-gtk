@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Briar GTK
+Name=Briar
 Exec=briar-gtk
 Terminal=false
 Type=Application

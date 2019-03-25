@@ -6,8 +6,8 @@ project(
 
 i18n = import('i18n')
 
-subdir('res')
+subdir('data')
 subdir('src')
 subdir('po')
 
-meson.add_install_script('build-aux/meson/postinstall.py')
+meson.add_install_script('src/meson_post_install.py')

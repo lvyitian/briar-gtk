@@ -641,7 +641,7 @@ the exclusion of warranty; and each file should have at least the
         GNU Affero General Public License for more details.
 
         You should have received a copy of the GNU Affero General Public License
-        along with this program.  If not, see <http://www.gnu.org/licenses/>.
+        along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 Also add information on how to contact you by electronic and paper
 mail.
@@ -657,4 +657,4 @@ the specific requirements.
 You should also get your employer (if you work as a programmer) or
 school, if any, to sign a "copyright disclaimer" for the program, if
 necessary. For more information on this, and how to apply and follow
-the GNU AGPL, see <http://www.gnu.org/licenses/>.
+the GNU AGPL, see <https://www.gnu.org/licenses/>.

@@ -1,0 +1,27 @@
+#: ../data/ui/login.ui:23 ../data/ui/setup.ui:64
+msgid "Password"
+msgstr "Passwort"
+
+#: ../data/ui/login.ui:43
+msgid "Sign in"
+msgstr ""
+
+#: ../data/ui/setup.ui:23
+msgid "Nickname"
+msgstr "Nutzername"
+
+#: ../data/ui/setup.ui:33
+msgid "Choose your nickname"
+msgstr ""
+
+#: ../data/ui/setup.ui:44 ../data/ui/setup.ui:95
+msgid "Next"
+msgstr ""
+
+#: ../data/ui/setup.ui:74
+msgid "Choose your password"
+msgstr ""
+
+#: ../data/ui/setup.ui:84
+msgid "Confirm your password"
+msgstr ""

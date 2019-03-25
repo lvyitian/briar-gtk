@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gresources>
-  <gresource prefix="/app/briar/gtk">
-    <file preprocess="xml-stripblanks" compressed="true">ui/setup.ui</file>
-  </gresource>
-</gresources>

@@ -1,5 +1,5 @@
 pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
-moduledir = join_paths(pkgdatadir, 'briar_gtk')
+moduledir = join_paths(pkgdatadir, 'briar')
 
 python3 = import('python3')
 
@@ -17,11 +17,5 @@ configure_file(
   install_dir: get_option('bindir')
 )
 
-briar_gtk_sources = [
-  '__init__.py',
-  'main.py',
-  'ui/gi_composites.py',
-  'ui/setup.py',
-]
-
-install_data(briar_gtk_sources, install_dir: moduledir)
+install_subdir('briar/api', install_dir: moduledir)
+install_subdir('briar/gtk', install_dir: moduledir)

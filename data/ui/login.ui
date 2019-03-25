@@ -30,6 +30,7 @@
         <child>
           <object class="GtkEntry" id="password_entry">
             <property name="visible">True</property>
+            <property name="visibility">False</property>
           </object>
           <packing>
             <property name="left_attach">1</property>

@@ -71,6 +71,7 @@
         <child>
           <object class="GtkEntry" id="password_entry">
             <property name="visible">True</property>
+            <property name="visibility">False</property>
             <property name="placeholder_text" translatable="yes">Choose your password</property>
           </object>
           <packing>
@@ -81,6 +82,7 @@
         <child>
           <object class="GtkEntry" id="password_confirm_entry">
             <property name="visible">True</property>
+            <property name="visibility">False</property>
             <property name="placeholder_text" translatable="yes">Confirm your password</property>
           </object>
           <packing>

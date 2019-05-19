@@ -35,8 +35,7 @@ class Application(Gtk.Application):
         styleContext.add_provider_for_screen(screen, cssProvider,
                                              Gtk.STYLE_PROVIDER_PRIORITY_USER)
 
-        self.debug = True  # TODO: Change this in production
-        self.api = Api('/app/briar/briar-headless.jar', self.debug)
+        self.api = Api('/app/briar/briar-headless.jar')
 
     def do_activate(self):
         if self.window is None:

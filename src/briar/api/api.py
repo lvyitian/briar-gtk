@@ -4,15 +4,17 @@
 
 from subprocess import Popen, PIPE, STDOUT
 from threading import Thread
+from time import sleep
+from urllib.error import HTTPError, URLError
+from urllib.request import urlopen
 
 
 class Api:
 
     _process = None
 
-    def __init__(self, headless_jar, debug=False):
-        self._command = ['java', '-jar', headless_jar, '-v']
-        self._debug = debug
+    def __init__(self, headless_jar):
+        self._command = ['java', '-jar', headless_jar]
 
     def has_account(self):
         from pathlib import Path
@@ -52,13 +54,17 @@ class Api:
         watch_thread.start()
 
     def _watch_thread(self, callback):
-        for line in self._process.stdout:
-            if self._debug:
-                print(line.decode("utf-8"), end='', flush=True)
-            # TODO: Sometimes we miss this line (or Briar doesn't send it?)
-            if "Listening on http://localhost:7000/" in line.decode("utf-8"):
-                callback(True)
-                return
+        while self.is_running():
+            try:
+                sleep(0.1)
+                print(urlopen("http://localhost:7000/").getcode())
+            except HTTPError as e:
+                if(e.code == 404):
+                    callback(True)
+                    return
+            except URLError as e:
+                if not isinstance(e.reason, ConnectionRefusedError):
+                    raise e
         callback(False)
 
     def _login(self, password):

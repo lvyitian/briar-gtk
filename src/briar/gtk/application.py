@@ -36,7 +36,7 @@ class Application(Gtk.Application):
                                              Gtk.STYLE_PROVIDER_PRIORITY_USER)
 
         self.debug = True  # TODO: Change this in production
-        self.__api = Api('/app/briar/briar-headless.jar', self.debug)
+        self.api = Api('/app/briar/briar-headless.jar', self.debug)
 
     def do_activate(self):
         if self.window is None:
@@ -45,10 +45,6 @@ class Application(Gtk.Application):
         self.window.present()
 
     def quit(self):
-        self.__api.stop()
+        self.api.stop()
         self.window.hide()
         Gio.Application.quit(self)
-
-    @property
-    def api(self):
-        return self.__api

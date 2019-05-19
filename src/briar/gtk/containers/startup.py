@@ -14,8 +14,9 @@ class StartupContainer(Container):
 
     def __init__(self):
         super().__init__()
-        self.__setup_view()
-        self.__register_signals()
+        self._setup_view()
+        self._register_signals()
+        self._api = App().api
 
     def on_username_button_clicked(self, button):
         self.builder.get_object("username_grid").set_visible(False)
@@ -24,14 +25,13 @@ class StartupContainer(Container):
 
     def on_password_button_clicked(self, button):
         password = self.builder.get_object("password_entry").get_text()
-        App().api.register((self.username, password),
-                           self.__startup_completed)
+        self._api.register((self.username, password), self._startup_finished)
 
     def on_login_pressed(self, button):
         password = self.builder.get_object("password_entry").get_text()
-        App().api.login(password, self.__startup_completed)
+        self._api.login(password, self._startup_finished)
 
-    def __setup_view(self):
+    def _setup_view(self):
         self.set_hexpand(True)
         self.set_vexpand(True)
         if not App().api.has_account():
@@ -42,10 +42,14 @@ class StartupContainer(Container):
             self.add(self.builder.get_object("login"))
         self.builder.connect_signals(self)
 
-    def __register_signals(self):
+    def _register_signals(self):
         GObject.signal_new("briar_startup_completed", Gtk.Overlay,
                            GObject.SignalFlags.RUN_LAST, GObject.TYPE_BOOLEAN,
                            (GObject.TYPE_STRING,))
 
-    def __startup_completed(self, succeded=True):
-        self.emit("briar_startup_completed", ("succeded",))
+    def _startup_finished(self, succeeded):
+        if succeeded:
+            print("Startup succeeded")
+            self.emit("briar_startup_completed", (succeeded,))
+            return
+        print("Startup failed")

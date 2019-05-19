@@ -23,7 +23,7 @@ class Window(Gtk.ApplicationWindow):
         return self.__container
 
     def __setup_content(self):
-        self.__setup_size((800, 600))  # TODO: do properly (constants, save)
+        self.__setup_size((600, 400))  # TODO: do properly (constants, save)
         self.__setup_grid()
         self.__setup_startup_container()
 
@@ -47,9 +47,9 @@ class Window(Gtk.ApplicationWindow):
                                  self.__on_startup_completed)
         self.__grid.add(self.__container)
 
-    def __on_startup_completed(self):
-        self.__grid.remove_all()
-        self.__setup_main_container(self)
+    def __on_startup_completed(self, inst, obj):
+        self.__grid = Gtk.Grid()
+        self.__setup_main_container()
 
     def __setup_main_container(self):
         self.__container = MainContainer()

@@ -4,12 +4,14 @@
 
 from briar.api.models.contacts import Contacts
 from briar.gtk.container import Container
+from briar.gtk.define import App
 
 
 class MainContainer(Container):
 
     def __init__(self):
         super().__init__()
+        self._api = App().api
         self.__setup_view()
         self._load_content()
 
@@ -19,5 +21,5 @@ class MainContainer(Container):
         self.builder.connect_signals(self)
 
     def _load_content(self):
-        contacts = Contacts()
+        contacts = Contacts(self._api)
         contacts.get()

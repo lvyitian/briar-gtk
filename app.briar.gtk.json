@@ -53,8 +53,8 @@
             ],
             "sources": [
                 {
-                    "type" : "file",
-                    "url" : "https://media.dorfbrunnen.eu/briar/jars/003/briar-headless.jar",
+                    "type": "file",
+                    "url": "https://media.dorfbrunnen.eu/briar/jars/003/briar-headless.jar",
                     "sha256": "aa93cfd27b3e7e9b8e3c7e40666d6fa76fd83139a82cbef04cf334a93c369503"
                 }
             ]
@@ -62,7 +62,9 @@
         {
             "name": "briar-gtk",
             "buildsystem": "meson",
-            "config-opts": [ "--libdir=lib" ],
+            "config-opts": [
+                "--libdir=lib"
+            ],
             "builddir": true,
             "sources": [
                 {

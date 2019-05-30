@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
+from briar.api.constants import Constants
+
 from subprocess import Popen, PIPE, STDOUT
 from threading import Thread
 from time import sleep
@@ -11,10 +13,13 @@ from urllib.request import urlopen
 
 class Api:
 
+    auth_token = None
     _process = None
 
     def __init__(self, headless_jar):
         self._command = ['java', '-jar', headless_jar]
+        self.constants = Constants()
+        self._load_auth_token()
 
     def has_account(self):
         from pathlib import Path
@@ -57,9 +62,10 @@ class Api:
         while self.is_running():
             try:
                 sleep(0.1)
-                print(urlopen("http://localhost:7000/").getcode())
+                print(urlopen(self.constants._get_base_url()).getcode())
             except HTTPError as e:
                 if(e.code == 404):
+                    self._load_auth_token()
                     callback(True)
                     return
             except URLError as e:
@@ -78,3 +84,10 @@ class Api:
         self._process.communicate((credentials[0] + '\n' +
                                    credentials[1] + '\n' +
                                    credentials[1] + '\n').encode("utf-8"))
+
+    def _load_auth_token(self):
+        if not self.has_account():
+            return
+        with open(self.constants.get_auth_token(), 'r') as file:
+            self.auth_token = file.read()
+

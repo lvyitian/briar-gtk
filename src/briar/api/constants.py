@@ -13,7 +13,7 @@ class Constants:
     _BRIAR_DIR = '.briar'
 
     _HOST = 'http://localhost:7000'
-    _VERSION_SUFFIX = 'v1'
+    _VERSION_SUFFIX = 'v1/'
 
     def get_auth_token(self):
         return join(Path.home(), self._BRIAR_DIR, self._BRIAR_AUTH_TOKEN)

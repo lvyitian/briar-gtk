@@ -8,10 +8,10 @@ from requests import get as _get
 from urllib.parse import urljoin
 
 
-class Contacts(Model):
+class PrivateChat(Model):
 
-    def get(self):
+    def get(self, contact_id):
         headers = {'Authorization': 'Bearer ' + self._api.auth_token}
-        url = urljoin(self._constants.get_base_url(), 'contacts')
+        url = urljoin(self._constants.get_base_url(), 'messages/' + contact_id)
         r = _get(url, headers=headers)
         return r.json()

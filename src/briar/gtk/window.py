@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
+from briar.gtk.containers.chat import ChatContainer
 from briar.gtk.containers.main import MainContainer
 from briar.gtk.containers.startup import StartupContainer
 from briar.gtk.define import App
@@ -42,7 +43,6 @@ class Window(Gtk.ApplicationWindow):
     def __setup_startup_container(self):
         self.__container = StartupContainer()
         self.__container.show()
-
         self.__container.connect("briar_startup_completed",
                                  self.__on_startup_completed)
         self.__grid.add(self.__container)
@@ -54,6 +54,18 @@ class Window(Gtk.ApplicationWindow):
 
     def __setup_main_container(self):
         self.__container = MainContainer()
+        self.__container.show()
+        self.__container.connect("briar_open_private_chat",
+                                 self.__open_private_chat)
+        self.__grid.add(self.__container)
+
+    def __open_private_chat(self, inst, obj):
+        self.__grid.destroy()
+        self.__setup_grid()
+        self.__setup_private_chat("1")
+
+    def __setup_private_chat(self, contact_id):
+        self.__container = ChatContainer(contact_id)
         self.__container.show()
         self.__grid.add(self.__container)
 

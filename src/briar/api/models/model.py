@@ -7,4 +7,4 @@ class Model:
 
     def __init__(self, api):
         self._api = api
-        self.constants = api.constants
+        self._constants = api.constants

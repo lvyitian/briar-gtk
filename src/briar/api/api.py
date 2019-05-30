@@ -62,7 +62,7 @@ class Api:
         while self.is_running():
             try:
                 sleep(0.1)
-                print(urlopen(self.constants._get_base_url()).getcode())
+                print(urlopen(self.constants.get_base_url()).getcode())
             except HTTPError as e:
                 if(e.code == 404):
                     self._load_auth_token()

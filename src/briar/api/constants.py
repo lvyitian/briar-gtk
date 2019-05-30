@@ -18,5 +18,5 @@ class Constants:
     def get_auth_token(self):
         return join(Path.home(), self._BRIAR_DIR, self._BRIAR_AUTH_TOKEN)
 
-    def _get_base_url(self):
+    def get_base_url(self):
         return urljoin(self._HOST, self._VERSION_SUFFIX)

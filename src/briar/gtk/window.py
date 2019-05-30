@@ -48,7 +48,8 @@ class Window(Gtk.ApplicationWindow):
         self.__grid.add(self.__container)
 
     def __on_startup_completed(self, inst, obj):
-        self.__grid = Gtk.Grid()
+        self.__grid.destroy()
+        self.__setup_grid()
         self.__setup_main_container()
 
     def __setup_main_container(self):

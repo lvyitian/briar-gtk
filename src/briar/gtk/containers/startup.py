@@ -52,7 +52,6 @@ class StartupContainer(Container):
 
     def _startup_finished(self, succeeded):
         if succeeded:
-            print("Startup succeeded")
             self.emit("briar_startup_completed", (succeeded,))
             return
         print("Startup failed")

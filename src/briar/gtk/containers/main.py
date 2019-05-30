@@ -10,7 +10,6 @@ class MainContainer(Container):
     def __init__(self):
         super().__init__()
         self.__setup_view()
-        self.__register_signals()
 
     def __setup_view(self):
         self.builder.add_from_resource("/app/briar/gtk/ui/main.ui")

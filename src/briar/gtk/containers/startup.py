@@ -25,6 +25,9 @@ class StartupContainer(Container):
 
     def on_password_button_clicked(self, button):
         password = self.builder.get_object("password_entry").get_text()
+        password_confirm = self.builder.get_object("password_confirm_entry").get_text()
+        if password != password_confirm:
+            raise Exception("Passwords do not match")
         self._api.register((self.username, password), self._startup_finished)
 
     def on_login_pressed(self, button):

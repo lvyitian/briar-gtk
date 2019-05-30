@@ -45,6 +45,40 @@
             ]
         },
         {
+            "name": "python3-requests2",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} requests2"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/06/b8/d1ea38513c22e8c906275d135818fee16ad8495985956a9b7e2bb21942a1/certifi-2019.3.9.tar.gz",
+                    "sha256": "b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/96/d9/40e4e515d3e17ed0adbbde1078e8518f8c4e3628496b56eb8f026a02b9e4/urllib3-1.21.1.tar.gz",
+                    "sha256": "b14486978518ca0901a76ba973d7821047409d7f726f22156b24e83fd71382a5"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/d8/82/28a51052215014efc07feac7330ed758702fc0581347098a81699b5281cb/idna-2.5.tar.gz",
+                    "sha256": "3cb5ce08046c4e3a560fc02f138d0ac63e00f8ce5901a56b32ec8b7994082aab"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz",
+                    "sha256": "84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/09/0f/9dacaa075f8e46d463248c28dbb9770445d2e04cca5c4aa23d431c9ba861/requests2-2.16.0.tar.gz",
+                    "sha256": "f7685b2d620a172053cced288dddf12d4b3441a382cc382821c0f36c02488516"
+                }
+            ]
+        },
+        {
             "name": "briar-headless",
             "buildsystem": "simple",
             "build-commands": [

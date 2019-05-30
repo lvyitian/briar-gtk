@@ -7,7 +7,7 @@ from briar.gtk.define import App
 
 import gi
 gi.require_version('Gtk', '3.0')
-from gi.repository import GObject, Gtk
+from gi.repository import GLib, GObject, Gtk
 
 
 class StartupContainer(Container):
@@ -52,6 +52,6 @@ class StartupContainer(Container):
 
     def _startup_finished(self, succeeded):
         if succeeded:
-            self.emit("briar_startup_completed", (succeeded,))
+            GLib.idle_add(self.emit, "briar_startup_completed", (succeeded,))
             return
         print("Startup failed")

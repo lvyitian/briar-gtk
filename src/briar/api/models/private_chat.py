@@ -23,5 +23,5 @@ class PrivateChat(Model):
                                         contact_id=contact_id)
 
     def send(self, contact_id, message):
-        url = urljoin(BASE_HTTP_URL, 'messages/%s' % contact_id)
+        url = urljoin(BASE_HTTP_URL, 'messages/%i' % contact_id)
         _post(url, headers=self._headers, json={'text': message})

@@ -1,8 +1,12 @@
+#: ../data/ui/chat.ui:29
+msgid "Type Message"
+msgstr ""
+
 #: ../data/ui/login.ui:23 ../data/ui/setup.ui:64
 msgid "Password"
 msgstr "Passwort"
 
-#: ../data/ui/login.ui:43
+#: ../data/ui/login.ui:44
 msgid "Sign in"
 msgstr ""
 
@@ -14,14 +18,14 @@ msgstr "Nutzername"
 msgid "Choose your nickname"
 msgstr ""
 
-#: ../data/ui/setup.ui:44 ../data/ui/setup.ui:95
+#: ../data/ui/setup.ui:44 ../data/ui/setup.ui:97
 msgid "Next"
 msgstr ""
 
-#: ../data/ui/setup.ui:74
+#: ../data/ui/setup.ui:75
 msgid "Choose your password"
 msgstr ""
 
-#: ../data/ui/setup.ui:84
+#: ../data/ui/setup.ui:86
 msgid "Confirm your password"
 msgstr ""

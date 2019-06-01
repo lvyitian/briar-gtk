@@ -27,7 +27,7 @@ class MainContainer(Container):
 
     def _setup_view(self):
         self.builder.add_from_resource("/app/briar/gtk/ui/main.ui")
-        self.add(self.builder.get_object("main"))
+        self.add(self.builder.get_object("contacts_list"))
         self.builder.connect_signals(self)
 
     def _load_content(self):

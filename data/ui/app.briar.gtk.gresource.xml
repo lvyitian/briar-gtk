@@ -2,6 +2,7 @@
 <gresources>
   <gresource prefix="/app/briar/gtk">
     <file compressed="true">ui/application.css</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/chat.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">ui/login.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">ui/main.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">ui/setup.ui</file>

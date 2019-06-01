@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 23:15+0100\n"
+"POT-Creation-Date: 2019-06-01 18:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../data/ui/chat.ui:29
+msgid "Type Message"
+msgstr ""
+
 #: ../data/ui/login.ui:23 ../data/ui/setup.ui:64
 msgid "Password"
 msgstr ""
 
-#: ../data/ui/login.ui:43
+#: ../data/ui/login.ui:44
 msgid "Sign in"
 msgstr ""
 
@@ -33,14 +37,14 @@ msgstr ""
 msgid "Choose your nickname"
 msgstr ""
 
-#: ../data/ui/setup.ui:44 ../data/ui/setup.ui:95
+#: ../data/ui/setup.ui:44 ../data/ui/setup.ui:97
 msgid "Next"
 msgstr ""
 
-#: ../data/ui/setup.ui:74
+#: ../data/ui/setup.ui:75
 msgid "Choose your password"
 msgstr ""
 
-#: ../data/ui/setup.ui:84
+#: ../data/ui/setup.ui:86
 msgid "Confirm your password"
 msgstr ""

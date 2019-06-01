@@ -20,14 +20,14 @@ class ChatContainer(Container):
         self._load_content(contact_id)
 
     def _setup_view(self):
-        self.builder.add_from_resource("/app/briar/gtk/ui/main.ui")
+        self.builder.add_from_resource("/app/briar/gtk/ui/chat.ui")
         self.add(self.builder.get_object("main"))
         self.builder.connect_signals(self)
 
     def _load_content(self, contact_id):
         private_chat = PrivateChat(self._api)
         messages_list = private_chat.get(contact_id)
-        self._messages_list_box = self.builder.get_object("contacts_list")
+        self._messages_list_box = self.builder.get_object("messages_list")
         for message in messages_list:
             self._add_message(message)
         private_chat.watch_messages(contact_id, self._add_message_async)

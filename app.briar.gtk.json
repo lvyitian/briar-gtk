@@ -14,6 +14,7 @@
         "--socket=wayland",
         "--filesystem=xdg-run/dconf",
         "--filesystem=~/.config/dconf:ro",
+        "--filesystem=~/.briar",
         "--talk-name=ca.desrt.dconf",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
         "--env=PATH=/app/bin:/usr/bin:/app/jre/bin"
@@ -108,7 +109,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "file:///home/nico/Work/Current/Briar/briar-gtk"
+                    "url": "https://code.briarproject.org/NicoAlt/briar-gtk.git"
                 }
             ]
         }

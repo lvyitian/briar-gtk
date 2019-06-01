@@ -19,6 +19,13 @@ The easiest and most convenient way is to build _briar-gtk_ using
 In _Builder_, click "Clone Repository" at the bottom and
 enter the URL to this Git project.
 
+You can also call this:
+```bash
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak-builder builddir --install-deps-from=flathub --user --install --force-clean --ccache app.briar.gtk.json
+flatpak run app.briar.gtk
+```
+
 ## Design Goals
 
 * Intuitive UI that follows the Briar Android client

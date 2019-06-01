@@ -8,7 +8,7 @@ from briar.gtk.define import App
 
 import gi
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk
+from gi.repository import GLib, Gtk
 
 
 class ChatContainer(Container):
@@ -27,8 +27,15 @@ class ChatContainer(Container):
     def _load_content(self, contact_id):
         private_chat = PrivateChat(self._api)
         messages_list = private_chat.get(contact_id)
-        messages_list_box = self.builder.get_object("contacts_list")
+        self._messages_list_box = self.builder.get_object("contacts_list")
         for message in messages_list:
-            message_label = Gtk.Label(message["text"])
-            message_label.show()
-            messages_list_box.add(message_label)
+            self._add_message(message)
+        private_chat.watch_messages(contact_id, self._add_message_async)
+
+    def _add_message(self, message):
+        message_label = Gtk.Label(message["text"])
+        message_label.show()
+        self._messages_list_box.add(message_label)
+
+    def _add_message_async(self, message):
+        GLib.idle_add(self._add_message, message)

@@ -45,10 +45,10 @@
             ]
         },
         {
-            "name": "python3-requests2",
+            "name": "python-dependencies",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} requests2"
+                "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} requests2 websockets"
             ],
             "sources": [
                 {
@@ -75,7 +75,12 @@
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/09/0f/9dacaa075f8e46d463248c28dbb9770445d2e04cca5c4aa23d431c9ba861/requests2-2.16.0.tar.gz",
                     "sha256": "f7685b2d620a172053cced288dddf12d4b3441a382cc382821c0f36c02488516"
-                }
+                },
+		{
+		    "type": "file",
+		    "url": "https://files.pythonhosted.org/packages/ba/60/59844a5cef2428cb752bd4f446b72095b1edee404a58c27e87cd12a141e2/websockets-7.0.tar.gz",
+		    "sha256": "08e3c3e0535befa4f0c4443824496c03ecc25062debbcf895874f8a0b4c97c9f"
+		}
             ]
         },
         {

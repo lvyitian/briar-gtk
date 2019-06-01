@@ -32,16 +32,19 @@ class ChatContainer(Container):
         messages_list = private_chat.get(self._contact_id)
         self._messages_list_box = self.builder.get_object("messages_list")
         for message in messages_list:
-            self._add_message(message["text"])
+            self._add_message(message["text"], message["local"])
         private_chat.watch_messages(self._contact_id, self._add_message_async)
 
-    def _add_message(self, message):
+    def _add_message(self, message, local):
         message_label = Gtk.Label(message)
+        message_label.set_halign(Gtk.Align.START)
+        if local:
+            message_label.set_halign(Gtk.Align.END)
         message_label.show()
         self._messages_list_box.add(message_label)
 
     def _add_message_async(self, message):
-        GLib.idle_add(self._add_message, message["text"])
+        GLib.idle_add(self._add_message, message["text"], False)
 
     def _key_pressed(self, widget, event):
         if event.hardware_keycode != 36 and event.hardware_keycode != 104:
@@ -51,5 +54,5 @@ class ChatContainer(Container):
         private_chat = PrivateChat(self._api)
         private_chat.send(self._contact_id, message)
 
-        self._add_message(message)
+        self._add_message(message, True)
         chat_entry.set_text("")

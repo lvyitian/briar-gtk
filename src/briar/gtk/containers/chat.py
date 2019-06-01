@@ -23,6 +23,8 @@ class ChatContainer(Container):
         self.builder.add_from_resource("/app/briar/gtk/ui/chat.ui")
         self.add(self.builder.get_object("main"))
         self.builder.connect_signals(self)
+        chat_entry = self.builder.get_object("chat_entry")
+        chat_entry.connect("key-press-event", self._key_pressed)
 
     def _load_content(self, contact_id):
         private_chat = PrivateChat(self._api)
@@ -39,3 +41,11 @@ class ChatContainer(Container):
 
     def _add_message_async(self, message):
         GLib.idle_add(self._add_message, message)
+
+    def _key_pressed(self, widget, event):
+        if event.hardware_keycode != 36:
+            return
+        message = self.builder.get_object("chat_entry").get_text()
+        private_chat = PrivateChat(self._api)
+        private_chat.send("1", message)
+        

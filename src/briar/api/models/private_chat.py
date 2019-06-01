@@ -6,6 +6,7 @@ from briar.api.models.model import Model
 from briar.api.models.socket_listener import SocketListener
 
 from requests import get as _get
+from requests import post as _post
 from urllib.parse import urljoin
 
 
@@ -21,3 +22,8 @@ class PrivateChat(Model):
         socket_listener = SocketListener(self._api)
         socket_listener.watch(callback, "ConversationMessageReceivedEvent",
                               contact_id=contact_id)
+
+    def send(self, contact_id, message):
+        headers = {'Authorization': 'Bearer ' + self._api.auth_token}
+        url = urljoin(self._constants.get_base_url(), 'messages/' + contact_id)
+        _post(url, headers=headers, json={'text': message})

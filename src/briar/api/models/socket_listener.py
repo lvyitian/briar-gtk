@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
+from briar.api.constants import WEBSOCKET_URL
 from briar.api.models.model import Model
 
 import asyncio
@@ -10,6 +11,7 @@ from threading import Thread
 import websockets
 
 
+# TODO: Make more general; currently very specific to private messages
 class SocketListener(Model):
 
     def watch(self, callback, event, contact_id="0"):
@@ -26,16 +28,17 @@ class SocketListener(Model):
         loop.close()
 
     async def _start_websocket(self, callback, event, contact_id="0"):
-        async with websockets.connect('ws://localhost:7000/v1/ws') as websocket:
+        async with websockets.connect(WEBSOCKET_URL) as websocket:
             await websocket.send(self._api.auth_token)
-            await self._watch_messages(websocket, callback)
+            await self._watch_messages(websocket, event, callback)
 
-    async def _watch_messages(self, websocket, callback):
-        while not websocket.closed and not asyncio.get_event_loop().is_closed():
+    async def _watch_messages(self, websocket, event, callback):
+        while not websocket.closed and not\
+                         asyncio.get_event_loop().is_closed():
             message = await websocket.recv()
-            m = json.loads(message)
-            if m['name'] == 'ConversationMessageReceivedEvent':
-                callback(m['data'])
+            message = json.loads(message)
+            if message['name'] == event:
+                callback(message['data'])
         if not asyncio.get_event_loop().is_closed():
             asyncio.get_event_loop().create_task(
                 self._watch_messages(websocket, callback))

@@ -6,17 +6,13 @@ from os.path import join
 from pathlib import Path
 from urllib.parse import urljoin
 
+_BRIAR_DIR = ".briar"
 
-class Constants:
+_HOST = "%s://localhost:7000"
+_VERSION_SUFFIX = "v1/"
 
-    _BRIAR_AUTH_TOKEN = 'auth_token'
-    _BRIAR_DIR = '.briar'
+BRIAR_AUTH_TOKEN = join(Path.home(), _BRIAR_DIR, "auth_token")
+BRIAR_DB = join(Path.home(), _BRIAR_DIR, "db", "db.mv.db")
 
-    _HOST = 'http://localhost:7000'
-    _VERSION_SUFFIX = 'v1/'
-
-    def get_auth_token(self):
-        return join(Path.home(), self._BRIAR_DIR, self._BRIAR_AUTH_TOKEN)
-
-    def get_base_url(self):
-        return urljoin(self._HOST, self._VERSION_SUFFIX)
+BASE_HTTP_URL = urljoin(_HOST % "http", _VERSION_SUFFIX)
+WEBSOCKET_URL = urljoin(_HOST % "ws", "%s/ws" % _VERSION_SUFFIX)

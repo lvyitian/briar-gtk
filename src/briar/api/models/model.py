@@ -5,6 +5,11 @@
 
 class Model:
 
+    _headers = {}
+
     def __init__(self, api):
         self._api = api
-        self._constants = api.constants
+        self._initialize_headers()
+
+    def _initialize_headers(self):
+        self._headers['Authorization'] = 'Bearer %s' % self._api.auth_token

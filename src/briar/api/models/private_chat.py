@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
+from briar.api.constants import BASE_HTTP_URL
 from briar.api.models.model import Model
-from briar.api.models.socket_listener import SocketListener
 
 from requests import get as _get
 from requests import post as _post
@@ -13,17 +13,15 @@ from urllib.parse import urljoin
 class PrivateChat(Model):
 
     def get(self, contact_id):
-        headers = {'Authorization': 'Bearer ' + self._api.auth_token}
-        url = urljoin(self._constants.get_base_url(), 'messages/%i' % contact_id)
-        r = _get(url, headers=headers)
-        return r.json()
+        url = urljoin(BASE_HTTP_URL, 'messages/%i' % contact_id)
+        request = _get(url, headers=self._headers)
+        return request.json()
 
     def watch_messages(self, contact_id, callback):
-        socket_listener = SocketListener(self._api)
-        socket_listener.watch(callback, "ConversationMessageReceivedEvent",
-                              contact_id=contact_id)
+        self._api.socket_listener.watch(callback,
+                                        "ConversationMessageReceivedEvent",
+                                        contact_id=contact_id)
 
     def send(self, contact_id, message):
-        headers = {'Authorization': 'Bearer ' + self._api.auth_token}
-        url = urljoin(self._constants.get_base_url(), 'messages/%s' % contact_id)
-        _post(url, headers=headers, json={'text': message})
+        url = urljoin(BASE_HTTP_URL, 'messages/%s' % contact_id)
+        _post(url, headers=self._headers, json={'text': message})

@@ -2,8 +2,10 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from briar.api.constants import Constants
+from briar.api.constants import BASE_HTTP_URL, BRIAR_AUTH_TOKEN, BRIAR_DB
+from briar.api.models.socket_listener import SocketListener
 
+from os.path import isfile
 from subprocess import Popen, PIPE, STDOUT
 from threading import Thread
 from time import sleep
@@ -14,18 +16,17 @@ from urllib.request import urlopen
 class Api:
 
     auth_token = None
+    socket_listener = None
+
     _process = None
 
     def __init__(self, headless_jar):
-        self._command = ['java', '-jar', headless_jar]
-        self.constants = Constants()
-        self._load_auth_token()
+        self._command = ["java", "-jar", headless_jar]
+
+        self.socket_listener = SocketListener(self)
 
     def has_account(self):
-        from pathlib import Path
-        home = str(Path.home())
-        from os.path import isdir, join
-        return isdir(join(home, ".briar", "db"))
+        return isfile(BRIAR_DB)
 
     def is_running(self):
         return (self._process is not None) and (self._process.poll() is None)
@@ -61,22 +62,22 @@ class Api:
     def _watch_thread(self, callback):
         while self.is_running():
             try:
+                urlopen(BASE_HTTP_URL)
                 sleep(0.1)
-                print(urlopen(self.constants.get_base_url()).getcode())
-            except HTTPError as e:
-                if(e.code == 404):
+            except HTTPError as http_error:
+                if(http_error.code == 404):
                     self._load_auth_token()
                     callback(True)
                     return
-            except URLError as e:
-                if not isinstance(e.reason, ConnectionRefusedError):
-                    raise e
+            except URLError as url_error:
+                if not isinstance(url_error.reason, ConnectionRefusedError):
+                    raise url_error
         callback(False)
 
     def _login(self, password):
         if not self.is_running():
             raise Exception("Can't login; API not running")
-        self._process.communicate((password + '\n').encode("utf-8"))
+        self._process.communicate(("%s\n" % password).encode("utf-8"))
 
     def _register(self, credentials):
         if not self.is_running():
@@ -87,7 +88,7 @@ class Api:
 
     def _load_auth_token(self):
         if not self.has_account():
-            return
-        with open(self.constants.get_auth_token(), 'r') as file:
+            raise Exception("Can't load authentication token")
+        with open(BRIAR_AUTH_TOKEN, 'r') as file:
             self.auth_token = file.read()
 

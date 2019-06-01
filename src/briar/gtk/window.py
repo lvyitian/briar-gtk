@@ -55,14 +55,12 @@ class Window(Gtk.ApplicationWindow):
     def __setup_main_container(self):
         self.__container = MainContainer()
         self.__container.show()
-        self.__container.connect("briar_open_private_chat",
-                                 self.__open_private_chat)
         self.__grid.add(self.__container)
 
-    def __open_private_chat(self, inst, obj):
+    def open_private_chat(self, contact_id):
         self.__grid.destroy()
         self.__setup_grid()
-        self.__setup_private_chat("1")
+        self.__setup_private_chat(contact_id)
 
     def __setup_private_chat(self, contact_id):
         self.__container = ChatContainer(contact_id)

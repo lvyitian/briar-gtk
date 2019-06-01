@@ -14,7 +14,7 @@ class PrivateChat(Model):
 
     def get(self, contact_id):
         headers = {'Authorization': 'Bearer ' + self._api.auth_token}
-        url = urljoin(self._constants.get_base_url(), 'messages/' + contact_id)
+        url = urljoin(self._constants.get_base_url(), 'messages/%i' % contact_id)
         r = _get(url, headers=headers)
         return r.json()
 
@@ -25,5 +25,5 @@ class PrivateChat(Model):
 
     def send(self, contact_id, message):
         headers = {'Authorization': 'Bearer ' + self._api.auth_token}
-        url = urljoin(self._constants.get_base_url(), 'messages/' + contact_id)
+        url = urljoin(self._constants.get_base_url(), 'messages/%s' % contact_id)
         _post(url, headers=headers, json={'text': message})

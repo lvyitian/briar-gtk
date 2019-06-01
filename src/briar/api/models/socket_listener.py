@@ -3,7 +3,7 @@
 # License-Filename: LICENSE.md
 
 from briar.api.constants import WEBSOCKET_URL
-from briar.api.models.model import Model
+from briar.api.model import Model
 
 import asyncio
 import json

@@ -3,7 +3,7 @@
 # License-Filename: LICENSE.md
 
 from briar.api.constants import BASE_HTTP_URL
-from briar.api.models.model import Model
+from briar.api.model import Model
 
 from requests import get as _get
 from requests import post as _post

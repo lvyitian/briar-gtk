@@ -6,6 +6,7 @@ from briar.gtk.containers.chat import ChatContainer
 from briar.gtk.containers.main import MainContainer
 from briar.gtk.containers.startup import StartupContainer
 from briar.gtk.define import App
+from briar.gtk.toolbar import Toolbar
 
 import gi
 gi.require_version('Gtk', '3.0')
@@ -23,8 +24,13 @@ class Window(Gtk.ApplicationWindow):
     def container(self):
         return self.__container
 
+    @property
+    def toolbar(self):
+        return self.__toolbar
+
     def __setup_content(self):
         self.__setup_size((600, 400))  # TODO: do properly (constants, save)
+        self.__setup_toolbar()
         self.__setup_grid()
         self.__setup_startup_container()
 
@@ -33,6 +39,12 @@ class Window(Gtk.ApplicationWindow):
            isinstance(size[0], int) and\
            isinstance(size[1], int):
             self.resize(size[0], size[1])
+
+    def __setup_toolbar(self):
+        self.__toolbar = Toolbar()
+        self.__toolbar.show()
+        self.__toolbar.set_show_close_button(True)
+        self.set_titlebar(self.__toolbar)
 
     def __setup_grid(self):
         self.__grid = Gtk.Grid()
@@ -66,4 +78,10 @@ class Window(Gtk.ApplicationWindow):
         self.__container = ChatContainer(contact_id)
         self.__container.show()
         self.__grid.add(self.__container)
+        self.__toolbar.show_back_button(True, self.__back_to_main)
 
+    def __back_to_main(self, widget):
+        self.__grid.destroy()
+        self.__setup_grid()
+        self.__toolbar.show_back_button(False)
+        self.__setup_main_container()

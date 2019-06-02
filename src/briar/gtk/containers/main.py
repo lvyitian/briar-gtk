@@ -29,11 +29,11 @@ class MainContainer(Container):
         contacts_list = contacts.get()
         contacts_list_box = self.builder.get_object("contacts_list")
         for contact in contacts_list:
-            contact_label = Gtk.Button(contact["author"]["name"])
-            contact_label.connect("clicked", self._contact_clicked,
-                                  contact["contactId"])
-            contact_label.show()
-            contacts_list_box.add(contact_label)
+            contact_button = Gtk.Button(contact["author"]["name"])
+            contact_button.connect("clicked", self._contact_clicked,
+                                   contact["contactId"])
+            contact_button.show()
+            contacts_list_box.add(contact_button)
 
     def _contact_clicked(self, widget, contactId):
         GLib.idle_add(App().window.open_private_chat, contactId)

@@ -49,3 +49,5 @@ gnome.compile_resources('briar-gtk',
   install: true,
   install_dir: pkgdatadir,
 )
+
+subdir('icons')

@@ -1,7 +1,8 @@
 [Desktop Entry]
 Name=Briar
+Icon=app.briar.gtk
 Exec=briar-gtk
 Terminal=false
 Type=Application
-Categories=GTK;
+Categories=GNOME;GTK;
 StartupNotify=true

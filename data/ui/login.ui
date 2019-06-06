@@ -41,7 +41,7 @@
           <object class="GtkButton" id="login_button">
             <property name="visible">True</property>
             <property name="halign">center</property>
-            <property name="label" translatable="yes">Sign in</property>
+            <property name="label" translatable="yes" context="login page: button">Sign in</property>
             <signal name="clicked" handler="on_login_pressed"/>
           </object>
           <packing>

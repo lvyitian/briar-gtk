@@ -30,7 +30,7 @@
         <child>
           <object class="GtkEntry" id="username_entry">
             <property name="visible">True</property>
-            <property name="placeholder_text" translatable="yes">Choose your nickname</property>
+            <property name="placeholder_text" translatable="yes" context="registration page: input field">Choose your nickname</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -41,7 +41,7 @@
           <object class="GtkButton" id="username_next">
             <property name="visible">True</property>
             <property name="halign">center</property>
-            <property name="label" translatable="yes">Next</property>
+            <property name="label" translatable="yes" context="registration page: button – from username to passwords">Next</property>
             <signal name="clicked" handler="on_username_button_clicked"/>
           </object>
           <packing>
@@ -72,7 +72,7 @@
           <object class="GtkEntry" id="password_entry">
             <property name="visible">True</property>
             <property name="visibility">False</property>
-            <property name="placeholder_text" translatable="yes">Choose your password</property>
+            <property name="placeholder_text" translatable="yes" context="registration page: password input field">Choose your password</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -83,7 +83,7 @@
           <object class="GtkEntry" id="password_confirm_entry">
             <property name="visible">True</property>
             <property name="visibility">False</property>
-            <property name="placeholder_text" translatable="yes">Confirm your password</property>
+            <property name="placeholder_text" translatable="yes" context="registration page: password input field">Confirm your password</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -94,7 +94,7 @@
           <object class="GtkButton" id="password_next">
             <property name="visible">True</property>
             <property name="halign">center</property>
-            <property name="label" translatable="yes">Next</property>
+            <property name="label" translatable="yes" context="registration page: button">Create Account</property>
             <signal name="clicked" handler="on_password_button_clicked"/>
           </object>
           <packing>

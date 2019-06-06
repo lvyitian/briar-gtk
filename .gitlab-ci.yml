@@ -1,7 +1,20 @@
-test:lints:
+test:pycodestyle:
     image: debian:stretch
     script:
         - apt update && apt install --no-install-recommends -y gir1.2-gtk-3.0 python3-gi python3-pip python3-setuptools
         - pip3 install -r requirements-dev.txt
         - tools/tests/test-pycodestyle.sh
+
+test:pylint:
+    image: debian:stretch
+    script:
+        - apt update && apt install --no-install-recommends -y gir1.2-gtk-3.0 python3-gi python3-pip python3-setuptools
+        - pip3 install -r requirements-dev.txt
         - tools/tests/test-pylint.sh
+
+test:pytest:
+    image: debian:stretch
+    script:
+        - apt update && apt install --no-install-recommends -y gir1.2-gtk-3.0 python3-gi python3-pip python3-setuptools
+        - pip3 install -r requirements-dev.txt
+        - tools/tests/test-pytest.sh

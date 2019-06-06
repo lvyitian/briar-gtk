@@ -2,8 +2,6 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-import gi
-gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 
 

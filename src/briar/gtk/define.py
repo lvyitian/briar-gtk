@@ -8,4 +8,4 @@
 
 from gi.repository import Gio
 
-App = Gio.Application.get_default
+App = Gio.Application.get_default  # pylint: disable=invalid-name

@@ -2,12 +2,13 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from briar.api.constants import BASE_HTTP_URL
-from briar.api.model import Model
+from urllib.parse import urljoin
 
 from requests import get as _get
 from requests import post as _post
-from urllib.parse import urljoin
+
+from briar.api.constants import BASE_HTTP_URL
+from briar.api.model import Model
 
 
 class PrivateChat(Model):

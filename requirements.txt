@@ -1,0 +1,2 @@
+requests2>=2.16
+websockets>=7.0

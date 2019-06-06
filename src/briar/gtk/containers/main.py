@@ -2,13 +2,11 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
+from gi.repository import GLib, Gtk
+
 from briar.api.models.contacts import Contacts
 from briar.gtk.container import Container
 from briar.gtk.define import App
-
-import gi
-gi.require_version('Gtk', '3.0')
-from gi.repository import GLib, Gtk
 
 
 class MainContainer(Container):
@@ -30,10 +28,12 @@ class MainContainer(Container):
         contacts_list_box = self.builder.get_object("contacts_list")
         for contact in contacts_list:
             contact_button = Gtk.Button(contact["author"]["name"])
-            contact_button.connect("clicked", self._contact_clicked,
+            contact_button.connect("clicked", MainContainer._contact_clicked,
                                    contact["contactId"])
             contact_button.show()
             contacts_list_box.add(contact_button)
 
-    def _contact_clicked(self, widget, contactId):
-        GLib.idle_add(App().window.open_private_chat, contactId)
+    # pylint: disable=unused-argument
+    @staticmethod
+    def _contact_clicked(widget, contact_id):
+        GLib.idle_add(App().window.open_private_chat, contact_id)

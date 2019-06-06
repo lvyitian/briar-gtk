@@ -6,8 +6,6 @@
 # Initial version based on GNOME Lollypop
 # https://gitlab.gnome.org/World/lollypop/blob/1.0.12/lollypop/toolbar.py
 
-import gi
-gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 
 
@@ -30,4 +28,3 @@ class Toolbar(Gtk.HeaderBar):
             raise Exception("Callback needed when showing back button")
         back_button.show()
         back_button.connect("clicked", callback)
-

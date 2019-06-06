@@ -2,12 +2,10 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
+from gi.repository import GLib, GObject, Gtk
+
 from briar.gtk.container import Container
 from briar.gtk.define import App
-
-import gi
-gi.require_version('Gtk', '3.0')
-from gi.repository import GLib, GObject, Gtk
 
 
 class StartupContainer(Container):
@@ -15,26 +13,31 @@ class StartupContainer(Container):
     def __init__(self):
         super().__init__()
         self._api = App().api
-        self._register_signals()
+        StartupContainer._register_signals()
         self._setup_view()
 
+    # pylint: disable=unused-argument
     def on_username_button_clicked(self, button):
         self.builder.get_object("username_grid").set_visible(False)
         self.builder.get_object("password_grid").set_visible(True)
         self.username = self.builder.get_object("username_entry").get_text()
 
+    # pylint: disable=unused-argument
     def on_password_button_clicked(self, button):
         password = self.builder.get_object("password_entry").get_text()
-        password_confirm = self.builder.get_object("password_confirm_entry").get_text()
+        password_confirm = self.builder.get_object(
+            "password_confirm_entry").get_text()
         if password != password_confirm:
             raise Exception("Passwords do not match")
         self._api.register((self.username, password), self._startup_finished)
 
+    # pylint: disable=unused-argument
     def on_login_pressed(self, button):
         password = self.builder.get_object("password_entry").get_text()
         self._api.login(password, self._startup_finished)
 
-    def _register_signals(self):
+    @staticmethod
+    def _register_signals():
         GObject.signal_new("briar_startup_completed", Gtk.Overlay,
                            GObject.SignalFlags.RUN_LAST, GObject.TYPE_BOOLEAN,
                            (GObject.TYPE_STRING,))

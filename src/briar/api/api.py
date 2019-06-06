@@ -2,15 +2,15 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from briar.api.constants import BASE_HTTP_URL, BRIAR_AUTH_TOKEN, BRIAR_DB
-from briar.api.models.socket_listener import SocketListener
-
 from os.path import isfile
 from subprocess import Popen, PIPE, STDOUT
 from threading import Thread
 from time import sleep
 from urllib.error import HTTPError, URLError
 from urllib.request import urlopen
+
+from briar.api.constants import BASE_HTTP_URL, BRIAR_AUTH_TOKEN, BRIAR_DB
+from briar.api.models.socket_listener import SocketListener
 
 
 class Api:
@@ -25,7 +25,8 @@ class Api:
 
         self.socket_listener = SocketListener(self)
 
-    def has_account(self):
+    @staticmethod
+    def has_account():
         return isfile(BRIAR_DB)
 
     def is_running(self):
@@ -65,7 +66,7 @@ class Api:
                 urlopen(BASE_HTTP_URL)
                 sleep(0.1)
             except HTTPError as http_error:
-                if(http_error.code == 404):
+                if http_error.code == 404:
                     self._load_auth_token()
                     callback(True)
                     return
@@ -87,8 +88,7 @@ class Api:
                                    credentials[1] + '\n').encode("utf-8"))
 
     def _load_auth_token(self):
-        if not self.has_account():
+        if not Api.has_account():
             raise Exception("Can't load authentication token")
         with open(BRIAR_AUTH_TOKEN, 'r') as file:
             self.auth_token = file.read()
-

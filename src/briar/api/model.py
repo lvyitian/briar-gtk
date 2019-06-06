@@ -3,7 +3,7 @@
 # License-Filename: LICENSE.md
 
 
-class Model:
+class Model:  # pylint: disable=too-few-public-methods
 
     _headers = {}
 

@@ -1,0 +1,5 @@
+[MASTER]
+
+disable=attribute-defined-outside-init,
+	fixme,
+        missing-docstring

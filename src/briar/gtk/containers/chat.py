@@ -2,13 +2,11 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
+from gi.repository import GLib, Gtk
+
 from briar.api.models.private_chat import PrivateChat
 from briar.gtk.container import Container
 from briar.gtk.define import App
-
-import gi
-gi.require_version('Gtk', '3.0')
-from gi.repository import GLib, Gtk
 
 
 class ChatContainer(Container):
@@ -46,6 +44,7 @@ class ChatContainer(Container):
     def _add_message_async(self, message):
         GLib.idle_add(self._add_message, message["text"], False)
 
+    # pylint: disable=unused-argument
     def _key_pressed(self, widget, event):
         if event.hardware_keycode != 36 and event.hardware_keycode != 104:
             return

@@ -14,6 +14,7 @@ test:pylint:
 
 test:pytest:
     image: debian:stretch
+    coverage: '/TOTAL.*\s+(\d+%)$/'
     script:
         - apt update && apt install --no-install-recommends -y gir1.2-gtk-3.0 python3-gi python3-pip python3-setuptools
         - pip3 install -r requirements-dev.txt

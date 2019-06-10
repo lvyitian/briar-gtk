@@ -1,5 +1,8 @@
 # Briar GTK
 
+[![pipeline status](https://code.briarproject.org/NicoAlt/briar-gtk/badges/master/pipeline.svg)](https://code.briarproject.org/NicoAlt/briar-gtk/commits/master)
+[![coverage report](https://code.briarproject.org/NicoAlt/briar-gtk/badges/master/coverage.svg)](https://code.briarproject.org/NicoAlt/briar-gtk/commits/master)
+
 _Warning: This is still in a very early state and should be considered as prototype._
 
 A simple GTK app for [Briar](https://briar.app), built with Python and GNOME Builder.

@@ -11,20 +11,31 @@ from briar.api.models.contacts import Contacts
 
 class TestContacts(TestCase):
 
-    @requests_mock.Mocker()
-    def test_get(self, requests_mock):
-        api = mock.Mock()
-        contacts = Contacts(api)
-        response_mock = {}
-        response_mock["author"] = {}
-        response_mock["author"]["formatVersion"] = 1
-        response_mock["author"]["id"] = "y1wkIzAimAbYoCGgWxkWlr6vnq1F8t1QRA/UMPgI0E0="
-        response_mock["author"]["name"] = "Test"
-        response_mock["author"]["publicKey"] = "BDu6h1S02bF4W6rgoZfZ6BMjTj/9S9hNN7EQoV05qUo="
-        response_mock["contactId"] = 1
-        response_mock["alias"] = "A local nickname"
-        response_mock["handshakePublicKey"] = "XnYRd7a7E4CTqgAvh4hCxh/YZ0EPscxknB9ZcEOpSzY="
-        response_mock["verified"] = True
+    # TODO: randomly generate token
+    AUTH_TOKEN = "xxhQhFNdq5R2YcipNcT3uYoMyOT2PxBl3tpWiO5Qy65w="
 
-        requests_mock.get("http://localhost:7000/v1/contacts", text=json.dumps(response_mock))
-        self.assertEqual(contacts.get(), response_mock)
+    @requests_mock.Mocker()
+    def test_get_empty(self, requests_mock):
+        api = TestContacts._get_mocked_api()
+        request_headers = TestContacts._get_mocked_request_headers()
+
+        contacts = Contacts(api)
+        response = list()
+
+        requests_mock.register_uri("GET", "http://localhost:7000/v1/contacts",
+                                   request_headers=request_headers,
+                                   text=json.dumps(response))
+        assert contacts.get() == response
+
+    # TODO: Use pytest fixtures
+    def _get_mocked_api():
+        api = mock.Mock()
+        api.auth_token = TestContacts.AUTH_TOKEN
+        return api
+
+    # TODO: Use pytest fixtures
+    def _get_mocked_request_headers():
+        request_headers = {}
+        authorization_header = 'Bearer %s' % TestContacts.AUTH_TOKEN
+        request_headers["Authorization"] = authorization_header
+        return request_headers

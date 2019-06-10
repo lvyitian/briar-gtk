@@ -12,4 +12,4 @@ class Model:  # pylint: disable=too-few-public-methods
         self._initialize_headers()
 
     def _initialize_headers(self):
-        self._headers['Authorization'] = 'Bearer %s' % self._api.auth_token
+        self._headers["Authorization"] = "Bearer %s" % self._api.auth_token

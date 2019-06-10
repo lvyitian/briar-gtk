@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-pylint src
+pylint src tests

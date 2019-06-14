@@ -1,0 +1,84 @@
+# Copyright (c) 2019 Nico Alt
+# SPDX-License-Identifier: AGPL-3.0-only
+# License-Filename: LICENSE.md
+
+app-id: app.briar.gtk
+runtime: org.gnome.Platform
+runtime-version: '3.32'
+sdk: org.gnome.Sdk
+sdk-extensions:
+- org.freedesktop.Sdk.Extension.openjdk11
+command: briar-gtk
+finish-args:
+- --share=network
+- --share=ipc
+- --socket=x11
+- --socket=wayland
+- --filesystem=xdg-run/dconf
+- --filesystem=~/.config/dconf:ro
+- --filesystem=~/.briar
+- --talk-name=ca.desrt.dconf
+- --env=DCONF_USER_CONFIG_DIR=.config/dconf
+- --env=PATH=/app/bin:/usr/bin:/app/jre/bin
+build-options:
+  cflags: -O2 -g
+  cxxflags: -O2 -g
+  env:
+    V: 1
+cleanup:
+- /include
+- /lib/pkgconfig
+- /man
+- /share/doc
+- /share/gtk-doc
+- /share/man
+- /share/pkgconfig
+- "*.la"
+- "*.a"
+modules:
+- name: openjdk
+  buildsystem: simple
+  build-commands:
+  - /usr/lib/sdk/openjdk11/install.sh
+- name: python-dependencies
+  buildsystem: simple
+  build-commands:
+  - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST}
+    requests2 websockets
+  sources:
+  - type: file
+    url: https://files.pythonhosted.org/packages/06/b8/d1ea38513c22e8c906275d135818fee16ad8495985956a9b7e2bb21942a1/certifi-2019.3.9.tar.gz
+    sha256: b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae
+  - type: file
+    url: https://files.pythonhosted.org/packages/96/d9/40e4e515d3e17ed0adbbde1078e8518f8c4e3628496b56eb8f026a02b9e4/urllib3-1.21.1.tar.gz
+    sha256: b14486978518ca0901a76ba973d7821047409d7f726f22156b24e83fd71382a5
+  - type: file
+    url: https://files.pythonhosted.org/packages/d8/82/28a51052215014efc07feac7330ed758702fc0581347098a81699b5281cb/idna-2.5.tar.gz
+    sha256: 3cb5ce08046c4e3a560fc02f138d0ac63e00f8ce5901a56b32ec8b7994082aab
+  - type: file
+    url: https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz
+    sha256: 84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae
+  - type: file
+    url: https://files.pythonhosted.org/packages/09/0f/9dacaa075f8e46d463248c28dbb9770445d2e04cca5c4aa23d431c9ba861/requests2-2.16.0.tar.gz
+    sha256: f7685b2d620a172053cced288dddf12d4b3441a382cc382821c0f36c02488516
+  - type: file
+    url: https://files.pythonhosted.org/packages/ba/60/59844a5cef2428cb752bd4f446b72095b1edee404a58c27e87cd12a141e2/websockets-7.0.tar.gz
+    sha256: 08e3c3e0535befa4f0c4443824496c03ecc25062debbcf895874f8a0b4c97c9f
+- name: briar-headless
+  buildsystem: simple
+  build-commands:
+  - mkdir -p /app/briar
+  - install -Dm644 briar-headless.jar /app/briar/briar-headless.jar
+  sources:
+  - type: file
+    url: https://media.dorfbrunnen.eu/briar/jars/003/briar-headless.jar
+    sha256: aa93cfd27b3e7e9b8e3c7e40666d6fa76fd83139a82cbef04cf334a93c369503
+- name: briar-gtk
+  buildsystem: meson
+  config-opts:
+  - --libdir=lib
+  builddir: true
+  sources:
+  - type: git
+    url: file:///home/dev/Work/Briar/briar-gtk
+

@@ -3,39 +3,42 @@
 # License-Filename: LICENSE.md
 
 import json
+from random import choices
 import requests_mock
-from unittest import mock, TestCase
+from string import ascii_letters, digits
+from unittest import mock
+
+import pytest
 
 from briar.api.models.contacts import Contacts
 
 
-class TestContacts(TestCase):
+@requests_mock.Mocker(kw='requests_mock')
+def test_get_empty(api, request_headers, requests_mock):
+    contacts = Contacts(api)
+    response = []
 
-    # TODO: randomly generate token
-    AUTH_TOKEN = "xxhQhFNdq5R2YcipNcT3uYoMyOT2PxBl3tpWiO5Qy65w="
+    requests_mock.register_uri("GET", "http://localhost:7000/v1/contacts",
+                               request_headers=request_headers,
+                               text=json.dumps(response))
+    assert contacts.get() == response
 
-    @requests_mock.Mocker()
-    def test_get_empty(self, requests_mock):
-        api = TestContacts._get_mocked_api()
-        request_headers = TestContacts._get_mocked_request_headers()
 
-        contacts = Contacts(api)
-        response = list()
+@pytest.fixture
+def api(auth_token):
+    api = mock.Mock()
+    api.auth_token = auth_token
+    return api
 
-        requests_mock.register_uri("GET", "http://localhost:7000/v1/contacts",
-                                   request_headers=request_headers,
-                                   text=json.dumps(response))
-        assert contacts.get() == response
 
-    # TODO: Use pytest fixtures
-    def _get_mocked_api():
-        api = mock.Mock()
-        api.auth_token = TestContacts.AUTH_TOKEN
-        return api
+@pytest.fixture
+def request_headers(auth_token):
+    request_headers = {
+        "Authorization": 'Bearer %s' % auth_token
+        }
+    return request_headers
 
-    # TODO: Use pytest fixtures
-    def _get_mocked_request_headers():
-        request_headers = {}
-        authorization_header = 'Bearer %s' % TestContacts.AUTH_TOKEN
-        request_headers["Authorization"] = authorization_header
-        return request_headers
+
+@pytest.fixture
+def auth_token():
+    return ''.join(choices(ascii_letters + digits, k=33))

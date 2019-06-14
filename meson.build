@@ -1,3 +1,7 @@
+# Copyright (c) 2019 Nico Alt
+# SPDX-License-Identifier: AGPL-3.0-only
+# License-Filename: LICENSE.md
+
 project(
   'briar-gtk',
   version: '0.1.0',

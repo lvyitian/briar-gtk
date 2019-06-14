@@ -1,3 +1,7 @@
+# Copyright (c) 2019 Nico Alt
+# SPDX-License-Identifier: AGPL-3.0-only
+# License-Filename: LICENSE.md
+
 -r requirements.txt
 pycodestyle>=2.5.0
 pylint>=2.3.1

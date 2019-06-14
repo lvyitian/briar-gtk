@@ -1,3 +1,7 @@
+# Copyright (c) 2019 Nico Alt
+# SPDX-License-Identifier: AGPL-3.0-only
+# License-Filename: LICENSE.md
+
 desktop_file = i18n.merge_file(
   input: 'app.briar.gtk.desktop.in',
   output: 'app.briar.gtk.desktop',

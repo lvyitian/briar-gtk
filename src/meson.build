@@ -1,3 +1,7 @@
+# Copyright (c) 2019 Nico Alt
+# SPDX-License-Identifier: AGPL-3.0-only
+# License-Filename: LICENSE.md
+
 pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
 moduledir = join_paths(pkgdatadir, 'briar')
 

@@ -1,2 +1,6 @@
+# Copyright (c) 2019 Nico Alt
+# SPDX-License-Identifier: AGPL-3.0-only
+# License-Filename: LICENSE.md
+
 requests2>=2.16
 websockets>=7.0

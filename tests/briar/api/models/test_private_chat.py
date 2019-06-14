@@ -6,15 +6,16 @@ import json
 
 import requests_mock
 
-from briar.api.models.contacts import Contacts
+from briar.api.models.private_chat import PrivateChat
 
 
 @requests_mock.Mocker(kw='requests_mock')
 def test_get_empty(api, request_headers, requests_mock):
-    contacts = Contacts(api)
+    private_chat = PrivateChat(api)
+    contact_id = 1
+    url = "http://localhost:7000/v1/messages/%s" % contact_id
     response = []
 
-    requests_mock.register_uri("GET", "http://localhost:7000/v1/contacts",
-                               request_headers=request_headers,
+    requests_mock.register_uri("GET", url, request_headers=request_headers,
                                text=json.dumps(response))
-    assert contacts.get() == response
+    assert private_chat.get(contact_id) == response

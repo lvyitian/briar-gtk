@@ -25,7 +25,7 @@ enter the URL to this Git project.
 You can also call this:
 ```bash
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak-builder builddir --install-deps-from=flathub --user --install --force-clean --ccache app.briar.gtk.json
+flatpak-builder builddir --install-deps-from=flathub --user --install --force-clean --ccache app.briar.gtk.yaml
 flatpak run app.briar.gtk
 ```
 

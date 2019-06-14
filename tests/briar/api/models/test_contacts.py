@@ -3,7 +3,7 @@
 # License-Filename: LICENSE.md
 
 import json
-from random import choices
+from random import choice
 import requests_mock
 from string import ascii_letters, digits
 from unittest import mock
@@ -41,4 +41,4 @@ def request_headers(auth_token):
 
 @pytest.fixture
 def auth_token():
-    return ''.join(choices(ascii_letters + digits, k=33))
+    return ''.join(choice(ascii_letters + digits) for i in range(33))

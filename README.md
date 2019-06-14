@@ -31,8 +31,9 @@ flatpak run app.briar.gtk
 
 ## Design Goals
 
-* Intuitive UI that follows the Briar Android client
-* Main platform is GNU/Linux, but should also support Windows and macOS
+* Intuitive UI, similar to Briar Android client
+* Main platform is GNU/Linux, but should also support (at least) Windows and macOS
+* Analogously, main platform is x86, but should also support (at least) arm
 * Follows [GNOME Human Interface Guidelines](https://developer.gnome.org/hig/stable/)
 * Adaptive to different screen sizes (desktop and mobile devices)
 * Has [phone constraints](https://developer.puri.sm/Librem5/Apps/Guides/Design/Constraints.html) in mind

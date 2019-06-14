@@ -80,5 +80,5 @@ modules:
   builddir: true
   sources:
   - type: git
-    url: file:///home/dev/Work/Briar/briar-gtk
+    url: https://code.briarproject.org/NicoAlt/briar-gtk.git
 

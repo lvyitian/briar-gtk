@@ -8,6 +8,7 @@ import requests_mock
 
 from briar.api.models.private_chat import PrivateChat
 
+BASE_HTTP_URL = "http://localhost:7000/v1/messages/%s"
 SEND_TEXT = "Hello World"
 
 
@@ -15,7 +16,7 @@ SEND_TEXT = "Hello World"
 def test_get_empty(api, request_headers, requests_mock):
     private_chat = PrivateChat(api)
     contact_id = 1
-    url = "http://localhost:7000/v1/messages/%s" % contact_id
+    url = BASE_HTTP_URL % contact_id
     response = []
 
     requests_mock.register_uri("GET", url, request_headers=request_headers,
@@ -27,7 +28,7 @@ def test_get_empty(api, request_headers, requests_mock):
 def test_send_message(api, request_headers, requests_mock):
     private_chat = PrivateChat(api)
     contact_id = 1
-    url = "http://localhost:7000/v1/messages/%s" % contact_id
+    url = BASE_HTTP_URL % contact_id
 
     requests_mock.register_uri("POST", url, request_headers=request_headers,
                                additional_matcher=match_request_text)

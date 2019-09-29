@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from gi.repository import GLib, GObject, Gtk
+from gi.repository import GLib
 
 from briar.gtk.container import Container
 from briar.gtk.define import App
@@ -13,7 +13,6 @@ class StartupContainer(Container):
     def __init__(self):
         super().__init__()
         self._api = App().api
-        StartupContainer._register_signals()
         self._setup_view()
 
     # pylint: disable=unused-argument
@@ -29,18 +28,13 @@ class StartupContainer(Container):
             "password_confirm_entry").get_text()
         if password != password_confirm:
             raise Exception("Passwords do not match")
-        self._api.register((self.username, password), self._startup_finished)
+        self._api.register((self.username, password),
+                           StartupContainer._startup_completed)
 
     # pylint: disable=unused-argument
     def on_login_pressed(self, button):
         password = self.builder.get_object("password_entry").get_text()
-        self._api.login(password, self._startup_finished)
-
-    @staticmethod
-    def _register_signals():
-        GObject.signal_new("briar_startup_completed", Gtk.Overlay,
-                           GObject.SignalFlags.RUN_LAST, GObject.TYPE_BOOLEAN,
-                           (GObject.TYPE_STRING,))
+        self._api.login(password, StartupContainer._startup_completed)
 
     def _setup_view(self):
         self.set_hexpand(True)
@@ -53,8 +47,9 @@ class StartupContainer(Container):
             self.add(self.builder.get_object("login"))
         self.builder.connect_signals(self)
 
-    def _startup_finished(self, succeeded):
+    @staticmethod
+    def _startup_completed(succeeded):
         if succeeded:
-            GLib.idle_add(self.emit, "briar_startup_completed", (succeeded,))
+            GLib.idle_add(App().window.on_startup_completed)
             return
         print("Startup failed")

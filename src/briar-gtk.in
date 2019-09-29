@@ -15,24 +15,43 @@ import sys
 
 import gi
 gi.require_version('Gtk', '3.0')
+from gi.repository import Gio
 
-pkgdatadir = '@pkgdatadir@'
-localedir = '@localedir@'
+PACKAGE_DATA_DIR = '@PACKAGE_DATA_DIR@'
+LOCALE_DIR = '@LOCALE_DIR@'
 
-sys.path.insert(1, pkgdatadir)
-signal.signal(signal.SIGINT, signal.SIG_DFL)
+def add_package_to_sys_path():
+    sys.path.insert(1, PACKAGE_DATA_DIR)
 
-if __name__ == '__main__':
-    locale.bindtextdomain('briar-gtk', localedir)
+def handle_sigint_default_way():
+    signal.signal(signal.SIGINT, signal.SIG_DFL)
+
+def prepare_locale():
+    locale.bindtextdomain('briar-gtk', LOCALE_DIR)
     locale.textdomain('briar-gtk')
-    gettext.bindtextdomain('briar-gtk', localedir)
+
+def prepare_gettext():
+    gettext.bindtextdomain('briar-gtk', LOCALE_DIR)
     gettext.textdomain('briar-gtk')
 
-    import gi
+def prepare_localization():
+    prepare_locale()
+    prepare_gettext()
 
-    from gi.repository import Gio
-    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'briar-gtk.gresource'))
+def prepare_resource():
+    resource = Gio.Resource.load(os.path.join(PACKAGE_DATA_DIR, 'briar-gtk.gresource'))
     resource._register()
 
+def prepare():
+    add_package_to_sys_path()
+    handle_sigint_default_way()
+    prepare_localization()
+    prepare_resource()
+
+def start_application():
     from briar.gtk.application import Application
     sys.exit(Application("@VERSION@").run(sys.argv))
+
+if __name__ == '__main__':
+    prepare()
+    start_application()

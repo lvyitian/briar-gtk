@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-image: debian:stretch
+image: debian:buster
 
 before_script:
     - apt update && apt install --no-install-recommends -y gir1.2-gtk-3.0 python3-gi python3-pip python3-setuptools

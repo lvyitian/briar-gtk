@@ -50,7 +50,7 @@ def prepare():
 
 def start_application():
     from briar.gtk.application import Application
-    sys.exit(Application("@VERSION@").run(sys.argv))
+    sys.exit(Application().run(sys.argv))
 
 if __name__ == '__main__':
     prepare()

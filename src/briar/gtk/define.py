@@ -8,4 +8,8 @@
 
 from gi.repository import Gio
 
+APPLICATION_ID = "app.briar.gtk"
+APPLICATION_NAME = "Briar"
+BRIAR_HEADLESS_JAR = "/app/briar/briar-headless.jar"
+
 App = Gio.Application.get_default  # pylint: disable=invalid-name

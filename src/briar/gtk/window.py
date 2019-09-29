@@ -7,15 +7,16 @@ from gi.repository import Gtk
 from briar.gtk.containers.chat import ChatContainer
 from briar.gtk.containers.main import MainContainer
 from briar.gtk.containers.startup import StartupContainer
-from briar.gtk.define import App
+from briar.gtk.define import App, APPLICATION_ID, APPLICATION_NAME
 from briar.gtk.toolbar import Toolbar
 
 
 class Window(Gtk.ApplicationWindow):
 
     def __init__(self):
-        Gtk.ApplicationWindow.__init__(self, application=App(), title="Briar",
-                                       icon_name="app.briar.gtk")
+        Gtk.ApplicationWindow.__init__(self, application=App(),
+                                       title=APPLICATION_NAME,
+                                       icon_name=APPLICATION_ID)
         self._setup_content()
 
     @property

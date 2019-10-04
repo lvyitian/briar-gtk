@@ -11,20 +11,20 @@ from gi.repository import Gdk, Gio, GLib, Gtk
 from briar.api.api import Api
 
 from briar.gtk.define import APPLICATION_ID, APPLICATION_NAME
-from briar.gtk.define import BRIAR_HEADLESS_JAR
+from briar.gtk.define import APPLICATION_STYLING, BRIAR_HEADLESS_JAR
 from briar.gtk.window import Window
 
 
 class Application(Gtk.Application):
 
     def __init__(self):
-        Application._set_application_name()
+        Application._set_application_name(APPLICATION_NAME)
         super().__init__(application_id=APPLICATION_ID)
 
     # pylint: disable=arguments-differ
     def do_startup(self):
         Gtk.Application.do_startup(self)
-        Application._setup_styling()
+        Application._setup_styling(APPLICATION_STYLING)
         self._setup_api()
 
     # pylint: disable=arguments-differ
@@ -38,14 +38,13 @@ class Application(Gtk.Application):
         Gio.Application.quit(self)
 
     @staticmethod
-    def _set_application_name():
-        GLib.set_application_name(APPLICATION_NAME)
-        GLib.set_prgname(APPLICATION_NAME)
+    def _set_application_name(name):
+        GLib.set_application_name(name)
+        GLib.set_prgname(name)
 
     @staticmethod
-    def _setup_styling():
-        css_provider_file = Gio.File.new_for_uri(
-            "resource:///app/briar/gtk/ui/application.css")
+    def _setup_styling(styling):
+        css_provider_file = Gio.File.new_for_uri(styling)
         css_provider = Gtk.CssProvider()
         css_provider.load_from_file(css_provider_file)
 

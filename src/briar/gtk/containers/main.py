@@ -6,19 +6,21 @@ from gi.repository import GLib, Gtk
 
 from briar.api.models.contacts import Contacts
 from briar.gtk.container import Container
-from briar.gtk.define import App
+from briar.gtk.define import APP
 
 
 class MainContainer(Container):
 
+    CONTAINER_UI = "/app/briar/gtk/ui/main.ui"
+
     def __init__(self):
         super().__init__()
-        self._api = App().api
+        self._api = APP().api
         self._setup_view()
         self._load_content()
 
     def _setup_view(self):
-        self.builder.add_from_resource("/app/briar/gtk/ui/main.ui")
+        self.builder.add_from_resource(self.CONTAINER_UI)
         self.add(self.builder.get_object("contacts_list"))
         self.builder.connect_signals(self)
 
@@ -36,4 +38,4 @@ class MainContainer(Container):
     # pylint: disable=unused-argument
     @staticmethod
     def _contact_clicked(widget, contact_id):
-        GLib.idle_add(App().window.open_private_chat, contact_id)
+        GLib.idle_add(APP().window.open_private_chat, contact_id)

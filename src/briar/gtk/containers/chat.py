@@ -6,20 +6,22 @@ from gi.repository import GLib, Gtk
 
 from briar.api.models.private_chat import PrivateChat
 from briar.gtk.container import Container
-from briar.gtk.define import App
+from briar.gtk.define import APP
 
 
 class ChatContainer(Container):
 
+    CONTAINER_UI = "/app/briar/gtk/ui/chat.ui"
+
     def __init__(self, contact_id):
         super().__init__()
-        self._api = App().api
+        self._api = APP().api
         self._contact_id = contact_id
         self._setup_view()
         self._load_content()
 
     def _setup_view(self):
-        self.builder.add_from_resource("/app/briar/gtk/ui/chat.ui")
+        self.builder.add_from_resource(self.CONTAINER_UI)
         self.add(self.builder.get_object("chat"))
         self.builder.connect_signals(self)
         chat_entry = self.builder.get_object("chat_entry")

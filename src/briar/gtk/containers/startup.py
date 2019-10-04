@@ -5,14 +5,17 @@
 from gi.repository import GLib
 
 from briar.gtk.container import Container
-from briar.gtk.define import App
+from briar.gtk.define import APP
 
 
 class StartupContainer(Container):
 
+    SETUP_UI = "/app/briar/gtk/ui/main.ui"
+    LOGIN_UI = "/app/briar/gtk/ui/login.ui"
+
     def __init__(self):
         super().__init__()
-        self._api = App().api
+        self._api = APP().api
         self._setup_view()
 
     # pylint: disable=unused-argument
@@ -39,17 +42,17 @@ class StartupContainer(Container):
     def _setup_view(self):
         self.set_hexpand(True)
         self.set_vexpand(True)
-        if not App().api.has_account():
-            self.builder.add_from_resource("/app/briar/gtk/ui/setup.ui")
+        if not APP().api.has_account():
+            self.builder.add_from_resource(self.SETUP_UI)
             self.add(self.builder.get_object("setup"))
         else:
-            self.builder.add_from_resource("/app/briar/gtk/ui/login.ui")
+            self.builder.add_from_resource(self.LOGIN_UI)
             self.add(self.builder.get_object("login"))
         self.builder.connect_signals(self)
 
     @staticmethod
     def _startup_completed(succeeded):
         if succeeded:
-            GLib.idle_add(App().window.on_startup_completed)
+            GLib.idle_add(APP().window.on_startup_completed)
             return
         print("Startup failed")

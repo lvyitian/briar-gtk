@@ -49,6 +49,9 @@ convenient way to do so is by using
 [_adb_](https://developer.android.com/studio/command-line/adb).
 Note that your smartphone needs to be rooted for this.
 
+You can either use the script at 
+[tools/copy-db-from-android.sh](tools/copy-db-from-android.sh) or do it manually:
+
 1. Start _briar-gtk_ and register a dummy account. This will create
 the needed directory structure at _~/.briar/_. Close the program afterwards.
 2. Enable _adb_ on your smartphone and give it root permissions.

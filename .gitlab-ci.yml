@@ -23,3 +23,4 @@ pytest:
     stage: test
     coverage: '/TOTAL.*\s+(\d+%)$/'
     script: tools/tests/test-pytest.sh
+    allow_failure: true

@@ -13,8 +13,10 @@ from briar.api.model import Model
 
 class PrivateChat(Model):
 
+    API_ENDPOINT = "messages/"
+
     def get(self, contact_id):
-        url = urljoin(BASE_HTTP_URL, "messages/%i" % contact_id)
+        url = urljoin(BASE_HTTP_URL, self.API_ENDPOINT + "/%i" % contact_id)
         request = _get(url, headers=self._headers)
         return request.json()
 
@@ -24,5 +26,5 @@ class PrivateChat(Model):
                                         contact_id=contact_id)
 
     def send(self, contact_id, message):
-        url = urljoin(BASE_HTTP_URL, "messages/%i" % contact_id)
+        url = urljoin(BASE_HTTP_URL, self.API_ENDPOINT + "/%i" % contact_id)
         _post(url, headers=self._headers, json={"text": message})

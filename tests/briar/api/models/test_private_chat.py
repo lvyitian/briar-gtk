@@ -9,31 +9,31 @@ import requests_mock
 from briar.api.models.private_chat import PrivateChat
 
 BASE_HTTP_URL = "http://localhost:7000/v1/messages/%s"
-SEND_TEXT = "Hello World"
+
+TEST_CONTACT_ID = 42
+TEST_TEXT = "Hello World"
 
 
 @requests_mock.Mocker(kw="requests_mock")
 def test_get_empty(api, request_headers, requests_mock):
     private_chat = PrivateChat(api)
-    contact_id = 1
-    url = BASE_HTTP_URL % contact_id
+    url = BASE_HTTP_URL % TEST_CONTACT_ID
     response = []
 
     requests_mock.register_uri("GET", url, request_headers=request_headers,
                                text=json.dumps(response))
-    assert private_chat.get(contact_id) == response
+    assert private_chat.get(TEST_CONTACT_ID) == response
 
 
 @requests_mock.Mocker(kw="requests_mock")
 def test_send_message(api, request_headers, requests_mock):
     private_chat = PrivateChat(api)
-    contact_id = 1
-    url = BASE_HTTP_URL % contact_id
+    url = BASE_HTTP_URL % TEST_CONTACT_ID
 
     requests_mock.register_uri("POST", url, request_headers=request_headers,
-                               additional_matcher=match_request_text)
-    private_chat.send(contact_id, SEND_TEXT)
+                               additional_matcher=match_request_send_message)
+    private_chat.send(TEST_CONTACT_ID, TEST_TEXT)
 
 
-def match_request_text(request):
-    return {"text": SEND_TEXT} == request.json()
+def match_request_send_message(request):
+    return {"text": TEST_TEXT} == request.json()

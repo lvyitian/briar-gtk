@@ -29,6 +29,14 @@ flatpak-builder builddir --install-deps-from=flathub --user --install --force-cl
 flatpak run app.briar.gtk
 ```
 
+You should also be able to run Briar GTK without Flatpak.
+For this, you have to install Java, the
+[Python dependencies](requirements.txt) and Briar Headless.
+Once you've done this, change the path of the Briar Headless
+jar in [src/briar/gtk/define.py](src/briar/gtk/define.py),
+build it with _meson_ and start Briar GTK.
+Keep in mind this wasn't tested so far.
+
 ## Design Goals
 
 * Intuitive UI, similar to Briar Android client

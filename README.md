@@ -29,13 +29,13 @@ flatpak-builder builddir --install-deps-from=flathub --user --install --force-cl
 flatpak run app.briar.gtk
 ```
 
-You should also be able to run Briar GTK without Flatpak.
+Additionally, you are able to run Briar GTK without Flatpak.
 For this, you have to install Java, the
-[Python dependencies](requirements.txt) and Briar Headless.
-Once you've done this, change the path of the Briar Headless
+[Python dependencies](requirements.txt) and
+[Briar headless](https://code.briarproject.org/briar/briar/blob/master/briar-headless/README.md).
+Once you've done this, change the path of the Briar headless
 jar in [src/briar/gtk/define.py](src/briar/gtk/define.py),
 build it with _meson_ and start Briar GTK.
-Keep in mind this wasn't tested so far.
 
 ## Design Goals
 
@@ -49,12 +49,10 @@ Keep in mind this wasn't tested so far.
 
 ## FAQ
 
-### How can I add contacts?
+### How can I transfer contacts from my Android device?
 
-Adding contacts isn't yet supported. Instead, you have to copy
-the database and keys from a Briar Android installation. The most
-convenient way to do so is by using
-[_adb_](https://developer.android.com/studio/command-line/adb).
+By using [_adb_](https://developer.android.com/studio/command-line/adb),
+you can copy the database and keys from a Briar Android installation.
 Note that your smartphone needs to be rooted for this.
 
 You can either use the script at 

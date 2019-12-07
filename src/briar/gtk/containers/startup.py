@@ -10,7 +10,7 @@ from briar.gtk.define import APP
 
 class StartupContainer(Container):
 
-    SETUP_UI = "/app/briar/gtk/ui/main.ui"
+    SETUP_UI = "/app/briar/gtk/ui/setup.ui"
     LOGIN_UI = "/app/briar/gtk/ui/login.ui"
 
     def __init__(self):

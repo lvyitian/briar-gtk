@@ -4,6 +4,7 @@
 
 from gi.repository import Gtk
 
+from briar.gtk.containers.add_contact import AddContactContainer
 from briar.gtk.containers.chat import ChatContainer
 from briar.gtk.containers.main import MainContainer
 from briar.gtk.containers.startup import StartupContainer
@@ -73,6 +74,20 @@ class Window(Gtk.ApplicationWindow):
         self._container = MainContainer()
         self._container.show()
         self._grid.add(self._container)
+        self._toolbar.show_add_contact_button(True, self.show_add_contact)
+
+    # pylint: disable=unused-argument
+    def show_add_contact(self, widget):
+        self._grid.destroy()
+        self._setup_grid()
+        self._setup_add_contact()
+
+    def _setup_add_contact(self):
+        self._container = AddContactContainer()
+        self._container.show()
+        self._grid.add(self._container)
+        self._toolbar.show_back_button(True, self._back_to_main)
+        self._toolbar.show_add_contact_button(False)
 
     def open_private_chat(self, contact_id):
         self._grid.destroy()
@@ -84,6 +99,7 @@ class Window(Gtk.ApplicationWindow):
         self._container.show()
         self._grid.add(self._container)
         self._toolbar.show_back_button(True, self._back_to_main)
+        self._toolbar.show_add_contact_button(False)
 
     # pylint: disable=unused-argument
     def _back_to_main(self, widget):

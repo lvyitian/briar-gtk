@@ -8,6 +8,11 @@
     <property name="can_focus">False</property>
     <property name="icon_name">go-previous-symbolic</property>
   </object>
+  <object class="GtkImage" id="add_contact_image">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="icon_name">list-add-symbolic</property>
+  </object>
   <object class="GtkBox" id="toolbar_start">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
@@ -17,6 +22,18 @@
         <property name="visible">False</property>
         <property name="valign">center</property>
         <property name="image">back_image</property>
+      </object>
+      <packing>
+        <property name="expand">False</property>
+        <property name="fill">True</property>
+        <property name="position">0</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkButton" id="add_contact_button">
+        <property name="visible">False</property>
+        <property name="valign">center</property>
+        <property name="image">add_contact_image</property>
       </object>
       <packing>
         <property name="expand">False</property>

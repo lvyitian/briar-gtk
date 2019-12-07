@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-06 10:35+0200\n"
+"POT-Creation-Date: 2019-12-07 01:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../data/ui/add_contact.ui:23
+msgid "Give this link to the contact you want to add"
+msgstr ""
+
+#: ../data/ui/add_contact.ui:43
+msgid "Enter the link from your contact here"
+msgstr ""
+
+#: ../data/ui/add_contact.ui:63
+msgctxt "link exchange page: button – initiate pairing"
+msgid "Continue"
+msgstr ""
+
+#: ../data/ui/add_contact.ui:83 ../data/ui/login.ui:23 ../data/ui/setup.ui:64
+msgid "Password"
+msgstr ""
+
+#: ../data/ui/add_contact.ui:94 ../data/ui/setup.ui:75
+msgctxt "registration page: password input field"
+msgid "Choose your password"
+msgstr ""
+
+#: ../data/ui/add_contact.ui:105 ../data/ui/setup.ui:86
+msgctxt "registration page: password input field"
+msgid "Confirm your password"
+msgstr ""
+
+#: ../data/ui/add_contact.ui:116 ../data/ui/setup.ui:97
+msgctxt "registration page: button"
+msgid "Create Account"
+msgstr ""
+
 #: ../data/ui/chat.ui:29
 msgctxt "chat page: input field"
 msgid "Type Message"
-msgstr ""
-
-#: ../data/ui/login.ui:23 ../data/ui/setup.ui:64
-msgid "Password"
 msgstr ""
 
 #: ../data/ui/login.ui:44
@@ -43,19 +71,4 @@ msgstr ""
 #: ../data/ui/setup.ui:44
 msgctxt "registration page: button – from username to passwords"
 msgid "Next"
-msgstr ""
-
-#: ../data/ui/setup.ui:75
-msgctxt "registration page: password input field"
-msgid "Choose your password"
-msgstr ""
-
-#: ../data/ui/setup.ui:86
-msgctxt "registration page: password input field"
-msgid "Confirm your password"
-msgstr ""
-
-#: ../data/ui/setup.ui:97
-msgctxt "registration page: button"
-msgid "Create Account"
 msgstr ""

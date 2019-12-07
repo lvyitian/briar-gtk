@@ -20,6 +20,16 @@ class Toolbar(Gtk.HeaderBar):
         self._setup_builder()
         self._setup_toolbar()
 
+    def show_add_contact_button(self, show, callback=None):
+        add_contact_button = self._builder.get_object("add_contact_button")
+        if not show:
+            add_contact_button.hide()
+            return
+        if callback is None:
+            raise Exception("Callback needed when showing add contact button")
+        add_contact_button.show()
+        add_contact_button.connect("clicked", callback)
+
     def show_back_button(self, show, callback=None):
         back_button = self._builder.get_object("back_button")
         if not show:

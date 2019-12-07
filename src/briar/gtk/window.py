@@ -86,7 +86,7 @@ class Window(Gtk.ApplicationWindow):
         self._container = AddContactContainer()
         self._container.show()
         self._grid.add(self._container)
-        self._toolbar.show_back_button(True, self._back_to_main)
+        self._toolbar.show_back_button(True, self.back_to_main)
         self._toolbar.show_add_contact_button(False)
 
     def open_private_chat(self, contact_id):
@@ -98,11 +98,11 @@ class Window(Gtk.ApplicationWindow):
         self._container = ChatContainer(contact_id)
         self._container.show()
         self._grid.add(self._container)
-        self._toolbar.show_back_button(True, self._back_to_main)
+        self._toolbar.show_back_button(True, self.back_to_main)
         self._toolbar.show_add_contact_button(False)
 
     # pylint: disable=unused-argument
-    def _back_to_main(self, widget):
+    def back_to_main(self, widget):
         self._grid.destroy()
         self._setup_grid()
         self._toolbar.show_back_button(False)

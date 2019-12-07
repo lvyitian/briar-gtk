@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from gi.repository import GLib, Gtk
+from gi.repository import GLib
 
 from briar.api.models.contacts import Contacts
 from briar.gtk.container import Container
@@ -40,4 +40,4 @@ class AddContactContainer(Container):
         alias = self.builder.get_object("alias_entry").get_text()
         contacts = Contacts(self._api)
         contacts.add_pending(their_link, alias)
-        GLib.idle_add(APP().window._back_to_main, None)
+        GLib.idle_add(APP().window.back_to_main, None)

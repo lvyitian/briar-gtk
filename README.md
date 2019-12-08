@@ -49,6 +49,12 @@ build it with _meson_ and start Briar GTK.
 
 ## FAQ
 
+### I forgot my password.
+
+In case you forgot your password, there's no other way than to delete your old
+account and start from scratch. Call `rm -rf ~/.briar/` to delete your current
+account.
+
 ### How can I transfer contacts from my Android device?
 
 By using [_adb_](https://developer.android.com/studio/command-line/adb),

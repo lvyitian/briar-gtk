@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.22.1 -->
+<!--
+  Copyright (c) 2019 Nico Alt
+  SPDX-License-Identifier: AGPL-3.0-only
+  License-Filename: LICENSE.md
+-->
 <interface>
   <requires lib="gtk+" version="3.20"/>
   <object class="GtkGrid" id="chat">

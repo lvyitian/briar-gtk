@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-07 01:31+0100\n"
+"POT-Creation-Date: 2019-12-09 01:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,28 +25,28 @@ msgstr ""
 msgid "Enter the link from your contact here"
 msgstr ""
 
-#: ../data/ui/add_contact.ui:63
-msgctxt "link exchange page: button – initiate pairing"
+#: ../data/ui/add_contact.ui:53
+msgctxt "link exchange: their link input field"
+msgid "Contact's link"
+msgstr ""
+
+#: ../data/ui/add_contact.ui:64
+msgctxt "link exchange: button – initiate pairing"
 msgid "Continue"
 msgstr ""
 
-#: ../data/ui/add_contact.ui:83 ../data/ui/login.ui:23 ../data/ui/setup.ui:64
-msgid "Password"
+#: ../data/ui/add_contact.ui:84
+msgid "Give your contact a nickname. Only you can see it."
 msgstr ""
 
-#: ../data/ui/add_contact.ui:94 ../data/ui/setup.ui:75
-msgctxt "registration page: password input field"
-msgid "Choose your password"
+#: ../data/ui/add_contact.ui:94
+msgctxt "remote contact adding: alias input field"
+msgid "Enter a nickname"
 msgstr ""
 
-#: ../data/ui/add_contact.ui:105 ../data/ui/setup.ui:86
-msgctxt "registration page: password input field"
-msgid "Confirm your password"
-msgstr ""
-
-#: ../data/ui/add_contact.ui:116 ../data/ui/setup.ui:97
-msgctxt "registration page: button"
-msgid "Create Account"
+#: ../data/ui/add_contact.ui:105
+msgctxt "remote contact adding: button"
+msgid "Add Contact"
 msgstr ""
 
 #: ../data/ui/chat.ui:29
@@ -54,21 +54,58 @@ msgctxt "chat page: input field"
 msgid "Type Message"
 msgstr ""
 
-#: ../data/ui/login.ui:44
-msgctxt "login page: button"
-msgid "Sign in"
+#: ../data/ui/login.ui:21 ../data/ui/registration.ui:102
+msgid "Password"
 msgstr ""
 
-#: ../data/ui/setup.ui:23
-msgid "Nickname"
+#: ../data/ui/login.ui:55
+msgid "Couldn't log in"
 msgstr ""
 
-#: ../data/ui/setup.ui:33
-msgctxt "registration page: input field"
+#: ../data/ui/login.ui:110
+msgid "Log in"
+msgstr ""
+
+#: ../data/ui/login.ui:131
+msgid "Logging in"
+msgstr ""
+
+#: ../data/ui/registration.ui:32
+msgid "Welcome to Briar"
+msgstr ""
+
+#: ../data/ui/registration.ui:60
 msgid "Choose your nickname"
 msgstr ""
 
-#: ../data/ui/setup.ui:44
-msgctxt "registration page: button – from username to passwords"
+#: ../data/ui/registration.ui:74
+msgid "The nickname may not be empty."
+msgstr ""
+
+#: ../data/ui/registration.ui:121
+msgid "Confirm Password"
+msgstr ""
+
+#: ../data/ui/registration.ui:169
+msgid "The passwords do not match"
+msgstr ""
+
+#: ../data/ui/registration.ui:225
 msgid "Next"
+msgstr ""
+
+#: ../data/ui/registration.ui:245
+msgid "Passwords"
+msgstr ""
+
+#: ../data/ui/registration.ui:267
+msgid "Create Account"
+msgstr ""
+
+#: ../data/ui/registration.ui:288
+msgid "Creating Account"
+msgstr ""
+
+#: ../src/briar/gtk/containers/registration.py:135
+msgid "Couldn't register account"
 msgstr ""

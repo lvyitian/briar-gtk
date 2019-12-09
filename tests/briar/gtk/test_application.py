@@ -6,7 +6,7 @@ from unittest.mock import Mock
 
 from briar.api.api import Api
 from briar.gtk.application import Application
-from briar.gtk.define import APPLICATION_NAME, APPLICATION_STYLING
+from briar.gtk.define import APPLICATION_NAME, APPLICATION_STYLING_PATH
 from briar.gtk.define import BRIAR_HEADLESS_JAR
 from briar.gtk.window import Window
 
@@ -21,7 +21,7 @@ def test_do_startup(mocker):
     Application().do_startup()
 
     do_startup_mock.assert_called_once()
-    _setup_styling_mock.assert_called_once_with(APPLICATION_STYLING)
+    _setup_styling_mock.assert_called_once_with(APPLICATION_STYLING_PATH)
     _setup_api_mock.assert_called_once()
 
 
@@ -43,7 +43,7 @@ def test_quit(mocker):
 
     application = Application()
     application.api = api_mock
-    application.window = window_mock
+    application._window = window_mock
 
     application.quit()
 
@@ -83,9 +83,9 @@ def test_setup_styling(mocker):
     add_provider_for_screen_mock = mocker.patch(
         "gi.repository.Gtk.StyleContext.add_provider_for_screen")
 
-    Application._setup_styling(APPLICATION_STYLING)
+    Application._setup_styling(APPLICATION_STYLING_PATH)
 
-    new_for_uri_mock.assert_called_with(APPLICATION_STYLING)
+    new_for_uri_mock.assert_called_with(APPLICATION_STYLING_PATH)
     load_from_file_mock.assert_called_once()
     get_default_mock.assert_called_once()
     add_provider_for_screen_mock.assert_called_once()
@@ -118,7 +118,7 @@ def test_setup_window_has_attribute(mocker):
     window_mock = Mock()
 
     application = Application()
-    application.window = window_mock
+    application._window = window_mock
 
     application._setup_window()
 
@@ -132,7 +132,6 @@ def test_setup_window_has_none_attribute(mocker):
     window_present_mock = mocker.patch("briar.gtk.window.Window.present")
 
     application = Application()
-    application.window = None
 
     application._setup_window()
 

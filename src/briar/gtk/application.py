@@ -11,7 +11,7 @@ from gi.repository import Gdk, Gio, GLib, Gtk
 from briar.api.api import Api
 
 from briar.gtk.define import APPLICATION_ID, APPLICATION_NAME
-from briar.gtk.define import APPLICATION_STYLING, BRIAR_HEADLESS_JAR
+from briar.gtk.define import APPLICATION_STYLING_PATH, BRIAR_HEADLESS_JAR
 from briar.gtk.window import Window
 
 
@@ -24,7 +24,7 @@ class Application(Gtk.Application):
     # pylint: disable=arguments-differ
     def do_startup(self):
         Gtk.Application.do_startup(self)
-        Application._setup_styling(APPLICATION_STYLING)
+        Application._setup_styling(APPLICATION_STYLING_PATH)
         self._setup_api()
 
     # pylint: disable=arguments-differ
@@ -34,7 +34,7 @@ class Application(Gtk.Application):
     # pylint: disable=arguments-differ
     def quit(self):
         self.api.stop()
-        self.window.hide()
+        self._window.hide()
         Gio.Application.quit(self)
 
     @staticmethod
@@ -43,8 +43,8 @@ class Application(Gtk.Application):
         GLib.set_prgname(name)
 
     @staticmethod
-    def _setup_styling(styling):
-        css_provider_file = Gio.File.new_for_uri(styling)
+    def _setup_styling(styling_path):
+        css_provider_file = Gio.File.new_for_uri(styling_path)
         css_provider = Gtk.CssProvider()
         css_provider.load_from_file(css_provider_file)
 
@@ -58,7 +58,7 @@ class Application(Gtk.Application):
 
     # pylint: disable=access-member-before-definition
     def _setup_window(self):
-        if not hasattr(self, "window") or self.window is None:
-            self.window = Window()
-            self.window.show()
-        self.window.present()
+        if not hasattr(self, "_window") or self._window is None:
+            self._window = Window()
+            self._window.show()
+        self._window.present()

@@ -35,6 +35,7 @@
         <child>
           <object class="GtkEntry" id="own_link_entry">
             <property name="visible">True</property>
+            <property name="input_purpose">GTK_INPUT_PURPOSE_URL</property>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -56,6 +57,7 @@
           <object class="GtkEntry" id="their_link_entry">
             <property name="visible">True</property>
             <property name="placeholder_text" translatable="yes" context="link exchange: their link input field">Contact's link</property>
+            <property name="input_purpose">GTK_INPUT_PURPOSE_URL</property>
           </object>
           <packing>
             <property name="left_attach">1</property>

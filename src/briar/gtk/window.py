@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from gi.repository import Gtk
+from gi.repository.Gtk import ApplicationWindow, Grid
 
 from briar.gtk.containers.add_contact import AddContactContainer
 from briar.gtk.containers.chat import ChatContainer
@@ -12,7 +12,7 @@ from briar.gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
 from briar.gtk.toolbar import Toolbar
 
 
-class Window(Gtk.ApplicationWindow):
+class Window(ApplicationWindow):
 
     DEFAULT_WINDOW_SIZE = (600, 400)
 
@@ -29,14 +29,12 @@ class Window(Gtk.ApplicationWindow):
         return self._toolbar
 
     def _initialize_gtk_application_window(self):
-        Gtk.ApplicationWindow.__init__(self, application=APP(),
-                                       title=APPLICATION_NAME,
-                                       icon_name=APPLICATION_ID)
+        ApplicationWindow.__init__(self, application=APP(),
+                                   title=APPLICATION_NAME,
+                                   icon_name=APPLICATION_ID)
 
     def _setup_content(self):
         self._setup_size(self.DEFAULT_WINDOW_SIZE)
-        self._setup_toolbar()
-        self._setup_grid()
         self._setup_startup_container()
 
     def _setup_size(self, size):
@@ -49,26 +47,31 @@ class Window(Gtk.ApplicationWindow):
                isinstance(size[0], int) and\
                isinstance(size[1], int)
 
+    def _setup_startup_container(self):
+        self._container = StartupContainer(self)
+        self._container.show()
+        self.add(self._container)
+
+    def on_startup_completed(self):
+        self._container.destroy()
+        self._setup_grid()
+        self._setup_toolbar()
+        self._setup_main_container()
+
+    def _setup_grid(self):
+        self._grid = Grid()
+        self._grid.show()
+        self.add(self._grid)
+
+    def _reset_grid(self):
+        self._grid.destroy()
+        self._setup_grid()
+
     def _setup_toolbar(self):
         self._toolbar = Toolbar()
         self._toolbar.show()
         self._toolbar.set_show_close_button(True)
         self.set_titlebar(self._toolbar)
-
-    def _setup_grid(self):
-        self._grid = Gtk.Grid()
-        self._grid.show()
-        self.add(self._grid)
-
-    def _setup_startup_container(self):
-        self._container = StartupContainer()
-        self._container.show()
-        self._grid.add(self._container)
-
-    def on_startup_completed(self):
-        self._grid.destroy()
-        self._setup_grid()
-        self._setup_main_container()
 
     def _setup_main_container(self):
         self._container = MainContainer()
@@ -78,8 +81,7 @@ class Window(Gtk.ApplicationWindow):
 
     # pylint: disable=unused-argument
     def show_add_contact(self, widget):
-        self._grid.destroy()
-        self._setup_grid()
+        self._reset_grid()
         self._setup_add_contact()
 
     def _setup_add_contact(self):
@@ -90,8 +92,7 @@ class Window(Gtk.ApplicationWindow):
         self._toolbar.show_add_contact_button(False)
 
     def open_private_chat(self, contact_id):
-        self._grid.destroy()
-        self._setup_grid()
+        self._reset_grid()
         self._setup_private_chat(contact_id)
 
     def _setup_private_chat(self, contact_id):
@@ -103,7 +104,6 @@ class Window(Gtk.ApplicationWindow):
 
     # pylint: disable=unused-argument
     def back_to_main(self, widget):
-        self._grid.destroy()
-        self._setup_grid()
+        self._reset_grid()
         self._toolbar.show_back_button(False)
         self._setup_main_container()

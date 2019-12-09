@@ -1,3 +1,4 @@
-.test {
-  color: red;
+.error-label {
+  color: @error_color;
 }
+

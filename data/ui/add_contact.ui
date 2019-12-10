@@ -3,123 +3,264 @@
   Copyright (c) 2019 Nico Alt
   SPDX-License-Identifier: AGPL-3.0-only
   License-Filename: LICENSE.md
+
+  Based on parts of GNOME Fractal
+  https://gitlab.gnome.org/GNOME/fractal/blob/4.2.2/fractal-gtk/res/ui/login_flow.ui
 -->
 <interface>
-  <requires lib="gtk+" version="3.20"/>
-  <object class="GtkGrid" id="add_contact">
-    <property name="visible">True</property>
+  <requires lib="gtk+" version="3.22"/>
+  <object class="GtkStack" id="add_contact_flow_stack">
     <property name="can_focus">False</property>
-    <property name="halign">center</property>
-    <property name="valign">center</property>
-    <property name="margin_left">18</property>
-    <property name="margin_right">18</property>
-    <property name="margin_top">18</property>
-    <property name="margin_bottom">18</property>
+    <property name="hhomogeneous">True</property>
+    <property name="transition_type">GTK_STACK_TRANSITION_TYPE_SLIDE_LEFT_RIGHT</property>
     <child>
-      <object class="GtkGrid" id="link_grid">
+      <object class="GtkGrid" id="links_page">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="row_spacing">6</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
         <property name="column_spacing">12</property>
+        <property name="row_spacing">24</property>
         <child>
-          <object class="GtkLabel" id="own_link_label">
+          <object class="GtkLabel">
             <property name="visible">True</property>
-            <property name="halign">center</property>
-            <property name="label" translatable="yes">Give this link to the contact you want to add</property>
+            <property name="use_underline">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes" context="add contact">Give this link to the contact you want to add</property>
+            <property name="wrap">True</property>
+            <property name="wrap_mode">PANGO_WRAP_WORD_CHAR</property>
+            <property name="mnemonic_widget">own_link_entry</property>
+            <style>
+              <class name="dim-label"/>
+            </style>
           </object>
           <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">0</property>
+            <property name="top-attach">1</property>
+            <property name="left-attach">1</property>
           </packing>
         </child>
         <child>
           <object class="GtkEntry" id="own_link_entry">
             <property name="visible">True</property>
+            <property name="max_width_chars">-1</property>
+            <property name="width_request">232</property>
+            <property name="can_focus">True</property>
             <property name="input_purpose">GTK_INPUT_PURPOSE_URL</property>
           </object>
           <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">1</property>
+            <property name="top-attach">2</property>
+            <property name="left-attach">1</property>
           </packing>
         </child>
         <child>
-          <object class="GtkLabel" id="their_link_label">
+          <object class="GtkLabel">
             <property name="visible">True</property>
-            <property name="halign">center</property>
-            <property name="label" translatable="yes">Enter the link from your contact here</property>
+            <property name="use_underline">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes" context="add contact">Enter the link from your contact here</property>
+            <property name="wrap">True</property>
+            <property name="wrap_mode">PANGO_WRAP_WORD_CHAR</property>
+            <property name="mnemonic_widget">their_link_entry</property>
+            <style>
+              <class name="dim-label"/>
+            </style>
           </object>
           <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">2</property>
+            <property name="top-attach">3</property>
+            <property name="left-attach">1</property>
           </packing>
         </child>
         <child>
           <object class="GtkEntry" id="their_link_entry">
             <property name="visible">True</property>
-            <property name="placeholder_text" translatable="yes" context="link exchange: their link input field">Contact's link</property>
+            <property name="max_width_chars">-1</property>
+            <property name="width_request">232</property>
+            <property name="can_focus">True</property>
+            <property name="placeholder_text" translatable="yes" context="add contact">Contact's link</property>
             <property name="input_purpose">GTK_INPUT_PURPOSE_URL</property>
           </object>
           <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">3</property>
+            <property name="top-attach">4</property>
+            <property name="left-attach">1</property>
           </packing>
         </child>
         <child>
-          <object class="GtkButton" id="link_continue">
-            <property name="visible">True</property>
-            <property name="halign">center</property>
-            <property name="label" translatable="yes" context="link exchange: button – initiate pairing">Continue</property>
-            <signal name="clicked" handler="on_link_button_clicked"/>
+          <object class="GtkLabel" id="link_error_label">
+            <property name="visible">False</property>
+            <property name="can_focus">False</property>
+            <property name="no_show_all">True</property>
+            <property name="label" translatable="yes" context="add contact">Please enter a link</property>
+            <property name="wrap">True</property>
+            <property name="wrap_mode">PANGO_WRAP_WORD_CHAR</property>
+            <style>
+              <class name="error-label"/>
+            </style>
           </object>
           <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">4</property>
+            <property name="top-attach">5</property>
+            <property name="left-attach">1</property>
           </packing>
         </child>
       </object>
+      <packing>
+        <property name="name">links</property>
+      </packing>
     </child>
     <child>
-      <object class="GtkGrid" id="alias_grid">
-        <property name="visible">False</property>
+      <object class="GtkGrid" id="alias_page">
+        <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="row_spacing">6</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
         <property name="column_spacing">12</property>
+        <property name="row_spacing">24</property>
         <child>
-          <object class="GtkLabel" id="alias_label">
+          <object class="GtkLabel">
             <property name="visible">True</property>
-            <property name="halign">center</property>
-            <property name="label" translatable="yes">Give your contact a nickname. Only you can see it.</property>
+            <property name="use_underline">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes" context="add contact">Give your contact a nickname. Only you can see it.</property>
+            <property name="halign">end</property>
+            <property name="wrap">True</property>
+            <property name="wrap_mode">PANGO_WRAP_WORD_CHAR</property>
+            <property name="mnemonic_widget">own_link_entry</property>
+            <style>
+              <class name="dim-label"/>
+            </style>
           </object>
           <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">0</property>
+            <property name="top-attach">1</property>
+            <property name="left-attach">1</property>
           </packing>
         </child>
         <child>
           <object class="GtkEntry" id="alias_entry">
             <property name="visible">True</property>
-            <property name="placeholder_text" translatable="yes" context="remote contact adding: alias input field">Enter a nickname</property>
+            <property name="max_width_chars">-1</property>
+            <property name="width_request">232</property>
+            <property name="can_focus">True</property>
+            <property name="placeholder_text" translatable="yes" context="add contact">Enter a nickname</property>
           </object>
           <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">1</property>
+            <property name="top-attach">2</property>
+            <property name="left-attach">1</property>
           </packing>
         </child>
         <child>
-          <object class="GtkButton" id="add_contact_button">
-            <property name="visible">True</property>
-            <property name="halign">center</property>
-            <property name="label" translatable="yes" context="remote contact adding: button">Add Contact</property>
-            <signal name="clicked" handler="on_add_contact_button_clicked"/>
+          <object class="GtkLabel" id="alias_error_label">
+            <property name="visible">False</property>
+            <property name="can_focus">False</property>
+            <property name="no_show_all">True</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes" context="add contact">The alias may not be empty</property>
+            <property name="wrap">True</property>
+            <property name="wrap_mode">PANGO_WRAP_WORD_CHAR</property>
+            <style>
+              <class name="error-label"/>
+            </style>
           </object>
           <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">3</property>
+            <property name="top-attach">3</property>
+            <property name="left-attach">1</property>
           </packing>
         </child>
       </object>
+      <packing>
+        <property name="name">alias</property>
+      </packing>
+    </child>
+  </object>
+  <object class="GtkStack" id="add_contact_flow_headers">
+    <property name="can_focus">False</property>
+    <property name="hhomogeneous">True</property>
+    <property name="visible_child_name" bind-source="add_contact_flow_stack" bind-property="visible-child-name" bind-flags="sync-create"/>
+    <property name="transition_duration" bind-source="add_contact_flow_stack" bind-property="transition-duration" bind-flags="sync-create"/>
+    <property name="transition_type" bind-source="add_contact_flow_stack" bind-property="transition-type" bind-flags="sync-create"/>
+    <child>
+      <object class="GtkHeaderBar">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="show_close_button">True</property>
+        <property name="width_request">360</property>
+        <property name="title">Add contact</property>
+        <child>
+          <object class="GtkButton">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <signal name="clicked" handler="on_link_back_pressed"/>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="icon_name">go-previous-symbolic</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="pack_type">start</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="visible">True</property>
+            <property name="use_underline">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">Next</property>
+            <signal name="clicked" handler="on_links_next_pressed"/>
+            <style>
+              <class name="suggested-action"/>
+            </style>
+          </object>
+          <packing>
+            <property name="pack_type">end</property>
+          </packing>
+        </child>
+      </object>
+      <packing>
+        <property name="name">links</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkHeaderBar">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="show_close_button">True</property>
+        <property name="title" translatable="yes">Add contact</property>
+        <child>
+          <object class="GtkButton">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <signal name="clicked" handler="on_alias_back_pressed"/>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="icon_name">go-previous-symbolic</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="pack_type">start</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="visible">True</property>
+            <property name="use_underline">True</property>
+            <property name="can_focus">True</property>
+            <property name="label" translatable="yes">Add contact</property>
+            <signal name="clicked" handler="on_add_contact_pressed"/>
+            <style>
+              <class name="suggested-action"/>
+            </style>
+          </object>
+          <packing>
+            <property name="pack_type">end</property>
+          </packing>
+        </child>
+      </object>
+      <packing>
+        <property name="name">alias</property>
+      </packing>
     </child>
   </object>
 </interface>
-
 

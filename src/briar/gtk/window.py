@@ -63,9 +63,11 @@ class Window(ApplicationWindow):
         self._grid.show()
         self.add(self._grid)
 
-    def _reset_grid(self):
+    def _reset_window(self):
+        self._container.destroy()
         self._grid.destroy()
         self._setup_grid()
+        self._setup_toolbar()
 
     def _setup_toolbar(self):
         self._toolbar = Toolbar()
@@ -81,18 +83,16 @@ class Window(ApplicationWindow):
 
     # pylint: disable=unused-argument
     def show_add_contact(self, widget):
-        self._reset_grid()
         self._setup_add_contact()
 
     def _setup_add_contact(self):
-        self._container = AddContactContainer()
+        self._grid.destroy()
+        self._container = AddContactContainer(self)
         self._container.show()
-        self._grid.add(self._container)
-        self._toolbar.show_back_button(True, self.back_to_main)
-        self._toolbar.show_add_contact_button(False)
+        self.add(self._container)
 
     def open_private_chat(self, contact_id):
-        self._reset_grid()
+        self._reset_window()
         self._setup_private_chat(contact_id)
 
     def _setup_private_chat(self, contact_id):
@@ -104,6 +104,6 @@ class Window(ApplicationWindow):
 
     # pylint: disable=unused-argument
     def back_to_main(self, widget):
-        self._reset_grid()
+        self._reset_window()
         self._toolbar.show_back_button(False)
         self._setup_main_container()

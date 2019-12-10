@@ -38,4 +38,5 @@ class MainContainer(Container):
     # pylint: disable=unused-argument
     @staticmethod
     def _contact_clicked(widget, contact_id):
-        GLib.idle_add(APP().get_property("active_window").open_private_chat, contact_id)
+        GLib.idle_add(APP().get_property("active_window").
+                      open_private_chat, contact_id)

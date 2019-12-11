@@ -15,6 +15,8 @@ class Contacts(Model):
 
     API_ENDPOINT = "contacts/"
 
+    _on_contact_added_callback = None
+
     def add_pending(self, link, alias):
         url = urljoin(BASE_HTTP_URL, self.API_ENDPOINT + "add/" + "pending/")
         _post(url, headers=self._headers, json={"link": link, "alias": alias})
@@ -28,3 +30,12 @@ class Contacts(Model):
         url = urljoin(BASE_HTTP_URL, self.API_ENDPOINT + "add/" + "link/")
         request = _get(url, headers=self._headers).json()
         return request['link']
+
+    def watch_contacts(self, callback):
+        self._on_contact_added_callback = callback
+        self._api.socket_listener.watch("ContactAddedEvent",
+                                        self._on_contact_added)
+
+    # pylint: disable=unused-argument
+    def _on_contact_added(self, event):
+        self._on_contact_added_callback()

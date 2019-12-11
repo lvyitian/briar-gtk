@@ -28,12 +28,12 @@ class ChatContainer(Container):
         chat_entry.connect("key-press-event", self._key_pressed)
 
     def _load_content(self):
-        private_chat = PrivateChat(self._api)
-        messages_list = private_chat.get(self._contact_id)
+        private_chat = PrivateChat(self._api, self._contact_id)
+        messages_list = private_chat.get()
         self._messages_list_box = self.builder.get_object("messages_list")
         for message in messages_list:
             self._add_message(message["text"], message["local"])
-        private_chat.watch_messages(self._contact_id, self._add_message_async)
+        private_chat.watch_messages(self._add_message_async)
 
     def _add_message(self, message, local):
         message_label = Gtk.Label(message)
@@ -52,8 +52,8 @@ class ChatContainer(Container):
             return
         chat_entry = self.builder.get_object("chat_entry")
         message = chat_entry.get_text()
-        private_chat = PrivateChat(self._api)
-        private_chat.send(self._contact_id, message)
+        private_chat = PrivateChat(self._api, self._contact_id)
+        private_chat.send(message)
 
         self._add_message(message, True)
         chat_entry.set_text("")

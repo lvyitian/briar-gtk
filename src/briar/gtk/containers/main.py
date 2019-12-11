@@ -25,15 +25,32 @@ class MainContainer(Container):
         self.builder.connect_signals(self)
 
     def _load_content(self):
-        contacts = Contacts(self._api)
-        contacts_list = contacts.get()
+        self._contacts = Contacts(self._api)
+        self._load_contacts()
+        self._contacts.watch_contacts(self._refresh_contacts_async)
+
+    def _load_contacts(self):
+        contacts_list = self._contacts.get()
         contacts_list_box = self.builder.get_object("contacts_list")
         for contact in contacts_list:
-            contact_button = Gtk.Button(contact["author"]["name"])
+            contact_button = Gtk.Button(contact["alias"])
             contact_button.connect("clicked", MainContainer._contact_clicked,
                                    contact["contactId"])
             contact_button.show()
             contacts_list_box.add(contact_button)
+
+    def _refresh_contacts_async(self):
+        GLib.idle_add(self._refresh_contacts)
+
+    def _refresh_contacts(self):
+        self._clear_contact_list()
+        self._load_contacts()
+
+    def _clear_contact_list(self):
+        contacts_list_box = self.builder.get_object("contacts_list")
+        contacts_list_box_children = contacts_list_box.get_children()
+        for child in contacts_list_box_children:
+            contacts_list_box.remove(child)
 
     # pylint: disable=unused-argument
     @staticmethod

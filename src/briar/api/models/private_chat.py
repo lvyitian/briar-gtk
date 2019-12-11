@@ -15,16 +15,27 @@ class PrivateChat(Model):
 
     API_ENDPOINT = "messages/"
 
-    def get(self, contact_id):
-        url = urljoin(BASE_HTTP_URL, self.API_ENDPOINT + "/%i" % contact_id)
+    _contact_id = 0
+    _on_message_received_callback = None
+
+    def __init__(self, api, contact_id):
+        self._api = api
+        self._initialize_headers()
+        self._contact_id = contact_id
+
+    def get(self):
+        url = urljoin(BASE_HTTP_URL, self.API_ENDPOINT + "/%d" % self._contact_id)
         request = _get(url, headers=self._headers)
         return request.json()
 
-    def watch_messages(self, contact_id, callback):
-        self._api.socket_listener.watch(callback,
-                                        "ConversationMessageReceivedEvent",
-                                        contact_id=contact_id)
+    def watch_messages(self, callback):
+        self._on_message_received_callback = callback
+        self._api.socket_listener.watch("ConversationMessageReceivedEvent",
+                                        self._on_message_received)
 
-    def send(self, contact_id, message):
-        url = urljoin(BASE_HTTP_URL, self.API_ENDPOINT + "/%i" % contact_id)
+    def _on_message_received(self, event):
+        self._on_message_received_callback(event['data'])
+
+    def send(self, message):
+        url = urljoin(BASE_HTTP_URL, self.API_ENDPOINT + "/%i" % self._contact_id)
         _post(url, headers=self._headers, json={"text": message})

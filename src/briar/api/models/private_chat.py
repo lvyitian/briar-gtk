@@ -19,12 +19,12 @@ class PrivateChat(Model):
     _on_message_received_callback = None
 
     def __init__(self, api, contact_id):
-        self._api = api
-        self._initialize_headers()
+        super().__init__(api)
         self._contact_id = contact_id
 
     def get(self):
-        url = urljoin(BASE_HTTP_URL, self.API_ENDPOINT + "/%d" % self._contact_id)
+        url = urljoin(BASE_HTTP_URL,
+                      self.API_ENDPOINT + "/%d" % self._contact_id)
         request = _get(url, headers=self._headers)
         return request.json()
 
@@ -37,5 +37,6 @@ class PrivateChat(Model):
         self._on_message_received_callback(event['data'])
 
     def send(self, message):
-        url = urljoin(BASE_HTTP_URL, self.API_ENDPOINT + "/%i" % self._contact_id)
+        url = urljoin(BASE_HTTP_URL,
+                      self.API_ENDPOINT + "/%i" % self._contact_id)
         _post(url, headers=self._headers, json={"text": message})

@@ -16,23 +16,23 @@ TEST_TEXT = "Hello World"
 
 @requests_mock.Mocker(kw="requests_mock")
 def test_get_empty(api, request_headers, requests_mock):
-    private_chat = PrivateChat(api)
+    private_chat = PrivateChat(api, TEST_CONTACT_ID)
     url = BASE_HTTP_URL % TEST_CONTACT_ID
     response = []
 
     requests_mock.register_uri("GET", url, request_headers=request_headers,
                                text=json.dumps(response))
-    assert private_chat.get(TEST_CONTACT_ID) == response
+    assert private_chat.get() == response
 
 
 @requests_mock.Mocker(kw="requests_mock")
 def test_send_message(api, request_headers, requests_mock):
-    private_chat = PrivateChat(api)
+    private_chat = PrivateChat(api, TEST_CONTACT_ID)
     url = BASE_HTTP_URL % TEST_CONTACT_ID
 
     requests_mock.register_uri("POST", url, request_headers=request_headers,
                                additional_matcher=match_request_send_message)
-    private_chat.send(TEST_CONTACT_ID, TEST_TEXT)
+    private_chat.send(TEST_TEXT)
 
 
 def match_request_send_message(request):

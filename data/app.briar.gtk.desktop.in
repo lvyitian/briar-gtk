@@ -1,5 +1,7 @@
 [Desktop Entry]
 Name=Briar
+Comment=Keeps the information flowing in a crisis
+Keywords=Briar;
 Icon=app.briar.gtk
 Exec=briar-gtk
 Terminal=false

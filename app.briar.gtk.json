@@ -108,8 +108,8 @@
             "builddir": true,
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://code.briarproject.org/nicoalt/briar-gtk.git"
+                    "type": "dir",
+                    "path": "."
                 }
             ]
         }

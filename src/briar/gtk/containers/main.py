@@ -33,7 +33,10 @@ class MainContainer(Container):
         contacts_list = self._contacts.get()
         contacts_list_box = self.builder.get_object("contacts_list")
         for contact in contacts_list:
-            contact_button = Gtk.Button(contact["alias"])
+            name = contact["author"]["name"]
+            if "alias" in contact:
+                name = contact["alias"]
+            contact_button = Gtk.Button(name)
             contact_button.connect("clicked", MainContainer._contact_clicked,
                                    contact["contactId"])
             contact_button.show()

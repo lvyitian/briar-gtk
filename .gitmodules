@@ -1,0 +1,3 @@
+[submodule "python-briar-wrapper"]
+	path = python-briar-wrapper
+	url = https://code.briarproject.org/briar/python-briar-wrapper.git

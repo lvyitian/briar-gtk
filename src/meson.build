@@ -21,5 +21,4 @@ configure_file(
   install_dir: get_option('bindir')
 )
 
-install_subdir('briar/api', install_dir: MODULE_DIR)
 install_subdir('briar/gtk', install_dir: MODULE_DIR)

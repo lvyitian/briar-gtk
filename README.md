@@ -37,6 +37,9 @@ Once you've done this, change the path of the Briar headless
 jar in [src/briar/gtk/define.py](src/briar/gtk/define.py),
 build it with _meson_ and start Briar GTK.
 
+Don't forget to initialize the python-briar-wrapper submodule:
+`git submodule update --init`
+
 ## Design Goals
 
 * Intuitive UI, similar to Briar Android client
@@ -49,30 +52,8 @@ build it with _meson_ and start Briar GTK.
 
 ## FAQ
 
-### I forgot my password.
-
-In case you forgot your password, there's no other way than to delete your old
-account and start from scratch. Call `rm -rf ~/.briar/` to delete your current
-account.
-
-### How can I transfer contacts from my Android device?
-
-By using [_adb_](https://developer.android.com/studio/command-line/adb),
-you can copy the database and keys from a Briar Android installation.
-Note that your smartphone needs to be rooted for this.
-
-You can either use the script at 
-[tools/copy-db-from-android.sh](tools/copy-db-from-android.sh) or do it manually:
-
-1. Start _briar-gtk_ and register a dummy account. This will create
-the needed directory structure at _~/.briar/_. Close the program afterwards.
-2. Enable _adb_ on your smartphone and give it root permissions.
-3. Connect via _adb_ and gain root permissions using `adb root`.
-4. Copy all important files using `adb pull`:
-_/data/data/org.briarproject.briar.android/app_db/db.mv.db_,
-_/data/data/org.briarproject.briar.android/app_key/db.key_,
-_/data/data/org.briarproject.briar.android/app_key/db.key.bak_
-5. Replace the respecting files in _~/.briar/db_ and _~/.briar/key_.
+Take a look at
+[the FAQ of python-briar-wrapper](https://code.briarproject.org/briar/python-briar-wrapper/blob/master/README.md#faq).
 
 ## License
 

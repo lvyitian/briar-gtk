@@ -100,6 +100,74 @@
             ]
         },
         {
+	    "name": "python3-flit",
+	    "buildsystem": "simple",
+	    "build-commands": [
+		"pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} flit"
+	    ],
+	    "sources": [
+		{
+		    "type": "file",
+		    "url": "https://files.pythonhosted.org/packages/22/cd/a6aa959dca619918ccb55023b4cb151949c64d4d5d55b3f4ffd7eee0c6e8/docutils-0.15.2-py3-none-any.whl",
+		    "sha256": "6c4f696463b79f1fb8ba0c594b63840ebd41f059e92b31957c46b74a4599b6d0"
+		},
+		{
+		    "type": "file",
+		    "url": "https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl",
+		    "sha256": "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"
+		},
+		{
+		    "type": "file",
+		    "url": "https://files.pythonhosted.org/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-none-any.whl",
+		    "sha256": "9cf5292fcd0f598c671cfc1e0d7d1a7f13bb8085e9a590f48c010551dc6c4b31"
+		},
+		{
+		    "type": "file",
+		    "url": "https://files.pythonhosted.org/packages/b9/63/df50cac98ea0d5b006c55a399c3bf1db9da7b5a24de7890bc9cfd5dd9e99/certifi-2019.11.28-py2.py3-none-any.whl",
+		    "sha256": "017c25db2a153ce562900032d5bc68e9f191e44e9a0f762f373977de9df1fbb3"
+		},
+		{
+		    "type": "file",
+		    "url": "https://files.pythonhosted.org/packages/a5/47/c7f8a0f210ad18576840922e0b504f0b7f5f73aea4a52ab14c5b58517edf/pytoml-0.1.21-py2.py3-none-any.whl",
+		    "sha256": "57a21e6347049f73bfb62011ff34cd72774c031b9828cb628a752225136dfc33"
+		},
+		{
+		    "type": "file",
+		    "url": "https://files.pythonhosted.org/packages/b4/40/a9837291310ee1ccc242ceb6ebfd9eb21539649f193a7c8c86ba15b98539/urllib3-1.25.7-py2.py3-none-any.whl",
+		    "sha256": "a8a318824cc77d1fd4b2bec2ded92646630d7fe8619497b142c84a9e6f5a7293"
+		},
+		{
+		    "type": "file",
+		    "url": "https://files.pythonhosted.org/packages/8f/7c/00228e4b1c1a4d118f71157063f35f6dad3150b1a10aca99517ec347726d/flit-2.1.0-py3-none-any.whl",
+		    "sha256": "494e0806840fe896fe31ce2a413583115324f12177ecaf7427f157caa9b9c5b2"
+		},
+		{
+		    "type": "file",
+		    "url": "https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl",
+		    "sha256": "ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"
+		},
+		{
+		    "type": "file",
+		    "url": "https://files.pythonhosted.org/packages/b6/b0/50719ef7d12cd39ccfa4e48abb593764c8e4a6d0d9bdf7815be1949142ff/flit_core-2.1.0-py2.py3-none-any.whl",
+		    "sha256": "c6dff661e9e290d51084cefc38b0971d692290e8a352d0b6cec6006be764b4d1"
+		}
+	    ]
+	},
+        {
+            "name": "briar-wrapper",
+            "buildsystem": "simple",
+            "build-commands": [
+                "PIP_PREFIX=${FLATPAK_DEST} flit install --env",
+            	"pip3 uninstall -y flit"
+            ],
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": "python-briar-wrapper"
+                }
+            ]
+        },
+        {
             "name": "briar-gtk",
             "buildsystem": "meson",
             "config-opts": [

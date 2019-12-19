@@ -4,7 +4,7 @@
 
 from unittest.mock import Mock
 
-from briar.api.api import Api
+from briar_wrapper.api import Api
 from briar.gtk.application import Application
 from briar.gtk.define import APPLICATION_NAME, APPLICATION_STYLING_PATH
 from briar.gtk.define import BRIAR_HEADLESS_JAR
@@ -35,8 +35,8 @@ def test_do_activate(mocker):
 
 
 def test_quit(mocker):
-    api_mock = mocker.patch("briar.api.api.Api")
-    api_stop_mock = mocker.patch("briar.api.api.Api.stop")
+    api_mock = mocker.patch("briar_wrapper.api.Api")
+    api_stop_mock = mocker.patch("briar_wrapper.api.Api.stop")
     window_mock = mocker.patch("briar.gtk.window.Window")
     window_hide_mock = mocker.patch("briar.gtk.window.Window.hide")
     quit_mock = mocker.patch("gi.repository.Gio.Application.quit")

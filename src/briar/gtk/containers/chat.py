@@ -4,7 +4,7 @@
 
 from gi.repository import GLib, Gtk
 
-from briar.api.models.private_chat import PrivateChat
+from briar_wrapper.models.private_chat import PrivateChat
 from briar.gtk.container import Container
 from briar.gtk.define import APP
 

@@ -6,7 +6,7 @@ from gettext import gettext as _
 
 from gi.repository import GLib
 
-from briar.api.models.contacts import Contacts
+from briar_wrapper.models.contacts import Contacts
 from briar.gtk.container import Container
 from briar.gtk.define import APP
 

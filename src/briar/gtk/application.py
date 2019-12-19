@@ -8,7 +8,7 @@
 
 from gi.repository import Gdk, Gio, GLib, Gtk
 
-from briar.api.api import Api
+from briar_wrapper.api import Api
 
 from briar.gtk.define import APPLICATION_ID, APPLICATION_NAME
 from briar.gtk.define import APPLICATION_STYLING_PATH, BRIAR_HEADLESS_JAR

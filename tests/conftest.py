@@ -27,5 +27,5 @@ def auth_token():
 def request_headers(auth_token):
     request_headers = {
         "Authorization": 'Bearer %s' % auth_token
-        }
+    }
     return request_headers

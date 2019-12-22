@@ -7,4 +7,5 @@
 disable=attribute-defined-outside-init,
 	duplicate-code,
 	fixme,
-        missing-docstring
+        missing-docstring,
+        wrong-import-position

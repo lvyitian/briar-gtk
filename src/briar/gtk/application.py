@@ -6,6 +6,9 @@
 # Initial version based on GNOME Lollypop
 # https://gitlab.gnome.org/World/lollypop/blob/1.0.2/lollypop/application.py
 
+import gi
+gi.require_version('Gdk', '3.0')
+gi.require_version('Gtk', '3.0')
 from gi.repository import Gdk, Gio, GLib, Gtk
 
 from briar_wrapper.api import Api

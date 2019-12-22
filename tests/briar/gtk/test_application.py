@@ -4,6 +4,8 @@
 
 from unittest.mock import Mock
 
+import pytest
+
 from briar_wrapper.api import Api
 from briar.gtk.application import Application
 from briar.gtk.define import APPLICATION_NAME, APPLICATION_STYLING_PATH
@@ -137,3 +139,8 @@ def test_setup_window_has_none_attribute(mocker):
 
     window_show_mock.assert_called_once()
     window_present_mock.assert_called_once()
+
+
+@pytest.fixture(autouse=True)
+def glib_set_application_name(mocker):
+    mocker.patch("gi.repository.GLib.set_application_name")

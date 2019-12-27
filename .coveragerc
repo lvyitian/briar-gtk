@@ -4,4 +4,4 @@
 
 [run]
 omit =
-    src/meson_post_install.py
+    briar-gtk/meson_post_install.py

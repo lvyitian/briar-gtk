@@ -52,7 +52,26 @@ Don't forget to initialize the briar-wrapper submodule:
 
 ## FAQ
 
-Take a look at
+### How can I run this on the Librem 5?
+
+Whether you own a Librem 5 or
+[set up an emulator](https://developer.puri.sm/Librem5/Development_Environment/Boards/emulators.html),
+you can install Briar GTK easily using Flatpak.
+
+Before you start, you have to install some dependencies:
+
+```bash
+sudo apt install flatpak-builder elfutils
+```
+
+You can then simply
+[follow the instructions from above](#developers).
+Note that you currently don't get beyond the setup screen
+because Briar Headless only works on x86 platforms so far.
+
+---
+
+For more questions, take a look at
 [the FAQ of python-briar-wrapper](https://code.briarproject.org/briar/python-briar-wrapper/blob/master/README.md#faq).
 
 ## License

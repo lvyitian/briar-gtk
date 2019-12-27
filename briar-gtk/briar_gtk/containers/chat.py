@@ -5,8 +5,9 @@
 from gi.repository import GLib, Gtk
 
 from briar_wrapper.models.private_chat import PrivateChat
-from briar.gtk.container import Container
-from briar.gtk.define import APP
+
+from briar_gtk.container import Container
+from briar_gtk.define import APP
 
 
 class ChatContainer(Container):

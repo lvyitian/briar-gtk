@@ -3,7 +3,9 @@
 # License-Filename: LICENSE.md
 
 PACKAGE_DATA_DIR = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
-MODULE_DIR = join_paths(PACKAGE_DATA_DIR, 'briar')
+
+subdir('data')
+subdir('po')
 
 python3 = import('python3')
 
@@ -21,4 +23,6 @@ configure_file(
   install_dir: get_option('bindir')
 )
 
-install_subdir('briar/gtk', install_dir: MODULE_DIR)
+install_subdir('briar_gtk', install_dir: PACKAGE_DATA_DIR)
+
+meson.add_install_script('meson_post_install.py')

@@ -7,18 +7,19 @@ from unittest.mock import Mock
 import pytest
 
 from briar_wrapper.api import Api
-from briar.gtk.application import Application
-from briar.gtk.define import APPLICATION_NAME, APPLICATION_STYLING_PATH
-from briar.gtk.define import BRIAR_HEADLESS_JAR
-from briar.gtk.window import Window
+
+from briar_gtk.application import Application
+from briar_gtk.define import APPLICATION_NAME, APPLICATION_STYLING_PATH
+from briar_gtk.define import BRIAR_HEADLESS_JAR
+from briar_gtk.window import Window
 
 
 def test_do_startup(mocker):
     do_startup_mock = mocker.patch("gi.repository.Gtk.Application.do_startup")
     _setup_styling_mock = mocker.patch(
-        "briar.gtk.application.Application._setup_styling")
+        "briar_gtk.application.Application._setup_styling")
     _setup_api_mock = mocker.patch(
-        "briar.gtk.application.Application._setup_api")
+        "briar_gtk.application.Application._setup_api")
 
     Application().do_startup()
 
@@ -29,7 +30,7 @@ def test_do_startup(mocker):
 
 def test_do_activate(mocker):
     _setup_window_mock = mocker.patch(
-        "briar.gtk.application.Application._setup_window")
+        "briar_gtk.application.Application._setup_window")
 
     Application().do_activate()
 
@@ -39,8 +40,8 @@ def test_do_activate(mocker):
 def test_quit(mocker):
     api_mock = mocker.patch("briar_wrapper.api.Api")
     api_stop_mock = mocker.patch("briar_wrapper.api.Api.stop")
-    window_mock = mocker.patch("briar.gtk.window.Window")
-    window_hide_mock = mocker.patch("briar.gtk.window.Window.hide")
+    window_mock = mocker.patch("briar_gtk.window.Window")
+    window_hide_mock = mocker.patch("briar_gtk.window.Window.hide")
     quit_mock = mocker.patch("gi.repository.Gio.Application.quit")
 
     application = Application()
@@ -105,9 +106,9 @@ def test_setup_api(mocker):
 
 
 def test_setup_window(mocker):
-    mocker.patch("briar.gtk.window.Window.__init__").return_value = None
-    window_show_mock = mocker.patch("briar.gtk.window.Window.show")
-    window_present_mock = mocker.patch("briar.gtk.window.Window.present")
+    mocker.patch("briar_gtk.window.Window.__init__").return_value = None
+    window_show_mock = mocker.patch("briar_gtk.window.Window.show")
+    window_present_mock = mocker.patch("briar_gtk.window.Window.present")
 
     Application()._setup_window()
 
@@ -116,7 +117,7 @@ def test_setup_window(mocker):
 
 
 def test_setup_window_has_attribute(mocker):
-    mocker.patch("briar.gtk.window.Window.__init__").return_value = None
+    mocker.patch("briar_gtk.window.Window.__init__").return_value = None
     window_mock = Mock()
 
     application = Application()
@@ -129,9 +130,9 @@ def test_setup_window_has_attribute(mocker):
 
 
 def test_setup_window_has_none_attribute(mocker):
-    mocker.patch("briar.gtk.window.Window.__init__").return_value = None
-    window_show_mock = mocker.patch("briar.gtk.window.Window.show")
-    window_present_mock = mocker.patch("briar.gtk.window.Window.present")
+    mocker.patch("briar_gtk.window.Window.__init__").return_value = None
+    window_show_mock = mocker.patch("briar_gtk.window.Window.show")
+    window_present_mock = mocker.patch("briar_gtk.window.Window.present")
 
     application = Application()
 

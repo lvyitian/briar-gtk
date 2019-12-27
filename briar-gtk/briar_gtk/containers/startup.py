@@ -2,10 +2,10 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from briar.gtk.container import Container
-from briar.gtk.containers.login import LoginContainer
-from briar.gtk.containers.registration import RegistrationContainer
-from briar.gtk.define import APP
+from briar_gtk.container import Container
+from briar_gtk.containers.login import LoginContainer
+from briar_gtk.containers.registration import RegistrationContainer
+from briar_gtk.define import APP
 
 
 class StartupContainer(Container):

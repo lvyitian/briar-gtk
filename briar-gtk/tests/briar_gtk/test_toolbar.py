@@ -5,14 +5,14 @@
 import pytest
 from unittest.mock import Mock
 
-from briar.gtk.toolbar import Toolbar
+from briar_gtk.toolbar import Toolbar
 
 
 def test_show_back_button(mocker):
     get_object_mock = mocker.patch("gi.repository.Gtk.Builder.get_object")
     back_button_mock = get_object_mock.return_value
     callback = Mock()
-    mocker.patch("briar.gtk.toolbar.Toolbar._setup_toolbar")
+    mocker.patch("briar_gtk.toolbar.Toolbar._setup_toolbar")
 
     Toolbar().show_back_button(True, callback)
 
@@ -25,7 +25,7 @@ def test_show_back_button(mocker):
 def test_show_back_button_without_callback(mocker):
     get_object_mock = mocker.patch("gi.repository.Gtk.Builder.get_object")
     back_button_mock = get_object_mock.return_value
-    mocker.patch("briar.gtk.toolbar.Toolbar._setup_toolbar")
+    mocker.patch("briar_gtk.toolbar.Toolbar._setup_toolbar")
 
     with pytest.raises(Exception,
                        match="Callback needed when showing back button"):
@@ -40,7 +40,7 @@ def test_show_back_button_without_callback(mocker):
 def test_hide_back_button(mocker):
     get_object_mock = mocker.patch("gi.repository.Gtk.Builder.get_object")
     back_button_mock = get_object_mock.return_value
-    mocker.patch("briar.gtk.toolbar.Toolbar._setup_toolbar")
+    mocker.patch("briar_gtk.toolbar.Toolbar._setup_toolbar")
 
     Toolbar().show_back_button(False)
 

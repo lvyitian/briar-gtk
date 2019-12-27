@@ -8,7 +8,7 @@
 
 from gi.repository import Gtk
 
-from briar.gtk.define import APPLICATION_NAME
+from briar_gtk.define import APPLICATION_NAME
 
 
 class Toolbar(Gtk.HeaderBar):

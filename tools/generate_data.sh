@@ -11,14 +11,14 @@ function generate_resource()
     echo '<?xml version="1.0" encoding="UTF-8"?>'
     echo '<gresources>'
     echo '  <gresource prefix="/app/briar/gtk">'
-    for file in data/ui/*.css
+    for file in briar-gtk/data/ui/*.css
     do
         echo -n '    <file compressed="true">'
         echo -n 'ui/'
         echo -n $(basename $file)
         echo '</file>'
     done
-    for file in data/ui/*.ui
+    for file in briar-gtk/data/ui/*.ui
     do
         echo -n '    <file compressed="true" preprocess="xml-stripblanks">'
         echo -n 'ui/'
@@ -31,10 +31,10 @@ function generate_resource()
 
 function generate_po()
 {
-    cd po
+    cd briar-gtk/po
     # git pull https://www.transifex.com/otf/briar/
     >briar-gtk.pot
-    for file in ../data/app.briar.gtk.gschema.xml ../data/ui/*.ui $(find "../src/briar" -name '*.py');
+    for file in ../data/app.briar.gtk.gschema.xml ../data/ui/*.ui $(find "../briar_gtk" -name '*.py');
     do
         xgettext --from-code=UTF-8 -j $file -o briar-gtk.pot
     done
@@ -48,5 +48,5 @@ function generate_po()
     done
 }
 
-generate_resource > data/ui/app.briar.gtk.gresource.xml
+generate_resource > briar-gtk/data/ui/app.briar.gtk.gresource.xml
 generate_po

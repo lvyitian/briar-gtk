@@ -6,8 +6,8 @@ from gettext import gettext as _
 
 from gi.repository import GLib
 
-from briar.gtk.container import Container
-from briar.gtk.define import APP
+from briar_gtk.container import Container
+from briar_gtk.define import APP
 
 
 class RegistrationContainer(Container):

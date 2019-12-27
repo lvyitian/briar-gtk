@@ -47,7 +47,7 @@ def prepare():
     prepare_resource()
 
 def start_application():
-    from briar.gtk.application import Application
+    from briar_gtk.application import Application
     sys.exit(Application().run(sys.argv))
 
 if __name__ == '__main__':

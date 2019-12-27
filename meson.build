@@ -10,8 +10,4 @@ project(
 
 i18n = import('i18n')
 
-subdir('data')
-subdir('src')
-subdir('po')
-
-meson.add_install_script('src/meson_post_install.py')
+subdir('briar-gtk')

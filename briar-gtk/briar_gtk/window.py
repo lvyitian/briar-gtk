@@ -4,12 +4,12 @@
 
 from gi.repository.Gtk import ApplicationWindow, Grid
 
-from briar.gtk.containers.add_contact import AddContactContainer
-from briar.gtk.containers.chat import ChatContainer
-from briar.gtk.containers.main import MainContainer
-from briar.gtk.containers.startup import StartupContainer
-from briar.gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
-from briar.gtk.toolbar import Toolbar
+from briar_gtk.containers.add_contact import AddContactContainer
+from briar_gtk.containers.chat import ChatContainer
+from briar_gtk.containers.main import MainContainer
+from briar_gtk.containers.startup import StartupContainer
+from briar_gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
+from briar_gtk.toolbar import Toolbar
 
 
 class Window(ApplicationWindow):

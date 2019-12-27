@@ -13,9 +13,9 @@ from gi.repository import Gdk, Gio, GLib, Gtk
 
 from briar_wrapper.api import Api
 
-from briar.gtk.define import APPLICATION_ID, APPLICATION_NAME
-from briar.gtk.define import APPLICATION_STYLING_PATH, BRIAR_HEADLESS_JAR
-from briar.gtk.window import Window
+from briar_gtk.define import APPLICATION_ID, APPLICATION_NAME
+from briar_gtk.define import APPLICATION_STYLING_PATH, BRIAR_HEADLESS_JAR
+from briar_gtk.window import Window
 
 
 class Application(Gtk.Application):

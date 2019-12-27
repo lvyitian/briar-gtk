@@ -6,7 +6,7 @@
 _Warning: This is still in a very early state and should be considered as prototype._
 
 A simple GTK app for [Briar](https://briar.app), built with Python and GNOME Builder.
-It uses the
+It uses [python-briar-wrapper](https://code.briarproject.org/briar/python-briar-wrapper) and the
 [Briar REST API](https://code.briarproject.org/briar/briar/blob/master/briar-headless/README.md)
 and therefore requires Java.
 
@@ -37,7 +37,7 @@ Once you've done this, change the path of the Briar headless
 jar in [src/briar/gtk/define.py](src/briar/gtk/define.py),
 build it with _meson_ and start Briar GTK.
 
-Don't forget to initialize the python-briar-wrapper submodule:
+Don't forget to initialize the briar-wrapper submodule:
 `git submodule update --init`
 
 ## Design Goals

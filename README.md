@@ -34,7 +34,7 @@ For this, you have to install Java, the
 [Python dependencies](requirements.txt) and
 [Briar headless](https://code.briarproject.org/briar/briar/blob/master/briar-headless/README.md).
 Once you've done this, change the path of the Briar headless
-jar in [src/briar/gtk/define.py](src/briar/gtk/define.py),
+jar in [briar_gtk.define](briar-gtk/briar_gtk/define.py),
 build it with _meson_ and start Briar GTK.
 
 Don't forget to initialize the briar-wrapper submodule:

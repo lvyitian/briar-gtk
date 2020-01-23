@@ -35,7 +35,7 @@ class Application(Gtk.Application):
         self._setup_window()
 
     # pylint: disable=arguments-differ
-    def quit(self):
+    def do_shutdown(self):
         self.api.stop()
         self._window.hide()
         Gio.Application.quit(self)

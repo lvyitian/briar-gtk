@@ -18,9 +18,8 @@ class AddContactContainer(Container):
     STACK_NAME = "add_contact_flow_stack"
     HEADERS_NAME = "add_contact_flow_headers"
 
-    def __init__(self, window):
+    def __init__(self):
         super().__init__()
-        self._window = window
         self._setup_view()
         self._load_content()
 
@@ -45,7 +44,7 @@ class AddContactContainer(Container):
     def _setup_add_contact_flow_headers(self):
         add_contact_flow_headers = self.builder.get_object(self.HEADERS_NAME)
         add_contact_flow_headers.show_all()
-        self._window.set_titlebar(add_contact_flow_headers)
+        APP().window.set_titlebar(add_contact_flow_headers)
 
     def _setup_link_keystroke_listener(self):
         their_link_entry = self.builder.get_object("their_link_entry")
@@ -136,5 +135,6 @@ class AddContactContainer(Container):
         alias = self.builder.get_object("alias_entry").get_text()
         contacts.add_pending(their_link, alias)
 
+    # pylint: disable=no-self-use
     def _back_to_main_window(self):
-        GLib.idle_add(self._window.back_to_main, None)
+        GLib.idle_add(APP().window.show_main_container)

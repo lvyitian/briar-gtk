@@ -37,8 +37,8 @@ class Application(Gtk.Application):
     # pylint: disable=arguments-differ
     def do_shutdown(self):
         self.api.stop()
-        self._window.hide()
-        Gio.Application.quit(self)
+        self.window.hide()
+        Gio.Application.do_shutdown(self)
 
     @staticmethod
     def _set_application_name(name):
@@ -61,7 +61,7 @@ class Application(Gtk.Application):
 
     # pylint: disable=access-member-before-definition
     def _setup_window(self):
-        if not hasattr(self, "_window") or self._window is None:
-            self._window = Window()
-            self._window.show()
-        self._window.present()
+        if not hasattr(self, "window") or self.window is None:
+            self.window = Window()
+            self.window.show()
+        self.window.present()

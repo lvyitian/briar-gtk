@@ -42,17 +42,18 @@ def test_quit(mocker):
     api_stop_mock = mocker.patch("briar_wrapper.api.Api.stop")
     window_mock = mocker.patch("briar_gtk.window.Window")
     window_hide_mock = mocker.patch("briar_gtk.window.Window.hide")
-    quit_mock = mocker.patch("gi.repository.Gio.Application.quit")
+    do_shutdown_mock = mocker.patch(
+        "gi.repository.Gio.Application.do_shutdown")
 
     application = Application()
     application.api = api_mock
-    application._window = window_mock
+    application.window = window_mock
 
-    application.quit()
+    application.do_shutdown()
 
     api_stop_mock.assert_called_once()
     window_hide_mock.assert_called_once()
-    quit_mock.assert_called_once()
+    do_shutdown_mock.assert_called_once()
 
 
 def test_set_application_name(mocker):
@@ -121,7 +122,7 @@ def test_setup_window_has_attribute(mocker):
     window_mock = Mock()
 
     application = Application()
-    application._window = window_mock
+    application.window = window_mock
 
     application._setup_window()
 

@@ -1,22 +1,452 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright (c) 2019 Nico Alt
+  Copyright (c) 2019 - 2020 Nico Alt
   SPDX-License-Identifier: AGPL-3.0-only
   License-Filename: LICENSE.md
+
+  Based on parts of GNOME Fractal
+  https://gitlab.gnome.org/GNOME/fractal/blob/4.2.2/fractal-gtk/res/ui/main_window.ui
 -->
 <interface>
-  <requires lib="gtk+" version="3.20"/>
-  <object class="GtkListBox" id="contacts_list">
-    <property name="visible">True</property>
+  <requires lib="gtk+" version="3.22"/>
+  <object class="GtkStack" id="main_window_stack">
     <property name="can_focus">False</property>
-    <property name="halign">center</property>
-    <property name="valign">center</property>
-    <property name="margin_left">18</property>
-    <property name="margin_right">18</property>
-    <property name="margin_top">18</property>
-    <property name="margin_bottom">18</property>
-    <property name="hexpand">True</property>
+    <property name="hhomogeneous">False</property>
+    <child>
+      <object class="HdyLeaflet" id="main_window_leaflet">
+        <property name="child-transition-duration" bind-source="header_leaflet" bind-property="child-transition-duration" bind-flags="bidirectional|sync-create"/>
+        <property name="transition-type" bind-source="header_leaflet" bind-property="transition-type" bind-flags="bidirectional|sync-create"/>
+        <property name="mode-transition-duration" bind-source="header_leaflet" bind-property="mode-transition-duration" bind-flags="bidirectional|sync-create"/>
+        <property name="visible-child-name" bind-source="header_leaflet" bind-property="visible-child-name" bind-flags="bidirectional|sync-create"/>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="hhomogeneous-folded">True</property>
+        <child>
+          <object class="GtkBox" id="sidebar_box">
+            <property name="width_request">200</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">fill</property>
+            <property name="hexpand">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkScrolledWindow">
+                <property name="width_request">200</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="hscrollbar_policy">never</property>
+                <child>
+                  <object class="GtkViewport">
+                    <property name="width_request">200</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="shadow_type">none</property>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="orientation">vertical</property>
+                        <child>
+                          <object class="GtkListBox" id="contacts_list_box">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="halign">fill</property>
+                            <property name="valign">center</property>
+                          </object>
+                        </child>
+                        <style>
+                          <class name="sidebar"/>
+                        </style>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="name">sidebar</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkSeparator" id="content_separator">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <style>
+                <class name="sidebar"/>
+            </style>
+          </object>
+        </child>
+        <child>
+          <object class="GtkOverlay" id="main_content_container">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkStack" id="main_content_stack">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkBox">
+                    <property name="name">room</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="orientation">vertical</property>
+                        <child>
+                          <object class="GtkBox" id="history_container">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                          </object>
+                          <packing>
+                            <property name="expand">True</property>
+                            <property name="fill">True</property>
+                            <property name="position">1</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="visible">True</property>
+                            <child>
+                              <object class="GtkEntry" id="chat_entry">
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="placeholder_text" translatable="yes" context="chat page: input field">Type Message</property>
+                                <property name="show_emoji_icon">True</property>
+                              </object>
+                              <packing>
+                                <property name="expand">True</property>
+                                <property name="fill">True</property>
+                              </packing>
+                            </child>
+                            <style>
+                              <class name="message-input-area" />
+                            </style>
+                          </object>
+                        </child>
+                      </object>
+                      <packing>
+                        <property name="expand">True</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="name">chat_view</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <property name="margin_bottom">30</property>
+                    <property name="halign">center</property>
+                    <property name="valign">center</property>
+                    <child>
+                      <object class="GtkImage">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="margin_bottom">16</property>
+                        <property name="pixel_size">128</property>
+                        <property name="icon_name">app.briar.gtk</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="label" translatable="yes">No contact selected</property>
+                        <property name="margin_bottom">3</property>
+                        <property name="justify">center</property>
+                        <attributes>
+                          <attribute name="weight" value="bold"/>
+                        </attributes>
+                        <style>
+                          <class name="chat-placeholder-title"/>
+                        </style>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="label" translatable="yes">Select a contact to start chatting</property>
+                        <property name="justify">center</property>
+                        <style>
+                          <class name="chat-placeholder-description"/>
+                        </style>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="name">chat_placeholder</property>
+                    <property name="position">2</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="index">-1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="name">main_content</property>
+          </packing>
+        </child>
+      </object>
+      <packing>
+        <property name="name">chat</property>
+      </packing>
+    </child>
+  </object>
+  <object class="HdyTitleBar" id="headerbar_stack_holder">
+    <property name="visible">True</property>
+    <child>
+      <object class="GtkStack" id="headerbar_stack">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="hexpand">True</property>
+        <property name="hhomogeneous">False</property>
+        <child>
+          <object class="HdyLeaflet" id="header_leaflet"> <!--message view-->
+            <property name="visible">True</property>
+            <property name="transition-type">slide</property>
+            <property name="hhomogeneous-folded">True</property>
+            <child>
+              <object class="GtkHeaderBar" id="left-header"> <!--left titlebar-->
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="halign">fill</property>
+                <property name="show-close-button">True</property>
+                <child>
+                  <object class="GtkMenuButton" id="add_room_menu">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="action_name">win.open-add-contact</property>
+                    <child>
+                      <object class="GtkImage">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="icon_name">list-add-symbolic</property>
+                      </object>
+                    </child>
+                    <accessibility>
+
+                    </accessibility>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="a11y-add_room_menu">
+                        <property name="AtkObject::accessible_name" translatable="yes">Add</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="pack_type">start</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">sidebar</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkSeparator" id="header_separator">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="orientation">vertical</property>
+                <style>
+                  <class name="sidebar"/>
+                </style>
+              </object>
+            </child>
+            <child>
+              <object class="GtkHeaderBar" id="room_header_bar"> <!--right titlebar-->
+                <property name="show-close-button">True</property>
+                <property name="has-subtitle">False</property>
+                <property name="hexpand">true</property>
+                <property name="width-request">360</property>
+                <child>
+                  <object class="GtkRevealer">
+                    <property name="reveal-child" bind-source="header_leaflet" bind-property="folded" bind-flags="sync-create"/>
+                    <property name="transition-duration" bind-source="header_leaflet" bind-property="mode-transition-duration" bind-flags="bidirectional|sync-create"/>
+                    <property name="transition-type">crossfade</property>
+                    <property name="visible">True</property>
+                    <child>
+                      <object class="GtkButton" id="leaflet_back_button">
+                        <property name="action_name">win.back-to-sidebar</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <child>
+                          <object class="GtkImage">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="icon_name">go-previous-symbolic</property>
+                          </object>
+                        </child>
+                        <accessibility>
+
+                        </accessibility>
+                        <child internal-child="accessible">
+                          <object class="AtkObject" id="a11y-leaflet_back_button">
+                            <property name="AtkObject::accessible_name" translatable="yes">Back</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child type="title">
+                  <object class="GtkScrolledWindow">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="hexpand">True</property>
+                    <property name="hscrollbar_policy">never</property>
+                    <property name="vscrollbar_policy">never</property>
+                    <property name="propagate_natural_height">True</property>
+                    <property name="propagate_natural_width">False</property>
+                    <child>
+                      <object class="GtkBox" id="room_info">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="orientation">vertical</property>
+                        <child>
+                          <object class="GtkLabel" id="room_name">
+                            <property name="can_focus">False</property>
+                            <!-- Translators: This string is replaced not user-visible -->
+                            <property name="label">Room name</property>
+                            <property name="ellipsize">end</property>
+                            <style>
+                              <class name="title"/>
+                            </style>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">True</property>
+                            <property name="position">0</property>
+                          </packing>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="name">main_content</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="name">normal</property>
+            <property name="title">normal</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkHeaderBar">
+                <property name="can_focus">False</property>
+                <property name="show-close-button">True</property>
+                <property name="title">Briar</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="name">loading</property>
+            <property name="title">loading</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="HdyHeaderBar">
+                <property name="can_focus">False</property>
+                <property name="show_close_button">True</property>
+                <property name="width_request">360</property>
+                <property name="centering_policy">HDY_CENTERING_POLICY_STRICT</property>
+                <child>
+                  <object class="GtkButton" id="back_button">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="action_name">app.back</property>
+                    <child>
+                      <object class="GtkImage">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="icon_name">go-previous-symbolic</property>
+                      </object>
+                    </child>
+                    <child internal-child="accessible">
+                      <object class="AtkObject" id="back_button-atkobject">
+                        <property name="AtkObject::accessible-name" translatable="yes">Back</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="name">back</property>
+            <property name="title" translatable="yes">Back</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+
+<!-- Synchronize left header and sidebar -->
+  <object class="GtkSizeGroup">
+    <property name="mode">horizontal</property>
+    <widgets>
+      <widget name="left-header"/>
+      <widget name="sidebar_box"/>
+    </widgets>
+  </object>
+  <object class="GtkSizeGroup">
+    <property name="mode">horizontal</property>
+    <widgets>
+      <widget name="main_content_container"/>
+      <widget name="room_header_bar"/>
+    </widgets>
+  </object>
+  <object class="GtkSizeGroup">
+    <property name="mode">horizontal</property>
+    <widgets>
+      <widget name="header_separator"/>
+      <widget name="content_separator"/>
+    </widgets>
+  </object>
+  <object class="HdyHeaderGroup">
+    <headerbars>
+      <headerbar name="left-header"/>
+      <headerbar name="room_header_bar"/>
+    </headerbars>
   </object>
 </interface>
-
 

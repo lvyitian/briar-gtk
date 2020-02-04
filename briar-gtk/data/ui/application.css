@@ -1,4 +1,87 @@
+/**
+  Copyright (c) 2019 - 2020 Nico Alt
+  SPDX-License-Identifier: AGPL-3.0-only
+  License-Filename: LICENSE.md
+
+  Based on parts of GNOME Fractal
+  https://gitlab.gnome.org/GNOME/fractal/blob/4.2.2/fractal-gtk/res/app.css
+**/
+
+/** Dialog like windows **/
+
 .error-label {
   color: @error_color;
+}
+
+/** Main window **/
+
+.messages-box {
+  background-color: @theme_base_color;
+}
+
+.messages-history {
+  background-color: @theme_base_color;
+  padding: 0 18px 18px;
+}
+
+.history-view {
+  background-color: @theme_base_color;
+}
+
+.messages-history > row:not(.msg-mention) {
+  padding: 6px 9px;
+}
+
+.scroll_button {
+  border-radius: 9999px;
+  -gtk-outline-radius: 9999px;
+}
+
+.message-input-area {
+  padding: 6px;
+}
+
+.message-input-focused {
+  border: 2px solid @theme_selected_bg_color;
+  padding: 5px;
+}
+
+.messages-scroll {
+  background-color: @theme_base_color;
+  border-bottom: 1px solid @borders;
+}
+
+.chat-placeholder-title {
+  font-size: larger;
+  opacity: 0.5;
+}
+
+.chat-placeholder-description {
+  font-size: smaller;
+  opacity: 0.5;
+}
+
+row .username {
+  font-weight: bold;
+  font-size: small;
+}
+
+row .username,
+row.msg-emote,
+.divider {
+  color: @theme_selected_bg_color;
+}
+
+row .timestamp {
+  font-size: small;
+}
+
+/** Sidebar **/
+.room-row {
+  padding: 6px 6px;
+}
+
+.sidebar {
+  border: none;
 }
 

@@ -124,7 +124,7 @@ class RegistrationContainer(Container):
     def _registration_completed(self, succeeded):
         function = self._registration_failed
         if succeeded:
-            function = self._window.on_startup_completed
+            function = self._window.show_main_container
         GLib.idle_add(function)
 
     def _registration_failed(self):

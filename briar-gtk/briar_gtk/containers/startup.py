@@ -19,5 +19,4 @@ class StartupContainer(Container):
         if APP().api.has_account():
             container = LoginContainer(window)
 
-        container.show()
         self.add(container)

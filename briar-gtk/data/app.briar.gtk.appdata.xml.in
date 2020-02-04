@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>app.briar.gtk</id>
   <metadata_license>CC-BY-4.0</metadata_license>
   <project_license>AGPL-3.0-only</project_license>
-  <summary>Keeps the information flowing in a crisis</summary>
+
+  <name>Briar</name>
+  <summary>Secure messaging, anywhere</summary>
+
   <description>
     <p>
       Briar is a messaging app designed for activists, journalists, and anyone
@@ -16,4 +19,18 @@
       surveillance.
     </p>
   </description>
+
+  <launchable type="desktop-id">app.briar.gtk.desktop</launchable>
+
+  <url type="homepage">https://code.briarproject.org/briar/briar-gtk</url>
+  <url type="bugtracker">https://code.briarproject.org/briar/briar-gtk/issues</url>
+  <url type="faq">https://code.briarproject.org/briar/briar-gtk/blob/master/README.md#faq</url>
+  <url type="help">https://briarproject.org/manual/</url>
+  <url type="translate">https://www.transifex.com/otf/briar/</url>
+  <url type="donation">https://liberapay.com/Briar/donate</url>
+  <url type="contact">https://briarproject.org/get-involved/</url>
+​  <project_group>Briar</project_group>
+  <developer_name>Briar Community</developer_name>
+
+  <translation type="gettext">briar-gtk</translation>
 </component>

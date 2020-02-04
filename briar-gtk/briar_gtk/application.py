@@ -9,7 +9,8 @@
 import gi
 gi.require_version('Gdk', '3.0')
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gdk, Gio, GLib, Gtk
+gi.require_version('Handy', '0.0')
+from gi.repository import Gdk, Gio, GLib, Gtk, Handy
 
 from briar_wrapper.api import Api
 
@@ -30,6 +31,7 @@ class Application(Gtk.Application, ApplicationActions):
     def do_startup(self):
         Gtk.Application.do_startup(self)
         Application._setup_styling(APPLICATION_STYLING_PATH)
+        Handy.init()
         self._setup_api()
 
     # pylint: disable=arguments-differ

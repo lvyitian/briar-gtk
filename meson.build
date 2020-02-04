@@ -10,4 +10,5 @@ project(
 
 i18n = import('i18n')
 
+dependency('libhandy-0.0')
 subdir('briar-gtk')

@@ -6,7 +6,7 @@ from gi.repository import Gtk
 
 from briar_gtk.actions.window import WindowActions
 from briar_gtk.containers.add_contact import AddContactContainer
-from briar_gtk.containers.main import MainContainer
+from briar_gtk.containers.main_window import MainWindowContainer
 from briar_gtk.containers.startup import StartupContainer
 from briar_gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
 
@@ -57,7 +57,7 @@ class Window(Gtk.ApplicationWindow, WindowActions):
         self._setup_container(StartupContainer(self))
 
     def _setup_main_container(self):
-        self._setup_container(MainContainer())
+        self._setup_container(MainWindowContainer())
 
     def _setup_add_contact_container(self):
         self._setup_container(AddContactContainer())

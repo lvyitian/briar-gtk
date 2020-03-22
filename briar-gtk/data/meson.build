@@ -52,6 +52,12 @@ gnome.compile_resources('briar-gtk',
   gresource_bundle: true,
   install: true,
   install_dir: pkgdatadir,
+  dependencies: configure_file(
+    input: 'ui/about_dialog.ui.in',
+    output: 'about_dialog.ui',
+    configuration: conf
+  )
+
 )
 
 subdir('icons')

@@ -8,7 +8,7 @@
 
 from gi.repository import Gio, GLib
 
-from briar_gtk.containers.main import MainContainer
+from briar_gtk.containers.main_window import MainWindowContainer
 from briar_gtk.define import APP
 
 
@@ -31,6 +31,11 @@ class WindowActions:
         open_add_contact_action.connect("activate", self._open_add_contact)
         self.add_action(open_add_contact_action)
 
+        open_about_page_action = Gio.SimpleAction.new(
+            "open-about-page", None)
+        open_about_page_action.connect("activate", self._open_about_page)
+        self.add_action(open_about_page_action)
+
         open_private_chat_action = Gio.SimpleAction.new(
             "open-private-chat", GLib.VariantType.new("i"))
         open_private_chat_action.connect("activate", self._open_private_chat)
@@ -38,8 +43,12 @@ class WindowActions:
 
     # pylint: disable=unused-argument
     def _back_to_sidebar(self, action, parameter):
-        if isinstance(self.current_container, MainContainer):
+        if isinstance(self.current_container, MainWindowContainer):
             self.current_container.show_sidebar()
+
+    # pylint: disable=unused-argument
+    def _open_about_page(self, action, parameter):
+        self.current_container.open_about_page()
 
     # pylint: disable=unused-argument
     def _open_add_contact(self, action, parameter):

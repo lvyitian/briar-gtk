@@ -5,6 +5,8 @@
 # Initial version based on GNOME Fractal
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
+from gettext import gettext as _
+
 from gi.repository import GLib
 
 from briar_wrapper.models.contacts import Contacts
@@ -15,9 +17,11 @@ from briar_gtk.containers.private_chat import PrivateChatContainer
 from briar_gtk.define import APP
 
 
-class MainContainer(Container):
+class MainWindowContainer(Container):
 
-    CONTAINER_UI = "/app/briar/gtk/ui/main.ui"
+    CONTAINER_UI = "/app/briar/gtk/main_window.ui"
+    MENU_UI = "/app/briar/gtk/main_menu.ui"
+    ABOUT_UI = "/app/briar/gtk/about_dialog.ui"
 
     def __init__(self):
         super().__init__()
@@ -60,6 +64,38 @@ class MainContainer(Container):
     def chat_entry(self):
         return self.builder.get_object("chat_entry")
 
+    # pylint: disable=line-too-long
+    def open_about_page(self):
+        self.builder.add_from_resource(self.ABOUT_UI)
+        about_dialog = self.builder.get_object("about_dialog")
+        about_dialog.set_transient_for(APP().window)
+
+        code_use_title = _("Using code by")
+        code_use_list = [
+            "GNOME Fractal https://wiki.gnome.org/Apps/Fractal",
+            "GNOME Lollypop https://wiki.gnome.org/Apps/Lollypop",
+        ]
+        about_dialog.add_credit_section(
+            code_use_title, code_use_list
+        )
+
+        briar_functionality_title = _("Briar functionality by")
+        briar_functionality_list = [
+            "Briar REST API https://code.briarproject.org/briar/briar/tree/master/briar-headless",  # noqa
+            "Briar Python Wrapper https://code.briarproject.org/briar/python-briar-wrapper",  # noqa
+        ]
+        about_dialog.add_credit_section(
+            briar_functionality_title, briar_functionality_list
+        )
+
+        about_dialog.connect("response", self._on_about_response)
+        about_dialog.show()
+
+    @staticmethod
+    # pylint: disable=unused-argument
+    def _on_about_response(dialog, response_id):
+        dialog.destroy()
+
     def open_private_chat(self, contact_id):
         contact_name = self._get_contact_name(contact_id)
         self._prepare_chat_view(contact_name)
@@ -101,6 +137,7 @@ class MainContainer(Container):
             self.history_container.remove(child)
 
     def _setup_view(self):
+        self.builder.add_from_resource(self.MENU_UI)
         self.builder.add_from_resource(self.CONTAINER_UI)
         self.builder.connect_signals(self)
 

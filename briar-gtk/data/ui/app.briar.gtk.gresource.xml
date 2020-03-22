@@ -4,7 +4,7 @@
     <file compressed="true">ui/application.css</file>
     <file compressed="true" preprocess="xml-stripblanks">ui/add_contact.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">ui/login.ui</file>
-    <file compressed="true" preprocess="xml-stripblanks">ui/main.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">ui/main_window.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">ui/private_chat.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">ui/registration.ui</file>
   </gresource>

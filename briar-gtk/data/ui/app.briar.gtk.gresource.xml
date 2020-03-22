@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/app/briar/gtk">
-    <file compressed="true">ui/application.css</file>
-    <file compressed="true" preprocess="xml-stripblanks">ui/add_contact.ui</file>
-    <file compressed="true" preprocess="xml-stripblanks">ui/login.ui</file>
-    <file compressed="true" preprocess="xml-stripblanks">ui/main_window.ui</file>
-    <file compressed="true" preprocess="xml-stripblanks">ui/private_chat.ui</file>
-    <file compressed="true" preprocess="xml-stripblanks">ui/registration.ui</file>
+    <file compressed="true">application.css</file>
+    <file compressed="true" preprocess="xml-stripblanks">add_contact.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">login.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">main_menu.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">main_window.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">private_chat.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">registration.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">about_dialog.ui</file>
   </gresource>
 </gresources>

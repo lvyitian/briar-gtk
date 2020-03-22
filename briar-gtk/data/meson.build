@@ -44,20 +44,5 @@ if compile_schemas.found()
   )
 endif
 
-pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
-gnome = import('gnome')
-
-gnome.compile_resources('briar-gtk',
-  'ui/app.briar.gtk.gresource.xml',
-  gresource_bundle: true,
-  install: true,
-  install_dir: pkgdatadir,
-  dependencies: configure_file(
-    input: 'ui/about_dialog.ui.in',
-    output: 'about_dialog.ui',
-    configuration: conf
-  )
-
-)
-
+subdir('ui')
 subdir('icons')

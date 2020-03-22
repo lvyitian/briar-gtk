@@ -14,7 +14,7 @@ from briar_gtk.define import APP
 
 class AddContactContainer(Container):
 
-    ADD_CONTACT_UI = "/app/briar/gtk/ui/add_contact.ui"
+    ADD_CONTACT_UI = "/app/briar/gtk/add_contact.ui"
     STACK_NAME = "add_contact_flow_stack"
     HEADERS_NAME = "add_contact_flow_headers"
 

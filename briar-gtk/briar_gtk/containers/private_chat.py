@@ -19,7 +19,7 @@ from briar_gtk.widgets.private_message import PrivateMessageWidget
 # pylint: disable=too-few-public-methods
 class PrivateChatContainer(Container):
 
-    CONTAINER_UI = "/app/briar/gtk/ui/private_chat.ui"
+    CONTAINER_UI = "/app/briar/gtk/private_chat.ui"
 
     def __init__(self, contact_name, contact_id):
         super().__init__()

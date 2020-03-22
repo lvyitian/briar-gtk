@@ -12,7 +12,7 @@ from briar_gtk.define import APP
 
 class RegistrationContainer(Container):
 
-    REGISTRATION_UI = "/app/briar/gtk/ui/registration.ui"
+    REGISTRATION_UI = "/app/briar/gtk/registration.ui"
     STACK_NAME = "registration_flow_stack"
     HEADERS_NAME = "registration_flow_headers"
 

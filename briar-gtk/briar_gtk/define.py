@@ -10,7 +10,7 @@ from gi.repository import Gio
 
 APPLICATION_ID = "app.briar.gtk"
 APPLICATION_NAME = "Briar"
-APPLICATION_STYLING_PATH = "resource:///app/briar/gtk/ui/application.css"
+APPLICATION_STYLING_PATH = "resource:///app/briar/gtk/application.css"
 BRIAR_HEADLESS_JAR = "/app/briar/briar-headless.jar"
 
 APP = Gio.Application.get_default

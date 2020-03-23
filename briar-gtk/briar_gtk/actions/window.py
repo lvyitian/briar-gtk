@@ -8,7 +8,7 @@
 
 from gi.repository import GLib
 
-from briar_gtk.action import Actions
+from briar_gtk.actions.actions import Actions
 from briar_gtk.containers.main_window import MainWindowContainer
 from briar_gtk.define import APP
 

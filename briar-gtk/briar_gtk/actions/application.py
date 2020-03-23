@@ -6,7 +6,7 @@
 # Initial version based on GNOME Lollypop
 # https://gitlab.gnome.org/World/lollypop/blob/1.2.20/lollypop/application_actions.py
 
-from briar_gtk.action import Actions
+from briar_gtk.actions.actions import Actions
 
 
 # pylint: disable=too-few-public-methods

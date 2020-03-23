@@ -27,7 +27,7 @@ class RegistrationContainer(Container):
 
         self._setup_registration_flow_stack()
         self._setup_registration_flow_headers()
-        self._setup_nickname_keystroke_listener()
+        self._setup_nickname_enter_listener()
 
     def _setup_registration_flow_stack(self):
         self.registration_flow_stack = self.builder.get_object(self.STACK_NAME)
@@ -39,15 +39,12 @@ class RegistrationContainer(Container):
         registration_flow_headers.show_all()
         self._window.set_titlebar(registration_flow_headers)
 
-    def _setup_nickname_keystroke_listener(self):
+    def _setup_nickname_enter_listener(self):
         nickname_entry = self.builder.get_object("nickname_entry")
-        nickname_entry.connect("key-press-event",
-                               self._nickname_keystroke)
+        nickname_entry.connect("activate", self._on_nickname_enter)
 
     # pylint: disable=unused-argument
-    def _nickname_keystroke(self, widget, event):
-        if event.hardware_keycode != 36 and event.hardware_keycode != 104:
-            return
+    def _on_nickname_enter(self, event):
         self.on_nickname_next_pressed(None)
 
     # pylint: disable=unused-argument
@@ -68,22 +65,20 @@ class RegistrationContainer(Container):
         self.registration_flow_stack.set_visible_child(passwords_page)
 
         self._focus_password_entry()
-        self._setup_passwords_keystroke_listener()
+        self._setup_passwords_enter_listener()
 
     def _focus_password_entry(self):
         password_entry = self.builder.get_object("password_entry")
         password_entry.grab_focus()
 
-    def _setup_passwords_keystroke_listener(self):
+    def _setup_passwords_enter_listener(self):
         password_confirm_entry = self.builder.get_object(
             "password_confirm_entry")
         password_confirm_entry.connect(
-            "key-press-event", self._passwords_keystroke)
+            "activate", self._on_passwords_enter)
 
     # pylint: disable=unused-argument
-    def _passwords_keystroke(self, widget, event):
-        if event.hardware_keycode != 36 and event.hardware_keycode != 104:
-            return
+    def _on_passwords_enter(self, event):
         self.on_create_account_pressed(None)
 
     # pylint: disable=unused-argument
@@ -96,11 +91,11 @@ class RegistrationContainer(Container):
 
     # pylint: disable=unused-argument
     def on_create_account_pressed(self, button):
+        if not self._passwords_match():
+            self._show_error_message(_("The passwords do not match"))
+            return
         passwords_error_label = self.builder.get_object(
             "passwords_error_label")
-        if not self._passwords_match():
-            passwords_error_label.show()
-            return
         passwords_error_label.hide()
         self._show_loading_animation()
         self._register()
@@ -128,11 +123,11 @@ class RegistrationContainer(Container):
         GLib.idle_add(function)
 
     def _registration_failed(self):
-        self._show_error_message()
+        self._show_error_message(_("Couldn't register account"))
         self._show_passwords_page()
 
-    def _show_error_message(self):
+    def _show_error_message(self, error_message):
         passwords_error_label = self.builder.get_object(
             "passwords_error_label")
-        passwords_error_label.set_label(_("Couldn't register account"))
+        passwords_error_label.set_label(error_message)
         passwords_error_label.show()

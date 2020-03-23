@@ -6,40 +6,38 @@
 # Initial version based on GNOME Lollypop
 # https://gitlab.gnome.org/World/lollypop/blob/1.2.20/lollypop/application_actions.py
 
-from gi.repository import Gio, GLib
+from gi.repository import GLib
 
+from briar_gtk.action import Actions
 from briar_gtk.containers.main_window import MainWindowContainer
 from briar_gtk.define import APP
 
 
 # pylint: disable=too-few-public-methods
-class WindowActions:
+class WindowActions(Actions):
 
     def __init__(self):
         self._setup_actions()
 
-    # pylint: disable=no-member
     def _setup_actions(self):
-        back_to_sidebar_action = Gio.SimpleAction.new(
-            "back-to-sidebar", None)
-        back_to_sidebar_action.connect("activate", self._back_to_sidebar)
+        self._setup_back_to_sidebar_action()
+        self._setup_open_about_page_action()
+        self._setup_open_add_contact_action()
+        self._setup_open_private_chat_action()
+
+    def _setup_back_to_sidebar_action(self):
+        self._setup_action("back-to-sidebar", None, self._back_to_sidebar)
         APP().set_accels_for_action("win.back-to-sidebar", ["<Ctrl>w"])
-        self.add_action(back_to_sidebar_action)
 
-        open_add_contact_action = Gio.SimpleAction.new(
-            "open-add-contact", None)
-        open_add_contact_action.connect("activate", self._open_add_contact)
-        self.add_action(open_add_contact_action)
+    def _setup_open_about_page_action(self):
+        self._setup_action("open-about-page", None, self._open_about_page)
 
-        open_about_page_action = Gio.SimpleAction.new(
-            "open-about-page", None)
-        open_about_page_action.connect("activate", self._open_about_page)
-        self.add_action(open_about_page_action)
+    def _setup_open_add_contact_action(self):
+        self._setup_action("open-add-contact", None, self._open_add_contact)
 
-        open_private_chat_action = Gio.SimpleAction.new(
-            "open-private-chat", GLib.VariantType.new("i"))
-        open_private_chat_action.connect("activate", self._open_private_chat)
-        self.add_action(open_private_chat_action)
+    def _setup_open_private_chat_action(self):
+        self._setup_action("open-private-chat", GLib.VariantType.new("i"),
+                           self._open_private_chat)
 
     # pylint: disable=unused-argument
     def _back_to_sidebar(self, action, parameter):

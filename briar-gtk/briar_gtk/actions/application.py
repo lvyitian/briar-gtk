@@ -6,22 +6,22 @@
 # Initial version based on GNOME Lollypop
 # https://gitlab.gnome.org/World/lollypop/blob/1.2.20/lollypop/application_actions.py
 
-from gi.repository import Gio
+from briar_gtk.action import Actions
 
 
 # pylint: disable=too-few-public-methods
-class ApplicationActions:
+class ApplicationActions(Actions):
 
     def __init__(self):
         self._setup_actions()
 
-    # pylint: disable=no-member
     def _setup_actions(self):
+        self._setup_quit_action()
 
-        quit_action = Gio.SimpleAction.new("quit", None)
-        quit_action.connect("activate", self._quit)
+    # pylint: disable=no-member
+    def _setup_quit_action(self):
+        self._setup_action("quit", None, self._quit)
         self.set_accels_for_action("app.quit", ["<Ctrl>q"])
-        self.add_action(quit_action)
 
     # pylint: disable=unused-argument
     def _quit(self, action, parameter):

@@ -19,9 +19,9 @@ from briar_gtk.define import APP
 
 class MainWindowContainer(Container):
 
-    CONTAINER_UI = "/app/briar/gtk/main_window.ui"
-    MENU_UI = "/app/briar/gtk/main_menu.ui"
-    ABOUT_UI = "/app/briar/gtk/about_dialog.ui"
+    CONTAINER_UI = "main_window.ui"
+    MENU_UI = "main_menu.ui"
+    ABOUT_UI = "about_dialog.ui"
 
     def __init__(self):
         super().__init__()
@@ -66,7 +66,7 @@ class MainWindowContainer(Container):
 
     # pylint: disable=line-too-long
     def open_about_page(self):
-        self.builder.add_from_resource(self.ABOUT_UI)
+        self._add_from_resource(self.ABOUT_UI)
         about_dialog = self.builder.get_object("about_dialog")
         about_dialog.set_transient_for(APP().window)
 
@@ -137,8 +137,8 @@ class MainWindowContainer(Container):
             self.history_container.remove(child)
 
     def _setup_view(self):
-        self.builder.add_from_resource(self.MENU_UI)
-        self.builder.add_from_resource(self.CONTAINER_UI)
+        self._add_from_resource(self.MENU_UI)
+        self._add_from_resource(self.CONTAINER_UI)
         self.builder.connect_signals(self)
 
         self._setup_main_window_stack()

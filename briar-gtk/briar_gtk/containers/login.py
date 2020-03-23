@@ -10,7 +10,7 @@ from briar_gtk.define import APP
 
 class LoginContainer(Container):
 
-    LOGIN_UI = "/app/briar/gtk/login.ui"
+    LOGIN_UI = "login.ui"
     STACK_NAME = "login_flow_stack"
     HEADERS_NAME = "login_flow_headers"
 
@@ -20,7 +20,7 @@ class LoginContainer(Container):
         self._setup_view()
 
     def _setup_view(self, ):
-        self.builder.add_from_resource(self.LOGIN_UI)
+        self._add_from_resource(self.LOGIN_UI)
         self.builder.connect_signals(self)
 
         self._setup_login_flow_stack()

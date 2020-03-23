@@ -19,7 +19,7 @@ from briar_gtk.widgets.private_message import PrivateMessageWidget
 # pylint: disable=too-few-public-methods
 class PrivateChatContainer(Container):
 
-    CONTAINER_UI = "/app/briar/gtk/private_chat.ui"
+    CONTAINER_UI = "private_chat.ui"
 
     def __init__(self, contact_name, contact_id):
         super().__init__()
@@ -31,7 +31,7 @@ class PrivateChatContainer(Container):
         self._load_content()
 
     def _setup_view(self):
-        self.builder.add_from_resource(self.CONTAINER_UI)
+        self._add_from_resource(self.CONTAINER_UI)
 
         self._messages_box = Gtk.ListBox()
         self._messages_box.get_style_context().add_class("messages-history")

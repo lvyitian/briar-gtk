@@ -32,18 +32,20 @@ function generate_po()
     cd briar-gtk/po
     # git pull https://www.transifex.com/otf/briar/
     >briar-gtk.pot
-    for file in ../data/app.briar.gtk.appdata.xml.in ../data/ui/*.ui $(find "../briar_gtk" -name '*.py');
+    for file in ../data/app.briar.gtk.appdata.xml.in ../data/ui/about_dialog.ui.in ../data/ui/*.ui $(find "../briar_gtk" -name '*.py');
     do
-        xgettext --from-code=UTF-8 -j $file -o briar-gtk.pot
+        xgettext --from-code=UTF-8 --no-location --no-wrap -j $file -o briar-gtk.pot
     done
     >LINGUAS
     for po in *.po
     do
-        msgmerge -N $po briar-gtk.pot > /tmp/$$language_new.po
+        msgmerge --no-wrap -N $po briar-gtk.pot > /tmp/$$language_new.po
         mv /tmp/$$language_new.po $po
         language=${po%.po}
         echo $language >>LINGUAS
     done
+    sed -i -e '/^"POT-Creation-Date: /d' briar-gtk.pot
+    sed -i -e '/^"POT-Creation-Date: /d' *.po
 }
 
 generate_resource > briar-gtk/data/ui/app.briar.gtk.gresource.xml

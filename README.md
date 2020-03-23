@@ -40,6 +40,20 @@ build it with _meson_ and start Briar GTK.
 Don't forget to initialize the briar-wrapper submodule:
 `git submodule update --init`
 
+### Internationalization
+
+Feel free to add translations to Briar GTK by opening a merge request with
+updates to the language file of your choice in _briar_gtk/po_. Make sure
+to add your name to the _translator_credits_ list in
+_briar-gtk/data/ui/about_dialog.ui.in_.
+
+To test Briar GTK in your language, add the following entry to the
+_finish-args_ list in _app.briar.gtk.json_:
+
+```
+--env=LC_ALL=de_DE.utf8
+```
+
 ## Design Goals
 
 * Intuitive UI, similar to Briar Android client

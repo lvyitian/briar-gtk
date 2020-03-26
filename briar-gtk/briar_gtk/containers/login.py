@@ -4,6 +4,7 @@
 
 from gi.repository import GLib
 
+from briar_gtk.actions.login import LoginActions
 from briar_gtk.container import Container
 from briar_gtk.define import APP
 
@@ -16,6 +17,7 @@ class LoginContainer(Container):
 
     def __init__(self, window):
         super().__init__()
+        LoginActions(self)
         self._window = window
         self._setup_view()
 
@@ -35,6 +37,7 @@ class LoginContainer(Container):
     def _setup_login_flow_headers(self):
         login_flow_headers = self.builder.get_object(self.HEADERS_NAME)
         login_flow_headers.show_all()
+        login_flow_headers.insert_action_group("login", self.get_action_group("login"))
         self._window.set_titlebar(login_flow_headers)
 
     def _setup_enter_listener(self):
@@ -43,10 +46,10 @@ class LoginContainer(Container):
 
     # pylint: disable=unused-argument
     def _on_password_enter(self, widget):
-        self.on_login_pressed(None)
+        self._on_login_pressed()
 
     # pylint: disable=unused-argument
-    def on_login_pressed(self, button):
+    def _on_login_pressed(self):
         self._show_loading_animation()
         self._login()
 

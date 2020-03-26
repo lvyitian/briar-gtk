@@ -25,7 +25,7 @@ class LoginContainer(Container):
 
         self._setup_login_flow_stack()
         self._setup_login_flow_headers()
-        self._setup_keystroke_listener()
+        self._setup_enter_listener()
 
     def _setup_login_flow_stack(self):
         self.login_flow_stack = self.builder.get_object(self.STACK_NAME)
@@ -37,15 +37,12 @@ class LoginContainer(Container):
         login_flow_headers.show_all()
         self._window.set_titlebar(login_flow_headers)
 
-    def _setup_keystroke_listener(self):
+    def _setup_enter_listener(self):
         password_entry = self.builder.get_object("password_entry")
-        password_entry.connect("key-press-event",
-                               self._password_keystroke)
+        password_entry.connect("activate", self._on_password_enter)
 
     # pylint: disable=unused-argument
-    def _password_keystroke(self, widget, event):
-        if event.hardware_keycode != 36 and event.hardware_keycode != 104:
-            return
+    def _on_password_enter(self, widget):
         self.on_login_pressed(None)
 
     # pylint: disable=unused-argument

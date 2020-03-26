@@ -29,7 +29,7 @@ class AddContactContainer(Container):
 
         self._setup_add_contact_flow_stack()
         self._setup_add_contact_flow_headers()
-        self._setup_link_keystroke_listener()
+        self._setup_link_enter_listener()
 
     def _load_content(self):
         contacts = Contacts(APP().api)
@@ -46,15 +46,12 @@ class AddContactContainer(Container):
         add_contact_flow_headers.show_all()
         APP().window.set_titlebar(add_contact_flow_headers)
 
-    def _setup_link_keystroke_listener(self):
+    def _setup_link_enter_listener(self):
         their_link_entry = self.builder.get_object("their_link_entry")
-        their_link_entry.connect("key-press-event",
-                                 self._link_keystroke)
+        their_link_entry.connect("activate", self._on_link_enter)
 
     # pylint: disable=unused-argument
-    def _link_keystroke(self, widget, event):
-        if event.hardware_keycode != 36 and event.hardware_keycode != 104:
-            return
+    def _on_link_enter(self, widget):
         self.on_links_next_pressed(None)
 
     # pylint: disable=unused-argument
@@ -90,20 +87,18 @@ class AddContactContainer(Container):
         self.add_contact_flow_stack.set_visible_child(alias_page)
 
         self._focus_alias_entry()
-        self._setup_alias_keystroke_listener()
+        self._setup_alias_enter_listener()
 
     def _focus_alias_entry(self):
         alias_entry = self.builder.get_object("alias_entry")
         alias_entry.grab_focus()
 
-    def _setup_alias_keystroke_listener(self):
+    def _setup_alias_enter_listener(self):
         alias_entry = self.builder.get_object("alias_entry")
-        alias_entry.connect("key-press-event", self._alias_keystroke)
+        alias_entry.connect("activate", self._on_alias_enter)
 
     # pylint: disable=unused-argument
-    def _alias_keystroke(self, widget, event):
-        if event.hardware_keycode != 36 and event.hardware_keycode != 104:
-            return
+    def _on_alias_enter(self, widget):
         self.on_add_contact_pressed(None)
 
     # pylint: disable=unused-argument

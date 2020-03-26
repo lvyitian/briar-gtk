@@ -45,7 +45,7 @@ class ContactRowWidget(Gtk.ListBoxRow):
     @staticmethod
     def _create_contact_box():
         contact_box = Gtk.Box(Gtk.Orientation.HORIZONTAL, 5)
-        contact_box.get_style_context().add_class("room-row")
+        contact_box.get_style_context().add_class("contact-row")
         return contact_box
 
     def _set_action(self, contact_id):

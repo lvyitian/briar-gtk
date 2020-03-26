@@ -18,7 +18,7 @@ class ContactRowWidget(Gtk.ListBoxRow):
         name = ContactRowWidget._get_contact_name(contact)
         contact_label = ContactRowWidget._create_contact_label(name)
         contact_box = ContactRowWidget._create_contact_box()
-        contact_event_box = Gtk.EventBox()
+        contact_event_box = Gtk.EventBox().new()
 
         contact_box.pack_start(contact_label, True, True, 0)
         contact_event_box.add(contact_box)
@@ -36,7 +36,7 @@ class ContactRowWidget(Gtk.ListBoxRow):
 
     @staticmethod
     def _create_contact_label(name):
-        contact_label = Gtk.Label(name)
+        contact_label = Gtk.Label.new(name)
         contact_label.set_valign(Gtk.Align.CENTER)
         contact_label.set_halign(Gtk.Align.START)
         contact_label.set_ellipsize(Pango.EllipsizeMode.END)
@@ -44,7 +44,7 @@ class ContactRowWidget(Gtk.ListBoxRow):
 
     @staticmethod
     def _create_contact_box():
-        contact_box = Gtk.Box(Gtk.Orientation.HORIZONTAL, 5)
+        contact_box = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 5)
         contact_box.get_style_context().add_class("contact-row")
         return contact_box
 

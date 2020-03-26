@@ -5,10 +5,24 @@
 from gi.repository import Gio
 
 
+# pylint: disable=too-few-public-methods
 class Actions:
 
-    # pylint: disable=no-member
-    def _setup_action(self, key, parameter, callback):
+    def __init__(self, widget):
+        self.widget = widget
+
+    def _create_action(self, key, parameter, callback):
         action = Gio.SimpleAction.new(key, parameter)
         action.connect("activate", callback)
-        self.add_action(action)
+        return action
+
+    def _setup_action(self, key, parameter, callback):
+        action = self._create_action(key, parameter, callback)
+        self.actions.add_action(action)
+
+    def _setup_global_action_group(self):
+        self.actions = self.widget
+
+    def _setup_simple_action_group(self, name):
+        self.actions = Gio.SimpleActionGroup.new()
+        self.widget.insert_action_group(name, self.actions)

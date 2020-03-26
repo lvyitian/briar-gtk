@@ -11,13 +11,13 @@ from briar_gtk.containers.startup import StartupContainer
 from briar_gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
 
 
-class Window(Gtk.ApplicationWindow, WindowActions):
+class Window(Gtk.ApplicationWindow):
 
     DEFAULT_WINDOW_SIZE = (900, 600)
 
     def __init__(self):
         self._initialize_gtk_application_window()
-        WindowActions.__init__(self)
+        WindowActions(self)
         self._setup_content()
 
     def show_main_container(self):

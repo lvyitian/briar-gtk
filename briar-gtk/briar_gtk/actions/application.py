@@ -12,17 +12,18 @@ from briar_gtk.actions.actions import Actions
 # pylint: disable=too-few-public-methods
 class ApplicationActions(Actions):
 
-    def __init__(self):
+    def __init__(self, widget):
+        super().__init__(widget)
+        self._setup_global_action_group()
         self._setup_actions()
 
     def _setup_actions(self):
         self._setup_quit_action()
 
-    # pylint: disable=no-member
     def _setup_quit_action(self):
         self._setup_action("quit", None, self._quit)
-        self.set_accels_for_action("app.quit", ["<Ctrl>q"])
+        self.widget.set_accels_for_action("app.quit", ["<Ctrl>q"])
 
     # pylint: disable=unused-argument
     def _quit(self, action, parameter):
-        self.quit()
+        self.widget.quit()

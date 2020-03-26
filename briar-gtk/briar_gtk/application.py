@@ -20,12 +20,12 @@ from briar_gtk.define import APPLICATION_STYLING_PATH, BRIAR_HEADLESS_JAR
 from briar_gtk.window import Window
 
 
-class Application(Gtk.Application, ApplicationActions):
+class Application(Gtk.Application):
 
     def __init__(self):
         Application._set_application_name(APPLICATION_NAME)
         super().__init__(application_id=APPLICATION_ID)
-        ApplicationActions.__init__(self)
+        ApplicationActions(self)
 
     # pylint: disable=arguments-differ
     def do_startup(self):

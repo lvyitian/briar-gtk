@@ -16,7 +16,9 @@ from briar_gtk.define import APP
 # pylint: disable=too-few-public-methods
 class WindowActions(Actions):
 
-    def __init__(self):
+    def __init__(self, widget):
+        super().__init__(widget)
+        self._setup_global_action_group()
         self._setup_actions()
 
     def _setup_actions(self):
@@ -41,17 +43,17 @@ class WindowActions(Actions):
 
     # pylint: disable=unused-argument
     def _back_to_sidebar(self, action, parameter):
-        if isinstance(self.current_container, MainWindowContainer):
-            self.current_container.show_sidebar()
+        if isinstance(self.widget.current_container, MainWindowContainer):
+            self.widget.current_container.show_sidebar()
 
     # pylint: disable=unused-argument
     def _open_about_page(self, action, parameter):
-        self.current_container.open_about_page()
+        self.widget.current_container.open_about_page()
 
     # pylint: disable=unused-argument
     def _open_add_contact(self, action, parameter):
-        self.show_add_contact_container()
+        self.widget.show_add_contact_container()
 
     # pylint: disable=unused-argument
     def _open_private_chat(self, action, contact_id):
-        self.current_container.open_private_chat(contact_id.get_int32())
+        self.widget.current_container.open_private_chat(contact_id.get_int32())

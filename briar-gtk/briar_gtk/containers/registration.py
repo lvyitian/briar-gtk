@@ -6,6 +6,8 @@ from gettext import gettext as _
 
 from gi.repository import GLib
 
+from briar_gtk.actions.registration import RegistrationActions
+from briar_gtk.actions.prefixes import REGISTRATION_PREFIX
 from briar_gtk.container import Container
 from briar_gtk.define import APP
 
@@ -18,6 +20,7 @@ class RegistrationContainer(Container):
 
     def __init__(self, window):
         super().__init__()
+        RegistrationActions(self)
         self._window = window
         self._setup_view()
 
@@ -37,6 +40,9 @@ class RegistrationContainer(Container):
     def _setup_registration_flow_headers(self):
         registration_flow_headers = self.builder.get_object(self.HEADERS_NAME)
         registration_flow_headers.show_all()
+        registration_flow_headers.insert_action_group(
+            REGISTRATION_PREFIX, self.get_action_group(REGISTRATION_PREFIX)
+        )
         self._window.set_titlebar(registration_flow_headers)
 
     def _setup_nickname_enter_listener(self):

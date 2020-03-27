@@ -5,4 +5,5 @@
 ADD_CONTACT_PREFIX = "add-contact"
 APPLICATION_PREFIX = "app"
 LOGIN_PREFIX = "login"
+REGISTRATION_PREFIX = "registration"
 WINDOW_PREFIX = "win"

@@ -31,8 +31,8 @@ class MainWindowContainer(Container):
         return self.builder.get_object("main_window_leaflet")
 
     @property
-    def room_name_label(self):
-        return self.builder.get_object("room_name")
+    def contact_name_label(self):
+        return self.builder.get_object("contact_name")
 
     @property
     def contacts_list_box(self):
@@ -79,7 +79,7 @@ class MainWindowContainer(Container):
         self.chat_placeholder.show()
         self._clear_history_container()
         self.contacts_list_box.unselect_all()
-        self.room_name_label.set_text("")
+        self.contact_name_label.set_text("")
 
     def _prepare_chat_view(self, contact_name):
         if self._no_chat_opened():
@@ -90,7 +90,7 @@ class MainWindowContainer(Container):
         self.chat_view.show()
         self.main_window_leaflet.set_visible_child(
             self.main_content_container)
-        self.room_name_label.set_text(contact_name)
+        self.contact_name_label.set_text(contact_name)
 
     def _setup_private_chat_widget(self, contact_name, contact_id):
         private_chat_widget = PrivateChatContainer(contact_name, contact_id)
@@ -123,7 +123,7 @@ class MainWindowContainer(Container):
 
         self._setup_main_window_stack()
         self._setup_headerbar_stack_holder()
-        self.room_name_label.set_text("")
+        self.contact_name_label.set_text("")
 
     def _setup_main_window_stack(self):
         main_window_stack = self.builder.get_object("main_window_stack")

@@ -92,7 +92,6 @@
                 <property name="can_focus">False</property>
                 <child>
                   <object class="GtkBox">
-                    <property name="name">room</property>
                     <property name="can_focus">False</property>
                     <child>
                       <object class="GtkBox">
@@ -297,7 +296,7 @@
               </object>
             </child>
             <child>
-              <object class="GtkHeaderBar" id="room_header_bar"> <!--right titlebar-->
+              <object class="GtkHeaderBar" id="chat_header_bar"> <!--right titlebar-->
                 <property name="show-close-button">True</property>
                 <property name="has-subtitle">False</property>
                 <property name="hexpand">true</property>
@@ -343,15 +342,13 @@
                     <property name="propagate_natural_height">True</property>
                     <property name="propagate_natural_width">False</property>
                     <child>
-                      <object class="GtkBox" id="room_info">
+                      <object class="GtkBox">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="orientation">vertical</property>
                         <child>
-                          <object class="GtkLabel" id="room_name">
+                          <object class="GtkLabel" id="contact_name">
                             <property name="can_focus">False</property>
-                            <!-- Translators: This string is replaced not user-visible -->
-                            <property name="label">Room name</property>
                             <property name="ellipsize">end</property>
                             <style>
                               <class name="title"/>
@@ -459,7 +456,7 @@
     <property name="mode">horizontal</property>
     <widgets>
       <widget name="main_content_container"/>
-      <widget name="room_header_bar"/>
+      <widget name="chat_header_bar"/>
     </widgets>
   </object>
   <object class="GtkSizeGroup">
@@ -472,7 +469,7 @@
   <object class="HdyHeaderGroup">
     <headerbars>
       <headerbar name="left-header"/>
-      <headerbar name="room_header_bar"/>
+      <headerbar name="chat_header_bar"/>
     </headerbars>
   </object>
 </interface>

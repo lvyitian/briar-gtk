@@ -5,6 +5,7 @@
 from gi.repository import GLib
 
 from briar_gtk.actions.login import LoginActions
+from briar_gtk.actions.prefixes import LOGIN_PREFIX
 from briar_gtk.container import Container
 from briar_gtk.define import APP
 
@@ -38,7 +39,7 @@ class LoginContainer(Container):
         login_flow_headers = self.builder.get_object(self.HEADERS_NAME)
         login_flow_headers.show_all()
         login_flow_headers.insert_action_group(
-            "login", self.get_action_group("login")
+            LOGIN_PREFIX, self.get_action_group(LOGIN_PREFIX)
         )
         self._window.set_titlebar(login_flow_headers)
 

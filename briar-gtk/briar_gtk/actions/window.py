@@ -9,6 +9,7 @@
 from gi.repository import GLib
 
 from briar_gtk.actions.actions import Actions
+from briar_gtk.actions.prefixes import WINDOW_PREFIX
 from briar_gtk.containers.main_window import MainWindowContainer
 from briar_gtk.define import APP
 
@@ -30,7 +31,9 @@ class WindowActions(Actions):
 
     def _setup_back_to_sidebar_action(self):
         self._setup_action("back-to-sidebar", None, self._back_to_sidebar)
-        APP().set_accels_for_action("win.back-to-sidebar", ["<Ctrl>w"])
+        APP().set_accels_for_action(
+            f"{WINDOW_PREFIX}.back-to-sidebar", ["<Ctrl>w"]
+        )
 
     def _setup_open_about_page_action(self):
         self._setup_action("open-about-dialog", None, self._open_about_page)

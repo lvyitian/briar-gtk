@@ -7,6 +7,7 @@
 # https://gitlab.gnome.org/World/lollypop/blob/1.2.20/lollypop/application_actions.py
 
 from briar_gtk.actions.actions import Actions
+from briar_gtk.actions.prefixes import APPLICATION_PREFIX
 
 
 # pylint: disable=too-few-public-methods
@@ -22,7 +23,9 @@ class ApplicationActions(Actions):
 
     def _setup_quit_action(self):
         self._setup_action("quit", None, self._quit)
-        self.widget.set_accels_for_action("app.quit", ["<Ctrl>q"])
+        self.widget.set_accels_for_action(
+            f"{APPLICATION_PREFIX}.quit", ["<Ctrl>q"]
+        )
 
     # pylint: disable=unused-argument
     def _quit(self, action, parameter):

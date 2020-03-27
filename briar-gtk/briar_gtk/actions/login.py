@@ -3,16 +3,15 @@
 # License-Filename: LICENSE.md
 
 from briar_gtk.actions.actions import Actions
+from briar_gtk.actions.prefixes import LOGIN_PREFIX
 
 
 # pylint: disable=too-few-public-methods
 class LoginActions(Actions):
 
-    ACTIONS_PREFIX = "login"
-
     def __init__(self, widget):
         super().__init__(widget)
-        self._setup_simple_action_group(self.ACTIONS_PREFIX)
+        self._setup_simple_action_group(LOGIN_PREFIX)
         self._setup_actions()
 
     def _setup_actions(self):

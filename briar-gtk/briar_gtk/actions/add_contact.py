@@ -23,7 +23,8 @@ class AddContactActions(Actions):
         self._setup_action("add-contact", None, self._add_contact)
 
     def _setup_proceed_from_links_action(self):
-        self._setup_action("proceed-from-links", None, self._proceed_from_links)
+        self._setup_action("proceed-from-links", None,
+                           self._proceed_from_links)
 
     def _setup_return_from_alias_action(self):
         self._setup_action("return-from-alias", None, self._return_from_alias)

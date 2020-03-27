@@ -16,11 +16,20 @@ class RegistrationActions(Actions):
 
     def _setup_actions(self):
         self._setup_proceed_from_nickname_action()
+        self._setup_return_from_passwords_action()
 
     def _setup_proceed_from_nickname_action(self):
         self._setup_action("proceed-from-nickname", None,
                            self._proceed_from_nickname)
 
+    def _setup_return_from_passwords_action(self):
+        self._setup_action("return-from-passwords", None,
+                           self._return_from_passwords)
+
     # pylint: disable=unused-argument
     def _proceed_from_nickname(self, action, parameter):
         self.widget.proceed_from_nickname()
+
+    # pylint: disable=unused-argument
+    def _return_from_passwords(self, action, parameter):
+        self.widget.show_nickname_page()

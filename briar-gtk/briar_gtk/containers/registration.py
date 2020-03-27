@@ -87,11 +87,7 @@ class RegistrationContainer(Container):
     def _on_passwords_enter(self, event):
         self.on_create_account_pressed(None)
 
-    # pylint: disable=unused-argument
-    def on_create_account_back_pressed(self, button):
-        self._show_nickname_page()
-
-    def _show_nickname_page(self):
+    def show_nickname_page(self):
         nickname_page = self.builder.get_object("nickname_page")
         self.registration_flow_stack.set_visible_child(nickname_page)
 

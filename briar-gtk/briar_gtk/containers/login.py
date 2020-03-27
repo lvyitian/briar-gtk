@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
+from gettext import gettext as _
+
 from gi.repository import GLib
 
 from briar_gtk.actions.login import LoginActions
@@ -21,6 +23,13 @@ class LoginContainer(Container):
         LoginActions(self)
         self._window = window
         self._setup_view()
+
+    def on_login_pressed(self):
+        if self._password_is_empty():
+            self._show_error_message(_("Please enter your password"))
+            return
+        self._show_loading_animation()
+        self._login()
 
     def _setup_view(self, ):
         self._add_from_resource(self.LOGIN_UI)
@@ -51,9 +60,9 @@ class LoginContainer(Container):
     def _on_password_enter(self, widget):
         self.on_login_pressed()
 
-    def on_login_pressed(self):
-        self._show_loading_animation()
-        self._login()
+    def _password_is_empty(self):
+        password = self.builder.get_object("password_entry").get_text()
+        return len(password) == 0
 
     def _show_loading_animation(self):
         loading_animation = self.builder.get_object("loading_animation")
@@ -70,13 +79,14 @@ class LoginContainer(Container):
         GLib.idle_add(function)
 
     def _login_failed(self):
-        self._show_error_message()
+        self._show_error_message(_("Couldn't log in"))
         self._focus_password_entry()
         self._show_login_page()
 
-    def _show_error_message(self):
-        error_message = self.builder.get_object("error_message")
-        error_message.show()
+    def _show_error_message(self, error_message):
+        error_label = self.builder.get_object("error_label")
+        error_label.set_label(error_message)
+        error_label.show()
 
     def _focus_password_entry(self):
         password_entry = self.builder.get_object("password_entry")

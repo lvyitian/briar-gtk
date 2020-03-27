@@ -16,10 +16,18 @@ class AddContactActions(Actions):
 
     def _setup_actions(self):
         self._setup_proceed_from_links_action()
+        self._setup_return_from_alias_action()
 
     def _setup_proceed_from_links_action(self):
         self._setup_action("proceed-from-links", None, self._proceed_from_links)
 
+    def _setup_return_from_alias_action(self):
+        self._setup_action("return-from-alias", None, self._return_from_alias)
+
     # pylint: disable=unused-argument
     def _proceed_from_links(self, action, parameter):
         self.widget.proceed_from_links()
+
+    # pylint: disable=unused-argument
+    def _return_from_alias(self, action, parameter):
+        self.widget.show_links_page()

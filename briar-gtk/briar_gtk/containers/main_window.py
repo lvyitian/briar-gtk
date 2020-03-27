@@ -5,23 +5,21 @@
 # Initial version based on GNOME Fractal
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
-from gettext import gettext as _
-
 from gi.repository import GLib
 
 from briar_wrapper.models.contacts import Contacts
 
 from briar_gtk.container import Container
-from briar_gtk.widgets.contact_row import ContactRowWidget
 from briar_gtk.containers.private_chat import PrivateChatContainer
 from briar_gtk.define import APP
+from briar_gtk.widgets.about_dialog import AboutDialogWidget
+from briar_gtk.widgets.contact_row import ContactRowWidget
 
 
 class MainWindowContainer(Container):
 
     CONTAINER_UI = "main_window.ui"
     MENU_UI = "main_menu.ui"
-    ABOUT_UI = "about_dialog.ui"
 
     def __init__(self):
         super().__init__()
@@ -64,37 +62,10 @@ class MainWindowContainer(Container):
     def chat_entry(self):
         return self.builder.get_object("chat_entry")
 
-    # pylint: disable=line-too-long
-    def open_about_page(self):
-        self._add_from_resource(self.ABOUT_UI)
-        about_dialog = self.builder.get_object("about_dialog")
-        about_dialog.set_transient_for(APP().window)
-
-        code_use_title = _("Using code by")
-        code_use_list = [
-            "GNOME Fractal https://wiki.gnome.org/Apps/Fractal",
-            "GNOME Lollypop https://wiki.gnome.org/Apps/Lollypop",
-        ]
-        about_dialog.add_credit_section(
-            code_use_title, code_use_list
-        )
-
-        briar_functionality_title = _("Briar functionality by")
-        briar_functionality_list = [
-            "Briar REST API https://code.briarproject.org/briar/briar/tree/master/briar-headless",  # noqa
-            "Briar Python Wrapper https://code.briarproject.org/briar/python-briar-wrapper",  # noqa
-        ]
-        about_dialog.add_credit_section(
-            briar_functionality_title, briar_functionality_list
-        )
-
-        about_dialog.connect("response", self._on_about_response)
-        about_dialog.show()
-
     @staticmethod
-    # pylint: disable=unused-argument
-    def _on_about_response(dialog, response_id):
-        dialog.destroy()
+    def open_about_page():
+        about_dialog = AboutDialogWidget()
+        about_dialog.show()
 
     def open_private_chat(self, contact_id):
         contact_name = self._get_contact_name(contact_id)

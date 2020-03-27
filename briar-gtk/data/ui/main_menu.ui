@@ -26,7 +26,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">False</property>
-            <property name="action_name">win.open-about-page</property>
+            <property name="action_name">win.open-about-dialog</property>
             <property name="text" translatable="yes">About Briar GTK</property>
           </object>
           <packing>

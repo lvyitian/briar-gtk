@@ -33,7 +33,7 @@ class WindowActions(Actions):
         APP().set_accels_for_action("win.back-to-sidebar", ["<Ctrl>w"])
 
     def _setup_open_about_page_action(self):
-        self._setup_action("open-about-page", None, self._open_about_page)
+        self._setup_action("open-about-dialog", None, self._open_about_page)
 
     def _setup_open_add_contact_action(self):
         self._setup_action("open-add-contact", None, self._open_add_contact)

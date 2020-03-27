@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
+import os
+
 from gettext import gettext as _
 
 from gi.repository import Gtk
@@ -23,7 +25,7 @@ class AboutDialogWidget():
 
     def _load_from_builder(self):
         builder = Gtk.Builder()
-        builder.add_from_resource(RESOURCES_DIR + self.ABOUT_UI)
+        builder.add_from_resource(os.path.join(RESOURCES_DIR, self.ABOUT_UI))
         return builder.get_object("about_dialog")
 
     def _extend_about_dialog(self):

@@ -6,12 +6,14 @@
 # Initial version based on GNOME Lollypop
 # https://gitlab.gnome.org/World/lollypop/blob/1.0.2/lollypop/define.py
 
+import os
+
 from gi.repository import Gio
 
 APPLICATION_ID = "app.briar.gtk"
 APPLICATION_NAME = "Briar"
-RESOURCES_DIR = "/app/briar/gtk/"
-APPLICATION_STYLING_PATH = "resource://" + RESOURCES_DIR + "application.css"
-BRIAR_HEADLESS_JAR = "/app/briar/briar-headless.jar"
+RESOURCES_DIR = os.path.join("/app", "briar", "gtk")
+APPLICATION_STYLING_PATH = "resource:///app/briar/gtk/application.css"
+BRIAR_HEADLESS_JAR = os.path.join("/app", "briar", "briar-headless.jar")
 
 APP = Gio.Application.get_default

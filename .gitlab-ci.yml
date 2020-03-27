@@ -18,7 +18,6 @@ pycodestyle:
 pylint:
     stage: test
     script: tools/tests/test-pylint.sh
-    when: manual
 
 pytest:
     stage: test

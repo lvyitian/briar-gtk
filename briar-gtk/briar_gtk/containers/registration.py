@@ -93,6 +93,9 @@ class RegistrationContainer(Container):
 
     # pylint: disable=unused-argument
     def on_create_account_pressed(self, button):
+        if self._password_is_empty():
+            self._show_error_message(_("Please enter a password"))
+            return
         if not self._passwords_match():
             self._show_error_message(_("The passwords do not match"))
             return
@@ -101,6 +104,10 @@ class RegistrationContainer(Container):
         passwords_error_label.hide()
         self._show_loading_animation()
         self._register()
+
+    def _password_is_empty(self):
+        password = self.builder.get_object("password_entry").get_text()
+        return len(password) == 0
 
     def _passwords_match(self):
         password = self.builder.get_object("password_entry").get_text()

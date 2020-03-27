@@ -11,7 +11,8 @@ class Actions:
     def __init__(self, widget):
         self.widget = widget
 
-    def _create_action(self, key, parameter, callback):
+    @staticmethod
+    def _create_action(key, parameter, callback):
         action = Gio.SimpleAction.new(key, parameter)
         action.connect("activate", callback)
         return action

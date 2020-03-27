@@ -37,7 +37,9 @@ class LoginContainer(Container):
     def _setup_login_flow_headers(self):
         login_flow_headers = self.builder.get_object(self.HEADERS_NAME)
         login_flow_headers.show_all()
-        login_flow_headers.insert_action_group("login", self.get_action_group("login"))
+        login_flow_headers.insert_action_group(
+            "login", self.get_action_group("login")
+        )
         self._window.set_titlebar(login_flow_headers)
 
     def _setup_enter_listener(self):
@@ -46,10 +48,9 @@ class LoginContainer(Container):
 
     # pylint: disable=unused-argument
     def _on_password_enter(self, widget):
-        self._on_login_pressed()
+        self.on_login_pressed()
 
-    # pylint: disable=unused-argument
-    def _on_login_pressed(self):
+    def on_login_pressed(self):
         self._show_loading_animation()
         self._login()
 

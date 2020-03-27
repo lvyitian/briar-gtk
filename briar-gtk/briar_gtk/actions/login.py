@@ -23,4 +23,4 @@ class LoginActions(Actions):
 
     # pylint: disable=unused-argument
     def _login(self, action, parameter):
-        self.widget._on_login_pressed()
+        self.widget.on_login_pressed()

@@ -8,4 +8,5 @@ disable=attribute-defined-outside-init,
 	duplicate-code,
 	fixme,
         missing-docstring,
+        no-name-in-module,
         wrong-import-position

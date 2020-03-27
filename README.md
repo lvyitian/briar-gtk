@@ -19,10 +19,17 @@ you have to build it from source.
 
 The easiest and most convenient way is to build _briar-gtk_ using
 [Builder](https://wiki.gnome.org/Apps/Builder).
+Because Flatpak support is quite new in Builder,
+it's recommend to install Builder via Flatpak:
+```
+flatpak install flathub org.gnome.Builder
+```
+To setup Flatpak on your system, check out the
+[documentation at flatpak.org](https://flatpak.org/setup/).
 In _Builder_, click "Clone Repository" at the bottom and
 enter the URL to this Git project.
 
-You can also call this:
+To build it on the command-line without Builder, call this:
 ```bash
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak-builder builddir --install-deps-from=flathub --user --install --force-clean --ccache app.briar.gtk.json

@@ -15,8 +15,13 @@ class RegistrationActions(Actions):
         self._setup_actions()
 
     def _setup_actions(self):
+        self._setup_create_account_action()
         self._setup_proceed_from_nickname_action()
         self._setup_return_from_passwords_action()
+
+    def _setup_create_account_action(self):
+        self._setup_action("create-account", None,
+                           self._create_account)
 
     def _setup_proceed_from_nickname_action(self):
         self._setup_action("proceed-from-nickname", None,
@@ -25,6 +30,10 @@ class RegistrationActions(Actions):
     def _setup_return_from_passwords_action(self):
         self._setup_action("return-from-passwords", None,
                            self._return_from_passwords)
+
+    # pylint: disable=unused-argument
+    def _create_account(self, action, parameter):
+        self.widget.on_create_account_pressed(None)
 
     # pylint: disable=unused-argument
     def _proceed_from_nickname(self, action, parameter):

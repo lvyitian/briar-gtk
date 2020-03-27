@@ -61,9 +61,6 @@ msgstr ""
 msgid "Password"
 msgstr "Contraseña"
 
-msgid "Couldn't log in"
-msgstr ""
-
 msgid "Log in"
 msgstr ""
 
@@ -95,9 +92,6 @@ msgstr ""
 msgid "Choose your nickname"
 msgstr ""
 
-msgid "The nickname may not be empty."
-msgstr ""
-
 msgid "Confirm Password"
 msgstr ""
 
@@ -107,10 +101,13 @@ msgstr ""
 msgid "Creating Account"
 msgstr ""
 
-msgid "Using code by"
+msgid "Please enter a password"
 msgstr ""
 
-msgid "Briar functionality by"
+msgid "Couldn't log in"
+msgstr ""
+
+msgid "Please enter a nickname"
 msgstr ""
 
 msgid "The passwords do not match"
@@ -123,6 +120,12 @@ msgid "Please enter a link"
 msgstr ""
 
 msgid "Enter your contact's link, not your own"
+msgstr ""
+
+msgid "Using code by"
+msgstr ""
+
+msgid "Briar functionality by"
 msgstr ""
 
 msgid "Myself"

@@ -10,7 +10,7 @@ msgid "Briar"
 msgstr "Briar"
 
 msgid "Secure messaging, anywhere"
-msgstr ""
+msgstr "Sicher kommunizieren, überall"
 
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
 msgstr ""
@@ -61,9 +61,6 @@ msgstr "Kontak hinzufügen"
 msgid "Password"
 msgstr "Passwort"
 
-msgid "Couldn't log in"
-msgstr "Anmeldung fehlgeschlagen"
-
 msgid "Log in"
 msgstr "Anmelden"
 
@@ -95,9 +92,6 @@ msgstr "Willkommen bei Briar"
 msgid "Choose your nickname"
 msgstr "Wähle deinen Benutzernamen aus"
 
-msgid "The nickname may not be empty."
-msgstr "Der Benutzername darf nicht leer sein"
-
 msgid "Confirm Password"
 msgstr "Passwort bestätigen"
 
@@ -107,11 +101,14 @@ msgstr "Account erstellen"
 msgid "Creating Account"
 msgstr "Erstelle Account"
 
-msgid "Using code by"
-msgstr "Benutzt Code von"
+msgid "Please enter a password"
+msgstr "Bitte gib ein Passwort ein"
 
-msgid "Briar functionality by"
-msgstr "Briar-Funktionalität von"
+msgid "Couldn't log in"
+msgstr "Anmeldung fehlgeschlagen"
+
+msgid "Please enter a nickname"
+msgstr "Bitte gib einen Benutzernamen ein"
 
 msgid "The passwords do not match"
 msgstr "Die Passwörter stimmen nicht überein"
@@ -124,6 +121,12 @@ msgstr "Bitte gib einen Link ein"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
+
+msgid "Using code by"
+msgstr "Benutzt Code von"
+
+msgid "Briar functionality by"
+msgstr "Briar-Funktionalität von"
 
 msgid "Myself"
 msgstr "Ich"

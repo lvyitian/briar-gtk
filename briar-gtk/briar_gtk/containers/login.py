@@ -26,7 +26,7 @@ class LoginContainer(Container):
 
     def on_login_pressed(self):
         if self._password_is_empty():
-            self._show_error_message(_("Please enter your password"))
+            self._show_error_message(_("Please enter a password"))
             return
         self._show_loading_animation()
         self._login()

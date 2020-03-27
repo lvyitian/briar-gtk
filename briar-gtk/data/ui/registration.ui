@@ -229,7 +229,7 @@
             <property name="use_underline">True</property>
             <property name="can_focus">True</property>
             <property name="label" translatable="yes">Next</property>
-            <property name="action_name" translatable="yes">registration.proceed-from-nickname</property>
+            <property name="action_name">registration.proceed-from-nickname</property>
             <style>
               <class name="suggested-action"/>
             </style>

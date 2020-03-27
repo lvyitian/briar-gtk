@@ -99,14 +99,14 @@ class AddContactContainer(Container):
 
     # pylint: disable=unused-argument
     def _on_alias_enter(self, widget):
-        self.on_add_contact_pressed(None)
+        self.on_add_contact_pressed()
 
     def show_links_page(self):
         links_page = self.builder.get_object("links_page")
         self.add_contact_flow_stack.set_visible_child(links_page)
 
     # pylint: disable=unused-argument
-    def on_add_contact_pressed(self, button):
+    def on_add_contact_pressed(self):
         alias_error_label = self.builder.get_object(
             "alias_error_label")
         if self._alias_is_empty():

@@ -247,7 +247,7 @@
             <property name="use_underline">True</property>
             <property name="can_focus">True</property>
             <property name="label" translatable="yes">Add contact</property>
-            <signal name="clicked" handler="on_add_contact_pressed"/>
+            <property name="action_name">add-contact.add-contact</property>
             <style>
               <class name="suggested-action"/>
             </style>

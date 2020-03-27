@@ -79,7 +79,6 @@
                 <property name="visible">False</property>
                 <property name="can_focus">False</property>
                 <property name="no_show_all">True</property>
-                <property name="label" translatable="yes">The nickname may not be empty.</property>
                 <property name="wrap">True</property>
                 <property name="wrap_mode">PANGO_WRAP_WORD_CHAR</property>
                 <style>

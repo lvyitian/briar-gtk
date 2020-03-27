@@ -54,11 +54,11 @@ class RegistrationContainer(Container):
         self.proceed_from_nickname()
 
     def proceed_from_nickname(self):
-        nickname_error_label = self.builder.get_object("nickname_error_label")
         if self._nickname_is_empty():
-            nickname_error_label.show()
+            self._show_nickname_error_message(_("Please enter a nickname"))
             return
-        nickname_error_label.hide()
+        error_label = self.builder.get_object("nickname_error_label")
+        error_label.hide()
         self._show_passwords_page()
 
     def _nickname_is_empty(self):
@@ -92,14 +92,13 @@ class RegistrationContainer(Container):
 
     def on_create_account_pressed(self):
         if self._password_is_empty():
-            self._show_error_message(_("Please enter a password"))
+            self._show_passwords_error_message(_("Please enter a password"))
             return
         if not self._passwords_match():
-            self._show_error_message(_("The passwords do not match"))
+            self._show_passwords_error_message(_("The passwords do not match"))
             return
-        passwords_error_label = self.builder.get_object(
-            "passwords_error_label")
-        passwords_error_label.hide()
+        error_label = self.builder.get_object("passwords_error_label")
+        error_label.hide()
         self._show_loading_animation()
         self._register()
 
@@ -130,11 +129,17 @@ class RegistrationContainer(Container):
         GLib.idle_add(function)
 
     def _registration_failed(self):
-        self._show_error_message(_("Couldn't register account"))
+        self._show_passwords_error_message(_("Couldn't register account"))
         self._show_passwords_page()
 
-    def _show_error_message(self, error_message):
-        passwords_error_label = self.builder.get_object(
-            "passwords_error_label")
-        passwords_error_label.set_label(error_message)
-        passwords_error_label.show()
+    def _show_nickname_error_message(self, error_message):
+        error_label = self.builder.get_object("nickname_error_label")
+        self._show_error_message(error_label, error_message)
+
+    def _show_passwords_error_message(self, error_message):
+        error_label = self.builder.get_object("passwords_error_label")
+        self._show_error_message(error_label, error_message)
+
+    def _show_error_message(self, error_label, error_message):
+        error_label.set_label(error_message)
+        error_label.show()

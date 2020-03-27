@@ -6,6 +6,8 @@ from gettext import gettext as _
 
 from briar_wrapper.models.contacts import Contacts
 
+from briar_gtk.actions.add_contact import AddContactActions
+from briar_gtk.actions.prefixes import ADD_CONTACT_PREFIX
 from briar_gtk.container import Container
 from briar_gtk.define import APP
 
@@ -18,6 +20,7 @@ class AddContactContainer(Container):
 
     def __init__(self):
         super().__init__()
+        AddContactActions(self)
         self._setup_view()
         self._load_content()
 
@@ -42,6 +45,9 @@ class AddContactContainer(Container):
     def _setup_add_contact_flow_headers(self):
         add_contact_flow_headers = self.builder.get_object(self.HEADERS_NAME)
         add_contact_flow_headers.show_all()
+        add_contact_flow_headers.insert_action_group(
+            ADD_CONTACT_PREFIX, self.get_action_group(ADD_CONTACT_PREFIX)
+        )
         APP().window.set_titlebar(add_contact_flow_headers)
 
     def _setup_link_enter_listener(self):
@@ -50,10 +56,10 @@ class AddContactContainer(Container):
 
     # pylint: disable=unused-argument
     def _on_link_enter(self, widget):
-        self.on_links_next_pressed(None)
+        self.proceed_from_links()
 
     # pylint: disable=unused-argument
-    def on_links_next_pressed(self, button):
+    def proceed_from_links(self):
         link_error_label = self.builder.get_object("link_error_label")
         if self._link_is_empty():
             link_error_label.set_label(_("Please enter a link"))

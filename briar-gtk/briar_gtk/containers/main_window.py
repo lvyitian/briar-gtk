@@ -72,6 +72,15 @@ class MainWindowContainer(Container):
         self._prepare_chat_view(contact_name)
         self._setup_private_chat_widget(contact_name, contact_id)
 
+    def show_sidebar(self):
+        self.main_window_leaflet.set_visible_child(
+            self.builder.get_object("sidebar_box"))
+        self.chat_view.hide()
+        self.chat_placeholder.show()
+        self._clear_history_container()
+        self.contacts_list_box.unselect_all()
+        self.room_name_label.set_text("")
+
     def _prepare_chat_view(self, contact_name):
         if self._no_chat_opened():
             self.chat_placeholder.hide()
@@ -149,12 +158,3 @@ class MainWindowContainer(Container):
         contacts_list_box_children = self.contacts_list_box.get_children()
         for child in contacts_list_box_children:
             self.contacts_list_box.remove(child)
-
-    def show_sidebar(self):
-        self.main_window_leaflet.set_visible_child(
-            self.builder.get_object("sidebar_box"))
-        self.chat_view.hide()
-        self.chat_placeholder.show()
-        self._clear_history_container()
-        self.contacts_list_box.unselect_all()
-        self.room_name_label.set_text("")

@@ -30,6 +30,19 @@ class PrivateChatContainer(Container):
         self._setup_view()
         self._load_content()
 
+    def send_message(self, widget):
+        message = widget.get_text()
+        private_chat = PrivateChat(APP().api, self._contact_id)
+        private_chat.send(message)
+
+        self._add_message(
+            {
+                "text": message,
+                "local": True,
+                "timestamp": int(round(time.time() * 1000))
+            })
+        widget.set_text("")
+
     def _setup_view(self):
         self._add_from_resource(self.CONTAINER_UI)
 
@@ -67,16 +80,3 @@ class PrivateChatContainer(Container):
 
     def _add_message_async(self, message):
         GLib.idle_add(self._add_message, message)
-
-    def send_message(self, widget):
-        message = widget.get_text()
-        private_chat = PrivateChat(APP().api, self._contact_id)
-        private_chat.send(message)
-
-        self._add_message(
-            {
-                "text": message,
-                "local": True,
-                "timestamp": int(round(time.time() * 1000))
-            })
-        widget.set_text("")

@@ -24,6 +24,34 @@ class AddContactContainer(Container):
         self._setup_view()
         self._load_content()
 
+    def proceed_from_links(self):
+        link_error_label = self.builder.get_object("link_error_label")
+        if self._link_is_empty():
+            link_error_label.set_label(_("Please enter a link"))
+            link_error_label.show()
+            return
+        if self._links_match():
+            link_error_label.show()
+            link_error_label.set_label(
+                _("Enter your contact's link, not your own"))
+            return
+        link_error_label.hide()
+        self._show_alias_page()
+
+    def show_links_page(self):
+        links_page = self.builder.get_object("links_page")
+        self.add_contact_flow_stack.set_visible_child(links_page)
+
+    def on_add_contact_pressed(self):
+        alias_error_label = self.builder.get_object(
+            "alias_error_label")
+        if self._alias_is_empty():
+            alias_error_label.show()
+            return
+        alias_error_label.hide()
+        self._add_contact()
+        APP().window.show_main_container()
+
     def _setup_view(self):
         self._add_from_resource(self.ADD_CONTACT_UI)
         self.builder.connect_signals(self)
@@ -58,20 +86,6 @@ class AddContactContainer(Container):
     def _on_link_enter(self, widget):
         self.proceed_from_links()
 
-    def proceed_from_links(self):
-        link_error_label = self.builder.get_object("link_error_label")
-        if self._link_is_empty():
-            link_error_label.set_label(_("Please enter a link"))
-            link_error_label.show()
-            return
-        if self._links_match():
-            link_error_label.show()
-            link_error_label.set_label(
-                _("Enter your contact's link, not your own"))
-            return
-        link_error_label.hide()
-        self._show_alias_page()
-
     def _links_match(self):
         their_link = self.builder.get_object("their_link_entry").get_text()
         own_link = self.builder.get_object("own_link_entry").get_text()
@@ -99,20 +113,6 @@ class AddContactContainer(Container):
     # pylint: disable=unused-argument
     def _on_alias_enter(self, widget):
         self.on_add_contact_pressed()
-
-    def show_links_page(self):
-        links_page = self.builder.get_object("links_page")
-        self.add_contact_flow_stack.set_visible_child(links_page)
-
-    def on_add_contact_pressed(self):
-        alias_error_label = self.builder.get_object(
-            "alias_error_label")
-        if self._alias_is_empty():
-            alias_error_label.show()
-            return
-        alias_error_label.hide()
-        self._add_contact()
-        APP().window.show_main_container()
 
     def _alias_is_empty(self):
         alias = self.builder.get_object("alias_entry").get_text()

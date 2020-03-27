@@ -24,6 +24,30 @@ class RegistrationContainer(Container):
         self._window = window
         self._setup_view()
 
+    def proceed_from_nickname(self):
+        if self._nickname_is_empty():
+            self._show_nickname_error_message(_("Please enter a nickname"))
+            return
+        error_label = self.builder.get_object("nickname_error_label")
+        error_label.hide()
+        self._show_passwords_page()
+
+    def show_nickname_page(self):
+        nickname_page = self.builder.get_object("nickname_page")
+        self.registration_flow_stack.set_visible_child(nickname_page)
+
+    def on_create_account_pressed(self):
+        if self._password_is_empty():
+            self._show_passwords_error_message(_("Please enter a password"))
+            return
+        if not self._passwords_match():
+            self._show_passwords_error_message(_("The passwords do not match"))
+            return
+        error_label = self.builder.get_object("passwords_error_label")
+        error_label.hide()
+        self._show_loading_animation()
+        self._register()
+
     def _setup_view(self):
         self._add_from_resource(self.REGISTRATION_UI)
         self.builder.connect_signals(self)
@@ -53,14 +77,6 @@ class RegistrationContainer(Container):
     def _on_nickname_enter(self, widget):
         self.proceed_from_nickname()
 
-    def proceed_from_nickname(self):
-        if self._nickname_is_empty():
-            self._show_nickname_error_message(_("Please enter a nickname"))
-            return
-        error_label = self.builder.get_object("nickname_error_label")
-        error_label.hide()
-        self._show_passwords_page()
-
     def _nickname_is_empty(self):
         nickname = self.builder.get_object("nickname_entry").get_text()
         return len(nickname) == 0
@@ -85,22 +101,6 @@ class RegistrationContainer(Container):
     # pylint: disable=unused-argument
     def _on_passwords_enter(self, widget):
         self.on_create_account_pressed()
-
-    def show_nickname_page(self):
-        nickname_page = self.builder.get_object("nickname_page")
-        self.registration_flow_stack.set_visible_child(nickname_page)
-
-    def on_create_account_pressed(self):
-        if self._password_is_empty():
-            self._show_passwords_error_message(_("Please enter a password"))
-            return
-        if not self._passwords_match():
-            self._show_passwords_error_message(_("The passwords do not match"))
-            return
-        error_label = self.builder.get_object("passwords_error_label")
-        error_label.hide()
-        self._show_loading_animation()
-        self._register()
 
     def _password_is_empty(self):
         password = self.builder.get_object("password_entry").get_text()

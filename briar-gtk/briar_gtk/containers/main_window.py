@@ -150,7 +150,6 @@ class MainWindowContainer(Container):
         for child in contacts_list_box_children:
             self.contacts_list_box.remove(child)
 
-    # pylint: disable=unused-argument
     def show_sidebar(self):
         self.main_window_leaflet.set_visible_child(
             self.builder.get_object("sidebar_box"))

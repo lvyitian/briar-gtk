@@ -50,10 +50,9 @@ class RegistrationContainer(Container):
         nickname_entry.connect("activate", self._on_nickname_enter)
 
     # pylint: disable=unused-argument
-    def _on_nickname_enter(self, event):
+    def _on_nickname_enter(self, widget):
         self.proceed_from_nickname()
 
-    # pylint: disable=unused-argument
     def proceed_from_nickname(self):
         nickname_error_label = self.builder.get_object("nickname_error_label")
         if self._nickname_is_empty():
@@ -84,15 +83,14 @@ class RegistrationContainer(Container):
             "activate", self._on_passwords_enter)
 
     # pylint: disable=unused-argument
-    def _on_passwords_enter(self, event):
-        self.on_create_account_pressed(None)
+    def _on_passwords_enter(self, widget):
+        self.on_create_account_pressed()
 
     def show_nickname_page(self):
         nickname_page = self.builder.get_object("nickname_page")
         self.registration_flow_stack.set_visible_child(nickname_page)
 
-    # pylint: disable=unused-argument
-    def on_create_account_pressed(self, button):
+    def on_create_account_pressed(self):
         if self._password_is_empty():
             self._show_error_message(_("Please enter a password"))
             return

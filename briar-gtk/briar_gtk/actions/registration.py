@@ -33,7 +33,7 @@ class RegistrationActions(Actions):
 
     # pylint: disable=unused-argument
     def _create_account(self, action, parameter):
-        self.widget.on_create_account_pressed(None)
+        self.widget.on_create_account_pressed()
 
     # pylint: disable=unused-argument
     def _proceed_from_nickname(self, action, parameter):

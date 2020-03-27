@@ -68,7 +68,6 @@ class PrivateChatContainer(Container):
     def _add_message_async(self, message):
         GLib.idle_add(self._add_message, message)
 
-    # pylint: disable=unused-argument
     def send_message(self, widget):
         message = widget.get_text()
         private_chat = PrivateChat(APP().api, self._contact_id)

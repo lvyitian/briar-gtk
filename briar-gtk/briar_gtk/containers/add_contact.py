@@ -58,7 +58,6 @@ class AddContactContainer(Container):
     def _on_link_enter(self, widget):
         self.proceed_from_links()
 
-    # pylint: disable=unused-argument
     def proceed_from_links(self):
         link_error_label = self.builder.get_object("link_error_label")
         if self._link_is_empty():
@@ -105,7 +104,6 @@ class AddContactContainer(Container):
         links_page = self.builder.get_object("links_page")
         self.add_contact_flow_stack.set_visible_child(links_page)
 
-    # pylint: disable=unused-argument
     def on_add_contact_pressed(self):
         alias_error_label = self.builder.get_object(
             "alias_error_label")

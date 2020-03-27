@@ -65,7 +65,7 @@ class AddContactContainer(Container):
             link_error_label.set_label(_("Please enter a link"))
             link_error_label.show()
             return
-        if self._their_link_is_ours():
+        if self._links_match():
             link_error_label.show()
             link_error_label.set_label(
                 _("Enter your contact's link, not your own"))
@@ -73,7 +73,7 @@ class AddContactContainer(Container):
         link_error_label.hide()
         self._show_alias_page()
 
-    def _their_link_is_ours(self):
+    def _links_match(self):
         their_link = self.builder.get_object("their_link_entry").get_text()
         own_link = self.builder.get_object("own_link_entry").get_text()
         return their_link == own_link

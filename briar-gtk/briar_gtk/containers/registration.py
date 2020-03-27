@@ -140,6 +140,7 @@ class RegistrationContainer(Container):
         error_label = self.builder.get_object("passwords_error_label")
         self._show_error_message(error_label, error_message)
 
-    def _show_error_message(self, error_label, error_message):
+    @staticmethod
+    def _show_error_message(error_label, error_message):
         error_label.set_label(error_message)
         error_label.show()

@@ -4,8 +4,6 @@
 
 from gettext import gettext as _
 
-from gi.repository import GLib
-
 from briar_wrapper.models.contacts import Contacts
 
 from briar_gtk.container import Container
@@ -53,10 +51,6 @@ class AddContactContainer(Container):
     # pylint: disable=unused-argument
     def _on_link_enter(self, widget):
         self.on_links_next_pressed(None)
-
-    # pylint: disable=unused-argument
-    def on_link_back_pressed(self, button):
-        self._back_to_main_window()
 
     # pylint: disable=unused-argument
     def on_links_next_pressed(self, button):
@@ -118,7 +112,7 @@ class AddContactContainer(Container):
             return
         alias_error_label.hide()
         self._add_contact()
-        self._back_to_main_window()
+        APP().window.show_main_container()
 
     def _alias_is_empty(self):
         alias = self.builder.get_object("alias_entry").get_text()
@@ -129,7 +123,3 @@ class AddContactContainer(Container):
         their_link = self.builder.get_object("their_link_entry").get_text()
         alias = self.builder.get_object("alias_entry").get_text()
         contacts.add_pending(their_link, alias)
-
-    # pylint: disable=no-self-use
-    def _back_to_main_window(self):
-        GLib.idle_add(APP().window.show_main_container)

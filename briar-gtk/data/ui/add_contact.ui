@@ -187,7 +187,7 @@
           <object class="GtkButton">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
-            <signal name="clicked" handler="on_link_back_pressed"/>
+            <property name="action_name">win.open-main-window</property>
             <child>
               <object class="GtkImage">
                 <property name="visible">True</property>

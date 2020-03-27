@@ -25,6 +25,7 @@ class WindowActions(Actions):
         self._setup_back_to_sidebar_action()
         self._setup_open_about_page_action()
         self._setup_open_add_contact_action()
+        self._setup_open_main_window_action()
         self._setup_open_private_chat_action()
 
     def _setup_back_to_sidebar_action(self):
@@ -36,6 +37,9 @@ class WindowActions(Actions):
 
     def _setup_open_add_contact_action(self):
         self._setup_action("open-add-contact", None, self._open_add_contact)
+
+    def _setup_open_main_window_action(self):
+        self._setup_action("open-main-window", None, self._open_main_window)
 
     def _setup_open_private_chat_action(self):
         self._setup_action("open-private-chat", GLib.VariantType.new("i"),
@@ -53,6 +57,10 @@ class WindowActions(Actions):
     # pylint: disable=unused-argument
     def _open_add_contact(self, action, parameter):
         self.widget.show_add_contact_container()
+
+    # pylint: disable=unused-argument
+    def _open_main_window(self, action, parameter):
+        self.widget.show_main_container()
 
     # pylint: disable=unused-argument
     def _open_private_chat(self, action, contact_id):

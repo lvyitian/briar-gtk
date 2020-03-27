@@ -15,4 +15,11 @@ class RegistrationActions(Actions):
         self._setup_actions()
 
     def _setup_actions(self):
-        pass
+        self._setup_proceed_from_nickname_action()
+
+    def _setup_proceed_from_nickname_action(self):
+        self._setup_action("proceed-from-nickname", None, self._proceed_from_nickname)
+
+    # pylint: disable=unused-argument
+    def _proceed_from_nickname(self, action, parameter):
+        self.widget.proceed_from_nickname()

@@ -51,10 +51,10 @@ class RegistrationContainer(Container):
 
     # pylint: disable=unused-argument
     def _on_nickname_enter(self, event):
-        self.on_nickname_next_pressed(None)
+        self.proceed_from_nickname()
 
     # pylint: disable=unused-argument
-    def on_nickname_next_pressed(self, button):
+    def proceed_from_nickname(self):
         nickname_error_label = self.builder.get_object("nickname_error_label")
         if self._nickname_is_empty():
             nickname_error_label.show()

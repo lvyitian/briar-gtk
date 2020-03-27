@@ -230,7 +230,7 @@
             <property name="use_underline">True</property>
             <property name="can_focus">True</property>
             <property name="label" translatable="yes">Next</property>
-            <signal name="clicked" handler="on_nickname_next_pressed"/>
+            <property name="action_name" translatable="yes">registration.proceed-from-nickname</property>
             <style>
               <class name="suggested-action"/>
             </style>

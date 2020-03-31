@@ -74,7 +74,9 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
     @staticmethod
     def _create_body_content(text):
         body_content = Gtk.Label.new(text)
+        body_content.set_line_wrap(True)
         body_content.set_halign(Gtk.Align.START)
+        body_content.set_xalign(0)
         return body_content
 
     @staticmethod

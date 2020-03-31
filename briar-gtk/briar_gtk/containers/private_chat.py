@@ -71,7 +71,9 @@ class PrivateChatContainer(Container):
         private_chat = PrivateChat(APP().api, self._contact_id)
         messages_list = private_chat.get()
         for message in messages_list:
-            self._add_message(message)
+            # Abusing idle_add function here because otherwise the message box
+            # is too small and scrolling cuts out messages
+            GLib.idle_add(self._add_message, message)
         private_chat.watch_messages(self._add_message_async)
 
     def _add_message(self, message):

@@ -13,7 +13,11 @@
         "--socket=x11",
         "--socket=wayland",
         "--filesystem=~/.briar:create",
-        "--env=PATH=/app/bin:/usr/bin:/app/jre/bin"
+        "--env=PATH=/app/bin:/usr/bin:/app/jre/bin",
+        "--filesystem=xdg-run/dconf",
+        "--filesystem=~/.config/dconf:ro",
+        "--talk-name=ca.desrt.dconf",
+        "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
     ],
     "build-options": {
         "cflags": "-O2 -g",

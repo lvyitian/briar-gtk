@@ -42,6 +42,7 @@ class PrivateChatContainer(Container):
                 "timestamp": int(round(time.time() * 1000))
             })
         widget.set_text("")
+        GLib.idle_add(self._scroll_to_bottom)
 
     def _setup_view(self):
         self._add_from_resource(self.CONTAINER_UI)
@@ -63,13 +64,18 @@ class PrivateChatContainer(Container):
         messages_column.add(column)
         messages_column.show()
 
-        self.add(self.builder.get_object("messages_scroll"))
+        messages_scroll = self.builder.get_object("messages_scroll")
+        self._draw_signal_id = messages_scroll.connect(
+            "draw", self._on_message_scroll_draw
+        )
+        self.add(messages_scroll)
 
         self.builder.connect_signals(self)
 
     def _load_content(self):
         private_chat = PrivateChat(APP().api, self._contact_id)
         messages_list = private_chat.get()
+        self._messages_count = len(messages_list)
         for message in messages_list:
             # Abusing idle_add function here because otherwise the message box
             # is too small and scrolling cuts out messages
@@ -82,3 +88,24 @@ class PrivateChatContainer(Container):
 
     def _add_message_async(self, message):
         GLib.idle_add(self._add_message, message)
+
+    # pylint: disable=unused-argument
+    def _on_message_scroll_draw(self, widget, cairo_context):
+        self._scroll_to_bottom()
+        if self._draw_signal_is_not_needed():
+            widget.disconnect(self._draw_signal_id)
+
+    def _scroll_to_bottom(self):
+        messages_scroll = self.builder.get_object("messages_scroll")
+        adjustment = messages_scroll.get_vadjustment()
+        adjustment.set_value(
+            adjustment.get_upper() - adjustment.get_page_size()
+        )
+
+    def _draw_signal_is_not_needed(self):
+        if self._messages_count == 0:
+            return True
+
+        messages_scroll = self.builder.get_object("messages_scroll")
+        adjustment = messages_scroll.get_vadjustment()
+        return adjustment.get_value() != 0

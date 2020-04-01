@@ -96,7 +96,17 @@ class MainWindowContainer(Container):
         private_chat_widget = PrivateChatContainer(contact_name, contact_id)
         self.history_container.add(private_chat_widget)
         self.history_container.show_all()
-        self.chat_entry.connect("activate", private_chat_widget.send_message)
+
+        self._disconnect_chat_entry_signals()
+        self._chat_entry_signal_id = self.chat_entry.connect(
+            "activate", private_chat_widget.send_message
+        )
+
+    def _disconnect_chat_entry_signals(self):
+        if not hasattr(self, "_chat_entry_signal_id"):
+            return
+        self.chat_entry.disconnect(self._chat_entry_signal_id)
+        del self._chat_entry_signal_id
 
     def _no_chat_opened(self):
         return self.chat_placeholder.get_visible()

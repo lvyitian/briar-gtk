@@ -83,8 +83,8 @@ class PrivateChatContainer(Container):
         private_chat.watch_messages(self._add_message_async)
 
     def _add_message(self, message):
-        message = PrivateMessageWidget(self._contact_name, message)
-        self._messages_box.add(message)
+        message_widget = PrivateMessageWidget(self._contact_name, message)
+        self._messages_box.add(message_widget)
 
     def _add_message_async(self, message):
         GLib.idle_add(self._add_message, message)

@@ -5,7 +5,7 @@
 # Initial version based on GNOME Fractal
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
-import datetime
+from datetime import datetime
 from gettext import gettext as _
 
 from gi.repository import Gtk
@@ -55,14 +55,22 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         return username_event_box
 
     @staticmethod
-    def _create_date_info(time):
-        date_label = Gtk.Label.new(
-            datetime.datetime.fromtimestamp(time).strftime("%I:%M"))
+    def _create_date_info(timestamp):
+        time = PrivateMessageWidget._make_timestamp_readable(timestamp)
+        date_label = Gtk.Label.new(time)
         date_label.set_justify(Gtk.Justification.RIGHT)
         date_label.set_valign(Gtk.Align.START)
         date_label.set_halign(Gtk.Align.END)
         date_label.get_style_context().add_class("timestamp")
         return date_label
+
+    @staticmethod
+    def _make_timestamp_readable(timestamp):
+        time = datetime.fromtimestamp(timestamp)
+        current_time = datetime.today()
+        if time.date() == current_time.date():
+            return time.strftime("%I:%M")
+        return time.strftime("%x %I:%M")
 
     @staticmethod
     def _create_info(username_info, date_info):

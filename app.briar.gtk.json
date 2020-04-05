@@ -113,8 +113,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://media.dorfbrunnen.eu/briar/jars/009/briar-headless.jar",
-                    "sha256": "63dc3c081b65b0e5edb5f154f33fa3b91f4ec8e76d6a1d1d9487b923d8a5f455"
+                    "url": "https://media.dorfbrunnen.eu/briar/jars/010/briar-headless.jar",
+                    "sha256": "ad9b982b506cf8f9e7ee7979c0c222e364c87448177301358bf4efbabdd4033a"
                 }
             ]
         },

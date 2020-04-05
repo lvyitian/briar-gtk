@@ -80,7 +80,9 @@ class PrivateChatContainer(Container):
             # Abusing idle_add function here because otherwise the message box
             # is too small and scrolling cuts out messages
             GLib.idle_add(self._add_message, message)
-        private_chat.watch_messages(self._add_message_async)
+        # TODO: Disconnect if no more needed
+        APP().api.socket_listener.connect("ConversationMessageReceivedEvent",
+                                          self._add_message_async)
 
     def _add_message(self, message):
         message_widget = PrivateMessageWidget(self._contact_name, message)

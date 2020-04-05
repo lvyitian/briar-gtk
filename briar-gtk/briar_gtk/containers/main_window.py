@@ -150,7 +150,11 @@ class MainWindowContainer(Container):
     def _load_content(self):
         self._contacts = Contacts(APP().api)
         self._load_contacts()
-        self._contacts.watch_contacts(self._refresh_contacts_async)
+        # TODO: Disconnect if no more needed
+        APP().api.socket_listener.connect("ContactAddedEvent",
+                                          self._refresh_contacts_async)
+        APP().api.socket_listener.connect("ConversationMessageReceivedEvent",
+                                          self._refresh_contacts_async)
 
     def _load_contacts(self):
         self.contacts_list = self._contacts.get()
@@ -158,10 +162,11 @@ class MainWindowContainer(Container):
             contact_row = ContactRowWidget(contact)
             self.contacts_list_box.add(contact_row)
 
-    def _refresh_contacts_async(self):
+    def _refresh_contacts_async(self, message):
         GLib.idle_add(self._refresh_contacts)
 
     def _refresh_contacts(self):
+        # TODO: Keep selected contact with open chat
         self._clear_contact_list()
         self._load_contacts()
 

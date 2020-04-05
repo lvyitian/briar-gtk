@@ -162,6 +162,7 @@ class MainWindowContainer(Container):
             contact_row = ContactRowWidget(contact)
             self.contacts_list_box.add(contact_row)
 
+    # pylint: disable=unused-argument
     def _refresh_contacts_async(self, message):
         GLib.idle_add(self._refresh_contacts)
 

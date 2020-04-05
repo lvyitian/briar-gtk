@@ -5,7 +5,6 @@
 from gi.repository import Gio
 
 
-# pylint: disable=too-few-public-methods
 class Actions:
 
     def __init__(self, widget):

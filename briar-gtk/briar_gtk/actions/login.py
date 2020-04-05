@@ -6,7 +6,6 @@ from briar_gtk.actions.actions import Actions
 from briar_gtk.actions.prefixes import LOGIN_PREFIX
 
 
-# pylint: disable=too-few-public-methods
 class LoginActions(Actions):
 
     def __init__(self, widget):

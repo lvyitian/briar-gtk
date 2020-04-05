@@ -6,7 +6,6 @@ from briar_gtk.actions.actions import Actions
 from briar_gtk.actions.prefixes import REGISTRATION_PREFIX
 
 
-# pylint: disable=too-few-public-methods
 class RegistrationActions(Actions):
 
     def __init__(self, widget):

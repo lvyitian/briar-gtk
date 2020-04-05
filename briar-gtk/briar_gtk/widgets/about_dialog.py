@@ -11,7 +11,6 @@ from gi.repository import Gtk
 from briar_gtk.define import APP, RESOURCES_DIR
 
 
-# pylint: disable=too-few-public-methods
 class AboutDialogWidget():
 
     ABOUT_UI = "about_dialog.ui"

@@ -16,7 +16,6 @@ from briar_gtk.define import APP
 from briar_gtk.widgets.private_message import PrivateMessageWidget
 
 
-# pylint: disable=too-few-public-methods
 class PrivateChatContainer(Container):
 
     CONTAINER_UI = "private_chat.ui"

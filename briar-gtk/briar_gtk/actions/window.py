@@ -14,7 +14,6 @@ from briar_gtk.containers.main_window import MainWindowContainer
 from briar_gtk.define import APP
 
 
-# pylint: disable=too-few-public-methods
 class WindowActions(Actions):
 
     def __init__(self, widget):

@@ -101,6 +101,7 @@ class MainWindowContainer(Container):
         self._chat_entry_signal_id = self.chat_entry.connect(
             "activate", private_chat_widget.send_message
         )
+        self.chat_entry.grab_focus()
 
     def _disconnect_chat_entry_signals(self):
         if not hasattr(self, "_chat_entry_signal_id"):

@@ -87,7 +87,12 @@ class PrivateChatContainer(Container):
         self._messages_box.add(message_widget)
 
     def _add_message_async(self, message):
-        GLib.idle_add(self._add_message, message)
+        if message["data"]["contactId"] == self._contact_id:
+            GLib.idle_add(self._add_message_and_scroll, message["data"])
+
+    def _add_message_and_scroll(self, message):
+        self._add_message(message)
+        GLib.idle_add(self._scroll_to_bottom)
 
     # pylint: disable=unused-argument
     def _on_message_scroll_draw(self, widget, cairo_context):

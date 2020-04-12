@@ -125,7 +125,7 @@ class MainWindowContainer(Container):
     def _clear_history_container(self):
         children = self.history_container.get_children()
         for child in children:
-            self.history_container.remove(child)
+            child.destroy()
 
     def _setup_view(self):
         self._add_from_resource(self.MENU_UI)
@@ -174,4 +174,4 @@ class MainWindowContainer(Container):
     def _clear_contact_list(self):
         contacts_list_box_children = self.contacts_list_box.get_children()
         for child in contacts_list_box_children:
-            self.contacts_list_box.remove(child)
+            child.destroy()

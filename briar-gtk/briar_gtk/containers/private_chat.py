@@ -23,6 +23,7 @@ class PrivateChatContainer(Container):
     def __init__(self, contact_name, contact_id):
         super().__init__()
 
+        self._signals = list()
         self._contact_name = contact_name
         self._contact_id = contact_id
 
@@ -70,6 +71,18 @@ class PrivateChatContainer(Container):
         self.add(messages_scroll)
 
         self.builder.connect_signals(self)
+        self._setup_destroy_listener()
+
+    def _setup_destroy_listener(self):
+        self.connect("destroy", self._on_destroy)
+
+    # pylint: disable=unused-argument
+    def _on_destroy(self, widget):
+        self._disconnect_signals()
+
+    def _disconnect_signals(self):
+        for signal in self._signals:
+            APP().api.socket_listener.disconnect(signal)
 
     def _load_content(self):
         private_chat = PrivateChat(APP().api, self._contact_id)
@@ -79,9 +92,10 @@ class PrivateChatContainer(Container):
             # Abusing idle_add function here because otherwise the message box
             # is too small and scrolling cuts out messages
             GLib.idle_add(self._add_message, message)
-        # TODO: Disconnect if no more needed
-        APP().api.socket_listener.connect("ConversationMessageReceivedEvent",
-                                          self._add_message_async)
+        socket_listener = APP().api.socket_listener
+        signal_id = socket_listener.connect("ConversationMessageReceivedEvent",
+                                            self._add_message_async)
+        self._signals.append(signal_id)
 
     def _add_message(self, message):
         message_widget = PrivateMessageWidget(self._contact_name, message)

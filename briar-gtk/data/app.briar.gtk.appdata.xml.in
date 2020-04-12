@@ -52,6 +52,10 @@
       <image type="source">https://code.briarproject.org/briar/briar-gtk/raw/fff8cbe97dc8e6c759b978e6d7d8608a3105b9c0/tools/screenshots/briar-gtk-screenshot-4.png</image>
     </screenshot>
   </screenshots>
+  
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-chat">intense</content_attribute>
+  </content_rating>
 
   <releases>
     <release version="0.1.0-alpha1" date="2020-04-12">

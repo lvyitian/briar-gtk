@@ -23,6 +23,7 @@ class MainWindowContainer(Container):
 
     def __init__(self):
         super().__init__()
+        self._signals = list()
         self._setup_view()
         self._load_content()
 
@@ -135,6 +136,7 @@ class MainWindowContainer(Container):
         self._setup_main_window_stack()
         self._setup_headerbar_stack_holder()
         self.contact_name_label.set_text("")
+        self._setup_destroy_listener()
 
     def _setup_main_window_stack(self):
         main_window_stack = self.builder.get_object("main_window_stack")
@@ -147,14 +149,27 @@ class MainWindowContainer(Container):
         headerbar_stack_holder.show_all()
         APP().window.set_titlebar(headerbar_stack_holder)
 
+    def _setup_destroy_listener(self):
+        self.connect("destroy", self._on_destroy)
+
+    # pylint: disable=unused-argument
+    def _on_destroy(self, widget):
+        self._disconnect_signals()
+
+    def _disconnect_signals(self):
+        for signal in self._signals:
+            APP().api.socket_listener.disconnect(signal)
+
     def _load_content(self):
         self._contacts = Contacts(APP().api)
         self._load_contacts()
-        # TODO: Disconnect if no more needed
-        APP().api.socket_listener.connect("ContactAddedEvent",
-                                          self._refresh_contacts_async)
-        APP().api.socket_listener.connect("ConversationMessageReceivedEvent",
-                                          self._refresh_contacts_async)
+        socket_listener = APP().api.socket_listener
+        signal_id = socket_listener.connect("ContactAddedEvent",
+                                            self._refresh_contacts_async)
+        self._signals.append(signal_id)
+        signal_id = socket_listener.connect("ConversationMessageReceivedEvent",
+                                            self._refresh_contacts_async)
+        self._signals.append(signal_id)
 
     def _load_contacts(self):
         self.contacts_list = self._contacts.get()

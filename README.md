@@ -10,6 +10,8 @@ It uses [python-briar-wrapper](https://code.briarproject.org/briar/python-briar-
 [Briar REST API](https://code.briarproject.org/briar/briar/blob/master/briar-headless/README.md)
 and therefore requires Java.
 
+![Screenshot of Briar GTK showing conversation screen with two contacts and open chat with Alice](tools/screenshots/briar-gtk-screenshot-1.png)
+
 For regular updates, check out the Briar tag on
 [Nico Alt's blog](https://nico.dorfbrunnen.eu/tags/briar/)
 ([RSS feed](https://nico.dorfbrunnen.eu/tags/briar/index.xml)).

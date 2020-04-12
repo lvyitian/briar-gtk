@@ -16,8 +16,12 @@ For regular updates, check out the Briar tag on
 
 ## Installation
 
-So far, there is no official installation method and
-you have to build it from source.
+Alpha releases of Briar GTK can be installed using Flatpak.
+After [installing Flatpak](https://flatpak.org/setup/), you can install
+Briar GTK like this:
+```
+flatpak install --user https://flatpak.dorfbrunnen.eu/repo/appstream/app.briar.gtk.flatpakref
+```
 
 ## Developers
 

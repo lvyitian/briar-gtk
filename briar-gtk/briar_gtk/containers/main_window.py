@@ -127,6 +127,8 @@ class MainWindowContainer(Container):
         children = self.history_container.get_children()
         for child in children:
             child.destroy()
+        if hasattr(self, "_selected_contact"):
+            del self._selected_contact
 
     def _setup_view(self):
         self._add_from_resource(self.MENU_UI)
@@ -173,18 +175,31 @@ class MainWindowContainer(Container):
 
     def _load_contacts(self):
         self.contacts_list = self._contacts.get()
+
+        selected_contact = -1
+        if hasattr(self, "_selected_contact"):
+            selected_contact = self._selected_contact
+
         for contact in self.contacts_list:
             contact_row = ContactRowWidget(contact)
             self.contacts_list_box.add(contact_row)
+            if contact["contactId"] == selected_contact:
+                self.contacts_list_box.select_row(contact_row)
 
     # pylint: disable=unused-argument
     def _refresh_contacts_async(self, message):
         GLib.idle_add(self._refresh_contacts)
 
     def _refresh_contacts(self):
-        # TODO: Keep selected contact with open chat
+        self._save_selected_row()
         self._clear_contact_list()
         self._load_contacts()
+
+    def _save_selected_row(self):
+        row = self.contacts_list_box.get_selected_row()
+        if row is None:
+            return
+        self._selected_contact = row.get_action_target_value().get_int32()
 
     def _clear_contact_list(self):
         contacts_list_box_children = self.contacts_list_box.get_children()

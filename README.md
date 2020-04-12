@@ -10,6 +10,10 @@ It uses [python-briar-wrapper](https://code.briarproject.org/briar/python-briar-
 [Briar REST API](https://code.briarproject.org/briar/briar/blob/master/briar-headless/README.md)
 and therefore requires Java.
 
+For regular updates, check out the Briar tag on
+[Nico Alt's blog](https://nico.dorfbrunnen.eu/tags/briar/)
+([RSS feed](https://nico.dorfbrunnen.eu/tags/briar/index.xml)).
+
 ## Installation
 
 So far, there is no official installation method and

@@ -36,7 +36,7 @@ enter the URL to this Git project.
 To build it on the command-line without Builder, call this:
 ```bash
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak-builder builddir --install-deps-from=flathub --user --install --force-clean --ccache app.briar.gtk.json
+flatpak-builder --install-deps-from=flathub --user --install --force-clean --ccache flatpak-builddir app.briar.gtk.json
 flatpak run app.briar.gtk
 ```
 

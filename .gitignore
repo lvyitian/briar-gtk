@@ -1,4 +1,5 @@
-builddir
+flatpak-builddir
+flatpak-repo
 .coverage
 .flatpak-builder
 __pycache__

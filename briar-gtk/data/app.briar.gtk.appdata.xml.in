@@ -33,4 +33,15 @@
   <developer_name>Briar Community</developer_name>
 
   <translation type="gettext">briar-gtk</translation>
+
+  <releases>
+    <release version="0.1.0-alpha1" date="2020-04-12">
+      <description>
+        <p>
+          The very first alpha release of Briar GTK.
+        </p>
+      </description>
+    </release>
+  </releases>
+
 </component>

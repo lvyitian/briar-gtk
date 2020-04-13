@@ -28,17 +28,37 @@
   <url type="help">https://briarproject.org/manual/</url>
   <url type="translate">https://www.transifex.com/otf/briar/</url>
   <url type="donation">https://liberapay.com/Briar/donate</url>
-  <url type="contact">https://briarproject.org/get-involved/</url>
-​  <project_group>Briar</project_group>
+  <project_group>Briar</project_group>
   <developer_name>Briar Community</developer_name>
+  <update_contact>contact@briarproject.org</update_contact>
 
   <translation type="gettext">briar-gtk</translation>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window showing two contacts and chat</caption>
+      <image type="source">https://code.briarproject.org/briar/briar-gtk/raw/fff8cbe97dc8e6c759b978e6d7d8608a3105b9c0/tools/screenshots/briar-gtk-screenshot-1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Welcome screen with registration</caption>
+      <image type="source">https://code.briarproject.org/briar/briar-gtk/raw/fff8cbe97dc8e6c759b978e6d7d8608a3105b9c0/tools/screenshots/briar-gtk-screenshot-2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Adding contacts on a distance</caption>
+      <image type="source">https://code.briarproject.org/briar/briar-gtk/raw/fff8cbe97dc8e6c759b978e6d7d8608a3105b9c0/tools/screenshots/briar-gtk-screenshot-3.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Main window with two contacts and about dialog</caption>
+      <image type="source">https://code.briarproject.org/briar/briar-gtk/raw/fff8cbe97dc8e6c759b978e6d7d8608a3105b9c0/tools/screenshots/briar-gtk-screenshot-4.png</image>
+    </screenshot>
+  </screenshots>
 
   <releases>
     <release version="0.1.0-alpha1" date="2020-04-12">
       <description>
         <p>
           The very first alpha release of Briar GTK.
+          It allows to add contacts on a distance and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented.
         </p>
       </description>
     </release>

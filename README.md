@@ -25,6 +25,14 @@ Briar GTK like this:
 flatpak install --user https://flatpak.dorfbrunnen.eu/repo/appstream/app.briar.gtk.flatpakref
 ```
 
+## run
+
+After installing Briar GTK you can run it like this: 
+```
+flatpak run app.briar.gtk
+```
+
+
 ## Developers
 
 The easiest and most convenient way is to build _briar-gtk_ using

@@ -16,7 +16,7 @@ from briar_wrapper.api import Api
 
 from briar_gtk.actions.application import ApplicationActions
 from briar_gtk.define import APPLICATION_ID, APPLICATION_NAME
-from briar_gtk.define import APPLICATION_STYLING_PATH, BRIAR_HEADLESS_JAR
+from briar_gtk.define import APPLICATION_STYLING_PATH, get_briar_headless_jar
 from briar_gtk.window import Window
 
 
@@ -61,7 +61,7 @@ class Application(Gtk.Application):
                                               Gtk.STYLE_PROVIDER_PRIORITY_USER)
 
     def _setup_api(self):
-        self.api = Api(BRIAR_HEADLESS_JAR)
+        self.api = Api(get_briar_headless_jar())
 
     # pylint: disable=access-member-before-definition
     def _setup_window(self):

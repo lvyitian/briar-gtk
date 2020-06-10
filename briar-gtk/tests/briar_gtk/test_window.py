@@ -80,6 +80,14 @@ def test_show_main_destroy_old(main_window_container, mocker,
 
 
 @pytest.fixture(autouse=True)
+def briar_headless_jar(is_file):
+    flatpak_path = "/app/share/java/briar-headless.jar"
+    return_values = {flatpak_path: True}
+    is_file.side_effect = return_values.get
+    return is_file
+
+
+@pytest.fixture(autouse=True)
 def gi_dependencies(mocker):
     mocker.patch(MODULE % "Gtk")
 

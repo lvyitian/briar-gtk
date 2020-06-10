@@ -107,8 +107,8 @@
             "name": "briar-headless",
             "buildsystem": "simple",
             "build-commands": [
-                "mkdir -p /app/briar",
-                "install -Dm644 briar-headless.jar /app/briar/briar-headless.jar"
+                "mkdir -p /app/share/java",
+                "install -Dm644 briar-headless.jar /app/share/java/briar-headless.jar"
             ],
             "sources": [
                 {

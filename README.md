@@ -91,7 +91,8 @@ pip3 install -r requirements.txt
 You also need to build
 [Briar Headless](https://code.briarproject.org/briar/briar/-/tree/master/briar-headless).
 Check its readme to learn how to do it. You can also use
-[builds provided by Nico Alt](https://media.dorfbrunnen.eu/briar/).
+[builds provided by Nico Alt](https://media.dorfbrunnen.eu/briar/)
+and put the .jar file at _~/.local/share/java/briar-headless.jar_.
 Make sure to have _java_ (e.g. `openjdk-11-jdk`) installed.
 
 Once you've done this, change the path to the Briar headless

@@ -35,7 +35,7 @@ def test_api_at_startup(mocker):
 
     Application().do_startup()
 
-    api_mock.assert_called_once_with("/app/briar/briar-headless.jar")
+    api_mock.assert_called_once_with("/app/share/java/briar-headless.jar")
 
 
 def test_css_provider_at_startup(mocker):
@@ -115,6 +115,14 @@ def test_window_hide_at_shutdown(mocker):
     application.do_shutdown()
 
     window_mock.hide.assert_called_once()
+
+
+@pytest.fixture(autouse=True)
+def briar_headless_jar(is_file):
+    flatpak_path = "/app/share/java/briar-headless.jar"
+    return_values = {flatpak_path: True}
+    is_file.side_effect = return_values.get
+    return is_file
 
 
 @pytest.fixture(autouse=True)

@@ -1,10 +1,11 @@
 [Desktop Entry]
+Version=1.0
 Name=Briar
-Comment=Secure messaging, anywhere
-Keywords=Briar;
+Keywords=chat;talk;im;message;briar;tor;
+Exec=briar-gtk %U
 Icon=app.briar.gtk
-Exec=briar-gtk
+StartupNotify=false
 Terminal=false
 Type=Application
-Categories=GNOME;GTK;
-StartupNotify=true
+Categories=GTK;Network;Chat;InstantMessaging;
+X-GNOME-UsesNotifications=true

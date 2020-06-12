@@ -19,8 +19,8 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-  input: 'app.briar.gtk.appdata.xml.in',
-  output: 'app.briar.gtk.appdata.xml',
+  input: 'app.briar.gtk.metainfo.xml.in',
+  output: 'app.briar.gtk.metainfo.xml',
   po_dir: '../po',
   install: true,
   install_dir: join_paths(get_option('datadir'), 'metainfo')

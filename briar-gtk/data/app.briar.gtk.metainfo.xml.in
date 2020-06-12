@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2020 Nico Alt <nicoalt@posteo.org> -->
 <component type="desktop-application">
   <id>app.briar.gtk</id>
   <metadata_license>CC-BY-4.0</metadata_license>
@@ -56,6 +57,10 @@
   <content_rating type="oars-1.1">
     <content_attribute id="social-chat">intense</content_attribute>
   </content_rating>
+
+  <provides>
+    <binary>briar-gtk</binary>
+  </provides>
 
   <releases>
     <release version="0.1.0-alpha1" date="2020-04-12">

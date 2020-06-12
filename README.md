@@ -18,6 +18,8 @@ For regular updates, check out the Briar tag on
 
 ## Installation
 
+### Flatpak
+
 Alpha releases of Briar GTK can be installed using Flatpak.
 After [installing Flatpak](https://flatpak.org/setup/), you can install
 Briar GTK like this:
@@ -32,17 +34,18 @@ flatpak remote-add --if-not-exists dorfbrunnen https://flatpak.dorfbrunnen.eu/re
 flatpak install --user app.briar.gtk
 ```
 
-## Running
+#### Running
 
 After installing Briar GTK, you can run it like this: 
 ```
 flatpak run app.briar.gtk
 ```
 
-
 ## Developers
 
-The easiest and most convenient way is to build _briar-gtk_ using
+### GNOME Builder
+
+The easiest and most convenient way to build _briar-gtk_ is by using
 [Builder](https://wiki.gnome.org/Apps/Builder).
 Because Flatpak support is quite new in Builder,
 it's recommend to install Builder via Flatpak:
@@ -54,6 +57,8 @@ To setup Flatpak on your system, check out the
 In _Builder_, click "Clone Repository" at the bottom and
 enter the URL to this Git project.
 
+### flatpak-builder
+
 To build it on the command-line without Builder, call this:
 ```bash
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -61,18 +66,64 @@ flatpak-builder --install-deps-from=flathub --user --install --force-clean --cca
 flatpak run app.briar.gtk
 ```
 
-Additionally, you are able to run Briar GTK without Flatpak.
-For this, you have to install Java, the
-[Python dependencies](requirements.txt) and
-[Briar headless](https://code.briarproject.org/briar/briar/blob/master/briar-headless/README.md).
-Once you've done this, change the path of the Briar headless
-jar in [briar_gtk.define](briar-gtk/briar_gtk/define.py),
-build it with _meson_ and start Briar GTK.
+### Directly from source
 
-Don't forget to initialize the briar-wrapper submodule:
-`git submodule update --init`
+After cloning this Git repository, don't forget to initialize the briar-wrapper submodule:
+```
+git submodule update --init
+```
 
-### Internationalization
+First, install some Debian dependencies:
+```
+sudo apt install meson libhandy-0.0-dev gettext appstream-util python3-pip
+```
+
+On Fedora, you can call:
+```
+sudo dnf install meson gtk3-devel libhandy-devel gettext libappstream-glib python3-pip
+```
+
+Then, install the Python dependencies:
+```
+pip3 install -r requirements.txt
+```
+
+You also need to build
+[Briar Headless](https://code.briarproject.org/briar/briar/-/tree/master/briar-headless).
+Check its readme to learn how to do it. You can also use
+[builds provided by Nico Alt](https://media.dorfbrunnen.eu/briar/).
+Make sure to have _java_ (e.g. `openjdk-11-jdk`) installed.
+
+Once you've done this, change the path to the Briar headless
+jar in [briar_gtk.define](briar-gtk/briar_gtk/define.py) and
+build Briar GTK with _meson_ and _ninja_:
+```
+meson --prefix $PWD/_install _build
+ninja -C _build all install
+```
+
+You should then be able to run Briar GTK like this:
+```
+XDG_DATA_DIRS=_install/share:$XDG_DATA_DIRS ./_install/bin/briar-gtk
+```
+
+### Debian
+First, install some Debian dependencies:
+```
+sudo apt install build-essential devscripts debhelper gnome-pkg-tools python3-all meson libhandy-0.0-dev gettext appstream-util
+```
+
+You can then build the .deb like this:
+```
+debuild -us -uc
+```
+
+And install the .deb like this:
+```
+sudo dpkg -i ../briar-gtk_0.1.0-alpha1-1_all.deb
+```
+
+## Internationalization
 
 Feel free to add translations to Briar GTK by opening a merge request with
 updates to the language file of your choice in _briar_gtk/po_. Make sure

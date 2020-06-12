@@ -1,5 +1,8 @@
+debian/files
 flatpak-builddir
 flatpak-repo
 .coverage
 .flatpak-builder
+_build
+_install
 __pycache__

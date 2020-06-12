@@ -1,0 +1,37 @@
+Source: briar-gtk
+Section: comm
+Priority: optional
+Maintainer: Nico Alt <nicoalt@posteo.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ gnome-pkg-tools,
+ gettext,
+ libhandy-0.0-dev,
+ meson,
+ python3-all,
+ python3-gi
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Homepage: https://code.briarproject.org/briar/briar-gtk
+Vcs-Browser: https://code.briarproject.org/briar/briar-gtk
+Vcs-Git: https://code.briarproject.org/briar/briar-gtk.git
+
+Package: briar-gtk
+Section: comm
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ python3-all,
+ python3-briar-wrapper
+Description: Secure messaging, anywhere
+ Briar is a messaging app designed for activists, journalists, and anyone
+ else who needs a safe, easy and robust way to communicate. Unlike
+ traditional messaging apps, Briar doesn't rely on a central server -
+ messages are synchronized directly between the users' devices. If the
+ internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the
+ information flowing in a crisis. If the internet's up, Briar can sync via
+ the Tor network, protecting users and their relationships from
+ surveillance.
+ .
+ This package contains the GTK desktop client.

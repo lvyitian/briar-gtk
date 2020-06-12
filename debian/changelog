@@ -1,0 +1,5 @@
+briar-gtk (0.1.0-alpha1-1) UNRELEASED; urgency=medium
+
+  * Initial Debian release.
+
+ -- Nico Alt <nicoalt@posteo.org>  Tue, 09 Jun 2020 17:25:32 +0000

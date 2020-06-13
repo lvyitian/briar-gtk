@@ -21,9 +21,10 @@ Section: comm
 Architecture: all
 Depends:
  ${misc:Depends},
- ${shlibs:Depends},
- python3-all,
- python3-briar-wrapper
+ gir1.2-handy-0.0 (>= 0.0.13),
+ python3,
+ python3-briar-wrapper,
+ python3-gi
 Description: Secure messaging, anywhere
  Briar is a messaging app designed for activists, journalists, and anyone
  else who needs a safe, easy and robust way to communicate. Unlike

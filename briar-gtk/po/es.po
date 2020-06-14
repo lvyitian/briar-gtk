@@ -7,7 +7,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Briar"
-msgstr ""
+msgstr "Briar"
 
 msgid "Secure messaging, anywhere"
 msgstr ""
@@ -16,7 +16,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr ""
 
 msgid "Briar Community"
-msgstr ""
+msgstr "Comunidad de Briar"
 
 msgid "Main window showing two contacts and chat"
 msgstr ""
@@ -34,10 +34,10 @@ msgid "The very first alpha release of Briar GTK. It allows to add contacts on a
 msgstr ""
 
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+msgstr "Briar para GTK en escritorios y dispositivos móviles"
 
 msgid "Visit Briar GTK website"
-msgstr ""
+msgstr "Visitar la página web de Briar GTK"
 
 msgctxt "add contact"
 msgid "Give this link to the contact you want to add"
@@ -49,11 +49,11 @@ msgstr ""
 
 msgctxt "add contact"
 msgid "Contact's link"
-msgstr ""
+msgstr "Enlace del contacto"
 
 msgctxt "add contact"
 msgid "Please enter a link"
-msgstr ""
+msgstr "Por favor, introduce un enlace"
 
 msgctxt "add contact"
 msgid "Give your contact a nickname. Only you can see it."
@@ -61,78 +61,78 @@ msgstr ""
 
 msgctxt "add contact"
 msgid "Enter a nickname"
-msgstr ""
+msgstr "Introduce un apodo"
 
 msgctxt "add contact"
 msgid "Please enter a nickname"
-msgstr ""
+msgstr "Por favor, introduce un apodo"
 
 msgid "Next"
-msgstr ""
+msgstr "Seguir"
 
 msgid "Add contact"
-msgstr ""
+msgstr "Añadir el contacto"
 
 msgid "Password"
 msgstr "Contraseña"
 
 msgid "Note: This is an alpha release of Briar GTK which may contain bugs"
-msgstr ""
+msgstr "Nota: Esa es una versión alfa de Briar GTK que pueda contener errores"
 
 msgid "Log in"
-msgstr ""
+msgstr "Entrar"
 
 msgid "Logging in"
-msgstr ""
+msgstr "Entrando"
 
 msgid "About Briar GTK"
-msgstr ""
+msgstr "Acerca de Briar GTK"
 
 msgctxt "chat page: input field"
 msgid "Type Message"
 msgstr ""
 
 msgid "No contact selected"
-msgstr ""
+msgstr "Ningún contacto seleccionado"
 
 msgid "Select a contact to start chatting"
-msgstr ""
+msgstr "Selecciona un contacto para empezar a chatear"
 
 msgid "Main menu"
-msgstr ""
+msgstr "Menú principal"
 
 msgid "Back"
-msgstr ""
+msgstr "Regresar"
 
 msgid "Welcome to Briar"
-msgstr ""
+msgstr "Bienvenida a Briar"
 
 msgid "Choose your nickname"
-msgstr ""
+msgstr "Elige tu apodo"
 
 msgid "Confirm Password"
-msgstr ""
+msgstr "Confirmar contraseña"
 
 msgid "Create Account"
-msgstr ""
+msgstr "Crear cuenta"
 
 msgid "Creating Account"
-msgstr ""
+msgstr "Creando cuenta"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "Por favor, introduce una contraseña"
 
 msgid "Couldn't log in"
-msgstr ""
+msgstr "No pude entrar a la cuenta"
 
 msgid "Please enter a nickname"
-msgstr ""
+msgstr "Por favor, introduce un apodo"
 
 msgid "The passwords do not match"
-msgstr ""
+msgstr "Las contraseñas no coinciden"
 
 msgid "Couldn't register account"
-msgstr ""
+msgstr "No pude registrar la cuenta"
 
 msgid "Please enter a link"
 msgstr ""
@@ -141,10 +141,10 @@ msgid "Enter your contact's link, not your own"
 msgstr ""
 
 msgid "Using code by"
-msgstr ""
+msgstr "Con código de"
 
 msgid "Briar functionality by"
-msgstr ""
+msgstr "Funcionalidad de Briar de"
 
 msgid "Myself"
-msgstr ""
+msgstr "Yo"

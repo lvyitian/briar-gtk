@@ -182,7 +182,7 @@
         <property name="can_focus">False</property>
         <property name="show_close_button">True</property>
         <property name="width_request">360</property>
-        <property name="title">Add contact</property>
+        <property name="title" translatable="yes">Add contact</property>
         <child>
           <object class="GtkButton">
             <property name="visible">True</property>

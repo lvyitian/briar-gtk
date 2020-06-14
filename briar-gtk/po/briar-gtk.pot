@@ -28,6 +28,21 @@ msgstr ""
 msgid "Briar Community"
 msgstr ""
 
+msgid "Main window showing two contacts and chat"
+msgstr ""
+
+msgid "Welcome screen with registration"
+msgstr ""
+
+msgid "Adding contacts on a distance"
+msgstr ""
+
+msgid "Main window with two contacts and about dialog"
+msgstr ""
+
+msgid "The very first alpha release of Briar GTK. It allows to add contacts on a distance and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
+msgstr ""
+
 msgid "A Briar client for GTK desktop and mobile devices"
 msgstr ""
 
@@ -69,6 +84,9 @@ msgid "Add contact"
 msgstr ""
 
 msgid "Password"
+msgstr ""
+
+msgid "Note: This is an alpha release of Briar GTK which may contain bugs"
 msgstr ""
 
 msgid "Log in"

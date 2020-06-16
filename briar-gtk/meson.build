@@ -7,7 +7,7 @@ PACKAGE_DATA_DIR = join_paths(get_option('prefix'), get_option('datadir'), meson
 python3 = import('python3')
 
 conf = configuration_data()
-conf.set('PACKAGE_URL', 'https://code.briarproject.org/briar/briar-gtk/blob/master/README.md')
+conf.set('PACKAGE_URL', 'https://code.briarproject.org/briar/briar-gtk/blob/main/README.md')
 conf.set('PYTHON', python3.find_python().path())
 conf.set('VERSION', meson.project_version())
 conf.set('LOCALE_DIR', join_paths(get_option('prefix'), get_option('localedir')))

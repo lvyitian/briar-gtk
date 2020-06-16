@@ -13,7 +13,7 @@ Please note we have a [code of conduct](/code-of-conduct.md), please follow it i
 
 Briar GTK's main source repository is at [code.briarproject.org/nicoalt/briar-gtk](https://code.briarproject.org/nicoalt/briar-gtk).
 
-Development happens in the master branch.
+Development happens in the _main_ branch.
 
 If you need to publish a branch, feel free to do it at any
 publically-accessible Git hosting service, although code.briarproject.org

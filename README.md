@@ -1,7 +1,7 @@
 # Briar GTK
 
-[![pipeline status](https://code.briarproject.org/NicoAlt/briar-gtk/badges/master/pipeline.svg)](https://code.briarproject.org/NicoAlt/briar-gtk/commits/master)
-[![coverage report](https://code.briarproject.org/NicoAlt/briar-gtk/badges/master/coverage.svg)](https://code.briarproject.org/NicoAlt/briar-gtk/commits/master)
+[![pipeline status](https://code.briarproject.org/briar/briar-gtk/badges/main/pipeline.svg)](https://code.briarproject.org/briar/briar-gtk/commits/main)
+[![coverage report](https://code.briarproject.org/briar/briar-gtk/badges/main/coverage.svg)](https://code.briarproject.org/briar/briar-gtk/commits/main)
 
 _Warning: This is still in a very early state and should be considered a prototype._
 
@@ -170,7 +170,7 @@ because Briar Headless only works on x86 platforms so far.
 ---
 
 For more questions, take a look at
-[the FAQ of python-briar-wrapper](https://code.briarproject.org/briar/python-briar-wrapper/blob/master/README.md#faq).
+[the FAQ of python-briar-wrapper](https://code.briarproject.org/briar/python-briar-wrapper/blob/main/README.md#faq).
 
 ## License
 

@@ -1,4 +1,10 @@
-briar-gtk (0.1.0-alpha1-1) UNRELEASED; urgency=medium
+briar-gtk (0.1.0-alpha1-2) UNRELEASED; urgency=medium
+
+  * Show contact's connection state in list
+
+ -- Nico Alt <nicoalt@posteo.org>  Fri, 17 Jul 2020 17:25:32 +0000
+ 
+ briar-gtk (0.1.0-alpha1-1) UNRELEASED; urgency=medium
 
   * Initial Debian release.
 

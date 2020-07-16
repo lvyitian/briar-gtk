@@ -162,6 +162,7 @@ class MainWindowContainer(Container):
         for signal in self._signals:
             APP().api.socket_listener.disconnect(signal)
 
+    # pylint: disable=no-member
     def _load_content(self):
         self._contacts = Contacts(APP().api)
         self._load_contacts()
@@ -172,6 +173,9 @@ class MainWindowContainer(Container):
         signal_id = socket_listener.connect("ConversationMessageReceivedEvent",
                                             self._refresh_contacts_async)
         self._signals.append(signal_id)
+        callback = self._refresh_contact_state
+        signal_ids = self._contacts.watch_connections(callback)
+        self._signals.extend(signal_ids)
 
     def _load_contacts(self):
         self.contacts_list = self._contacts.get()
@@ -189,6 +193,10 @@ class MainWindowContainer(Container):
     # pylint: disable=unused-argument
     def _refresh_contacts_async(self, message):
         GLib.idle_add(self._refresh_contacts)
+
+    # pylint: disable=unused-argument
+    def _refresh_contact_state(self, contact_id, connected):
+        self._refresh_contacts_async(None)
 
     def _refresh_contacts(self):
         self._save_selected_row()

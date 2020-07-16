@@ -17,10 +17,13 @@ class ContactRowWidget(Gtk.ListBoxRow):
     def _setup_view(self, contact):
         name = ContactRowWidget._get_contact_name(contact)
         contact_label = ContactRowWidget._create_contact_label(name)
+        connected = contact["connected"]
+        contact_state = ContactRowWidget._create_contact_state(connected)
         contact_box = ContactRowWidget._create_contact_box()
         contact_event_box = Gtk.EventBox().new()
 
         contact_box.pack_start(contact_label, True, True, 0)
+        contact_box.pack_end(contact_state, False, False, 0)
         contact_event_box.add(contact_box)
         self.add(contact_event_box)
 
@@ -41,6 +44,15 @@ class ContactRowWidget(Gtk.ListBoxRow):
         contact_label.set_halign(Gtk.Align.START)
         contact_label.set_ellipsize(Pango.EllipsizeMode.END)
         return contact_label
+
+    @staticmethod
+    def _create_contact_state(connected):
+        file_name = "contact_disconnected"
+        if connected is True:
+            file_name = "contact_connected"
+        contact_state = Gtk.Image.new_from_icon_name(file_name,
+                                                     Gtk.IconSize.MENU)
+        return contact_state
 
     @staticmethod
     def _create_contact_box():

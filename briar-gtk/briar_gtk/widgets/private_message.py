@@ -84,6 +84,7 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         body_content = Gtk.Label.new(text)
         body_content.set_line_wrap(True)
         body_content.set_halign(Gtk.Align.START)
+        body_content.set_selectable(True)
         body_content.set_xalign(0)
         return body_content
 

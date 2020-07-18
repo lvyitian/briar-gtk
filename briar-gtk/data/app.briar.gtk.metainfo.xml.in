@@ -63,6 +63,29 @@
   </provides>
 
   <releases>
+    <release version="0.1.0-alpha2" date="2020-07-18">
+      <description>
+        <p>
+          Show online status of contacts in contact list (#19)
+        </p>
+        <p>
+          Support copying content in messages (#51)
+        </p>
+        <p>
+          Fix bug with Briar messages not having text (#56)
+        </p>
+        <p>
+          Fix bug with contact's name not showing in private messages (#55)
+        </p>
+        <p>
+          Update Briar core to version 1.2.9
+        </p>
+        <p>
+          Lots of software tests
+        </p>
+      </description>
+      <url>https://code.briarproject.org/briar/briar-gtk/-/tags/0.1.0-alpha2</url>
+    </release>
     <release version="0.1.0-alpha1" date="2020-04-12">
       <description>
         <p>
@@ -70,6 +93,7 @@
           It allows to add contacts on a distance and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented.
         </p>
       </description>
+      <url>https://code.briarproject.org/briar/briar-gtk/-/tags/0.1.0-alpha1</url>
     </release>
   </releases>
 

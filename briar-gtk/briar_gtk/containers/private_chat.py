@@ -98,8 +98,14 @@ class PrivateChatContainer(Container):
         self._signals.append(signal_id)
 
     def _add_message(self, message):
+        if self._is_not_message(message):
+            return
         message_widget = PrivateMessageWidget(self._contact_name, message)
         self._messages_box.add(message_widget)
+
+    @staticmethod
+    def _is_not_message(message):
+        return "text" not in message
 
     def _add_message_async(self, message):
         if message["data"]["contactId"] == self._contact_id:

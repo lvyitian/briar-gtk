@@ -116,7 +116,7 @@ class MainWindowContainer(Container):
     def _get_contact_name(self, contact_id):
         name = ""
         for contact in self.contacts_list:
-            if contact["contactId"] is contact_id:
+            if contact["contactId"] == contact_id:
                 name = contact["author"]["name"]
                 if "alias" in contact:
                     name = contact["alias"]

@@ -45,6 +45,7 @@
             <property name="max_width_chars">-1</property>
             <property name="width_request">232</property>
             <property name="can_focus">True</property>
+            <property name="editable">False</property>
             <property name="input_purpose">GTK_INPUT_PURPOSE_URL</property>
           </object>
           <packing>

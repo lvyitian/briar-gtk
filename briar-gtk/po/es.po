@@ -30,6 +30,24 @@ msgstr ""
 msgid "Main window with two contacts and about dialog"
 msgstr ""
 
+msgid "Show online status of contacts in contact list (#19)"
+msgstr ""
+
+msgid "Support copying content in messages (#51)"
+msgstr ""
+
+msgid "Fix bug with Briar messages not having text (#56)"
+msgstr ""
+
+msgid "Fix bug with contact's name not showing in private messages (#55)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.9"
+msgstr ""
+
+msgid "Lots of software tests"
+msgstr ""
+
 msgid "The very first alpha release of Briar GTK. It allows to add contacts on a distance and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
@@ -67,11 +85,11 @@ msgctxt "add contact"
 msgid "Please enter a nickname"
 msgstr "Por favor, introduce un apodo"
 
-msgid "Next"
-msgstr "Seguir"
-
 msgid "Add contact"
 msgstr "Añadir el contacto"
+
+msgid "Next"
+msgstr "Seguir"
 
 msgid "Password"
 msgstr "Contraseña"
@@ -119,6 +137,15 @@ msgstr "Crear cuenta"
 msgid "Creating Account"
 msgstr "Creando cuenta"
 
+msgid "Using code by"
+msgstr "Con código de"
+
+msgid "Briar functionality by"
+msgstr "Funcionalidad de Briar de"
+
+msgid "Myself"
+msgstr "Yo"
+
 msgid "Please enter a password"
 msgstr "Por favor, introduce una contraseña"
 
@@ -139,12 +166,3 @@ msgstr ""
 
 msgid "Enter your contact's link, not your own"
 msgstr ""
-
-msgid "Using code by"
-msgstr "Con código de"
-
-msgid "Briar functionality by"
-msgstr "Funcionalidad de Briar de"
-
-msgid "Myself"
-msgstr "Yo"

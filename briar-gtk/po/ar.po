@@ -1,22 +1,22 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"Language: de\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Briar"
-msgstr "Briar"
+msgstr "Briar (براير)"
 
 msgid "Secure messaging, anywhere"
-msgstr "Sicher kommunizieren, überall"
+msgstr ""
 
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
 msgstr ""
 
 msgid "Briar Community"
-msgstr "Briar-Community"
+msgstr ""
 
 msgid "Main window showing two contacts and chat"
 msgstr ""
@@ -52,117 +52,117 @@ msgid "The very first alpha release of Briar GTK. It allows to add contacts on a
 msgstr ""
 
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr "Briar-App für GTK-Desktop und Mobilgeräte"
+msgstr ""
 
 msgid "Visit Briar GTK website"
-msgstr "Besuche die Webseite von Briar GTK"
+msgstr ""
 
 msgctxt "add contact"
 msgid "Give this link to the contact you want to add"
-msgstr "Gib diesen Link dem Kontakt, den du hinzufügen möchtest"
+msgstr "أرسلوا هذا الرّابط لجهة الاتصال التي تودّون إضافتها"
 
 msgctxt "add contact"
 msgid "Enter the link from your contact here"
-msgstr "Füge hier den Link des Kontakts ein, den du hinzufügen möchtest"
+msgstr "أدخلوا الرّابط المرسل من جهة الاتصال هنا"
 
 msgctxt "add contact"
 msgid "Contact's link"
-msgstr "Kontakt-Link"
+msgstr "رابط جهة الاتصال"
 
 msgctxt "add contact"
 msgid "Please enter a link"
-msgstr "Bitte gib einen Link ein"
+msgstr "يرجى إدخال رابط"
 
 msgctxt "add contact"
 msgid "Give your contact a nickname. Only you can see it."
-msgstr "Gib deinem Kontakt einen Spitznamen. Nur du kannst ihn sehen."
+msgstr ">إعطاء اسم مستعار لجهة الاتصال بإمكانكم رؤيته فق."
 
 msgctxt "add contact"
 msgid "Enter a nickname"
-msgstr "Gib einen Spitznamen ein"
+msgstr "إدخال اسم مستعار"
 
 msgctxt "add contact"
 msgid "Please enter a nickname"
-msgstr "Bitte gib einen Spitznamen ein"
+msgstr "يرجى إدخال اسم مستعار"
 
 msgid "Add contact"
-msgstr "Kontak hinzufügen"
+msgstr "إضافة جهة إتصال"
 
 msgid "Next"
-msgstr "Weiter"
+msgstr "التالي"
 
 msgid "Password"
-msgstr "Passwort"
+msgstr "كلمة السّر"
 
 msgid "Note: This is an alpha release of Briar GTK which may contain bugs"
 msgstr ""
 
 msgid "Log in"
-msgstr "Anmelden"
+msgstr ""
 
 msgid "Logging in"
-msgstr "Anmeldung"
+msgstr ""
 
 msgid "About Briar GTK"
-msgstr "Über Briar GTK"
+msgstr ""
 
 msgctxt "chat page: input field"
 msgid "Type Message"
-msgstr "Nachricht eingeben"
+msgstr "كتابة رسالة"
 
 msgid "No contact selected"
-msgstr "Kein Kontakt ausgewählt"
+msgstr ""
 
 msgid "Select a contact to start chatting"
-msgstr "Wähle einen Kontakt aus, um mit dem Chatten zu beginnen"
+msgstr ""
 
 msgid "Main menu"
-msgstr "Hauptmenü"
+msgstr ""
 
 msgid "Back"
-msgstr "Zurück"
+msgstr ""
 
 msgid "Welcome to Briar"
-msgstr "Willkommen bei Briar"
+msgstr "مرحبًا بك في Briar (براير)"
 
 msgid "Choose your nickname"
-msgstr "Wähle deinen Benutzernamen aus"
+msgstr "اختيار اسمك المستعار"
 
 msgid "Confirm Password"
-msgstr "Passwort bestätigen"
+msgstr ""
 
 msgid "Create Account"
-msgstr "Account erstellen"
+msgstr "إنشاء الحساب"
 
 msgid "Creating Account"
-msgstr "Erstelle Account"
+msgstr ""
 
 msgid "Using code by"
-msgstr "Benutzt Code von"
+msgstr ""
 
 msgid "Briar functionality by"
-msgstr "Briar-Funktionalität von"
+msgstr ""
 
 msgid "Myself"
-msgstr "Ich"
+msgstr ""
 
 msgid "Please enter a password"
-msgstr "Bitte gib ein Passwort ein"
+msgstr ""
 
 msgid "Couldn't log in"
-msgstr "Anmeldung fehlgeschlagen"
+msgstr ""
 
 msgid "Please enter a nickname"
-msgstr "Bitte gib einen Benutzernamen ein"
+msgstr "يرجى إدخال اسم مستعار"
 
 msgid "The passwords do not match"
-msgstr "Die Passwörter stimmen nicht überein"
+msgstr ""
 
 msgid "Couldn't register account"
-msgstr "Registrierung fehlgeschlagen"
+msgstr ""
 
 msgid "Please enter a link"
-msgstr "Bitte gib einen Link ein"
+msgstr "يرجى إدخال رابط"
 
 msgid "Enter your contact's link, not your own"
-msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
+msgstr "يرجى إخال رابط جهة الاتصال، وليس رابطكم"

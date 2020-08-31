@@ -1,0 +1,34 @@
+{
+    "name": "python3-requests2",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"requests2\""
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/24/53/f397db567de0aa0e81b211d81c13c41a779f14893e42189cf5bdb97611b2/urllib3-1.21.1-py2.py3-none-any.whl",
+            "sha256": "8ed6d5c1ff9d6ba84677310060d6a3a78ca3072ce0684cb3c645023009c114b1"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl",
+            "sha256": "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/11/7d/9bbbd7bb35f34b0169542487d2a8859e44306bb2e6a4455d491800a5621f/idna-2.5-py2.py3-none-any.whl",
+            "sha256": "cc19709fd6d0cbfed39ea875d29ba6d4e22c0cebc510a76d6302a28385e8bb70"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/89/f0/7cd1a25af31a5d4971d2eac794b0bc31eb445b28cadd621d4ad04be5ae4c/requests2-2.16.0-py2.py3-none-any.whl",
+            "sha256": "141d4f8ad6c1b68932d54f71f303c2aef681556b519c490ec83da193761a9f91"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/5e/c4/6c4fe722df5343c33226f0b4e0bb042e4dc13483228b4718baf286f86d87/certifi-2020.6.20-py2.py3-none-any.whl",
+            "sha256": "8fc0819f1f30ba15bdb34cceffb9ef04d99f420f68eb75d901e9560b8749fc41"
+        }
+    ]
+}

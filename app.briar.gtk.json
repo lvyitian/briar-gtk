@@ -45,45 +45,8 @@
                 "/usr/lib/sdk/openjdk/install.sh"
             ]
         },
-        {
-            "name": "python-dependencies",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"requests2\" \"websockets\""
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/24/53/f397db567de0aa0e81b211d81c13c41a779f14893e42189cf5bdb97611b2/urllib3-1.21.1-py2.py3-none-any.whl",
-                    "sha256": "8ed6d5c1ff9d6ba84677310060d6a3a78ca3072ce0684cb3c645023009c114b1"
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl",
-                    "sha256": "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/11/7d/9bbbd7bb35f34b0169542487d2a8859e44306bb2e6a4455d491800a5621f/idna-2.5-py2.py3-none-any.whl",
-                    "sha256": "cc19709fd6d0cbfed39ea875d29ba6d4e22c0cebc510a76d6302a28385e8bb70"
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/89/f0/7cd1a25af31a5d4971d2eac794b0bc31eb445b28cadd621d4ad04be5ae4c/requests2-2.16.0-py2.py3-none-any.whl",
-                    "sha256": "141d4f8ad6c1b68932d54f71f303c2aef681556b519c490ec83da193761a9f91"
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5e/c4/6c4fe722df5343c33226f0b4e0bb042e4dc13483228b4718baf286f86d87/certifi-2020.6.20-py2.py3-none-any.whl",
-                    "sha256": "8fc0819f1f30ba15bdb34cceffb9ef04d99f420f68eb75d901e9560b8749fc41"
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/e9/2b/cf738670bb96eb25cb2caf5294e38a9dc3891a6bcd8e3a51770dbc517c65/websockets-8.1.tar.gz",
-                    "sha256": "5c65d2da8c6bce0fca2528f69f44b2f977e06954c8512a952222cea50dad430f"
-                }
-            ]
-        },
+        "flatpak/python3-requests2.json",
+        "flatpak/python3-websockets.json",
         {
             "name" : "libhandy",
             "buildsystem" : "meson",
@@ -118,60 +81,7 @@
                 }
             ]
         },
-        {
-	    "name": "python3-flit",
-	    "buildsystem": "simple",
-	    "build-commands": [
-		"pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"flit\""
-	    ],
-	    "sources": [
-		{
-		    "type": "file",
-		    "url": "https://files.pythonhosted.org/packages/a5/47/c7f8a0f210ad18576840922e0b504f0b7f5f73aea4a52ab14c5b58517edf/pytoml-0.1.21-py2.py3-none-any.whl",
-		    "sha256": "57a21e6347049f73bfb62011ff34cd72774c031b9828cb628a752225136dfc33"
-		},
-		{
-		    "type": "file",
-		    "url": "https://files.pythonhosted.org/packages/45/1e/0c169c6a5381e241ba7404532c16a21d86ab872c9bed8bdcd4c423954103/requests-2.24.0-py2.py3-none-any.whl",
-		    "sha256": "fe75cc94a9443b9246fc7049224f75604b113c36acb93f87b80ed42c44cbb898"
-		},
-		{
-		    "type": "file",
-		    "url": "https://files.pythonhosted.org/packages/e1/e5/df302e8017440f111c11cc41a6b432838672f5a70aa29227bf58149dc72f/urllib3-1.25.9-py2.py3-none-any.whl",
-		    "sha256": "88206b0eb87e6d677d424843ac5209e3fb9d0190d0ee169599165ec25e9d9115"
-		},
-		{
-		    "type": "file",
-		    "url": "https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl",
-		    "sha256": "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"
-		},
-		{
-		    "type": "file",
-		    "url": "https://files.pythonhosted.org/packages/a2/38/928ddce2273eaa564f6f50de919327bf3a00f091b5baba8dfa9460f3a8a8/idna-2.10-py2.py3-none-any.whl",
-		    "sha256": "b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"
-		},
-		{
-		    "type": "file",
-		    "url": "https://files.pythonhosted.org/packages/81/44/8a15e45ffa96e6cf82956dd8d7af9e666357e16b0d93b253903475ee947f/docutils-0.16-py2.py3-none-any.whl",
-		    "sha256": "0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af"
-		},
-		{
-		    "type": "file",
-		    "url": "https://files.pythonhosted.org/packages/4b/3c/82798771fc1fd978c9225c5ae25eef45cb23b0df4728f208024a5b57901f/flit_core-2.3.0-py2.py3-none-any.whl",
-		    "sha256": "a8f8904b534966712390e0a2e434cd33f76037730a0aaed299a286f9e18cac2b"
-		},
-		{
-		    "type": "file",
-		    "url": "https://files.pythonhosted.org/packages/5e/c4/6c4fe722df5343c33226f0b4e0bb042e4dc13483228b4718baf286f86d87/certifi-2020.6.20-py2.py3-none-any.whl",
-		    "sha256": "8fc0819f1f30ba15bdb34cceffb9ef04d99f420f68eb75d901e9560b8749fc41"
-		},
-		{
-		    "type": "file",
-		    "url": "https://files.pythonhosted.org/packages/08/e8/3c47b2c2cecfe4ca32d6f30031c1d9cd28255042277117fabc9fd2eaeddc/flit-2.3.0-py3-none-any.whl",
-		    "sha256": "25d184c59cb6f2a83bc3f3651f01007aed12db379b4dc59a4e5765b7aff4730f"
-		}
-	    ]
-	},
+        "flatpak/python3-flit.json",
         {
             "name": "briar-wrapper",
             "buildsystem": "simple",

@@ -138,6 +138,13 @@ _finish-args_ list in _app.briar.gtk.json_:
 --env=LC_ALL=de_DE.utf8
 ```
 
+## Maintenance
+
+From time to time, translations and Flatpak's Python dependencies should be
+updated. The former can be done with
+`tools/generate_data.sh`, the latter using
+[flatpak-builder-tools](https://github.com/flatpak/flatpak-builder-tools).
+
 ## Design Goals
 
 * Intuitive UI, similar to Briar Android client

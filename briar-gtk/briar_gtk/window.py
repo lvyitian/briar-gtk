@@ -19,6 +19,7 @@ class Window(Gtk.ApplicationWindow):
         self._initialize_gtk_application_window()
         WindowActions(self)
         self._setup_content()
+        self._setup_focus_listener()
 
     def show_main_container(self):
         self.current_container.destroy()
@@ -36,6 +37,14 @@ class Window(Gtk.ApplicationWindow):
     def _setup_content(self):
         self._resize_window(self.DEFAULT_WINDOW_SIZE)
         self._setup_startup_container()
+
+    def _setup_focus_listener(self):
+        self.connect("focus-in-event", self._on_focus_change)
+        self.connect("focus-out-event", self._on_focus_change)
+
+    # pylint: disable=unused-argument
+    def _on_focus_change(self, widget, event):
+        self.set_urgency_hint(False)
 
     def _resize_window(self, size):
         if not Window._size_is_valid(size):

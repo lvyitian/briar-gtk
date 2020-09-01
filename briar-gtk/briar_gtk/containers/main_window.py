@@ -191,14 +191,16 @@ class MainWindowContainer(Container):
                 self.contacts_list_box.select_row(contact_row)
 
     # pylint: disable=unused-argument
-    def _refresh_contacts_async(self, message):
-        GLib.idle_add(self._refresh_contacts)
+    def _refresh_contacts_async(self, message, urgent=True):
+        GLib.idle_add(self._refresh_contacts, urgent)
 
     # pylint: disable=unused-argument
     def _refresh_contact_state(self, contact_id, connected):
-        self._refresh_contacts_async(None)
+        self._refresh_contacts_async(None, False)
 
-    def _refresh_contacts(self):
+    def _refresh_contacts(self, urgent):
+        if urgent:
+            APP().window.set_urgency_hint(True)
         self._save_selected_row()
         self._clear_contact_list()
         self._load_contacts()

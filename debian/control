@@ -6,7 +6,7 @@ Build-Depends:
  debhelper-compat (= 13),
  gnome-pkg-tools,
  gettext,
- libhandy-0.0-dev,
+ libhandy-1-dev,
  meson,
  python3-all,
  python3-gi
@@ -21,7 +21,7 @@ Section: comm
 Architecture: all
 Depends:
  ${misc:Depends},
- gir1.2-handy-0.0 (>= 0.0.13),
+ gir1.2-handy-1 (>= 0.90.0),
  python3,
  python3-briar-wrapper,
  python3-gi

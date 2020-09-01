@@ -20,7 +20,6 @@
         <property name="visible-child-name" bind-source="header_leaflet" bind-property="visible-child-name" bind-flags="bidirectional|sync-create"/>
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="hhomogeneous-folded">True</property>
         <child>
           <object class="GtkBox" id="sidebar_box">
             <property name="width_request">200</property>
@@ -219,8 +218,6 @@
         <child>
           <object class="HdyLeaflet" id="header_leaflet"> <!--message view-->
             <property name="visible">True</property>
-            <property name="transition-type">slide</property>
-            <property name="hhomogeneous-folded">True</property>
             <child>
               <object class="GtkHeaderBar" id="left-header"> <!--left titlebar-->
                 <property name="visible">True</property>

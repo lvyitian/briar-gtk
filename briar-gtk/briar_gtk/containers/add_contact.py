@@ -24,6 +24,18 @@ class AddContactContainer(Container):
         self._setup_view()
         self._load_content()
 
+    @property
+    def alias_entry(self):
+        return self.builder.get_object("alias_entry")
+
+    @property
+    def own_link_entry(self):
+        return self.builder.get_object("own_link_entry")
+
+    @property
+    def their_link_entry(self):
+        return self.builder.get_object("their_link_entry")
+
     def proceed_from_links(self):
         link_error_label = self.builder.get_object("link_error_label")
         if self._link_is_empty():
@@ -63,7 +75,7 @@ class AddContactContainer(Container):
     def _load_content(self):
         contacts = Contacts(APP().api)
         own_link = contacts.get_link()
-        self.builder.get_object("own_link_entry").set_text(own_link)
+        self.own_link_entry.set_text(own_link)
 
     def _setup_add_contact_flow_stack(self):
         self.add_contact_flow_stack = self.builder.get_object(self.STACK_NAME)
@@ -79,47 +91,41 @@ class AddContactContainer(Container):
         APP().window.set_titlebar(add_contact_flow_headers)
 
     def _setup_link_enter_listener(self):
-        their_link_entry = self.builder.get_object("their_link_entry")
-        their_link_entry.connect("activate", self._on_link_enter)
+        self.their_link_entry.connect("activate", self._on_link_enter)
 
     # pylint: disable=unused-argument
     def _on_link_enter(self, widget):
         self.proceed_from_links()
 
     def _links_match(self):
-        their_link = self.builder.get_object("their_link_entry").get_text()
-        own_link = self.builder.get_object("own_link_entry").get_text()
+        their_link = self.their_link_entry.get_text()
+        own_link = self.own_link_entry.get_text()
         return their_link == own_link
 
     def _link_is_empty(self):
-        their_link = self.builder.get_object("their_link_entry").get_text()
+        their_link = self.their_link_entry.get_text()
         return len(their_link) == 0
 
     def _show_alias_page(self):
         alias_page = self.builder.get_object("alias_page")
         self.add_contact_flow_stack.set_visible_child(alias_page)
 
-        self._focus_alias_entry()
+        self.alias_entry.grab_focus()
         self._setup_alias_enter_listener()
 
-    def _focus_alias_entry(self):
-        alias_entry = self.builder.get_object("alias_entry")
-        alias_entry.grab_focus()
-
     def _setup_alias_enter_listener(self):
-        alias_entry = self.builder.get_object("alias_entry")
-        alias_entry.connect("activate", self._on_alias_enter)
+        self.alias_entry.connect("activate", self._on_alias_enter)
 
     # pylint: disable=unused-argument
     def _on_alias_enter(self, widget):
         self.on_add_contact_pressed()
 
     def _alias_is_empty(self):
-        alias = self.builder.get_object("alias_entry").get_text()
+        alias = self.alias_entry.get_text()
         return len(alias) == 0
 
     def _add_contact(self):
         contacts = Contacts(APP().api)
-        their_link = self.builder.get_object("their_link_entry").get_text()
-        alias = self.builder.get_object("alias_entry").get_text()
+        their_link = self.their_link_entry.get_text()
+        alias = self.alias_entry.get_text()
         contacts.add_pending(their_link, alias)

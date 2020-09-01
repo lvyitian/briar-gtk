@@ -24,12 +24,27 @@ class RegistrationContainer(Container):
         self._window = window
         self._setup_view()
 
+    @property
+    def nickname_entry(self):
+        return self.builder.get_object("nickname_entry")
+
+    @property
+    def nickname_error_label(self):
+        return self.builder.get_object("nickname_error_label")
+
+    @property
+    def password_entry(self):
+        return self.builder.get_object("password_entry")
+
+    @property
+    def passwords_error_label(self):
+        return self.builder.get_object("passwords_error_label")
+
     def proceed_from_nickname(self):
         if self._nickname_is_empty():
             self._show_nickname_error_message(_("Please enter a nickname"))
             return
-        error_label = self.builder.get_object("nickname_error_label")
-        error_label.hide()
+        self.nickname_error_label.hide()
         self._show_passwords_page()
 
     def show_nickname_page(self):
@@ -43,8 +58,7 @@ class RegistrationContainer(Container):
         if not self._passwords_match():
             self._show_passwords_error_message(_("The passwords do not match"))
             return
-        error_label = self.builder.get_object("passwords_error_label")
-        error_label.hide()
+        self.passwords_error_label.hide()
         self._show_loading_animation()
         self._register()
 
@@ -70,15 +84,14 @@ class RegistrationContainer(Container):
         self._window.set_titlebar(registration_flow_headers)
 
     def _setup_nickname_enter_listener(self):
-        nickname_entry = self.builder.get_object("nickname_entry")
-        nickname_entry.connect("activate", self._on_nickname_enter)
+        self.nickname_entry.connect("activate", self._on_nickname_enter)
 
     # pylint: disable=unused-argument
     def _on_nickname_enter(self, widget):
         self.proceed_from_nickname()
 
     def _nickname_is_empty(self):
-        nickname = self.builder.get_object("nickname_entry").get_text()
+        nickname = self.nickname_entry.get_text()
         return len(nickname) == 0
 
     def _show_passwords_page(self):
@@ -89,8 +102,7 @@ class RegistrationContainer(Container):
         self._setup_passwords_enter_listener()
 
     def _focus_password_entry(self):
-        password_entry = self.builder.get_object("password_entry")
-        password_entry.grab_focus()
+        self.password_entry.grab_focus()
 
     def _setup_passwords_enter_listener(self):
         password_confirm_entry = self.builder.get_object(
@@ -103,11 +115,11 @@ class RegistrationContainer(Container):
         self.on_create_account_pressed()
 
     def _password_is_empty(self):
-        password = self.builder.get_object("password_entry").get_text()
+        password = self.password_entry.get_text()
         return len(password) == 0
 
     def _passwords_match(self):
-        password = self.builder.get_object("password_entry").get_text()
+        password = self.password_entry.get_text()
         password_confirm = self.builder.get_object(
             "password_confirm_entry").get_text()
         return password == password_confirm
@@ -117,8 +129,8 @@ class RegistrationContainer(Container):
         self.registration_flow_stack.set_visible_child(loading_animation)
 
     def _register(self):
-        nickname = self.builder.get_object("nickname_entry").get_text()
-        password = self.builder.get_object("password_entry").get_text()
+        nickname = self.nickname_entry.get_text()
+        password = self.password_entry.get_text()
         APP().api.register((nickname, password),
                            self._registration_completed)
 
@@ -133,12 +145,10 @@ class RegistrationContainer(Container):
         self._show_passwords_page()
 
     def _show_nickname_error_message(self, error_message):
-        error_label = self.builder.get_object("nickname_error_label")
-        self._show_error_message(error_label, error_message)
+        self._show_error_message(self.nickname_error_label, error_message)
 
     def _show_passwords_error_message(self, error_message):
-        error_label = self.builder.get_object("passwords_error_label")
-        self._show_error_message(error_label, error_message)
+        self._show_error_message(self.passwords_error_label, error_message)
 
     @staticmethod
     def _show_error_message(error_label, error_message):

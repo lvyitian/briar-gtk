@@ -87,7 +87,8 @@ def briar_headless_jar(is_file):
     return is_file
 
 
-@pytest.fixture(autouse=True)
+# For some reason, this gives a '6681 Segmentation fault'. Therefore 'False'
+@pytest.fixture(autouse=False)
 def gi_dependencies(mocker):
     mocker.patch(MODULE % "Gtk")
 

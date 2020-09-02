@@ -167,15 +167,9 @@ class MainWindowContainer(Container):
         self._contacts = Contacts(APP().api)
         self._load_contacts()
         socket_listener = APP().api.socket_listener
-        signal_id = socket_listener.connect("ContactAddedEvent",
-                                            self._refresh_contacts_async)
-        self._signals.append(signal_id)
-        signal_id = socket_listener.connect("ConversationMessageReceivedEvent",
-                                            self._refresh_contacts_async)
-        self._signals.append(signal_id)
-        callback = self._refresh_contact_state
-        signal_ids = self._contacts.watch_connections(callback)
-        self._signals.extend(signal_ids)
+        self._setup_contact_added_listeners(socket_listener)
+        self._setup_message_received_listeners(socket_listener)
+        self._setup_contact_connection_listener(socket_listener)
 
     def _load_contacts(self):
         self.contacts_list = self._contacts.get()
@@ -190,17 +184,48 @@ class MainWindowContainer(Container):
             if contact["contactId"] == selected_contact:
                 self.contacts_list_box.select_row(contact_row)
 
-    # pylint: disable=unused-argument
-    def _refresh_contacts_async(self, message, urgent=True):
-        GLib.idle_add(self._refresh_contacts, urgent)
+    def _setup_contact_added_listeners(self, socket_listener):
+        signal_id = socket_listener.connect("ContactAddedEvent",
+                                            self._refresh_contacts_async)
+        self._signals.append(signal_id)
+        signal_id = socket_listener.connect("ContactAddedEvent",
+                                            self._notify_contact_added)
+        self._signals.append(signal_id)
+
+    def _setup_message_received_listeners(self, socket_listener):
+        signal_id = socket_listener.connect("ConversationMessageReceivedEvent",
+                                            self._refresh_contacts_async)
+        self._signals.append(signal_id)
+        signal_id = socket_listener.connect("ConversationMessageReceivedEvent",
+                                            self._notify_message_received)
+        self._signals.append(signal_id)
+
+    def _setup_contact_connection_listener(self, socket_listener):
+        callback = self._refresh_contact_connection_state
+        signal_ids = self._contacts.watch_connections(callback)
+        self._signals.extend(signal_ids)
 
     # pylint: disable=unused-argument
-    def _refresh_contact_state(self, contact_id, connected):
-        self._refresh_contacts_async(None, False)
+    def _refresh_contacts_async(self, message):
+        GLib.idle_add(self._refresh_contacts)
 
-    def _refresh_contacts(self, urgent):
-        if urgent:
-            APP().window.set_urgency_hint(True)
+    # pylint: disable=unused-argument
+    def _refresh_contact_connection_state(self, contact_id, connected):
+        self._refresh_contacts_async(None)
+
+    # pylint: disable=unused-argument
+    def _notify_contact_added(self, message):
+        self._notify()
+
+    # pylint: disable=unused-argument
+    def _notify_message_received(self, message):
+        self._notify()
+
+    @staticmethod
+    def _notify():
+        APP().window.set_urgency_hint(True)
+
+    def _refresh_contacts(self):
         self._save_selected_row()
         self._clear_contact_list()
         self._load_contacts()

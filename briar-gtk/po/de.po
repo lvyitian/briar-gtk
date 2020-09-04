@@ -16,7 +16,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr ""
 
 msgid "The Briar Project"
-msgstr ""
+msgstr "Das Briar-Projekt"
 
 msgid "Main window showing two contacts and chat"
 msgstr ""
@@ -95,7 +95,7 @@ msgid "Password"
 msgstr "Passwort"
 
 msgid "Note: This is an alpha release of Briar GTK which may contain bugs"
-msgstr ""
+msgstr "Achtung: Dies ist ein Alpha-Release von Briar GTK und es könnte zu Problemen kommen"
 
 msgid "Log in"
 msgstr "Anmelden"
@@ -166,6 +166,3 @@ msgstr "Bitte gib einen Link ein"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
-
-#~ msgid "Briar Community"
-#~ msgstr "Briar-Community"

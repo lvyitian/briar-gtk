@@ -16,7 +16,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr ""
 
 msgid "The Briar Project"
-msgstr ""
+msgstr "El Proyecto Briar"
 
 msgid "Main window showing two contacts and chat"
 msgstr ""
@@ -59,11 +59,11 @@ msgstr "Visitar la página web de Briar GTK"
 
 msgctxt "add contact"
 msgid "Give this link to the contact you want to add"
-msgstr ""
+msgstr "Da este enlace al contacto que quieres que añadir"
 
 msgctxt "add contact"
 msgid "Enter the link from your contact here"
-msgstr ""
+msgstr "Introduce el enlace del contacto"
 
 msgctxt "add contact"
 msgid "Contact's link"
@@ -75,7 +75,7 @@ msgstr "Por favor, introduce un enlace"
 
 msgctxt "add contact"
 msgid "Give your contact a nickname. Only you can see it."
-msgstr ""
+msgstr "Introduce un apodo para tu contacto. Solo tú puedes verlo."
 
 msgctxt "add contact"
 msgid "Enter a nickname"
@@ -108,7 +108,7 @@ msgstr "Acerca de Briar GTK"
 
 msgctxt "chat page: input field"
 msgid "Type Message"
-msgstr ""
+msgstr "Introduce mensaje"
 
 msgid "No contact selected"
 msgstr "Ningún contacto seleccionado"
@@ -162,10 +162,7 @@ msgid "Couldn't register account"
 msgstr "No pude registrar la cuenta"
 
 msgid "Please enter a link"
-msgstr ""
+msgstr "Introduce un enlace, por favor"
 
 msgid "Enter your contact's link, not your own"
-msgstr ""
-
-#~ msgid "Briar Community"
-#~ msgstr "Comunidad de Briar"
+msgstr "Introduce el enlace del contacto, no el de ti"

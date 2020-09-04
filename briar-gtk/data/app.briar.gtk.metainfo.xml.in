@@ -30,7 +30,7 @@
   <url type="translate">https://www.transifex.com/otf/briar/</url>
   <url type="donation">https://liberapay.com/Briar/donate</url>
   <project_group>Briar</project_group>
-  <developer_name>Briar Community</developer_name>
+  <developer_name>The Briar Project</developer_name>
   <update_contact>contact@briarproject.org</update_contact>
 
   <translation type="gettext">briar-gtk</translation>

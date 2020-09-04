@@ -15,8 +15,8 @@ msgstr "Sicher kommunizieren, überall"
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
 msgstr ""
 
-msgid "Briar Community"
-msgstr "Briar-Community"
+msgid "The Briar Project"
+msgstr ""
 
 msgid "Main window showing two contacts and chat"
 msgstr ""
@@ -166,3 +166,6 @@ msgstr "Bitte gib einen Link ein"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
+
+#~ msgid "Briar Community"
+#~ msgstr "Briar-Community"

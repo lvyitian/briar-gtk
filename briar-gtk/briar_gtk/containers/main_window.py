@@ -5,6 +5,7 @@
 # Initial version based on GNOME Fractal
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
+from gettext import gettext as _
 from gi.repository import GLib
 
 from briar_wrapper.models.contacts import Contacts
@@ -14,12 +15,16 @@ from briar_gtk.containers.private_chat import PrivateChatContainer
 from briar_gtk.define import APP
 from briar_gtk.widgets.about_dialog import AboutDialogWidget
 from briar_gtk.widgets.contact_row import ContactRowWidget
+from briar_gtk.widgets.undo_notification import UndoNotification
 
 
 class MainWindowContainer(Container):
 
     CONTAINER_UI = "main_window.ui"
-    MENU_UI = "main_menu.ui"
+    MAIN_MENU_UI = "main_menu.ui"
+    CHAT_MENU_UI = "chat_menu.ui"
+
+    _current_contact_id = 0
 
     def __init__(self):
         super().__init__()
@@ -72,6 +77,7 @@ class MainWindowContainer(Container):
         contact_name = self._get_contact_name(contact_id)
         self._prepare_chat_view(contact_name)
         self._setup_private_chat_widget(contact_name, contact_id)
+        self._current_contact_id = contact_id
 
     def show_sidebar(self):
         self.main_window_leaflet.set_visible_child(
@@ -81,6 +87,23 @@ class MainWindowContainer(Container):
         self._clear_history_container()
         self.contacts_list_box.unselect_all()
         self.contact_name_label.set_text("")
+        self._current_contact_id = 0
+
+    def delete_contact(self):
+        if self._current_contact_id == 0:
+            raise Exception("Can't delete contact with ID 0")
+
+        def _timeout_action():
+            Contacts(APP().api).delete(self._current_contact_id)
+            self._refresh_contacts()
+            self.show_sidebar()
+
+        notification = UndoNotification(
+            _("Contact will be deleted"),
+            _timeout_action)
+        self.add_overlay(notification)
+        notification.show()
+        notification.set_reveal_child(True)
 
     def _prepare_chat_view(self, contact_name):
         if self._no_chat_opened():
@@ -92,6 +115,7 @@ class MainWindowContainer(Container):
         self.main_window_leaflet.set_visible_child(
             self.main_content_container)
         self.contact_name_label.set_text(contact_name)
+        self.builder.get_object("chat_menu_button").show()
 
     def _setup_private_chat_widget(self, contact_name, contact_id):
         private_chat_widget = PrivateChatContainer(contact_name, contact_id)
@@ -131,13 +155,15 @@ class MainWindowContainer(Container):
             del self._selected_contact
 
     def _setup_view(self):
-        self._add_from_resource(self.MENU_UI)
+        self._add_from_resource(self.MAIN_MENU_UI)
+        self._add_from_resource(self.CHAT_MENU_UI)
         self._add_from_resource(self.CONTAINER_UI)
         self.builder.connect_signals(self)
 
         self._setup_main_window_stack()
         self._setup_headerbar_stack_holder()
         self.contact_name_label.set_text("")
+        self.builder.get_object("chat_menu_button").hide()
         self._setup_destroy_listener()
 
     def _setup_main_window_stack(self):

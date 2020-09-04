@@ -91,6 +91,9 @@ msgstr "Añadir el contacto"
 msgid "Next"
 msgstr "Seguir"
 
+msgid "Delete contact"
+msgstr "Eliminar contacto"
+
 msgid "Password"
 msgstr "Contraseña"
 
@@ -122,6 +125,9 @@ msgstr "Menú principal"
 msgid "Back"
 msgstr "Regresar"
 
+msgid "Chat menu"
+msgstr "Menú chat"
+
 msgid "Welcome to Briar"
 msgstr "Bienvenida a Briar"
 
@@ -145,6 +151,12 @@ msgstr "Funcionalidad de Briar de"
 
 msgid "Myself"
 msgstr "Yo"
+
+msgid "Undo"
+msgstr "Deshacer"
+
+msgid "Contact will be deleted"
+msgstr "Contacto será eliminado"
 
 msgid "Please enter a password"
 msgstr "Por favor, introduce una contraseña"

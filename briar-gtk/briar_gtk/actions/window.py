@@ -23,6 +23,7 @@ class WindowActions(Actions):
 
     def _setup_actions(self):
         self._setup_back_to_sidebar_action()
+        self._setup_delete_contact_action()
         self._setup_open_about_page_action()
         self._setup_open_add_contact_action()
         self._setup_open_main_window_action()
@@ -33,6 +34,9 @@ class WindowActions(Actions):
         APP().set_accels_for_action(
             f"{WINDOW_PREFIX}.back-to-sidebar", ["<Ctrl>w"]
         )
+
+    def _setup_delete_contact_action(self):
+        self._setup_action("delete-contact", None, self._delete_contact)
 
     def _setup_open_about_page_action(self):
         self._setup_action("open-about-dialog", None, self._open_about_page)
@@ -51,6 +55,10 @@ class WindowActions(Actions):
     def _back_to_sidebar(self, action, parameter):
         if isinstance(self.widget.current_container, MainWindowContainer):
             self.widget.current_container.show_sidebar()
+
+    # pylint: disable=unused-argument
+    def _delete_contact(self, action, parameter):
+        self.widget.current_container.delete_contact()
 
     # pylint: disable=unused-argument
     def _open_about_page(self, action, parameter):

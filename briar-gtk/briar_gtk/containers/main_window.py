@@ -23,6 +23,7 @@ class MainWindowContainer(Container):
     CHAT_MENU_UI = "chat_menu.ui"
 
     _current_contact_id = 0
+    _current_private_chat_widget = None
 
     def __init__(self):
         super().__init__()
@@ -108,15 +109,20 @@ class MainWindowContainer(Container):
         self.builder.get_object("chat_menu_button").show()
 
     def _setup_private_chat_widget(self, contact_name, contact_id):
-        private_chat_widget = PrivateChatContainer(contact_name, contact_id)
-        self.history_container.add(private_chat_widget)
+        self._current_private_chat_widget = PrivateChatContainer(
+            contact_name, contact_id)
+        self.history_container.add(self._current_private_chat_widget)
         self.history_container.show_all()
 
         self._disconnect_chat_entry_signals()
         self._chat_entry_signal_id = self.chat_entry.connect(
-            "activate", private_chat_widget.send_message
+            "activate", self._on_chat_entry_activate
         )
         self.chat_entry.grab_focus()
+
+    def _on_chat_entry_activate(self, widget):
+        self._current_private_chat_widget.send_message(widget)
+        self._refresh_contacts()
 
     def _disconnect_chat_entry_signals(self):
         if not hasattr(self, "_chat_entry_signal_id"):

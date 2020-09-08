@@ -152,12 +152,6 @@ msgstr "Briar-Funktionalität von"
 msgid "Myself"
 msgstr "Ich"
 
-msgid "Undo"
-msgstr "Rückgängig machen"
-
-msgid "Contact will be deleted"
-msgstr "Kontakt wird gelöscht"
-
 msgid "Please enter a password"
 msgstr "Bitte gib ein Passwort ein"
 
@@ -178,3 +172,9 @@ msgstr "Bitte gib einen Link ein"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
+
+#~ msgid "Undo"
+#~ msgstr "Rückgängig machen"
+
+#~ msgid "Contact will be deleted"
+#~ msgstr "Kontakt wird gelöscht"

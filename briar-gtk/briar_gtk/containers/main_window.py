@@ -15,7 +15,6 @@ from briar_gtk.containers.private_chat import PrivateChatContainer
 from briar_gtk.define import APP
 from briar_gtk.widgets.about_dialog import AboutDialogWidget
 from briar_gtk.widgets.contact_row import ContactRowWidget
-from briar_gtk.widgets.undo_notification import UndoNotification
 
 
 class MainWindowContainer(Container):
@@ -93,17 +92,9 @@ class MainWindowContainer(Container):
         if self._current_contact_id == 0:
             raise Exception("Can't delete contact with ID 0")
 
-        def _timeout_action():
-            Contacts(APP().api).delete(self._current_contact_id)
-            self._refresh_contacts()
-            self.show_sidebar()
-
-        notification = UndoNotification(
-            _("Contact will be deleted"),
-            _timeout_action)
-        self.add_overlay(notification)
-        notification.show()
-        notification.set_reveal_child(True)
+        Contacts(APP().api).delete(self._current_contact_id)
+        self._refresh_contacts()
+        self.show_sidebar()
 
     def _prepare_chat_view(self, contact_name):
         if self._no_chat_opened():

@@ -152,12 +152,6 @@ msgstr ""
 msgid "Myself"
 msgstr ""
 
-msgid "Undo"
-msgstr ""
-
-msgid "Contact will be deleted"
-msgstr ""
-
 msgid "Please enter a password"
 msgstr ""
 

@@ -69,8 +69,8 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         time = datetime.fromtimestamp(timestamp)
         current_time = datetime.today()
         if time.date() == current_time.date():
-            return time.strftime("%I:%M")
-        return time.strftime("%x %I:%M")
+            return time.strftime("%H:%M")
+        return time.strftime("%x %H:%M")
 
     @staticmethod
     def _create_info(username_info, date_info):

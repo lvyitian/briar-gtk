@@ -5,7 +5,6 @@
 # Initial version based on GNOME Fractal
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
-from gettext import gettext as _
 from gi.repository import GLib
 
 from briar_wrapper.models.contacts import Contacts

@@ -13,13 +13,12 @@ from gi.repository import Gtk
 
 class PrivateMessageWidget(Gtk.ListBoxRow):
 
-    def __init__(self, contact_name, message):
+    def __init__(self, contact_name, message, previous_message):
         super().__init__()
-        self._setup_view(contact_name, message)
+        self._setup_view(contact_name, message, previous_message)
 
-    def _setup_view(self, contact_name, message):
+    def _setup_view(self, contact_name, message, previous_message):
         self.set_selectable(False)
-        self.set_margin_top(12)
 
         username = contact_name
         username_style_class = "username"
@@ -37,12 +36,15 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
             message["text"])
         body = PrivateMessageWidget._create_body(body_content)
 
-        content = PrivateMessageWidget._create_content(info, body)
-        message_box = PrivateMessageWidget._create_message_box(content)
-
         event_box = Gtk.EventBox()
-        event_box.add(message_box)
+        if self._should_include_info(message, previous_message):
+            self.set_margin_top(12)
+            content = PrivateMessageWidget._create_content(info, body)
+            message_box = PrivateMessageWidget._create_message_box(content)
+        else:
+            message_box = PrivateMessageWidget._create_message_box(body)
 
+        event_box.add(message_box)
         self.add(event_box)
         self.show_all()
 
@@ -109,3 +111,16 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         message_box = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 10)
         message_box.pack_start(content, True, True, 0)
         return message_box
+
+    @staticmethod
+    def _should_include_info(message, previous_message):
+        if "local" not in previous_message:
+            return True
+        if message["local"] != previous_message["local"]:
+            return True
+
+        time = datetime.fromtimestamp(message.get("timestamp", 0) / 1000)
+        previous_time = datetime.fromtimestamp(
+            previous_message.get("timestamp", 0) / 1000)
+        time_difference = time - previous_time
+        return time_difference.total_seconds() > 60

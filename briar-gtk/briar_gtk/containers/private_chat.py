@@ -26,6 +26,7 @@ class PrivateChatContainer(Container):
         self._signals = list()
         self._contact_name = contact_name
         self._contact_id = contact_id
+        self._previous_message = dict()
 
         self._setup_view()
         self._load_content()
@@ -100,7 +101,12 @@ class PrivateChatContainer(Container):
     def _add_message(self, message):
         if self._is_not_message(message):
             return
-        message_widget = PrivateMessageWidget(self._contact_name, message)
+        message_widget = PrivateMessageWidget(
+            self._contact_name,
+            message,
+            self._previous_message
+        )
+        self._previous_message = message
         self._messages_box.add(message_widget)
 
     @staticmethod

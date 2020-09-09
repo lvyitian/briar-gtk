@@ -61,12 +61,18 @@
   opacity: 0.5;
 }
 
+row .username-self {
+  font-weight: bold;
+  font-size: small;
+  color: @theme_selected_bg_color;
+}
+
 row .username {
   font-weight: bold;
   font-size: small;
+  color: #74B816;
 }
 
-row .username,
 row.msg-emote,
 .divider {
   color: @theme_selected_bg_color;

@@ -22,10 +22,13 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         self.set_margin_top(12)
 
         username = contact_name
+        username_style_class = "username"
         if message["local"]:
             username = _("Myself")
+            username_style_class = "username-self"
 
-        username_info = PrivateMessageWidget._create_username_info(username)
+        username_info = PrivateMessageWidget._create_username_info(
+            username, username_style_class)
         date_info = PrivateMessageWidget._create_date_info(
             message["timestamp"] / 1000)
         info = PrivateMessageWidget._create_info(username_info, date_info)
@@ -44,11 +47,11 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         self.show_all()
 
     @staticmethod
-    def _create_username_info(username):
+    def _create_username_info(username, username_style_class):
         username_label = Gtk.Label.new(username)
         username_label.set_justify(Gtk.Justification.LEFT)
         username_label.set_halign(Gtk.Align.START)
-        username_label.get_style_context().add_class("username")
+        username_label.get_style_context().add_class(username_style_class)
 
         username_event_box = Gtk.EventBox()
         username_event_box.add(username_label)

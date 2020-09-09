@@ -5,7 +5,8 @@
 # Initial version based on GNOME Fractal
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
-from gi.repository import GLib
+from gettext import gettext as _
+from gi.repository import GLib, Gtk
 
 from briar_wrapper.models.contacts import Contacts
 
@@ -88,13 +89,31 @@ class MainWindowContainer(Container):
         self.contact_name_label.set_text("")
         self._current_contact_id = 0
 
-    def delete_contact(self):
+    def open_delete_contact_dialog(self):
         if self._current_contact_id == 0:
             raise Exception("Can't delete contact with ID 0")
 
-        Contacts(APP().api).delete(self._current_contact_id)
-        self._refresh_contacts()
-        self.show_sidebar()
+        confirmation_dialog = Gtk.MessageDialog(
+            transient_for=APP().window,
+            flags=Gtk.DialogFlags.MODAL,
+            message_type=Gtk.MessageType.WARNING,
+            buttons=Gtk.ButtonsType.OK_CANCEL,
+            text=_("Confirm Contact Deletion"),
+        )
+        confirmation_dialog.format_secondary_text(
+            _("Are you sure that you want to remove this contact and "
+              "all messages exchanged with this contact?")
+        )
+
+        confirmation_dialog.connect("response", self._delete_contact)
+        confirmation_dialog.show_all()
+
+    def _delete_contact(self, widget, response_id):
+        if response_id == Gtk.ResponseType.OK:
+            Contacts(APP().api).delete(self._current_contact_id)
+            self._refresh_contacts()
+            self.show_sidebar()
+        widget.destroy()
 
     def _prepare_chat_view(self, contact_name):
         if self._no_chat_opened():

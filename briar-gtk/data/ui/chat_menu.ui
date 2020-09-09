@@ -26,7 +26,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">False</property>
-            <property name="action_name">win.delete-contact</property>
+            <property name="action_name">win.delete-contact-dialog</property>
             <property name="text" translatable="yes">Delete contact</property>
           </object>
           <packing>

@@ -92,7 +92,7 @@ msgid "Next"
 msgstr "Weiter"
 
 msgid "Delete contact"
-msgstr "Kontakt entfernen"
+msgstr "Kontakt löschen"
 
 msgid "Password"
 msgstr "Passwort"
@@ -151,6 +151,12 @@ msgstr "Briar-Funktionalität von"
 
 msgid "Myself"
 msgstr "Ich"
+
+msgid "Confirm Contact Deletion"
+msgstr "Löschen des Kontakts bestätigen"
+
+msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+msgstr "Bist du sicher, dass du diesen Kontakt und alle dazugehörigen Nachrichten löschen möchtest?"
 
 msgid "Please enter a password"
 msgstr "Bitte gib ein Passwort ein"

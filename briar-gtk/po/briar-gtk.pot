@@ -162,6 +162,12 @@ msgstr ""
 msgid "Myself"
 msgstr ""
 
+msgid "Confirm Contact Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+msgstr ""
+
 msgid "Please enter a password"
 msgstr ""
 

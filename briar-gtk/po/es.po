@@ -152,6 +152,12 @@ msgstr "Funcionalidad de Briar de"
 msgid "Myself"
 msgstr "Yo"
 
+msgid "Confirm Contact Deletion"
+msgstr "Confirmar eliminación de contacto"
+
+msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+msgstr "¿Seguro que quieres eliminar este contacto y todos los mensajes intercambiados entre vosotros?"
+
 msgid "Please enter a password"
 msgstr "Por favor, introduce una contraseña"
 

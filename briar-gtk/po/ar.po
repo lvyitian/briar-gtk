@@ -92,7 +92,7 @@ msgid "Next"
 msgstr "التالي"
 
 msgid "Delete contact"
-msgstr ""
+msgstr "حذف جهة الإتصال"
 
 msgid "Password"
 msgstr "كلمة السّر"
@@ -151,6 +151,12 @@ msgstr ""
 
 msgid "Myself"
 msgstr ""
+
+msgid "Confirm Contact Deletion"
+msgstr "تأكيد حذف جهة الإتصال"
+
+msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+msgstr "هل أنت متأكد/ة من أنك تريد حذف جهة الإتصال هذه وكل الرسائل المتبادلة بينكما؟"
 
 msgid "Please enter a password"
 msgstr ""

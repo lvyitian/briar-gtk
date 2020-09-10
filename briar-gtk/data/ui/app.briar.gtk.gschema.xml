@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="briar_gtk">
+  <schema id="app.briar.gtk" path="/app/briar/gtk/" gettext-domain="briar-gtk">
+    <key name="quit-dialog-shown" type="b">
+      <default>false</default>
+      <summary>Quit dialog has been shown already</summary>
+      <description>It should only be shown once</description>
+    </key>
+  </schema>
+</schemalist>

@@ -152,6 +152,12 @@ msgstr "Briar-Funktionalität von"
 msgid "Myself"
 msgstr "Ich"
 
+msgid "Are you sure you want to exit?"
+msgstr "Willst du Briar wirklich beenden?"
+
+msgid "Once you close Briar, you'll no longer receive or send pending messages. Keep Briar open to stay connected with your contacts."
+msgstr "Sobald du Briar schließt, wirst du keine ausstehenden Nachrichten mehr empfangen oder senden können. Lass Briar offen, um mit deinen Kontakten in Verbindung zu bleiben."
+
 msgid "Confirm Contact Deletion"
 msgstr "Löschen des Kontakts bestätigen"
 

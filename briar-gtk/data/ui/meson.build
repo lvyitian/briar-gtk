@@ -16,3 +16,7 @@ gnome.compile_resources('briar-gtk',
     configuration: conf
   )
 )
+
+install_data('app.briar.gtk.gschema.xml',
+  install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
+)

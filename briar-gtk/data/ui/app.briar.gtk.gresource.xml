@@ -10,5 +10,6 @@
     <file compressed="true" preprocess="xml-stripblanks">private_chat.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">registration.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">about_dialog.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">app.briar.gtk.gschema.xml</file>
   </gresource>
 </gresources>

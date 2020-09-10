@@ -17,7 +17,7 @@ function generate_resource()
         echo -n $(basename $file)
         echo '</file>'
     done
-    for file in briar-gtk/data/ui/*.ui about_dialog.ui
+    for file in briar-gtk/data/ui/*.ui about_dialog.ui briar-gtk/data/ui/app.briar.gtk.gschema.xml
     do
         echo -n '    <file compressed="true" preprocess="xml-stripblanks">'
         echo -n $(basename $file)

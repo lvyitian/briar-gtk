@@ -152,6 +152,12 @@ msgstr ""
 msgid "Myself"
 msgstr ""
 
+msgid "Are you sure you want to exit?"
+msgstr ""
+
+msgid "Once you close Briar, you'll no longer receive or send pending messages. Keep Briar open to stay connected with your contacts."
+msgstr ""
+
 msgid "Confirm Contact Deletion"
 msgstr "تأكيد حذف جهة الإتصال"
 

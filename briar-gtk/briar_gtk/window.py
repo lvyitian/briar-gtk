@@ -2,7 +2,8 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from gi.repository import Gtk
+from gettext import gettext as _
+from gi.repository import Gio, Gtk
 
 from briar_gtk.actions.window import WindowActions
 from briar_gtk.containers.add_contact import AddContactContainer
@@ -28,6 +29,33 @@ class Window(Gtk.ApplicationWindow):
     def show_add_contact_container(self):
         self.current_container.destroy()
         self._setup_add_contact_container()
+
+    # pylint: disable=arguments-differ,unused-argument
+    def do_delete_event(self, event):
+        settings = Gio.Settings.new(APPLICATION_ID)
+        if settings.get_boolean("quit-dialog-shown"):
+            return False  # closes the window
+        settings.set_boolean("quit-dialog-shown", True)
+
+        confirmation_dialog = Gtk.MessageDialog(
+            transient_for=self,
+            flags=Gtk.DialogFlags.MODAL,
+            message_type=Gtk.MessageType.WARNING,
+            buttons=Gtk.ButtonsType.OK_CANCEL,
+            text=_("Are you sure you want to exit?")
+        )
+        confirmation_dialog.format_secondary_text(
+            _("Once you close Briar, you'll no longer receive or send "
+              "pending messages. Keep Briar open to stay connected "
+              "with your contacts.")
+        )
+        response = confirmation_dialog.run()
+        confirmation_dialog.destroy()
+
+        if response == Gtk.ResponseType.OK:
+            return False  # closes the window
+
+        return True  # keeps the window open
 
     def _initialize_gtk_application_window(self):
         Gtk.ApplicationWindow.__init__(self, application=APP(),

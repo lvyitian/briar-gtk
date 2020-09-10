@@ -4,7 +4,7 @@
 
 project(
   'briar-gtk',
-  version: '0.1.0-alpha2',
+  version: '0.1.0-beta1',
   meson_version: '>= 0.50.0',
 )
 

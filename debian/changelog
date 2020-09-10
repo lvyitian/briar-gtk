@@ -1,3 +1,15 @@
+briar-gtk (0.1.0-beta1-1) UNRELEASED; urgency=medium
+
+  * Basic notification support
+  * Support for deleting contacts
+  * Hugely improved chat UI
+  * Full Spanish and German translations
+  * Migration to libhandy 1.0
+  * Migration to briar_wrapper 0.0.4
+  * Many more minor improvements
+
+ -- Nico Alt <nicoalt@posteo.org>  Thu, 10 Sep 2020 17:25:32 +0000
+
 briar-gtk (0.1.0-alpha2-1) UNRELEASED; urgency=medium
 
   * Support copying content in messages (#51)

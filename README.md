@@ -3,12 +3,11 @@
 [![pipeline status](https://code.briarproject.org/briar/briar-gtk/badges/main/pipeline.svg)](https://code.briarproject.org/briar/briar-gtk/commits/main)
 [![coverage report](https://code.briarproject.org/briar/briar-gtk/badges/main/coverage.svg)](https://code.briarproject.org/briar/briar-gtk/commits/main)
 
-_Warning: This is still in a very early state and should be considered a prototype._
-
-A simple GTK app for [Briar](https://briar.app), built with Python and GNOME Builder.
-It uses [python-briar-wrapper](https://code.briarproject.org/briar/python-briar-wrapper) and the
+A GTK app for [Briar](https://briar.app), built with Python and GNOME Builder.
+It uses [briar_wrapper](https://code.briarproject.org/briar/python-briar-wrapper) and the
 [Briar REST API](https://code.briarproject.org/briar/briar/blob/master/briar-headless/README.md)
 and therefore requires Java.
+Currently, it only supports private chats.
 
 ![Screenshot of Briar GTK showing conversation screen with two contacts and open chat with Alice](tools/screenshots/briar-gtk-screenshot-1.png)
 
@@ -20,7 +19,7 @@ For regular updates, check out the Briar tag on
 
 ### Flatpak
 
-Alpha releases of Briar GTK can be installed using Flatpak.
+Briar GTK can be installed using Flatpak.
 After [installing Flatpak](https://flatpak.org/setup/), you can install
 Briar GTK like this:
 ```
@@ -121,7 +120,7 @@ debuild -us -uc
 
 And install the .deb like this:
 ```
-sudo dpkg -i ../briar-gtk_0.1.0-alpha1-1_all.deb
+sudo dpkg -i ../briar-gtk_0.1.0-beta1-1_all.deb
 ```
 
 ## Internationalization

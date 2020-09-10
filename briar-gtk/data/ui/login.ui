@@ -71,23 +71,6 @@
             <property name="left-attach">1</property>
           </packing>
         </child>
-        <child>
-          <object class="GtkLabel" id="alpha_label">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="label" translatable="yes">Note: This is an alpha release of Briar GTK which may contain bugs</property>
-            <property name="xalign">0</property>
-            <property name="wrap">True</property>
-            <property name="wrap_mode">PANGO_WRAP_WORD_CHAR</property>
-            <style>
-              <class name="error-label"/>
-            </style>
-          </object>
-          <packing>
-            <property name="top-attach">3</property>
-            <property name="left-attach">1</property>
-          </packing>
-        </child>
       </object>
       <packing>
         <property name="name">password</property>

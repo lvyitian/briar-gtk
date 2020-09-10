@@ -86,18 +86,6 @@
                 </style>
               </object>
             </child>
-            <child>
-              <object class="GtkLabel" id="alpha_label">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="label" translatable="yes">Note: This is an alpha release of Briar GTK which may contain bugs</property>
-                <property name="wrap">True</property>
-                <property name="wrap_mode">PANGO_WRAP_WORD_CHAR</property>
-                <style>
-                  <class name="error-label"/>
-                </style>
-              </object>
-            </child>
           </object>
         </child>
       </object>

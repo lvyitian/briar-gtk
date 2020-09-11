@@ -40,6 +40,30 @@ msgstr ""
 msgid "Main window with two contacts and about dialog"
 msgstr ""
 
+msgid "Improvements in this version:"
+msgstr ""
+
+msgid "Basic notification support"
+msgstr ""
+
+msgid "Support for deleting contacts"
+msgstr ""
+
+msgid "Hugely improved chat UI"
+msgstr ""
+
+msgid "Full Spanish and German translations"
+msgstr ""
+
+msgid "Migration to libhandy 1.0"
+msgstr ""
+
+msgid "Migration to briar_wrapper 0.0.4"
+msgstr ""
+
+msgid "Many more minor improvements"
+msgstr ""
+
 msgid "Show online status of contacts in contact list (#19)"
 msgstr ""
 
@@ -105,9 +129,6 @@ msgid "Delete contact"
 msgstr ""
 
 msgid "Password"
-msgstr ""
-
-msgid "Note: This is an alpha release of Briar GTK which may contain bugs"
 msgstr ""
 
 msgid "Log in"

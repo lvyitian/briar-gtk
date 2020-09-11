@@ -17,6 +17,12 @@ For regular updates, check out the Briar tag on
 
 ## Installation
 
+We plan to distribute Briar via Debian (and related distributions) as _.deb_ and
+via [Flathub.org](https://flathub.org/home) as flatpak, but until now, there are
+only semi-official installation methods available. You might want to use them now
+for not having to wait, but please note that those installation methods will be deprecated
+once Briar is available in Debian and Flathub.org.
+
 ### Flatpak
 
 Briar GTK can be installed using Flatpak.
@@ -39,6 +45,32 @@ After installing Briar GTK, you can run it like this:
 ```
 flatpak run app.briar.gtk
 ```
+
+### Debian Bullseye
+
+At [media.dorfbrunnen.eu/briar/debs](https://media.dorfbrunnen.eu/briar/debs/)
+_.deb_ files are available to install Briar GTK on Debian Bullseye (currently
+_testing_). From its readme:
+
+> Similar to the jars/ folder, I will upload .deb packages of Briar GTK here until Briar is included in Debian main.
+>
+> To verify the signatures, first download my PGP key:
+>
+> https://keys.openpgp.org/vks/v1/by-fingerprint/558BE9071CA6CA44DBF5576B95A0DAF7DBC7B548
+>
+> Then, import my key into your key ring:
+>
+> `gpg --import 558BE9071CA6CA44DBF5576B95A0DAF7DBC7B548`
+>
+> Finally, verify that the files match the signatures:
+>
+> `gpg --verify briar-gtk-latest.deb.sig briar-gtk-latest.deb`
+>
+> Before installing the .debs, please make sure to uninstall any other versions of Briar related software on your device, e.g. `briar_wrapper` from pip.
+>
+> You can then proceed to installing the .deb's:
+>
+> `sudo apt install ./*.deb`
 
 ## Developers
 

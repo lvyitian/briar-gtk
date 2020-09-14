@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Briar"
+msgstr "Briar"
+
+msgid "Secure messaging, anywhere"
+msgstr "Veilig communiceren, waar dan ook"
+
+msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
+msgstr "Briar is een berichten app ontworpen voor activisten, journalisten en wie dan ook die een veilige, gemakkelijke en robuste manier nodig heeft voor communicatie. Niet zoals traditionele berichtenapps maakt Briar geen gebruik van een centrale server - berichten worden direct tussen de apparaten van gebruikers gesynchroniseerd. Als het internet het niet doet kan Briar synchroniseren d.m.v. Bluetooth of wifi, zodat de informatie blijft ronstromen tijdens een crisis. Als het internet het wel doet kan Briar Synchroniseren over het Tor netwerk, en beschermt het gebruikers en hun verhoudingen van surveillance."
+
+msgid "The Briar Project"
+msgstr "Het Briar Project"
+
+msgid "Main window showing two contacts and chat"
+msgstr "Hoofdvenster, toont twee contacten en een gesprek"
+
+msgid "Welcome screen with registration"
+msgstr "Welkomstscherm met registratie"
+
+msgid "Adding contacts on a distance"
+msgstr "Contact toevoegen op afstand"
+
+msgid "Main window with two contacts and about dialog"
+msgstr "Hoofdvenster, toont twee contacten en een toelichting."
+
+msgid "Improvements in this version:"
+msgstr "Verbeteringen in deze versie."
+
+msgid "Basic notification support"
+msgstr "Basisondersteuning voor meldingen"
+
+msgid "Support for deleting contacts"
+msgstr "Ondersteuning voor het verwijderen van contacten"
+
+msgid "Hugely improved chat UI"
+msgstr "Gigantische verbeteringen aan gespreksinterface"
+
+msgid "Full Spanish and German translations"
+msgstr "Volledige vertaling in Spaans en Duits"
+
+msgid "Migration to libhandy 1.0"
+msgstr "Migratie naar libhandy 1.0"
+
+msgid "Migration to briar_wrapper 0.0.4"
+msgstr "Migratie naar briar_wrapper 0.0.4"
+
+msgid "Many more minor improvements"
+msgstr "Vele andere kleine verbeteringen"
+
+msgid "Show online status of contacts in contact list (#19)"
+msgstr "Toon online status of contacten in contacten lijst (#19)"
+
+msgid "Support copying content in messages (#51)"
+msgstr "Ondersteuning voor kopiëren van inhoud in berichten (#51)"
+
+msgid "Fix bug with Briar messages not having text (#56)"
+msgstr "Bug opgelost: Briar berichten tonen geen inhoud (#56)"
+
+msgid "Fix bug with contact's name not showing in private messages (#55)"
+msgstr "Bug opgelost waarin naam gebruiker niet getoond werd in privégesprekken"
+
+msgid "Update Briar core to version 1.2.9"
+msgstr "Briar core geupdate naar versie 1.2.9"
+
+msgid "Lots of software tests"
+msgstr "Heel veel software testen"
+
+msgid "The very first alpha release of Briar GTK. It allows to add contacts on a distance and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
+msgstr "De eerste alpha versie van Briar GTK. Het ondersteunt contacten op afstand toevoegen en berichten in privéchats. Andere functies als groepen, forums en blogs worden nog geïmplementeerd"
+
+msgid "A Briar client for GTK desktop and mobile devices"
+msgstr "Briar applicatie voor GTK-ondersteunde desktop- en mobiele apparaten"
+
+msgid "Visit Briar GTK website"
+msgstr "Bezoek de website van Briar GTK"
+
+msgctxt "add contact"
+msgid "Give this link to the contact you want to add"
+msgstr "Geef deze link aan diegene die je wilt toevoegen"
+
+msgctxt "add contact"
+msgid "Enter the link from your contact here"
+msgstr "Voer hier de link die je van je contact hebt onvangen in."
+
+msgctxt "add contact"
+msgid "Contact's link"
+msgstr "Ontvangen link van contact"
+
+msgctxt "add contact"
+msgid "Please enter a link"
+msgstr "Voer een link in"
+
+msgctxt "add contact"
+msgid "Give your contact a nickname. Only you can see it."
+msgstr "Geef je contact een bijnaam, alleen jij kan deze zien"
+
+msgctxt "add contact"
+msgid "Enter a nickname"
+msgstr "Voer een bijnaam in"
+
+msgctxt "add contact"
+msgid "Please enter a nickname"
+msgstr "Voer een bijnaam in"
+
+msgid "Add contact"
+msgstr "Contact toevoegen"
+
+msgid "Next"
+msgstr "Volgende"
+
+msgid "Delete contact"
+msgstr "Contact verwijderen"
+
+msgid "Password"
+msgstr "Wachtwoord"
+
+msgid "Log in"
+msgstr "Inloggen"
+
+msgid "Logging in"
+msgstr "Aan het inloggen"
+
+msgid "About Briar GTK"
+msgstr "Over Briar GTK"
+
+msgctxt "chat page: input field"
+msgid "Type Message"
+msgstr "Type een bericht"
+
+msgid "No contact selected"
+msgstr "Geen contact geselecteerd"
+
+msgid "Select a contact to start chatting"
+msgstr "Kies een contact om te beginnen met chatten"
+
+msgid "Main menu"
+msgstr "Hoofdmenu"
+
+msgid "Back"
+msgstr "Terug"
+
+msgid "Chat menu"
+msgstr "Chat menu"
+
+msgid "Welcome to Briar"
+msgstr "Welkom bij Briar"
+
+msgid "Choose your nickname"
+msgstr "Kies jouw bijnaam"
+
+msgid "Confirm Password"
+msgstr "Wachtwoord bevestigen"
+
+msgid "Create Account"
+msgstr "Account maken"
+
+msgid "Creating Account"
+msgstr "Account maken"
+
+msgid "Using code by"
+msgstr "Gebruikt code van"
+
+msgid "Briar functionality by"
+msgstr "Briar-functionaliteit door"
+
+msgid "Myself"
+msgstr "Ik"
+
+msgid "Are you sure you want to exit?"
+msgstr "Weet je zeker dat u Briar wilt afsluiten?"
+
+msgid "Once you close Briar, you'll no longer receive or send pending messages. Keep Briar open to stay connected with your contacts."
+msgstr "Wanneer je Briar afsluite ontvang je geen berichten meer en worden berichten die in de wachtrij staan niet meer verzonden. Hour Briar geopend om verbonden te blijven met jouw contacten."
+
+msgid "Confirm Contact Deletion"
+msgstr "Bevestig verwijderen van contact"
+
+msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+msgstr "Weet je zeker dat je dit contact en alle bijbehorende berichten wilt verwijderen?"
+
+msgid "Please enter a password"
+msgstr "Voer a.u.b. een wachtwoord in"
+
+msgid "Couldn't log in"
+msgstr "Inloggen is mislukt"
+
+msgid "Please enter a nickname"
+msgstr "Geef a.u.b. een gebruikersnaam op"
+
+msgid "The passwords do not match"
+msgstr "De wachtwoorden komen niet overeen"
+
+msgid "Couldn't register account"
+msgstr "Registratie is mislukt"
+
+msgid "Please enter a link"
+msgstr "Voer a.u.b. een link in."
+
+msgid "Enter your contact's link, not your own"
+msgstr "Voer de link van jouw contact in, niet de jouwe"
+
+#~ msgid "Note: This is an alpha release of Briar GTK which may contain bugs"
+#~ msgstr "Pas op. Dit is een alpha versie vna Briar GTK en kan bugs bevatten."
+
+#~ msgid "Undo"
+#~ msgstr "Ongedaan maken"
+
+#~ msgid "Contact will be deleted"
+#~ msgstr "Contact wordt verwijderd"

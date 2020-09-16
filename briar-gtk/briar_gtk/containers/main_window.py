@@ -88,6 +88,7 @@ class MainWindowContainer(Container):
         self.contacts_list_box.unselect_all()
         self.contact_name_label.set_text("")
         self._current_contact_id = 0
+        self.builder.get_object("chat_menu_button").hide()
 
     def open_delete_contact_dialog(self):
         if self._current_contact_id == 0:

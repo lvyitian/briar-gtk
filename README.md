@@ -188,6 +188,21 @@ updated. The former can be done with
 
 ## FAQ
 
+### How can I let Briar start automatically at system boot?
+
+Until [#66](https://code.briarproject.org/briar/briar-gtk/-/issues/66) is resolved, you can manually
+tell your desktop environment to start Briar by creating the following file:
+
+_.config/autostart/briar-gtk.desktop_
+```
+[Desktop Entry]
+Type=Application
+Name=briar-gtk
+Exec=/usr/bin/briar-gtk
+```
+
+If you're using Flatpak, you need to change `Exec` to `/usr/bin/flatpak run app.briar.gtk`.
+
 ### How can I run this on the Librem 5?
 
 Whether you own a Librem 5 or
@@ -200,10 +215,10 @@ Before you start, you have to install some dependencies:
 sudo apt install flatpak-builder elfutils
 ```
 
-You can then simply
-[follow the instructions from above](#developers).
-Note that you currently don't get beyond the setup screen
-because Briar Headless only works on x86 platforms so far.
+You can then [follow the instructions from above](#developers).
+Note that you need to modify everything a little bit to work on the Librem's arm platform
+(not needed for the emulator):
+[#49](https://code.briarproject.org/briar/briar-gtk/-/issues/49).
 
 ---
 

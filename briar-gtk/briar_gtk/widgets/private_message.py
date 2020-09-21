@@ -33,9 +33,15 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
 
         username_info = PrivateMessageWidget._create_username_info(
             username, username_style_class)
+        delivery_state_info = PrivateMessageWidget._create_delivery_state_info(
+            message)
         date_info = PrivateMessageWidget._create_date_info(
             message["timestamp"] / 1000)
-        info = PrivateMessageWidget._create_info(username_info, date_info)
+        info = PrivateMessageWidget._create_info(
+            username_info,
+            delivery_state_info,
+            date_info
+        )
 
         body_content = PrivateMessageWidget._create_body_content(
             message["text"])
@@ -65,6 +71,22 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         return username_event_box
 
     @staticmethod
+    def _create_delivery_state_info(message):
+        file_name = "message_stored"
+        if not message.get("local", True):
+            return Gtk.EventBox()
+        # TODO: Remove once web events updating is implemented
+        if message.get("no_stored_indicator", False):
+            return Gtk.EventBox()
+        if message.get("sent", False):
+            file_name = "message_sent"
+        if message.get("seen", False):
+            file_name = "message_delivered"
+        delivery_state = Gtk.Image.new_from_icon_name(file_name,
+                                                      Gtk.IconSize.MENU)
+        return delivery_state
+
+    @staticmethod
     def _create_date_info(timestamp):
         time = PrivateMessageWidget._make_timestamp_readable(timestamp)
         date_label = Gtk.Label.new(time)
@@ -83,9 +105,13 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         return time.strftime("%x %H:%M")
 
     @staticmethod
-    def _create_info(username_info, date_info):
+    def _create_info(username_info, delivery_state_info, date_info):
         info = Gtk.Box.new(Gtk.Orientation.HORIZONTAL, 0)
         info.pack_start(username_info, True, True, 0)
+        if isinstance(delivery_state_info, Gtk.Image):
+            info.pack_end(delivery_state_info, False, False, 3)
+        else:
+            info.pack_end(delivery_state_info, False, False, 11)
         info.pack_end(date_info, False, False, 0)
         return info
 
@@ -122,6 +148,10 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         if "local" not in previous_message:
             return True
         if message["local"] != previous_message["local"]:
+            return True
+        if message["sent"] != previous_message["sent"]:
+            return True
+        if message["seen"] != previous_message["seen"]:
             return True
 
         time = datetime.fromtimestamp(message.get("timestamp", 0) / 1000)

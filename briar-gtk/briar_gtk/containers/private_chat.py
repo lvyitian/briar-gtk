@@ -40,6 +40,12 @@ class PrivateChatContainer(Container):
             {
                 "text": message,
                 "local": True,
+                "sent": False,
+                "seen": False,
+
+                # TODO: Remove once web events updating is implemented
+                "no_stored_indicator": True,
+
                 "timestamp": int(round(time.time() * 1000))
             })
         widget.set_text("")

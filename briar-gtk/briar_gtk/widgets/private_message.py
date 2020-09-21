@@ -6,7 +6,7 @@
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
 from datetime import datetime
-from gettext import gettext as _
+from gettext import pgettext as _t
 
 from gi.repository import Gtk
 
@@ -23,7 +23,11 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         username = contact_name
         username_style_class = "username"
         if message["local"]:
-            username = _("Myself")
+            username = _t(
+                "Used in message history to indicate that message is"
+                "by the user itself, not by its contact",
+                "Myself"
+            )
             username_style_class = "username-self"
 
         username_info = PrivateMessageWidget._create_username_info(

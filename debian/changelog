@@ -1,7 +1,7 @@
 briar-gtk (0.1.0-beta1-1) UNRELEASED; urgency=medium
 
   * Basic notification support
-  * Support for deleting contacts
+  * Support for contact deletion
   * Hugely improved chat UI
   * Full Spanish and German translations
   * Migration to libhandy 1.0

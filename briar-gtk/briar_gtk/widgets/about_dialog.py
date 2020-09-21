@@ -4,7 +4,7 @@
 
 import os
 
-from gettext import gettext as _
+from gettext import pgettext as _t
 
 from gi.repository import Gtk
 
@@ -34,7 +34,10 @@ class AboutDialogWidget():
         self._about_dialog.connect("response", self._on_about_response)
 
     def _add_code_section(self):
-        code_use_title = _("Using code by")
+        code_use_title = _t(
+            "Used in about dialog to credit other programs like GNOME Fractal",
+            "Using code by"
+        )
         code_use_list = [
             "GNOME Fractal https://wiki.gnome.org/Apps/Fractal",
             "GNOME Lollypop https://wiki.gnome.org/Apps/Lollypop",
@@ -45,7 +48,11 @@ class AboutDialogWidget():
 
     # pylint: disable=line-too-long
     def _add_briar_section(self):
-        briar_functionality_title = _("Briar functionality by")
+        briar_functionality_title = _t(
+            "Used in about dialog to credit "
+            "Briar components like its REST API",
+            "Briar functionality by"
+        )
         briar_functionality_list = [
             "Briar REST API https://code.briarproject.org/briar/briar/tree/master/briar-headless",  # noqa
             "Briar Python Wrapper https://code.briarproject.org/briar/python-briar-wrapper",  # noqa

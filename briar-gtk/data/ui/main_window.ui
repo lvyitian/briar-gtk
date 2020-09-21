@@ -117,7 +117,7 @@
                               <object class="GtkEntry" id="chat_entry">
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
-                                <property name="placeholder_text" translatable="yes" context="chat page: input field">Type Message</property>
+                                <property name="placeholder_text" translatable="yes" context="Used in input field in main window">Type Message</property>
                                 <property name="show_emoji_icon">True</property>
                               </object>
                               <packing>
@@ -242,7 +242,7 @@
                     </accessibility>
                     <child internal-child="accessible">
                       <object class="AtkObject" id="a11y-add_contact_menu">
-                        <property name="AtkObject::accessible_name" translatable="yes">Add contact</property>
+                        <property name="AtkObject::accessible_name" translatable="yes" context="Accessibility text in main menu">Add contact</property>
                       </object>
                     </child>
                   </object>

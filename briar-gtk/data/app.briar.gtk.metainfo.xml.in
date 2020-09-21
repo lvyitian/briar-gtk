@@ -45,7 +45,7 @@
       <image type="source">https://code.briarproject.org/briar/briar-gtk/raw/fff8cbe97dc8e6c759b978e6d7d8608a3105b9c0/tools/screenshots/briar-gtk-screenshot-2.png</image>
     </screenshot>
     <screenshot>
-      <caption>Adding contacts on a distance</caption>
+      <caption>Adding contacts at a distance</caption>
       <image type="source">https://code.briarproject.org/briar/briar-gtk/raw/fff8cbe97dc8e6c759b978e6d7d8608a3105b9c0/tools/screenshots/briar-gtk-screenshot-3.png</image>
     </screenshot>
     <screenshot>
@@ -70,7 +70,7 @@
         </p>
         <ul>
           <li>Basic notification support</li>
-          <li>Support for deleting contacts</li>
+          <li>Support for contact deletion</li>
           <li>Hugely improved chat UI</li>
           <li>Full Spanish and German translations</li>
           <li>Migration to libhandy 1.0</li>
@@ -100,7 +100,7 @@
       <description>
         <p>
           The very first alpha release of Briar GTK.
-          It allows to add contacts on a distance and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented.
+          It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented.
         </p>
       </description>
       <url>https://code.briarproject.org/briar/briar-gtk/-/tags/0.1.0-alpha1</url>

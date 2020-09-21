@@ -34,7 +34,7 @@ function generate_po()
     >briar-gtk.pot
     for file in ../data/app.briar.gtk.metainfo.xml.in ../data/ui/about_dialog.ui.in ../data/ui/*.ui $(find "../briar_gtk" -name '*.py');
     do
-        xgettext --from-code=UTF-8 --no-location --no-wrap -j $file -o briar-gtk.pot
+        xgettext --from-code=UTF-8 --no-location --no-wrap --keyword="_t:1c,2" -j $file -o briar-gtk.pot
     done
     >LINGUAS
     for po in *.po

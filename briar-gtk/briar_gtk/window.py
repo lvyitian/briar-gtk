@@ -45,8 +45,9 @@ class Window(Gtk.ApplicationWindow):
             text=_("Are you sure you want to exit?")
         )
         confirmation_dialog.format_secondary_text(
-            _("Once you close Briar, you'll no longer receive or send "
-              "pending messages. Keep Briar open to stay connected "
+            _("Once you close Briar, you'll no longer "
+              "receive messages nor send pending ones. "
+              "Keep Briar open to stay connected "
               "with your contacts.")
         )
         response = confirmation_dialog.run()

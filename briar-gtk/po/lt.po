@@ -4,11 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pander <pander@users.sourceforge.net>, 2020
-# Anne Mügge <info@numijneigenwebsite.nl>, 2020
 # erinm, 2020
-# akwizgran <michael@briarproject.org>, 2020
-# Thom, 2020
+# Moo, 2020
 # 
 #, fuzzy
 msgid ""
@@ -16,19 +13,19 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Thom, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/otf/teams/76528/nl/)\n"
+"Last-Translator: Moo, 2020\n"
+"Language-Team: Lithuanian (https://www.transifex.com/otf/teams/76528/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 msgid "Briar"
 msgstr "Briar"
 
 msgid "Secure messaging, anywhere"
-msgstr "Veilig communiceren, waar dan ook"
+msgstr "Saugus susirašinėjimas, bet kur"
 
 msgid ""
 "Briar is a messaging app designed for activists, journalists, and anyone "
@@ -39,73 +36,73 @@ msgid ""
 "information flowing in a crisis. If the internet's up, Briar can sync via "
 "the Tor network, protecting users and their relationships from surveillance."
 msgstr ""
-"Briar is een berichten app ontworpen voor activisten, journalisten en wie "
-"dan ook die een veilige, gemakkelijke en robuste manier nodig heeft voor "
-"communicatie. Niet zoals traditionele berichtenapps maakt Briar geen gebruik"
-" van een centrale server - berichten worden direct tussen de apparaten van "
-"gebruikers gesynchroniseerd. Als het internet het niet doet kan Briar "
-"synchroniseren d.m.v. Bluetooth of wifi, zodat de informatie blijft "
-"ronstromen tijdens een crisis. Als het internet het wel doet kan Briar "
-"Synchroniseren over het Tor netwerk, en beschermt het gebruikers en hun "
-"verhoudingen van surveillance."
+"Briar yra žinučių perdavimo programėlė, skirta aktyvistams, žurnalistams ir "
+"visiems kitiems, kam reikia saugaus, lengvo ir veiksmingo bendravimo būdo. "
+"Kitaip nei kitos tradicinės žinučių perdavimo programėlės, Briar "
+"nepasikliauja centriniu serveriu - žinutės yra sinchronizuojamos tiesiogiai "
+"tarp naudotojų įrenginių. Jei nėra interneto, Briar gali sinchronizuotis per"
+" Bluetooth ar belaidį ryšį (Wi-Fi), kad palaikytų informacijos perdavimą "
+"kriziniais atvejais. Jei internetas veikia, Briar gali sinchronizuotis per "
+"Tor tinklą, apsaugodama naudotojus ir jų tarpusavio ryšius nuo stebėjimo."
 
 msgid "The Briar Project"
-msgstr "Het Briar Project"
+msgstr "Briar projektas"
 
 msgid "Main window showing two contacts and chat"
-msgstr "Hoofdvenster, toont twee contacten en een gesprek"
+msgstr "Pagrindinis langas, atvaizduojantis du adresatus ir pokalbį"
 
 msgid "Welcome screen with registration"
-msgstr "Welkomstscherm met registratie"
+msgstr "Pradžios langas su registracija"
 
 msgid "Adding contacts at a distance"
 msgstr ""
 
 msgid "Main window with two contacts and about dialog"
-msgstr "Hoofdvenster, toont twee contacten en een toelichting."
+msgstr ""
+"Pagrindinis langas su dviem adresatais ir dialogu su programos informacija"
 
 msgid "Improvements in this version:"
-msgstr "Verbeteringen in deze versie."
+msgstr "Šioje versijoje pristatyti patobulinimai:"
 
 msgid "Basic notification support"
-msgstr "Basisondersteuning voor meldingen"
+msgstr "Bazinis pranešimų palaikymas"
 
 msgid "Support for contact deletion"
 msgstr ""
 
 msgid "Hugely improved chat UI"
-msgstr "Gigantische verbeteringen aan gespreksinterface"
+msgstr "Žymiai pagerinta pokalbio naudotojo sąsąja"
 
 msgid "Full Spanish and German translations"
-msgstr "Volledige vertaling in Spaans en Duits"
+msgstr "Pilnas vertimas į ispanų bei vokiečių kalbas"
 
 msgid "Migration to libhandy 1.0"
-msgstr "Migratie naar libhandy 1.0"
+msgstr "Perkėlimas į libhandy 1.0"
 
 msgid "Migration to briar_wrapper 0.0.4"
-msgstr "Migratie naar briar_wrapper 0.0.4"
+msgstr "Perkėlimas į briar_wrapper 0.0.4"
 
 msgid "Many more minor improvements"
-msgstr "Vele andere kleine verbeteringen"
+msgstr "Daugybė smulkių patobulinimų"
 
 msgid "Show online status of contacts in contact list (#19)"
-msgstr "Toon online status of contacten in contacten lijst (#19)"
+msgstr "Rodyti adresatų sąraše esančių adresatų prisijungimo būseną (#19)"
 
 msgid "Support copying content in messages (#51)"
-msgstr "Ondersteuning voor kopiëren van inhoud in berichten (#51)"
+msgstr "Palaikyti žinučių turinio kopijavimą (#51)"
 
 msgid "Fix bug with Briar messages not having text (#56)"
-msgstr "Bug opgelost: Briar berichten tonen geen inhoud (#56)"
+msgstr "Pataisyti klaidą, kuomet Briar žinutėse nėra teksto (#56)"
 
 msgid "Fix bug with contact's name not showing in private messages (#55)"
 msgstr ""
-"Bug opgelost waarin naam gebruiker niet getoond werd in privégesprekken"
+"Pataisyti klaidą, kuomet privačiose žinutėse nerodomas adresato vardas (#55)"
 
 msgid "Update Briar core to version 1.2.9"
-msgstr "Briar core geupdate naar versie 1.2.9"
+msgstr "Atnaujinti Briar branduolį iki versijos 1.2.9"
 
 msgid "Lots of software tests"
-msgstr "Heel veel software testen"
+msgstr "Daug programinės įrangos testavimų"
 
 msgid ""
 "The very first alpha release of Briar GTK. It allows adding contacts "
@@ -119,11 +116,12 @@ msgstr ""
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr "Briar applicatie voor GTK-ondersteunde desktop- en mobiele apparaten"
+msgstr ""
+"Briar kliento programa, skirta darbalaukio ir mobiliesiems įrenginiams"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr "Bezoek de website van Briar GTK"
+msgstr "Apsilankyti Briar GTK internetinėje svetainėje"
 
 msgctxt ""
 "Used in about dialog; replace Nico with yourself to get credited in your "
@@ -133,114 +131,114 @@ msgstr ""
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
-msgstr "Geef deze link aan diegene die je wilt toevoegen"
+msgstr "Perduokite šią nuorodą adresatui, kurį norite pridėti"
 
 msgctxt "Used in add contact page"
 msgid "Enter the link from your contact here"
-msgstr "Voer hier de link die je van je contact hebt onvangen in."
+msgstr "Čia įveskite iš adresato gautą nuorodą"
 
 msgctxt "Used in add contact page"
 msgid "Contact's link"
-msgstr "Ontvangen link van contact"
+msgstr "Adresato nuoroda"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a link"
-msgstr "Voer a.u.b. een link in."
+msgstr "Įveskite nuorodą"
 
 msgctxt "Used in add contact page"
 msgid "Give your contact a nickname. Only you can see it."
-msgstr "Geef je contact een bijnaam, alleen jij kan deze zien"
+msgstr "Suteikite savo adresatui slapyvardį. Slapyvardį matysite tik jūs."
 
 msgctxt "Used in add contact page"
 msgid "Enter a nickname"
-msgstr "Voer een bijnaam in"
+msgstr "Įveskite slapyvardį"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a nickname"
-msgstr "Geef a.u.b. een gebruikersnaam op"
+msgstr "Įveskite slapyvardį"
 
 msgctxt "Button in add contact page"
 msgid "Add contact"
-msgstr "Contact toevoegen"
+msgstr "Pridėti adresatą"
 
 msgid "Next"
-msgstr "Volgende"
+msgstr "Kitas"
 
 msgctxt "Title in add contact page"
 msgid "Add contact"
-msgstr "Contact toevoegen"
+msgstr "Pridėti adresatą"
 
 msgid "Delete contact"
-msgstr "Contact verwijderen"
+msgstr "Ištrinti adresatą"
 
 msgid "Password"
-msgstr "Wachtwoord"
+msgstr "Slaptažodis"
 
 msgctxt "Button in login page"
 msgid "Log in"
-msgstr "Inloggen"
+msgstr "Prisijungti"
 
 msgctxt "Used in login page after entering the password"
 msgid "Logging in"
-msgstr "Aan het inloggen"
+msgstr "Prisijungiama"
 
 msgid "About Briar GTK"
-msgstr "Over Briar GTK"
+msgstr "Apie Briar GTK"
 
 msgctxt "Used in input field in main window"
 msgid "Type Message"
-msgstr "Type een bericht"
+msgstr "Rašykite žinutę"
 
 msgid "No contact selected"
-msgstr "Geen contact geselecteerd"
+msgstr "Nepasirinktas kontaktas"
 
 msgid "Select a contact to start chatting"
-msgstr "Kies een contact om te beginnen met chatten"
+msgstr "Pasirinkite adresatą norėdami pradėti pokalbį"
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
-msgstr "Contact toevoegen"
+msgstr "Pridėti adresatą"
 
 msgid "Main menu"
-msgstr "Hoofdmenu"
+msgstr "Pagrindinis meniu"
 
 msgid "Back"
-msgstr "Terug"
+msgstr "Atgal"
 
 msgid "Chat menu"
-msgstr "Chat menu"
+msgstr "Pokalbio meniu"
 
 msgid "Welcome to Briar"
-msgstr "Welkom bij Briar"
+msgstr "Sveiki atvykę į Briar"
 
 msgid "Choose your nickname"
-msgstr "Kies jouw bijnaam"
+msgstr "Pasirinkite savo slapyvardį"
 
 msgid "Confirm Password"
-msgstr "Wachtwoord bevestigen"
+msgstr "Pakartokite slaptažodį"
 
 msgid "Create Account"
-msgstr "Account maken"
+msgstr "Sukurti paskyrą"
 
 msgid "Creating Account"
-msgstr "Account maken"
+msgstr "Paskyros sukūrimas"
 
 msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
 msgid "Using code by"
-msgstr "Gebruikt code van"
+msgstr "Naudojamas kodas pagal"
 
 msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
-msgstr "Briar-functionaliteit door"
+msgstr "Briar funkcionalumas pagal"
 
 msgctxt ""
 "Used in message history to indicate that message isby the user itself, not "
 "by its contact"
 msgid "Myself"
-msgstr "Ik"
+msgstr "Aš"
 
 msgid "Are you sure you want to exit?"
-msgstr "Weet je zeker dat u Briar wilt afsluiten?"
+msgstr "Ar tikrai norite išeiti?"
 
 msgid ""
 "Once you close Briar, you'll no longer receive messages nor send pending "
@@ -248,32 +246,32 @@ msgid ""
 msgstr ""
 
 msgid "Confirm Contact Deletion"
-msgstr "Bevestig verwijderen van contact"
+msgstr "Patvirtinkite adresato ištrynimą"
 
 msgid ""
 "Are you sure that you want to remove this contact and all messages exchanged"
 " with this contact?"
 msgstr ""
-"Weet je zeker dat je dit contact en alle bijbehorende berichten wilt "
-"verwijderen?"
+"Ar tikrai norite pašalinti šį adresatą ir visas žinutes, kuriomis "
+"apsikeitėte su šiuo adresatu ?"
 
 msgid "Please enter a password"
-msgstr "Voer a.u.b. een wachtwoord in"
+msgstr "Įveskite slaptažodį"
 
 msgid "Couldn't log in"
-msgstr "Inloggen is mislukt"
+msgstr "Nepavyko prisijungti"
 
 msgid "Please enter a nickname"
-msgstr "Geef a.u.b. een gebruikersnaam op"
+msgstr "Įveskite slapyvardį"
 
 msgid "The passwords do not match"
-msgstr "De wachtwoorden komen niet overeen"
+msgstr "Slaptažodžiai nesutampa"
 
 msgid "Couldn't register account"
-msgstr "Registratie is mislukt"
+msgstr "Nepavyko registruoti paskyros"
 
 msgid "Please enter a link"
-msgstr "Voer a.u.b. een link in."
+msgstr "Įveskite nuorodą"
 
 msgid "Enter your contact's link, not your own"
-msgstr "Voer de link van jouw contact in, niet de jouwe"
+msgstr "Įveskite ne savo, o adresato nuorodą"

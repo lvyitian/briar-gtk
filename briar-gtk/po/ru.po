@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# IvanLykov <chabib@list.ru>, 2020
+# Sergey Smirnov <cj75300@gmail.com>, 2020
+# Николай Кочкин <urfiner@gmail.com>, 2020
+# user users <sigaint517@sigaint.org>, 2020
+# ef005e17e021122df91e94cfd230e8e8_7db01f8 <be69bc900298e9d9f543903b9318d7cd_576514>, 2020
+# Đorđe Marušić <djordje@hzontal.org>, 2020
+# Stanislav <mineinfo80@gmail.com>, 2020
+# Andrey, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"Last-Translator: Andrey, 2020\n"
+"Language-Team: Russian (https://www.transifex.com/otf/teams/76528/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+msgid "Briar"
+msgstr "Briar"
+
+msgid "Secure messaging, anywhere"
+msgstr "Безопасное общение, где угодно"
+
+msgid ""
+"Briar is a messaging app designed for activists, journalists, and anyone "
+"else who needs a safe, easy and robust way to communicate. Unlike "
+"traditional messaging apps, Briar doesn't rely on a central server - "
+"messages are synchronized directly between the users' devices. If the "
+"internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the "
+"information flowing in a crisis. If the internet's up, Briar can sync via "
+"the Tor network, protecting users and their relationships from surveillance."
+msgstr ""
+"Briar - это приложение для обмена сообщениями, предназначенное для "
+"активистов, журналистов и всех, кому нужен безопасный, простой и надежный "
+"способ общения. В отличие от традиционных приложений для обмена сообщениями,"
+" Briar не полагается на центральный сервер - сообщения синхронизируются "
+"непосредственно между устройствами пользователей. Если интернет не работает,"
+" Briar может синхронизироваться через Bluetooth или Wi-Fi, поддерживая поток"
+" информации в кризисной ситуации. Если интернет не работает, Briar может "
+"синхронизироваться через сеть Tor, защищая пользователей и их "
+"взаимоотношения от слежки."
+
+msgid "The Briar Project"
+msgstr "Проект Briar"
+
+msgid "Main window showing two contacts and chat"
+msgstr "Главное окно, отображающее два контакта и чат"
+
+msgid "Welcome screen with registration"
+msgstr "Экран приветствия с регистрацией"
+
+msgid "Adding contacts at a distance"
+msgstr ""
+
+msgid "Main window with two contacts and about dialog"
+msgstr "Главное окно с двумя контактами и диалогом"
+
+msgid "Improvements in this version:"
+msgstr "Улучшения в этой версии:"
+
+msgid "Basic notification support"
+msgstr "Поддержка базовых уведомлений"
+
+msgid "Support for contact deletion"
+msgstr ""
+
+msgid "Hugely improved chat UI"
+msgstr "Значительно улучшенный интерфейс чата"
+
+msgid "Full Spanish and German translations"
+msgstr "Полный перевод на испанский и немецкий языки"
+
+msgid "Migration to libhandy 1.0"
+msgstr "Миграция на libhandy 1.0"
+
+msgid "Migration to briar_wrapper 0.0.4"
+msgstr "Миграция на briar_wrapper 0.0.4"
+
+msgid "Many more minor improvements"
+msgstr "Много других незначительных улучшений"
+
+msgid "Show online status of contacts in contact list (#19)"
+msgstr "Отображение онлайн-статуса контактов в списке (#19)"
+
+msgid "Support copying content in messages (#51)"
+msgstr "Поддержка копирования содержимого в сообщениях (#51)"
+
+msgid "Fix bug with Briar messages not having text (#56)"
+msgstr ""
+"Исправлена ошибка, при которой сообщения Briar не содержали текста (#56)"
+
+msgid "Fix bug with contact's name not showing in private messages (#55)"
+msgstr ""
+"Исправлена ошибка, из-за которой имя контакта не отображалось в приватных "
+"сообщениях (#55)"
+
+msgid "Update Briar core to version 1.2.9"
+msgstr "Обновлено ядро Briar до версии 1.2.9."
+
+msgid "Lots of software tests"
+msgstr "Большое количество тестов программного обеспечения"
+
+msgid ""
+"The very first alpha release of Briar GTK. It allows adding contacts "
+"remotely and chatting with them in private chats. Other functions like "
+"groups, forums and blogs are to be implemented."
+msgstr ""
+
+msgctxt "Used in about dialog"
+msgid "Copyright © 2019-2020 The Briar Project"
+msgstr ""
+
+msgctxt "Used in about dialog"
+msgid "A Briar client for GTK desktop and mobile devices"
+msgstr "Клиент Briar для настольных и мобильных устройств GTK."
+
+msgctxt "Used in about dialog to get to website"
+msgid "Visit Briar GTK website"
+msgstr "Посетить веб-сайт Briar GTK"
+
+msgctxt ""
+"Used in about dialog; replace Nico with yourself to get credited in your "
+"translation; multiple persons can be added by adding new lines"
+msgid "Nico Alt"
+msgstr ""
+
+msgctxt "Used in add contact page"
+msgid "Give this link to the contact you want to add"
+msgstr "Передайте эту ссылку контакту, который вы хотите добавить."
+
+msgctxt "Used in add contact page"
+msgid "Enter the link from your contact here"
+msgstr "Введите ссылку от вашего контакта здесь"
+
+msgctxt "Used in add contact page"
+msgid "Contact's link"
+msgstr "Ссылка контакта"
+
+msgctxt "Used in add contact page"
+msgid "Please enter a link"
+msgstr "Пожалуйста, введите ссылку"
+
+msgctxt "Used in add contact page"
+msgid "Give your contact a nickname. Only you can see it."
+msgstr "Дайте вашему контакту ник. Увидеть его сможете только вы."
+
+msgctxt "Used in add contact page"
+msgid "Enter a nickname"
+msgstr "Введите ник"
+
+msgctxt "Used in add contact page"
+msgid "Please enter a nickname"
+msgstr "Пожалуйста, введите ник"
+
+msgctxt "Button in add contact page"
+msgid "Add contact"
+msgstr "Добавить контакт"
+
+msgid "Next"
+msgstr "Далее"
+
+msgctxt "Title in add contact page"
+msgid "Add contact"
+msgstr "Добавить контакт"
+
+msgid "Delete contact"
+msgstr "Удалить контакт"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "Авторизоваться"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "Происходит вход в систему"
+
+msgid "About Briar GTK"
+msgstr "О Briar GTK"
+
+msgctxt "Used in input field in main window"
+msgid "Type Message"
+msgstr "Введите сообщение"
+
+msgid "No contact selected"
+msgstr "Контакт не выбран"
+
+msgid "Select a contact to start chatting"
+msgstr "Выберите контакт, чтобы начать чат"
+
+msgctxt "Accessibility text in main menu"
+msgid "Add contact"
+msgstr "Добавить контакт"
+
+msgid "Main menu"
+msgstr "Основное меню"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Chat menu"
+msgstr "Меню чата"
+
+msgid "Welcome to Briar"
+msgstr "Добро пожаловать в Briar"
+
+msgid "Choose your nickname"
+msgstr "Придумайте псевдоним"
+
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+msgid "Create Account"
+msgstr "Создать учетную запись"
+
+msgid "Creating Account"
+msgstr "Создание учетной записи"
+
+msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Using code by"
+msgstr "Используя код"
+
+msgctxt "Used in about dialog to credit Briar components like its REST API"
+msgid "Briar functionality by"
+msgstr "Функциональность Briar"
+
+msgctxt ""
+"Used in message history to indicate that message isby the user itself, not "
+"by its contact"
+msgid "Myself"
+msgstr "Себя"
+
+msgid "Are you sure you want to exit?"
+msgstr "Вы уверены, что хотите выйти?"
+
+msgid ""
+"Once you close Briar, you'll no longer receive messages nor send pending "
+"ones. Keep Briar open to stay connected with your contacts."
+msgstr ""
+
+msgid "Confirm Contact Deletion"
+msgstr "Подтвердите удаление контакта"
+
+msgid ""
+"Are you sure that you want to remove this contact and all messages exchanged"
+" with this contact?"
+msgstr ""
+"Вы действительно хотите удалить этот контакт и все связанные с ним "
+"сообщения?"
+
+msgid "Please enter a password"
+msgstr "Пожалуйста, введите пароль"
+
+msgid "Couldn't log in"
+msgstr "Не удалось войти"
+
+msgid "Please enter a nickname"
+msgstr "Пожалуйста, введите ник"
+
+msgid "The passwords do not match"
+msgstr "Пароли не совпадают"
+
+msgid "Couldn't register account"
+msgstr "Не удалось зарегистрировать аккаунт"
+
+msgid "Please enter a link"
+msgstr "Пожалуйста, введите ссылку"
+
+msgid "Enter your contact's link, not your own"
+msgstr "Введите ссылку вашего контакта, а не свою"

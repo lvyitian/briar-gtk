@@ -4,11 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pander <pander@users.sourceforge.net>, 2020
-# Anne Mügge <info@numijneigenwebsite.nl>, 2020
 # erinm, 2020
-# akwizgran <michael@briarproject.org>, 2020
-# Thom, 2020
+# Sveinn í Felli <sv1@fellsnet.is>, 2020
+# smari <smari@mailpile.is>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -16,19 +14,19 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Thom, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/otf/teams/76528/nl/)\n"
+"Last-Translator: smari <smari@mailpile.is>, 2020\n"
+"Language-Team: Icelandic (https://www.transifex.com/otf/teams/76528/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: is\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
 
 msgid "Briar"
 msgstr "Briar"
 
 msgid "Secure messaging, anywhere"
-msgstr "Veilig communiceren, waar dan ook"
+msgstr "Örugg skilaboð, allstaðar"
 
 msgid ""
 "Briar is a messaging app designed for activists, journalists, and anyone "
@@ -39,73 +37,71 @@ msgid ""
 "information flowing in a crisis. If the internet's up, Briar can sync via "
 "the Tor network, protecting users and their relationships from surveillance."
 msgstr ""
-"Briar is een berichten app ontworpen voor activisten, journalisten en wie "
-"dan ook die een veilige, gemakkelijke en robuste manier nodig heeft voor "
-"communicatie. Niet zoals traditionele berichtenapps maakt Briar geen gebruik"
-" van een centrale server - berichten worden direct tussen de apparaten van "
-"gebruikers gesynchroniseerd. Als het internet het niet doet kan Briar "
-"synchroniseren d.m.v. Bluetooth of wifi, zodat de informatie blijft "
-"ronstromen tijdens een crisis. Als het internet het wel doet kan Briar "
-"Synchroniseren over het Tor netwerk, en beschermt het gebruikers en hun "
-"verhoudingen van surveillance."
+"Briar er samskiptaforrit hannað fyrir aðgerðasinna, blaðamenn og alla þá sem"
+" þurfa örygga, auðvelda og áreiðanlega leið til að eiga í samskiptum. Ólíkt "
+"hefðbundnum skilaboðaforritum reiðir Briar sig ekki á miðlæga þjóna - "
+"skilaboðin eru samstillt beint á milli tækja notendanna. Ef internetið "
+"liggur niðri getur Briar samstillt í gegnum Bluetooth eða Wi-Fi þráðlaus net"
+" og þannig haldið upplýsingaflæðinu gangandi á neyðarstundum. Ef internetið "
+"er starfhæft getur Briar samstillt í gegnum Tor-netkerfið, sem verndar "
+"notendurna og tengslanet þeirra fyrir eftirliti og ritskoðun."
 
 msgid "The Briar Project"
-msgstr "Het Briar Project"
+msgstr "Briar-verkefnið"
 
 msgid "Main window showing two contacts and chat"
-msgstr "Hoofdvenster, toont twee contacten en een gesprek"
+msgstr "Aðalgluggi sem sýnir tvo tengiliði og spjall"
 
 msgid "Welcome screen with registration"
-msgstr "Welkomstscherm met registratie"
+msgstr "Upphafsskjár með nýskráningu"
 
 msgid "Adding contacts at a distance"
 msgstr ""
 
 msgid "Main window with two contacts and about dialog"
-msgstr "Hoofdvenster, toont twee contacten en een toelichting."
+msgstr "Aðalgluggi sem sýnir tvo tengiliði og upplýsingaglugga"
 
 msgid "Improvements in this version:"
-msgstr "Verbeteringen in deze versie."
+msgstr "Endurbætur í þessari útgáfu:"
 
 msgid "Basic notification support"
-msgstr "Basisondersteuning voor meldingen"
+msgstr "Grunnstuðningur við tilkynningar"
 
 msgid "Support for contact deletion"
 msgstr ""
 
 msgid "Hugely improved chat UI"
-msgstr "Gigantische verbeteringen aan gespreksinterface"
+msgstr "Mikið endurbætt spjallviðmót"
 
 msgid "Full Spanish and German translations"
-msgstr "Volledige vertaling in Spaans en Duits"
+msgstr "Fullgerðar spænskar og þýskar þýðingar"
 
 msgid "Migration to libhandy 1.0"
-msgstr "Migratie naar libhandy 1.0"
+msgstr "Yfirfærsla í libhandy 1.0"
 
 msgid "Migration to briar_wrapper 0.0.4"
-msgstr "Migratie naar briar_wrapper 0.0.4"
+msgstr "Yfirfærsla í to briar_wrapper 0.0.4"
 
 msgid "Many more minor improvements"
-msgstr "Vele andere kleine verbeteringen"
+msgstr "Margar minni endurbætur"
 
 msgid "Show online status of contacts in contact list (#19)"
-msgstr "Toon online status of contacten in contacten lijst (#19)"
+msgstr "Sýnd nettengistaða tengiliða í tengiliðalista (#19)"
 
 msgid "Support copying content in messages (#51)"
-msgstr "Ondersteuning voor kopiëren van inhoud in berichten (#51)"
+msgstr "Stuðningur við að afrita efni í skilaboðum (#51)"
 
 msgid "Fix bug with Briar messages not having text (#56)"
-msgstr "Bug opgelost: Briar berichten tonen geen inhoud (#56)"
+msgstr "Löguð villa í Briar-skilaboðum sem ekki eru með texta (#56)"
 
 msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr ""
-"Bug opgelost waarin naam gebruiker niet getoond werd in privégesprekken"
+msgstr "Löguð villa þar sem nafn tengiliðar sést ekki í einkaskilaboðum (#55)"
 
 msgid "Update Briar core to version 1.2.9"
-msgstr "Briar core geupdate naar versie 1.2.9"
+msgstr "Uppfærsla á kjarna Briar í útgáfu 1.2.9"
 
 msgid "Lots of software tests"
-msgstr "Heel veel software testen"
+msgstr "Miklar prófanir á hugbúnaðnum"
 
 msgid ""
 "The very first alpha release of Briar GTK. It allows adding contacts "
@@ -119,11 +115,11 @@ msgstr ""
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr "Briar applicatie voor GTK-ondersteunde desktop- en mobiele apparaten"
+msgstr "Briar-forrit fyrir GTK-skjáborðsumhverfi og snjalltæki"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr "Bezoek de website van Briar GTK"
+msgstr "Heimsækja Briar GTK vefsvæðið"
 
 msgctxt ""
 "Used in about dialog; replace Nico with yourself to get credited in your "
@@ -133,114 +129,115 @@ msgstr ""
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
-msgstr "Geef deze link aan diegene die je wilt toevoegen"
+msgstr "Gefðu þennan tengil til tengiliðarins sem þú ætlar að bæta við"
 
 msgctxt "Used in add contact page"
 msgid "Enter the link from your contact here"
-msgstr "Voer hier de link die je van je contact hebt onvangen in."
+msgstr "Settu hér inn tengilinn frá tengiliðnum þínum"
 
 msgctxt "Used in add contact page"
 msgid "Contact's link"
-msgstr "Ontvangen link van contact"
+msgstr "Tengill á tengilið"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a link"
-msgstr "Voer a.u.b. een link in."
+msgstr "Settu inn tengil"
 
 msgctxt "Used in add contact page"
 msgid "Give your contact a nickname. Only you can see it."
-msgstr "Geef je contact een bijnaam, alleen jij kan deze zien"
+msgstr ""
+"Gefðu tengiliðnum þínum stuttnefni/gælunafn. Einungis þú getur séð það."
 
 msgctxt "Used in add contact page"
 msgid "Enter a nickname"
-msgstr "Voer een bijnaam in"
+msgstr "Settu inn stuttnefni"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a nickname"
-msgstr "Geef a.u.b. een gebruikersnaam op"
+msgstr "Settu inn stuttnefni"
 
 msgctxt "Button in add contact page"
 msgid "Add contact"
-msgstr "Contact toevoegen"
+msgstr "Bæta við tengilið"
 
 msgid "Next"
-msgstr "Volgende"
+msgstr "Næsta"
 
 msgctxt "Title in add contact page"
 msgid "Add contact"
-msgstr "Contact toevoegen"
+msgstr "Bæta við tengilið"
 
 msgid "Delete contact"
-msgstr "Contact verwijderen"
+msgstr "Eyða tengilið"
 
 msgid "Password"
-msgstr "Wachtwoord"
+msgstr "Lykilorð"
 
 msgctxt "Button in login page"
 msgid "Log in"
-msgstr "Inloggen"
+msgstr "Innskráning"
 
 msgctxt "Used in login page after entering the password"
 msgid "Logging in"
-msgstr "Aan het inloggen"
+msgstr "Skrái inn"
 
 msgid "About Briar GTK"
-msgstr "Over Briar GTK"
+msgstr "Um Briar GTK"
 
 msgctxt "Used in input field in main window"
 msgid "Type Message"
-msgstr "Type een bericht"
+msgstr "Skrifaðu skilaboð"
 
 msgid "No contact selected"
-msgstr "Geen contact geselecteerd"
+msgstr "Enginn tengiliður valinn"
 
 msgid "Select a contact to start chatting"
-msgstr "Kies een contact om te beginnen met chatten"
+msgstr "Veldu tengilið til að hefja spjall"
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
-msgstr "Contact toevoegen"
+msgstr "Bæta við tengilið"
 
 msgid "Main menu"
-msgstr "Hoofdmenu"
+msgstr "Aðalvalmynd"
 
 msgid "Back"
-msgstr "Terug"
+msgstr "Til baka"
 
 msgid "Chat menu"
-msgstr "Chat menu"
+msgstr "Spjallvalmynd"
 
 msgid "Welcome to Briar"
-msgstr "Welkom bij Briar"
+msgstr "Velkomin í Briar"
 
 msgid "Choose your nickname"
-msgstr "Kies jouw bijnaam"
+msgstr "Veldu þér stuttnefni"
 
 msgid "Confirm Password"
-msgstr "Wachtwoord bevestigen"
+msgstr "Staðfestu lykilorð"
 
 msgid "Create Account"
-msgstr "Account maken"
+msgstr "Búa til notandaaðgang"
 
 msgid "Creating Account"
-msgstr "Account maken"
+msgstr "Bý til notandaaðgang"
 
 msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
 msgid "Using code by"
-msgstr "Gebruikt code van"
+msgstr "Notar kóða frá"
 
 msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
-msgstr "Briar-functionaliteit door"
+msgstr "Briar-virkni frá"
 
 msgctxt ""
 "Used in message history to indicate that message isby the user itself, not "
 "by its contact"
 msgid "Myself"
-msgstr "Ik"
+msgstr "Ég sjálfur"
 
 msgid "Are you sure you want to exit?"
-msgstr "Weet je zeker dat u Briar wilt afsluiten?"
+msgstr "Ertu viss um að þú viljir hætta?"
 
 msgid ""
 "Once you close Briar, you'll no longer receive messages nor send pending "
@@ -248,32 +245,32 @@ msgid ""
 msgstr ""
 
 msgid "Confirm Contact Deletion"
-msgstr "Bevestig verwijderen van contact"
+msgstr "Staðfesta eyðingu tengiliðar"
 
 msgid ""
 "Are you sure that you want to remove this contact and all messages exchanged"
 " with this contact?"
 msgstr ""
-"Weet je zeker dat je dit contact en alle bijbehorende berichten wilt "
-"verwijderen?"
+"Ertu viss að þú viljir fjarlægja þennan tengilið ásamt öllum þeim skilaboðum"
+" sem ykkur hafa farið á milli?"
 
 msgid "Please enter a password"
-msgstr "Voer a.u.b. een wachtwoord in"
+msgstr "Settu inn lykilorð"
 
 msgid "Couldn't log in"
-msgstr "Inloggen is mislukt"
+msgstr "Gat ekki skráð inn"
 
 msgid "Please enter a nickname"
-msgstr "Geef a.u.b. een gebruikersnaam op"
+msgstr "Settu inn stuttnefni"
 
 msgid "The passwords do not match"
-msgstr "De wachtwoorden komen niet overeen"
+msgstr "Lykilorðin stemma ekki"
 
 msgid "Couldn't register account"
-msgstr "Registratie is mislukt"
+msgstr "Mistókst að skrá nýjan aðgang"
 
 msgid "Please enter a link"
-msgstr "Voer a.u.b. een link in."
+msgstr "Settu inn tengil"
 
 msgid "Enter your contact's link, not your own"
-msgstr "Voer de link van jouw contact in, niet de jouwe"
+msgstr "Settu inn tengilinn frá tengiliðnum þínum, ekki þinn eigin"

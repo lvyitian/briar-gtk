@@ -1,119 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# strel, 2020
+# Roberto M.F., 2020
+# Đorđe Marušić <djordje@hzontal.org>, 2020
+# Zuhualime Akoochimoya, 2020
+# akwizgran <michael@briarproject.org>, 2020
+# 
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"Language: es\n"
+"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"Last-Translator: akwizgran <michael@briarproject.org>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/otf/teams/76528/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Briar"
 msgstr "Briar"
 
 msgid "Secure messaging, anywhere"
-msgstr ""
+msgstr "Mensajería segura, en cualquier lado"
 
-msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
+msgid ""
+"Briar is a messaging app designed for activists, journalists, and anyone "
+"else who needs a safe, easy and robust way to communicate. Unlike "
+"traditional messaging apps, Briar doesn't rely on a central server - "
+"messages are synchronized directly between the users' devices. If the "
+"internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the "
+"information flowing in a crisis. If the internet's up, Briar can sync via "
+"the Tor network, protecting users and their relationships from surveillance."
 msgstr ""
+"Briar es una aplicación de mensajería diseñada para activistas, periodistas "
+"y cualquier otra persona que necesita una forma segura, fácil y robusta de "
+"comunicación. A diferencia de las aplicaciones de mensajería tradicionales, "
+"Briar no necesita un servidor central – los mensajes son sincronizados "
+"directamente entre los dispositivos de los usuarios. Si no hay conexión a "
+"internet disponible, Briar puede sincronizarse vía Bluetooth o WiFi, "
+"manteniendo la información fluyendo en crisis. Si Internet está disponible, "
+"Briar puede sincronizarse vía red Tor, protegiendo a los usuarios y sus "
+"relaciones de la vigilancia."
 
 msgid "The Briar Project"
 msgstr "El Proyecto Briar"
 
 msgid "Main window showing two contacts and chat"
-msgstr ""
+msgstr "La ventana principal, mostrando dos contactos y el chat"
 
 msgid "Welcome screen with registration"
-msgstr ""
+msgstr "Pantalla de bienvenida con la registración"
 
 msgid "Adding contacts at a distance"
 msgstr ""
 
 msgid "Main window with two contacts and about dialog"
-msgstr ""
+msgstr "La ventana principal con dos contactos y el diálogo \"Acerca de\""
 
 msgid "Improvements in this version:"
-msgstr ""
+msgstr "Mejoras en esta versión:"
 
 msgid "Basic notification support"
-msgstr ""
+msgstr "Soporte de notificación básico"
 
-msgid "Support for deleting contacts"
+msgid "Support for contact deletion"
 msgstr ""
 
 msgid "Hugely improved chat UI"
-msgstr ""
+msgstr "Interfaz de usuario para chat enormemente mejorada"
 
 msgid "Full Spanish and German translations"
-msgstr ""
+msgstr "Traducciones completas a español y alemán"
 
 msgid "Migration to libhandy 1.0"
-msgstr ""
+msgstr "Migración a libhandy 1.0"
 
 msgid "Migration to briar_wrapper 0.0.4"
-msgstr ""
+msgstr "Migración a briar_wrapper 0.0.4"
 
 msgid "Many more minor improvements"
-msgstr ""
+msgstr "Muchas más mejoras menores"
 
 msgid "Show online status of contacts in contact list (#19)"
 msgstr ""
+"Mostrar el estado de contactos en línea en la lista de contactos (#19)"
 
 msgid "Support copying content in messages (#51)"
-msgstr ""
+msgstr "Soporta el copiado de contenido en mensajes (#51)"
 
 msgid "Fix bug with Briar messages not having text (#56)"
-msgstr ""
+msgstr "Corrección de error con mensajes de Briar sin texto (#56)"
 
 msgid "Fix bug with contact's name not showing in private messages (#55)"
 msgstr ""
+"Corrección de error del nombre de contacto no apareciendo en mensajes "
+"privados (#55)"
 
 msgid "Update Briar core to version 1.2.9"
-msgstr ""
+msgstr "Actualizar Briar Principal a la versión 1.2.9"
 
 msgid "Lots of software tests"
+msgstr "Muchas pruebas de software"
+
+msgid ""
+"The very first alpha release of Briar GTK. It allows adding contacts "
+"remotely and chatting with them in private chats. Other functions like "
+"groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgid "The very first alpha release of Briar GTK. It allows adding contacts at a distance and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
+msgctxt "Used in about dialog"
+msgid "Copyright © 2019-2020 The Briar Project"
 msgstr ""
 
+msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
 msgstr "Briar para GTK en escritorios y dispositivos móviles"
 
+msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visitar la página web de Briar GTK"
 
-msgctxt "add contact"
+msgctxt ""
+"Used in about dialog; replace Nico with yourself to get credited in your "
+"translation; multiple persons can be added by adding new lines"
+msgid "Nico Alt"
+msgstr ""
+
+msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
 msgstr "Da este enlace al contacto que quieres que añadir"
 
-msgctxt "add contact"
+msgctxt "Used in add contact page"
 msgid "Enter the link from your contact here"
 msgstr "Introduce el enlace del contacto"
 
-msgctxt "add contact"
+msgctxt "Used in add contact page"
 msgid "Contact's link"
 msgstr "Enlace del contacto"
 
-msgctxt "add contact"
+msgctxt "Used in add contact page"
 msgid "Please enter a link"
-msgstr "Por favor, introduce un enlace"
+msgstr "Introduce un enlace, por favor"
 
-msgctxt "add contact"
+msgctxt "Used in add contact page"
 msgid "Give your contact a nickname. Only you can see it."
 msgstr "Introduce un apodo para tu contacto. Solo tú puedes verlo."
 
-msgctxt "add contact"
+msgctxt "Used in add contact page"
 msgid "Enter a nickname"
 msgstr "Introduce un apodo"
 
-msgctxt "add contact"
+msgctxt "Used in add contact page"
 msgid "Please enter a nickname"
 msgstr "Por favor, introduce un apodo"
 
+msgctxt "Button in add contact page"
 msgid "Add contact"
 msgstr "Añadir el contacto"
 
 msgid "Next"
 msgstr "Seguir"
+
+msgctxt "Title in add contact page"
+msgid "Add contact"
+msgstr "Añadir el contacto"
 
 msgid "Delete contact"
 msgstr "Eliminar contacto"
@@ -121,16 +178,18 @@ msgstr "Eliminar contacto"
 msgid "Password"
 msgstr "Contraseña"
 
+msgctxt "Button in login page"
 msgid "Log in"
 msgstr "Entrar"
 
+msgctxt "Used in login page after entering the password"
 msgid "Logging in"
 msgstr "Entrando"
 
 msgid "About Briar GTK"
 msgstr "Acerca de Briar GTK"
 
-msgctxt "chat page: input field"
+msgctxt "Used in input field in main window"
 msgid "Type Message"
 msgstr "Introduce mensaje"
 
@@ -139,6 +198,10 @@ msgstr "Ningún contacto seleccionado"
 
 msgid "Select a contact to start chatting"
 msgstr "Selecciona un contacto para empezar a chatear"
+
+msgctxt "Accessibility text in main menu"
+msgid "Add contact"
+msgstr "Añadir el contacto"
 
 msgid "Main menu"
 msgstr "Menú principal"
@@ -164,26 +227,37 @@ msgstr "Crear cuenta"
 msgid "Creating Account"
 msgstr "Creando cuenta"
 
+msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
 msgid "Using code by"
 msgstr "Con código de"
 
+msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
 msgstr "Funcionalidad de Briar de"
 
+msgctxt ""
+"Used in message history to indicate that message isby the user itself, not "
+"by its contact"
 msgid "Myself"
 msgstr "Yo"
 
 msgid "Are you sure you want to exit?"
 msgstr "¿Estás seguro que quieres salir?"
 
-msgid "Once you close Briar, you'll no longer receive or send pending messages. Keep Briar open to stay connected with your contacts."
-msgstr "Cuando cierres Briar, no vas a recibir o enviar mensajes pendientes. Mantenlo abierto para permanecer conectado con tus contactos."
+msgid ""
+"Once you close Briar, you'll no longer receive messages nor send pending "
+"ones. Keep Briar open to stay connected with your contacts."
+msgstr ""
 
 msgid "Confirm Contact Deletion"
 msgstr "Confirmar eliminación de contacto"
 
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "¿Seguro que quieres eliminar este contacto y todos los mensajes intercambiados entre vosotros?"
+msgid ""
+"Are you sure that you want to remove this contact and all messages exchanged"
+" with this contact?"
+msgstr ""
+"¿Seguro que quieres eliminar este contacto y todos los mensajes "
+"intercambiados con él?"
 
 msgid "Please enter a password"
 msgstr "Por favor, introduce una contraseña"
@@ -205,12 +279,3 @@ msgstr "Introduce un enlace, por favor"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Introduce el enlace del contacto, no el de ti"
-
-#~ msgid "Note: This is an alpha release of Briar GTK which may contain bugs"
-#~ msgstr "Nota: Esa es una versión alfa de Briar GTK que pueda contener errores"
-
-#~ msgid "Undo"
-#~ msgstr "Deshacer"
-
-#~ msgid "Contact will be deleted"
-#~ msgstr "Contacto será eliminado"

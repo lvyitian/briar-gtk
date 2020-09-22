@@ -141,6 +141,8 @@ class MainWindowContainer(Container):
         self.chat_entry.grab_focus()
 
     def _on_chat_entry_activate(self, widget):
+        if len(widget.get_text()) == 0:
+            return
         self._current_private_chat_widget.send_message(widget)
         self._refresh_contacts()
 

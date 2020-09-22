@@ -24,7 +24,7 @@ msgstr "Hoofdvenster, toont twee contacten en een gesprek"
 msgid "Welcome screen with registration"
 msgstr "Welkomstscherm met registratie"
 
-msgid "Adding contacts on a distance"
+msgid "Adding contacts at a distance"
 msgstr "Contact toevoegen op afstand"
 
 msgid "Main window with two contacts and about dialog"
@@ -72,7 +72,7 @@ msgstr "Briar core geupdate naar versie 1.2.9"
 msgid "Lots of software tests"
 msgstr "Heel veel software testen"
 
-msgid "The very first alpha release of Briar GTK. It allows to add contacts on a distance and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
+msgid "The very first alpha release of Briar GTK. It allows adding contacts at a distance and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "De eerste alpha versie van Briar GTK. Het ondersteunt contacten op afstand toevoegen en berichten in privéchats. Andere functies als groepen, forums en blogs worden nog geïmplementeerd"
 
 msgid "A Briar client for GTK desktop and mobile devices"

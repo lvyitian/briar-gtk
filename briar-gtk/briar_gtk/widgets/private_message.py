@@ -6,9 +6,10 @@
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
 from datetime import datetime
-from gettext import pgettext as _t
 
 from gi.repository import Gtk
+
+from briar_gtk.utils import pgettext as _t
 
 
 class PrivateMessageWidget(Gtk.ListBoxRow):

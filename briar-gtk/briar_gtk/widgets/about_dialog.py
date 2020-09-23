@@ -4,11 +4,10 @@
 
 import os
 
-from gettext import pgettext as _t
-
 from gi.repository import Gtk
 
 from briar_gtk.define import APP, RESOURCES_DIR
+from briar_gtk.utils import pgettext as _t
 
 
 class AboutDialogWidget():

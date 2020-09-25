@@ -16,6 +16,9 @@ APPLICATION_NAME = "Briar"
 RESOURCES_DIR = os.path.join("/app", "briar", "gtk")
 APPLICATION_STYLING_PATH = "resource:///app/briar/gtk/application.css"
 
+NOTIFICATION_CONTACT_ADDED = "briar-gtk-contact-added"
+NOTIFICATION_PRIVATE_MESSAGE = "briar-gtk-private-message"
+
 APP = Gio.Application.get_default
 
 

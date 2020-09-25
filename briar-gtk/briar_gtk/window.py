@@ -10,6 +10,8 @@ from briar_gtk.containers.add_contact import AddContactContainer
 from briar_gtk.containers.main_window import MainWindowContainer
 from briar_gtk.containers.startup import StartupContainer
 from briar_gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
+from briar_gtk.define import NOTIFICATION_CONTACT_ADDED
+from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
 
 
 class Window(Gtk.ApplicationWindow):
@@ -72,8 +74,10 @@ class Window(Gtk.ApplicationWindow):
         self.connect("focus-out-event", self._on_focus_change)
 
     # pylint: disable=unused-argument
-    def _on_focus_change(self, widget, event):
-        self.set_urgency_hint(False)
+    @staticmethod
+    def _on_focus_change(widget, event):
+        APP().withdraw_notification(NOTIFICATION_CONTACT_ADDED)
+        APP().withdraw_notification(NOTIFICATION_PRIVATE_MESSAGE)
 
     def _resize_window(self, size):
         if not Window._size_is_valid(size):

@@ -6,13 +6,15 @@
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
 from gettext import gettext as _
-from gi.repository import GLib, Gtk
+from gettext import pgettext as _t
+from gi.repository import Gio, GLib, Gtk
 
 from briar_wrapper.models.contacts import Contacts
 
 from briar_gtk.container import Container
 from briar_gtk.containers.private_chat import PrivateChatContainer
-from briar_gtk.define import APP
+from briar_gtk.define import APP, NOTIFICATION_CONTACT_ADDED
+from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
 from briar_gtk.widgets.about_dialog import AboutDialogWidget
 from briar_gtk.widgets.contact_row import ContactRowWidget
 
@@ -259,15 +261,25 @@ class MainWindowContainer(Container):
 
     # pylint: disable=unused-argument
     def _notify_contact_added(self, message):
-        self._notify()
+        self._notify(
+            _t("Notification", "Contact added"),
+            NOTIFICATION_CONTACT_ADDED
+        )
 
     # pylint: disable=unused-argument
     def _notify_message_received(self, message):
-        self._notify()
+        self._notify(
+            _t("Notification", "New private message"),
+            NOTIFICATION_PRIVATE_MESSAGE
+        )
 
     @staticmethod
-    def _notify():
-        APP().window.set_urgency_hint(True)
+    def _notify(title, identifier):
+        if APP().window.is_active():
+            return
+        notification = Gio.Notification.new(title)
+        notification.set_priority(Gio.NotificationPriority.HIGH)
+        APP().send_notification(identifier, notification)
 
     def _refresh_contacts(self):
         self._save_selected_row()

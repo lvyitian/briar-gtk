@@ -1,12 +1,11 @@
-Translations for this project are managed through Transifex:
+Translation of Briar GTK is provided by the Localization Lab. To make
+Briar GTK available in your language, please visit
+https://www.transifex.com/otf/briar/ and ask to join one of the LocLab’s
+language teams. You’ll then be able to contribute on
+https://www.transifex.com/otf/briar/briar-gtk-pot/.
 
-https://transifex.com/otf/briar
-
-If you'd like to volunteer as a translator, please create a Transifex account and request to be
-added to the project's translation team. The Localization Lab has some instructions and advice for
-translators here:
-
-https://wiki.localizationlab.org/index.php/Briar
+The Localization Lab has some instructions and advice for
+translators at https://wiki.localizationlab.org/index.php/Briar.
 
 #### Updating translations in Briar GTK
 
@@ -21,4 +20,12 @@ This is how updating translations in Briar GTK works:
 * We pull the updates from Transifex and commit them before each release
 * Occasionally we make minor updates locally and push them to Transifex
 
-It's recommened not to edit translations locally in Git as Transifex uses a quite simple algorithm that doesn't support this use case. You might want to make your changes through Transifex instead, by joining the respective language teams.
+Translations only happen on Transifex. You might want to make your changes through Transifex by joining the respective language teams.
+
+To test Briar GTK in your language, add the following entry to the
+_finish-args_ list in _app.briar.gtk.json_ when building Briar GTK with
+flatpak-builder:
+
+```
+--env=LC_ALL=de_DE.utf8
+```

@@ -155,19 +155,9 @@ And install the .deb like this:
 sudo dpkg -i ../briar-gtk_0.1.0-beta1-1_all.deb
 ```
 
-## Internationalization
+## Translations
 
-Feel free to add translations to Briar GTK by opening a merge request with
-updates to the language file of your choice in _briar_gtk/po_. Make sure
-to add your name to the _translator_credits_ list in
-_briar-gtk/data/ui/about_dialog.ui.in_.
-
-To test Briar GTK in your language, add the following entry to the
-_finish-args_ list in _app.briar.gtk.json_:
-
-```
---env=LC_ALL=de_DE.utf8
-```
+See [TRANSLATION.md](./TRANSLATION.md) for more information.
 
 ## Maintenance
 

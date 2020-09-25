@@ -13,6 +13,9 @@ _This section is of interest only for developers of Briar GTK_.
 
 To update translations locally, first install `transifex-client`. You can then pull updates with `tx pull -a`.
 
+The Localization Lab has some instructions and advice for
+developers, too, at https://www.localizationlab.org/roles-guidelines#developer.
+
 This is how updating translations in Briar GTK works:
 
 * Transifex periodically fetches the source file from code.briarproject.org

@@ -6,7 +6,6 @@
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
 from gettext import gettext as _
-from gettext import pgettext as _t
 from gi.repository import Gio, GLib, Gtk
 
 from briar_wrapper.models.contacts import Contacts
@@ -15,6 +14,7 @@ from briar_gtk.container import Container
 from briar_gtk.containers.private_chat import PrivateChatContainer
 from briar_gtk.define import APP, NOTIFICATION_CONTACT_ADDED
 from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
+from briar_gtk.utils import pgettext as _t
 from briar_gtk.widgets.about_dialog import AboutDialogWidget
 from briar_gtk.widgets.contact_row import ContactRowWidget
 

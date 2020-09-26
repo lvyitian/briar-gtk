@@ -43,6 +43,66 @@ msgstr ""
 msgid "Improvements in this version:"
 msgstr ""
 
+msgid "Improved notification support"
+msgstr ""
+
+msgid "Showing number of unread messages in contact list"
+msgstr ""
+
+msgid "Support for changing contacts' names"
+msgstr ""
+
+msgid "Support for deleting all messages of a chat"
+msgstr ""
+
+msgid "Indication of messages' delivery states"
+msgstr ""
+
+msgid "Migration to briar_wrapper 0.0.5"
+msgstr ""
+
+msgid "Many more minor improvements"
+msgstr ""
+
+msgid "Translations into many languages:"
+msgstr ""
+
+msgid "Albanian"
+msgstr ""
+
+msgid "Catalan"
+msgstr ""
+
+msgid "Chinese Simplified"
+msgstr ""
+
+msgid "Esperanto"
+msgstr ""
+
+msgid "Dutch"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "Galician"
+msgstr ""
+
+msgid "Icelandic"
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Lithuanian"
+msgstr ""
+
+msgid "Persian"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
 msgid "Basic notification support"
 msgstr ""
 
@@ -59,9 +119,6 @@ msgid "Migration to libhandy 1.0"
 msgstr ""
 
 msgid "Migration to briar_wrapper 0.0.4"
-msgstr ""
-
-msgid "Many more minor improvements"
 msgstr ""
 
 msgid "Show online status of contacts in contact list (#19)"
@@ -217,6 +274,14 @@ msgid "Confirm Contact Deletion"
 msgstr ""
 
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+msgstr ""
+
+msgctxt "Notification"
+msgid "Contact added"
+msgstr ""
+
+msgctxt "Notification"
+msgid "New private message"
 msgstr ""
 
 msgid "Please enter a password"

@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Jordi Mas <jmas@softcatala.org>, 2020
 # Bartges90, 2020
@@ -10,7 +10,7 @@
 # Joan Bitlloch <joanbit@gmail.com>, 2020
 # Sebas Vila <svilamarta@gmail.com>, 2020
 # Jaime Muñoz Martín <jmmartin_5@outlook.com>, 2020
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -19,10 +19,10 @@ msgstr ""
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
 "Last-Translator: Jaime Muñoz Martín <jmmartin_5@outlook.com>, 2020\n"
 "Language-Team: Catalan (https://www.transifex.com/otf/teams/76528/ca/)\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Briar"
@@ -31,25 +31,8 @@ msgstr "Briar"
 msgid "Secure messaging, anywhere"
 msgstr ""
 
-msgid ""
-"Briar is a messaging app designed for activists, journalists, and anyone "
-"else who needs a safe, easy and robust way to communicate. Unlike "
-"traditional messaging apps, Briar doesn't rely on a central server - "
-"messages are synchronized directly between the users' devices. If the "
-"internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the "
-"information flowing in a crisis. If the internet's up, Briar can sync via "
-"the Tor network, protecting users and their relationships from surveillance."
-msgstr ""
-"El Briar és una aplicació de missatgeria dissenyada per a activistes, "
-"periodistes i qualsevol persona en general que necessiti una manera segura, "
-"fàcil i robsuta de comunicar-se. Al contrari que les aplicacions "
-"tradicionals, el Briar no depèn d'un servidor central: els missatges se "
-"sincronitzen directament entre els dispositius dels usuaris. Si Internet "
-"cau, el Briar pot continuar funcionant mitjançant Bluetooth o Wi-Fi, "
-"mantenint el flux fins i tot amb aquesta situació caòtica. Amb un "
-"funcionament normal d'Internet, el Briar es pot sincronitzar a través de la "
-"xarxa Tor, protegint els usuaris i les seves comunicacions d'ulls "
-"indiscrets."
+msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
+msgstr "El Briar és una aplicació de missatgeria dissenyada per a activistes, periodistes i qualsevol persona en general que necessiti una manera segura, fàcil i robsuta de comunicar-se. Al contrari que les aplicacions tradicionals, el Briar no depèn d'un servidor central: els missatges se sincronitzen directament entre els dispositius dels usuaris. Si Internet cau, el Briar pot continuar funcionant mitjançant Bluetooth o Wi-Fi, mantenint el flux fins i tot amb aquesta situació caòtica. Amb un funcionament normal d'Internet, el Briar es pot sincronitzar a través de la xarxa Tor, protegint els usuaris i les seves comunicacions d'ulls indiscrets."
 
 msgid "The Briar Project"
 msgstr "El Projecte Briar"
@@ -69,6 +52,66 @@ msgstr ""
 msgid "Improvements in this version:"
 msgstr "Millores d'aquesta versió:"
 
+msgid "Improved notification support"
+msgstr ""
+
+msgid "Showing number of unread messages in contact list"
+msgstr ""
+
+msgid "Support for changing contacts' names"
+msgstr ""
+
+msgid "Support for deleting all messages of a chat"
+msgstr ""
+
+msgid "Indication of messages' delivery states"
+msgstr ""
+
+msgid "Migration to briar_wrapper 0.0.5"
+msgstr ""
+
+msgid "Many more minor improvements"
+msgstr "Moltíssimes millores de menor importància"
+
+msgid "Translations into many languages:"
+msgstr ""
+
+msgid "Albanian"
+msgstr ""
+
+msgid "Catalan"
+msgstr ""
+
+msgid "Chinese Simplified"
+msgstr ""
+
+msgid "Esperanto"
+msgstr ""
+
+msgid "Dutch"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "Galician"
+msgstr ""
+
+msgid "Icelandic"
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Lithuanian"
+msgstr ""
+
+msgid "Persian"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
 msgid "Basic notification support"
 msgstr "Suport bàsic de notificacions"
 
@@ -86,9 +129,6 @@ msgstr "Migració a libhandy 1.0"
 
 msgid "Migration to briar_wrapper 0.0.4"
 msgstr "Migració a briar_wrapper 0.0.4"
-
-msgid "Many more minor improvements"
-msgstr "Moltíssimes millores de menor importància"
 
 msgid "Show online status of contacts in contact list (#19)"
 msgstr "Mostra l'estat en línia al llistat de contactes (#19)"
@@ -108,10 +148,7 @@ msgstr ""
 msgid "Lots of software tests"
 msgstr ""
 
-msgid ""
-"The very first alpha release of Briar GTK. It allows adding contacts "
-"remotely and chatting with them in private chats. Other functions like "
-"groups, forums and blogs are to be implemented."
+msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
 msgctxt "Used in about dialog"
@@ -126,9 +163,7 @@ msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
 
-msgctxt ""
-"Used in about dialog; replace Nico with yourself to get credited in your "
-"translation; multiple persons can be added by adding new lines"
+msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
 msgid "Nico Alt"
 msgstr ""
 
@@ -234,29 +269,29 @@ msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
 msgstr ""
 
-msgctxt ""
-"Used in message history to indicate that message isby the user itself, not "
-"by its contact"
+msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
 msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr ""
 
-msgid ""
-"Once you close Briar, you'll no longer receive messages nor send pending "
-"ones. Keep Briar open to stay connected with your contacts."
+msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr ""
 
 msgid "Confirm Contact Deletion"
 msgstr "Confirmeu la supressió del contacte"
 
-msgid ""
-"Are you sure that you want to remove this contact and all messages exchanged"
-" with this contact?"
+msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+msgstr "Segur que voleu suprimir aquest contacte i tots els missatges que us heu intercanviat?"
+
+msgctxt "Notification"
+msgid "Contact added"
 msgstr ""
-"Segur que voleu suprimir aquest contacte i tots els missatges que us heu "
-"intercanviat?"
+
+msgctxt "Notification"
+msgid "New private message"
+msgstr ""
 
 msgid "Please enter a password"
 msgstr ""

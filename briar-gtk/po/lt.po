@@ -2,11 +2,11 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # erinm, 2020
 # Moo, 2020
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
 "Last-Translator: Moo, 2020\n"
 "Language-Team: Lithuanian (https://www.transifex.com/otf/teams/76528/lt/)\n"
+"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lt\n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 msgid "Briar"
@@ -27,23 +27,8 @@ msgstr "Briar"
 msgid "Secure messaging, anywhere"
 msgstr "Saugus susirašinėjimas, bet kur"
 
-msgid ""
-"Briar is a messaging app designed for activists, journalists, and anyone "
-"else who needs a safe, easy and robust way to communicate. Unlike "
-"traditional messaging apps, Briar doesn't rely on a central server - "
-"messages are synchronized directly between the users' devices. If the "
-"internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the "
-"information flowing in a crisis. If the internet's up, Briar can sync via "
-"the Tor network, protecting users and their relationships from surveillance."
-msgstr ""
-"Briar yra žinučių perdavimo programėlė, skirta aktyvistams, žurnalistams ir "
-"visiems kitiems, kam reikia saugaus, lengvo ir veiksmingo bendravimo būdo. "
-"Kitaip nei kitos tradicinės žinučių perdavimo programėlės, Briar "
-"nepasikliauja centriniu serveriu - žinutės yra sinchronizuojamos tiesiogiai "
-"tarp naudotojų įrenginių. Jei nėra interneto, Briar gali sinchronizuotis per"
-" Bluetooth ar belaidį ryšį (Wi-Fi), kad palaikytų informacijos perdavimą "
-"kriziniais atvejais. Jei internetas veikia, Briar gali sinchronizuotis per "
-"Tor tinklą, apsaugodama naudotojus ir jų tarpusavio ryšius nuo stebėjimo."
+msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
+msgstr "Briar yra žinučių perdavimo programėlė, skirta aktyvistams, žurnalistams ir visiems kitiems, kam reikia saugaus, lengvo ir veiksmingo bendravimo būdo. Kitaip nei kitos tradicinės žinučių perdavimo programėlės, Briar nepasikliauja centriniu serveriu - žinutės yra sinchronizuojamos tiesiogiai tarp naudotojų įrenginių. Jei nėra interneto, Briar gali sinchronizuotis per Bluetooth ar belaidį ryšį (Wi-Fi), kad palaikytų informacijos perdavimą kriziniais atvejais. Jei internetas veikia, Briar gali sinchronizuotis per Tor tinklą, apsaugodama naudotojus ir jų tarpusavio ryšius nuo stebėjimo."
 
 msgid "The Briar Project"
 msgstr "Briar projektas"
@@ -55,20 +40,79 @@ msgid "Welcome screen with registration"
 msgstr "Pradžios langas su registracija"
 
 msgid "Adding contacts at a distance"
-msgstr ""
+msgstr "Adresatų pridėjimas per atstumą"
 
 msgid "Main window with two contacts and about dialog"
-msgstr ""
-"Pagrindinis langas su dviem adresatais ir dialogu su programos informacija"
+msgstr "Pagrindinis langas su dviem adresatais ir dialogu su programos informacija"
 
 msgid "Improvements in this version:"
 msgstr "Šioje versijoje pristatyti patobulinimai:"
+
+msgid "Improved notification support"
+msgstr ""
+
+msgid "Showing number of unread messages in contact list"
+msgstr ""
+
+msgid "Support for changing contacts' names"
+msgstr ""
+
+msgid "Support for deleting all messages of a chat"
+msgstr ""
+
+msgid "Indication of messages' delivery states"
+msgstr ""
+
+msgid "Migration to briar_wrapper 0.0.5"
+msgstr ""
+
+msgid "Many more minor improvements"
+msgstr "Daugybė smulkių patobulinimų"
+
+msgid "Translations into many languages:"
+msgstr ""
+
+msgid "Albanian"
+msgstr ""
+
+msgid "Catalan"
+msgstr ""
+
+msgid "Chinese Simplified"
+msgstr ""
+
+msgid "Esperanto"
+msgstr ""
+
+msgid "Dutch"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "Galician"
+msgstr ""
+
+msgid "Icelandic"
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Lithuanian"
+msgstr ""
+
+msgid "Persian"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
 
 msgid "Basic notification support"
 msgstr "Bazinis pranešimų palaikymas"
 
 msgid "Support for contact deletion"
-msgstr ""
+msgstr "Adresatų ištrynimo palaikymas"
 
 msgid "Hugely improved chat UI"
 msgstr "Žymiai pagerinta pokalbio naudotojo sąsąja"
@@ -82,9 +126,6 @@ msgstr "Perkėlimas į libhandy 1.0"
 msgid "Migration to briar_wrapper 0.0.4"
 msgstr "Perkėlimas į briar_wrapper 0.0.4"
 
-msgid "Many more minor improvements"
-msgstr "Daugybė smulkių patobulinimų"
-
 msgid "Show online status of contacts in contact list (#19)"
 msgstr "Rodyti adresatų sąraše esančių adresatų prisijungimo būseną (#19)"
 
@@ -95,8 +136,7 @@ msgid "Fix bug with Briar messages not having text (#56)"
 msgstr "Pataisyti klaidą, kuomet Briar žinutėse nėra teksto (#56)"
 
 msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr ""
-"Pataisyti klaidą, kuomet privačiose žinutėse nerodomas adresato vardas (#55)"
+msgstr "Pataisyti klaidą, kuomet privačiose žinutėse nerodomas adresato vardas (#55)"
 
 msgid "Update Briar core to version 1.2.9"
 msgstr "Atnaujinti Briar branduolį iki versijos 1.2.9"
@@ -104,30 +144,24 @@ msgstr "Atnaujinti Briar branduolį iki versijos 1.2.9"
 msgid "Lots of software tests"
 msgstr "Daug programinės įrangos testavimų"
 
-msgid ""
-"The very first alpha release of Briar GTK. It allows adding contacts "
-"remotely and chatting with them in private chats. Other functions like "
-"groups, forums and blogs are to be implemented."
-msgstr ""
+msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
+msgstr "Pati pirmoji Briar GTK alfa laida. Ji leidžia jums pridėti adresatus per atstumą bei bendrauti su jais privačiuose pokalbiuose. Kitos funkcijos, tokios kaip grupės, forumai ir tinklaraščiai, dar bus įgyvendintos."
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+msgstr "Autorių teisės © 2019-2020 Briar projektas"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
-"Briar kliento programa, skirta darbalaukio ir mobiliesiems įrenginiams"
+msgstr "Briar kliento programa, skirta darbalaukio ir mobiliesiems įrenginiams"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Apsilankyti Briar GTK internetinėje svetainėje"
 
-msgctxt ""
-"Used in about dialog; replace Nico with yourself to get credited in your "
-"translation; multiple persons can be added by adding new lines"
+msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
 msgid "Nico Alt"
-msgstr ""
+msgstr "Nico Alt"
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
@@ -231,29 +265,29 @@ msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
 msgstr "Briar funkcionalumas pagal"
 
-msgctxt ""
-"Used in message history to indicate that message isby the user itself, not "
-"by its contact"
+msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
 msgstr "Aš"
 
 msgid "Are you sure you want to exit?"
 msgstr "Ar tikrai norite išeiti?"
 
-msgid ""
-"Once you close Briar, you'll no longer receive messages nor send pending "
-"ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
+msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+msgstr "Užvėrę Briar, nebegalėsite gauti ar siųsti laukiančių žinučių. Palikite Briar atvertą, kad palaikytumėte ryšį su savo adresatais."
 
 msgid "Confirm Contact Deletion"
 msgstr "Patvirtinkite adresato ištrynimą"
 
-msgid ""
-"Are you sure that you want to remove this contact and all messages exchanged"
-" with this contact?"
+msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+msgstr "Ar tikrai norite pašalinti šį adresatą ir visas žinutes, kuriomis apsikeitėte su šiuo adresatu ?"
+
+msgctxt "Notification"
+msgid "Contact added"
 msgstr ""
-"Ar tikrai norite pašalinti šį adresatą ir visas žinutes, kuriomis "
-"apsikeitėte su šiuo adresatu ?"
+
+msgctxt "Notification"
+msgid "New private message"
+msgstr ""
 
 msgid "Please enter a password"
 msgstr "Įveskite slaptažodį"

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="11.353847"
+   height="11.825744"
+   viewBox="0 0 11.353847 11.825744"
+   version="1.1"
+   id="svg3827"
+   sodipodi:docname="iconmonstr-pencil-14.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata3833">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3831" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     id="namedview3829"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="17.99977"
+     inkscape:cy="-10.429091"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3827" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3825"
+     style="opacity:0.7;stroke-width:0.58071089"
+     d="M 8.1487513,0.11046972 1.715413,6.7170567 4.9757321,10.066326 11.41019,3.4608875 Z M 0.90509002,7.5492017 0.08133618,11.744408 4.1654091,10.89847 Z" />
+</svg>

@@ -5,10 +5,11 @@
 #
 # Translators:
 # erinm, 2020
-# benewfy <benewfy@gmail.com>, 2020
 # Henrik Bayer <henrik.bayer@protonmail.com>, 2020
 # David Webb, 2020
 # vargaviktor <viktor.varga@gmail.com>, 2020
+# AdminLMH <lehetmashogy@i2pmail.org>, 2020
+# benewfy <benewfy@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: vargaviktor <viktor.varga@gmail.com>, 2020\n"
+"Last-Translator: benewfy <benewfy@gmail.com>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/otf/teams/76528/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -81,17 +82,17 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
 msgstr ""
 
 msgid "Dutch"
-msgstr ""
+msgstr "Holland"
 
 msgid "French"
-msgstr ""
+msgstr "Francia"
 
 msgid "Galician"
 msgstr ""
@@ -100,7 +101,7 @@ msgid "Icelandic"
 msgstr ""
 
 msgid "Italian"
-msgstr ""
+msgstr "Olasz"
 
 msgid "Lithuanian"
 msgstr ""
@@ -109,6 +110,9 @@ msgid "Persian"
 msgstr ""
 
 msgid "Russian"
+msgstr "Orosz"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

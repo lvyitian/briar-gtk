@@ -6,8 +6,9 @@
 # Translators:
 # erinm, 2020
 # Hanna Bublyk, 2020
-# Андрій Бандура <andriykopanytsia@gmail.com>, 2020
 # Mykola Kostynyan <bezlimitchyk@yahoo.com>, 2020
+# Андрій Бандура <andriykopanytsia@gmail.com>, 2020
+# Любомир <n.lyubomyr@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Mykola Kostynyan <bezlimitchyk@yahoo.com>, 2020\n"
+"Last-Translator: Любомир <n.lyubomyr@gmail.com>, 2020\n"
 "Language-Team: Ukrainian (https://www.transifex.com/otf/teams/76528/uk/)\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -80,17 +81,17 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Есперанто"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Голландська"
 
 msgid "French"
-msgstr ""
+msgstr "Французька"
 
 msgid "Galician"
 msgstr ""
@@ -99,15 +100,18 @@ msgid "Icelandic"
 msgstr ""
 
 msgid "Italian"
-msgstr ""
+msgstr "Італійська"
 
 msgid "Lithuanian"
 msgstr ""
 
 msgid "Persian"
-msgstr ""
+msgstr "Перська"
 
 msgid "Russian"
+msgstr "Російська"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

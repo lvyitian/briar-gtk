@@ -12,6 +12,9 @@
 # Đorđe Marušić <djordje@hzontal.org>, 2020
 # Stanislav <mineinfo80@gmail.com>, 2020
 # Andrey, 2020
+# Martus Translations <translations@martus.org>, 2020
+# erinm, 2020
+# Imran Aliyev <mr.imranaliyev@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -19,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Andrey, 2020\n"
+"Last-Translator: Imran Aliyev <mr.imranaliyev@gmail.com>, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/76528/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -79,22 +82,22 @@ msgid "Translations into many languages:"
 msgstr ""
 
 msgid "Albanian"
-msgstr ""
+msgstr "Албанский"
 
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Эсперанто"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Голландский"
 
 msgid "French"
-msgstr ""
+msgstr "Французский"
 
 msgid "Galician"
 msgstr ""
@@ -103,15 +106,18 @@ msgid "Icelandic"
 msgstr ""
 
 msgid "Italian"
-msgstr ""
+msgstr "Итальянский"
 
 msgid "Lithuanian"
 msgstr ""
 
 msgid "Persian"
-msgstr ""
+msgstr "Персидский"
 
 msgid "Russian"
+msgstr "Русский"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

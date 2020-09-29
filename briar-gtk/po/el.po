@@ -6,10 +6,11 @@
 # Translators:
 # erinm, 2020
 # Christos Koulaxizis, 2020
-# LaScapigliata <ditri2000@hotmail.com>, 2020
-# Elektra M. <safiragon@yahoo.gr>, 2020
 # Adrian Pappas <pappasadrian@gmail.com>, 2020
 # Alexandros Melidis <almel01@gmail.com>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+# LaScapigliata <ditri2000@hotmail.com>, 2020
+# Elektra M. <safiragon@yahoo.gr>, 2020
 #
 #, fuzzy
 msgid ""
@@ -17,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Alexandros Melidis <almel01@gmail.com>, 2020\n"
+"Last-Translator: Elektra M. <safiragon@yahoo.gr>, 2020\n"
 "Language-Team: Greek (https://www.transifex.com/otf/teams/76528/el/)\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -77,22 +78,22 @@ msgid "Translations into many languages:"
 msgstr ""
 
 msgid "Albanian"
-msgstr ""
+msgstr "Αλβανικά"
 
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Εσπεράντο"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Ολλανδικά"
 
 msgid "French"
-msgstr ""
+msgstr "Γαλλικά"
 
 msgid "Galician"
 msgstr ""
@@ -101,15 +102,18 @@ msgid "Icelandic"
 msgstr ""
 
 msgid "Italian"
-msgstr ""
+msgstr "Ιταλικά"
 
 msgid "Lithuanian"
 msgstr ""
 
 msgid "Persian"
-msgstr ""
+msgstr "Περσικά"
 
 msgid "Russian"
+msgstr "Ρώσικα"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

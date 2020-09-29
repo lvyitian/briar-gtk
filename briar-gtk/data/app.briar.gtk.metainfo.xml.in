@@ -83,16 +83,17 @@
         <ul>
           <li>Albanian</li>
           <li>Catalan</li>
-          <li>Chinese Simplified</li>
+          <li>Chinese (Simplified)</li>
           <li>Esperanto</li>
           <li>Dutch</li>
-	  <li>French</li>
+          <li>French</li>
           <li>Galician</li>
           <li>Icelandic</li>
           <li>Italian</li>
           <li>Lithuanian</li>
           <li>Persian</li>
           <li>Russian</li>
+          <li>Thai</li>
         </ul>
       </description>
       <url>https://code.briarproject.org/briar/briar-gtk/-/tags/0.1.0-beta2</url>

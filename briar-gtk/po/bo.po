@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# erinm, 2020
 # Florencia Herra Vega <flohdot@gmail.com>, 2020
+# erinm, 2020
 #
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Florencia Herra Vega <flohdot@gmail.com>, 2020\n"
+"Last-Translator: erinm, 2020\n"
 "Language-Team: Tibetan (https://www.transifex.com/otf/teams/76528/bo/)\n"
 "Language: bo\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
@@ -88,7 +88,7 @@ msgid "Dutch"
 msgstr ""
 
 msgid "French"
-msgstr ""
+msgstr "ཕ་རན་སི།"
 
 msgid "Galician"
 msgstr ""
@@ -103,9 +103,12 @@ msgid "Lithuanian"
 msgstr ""
 
 msgid "Persian"
-msgstr ""
+msgstr "པར་ཤི་ཡ།"
 
 msgid "Russian"
+msgstr "ཨུ་རུ་སུ།"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

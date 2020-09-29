@@ -5,7 +5,6 @@
 #
 # Translators:
 # erinm, 2020
-# Marcin Januchta <marcin.januchta@gmail.com>, 2020
 # Florencia Herra Vega <flohdot@gmail.com>, 2020
 # Łukasz Zmysło <sylwaker@gmail.com>, 2020
 # Marta Marczykowska-Górecka <marta.maria.gorecka@gmail.com>, 2020
@@ -13,6 +12,9 @@
 # AreYouLoco? <areyouloco@paranoici.org>, 2020
 # Dawid Potocki <dpot@disroot.org>, 2020
 # Sylwester Sochar <dark_raven@wp.pl>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+# Marcin Januchta <marcin.januchta@gmail.com>, 2020
+# Verdulo :-), 2020
 #
 #, fuzzy
 msgid ""
@@ -20,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Sylwester Sochar <dark_raven@wp.pl>, 2020\n"
+"Last-Translator: Verdulo :-), 2020\n"
 "Language-Team: Polish (https://www.transifex.com/otf/teams/76528/pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -85,26 +87,26 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Nederlandzki"
 
 msgid "French"
-msgstr ""
+msgstr "Francuski"
 
 msgid "Galician"
-msgstr ""
+msgstr "Galicyjski"
 
 msgid "Icelandic"
 msgstr ""
 
 msgid "Italian"
-msgstr ""
+msgstr "Włoski"
 
 msgid "Lithuanian"
 msgstr ""
@@ -113,6 +115,9 @@ msgid "Persian"
 msgstr ""
 
 msgid "Russian"
+msgstr "Rosyjski"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

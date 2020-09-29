@@ -82,7 +82,7 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
@@ -110,6 +110,9 @@ msgid "Persian"
 msgstr ""
 
 msgid "Russian"
+msgstr ""
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

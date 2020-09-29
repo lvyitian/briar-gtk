@@ -7,12 +7,14 @@
 # 1ed4e60ee66958c827a8962eeb50f715_b700974, 2020
 # erinm, 2020
 # Florencia Herra Vega <flohdot@gmail.com>, 2020
-# Ettore Atalan <atalanttore@googlemail.com>, 2020
 # akwizgran <michael@briarproject.org>, 2020
 # n3niu, 2020
 # Eike Fulda <e50389.fulda@gmx.de>, 2020
-# Nico Alt, 2020
 # nautilusx, 2020
+# Ettore Atalan <atalanttore@googlemail.com>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+# Lars Schimmer <echelon@i2pmail.org>, 2020
+# Nico Alt, 2020
 #
 #, fuzzy
 msgid ""
@@ -20,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: nautilusx, 2020\n"
+"Last-Translator: Nico Alt, 2020\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/76528/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -50,73 +52,76 @@ msgid "Adding contacts at a distance"
 msgstr "Kontakt in der Ferne hinzufügen"
 
 msgid "Main window with two contacts and about dialog"
-msgstr "Hauptfenster mit zwei Kontakten und dem \"Über\" Dialog"
+msgstr "Hauptfenster mit zwei Kontakten und dem \"Über\"-Dialog"
 
 msgid "Improvements in this version:"
 msgstr "Verbesserungen in dieser Version:"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "Verbesserte Unterstützung für Benachrichtigungen"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "Anzeige der Zahl ungelesener Nachrichten in der Kontaktliste"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "Unterstützung für das Ändern von Kontaktnamen"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "Unterstützung für das Löschen aller Nachrichten eines Chats"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "Anzeige des Nachrichtenstatus in Chats"
 
 msgid "Migration to briar_wrapper 0.0.5"
-msgstr ""
+msgstr "Migration zu briar_wrapper 0.0.5"
 
 msgid "Many more minor improvements"
 msgstr "Viele weitere kleine Verbesserungen"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Übersetzung in viele Sprachen:"
 
 msgid "Albanian"
-msgstr ""
+msgstr "Albanisch"
 
 msgid "Catalan"
-msgstr ""
+msgstr "Katalanisch"
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Niederländisch"
 
 msgid "French"
-msgstr ""
+msgstr "Französisch"
 
 msgid "Galician"
-msgstr ""
+msgstr "Galizisch"
 
 msgid "Icelandic"
-msgstr ""
+msgstr "Isländisch"
 
 msgid "Italian"
-msgstr ""
+msgstr "Italienisch"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litauisch"
 
 msgid "Persian"
-msgstr ""
+msgstr "Persisch"
 
 msgid "Russian"
+msgstr "Russisch"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"
-msgstr "Grundlegende Unterstützung für Benachrichtigung"
+msgstr "Grundlegende Unterstützung für Benachrichtigungen"
 
 msgid "Support for contact deletion"
 msgstr "Unterstützung für das Löschen von Kontakten"
@@ -140,7 +145,7 @@ msgid "Support copying content in messages (#51)"
 msgstr "Unterstützung für das Kopieren von Nachrichteninhalten (#51)"
 
 msgid "Fix bug with Briar messages not having text (#56)"
-msgstr "Fehler behoben, dass Briar Nachrichten keinen Text haben (#56)"
+msgstr "Fehler behoben, dass Briar-Nachrichten keinen Text haben (#56)"
 
 msgid "Fix bug with contact's name not showing in private messages (#55)"
 msgstr "Fehler behoben, durch den der Name eines Kontakts in privaten Nachrichten nicht angezeigt wurde (#55)"
@@ -290,11 +295,11 @@ msgstr "Bist du sicher, dass du diesen Kontakt und alle dazugehörigen Nachricht
 
 msgctxt "Notification"
 msgid "Contact added"
-msgstr ""
+msgstr "Kontakt hinzugefügt"
 
 msgctxt "Notification"
 msgid "New private message"
-msgstr ""
+msgstr "Neue private Nachricht"
 
 msgid "Please enter a password"
 msgstr "Bitte gib ein Passwort ein"
@@ -316,3 +321,6 @@ msgstr "Bitte gib einen Link ein"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Chinesisch (Vereinfacht)"

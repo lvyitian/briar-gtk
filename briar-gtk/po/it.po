@@ -7,8 +7,11 @@
 # erinm, 2020
 # Riccardo, 2020
 # HostFat <hostfat@gmail.com>, 2020
-# SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020
 # Random_R, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+# c6497ab8ee8a3906bb861267dec9a84b_bc40ce0 <0329ec65fa3a66db7a8a2a698d66d850_156421>, 2020
+# Giuseppe Pignataro <rogepix@gmail.com>, 2020
+# SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Random_R, 2020\n"
+"Last-Translator: SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/otf/teams/76528/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -76,39 +79,42 @@ msgid "Translations into many languages:"
 msgstr ""
 
 msgid "Albanian"
-msgstr ""
+msgstr "Albanese"
 
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Olandese"
 
 msgid "French"
-msgstr ""
+msgstr "Francese"
 
 msgid "Galician"
-msgstr ""
+msgstr "Gallego"
 
 msgid "Icelandic"
 msgstr ""
 
 msgid "Italian"
-msgstr ""
+msgstr "Italiano"
 
 msgid "Lithuanian"
 msgstr ""
 
 msgid "Persian"
-msgstr ""
+msgstr "Persiano"
 
 msgid "Russian"
+msgstr "Russo"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

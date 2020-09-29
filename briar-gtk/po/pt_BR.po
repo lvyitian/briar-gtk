@@ -4,11 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Evandro <evandro.92@hotmail.com>, 2020
 # Martus Translations <translations@martus.org>, 2020
 # Eduardo Bonsi, 2020
-# Joeffison Silvério de Andrade <joeffison@gmail.com>, 2020
-# 0ed9961fdd2c469a85d0f0ef7ce7865b, 2020
 # Vitoria Vernalha <vernalhavitoria@gmail.com>, 2020
 # jose, 2020
 # Đorđe Marušić <djordje@hzontal.org>, 2020
@@ -17,6 +14,10 @@
 # Caio Volpato <caio.volpato@riseup.net>, 2020
 # André Almeida <andrefalmeida@protonmail.com>, 2020
 # Adrian . <tekohax@disroot.org>, 2020
+# Evandro <evandro.92@hotmail.com>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+# Joeffison Silvério de Andrade <joeffison@gmail.com>, 2020
+# 0ed9961fdd2c469a85d0f0ef7ce7865b, 2020
 #
 #, fuzzy
 msgid ""
@@ -24,7 +25,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Adrian . <tekohax@disroot.org>, 2020\n"
+"Last-Translator: 0ed9961fdd2c469a85d0f0ef7ce7865b, 2020\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/otf/teams/76528/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -89,17 +90,17 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Holandês"
 
 msgid "French"
-msgstr ""
+msgstr "Francês"
 
 msgid "Galician"
 msgstr ""
@@ -108,15 +109,18 @@ msgid "Icelandic"
 msgstr ""
 
 msgid "Italian"
-msgstr ""
+msgstr "Italiano"
 
 msgid "Lithuanian"
 msgstr ""
 
 msgid "Persian"
-msgstr ""
+msgstr "Persa"
 
 msgid "Russian"
+msgstr "Russo"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"
@@ -294,7 +298,7 @@ msgstr "Você tem certeza que quer remover este contato e todas mensagens trocad
 
 msgctxt "Notification"
 msgid "Contact added"
-msgstr ""
+msgstr "Contato adicionado"
 
 msgctxt "Notification"
 msgid "New private message"

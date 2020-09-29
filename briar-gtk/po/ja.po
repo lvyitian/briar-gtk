@@ -8,8 +8,9 @@
 # Sebastien G. <sebastieng@gmail.com>, 2020
 # kanna, 2020
 # b33a4006134bb6ee62b30fc0fac5cec6, 2020
-# Naofumi <naofum@gmail.com>, 2020
 # h345u37g3 h345u37g3, 2020
+# タカハシ <indexial@outlook.jp>, 2020
+# Naofumi <naofum@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -17,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: h345u37g3 h345u37g3, 2020\n"
+"Last-Translator: Naofumi <naofum@gmail.com>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/otf/teams/76528/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -82,17 +83,17 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
 msgstr ""
 
 msgid "Dutch"
-msgstr ""
+msgstr "オランダ語"
 
 msgid "French"
-msgstr ""
+msgstr "フランス語"
 
 msgid "Galician"
 msgstr ""
@@ -101,7 +102,7 @@ msgid "Icelandic"
 msgstr ""
 
 msgid "Italian"
-msgstr ""
+msgstr "イタリア語"
 
 msgid "Lithuanian"
 msgstr ""
@@ -110,6 +111,9 @@ msgid "Persian"
 msgstr ""
 
 msgid "Russian"
+msgstr "ロシア語"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

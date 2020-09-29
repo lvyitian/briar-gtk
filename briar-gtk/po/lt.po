@@ -49,63 +49,66 @@ msgid "Improvements in this version:"
 msgstr "Šioje versijoje pristatyti patobulinimai:"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "Patobulintas pranešimų palaikymas"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "Neskaitytų žinučių skaičiaus rodymas adresatų sąraše"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "Adresatų vardų keitimo palaikymas"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "Visų pokalbio žinučių ištrynimo palaikymas"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "Žinučių pristatymo būsenos rodymas"
 
 msgid "Migration to briar_wrapper 0.0.5"
-msgstr ""
+msgstr "Perkėlimas į briar_wrapper 0.0.5"
 
 msgid "Many more minor improvements"
 msgstr "Daugybė smulkių patobulinimų"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Vertimai į daugelį kalbų:"
 
 msgid "Albanian"
-msgstr ""
+msgstr "Albanų"
 
 msgid "Catalan"
-msgstr ""
+msgstr "Katalonų"
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Olandų"
 
 msgid "French"
-msgstr ""
+msgstr "Prancūzų"
 
 msgid "Galician"
-msgstr ""
+msgstr "Galisų"
 
 msgid "Icelandic"
-msgstr ""
+msgstr "Islandų"
 
 msgid "Italian"
-msgstr ""
+msgstr "Italų"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Lietuvių"
 
 msgid "Persian"
-msgstr ""
+msgstr "Persų"
 
 msgid "Russian"
+msgstr "Rusų"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"
@@ -283,11 +286,11 @@ msgstr "Ar tikrai norite pašalinti šį adresatą ir visas žinutes, kuriomis a
 
 msgctxt "Notification"
 msgid "Contact added"
-msgstr ""
+msgstr "Kontaktas pridėtas"
 
 msgctxt "Notification"
 msgid "New private message"
-msgstr ""
+msgstr "Nauja privati žinutė"
 
 msgid "Please enter a password"
 msgstr "Įveskite slaptažodį"
@@ -309,3 +312,6 @@ msgstr "Įveskite nuorodą"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Įveskite ne savo, o adresato nuorodą"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Kinų supaprastintą"

@@ -4,11 +4,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# Goudarz Jafari <goudarz.jafari@gmail.com>, 2020
+# Reza Ghasemi, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
 # Martus Translations <translations@martus.org>, 2020
 # AJ, 2020
 # NoProfile, 2020
-# Goudarz Jafari <goudarz.jafari@gmail.com>, 2020
-# Reza Ghasemi, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Reza Ghasemi, 2020\n"
+"Last-Translator: NoProfile, 2020\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/76528/fa/)\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -76,22 +77,22 @@ msgid "Translations into many languages:"
 msgstr ""
 
 msgid "Albanian"
-msgstr ""
+msgstr "آلبانیایی"
 
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "اسپرانتو"
 
 msgid "Dutch"
-msgstr ""
+msgstr "هلندی"
 
 msgid "French"
-msgstr ""
+msgstr "فرانسوی"
 
 msgid "Galician"
 msgstr ""
@@ -100,15 +101,18 @@ msgid "Icelandic"
 msgstr ""
 
 msgid "Italian"
-msgstr ""
+msgstr "ايتاليايی"
 
 msgid "Lithuanian"
 msgstr ""
 
 msgid "Persian"
-msgstr ""
+msgstr "فارسی"
 
 msgid "Russian"
+msgstr "روسی"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

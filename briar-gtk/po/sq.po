@@ -5,6 +5,7 @@
 #
 # Translators:
 # erinm, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
 # Bujar Tafili, 2020
 # Besnik Bleta <besnik@programeshqip.org>, 2020
 #
@@ -50,63 +51,66 @@ msgid "Improvements in this version:"
 msgstr "Përmirësime në këtë version:"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "Mbulim i përmirësuar njoftimesh"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "Shfaqje numri mesazhesh të palexuar te listë kontaktesh"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "Mbulim për ndryshim emrash kontaktesh"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "Mbulim për fshirje të krejt mesazheve në një fjalosje"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "Tregim gjendjeje dërgimi mesazhesh"
 
 msgid "Migration to briar_wrapper 0.0.5"
-msgstr ""
+msgstr "Migrim te briar_wrapper 0.0.5"
 
 msgid "Many more minor improvements"
 msgstr "Mjaft përmirësime të tjera të vockla"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Përkthime në mjaft gjuhë"
 
 msgid "Albanian"
-msgstr ""
+msgstr "Shqip"
 
 msgid "Catalan"
-msgstr ""
+msgstr "Katalanase"
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Holandisht"
 
 msgid "French"
-msgstr ""
+msgstr "Frëngjisht"
 
 msgid "Galician"
-msgstr ""
+msgstr "Galicisht"
 
 msgid "Icelandic"
-msgstr ""
+msgstr "Islandisht"
 
 msgid "Italian"
-msgstr ""
+msgstr "Italisht"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Lituanisht"
 
 msgid "Persian"
-msgstr ""
+msgstr "Persisht"
 
 msgid "Russian"
+msgstr "Rusisht"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"
@@ -284,11 +288,11 @@ msgstr "Jeni i sigurt se doni të hiqet ky kontakt dhe krejt mesazhet e shkëmby
 
 msgctxt "Notification"
 msgid "Contact added"
-msgstr ""
+msgstr "Kontakti u shtua"
 
 msgctxt "Notification"
 msgid "New private message"
-msgstr ""
+msgstr "Mesazh i ri privat"
 
 msgid "Please enter a password"
 msgstr "Ju lutemi, jepni një fjalëkalim"
@@ -310,3 +314,6 @@ msgstr "Ju lutemi, jepni një lidhje"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Jepni lidhjen e kontaktit tuaj, jo tuajën"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Kineze të Thjeshtuar"

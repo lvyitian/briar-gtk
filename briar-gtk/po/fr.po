@@ -5,6 +5,9 @@
 #
 # Translators:
 # Đorđe Marušić <djordje@hzontal.org>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+# Martus Translations <translations@martus.org>, 2020
+# Towinet, 2020
 # AO <ao@localizationlab.org>, 2020
 #
 #, fuzzy
@@ -49,63 +52,66 @@ msgid "Improvements in this version:"
 msgstr "Améliorations dans cette version :"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "Prise en charge améliorée des notifications"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "Affichage du nombre de messages non lus dans la liste des contacts"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "Possibilité de changer le nom des contacts"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "Possibilité de supprimer tous les messages d’une conversation"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "Indication de l’état de remise des messages"
 
 msgid "Migration to briar_wrapper 0.0.5"
-msgstr ""
+msgstr "Migration vers briar_wrapper 0.0.5"
 
 msgid "Many more minor improvements"
 msgstr "De nombreuses petites améliorations"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Traductions dans de nombreuses langues :"
 
 msgid "Albanian"
-msgstr ""
+msgstr "Albanais"
 
 msgid "Catalan"
-msgstr ""
+msgstr "Catalan"
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Espéranto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Néerlandais"
 
 msgid "French"
-msgstr ""
+msgstr "Français"
 
 msgid "Galician"
-msgstr ""
+msgstr "Galicien"
 
 msgid "Icelandic"
-msgstr ""
+msgstr "Islandais"
 
 msgid "Italian"
-msgstr ""
+msgstr "Italien"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Lituanien"
 
 msgid "Persian"
-msgstr ""
+msgstr "Persan"
 
 msgid "Russian"
+msgstr "Russe"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"
@@ -283,11 +289,11 @@ msgstr "Souhaitez-vous vraiment supprimer ce contact et tous les messages associ
 
 msgctxt "Notification"
 msgid "Contact added"
-msgstr ""
+msgstr "Le contact a été ajouté"
 
 msgctxt "Notification"
 msgid "New private message"
-msgstr ""
+msgstr "Nouveau message privé"
 
 msgid "Please enter a password"
 msgstr "Veuillez saisir un mot de passe"
@@ -309,3 +315,6 @@ msgstr "Veuillez saisir un lien"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Saisissez le lien de votre contact, pas le vôtre"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Chinois (simplifié)"

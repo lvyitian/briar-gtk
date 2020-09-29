@@ -5,10 +5,13 @@
 #
 # Translators:
 # Pander <pander@users.sourceforge.net>, 2020
-# Anne Mügge <info@numijneigenwebsite.nl>, 2020
 # erinm, 2020
 # akwizgran <michael@briarproject.org>, 2020
 # Thom, 2020
+# Heimen Stoffels <vistausss@outlook.com>, 2020
+# Anne Mügge <info@numijneigenwebsite.nl>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+# Volluta <volluta@tutanota.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Thom, 2020\n"
+"Last-Translator: Volluta <volluta@tutanota.com>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/otf/teams/76528/nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -76,22 +79,22 @@ msgid "Translations into many languages:"
 msgstr ""
 
 msgid "Albanian"
-msgstr ""
+msgstr "Albanees"
 
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Nederlands"
 
 msgid "French"
-msgstr ""
+msgstr "Frans"
 
 msgid "Galician"
 msgstr ""
@@ -100,15 +103,18 @@ msgid "Icelandic"
 msgstr ""
 
 msgid "Italian"
-msgstr ""
+msgstr "Italiaans"
 
 msgid "Lithuanian"
 msgstr ""
 
 msgid "Persian"
-msgstr ""
+msgstr "Perzisch"
 
 msgid "Russian"
+msgstr "Russisch"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"
@@ -286,7 +292,7 @@ msgstr "Weet je zeker dat je dit contact en alle bijbehorende berichten wilt ver
 
 msgctxt "Notification"
 msgid "Contact added"
-msgstr ""
+msgstr "Contactpersoon is toegevoegd"
 
 msgctxt "Notification"
 msgid "New private message"

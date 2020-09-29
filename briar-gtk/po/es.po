@@ -4,10 +4,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# strel, 2020
 # Roberto M.F., 2020
 # Đorđe Marušić <djordje@hzontal.org>, 2020
 # akwizgran <michael@briarproject.org>, 2020
+# strel, 2020
+# Martus Translations <translations@martus.org>, 2020
+# erinm, 2020
 # Zuhualime Akoochimoya, 2020
 #
 #, fuzzy
@@ -52,63 +54,66 @@ msgid "Improvements in this version:"
 msgstr "Mejoras en esta versión:"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "Soporte de notificación mejorado"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "Mostrar número de mensajes no leídos en la lista de contactos"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "Soporte para cambiar nombres de contactos"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "Soporte para eliminar todos los mensajes de un chat"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "Indicación de estado de entrega de los mensajes"
 
 msgid "Migration to briar_wrapper 0.0.5"
-msgstr ""
+msgstr "Migración a briar_wrapper 0.0.5"
 
 msgid "Many more minor improvements"
 msgstr "Muchas más mejoras menores"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Traducciones a muchos lenguajes:"
 
 msgid "Albanian"
-msgstr ""
+msgstr "Albanés"
 
 msgid "Catalan"
-msgstr ""
+msgstr "Catalán"
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Holandés"
 
 msgid "French"
-msgstr ""
+msgstr "Francés"
 
 msgid "Galician"
-msgstr ""
+msgstr "Gallego"
 
 msgid "Icelandic"
-msgstr ""
+msgstr "Islandés"
 
 msgid "Italian"
-msgstr ""
+msgstr "Italiano"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Lituano"
 
 msgid "Persian"
-msgstr ""
+msgstr "Persa"
 
 msgid "Russian"
+msgstr "Ruso"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"
@@ -286,11 +291,11 @@ msgstr "¿Seguro que quieres eliminar este contacto y todos los mensajes interca
 
 msgctxt "Notification"
 msgid "Contact added"
-msgstr ""
+msgstr "Se añadió el contacto"
 
 msgctxt "Notification"
 msgid "New private message"
-msgstr ""
+msgstr "Nuevo mensaje privado"
 
 msgid "Please enter a password"
 msgstr "Por favor, introduce una contraseña"
@@ -312,3 +317,6 @@ msgstr "Introduce un enlace, por favor"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Introduce el enlace del contacto, no el de ti"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Chino Simplificado"

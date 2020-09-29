@@ -5,9 +5,9 @@
 #
 # Translators:
 # erinm, 2020
-# Ali Kamran <kamran@digitalrightsfoundation.pk>, 2020
 # Sarfaraz Ahmed, 2020
 # b33a4006134bb6ee62b30fc0fac5cec6, 2020
+# Ali Kamran <kamran@digitalrightsfoundation.pk>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: b33a4006134bb6ee62b30fc0fac5cec6, 2020\n"
+"Last-Translator: Ali Kamran <kamran@digitalrightsfoundation.pk>, 2020\n"
 "Language-Team: Urdu (https://www.transifex.com/otf/teams/76528/ur/)\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
@@ -90,7 +90,7 @@ msgid "Dutch"
 msgstr ""
 
 msgid "French"
-msgstr ""
+msgstr "فرانسیسی"
 
 msgid "Galician"
 msgstr ""
@@ -105,9 +105,12 @@ msgid "Lithuanian"
 msgstr ""
 
 msgid "Persian"
-msgstr ""
+msgstr "فارسی"
 
 msgid "Russian"
+msgstr "روسی"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

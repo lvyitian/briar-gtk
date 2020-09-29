@@ -5,8 +5,8 @@
 #
 # Translators:
 # erinm, 2020
-# Nikafn <appone6@gmail.com>, 2020
 # ferhad.necef, 2020
+# Nikafn <appone6@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: ferhad.necef, 2020\n"
+"Last-Translator: Nikafn <appone6@gmail.com>, 2020\n"
 "Language-Team: Azerbaijani (https://www.transifex.com/otf/teams/76528/az/)\n"
 "Language: az\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
@@ -107,6 +107,9 @@ msgid "Persian"
 msgstr ""
 
 msgid "Russian"
+msgstr ""
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"
@@ -284,7 +287,7 @@ msgstr "Bu kontaktı və bu kontaktla əvəzlənən bütün mesajları silmək i
 
 msgctxt "Notification"
 msgid "Contact added"
-msgstr ""
+msgstr "Əlaqə əlavə edildi"
 
 msgctxt "Notification"
 msgid "New private message"

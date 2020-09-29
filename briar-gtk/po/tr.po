@@ -13,6 +13,7 @@
 # mahmut özcan <mahmutozcan@protonmail.com>, 2020
 # T. E. Kalayci <tekrei@gmail.com>, 2020
 # Ferdi YLDZ <eceyldz1122@gmail.com>, 2020
+# Emre Deniz, 2020
 #
 #, fuzzy
 msgid ""
@@ -20,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Ferdi YLDZ <eceyldz1122@gmail.com>, 2020\n"
+"Last-Translator: Emre Deniz, 2020\n"
 "Language-Team: Turkish (https://www.transifex.com/otf/teams/76528/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -85,7 +86,7 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
@@ -113,6 +114,9 @@ msgid "Persian"
 msgstr ""
 
 msgid "Russian"
+msgstr "Rusça"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

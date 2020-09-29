@@ -4,9 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Martus Translations <translations@martus.org>, 2020
 # sirawat daengchon <sirawat.gang@gmail.com>, 2020
 # Krittiya Chankasem <ordinaryjane@gmail.com>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+# Martus Translations <translations@martus.org>, 2020
 # bact' <arthit@gmail.com>, 2020
 #
 #, fuzzy
@@ -24,16 +25,16 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Briar"
-msgstr ""
+msgstr "Briar"
 
 msgid "Secure messaging, anywhere"
-msgstr ""
+msgstr "รับส่งข้อความปลอดภัย ไม่ว่าที่ใด"
 
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
 msgstr "Briar เป็นแอปรับส่งข้อความที่ออกแบบมาเพื่อนักกิจกรรม นักข่าว และใครก็ตามที่จำเป็นต้องมีวิธีสื่อสารที่ปลอดภัย ง่าย และทนทาน สิ่งที่แตกต่างจากแอปรับส่งข้อความแบบเดิมก็คือ Briar ไม่พึ่งพาเซิร์ฟเวอร์กลาง ข้อความต่างๆ จะถูกรับส่งโดยตรงระหว่างอุปกรณ์ของผู้ใช้ หากอินเทอร์เน็ตใช้การไม่ได้ Briar สามารถรับส่งข้อมูลผ่านบลูทธหรือเครือข่ายไวไฟ เพื่อให้ข้อมูลยังไหลต่อไปได้ในภาวะวิกฤต เมื่ออินเทอร์เน็ตใช้งานได้ Briar จะรับส่งข้อมูลผ่านเครือข่ย Tor เพื่อปกป้องผู้ใช้และความสัมพันธ์ของพวกเขาให้พ้นไปจาการถูกสอดส่อง"
 
 msgid "The Briar Project"
-msgstr ""
+msgstr "โคงการ Briar"
 
 msgid "Main window showing two contacts and chat"
 msgstr ""
@@ -72,42 +73,45 @@ msgid "Many more minor improvements"
 msgstr ""
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "คำแปลในหลายภาษา:"
 
 msgid "Albanian"
-msgstr ""
+msgstr "แอลเบเนีย"
 
 msgid "Catalan"
-msgstr ""
+msgstr "กาตาลุญญา"
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "เอสเปรันโต"
 
 msgid "Dutch"
-msgstr ""
+msgstr "ดัทช์"
 
 msgid "French"
-msgstr ""
+msgstr "ผรั่งเศส"
 
 msgid "Galician"
-msgstr ""
+msgstr "กาลิเซีย"
 
 msgid "Icelandic"
-msgstr ""
+msgstr "ไอซ์แลนด์"
 
 msgid "Italian"
-msgstr ""
+msgstr "อิตาลี"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "ลิทัวเนีย"
 
 msgid "Persian"
-msgstr ""
+msgstr "เปอร์เซีย"
 
 msgid "Russian"
+msgstr "รัสเซีย"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"
@@ -269,7 +273,7 @@ msgstr ""
 
 msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
-msgstr ""
+msgstr "ตัวฉัน"
 
 msgid "Are you sure you want to exit?"
 msgstr ""
@@ -285,14 +289,14 @@ msgstr "คุณแน่ใจหรือไม่ว่าคุณต้อ
 
 msgctxt "Notification"
 msgid "Contact added"
-msgstr ""
+msgstr "เพิ่มผู้ติดต่อแล้ว"
 
 msgctxt "Notification"
 msgid "New private message"
-msgstr ""
+msgstr "ข้อความส่วนตัวใหม่"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "กรุณาใส่รหัสผ่าน"
 
 msgid "Couldn't log in"
 msgstr ""
@@ -301,7 +305,7 @@ msgid "Please enter a nickname"
 msgstr "กรุณาใส่ชื่อเล่น"
 
 msgid "The passwords do not match"
-msgstr ""
+msgstr "รหัสผ่านไม่ตรงกัน"
 
 msgid "Couldn't register account"
 msgstr ""
@@ -311,3 +315,6 @@ msgstr "กรุณาใส่ลิงก์"
 
 msgid "Enter your contact's link, not your own"
 msgstr "กรุณาใส่ลิงก์ของผู้ติดต่อของคุณ ไม่ใช่ลิงก์ของคุณเอง"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "จีนแบบย่อ"

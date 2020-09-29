@@ -4,15 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# erinm, 2020
 # Megan DeBlois <megan.deblois@gmail.com>, 2020
-# محيي الدين <tx99h4@hotmail.com>, 2020
 # Rima Sghaier, 2020
 # Ali <aboshanab_@hotmail.com>, 2020
 # Ahmad Gharbeia <gharbeia@gmail.com>, 2020
 # akwizgran <michael@briarproject.org>, 2020
 # Layla Taha <layla@asl19.org>, 2020
 # Haroon Ali <haroon.ali2018@protonmail.com>, 2020
+# Martus Translations <translations@martus.org>, 2020
+# erinm, 2020
+# محيي الدين <tx99h4@hotmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -20,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Haroon Ali <haroon.ali2018@protonmail.com>, 2020\n"
+"Last-Translator: محيي الدين <tx99h4@hotmail.com>, 2020\n"
 "Language-Team: Arabic (https://www.transifex.com/otf/teams/76528/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -80,22 +81,22 @@ msgid "Translations into many languages:"
 msgstr ""
 
 msgid "Albanian"
-msgstr ""
+msgstr "Shqip"
 
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
-msgstr ""
+msgstr "إسبرنتو"
 
 msgid "Dutch"
-msgstr ""
+msgstr "الهولندية"
 
 msgid "French"
-msgstr ""
+msgstr "French"
 
 msgid "Galician"
 msgstr ""
@@ -104,15 +105,18 @@ msgid "Icelandic"
 msgstr ""
 
 msgid "Italian"
-msgstr ""
+msgstr "Italian"
 
 msgid "Lithuanian"
 msgstr ""
 
 msgid "Persian"
-msgstr ""
+msgstr "Persian"
 
 msgid "Russian"
+msgstr "Russian"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

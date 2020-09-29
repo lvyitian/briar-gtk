@@ -11,6 +11,7 @@
 # Thomas Walls <thomasw@tutanota.com>, 2020
 # Stefan Gagner <stefan@mei-ya.se>, 2020
 # Daniel <d-transifex@lublin.se>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -18,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Daniel <d-transifex@lublin.se>, 2020\n"
+"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
 "Language-Team: Swedish (https://www.transifex.com/otf/teams/76528/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +84,7 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
@@ -93,7 +94,7 @@ msgid "Dutch"
 msgstr ""
 
 msgid "French"
-msgstr ""
+msgstr "Franska"
 
 msgid "Galician"
 msgstr ""
@@ -111,6 +112,9 @@ msgid "Persian"
 msgstr ""
 
 msgid "Russian"
+msgstr "Ryska"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

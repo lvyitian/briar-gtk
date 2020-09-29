@@ -7,6 +7,7 @@
 # zxcsd <jenisjpl@gmail.com>, 2020
 # Giovanni Pellerano <giovanni.pellerano@evilaliv3.org>, 2020
 # ION, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: ION, 2020\n"
+"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
 "Language-Team: Hebrew (https://www.transifex.com/otf/teams/76528/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +80,7 @@ msgstr ""
 msgid "Catalan"
 msgstr ""
 
-msgid "Chinese Simplified"
+msgid "Chinese (Simplified)"
 msgstr ""
 
 msgid "Esperanto"
@@ -89,7 +90,7 @@ msgid "Dutch"
 msgstr ""
 
 msgid "French"
-msgstr ""
+msgstr "צרפתית"
 
 msgid "Galician"
 msgstr ""
@@ -104,9 +105,12 @@ msgid "Lithuanian"
 msgstr ""
 
 msgid "Persian"
-msgstr ""
+msgstr "פרסית"
 
 msgid "Russian"
+msgstr "רוסית"
+
+msgid "Thai"
 msgstr ""
 
 msgid "Basic notification support"

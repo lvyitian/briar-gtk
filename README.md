@@ -106,7 +106,7 @@ git submodule update --init
 
 First, install some Debian dependencies:
 ```
-sudo apt install meson libhandy-0.0-dev gettext appstream-util python3-pip
+sudo apt install meson libhandy-1-dev gettext appstream-util python3-pip
 ```
 
 On Fedora, you can call:
@@ -142,7 +142,7 @@ XDG_DATA_DIRS=_install/share:$XDG_DATA_DIRS ./_install/bin/briar-gtk
 ### Debian
 First, install some Debian dependencies:
 ```
-sudo apt install build-essential devscripts debhelper gnome-pkg-tools python3-all meson libhandy-0.0-dev gettext appstream-util
+sudo apt install build-essential devscripts debhelper gnome-pkg-tools python3-all meson libhandy-1-dev gettext appstream-util
 ```
 
 You can then build the .deb like this:

@@ -4,10 +4,10 @@
 
 import os
 
+from gettext import gettext as _
 from gi.repository import Gtk
 
 from briar_gtk.define import APP, RESOURCES_DIR
-from briar_gtk.utils import pgettext as _t
 
 
 class AboutDialogWidget():
@@ -33,8 +33,10 @@ class AboutDialogWidget():
         self._about_dialog.connect("response", self._on_about_response)
 
     def _add_code_section(self):
-        code_use_title = _t(
-            "Used in about dialog to credit other programs like GNOME Fractal",
+        code_use_title = _(
+            #  Context:
+            #  "Used in about dialog to credit "
+            #  "other programs like GNOME Fractal"
             "Using code by"
         )
         code_use_list = [
@@ -47,9 +49,10 @@ class AboutDialogWidget():
 
     # pylint: disable=line-too-long
     def _add_briar_section(self):
-        briar_functionality_title = _t(
-            "Used in about dialog to credit "
-            "Briar components like its REST API",
+        briar_functionality_title = _(
+            #  Context:
+            #  "Used in about dialog to credit Briar "
+            #  "components like its REST API"
             "Briar functionality by"
         )
         briar_functionality_list = [

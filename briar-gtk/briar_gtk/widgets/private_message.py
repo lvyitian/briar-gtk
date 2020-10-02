@@ -7,9 +7,8 @@
 
 from datetime import datetime
 
+from gettext import gettext as _
 from gi.repository import Gtk
-
-from briar_gtk.utils import pgettext as _t
 
 
 class PrivateMessageWidget(Gtk.ListBoxRow):
@@ -24,9 +23,10 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         username = contact_name
         username_style_class = "username"
         if message["local"]:
-            username = _t(
-                "Used in message history to indicate that message is"
-                "by the user itself, not by its contact",
+            username = _(
+                #  Context:
+                #  "Used in message history to indicate that message is"
+                #  "by the user itself, not by its contact"
                 "Myself"
             )
             username_style_class = "username-self"

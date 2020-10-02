@@ -14,7 +14,6 @@ from briar_gtk.container import Container
 from briar_gtk.containers.private_chat import PrivateChatContainer
 from briar_gtk.define import APP, NOTIFICATION_CONTACT_ADDED
 from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
-from briar_gtk.utils import pgettext as _t
 from briar_gtk.widgets.about_dialog import AboutDialogWidget
 from briar_gtk.widgets.contact_row import ContactRowWidget
 
@@ -262,14 +261,14 @@ class MainWindowContainer(Container):
     # pylint: disable=unused-argument
     def _notify_contact_added(self, message):
         self._notify(
-            _t("Notification", "Contact added"),
+            _("Contact added"),  # context: "Notification"
             NOTIFICATION_CONTACT_ADDED
         )
 
     # pylint: disable=unused-argument
     def _notify_message_received(self, message):
         self._notify(
-            _t("Notification", "New private message"),
+            _("New private message"),  # context: "Notification"
             NOTIFICATION_PRIVATE_MESSAGE
         )
 

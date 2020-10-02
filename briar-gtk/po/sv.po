@@ -85,7 +85,7 @@ msgid "Catalan"
 msgstr ""
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Kinesiska (Enkel)"
 
 msgid "Esperanto"
 msgstr ""
@@ -166,10 +166,6 @@ msgstr ""
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr ""
-
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
 msgstr ""
 
 msgctxt "Used in add contact page"
@@ -266,15 +262,15 @@ msgstr "Skapa konto "
 msgid "Creating Account"
 msgstr "Skapar Konto"
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
 msgid "Using code by"
 msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
 msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
 msgstr ""
 
@@ -290,11 +286,9 @@ msgstr "Bekräfta radering av kontakt"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Är du säker att du vill radera denna kontakt och alla meddelanden?"
 
-msgctxt "Notification"
 msgid "Contact added"
 msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
 msgstr ""
 

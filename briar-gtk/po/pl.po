@@ -12,9 +12,9 @@
 # AreYouLoco? <areyouloco@paranoici.org>, 2020
 # Dawid Potocki <dpot@disroot.org>, 2020
 # Sylwester Sochar <dark_raven@wp.pl>, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # Marcin Januchta <marcin.januchta@gmail.com>, 2020
 # Verdulo :-), 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Verdulo :-), 2020\n"
+"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
 "Language-Team: Polish (https://www.transifex.com/otf/teams/76528/pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -118,7 +118,7 @@ msgid "Russian"
 msgstr "Rosyjski"
 
 msgid "Thai"
-msgstr ""
+msgstr "Tajski"
 
 msgid "Basic notification support"
 msgstr ""
@@ -169,10 +169,6 @@ msgstr ""
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr ""
-
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
 msgstr ""
 
 msgctxt "Used in add contact page"
@@ -269,15 +265,15 @@ msgstr "Utwórz Konto"
 msgid "Creating Account"
 msgstr "Tworzenie Konta"
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
 msgid "Using code by"
 msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
 msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
 msgstr ""
 
@@ -293,11 +289,9 @@ msgstr "Potwierdź usunięcie kontaktu"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Czy na pewno chcesz usunąć ten kontakt i wszystkie wymienione z nim wiadomości?"
 
-msgctxt "Notification"
 msgid "Contact added"
 msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
 msgstr ""
 

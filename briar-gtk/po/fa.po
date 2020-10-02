@@ -6,9 +6,9 @@
 # Translators:
 # Goudarz Jafari <goudarz.jafari@gmail.com>, 2020
 # Reza Ghasemi, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # Martus Translations <translations@martus.org>, 2020
 # AJ, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
 # NoProfile, 2020
 #
 #, fuzzy
@@ -83,7 +83,7 @@ msgid "Catalan"
 msgstr ""
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "زبان چینی ساده شده"
 
 msgid "Esperanto"
 msgstr "اسپرانتو"
@@ -113,7 +113,7 @@ msgid "Russian"
 msgstr "روسی"
 
 msgid "Thai"
-msgstr ""
+msgstr "تايلندی"
 
 msgid "Basic notification support"
 msgstr ""
@@ -164,10 +164,6 @@ msgstr ""
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr ""
-
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
 msgstr ""
 
 msgctxt "Used in add contact page"
@@ -264,17 +260,17 @@ msgstr "ایجاد حساب کاربری"
 msgid "Creating Account"
 msgstr "در حال ایجاد حساب کاربری"
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
 msgid "Using code by"
 msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
 msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
-msgstr "خودم"
+msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr "آیا مطمئن هستید که می‌خواهید خارج شوید؟"
@@ -288,11 +284,9 @@ msgstr "تایید حذف مخاطب"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "آیا مطمئن هستید که میخواهید این مخاطب و تمام پیام های تبادل شده با آن را حذف کنید؟"
 
-msgctxt "Notification"
 msgid "Contact added"
 msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
 msgstr ""
 
@@ -316,3 +310,7 @@ msgstr "لطفا یک پیوند وارد کنید"
 
 msgid "Enter your contact's link, not your own"
 msgstr "به جای پیوند خود، پیوند مخاطب را وارد کنید"
+
+#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
+#~ msgid "Myself"
+#~ msgstr "خودم"

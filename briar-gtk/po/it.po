@@ -8,10 +8,10 @@
 # Riccardo, 2020
 # HostFat <hostfat@gmail.com>, 2020
 # Random_R, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # c6497ab8ee8a3906bb861267dec9a84b_bc40ce0 <0329ec65fa3a66db7a8a2a698d66d850_156421>, 2020
-# Giuseppe Pignataro <rogepix@gmail.com>, 2020
 # SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+# Giuseppe Pignataro <rogepix@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020\n"
+"Last-Translator: Giuseppe Pignataro <rogepix@gmail.com>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/otf/teams/76528/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -85,7 +85,7 @@ msgid "Catalan"
 msgstr ""
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Cinese (Semplificato)"
 
 msgid "Esperanto"
 msgstr "Esperanto"
@@ -115,7 +115,7 @@ msgid "Russian"
 msgstr "Russo"
 
 msgid "Thai"
-msgstr ""
+msgstr "Thai"
 
 msgid "Basic notification support"
 msgstr "Supporto base alle notifiche"
@@ -167,10 +167,6 @@ msgstr "Un client Briar per desktop GTK e dispositivi mobili"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visita il sito di Briar GTK"
-
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
-msgstr "Random_R"
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
@@ -266,17 +262,17 @@ msgstr "Crea account"
 msgid "Creating Account"
 msgstr "Creazione account"
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
 msgid "Using code by"
-msgstr "Utilizzo di codice da"
+msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
-msgstr "Funzionalità Briar da"
+msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
-msgstr "Me stesso"
+msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr "Vuoi veramente uscire?"
@@ -290,11 +286,9 @@ msgstr "Conferma cancellazione contatto"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Vuoi veramente rimuovere questo contatto e tutti i messaggi scambiati con esso?"
 
-msgctxt "Notification"
 msgid "Contact added"
 msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
 msgstr ""
 
@@ -318,3 +312,19 @@ msgstr "Inserisci un link"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Inserisci il link del contatto, non il tuo"
+
+#~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
+#~ msgid "Nico Alt"
+#~ msgstr "Random_R"
+
+#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+#~ msgid "Using code by"
+#~ msgstr "Utilizzo di codice da"
+
+#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
+#~ msgid "Briar functionality by"
+#~ msgstr "Funzionalità Briar da"
+
+#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
+#~ msgid "Myself"
+#~ msgstr "Me stesso"

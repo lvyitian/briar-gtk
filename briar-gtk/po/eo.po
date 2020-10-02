@@ -163,10 +163,6 @@ msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Vizitu Briar-on GTK-an retejon"
 
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
-msgstr ""
-
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
 msgstr "Donu ĉi tiu ligo al la kontakto vi deziras aldoni"
@@ -261,17 +257,17 @@ msgstr "Krei konton"
 msgid "Creating Account"
 msgstr "Kreanta konto"
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
 msgid "Using code by"
-msgstr "Kun kodo de"
+msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
-msgstr "Briar-a funkcieco de"
+msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
-msgstr "Min mem"
+msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr "Vi estas certe vi volas ĉesi?"
@@ -285,11 +281,9 @@ msgstr "Confirmi kontaktan forigon"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr ""
 
-msgctxt "Notification"
 msgid "Contact added"
 msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
 msgstr ""
 
@@ -313,3 +307,15 @@ msgstr "Bonvole entajpi ligon"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Entajpu vian ligon de kontakto, ne vian"
+
+#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+#~ msgid "Using code by"
+#~ msgstr "Kun kodo de"
+
+#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
+#~ msgid "Briar functionality by"
+#~ msgstr "Briar-a funkcieco de"
+
+#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
+#~ msgid "Myself"
+#~ msgstr "Min mem"

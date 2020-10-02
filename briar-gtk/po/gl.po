@@ -165,10 +165,6 @@ msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visita a web de Briar GTK"
 
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
-msgstr ""
-
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
 msgstr "Envíe esta ligazón ao contacto que quere engadir"
@@ -263,17 +259,17 @@ msgstr "Crea a conta"
 msgid "Creating Account"
 msgstr "Crear conta"
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
 msgid "Using code by"
-msgstr "Usando código por"
+msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
-msgstr "Briar funciona grazas a"
+msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
-msgstr "Min mesma"
+msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr "Tes a certeza de querer saír?"
@@ -287,11 +283,9 @@ msgstr "Confirme a eliminación do contacto"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Segura de querer eliminar este contacto e todas as mensaxes que intercambiaron?"
 
-msgctxt "Notification"
 msgid "Contact added"
 msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
 msgstr ""
 
@@ -315,3 +309,15 @@ msgstr "Por favor introduza ligazón"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Introduza a ligazón do contacto, non o propio"
+
+#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+#~ msgid "Using code by"
+#~ msgstr "Usando código por"
+
+#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
+#~ msgid "Briar functionality by"
+#~ msgstr "Briar funciona grazas a"
+
+#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
+#~ msgid "Myself"
+#~ msgstr "Min mesma"

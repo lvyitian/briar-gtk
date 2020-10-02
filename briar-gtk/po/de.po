@@ -12,9 +12,9 @@
 # Eike Fulda <e50389.fulda@gmx.de>, 2020
 # nautilusx, 2020
 # Ettore Atalan <atalanttore@googlemail.com>, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # Lars Schimmer <echelon@i2pmail.org>, 2020
 # Nico Alt, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Nico Alt, 2020\n"
+"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/76528/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgid "Catalan"
 msgstr "Katalanisch"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Chinesisch (Vereinfacht)"
 
 msgid "Esperanto"
 msgstr "Esperanto"
@@ -118,7 +118,7 @@ msgid "Russian"
 msgstr "Russisch"
 
 msgid "Thai"
-msgstr ""
+msgstr "Thailändisch"
 
 msgid "Basic notification support"
 msgstr "Grundlegende Unterstützung für Benachrichtigungen"
@@ -170,10 +170,6 @@ msgstr "Briar-App für GTK-Desktop und Mobilgeräte"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Besuche die Webseite von Briar GTK"
-
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
-msgstr "Nico Alt"
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
@@ -269,17 +265,17 @@ msgstr "Konto erstellen"
 msgid "Creating Account"
 msgstr "Konto wird erstellt"
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
 msgid "Using code by"
-msgstr "Benutzt Code von"
+msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
-msgstr "Briar-Funktionalität von"
+msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
-msgstr "Ich"
+msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr "Willst du Briar wirklich beenden?"
@@ -293,13 +289,11 @@ msgstr "Löschen des Kontakts bestätigen"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Bist du sicher, dass du diesen Kontakt und alle dazugehörigen Nachrichten löschen möchtest?"
 
-msgctxt "Notification"
 msgid "Contact added"
-msgstr "Kontakt hinzugefügt"
+msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
-msgstr "Neue private Nachricht"
+msgstr ""
 
 msgid "Please enter a password"
 msgstr "Bitte gib ein Passwort ein"
@@ -322,5 +316,26 @@ msgstr "Bitte gib einen Link ein"
 msgid "Enter your contact's link, not your own"
 msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
 
-#~ msgid "Chinese Simplified"
-#~ msgstr "Chinesisch (Vereinfacht)"
+#~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
+#~ msgid "Nico Alt"
+#~ msgstr "Nico Alt"
+
+#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+#~ msgid "Using code by"
+#~ msgstr "Benutzt Code von"
+
+#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
+#~ msgid "Briar functionality by"
+#~ msgstr "Briar-Funktionalität von"
+
+#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
+#~ msgid "Myself"
+#~ msgstr "Ich"
+
+#~ msgctxt "Notification"
+#~ msgid "Contact added"
+#~ msgstr "Kontakt hinzugefügt"
+
+#~ msgctxt "Notification"
+#~ msgid "New private message"
+#~ msgstr "Neue private Nachricht"

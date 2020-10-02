@@ -5,9 +5,9 @@
 #
 # Translators:
 # erinm, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # Bujar Tafili, 2020
 # Besnik Bleta <besnik@programeshqip.org>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2020\n"
+"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
 "Language-Team: Albanian (https://www.transifex.com/otf/teams/76528/sq/)\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +81,7 @@ msgid "Catalan"
 msgstr "Katalanase"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Kinezisht (E thjeshtuar)"
 
 msgid "Esperanto"
 msgstr "Esperanto"
@@ -111,7 +111,7 @@ msgid "Russian"
 msgstr "Rusisht"
 
 msgid "Thai"
-msgstr ""
+msgstr "Tajlandisht"
 
 msgid "Basic notification support"
 msgstr "Mbulim njoftimesh elementare"
@@ -163,10 +163,6 @@ msgstr "Një klient Briar për desktop GTK dhe pajisje celulare"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Vizitoni sajtin e Briar GTK"
-
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
-msgstr "Nico Alt"
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
@@ -262,17 +258,17 @@ msgstr "Krijoni Llogari"
 msgid "Creating Account"
 msgstr "Po Krijohet Llogari"
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
 msgid "Using code by"
-msgstr "Me përdorim kodi nga"
+msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
-msgstr "Funksionet Briar nga"
+msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
-msgstr "Unë"
+msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr "Jeni i sigurt se doni të dilet?"
@@ -286,13 +282,11 @@ msgstr "Ripohoni Fshirje Kontakti"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Jeni i sigurt se doni të hiqet ky kontakt dhe krejt mesazhet e shkëmbyer me këtë kontakt?"
 
-msgctxt "Notification"
 msgid "Contact added"
-msgstr "Kontakti u shtua"
+msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
-msgstr "Mesazh i ri privat"
+msgstr ""
 
 msgid "Please enter a password"
 msgstr "Ju lutemi, jepni një fjalëkalim"
@@ -315,5 +309,26 @@ msgstr "Ju lutemi, jepni një lidhje"
 msgid "Enter your contact's link, not your own"
 msgstr "Jepni lidhjen e kontaktit tuaj, jo tuajën"
 
-#~ msgid "Chinese Simplified"
-#~ msgstr "Kineze të Thjeshtuar"
+#~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
+#~ msgid "Nico Alt"
+#~ msgstr "Nico Alt"
+
+#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+#~ msgid "Using code by"
+#~ msgstr "Me përdorim kodi nga"
+
+#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
+#~ msgid "Briar functionality by"
+#~ msgstr "Funksionet Briar nga"
+
+#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
+#~ msgid "Myself"
+#~ msgstr "Unë"
+
+#~ msgctxt "Notification"
+#~ msgid "Contact added"
+#~ msgstr "Kontakti u shtua"
+
+#~ msgctxt "Notification"
+#~ msgid "New private message"
+#~ msgstr "Mesazh i ri privat"

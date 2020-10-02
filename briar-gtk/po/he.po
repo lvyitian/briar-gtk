@@ -81,7 +81,7 @@ msgid "Catalan"
 msgstr ""
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "סינית (פשוטה)"
 
 msgid "Esperanto"
 msgstr ""
@@ -111,7 +111,7 @@ msgid "Russian"
 msgstr "רוסית"
 
 msgid "Thai"
-msgstr ""
+msgstr "תאילנדית"
 
 msgid "Basic notification support"
 msgstr ""
@@ -162,10 +162,6 @@ msgstr ""
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr ""
-
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
 msgstr ""
 
 msgctxt "Used in add contact page"
@@ -262,15 +258,15 @@ msgstr "צור חשבון"
 msgid "Creating Account"
 msgstr "יצירת חשבון"
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
 msgid "Using code by"
 msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
 msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
 msgstr ""
 
@@ -286,11 +282,9 @@ msgstr "אשר מחיקת איש קשר"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "האם אתה בטוח שאתה רוצה למחוק איש קשר זה ואת כל ההודעות שהוחלפו עם איש קשר זה?"
 
-msgctxt "Notification"
 msgid "Contact added"
 msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
 msgstr ""
 

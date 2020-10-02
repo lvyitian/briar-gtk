@@ -170,10 +170,6 @@ msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
 
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
-msgstr ""
-
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
 msgstr "Bu bağlantıyı eklemek istediğiniz kişiye verin"
@@ -268,15 +264,15 @@ msgstr "Hesap Oluştur"
 msgid "Creating Account"
 msgstr ""
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
 msgid "Using code by"
 msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
 msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
 msgstr ""
 
@@ -292,11 +288,9 @@ msgstr "Kişi Silmeyi Onayla"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Bu kişiyi ve bu kişiyle ilgili tüm iletileri kaldırmak istediğinize emin misiniz?"
 
-msgctxt "Notification"
 msgid "Contact added"
 msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
 msgstr ""
 

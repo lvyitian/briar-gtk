@@ -165,10 +165,6 @@ msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "访问 Briar GTK网站"
 
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
-msgstr ""
-
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
 msgstr "将此链接发送给您希望添加的联系人"
@@ -263,17 +259,17 @@ msgstr "创建帐户"
 msgid "Creating Account"
 msgstr "正在创建账户"
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-msgid "Using code by"
-msgstr "使用下列项目的代码"
+msgid "Localization Lab Translation Teams"
+msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
+msgid "Using code by"
+msgstr ""
+
 msgid "Briar functionality by"
 msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
-msgstr "我自己"
+msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr "你确定要退出吗？"
@@ -287,11 +283,9 @@ msgstr "确认删除联系人"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "确认要删除该联系人和与之交流的所有消息吗？"
 
-msgctxt "Notification"
 msgid "Contact added"
 msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
 msgstr ""
 
@@ -315,3 +309,11 @@ msgstr "请输入一个链接"
 
 msgid "Enter your contact's link, not your own"
 msgstr "输入您联系人的链接，不要输入您自己的"
+
+#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+#~ msgid "Using code by"
+#~ msgstr "使用下列项目的代码"
+
+#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
+#~ msgid "Myself"
+#~ msgstr "我自己"

@@ -5,8 +5,8 @@
 #
 # Translators:
 # erinm, 2020
-# Sveinn í Felli <sv1@fellsnet.is>, 2020
 # smari <smari@mailpile.is>, 2020
+# Sveinn í Felli <sv1@fellsnet.is>, 2020
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: smari <smari@mailpile.is>, 2020\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2020\n"
 "Language-Team: Icelandic (https://www.transifex.com/otf/teams/76528/is/)\n"
 "Language: is\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgid "Welcome screen with registration"
 msgstr "Upphafsskjár með nýskráningu"
 
 msgid "Adding contacts at a distance"
-msgstr ""
+msgstr "Bæta við tengiliðum í fjarlægð"
 
 msgid "Main window with two contacts and about dialog"
 msgstr "Aðalgluggi sem sýnir tvo tengiliði og upplýsingaglugga"
@@ -50,73 +50,73 @@ msgid "Improvements in this version:"
 msgstr "Endurbætur í þessari útgáfu:"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "Bættur stuðningur við tilkynningar"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "Birtir fjölda ólesinna skilaboða í tengiliðalista"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "Stuðningur við að breyta nöfnum tengiliða"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "Stuðningur við að eyða öllum skilaboðum í spjalli"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "Afhendingarstaða skilaboða gefin til kynna"
 
 msgid "Migration to briar_wrapper 0.0.5"
-msgstr ""
+msgstr "Yfirfærsla í to briar_wrapper 0.0.5"
 
 msgid "Many more minor improvements"
 msgstr "Margar minni endurbætur"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Þýðingar á mörgum tungumálum:"
 
 msgid "Albanian"
-msgstr ""
+msgstr "Albanska"
 
 msgid "Catalan"
-msgstr ""
+msgstr "Katalónska"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Kínverska (einfölduð)"
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperantó"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Hollenska"
 
 msgid "French"
-msgstr ""
+msgstr "Franska"
 
 msgid "Galician"
-msgstr ""
+msgstr "Galisíska"
 
 msgid "Icelandic"
-msgstr ""
+msgstr "Íslenska"
 
 msgid "Italian"
-msgstr ""
+msgstr "Ítalska"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litháíska"
 
 msgid "Persian"
-msgstr ""
+msgstr "Persneska"
 
 msgid "Russian"
-msgstr ""
+msgstr "Rússneska"
 
 msgid "Thai"
-msgstr ""
+msgstr "Tælenska"
 
 msgid "Basic notification support"
 msgstr "Grunnstuðningur við tilkynningar"
 
 msgid "Support for contact deletion"
-msgstr ""
+msgstr "Stuðningur við eyðingu tengiliða"
 
 msgid "Hugely improved chat UI"
 msgstr "Mikið endurbætt spjallviðmót"
@@ -149,11 +149,11 @@ msgid "Lots of software tests"
 msgstr "Miklar prófanir á hugbúnaðnum"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr ""
+msgstr "Allra fyrsta alfa-prófunarútgáfa Briar GTK. Hún gerir kleift að bæta við tengiliðum í fjarlægð og að spjalla við þá í einkaspjalli. Eftir er að koma upp öðrum eiginleikum, eins og hópum, spjallsvæðum (forum) og bloggum."
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+msgstr "Höfundarréttur © 2019-2020 Briar-verkefnið"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -162,10 +162,6 @@ msgstr "Briar-forrit fyrir GTK-skjáborðsumhverfi og snjalltæki"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Heimsækja Briar GTK vefsvæðið"
-
-msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-msgid "Nico Alt"
-msgstr ""
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
@@ -261,23 +257,23 @@ msgstr "Búa til notandaaðgang"
 msgid "Creating Account"
 msgstr "Bý til notandaaðgang"
 
-msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
 msgid "Using code by"
-msgstr "Notar kóða frá"
+msgstr ""
 
-msgctxt "Used in about dialog to credit Briar components like its REST API"
 msgid "Briar functionality by"
-msgstr "Briar-virkni frá"
+msgstr ""
 
-msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 msgid "Myself"
-msgstr "Ég sjálfur"
+msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr "Ertu viss um að þú viljir hætta?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
+msgstr "Eftir að þú lokar Briar geturðu ekki lengur tekið á móti eða sent skilaboð í bið. Haltu Briar opnu til að haldast tengd/ur við tengiliðina þína."
 
 msgid "Confirm Contact Deletion"
 msgstr "Staðfesta eyðingu tengiliðar"
@@ -285,11 +281,9 @@ msgstr "Staðfesta eyðingu tengiliðar"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Ertu viss að þú viljir fjarlægja þennan tengilið ásamt öllum þeim skilaboðum sem ykkur hafa farið á milli?"
 
-msgctxt "Notification"
 msgid "Contact added"
 msgstr ""
 
-msgctxt "Notification"
 msgid "New private message"
 msgstr ""
 
@@ -313,3 +307,27 @@ msgstr "Settu inn tengil"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Settu inn tengilinn frá tengiliðnum þínum, ekki þinn eigin"
+
+#~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
+#~ msgid "Nico Alt"
+#~ msgstr "Nico Alt"
+
+#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+#~ msgid "Using code by"
+#~ msgstr "Notar kóða frá"
+
+#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
+#~ msgid "Briar functionality by"
+#~ msgstr "Briar-virkni frá"
+
+#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
+#~ msgid "Myself"
+#~ msgstr "Ég sjálfur"
+
+#~ msgctxt "Notification"
+#~ msgid "Contact added"
+#~ msgstr "Tengilið bætt við"
+
+#~ msgctxt "Notification"
+#~ msgid "New private message"
+#~ msgstr "Ný einkaskilaboð"

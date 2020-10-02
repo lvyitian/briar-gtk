@@ -28,9 +28,22 @@ class AboutDialogWidget():
 
     def _extend_about_dialog(self):
         self._about_dialog.set_transient_for(APP().window)
+        self._add_translation_section()
         self._add_code_section()
         self._add_briar_section()
         self._about_dialog.connect("response", self._on_about_response)
+
+    def _add_translation_section(self):
+        translation_teams = _(
+            #  Context:
+            #  "Used in about dialog; it's prefixed by 'Translated by'"
+            "Localization Lab Translation Teams"
+        )
+        localization_lab_url = "https://www.localizationlab.org/"
+        translation_description = f"{translation_teams} {localization_lab_url}"
+        self._about_dialog.set_translator_credits(
+            translation_description
+        )
 
     def _add_code_section(self):
         code_use_title = _(

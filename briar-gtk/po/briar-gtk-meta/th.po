@@ -153,162 +153,94 @@ msgstr ""
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give this link to the contact you want to add"
+#~ msgstr "ให้ลิงก์นี้กับผู้ติดต่อที่คุณต้องการเพิ่ม"
 
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter the link from your contact here"
+#~ msgstr "ใส่ลิงก์จากผู้ติดต่อของคุณที่นี่"
 
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Contact's link"
+#~ msgstr "ลิงก์ของผู้ติดต่อ"
 
-msgctxt "Used in add contact page"
-msgid "Give this link to the contact you want to add"
-msgstr "ให้ลิงก์นี้กับผู้ติดต่อที่คุณต้องการเพิ่ม"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a link"
+#~ msgstr "กรุณาใส่ลิงก์"
 
-msgctxt "Used in add contact page"
-msgid "Enter the link from your contact here"
-msgstr "ใส่ลิงก์จากผู้ติดต่อของคุณที่นี่"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give your contact a nickname. Only you can see it."
+#~ msgstr "ตั้งชื่อเล่นให้กับผู้ติดต่อของคุณ มีคุณเท่านั้นที่จะเห็นชื่อนี้"
 
-msgctxt "Used in add contact page"
-msgid "Contact's link"
-msgstr "ลิงก์ของผู้ติดต่อ"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter a nickname"
+#~ msgstr "ใส่ชื่อเล่น"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a link"
-msgstr "กรุณาใส่ลิงก์"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a nickname"
+#~ msgstr "กรุณาใส่ชื่อเล่น"
 
-msgctxt "Used in add contact page"
-msgid "Give your contact a nickname. Only you can see it."
-msgstr "ตั้งชื่อเล่นให้กับผู้ติดต่อของคุณ มีคุณเท่านั้นที่จะเห็นชื่อนี้"
+#~ msgctxt "Button in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "เพิ่มผู้ติดต่อ"
 
-msgctxt "Used in add contact page"
-msgid "Enter a nickname"
-msgstr "ใส่ชื่อเล่น"
+#~ msgid "Next"
+#~ msgstr "ถัดไป"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a nickname"
-msgstr "กรุณาใส่ชื่อเล่น"
+#~ msgctxt "Title in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "เพิ่มผู้ติดต่อ"
 
-msgctxt "Button in add contact page"
-msgid "Add contact"
-msgstr "เพิ่มผู้ติดต่อ"
+#~ msgid "Delete contact"
+#~ msgstr "ลบผู้ติดต่อ"
 
-msgid "Next"
-msgstr "ถัดไป"
+#~ msgid "Password"
+#~ msgstr "รหัสผ่าน"
 
-msgctxt "Title in add contact page"
-msgid "Add contact"
-msgstr "เพิ่มผู้ติดต่อ"
+#~ msgctxt "Button in login page"
+#~ msgid "Log in"
+#~ msgstr "ลงชื่อเข้า"
 
-msgid "Delete contact"
-msgstr "ลบผู้ติดต่อ"
+#~ msgctxt "Accessibility text in main menu"
+#~ msgid "Add contact"
+#~ msgstr "เพิ่มผู้ติดต่อ"
 
-msgid "Password"
-msgstr "รหัสผ่าน"
+#~ msgid "Back"
+#~ msgstr "ย้อนกลับ"
 
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "ลงชื่อเข้า"
+#~ msgid "Welcome to Briar"
+#~ msgstr "ยินดีต้อนรับสู่ Briar"
 
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr ""
+#~ msgid "Choose your nickname"
+#~ msgstr "เลือกชื่อเล่นของคุณ"
 
-msgid "About Briar GTK"
-msgstr ""
+#~ msgid "Confirm Password"
+#~ msgstr "ยืนยันรหัสผ่าน"
 
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr ""
+#~ msgid "Create Account"
+#~ msgstr "สร้างบัญชี"
 
-msgid "No contact selected"
-msgstr ""
+#~ msgid "Confirm Contact Deletion"
+#~ msgstr "ยืนยันการลบผู้ติดต่อ"
 
-msgid "Select a contact to start chatting"
-msgstr ""
+#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+#~ msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องที่จะลบผู้ติดต่อรายนี้และข้อความทั้งหมดที่เคยแลกเปลี่ยนกับเขา?"
 
-msgctxt "Accessibility text in main menu"
-msgid "Add contact"
-msgstr "เพิ่มผู้ติดต่อ"
+#~ msgid "Please enter a password"
+#~ msgstr "กรุณาใส่รหัสผ่าน"
 
-msgid "Main menu"
-msgstr ""
+#~ msgid "Please enter a nickname"
+#~ msgstr "กรุณาใส่ชื่อเล่น"
 
-msgid "Back"
-msgstr "ย้อนกลับ"
+#~ msgid "The passwords do not match"
+#~ msgstr "รหัสผ่านไม่ตรงกัน"
 
-msgid "Chat menu"
-msgstr ""
+#~ msgid "Please enter a link"
+#~ msgstr "กรุณาใส่ลิงก์"
 
-msgid "Welcome to Briar"
-msgstr "ยินดีต้อนรับสู่ Briar"
-
-msgid "Choose your nickname"
-msgstr "เลือกชื่อเล่นของคุณ"
-
-msgid "Confirm Password"
-msgstr "ยืนยันรหัสผ่าน"
-
-msgid "Create Account"
-msgstr "สร้างบัญชี"
-
-msgid "Creating Account"
-msgstr ""
-
-msgid "Localization Lab Translation Teams"
-msgstr ""
-
-msgid "Using code by"
-msgstr ""
-
-msgid "Briar functionality by"
-msgstr ""
-
-msgid "Myself"
-msgstr ""
-
-msgid "Are you sure you want to exit?"
-msgstr ""
-
-msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
-
-msgid "Confirm Contact Deletion"
-msgstr "ยืนยันการลบผู้ติดต่อ"
-
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องที่จะลบผู้ติดต่อรายนี้และข้อความทั้งหมดที่เคยแลกเปลี่ยนกับเขา?"
-
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr "กรุณาใส่รหัสผ่าน"
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "กรุณาใส่ชื่อเล่น"
-
-msgid "The passwords do not match"
-msgstr "รหัสผ่านไม่ตรงกัน"
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "กรุณาใส่ลิงก์"
-
-msgid "Enter your contact's link, not your own"
-msgstr "กรุณาใส่ลิงก์ของผู้ติดต่อของคุณ ไม่ใช่ลิงก์ของคุณเอง"
+#~ msgid "Enter your contact's link, not your own"
+#~ msgstr "กรุณาใส่ลิงก์ของผู้ติดต่อของคุณ ไม่ใช่ลิงก์ของคุณเอง"
 
 #~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 #~ msgid "Myself"

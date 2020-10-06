@@ -24,147 +24,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Briar"
-msgstr "Briar"
-
-msgid "Secure messaging, anywhere"
-msgstr "รับส่งข้อความปลอดภัย ไม่ว่าที่ใด"
-
-msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-msgstr "Briar เป็นแอปรับส่งข้อความที่ออกแบบมาเพื่อนักกิจกรรม นักข่าว และใครก็ตามที่จำเป็นต้องมีวิธีสื่อสารที่ปลอดภัย ง่าย และทนทาน สิ่งที่แตกต่างจากแอปรับส่งข้อความแบบเดิมก็คือ Briar ไม่พึ่งพาเซิร์ฟเวอร์กลาง ข้อความต่างๆ จะถูกรับส่งโดยตรงระหว่างอุปกรณ์ของผู้ใช้ หากอินเทอร์เน็ตใช้การไม่ได้ Briar สามารถรับส่งข้อมูลผ่านบลูทธหรือเครือข่ายไวไฟ เพื่อให้ข้อมูลยังไหลต่อไปได้ในภาวะวิกฤต เมื่ออินเทอร์เน็ตใช้งานได้ Briar จะรับส่งข้อมูลผ่านเครือข่ย Tor เพื่อปกป้องผู้ใช้และความสัมพันธ์ของพวกเขาให้พ้นไปจาการถูกสอดส่อง"
-
-msgid "The Briar Project"
-msgstr "โคงการ Briar"
-
-msgid "Main window showing two contacts and chat"
-msgstr ""
-
-msgid "Welcome screen with registration"
-msgstr ""
-
-msgid "Adding contacts at a distance"
-msgstr ""
-
-msgid "Main window with two contacts and about dialog"
-msgstr ""
-
-msgid "Improvements in this version:"
-msgstr ""
-
-msgid "Improved notification support"
-msgstr ""
-
-msgid "Showing number of unread messages in contact list"
-msgstr ""
-
-msgid "Support for changing contacts' names"
-msgstr ""
-
-msgid "Support for deleting all messages of a chat"
-msgstr ""
-
-msgid "Indication of messages' delivery states"
-msgstr ""
-
-msgid "Migration to briar_wrapper 0.0.5"
-msgstr ""
-
-msgid "Many more minor improvements"
-msgstr ""
-
-msgid "Translations into many languages:"
-msgstr "คำแปลในหลายภาษา:"
-
-msgid "Albanian"
-msgstr "แอลเบเนีย"
-
-msgid "Catalan"
-msgstr "กาตาลุญญา"
-
-msgid "Chinese (Simplified)"
-msgstr ""
-
-msgid "Esperanto"
-msgstr "เอสเปรันโต"
-
-msgid "Dutch"
-msgstr "ดัทช์"
-
-msgid "French"
-msgstr "ผรั่งเศส"
-
-msgid "Galician"
-msgstr "กาลิเซีย"
-
-msgid "Icelandic"
-msgstr "ไอซ์แลนด์"
-
-msgid "Italian"
-msgstr "อิตาลี"
-
-msgid "Lithuanian"
-msgstr "ลิทัวเนีย"
-
-msgid "Persian"
-msgstr "เปอร์เซีย"
-
-msgid "Russian"
-msgstr "รัสเซีย"
-
-msgid "Thai"
-msgstr "ไทย"
-
-msgid "Basic notification support"
-msgstr ""
-
-msgid "Support for contact deletion"
-msgstr ""
-
-msgid "Hugely improved chat UI"
-msgstr ""
-
-msgid "Full Spanish and German translations"
-msgstr ""
-
-msgid "Migration to libhandy 1.0"
-msgstr ""
-
-msgid "Migration to briar_wrapper 0.0.4"
-msgstr ""
-
-msgid "Show online status of contacts in contact list (#19)"
-msgstr ""
-
-msgid "Support copying content in messages (#51)"
-msgstr ""
-
-msgid "Fix bug with Briar messages not having text (#56)"
-msgstr ""
-
-msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr ""
-
-msgid "Update Briar core to version 1.2.9"
-msgstr ""
-
-msgid "Lots of software tests"
-msgstr ""
-
-msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr ""
-
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
-
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
-
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
-
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
 msgstr "ให้ลิงก์นี้กับผู้ติดต่อที่คุณต้องการเพิ่ม"
@@ -309,6 +168,69 @@ msgstr "กรุณาใส่ลิงก์"
 
 msgid "Enter your contact's link, not your own"
 msgstr "กรุณาใส่ลิงก์ของผู้ติดต่อของคุณ ไม่ใช่ลิงก์ของคุณเอง"
+
+msgctxt "Used in about dialog"
+msgid "Copyright © 2019-2020 The Briar Project"
+msgstr ""
+
+msgctxt "Used in about dialog"
+msgid "A Briar client for GTK desktop and mobile devices"
+msgstr ""
+
+msgctxt "Used in about dialog to get to website"
+msgid "Visit Briar GTK website"
+msgstr ""
+
+#~ msgid "Briar"
+#~ msgstr "Briar"
+
+#~ msgid "Secure messaging, anywhere"
+#~ msgstr "รับส่งข้อความปลอดภัย ไม่ว่าที่ใด"
+
+#~ msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
+#~ msgstr "Briar เป็นแอปรับส่งข้อความที่ออกแบบมาเพื่อนักกิจกรรม นักข่าว และใครก็ตามที่จำเป็นต้องมีวิธีสื่อสารที่ปลอดภัย ง่าย และทนทาน สิ่งที่แตกต่างจากแอปรับส่งข้อความแบบเดิมก็คือ Briar ไม่พึ่งพาเซิร์ฟเวอร์กลาง ข้อความต่างๆ จะถูกรับส่งโดยตรงระหว่างอุปกรณ์ของผู้ใช้ หากอินเทอร์เน็ตใช้การไม่ได้ Briar สามารถรับส่งข้อมูลผ่านบลูทธหรือเครือข่ายไวไฟ เพื่อให้ข้อมูลยังไหลต่อไปได้ในภาวะวิกฤต เมื่ออินเทอร์เน็ตใช้งานได้ Briar จะรับส่งข้อมูลผ่านเครือข่ย Tor เพื่อปกป้องผู้ใช้และความสัมพันธ์ของพวกเขาให้พ้นไปจาการถูกสอดส่อง"
+
+#~ msgid "The Briar Project"
+#~ msgstr "โคงการ Briar"
+
+#~ msgid "Translations into many languages:"
+#~ msgstr "คำแปลในหลายภาษา:"
+
+#~ msgid "Albanian"
+#~ msgstr "แอลเบเนีย"
+
+#~ msgid "Catalan"
+#~ msgstr "กาตาลุญญา"
+
+#~ msgid "Esperanto"
+#~ msgstr "เอสเปรันโต"
+
+#~ msgid "Dutch"
+#~ msgstr "ดัทช์"
+
+#~ msgid "French"
+#~ msgstr "ผรั่งเศส"
+
+#~ msgid "Galician"
+#~ msgstr "กาลิเซีย"
+
+#~ msgid "Icelandic"
+#~ msgstr "ไอซ์แลนด์"
+
+#~ msgid "Italian"
+#~ msgstr "อิตาลี"
+
+#~ msgid "Lithuanian"
+#~ msgstr "ลิทัวเนีย"
+
+#~ msgid "Persian"
+#~ msgstr "เปอร์เซีย"
+
+#~ msgid "Russian"
+#~ msgstr "รัสเซีย"
+
+#~ msgid "Thai"
+#~ msgstr "ไทย"
 
 #~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 #~ msgid "Myself"

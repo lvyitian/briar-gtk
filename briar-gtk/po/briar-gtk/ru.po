@@ -31,147 +31,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-msgid "Briar"
-msgstr "Briar"
-
-msgid "Secure messaging, anywhere"
-msgstr "Безопасное общение, где угодно"
-
-msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-msgstr "Briar - это приложение для обмена сообщениями, предназначенное для активистов, журналистов и всех, кому нужен безопасный, простой и надежный способ общения. В отличие от традиционных приложений для обмена сообщениями, Briar не полагается на центральный сервер - сообщения синхронизируются непосредственно между устройствами пользователей. Если интернет не работает, Briar может синхронизироваться через Bluetooth или Wi-Fi, поддерживая поток информации в кризисной ситуации. Если интернет не работает, Briar может синхронизироваться через сеть Tor, защищая пользователей и их взаимоотношения от слежки."
-
-msgid "The Briar Project"
-msgstr "Проект Briar"
-
-msgid "Main window showing two contacts and chat"
-msgstr "Главное окно, отображающее два контакта и чат"
-
-msgid "Welcome screen with registration"
-msgstr "Экран приветствия с регистрацией"
-
-msgid "Adding contacts at a distance"
-msgstr "Добавление контактов на расстоянии"
-
-msgid "Main window with two contacts and about dialog"
-msgstr "Главное окно с двумя контактами и диалогом"
-
-msgid "Improvements in this version:"
-msgstr "Улучшения в этой версии:"
-
-msgid "Improved notification support"
-msgstr ""
-
-msgid "Showing number of unread messages in contact list"
-msgstr ""
-
-msgid "Support for changing contacts' names"
-msgstr ""
-
-msgid "Support for deleting all messages of a chat"
-msgstr ""
-
-msgid "Indication of messages' delivery states"
-msgstr ""
-
-msgid "Migration to briar_wrapper 0.0.5"
-msgstr ""
-
-msgid "Many more minor improvements"
-msgstr "Много других незначительных улучшений"
-
-msgid "Translations into many languages:"
-msgstr ""
-
-msgid "Albanian"
-msgstr "Албанский"
-
-msgid "Catalan"
-msgstr ""
-
-msgid "Chinese (Simplified)"
-msgstr "Китайский (упрощенный)"
-
-msgid "Esperanto"
-msgstr "Эсперанто"
-
-msgid "Dutch"
-msgstr "Голландский"
-
-msgid "French"
-msgstr "Французский"
-
-msgid "Galician"
-msgstr ""
-
-msgid "Icelandic"
-msgstr ""
-
-msgid "Italian"
-msgstr "Итальянский"
-
-msgid "Lithuanian"
-msgstr ""
-
-msgid "Persian"
-msgstr "Персидский"
-
-msgid "Russian"
-msgstr "Русский"
-
-msgid "Thai"
-msgstr "Тайский"
-
-msgid "Basic notification support"
-msgstr "Поддержка базовых уведомлений"
-
-msgid "Support for contact deletion"
-msgstr "Поддержка удаления контактов"
-
-msgid "Hugely improved chat UI"
-msgstr "Значительно улучшенный интерфейс чата"
-
-msgid "Full Spanish and German translations"
-msgstr "Полный перевод на испанский и немецкий языки"
-
-msgid "Migration to libhandy 1.0"
-msgstr "Миграция на libhandy 1.0"
-
-msgid "Migration to briar_wrapper 0.0.4"
-msgstr "Миграция на briar_wrapper 0.0.4"
-
-msgid "Show online status of contacts in contact list (#19)"
-msgstr "Отображение онлайн-статуса контактов в списке (#19)"
-
-msgid "Support copying content in messages (#51)"
-msgstr "Поддержка копирования содержимого в сообщениях (#51)"
-
-msgid "Fix bug with Briar messages not having text (#56)"
-msgstr "Исправлена ошибка, при которой сообщения Briar не содержали текста (#56)"
-
-msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr "Исправлена ошибка, из-за которой имя контакта не отображалось в приватных сообщениях (#55)"
-
-msgid "Update Briar core to version 1.2.9"
-msgstr "Обновлено ядро Briar до версии 1.2.9."
-
-msgid "Lots of software tests"
-msgstr "Большое количество тестов программного обеспечения"
-
-msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr "Это самый первый альфа-релиз Briar GTK. Он позволяет добавлять контакты удаленно и общаться с ними в приватных чатах. Другие функции, такие как группы, форумы и блоги, будут реализованы позже."
-
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr "Copyright © 2019-2020 The Briar Project"
-
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr "Клиент Briar для настольных и мобильных устройств GTK."
-
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr "Посетить веб-сайт Briar GTK"
-
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
 msgstr "Передайте эту ссылку контакту, который вы хотите добавить."
@@ -316,6 +175,114 @@ msgstr "Пожалуйста, введите ссылку"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Введите ссылку вашего контакта, а не свою"
+
+msgctxt "Used in about dialog"
+msgid "Copyright © 2019-2020 The Briar Project"
+msgstr "Copyright © 2019-2020 The Briar Project"
+
+msgctxt "Used in about dialog"
+msgid "A Briar client for GTK desktop and mobile devices"
+msgstr "Клиент Briar для настольных и мобильных устройств GTK."
+
+msgctxt "Used in about dialog to get to website"
+msgid "Visit Briar GTK website"
+msgstr "Посетить веб-сайт Briar GTK"
+
+#~ msgid "Briar"
+#~ msgstr "Briar"
+
+#~ msgid "Secure messaging, anywhere"
+#~ msgstr "Безопасное общение, где угодно"
+
+#~ msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
+#~ msgstr "Briar - это приложение для обмена сообщениями, предназначенное для активистов, журналистов и всех, кому нужен безопасный, простой и надежный способ общения. В отличие от традиционных приложений для обмена сообщениями, Briar не полагается на центральный сервер - сообщения синхронизируются непосредственно между устройствами пользователей. Если интернет не работает, Briar может синхронизироваться через Bluetooth или Wi-Fi, поддерживая поток информации в кризисной ситуации. Если интернет не работает, Briar может синхронизироваться через сеть Tor, защищая пользователей и их взаимоотношения от слежки."
+
+#~ msgid "The Briar Project"
+#~ msgstr "Проект Briar"
+
+#~ msgid "Main window showing two contacts and chat"
+#~ msgstr "Главное окно, отображающее два контакта и чат"
+
+#~ msgid "Welcome screen with registration"
+#~ msgstr "Экран приветствия с регистрацией"
+
+#~ msgid "Adding contacts at a distance"
+#~ msgstr "Добавление контактов на расстоянии"
+
+#~ msgid "Main window with two contacts and about dialog"
+#~ msgstr "Главное окно с двумя контактами и диалогом"
+
+#~ msgid "Improvements in this version:"
+#~ msgstr "Улучшения в этой версии:"
+
+#~ msgid "Many more minor improvements"
+#~ msgstr "Много других незначительных улучшений"
+
+#~ msgid "Albanian"
+#~ msgstr "Албанский"
+
+#~ msgid "Chinese (Simplified)"
+#~ msgstr "Китайский (упрощенный)"
+
+#~ msgid "Esperanto"
+#~ msgstr "Эсперанто"
+
+#~ msgid "Dutch"
+#~ msgstr "Голландский"
+
+#~ msgid "French"
+#~ msgstr "Французский"
+
+#~ msgid "Italian"
+#~ msgstr "Итальянский"
+
+#~ msgid "Persian"
+#~ msgstr "Персидский"
+
+#~ msgid "Russian"
+#~ msgstr "Русский"
+
+#~ msgid "Thai"
+#~ msgstr "Тайский"
+
+#~ msgid "Basic notification support"
+#~ msgstr "Поддержка базовых уведомлений"
+
+#~ msgid "Support for contact deletion"
+#~ msgstr "Поддержка удаления контактов"
+
+#~ msgid "Hugely improved chat UI"
+#~ msgstr "Значительно улучшенный интерфейс чата"
+
+#~ msgid "Full Spanish and German translations"
+#~ msgstr "Полный перевод на испанский и немецкий языки"
+
+#~ msgid "Migration to libhandy 1.0"
+#~ msgstr "Миграция на libhandy 1.0"
+
+#~ msgid "Migration to briar_wrapper 0.0.4"
+#~ msgstr "Миграция на briar_wrapper 0.0.4"
+
+#~ msgid "Show online status of contacts in contact list (#19)"
+#~ msgstr "Отображение онлайн-статуса контактов в списке (#19)"
+
+#~ msgid "Support copying content in messages (#51)"
+#~ msgstr "Поддержка копирования содержимого в сообщениях (#51)"
+
+#~ msgid "Fix bug with Briar messages not having text (#56)"
+#~ msgstr "Исправлена ошибка, при которой сообщения Briar не содержали текста (#56)"
+
+#~ msgid "Fix bug with contact's name not showing in private messages (#55)"
+#~ msgstr "Исправлена ошибка, из-за которой имя контакта не отображалось в приватных сообщениях (#55)"
+
+#~ msgid "Update Briar core to version 1.2.9"
+#~ msgstr "Обновлено ядро Briar до версии 1.2.9."
+
+#~ msgid "Lots of software tests"
+#~ msgstr "Большое количество тестов программного обеспечения"
+
+#~ msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
+#~ msgstr "Это самый первый альфа-релиз Briar GTK. Он позволяет добавлять контакты удаленно и общаться с ними в приватных чатах. Другие функции, такие как группы, форумы и блоги, будут реализованы позже."
 
 #~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
 #~ msgid "Nico Alt"

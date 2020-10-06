@@ -151,159 +151,78 @@ msgstr ""
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give this link to the contact you want to add"
+#~ msgstr "Mpe kiungo hichi unaye taka kuwasiliana nae "
 
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter the link from your contact here"
+#~ msgstr "Ingiza kiungo cha mawasiliano hapa. "
 
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Contact's link"
+#~ msgstr "Unganisha mawasiliano "
 
-msgctxt "Used in add contact page"
-msgid "Give this link to the contact you want to add"
-msgstr "Mpe kiungo hichi unaye taka kuwasiliana nae "
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a link"
+#~ msgstr "Tafathali ingiza Kiungo "
 
-msgctxt "Used in add contact page"
-msgid "Enter the link from your contact here"
-msgstr "Ingiza kiungo cha mawasiliano hapa. "
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give your contact a nickname. Only you can see it."
+#~ msgstr "Ipe namba hii lakabu . Na niwewe tu utaiona ."
 
-msgctxt "Used in add contact page"
-msgid "Contact's link"
-msgstr "Unganisha mawasiliano "
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter a nickname"
+#~ msgstr "Ingiza lakabu "
 
-msgctxt "Used in add contact page"
-msgid "Please enter a link"
-msgstr "Tafathali ingiza Kiungo "
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a nickname"
+#~ msgstr "Tafathali andika lakabu"
 
-msgctxt "Used in add contact page"
-msgid "Give your contact a nickname. Only you can see it."
-msgstr "Ipe namba hii lakabu . Na niwewe tu utaiona ."
+#~ msgctxt "Button in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Ongeza mawasiliano "
 
-msgctxt "Used in add contact page"
-msgid "Enter a nickname"
-msgstr "Ingiza lakabu "
+#~ msgid "Next"
+#~ msgstr "Inayo fuata"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a nickname"
-msgstr "Tafathali andika lakabu"
+#~ msgctxt "Title in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Ongeza mawasiliano "
 
-msgctxt "Button in add contact page"
-msgid "Add contact"
-msgstr "Ongeza mawasiliano "
+#~ msgid "Delete contact"
+#~ msgstr "Futa mawasiliano "
 
-msgid "Next"
-msgstr "Inayo fuata"
+#~ msgid "Password"
+#~ msgstr "nywila/ neno siri"
 
-msgctxt "Title in add contact page"
-msgid "Add contact"
-msgstr "Ongeza mawasiliano "
+#~ msgctxt "Accessibility text in main menu"
+#~ msgid "Add contact"
+#~ msgstr "Ongeza mawasiliano "
 
-msgid "Delete contact"
-msgstr "Futa mawasiliano "
+#~ msgid "Back"
+#~ msgstr "Nyuma"
 
-msgid "Password"
-msgstr "nywila/ neno siri"
+#~ msgid "Welcome to Briar"
+#~ msgstr "Karibu kwenye Briar"
 
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr ""
+#~ msgid "Choose your nickname"
+#~ msgstr "Chagua lakabu yako"
 
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr ""
+#~ msgid "Create Account"
+#~ msgstr "Tengeneza akaunti"
 
-msgid "About Briar GTK"
-msgstr ""
+#~ msgid "Confirm Contact Deletion"
+#~ msgstr "Thibitisha ufutaji wa mawasiliano "
 
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr ""
+#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+#~ msgstr "Unauhakika unataka kuondoa mawasiliano na ujumbe wote kati yenu ."
 
-msgid "No contact selected"
-msgstr ""
+#~ msgid "Please enter a nickname"
+#~ msgstr "Tafathali andika lakabu"
 
-msgid "Select a contact to start chatting"
-msgstr ""
+#~ msgid "Please enter a link"
+#~ msgstr "Tafathali ingiza Kiungo "
 
-msgctxt "Accessibility text in main menu"
-msgid "Add contact"
-msgstr "Ongeza mawasiliano "
-
-msgid "Main menu"
-msgstr ""
-
-msgid "Back"
-msgstr "Nyuma"
-
-msgid "Chat menu"
-msgstr ""
-
-msgid "Welcome to Briar"
-msgstr "Karibu kwenye Briar"
-
-msgid "Choose your nickname"
-msgstr "Chagua lakabu yako"
-
-msgid "Confirm Password"
-msgstr ""
-
-msgid "Create Account"
-msgstr "Tengeneza akaunti"
-
-msgid "Creating Account"
-msgstr ""
-
-msgid "Localization Lab Translation Teams"
-msgstr ""
-
-msgid "Using code by"
-msgstr ""
-
-msgid "Briar functionality by"
-msgstr ""
-
-msgid "Myself"
-msgstr ""
-
-msgid "Are you sure you want to exit?"
-msgstr ""
-
-msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
-
-msgid "Confirm Contact Deletion"
-msgstr "Thibitisha ufutaji wa mawasiliano "
-
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "Unauhakika unataka kuondoa mawasiliano na ujumbe wote kati yenu ."
-
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr ""
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "Tafathali andika lakabu"
-
-msgid "The passwords do not match"
-msgstr ""
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "Tafathali ingiza Kiungo "
-
-msgid "Enter your contact's link, not your own"
-msgstr "Ingiza kiunga cha mawasiliano, ambacho sio cha kwako "
+#~ msgid "Enter your contact's link, not your own"
+#~ msgstr "Ingiza kiunga cha mawasiliano, ambacho sio cha kwako "

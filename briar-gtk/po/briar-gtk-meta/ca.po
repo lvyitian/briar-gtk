@@ -154,159 +154,89 @@ msgstr ""
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give this link to the contact you want to add"
+#~ msgstr "Lliureu aquest enllaç al contacte que voleu afegir"
 
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter the link from your contact here"
+#~ msgstr "Escriviu l'enllaç del vostre contacte"
 
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Contact's link"
+#~ msgstr "Enllaç del contacte"
 
-msgctxt "Used in add contact page"
-msgid "Give this link to the contact you want to add"
-msgstr "Lliureu aquest enllaç al contacte que voleu afegir"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a link"
+#~ msgstr "Escriviu un enllaç"
 
-msgctxt "Used in add contact page"
-msgid "Enter the link from your contact here"
-msgstr "Escriviu l'enllaç del vostre contacte"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give your contact a nickname. Only you can see it."
+#~ msgstr "Doneu un sobrenom al contacte. Només vós podreu veure'l."
 
-msgctxt "Used in add contact page"
-msgid "Contact's link"
-msgstr "Enllaç del contacte"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter a nickname"
+#~ msgstr "Escriviu un sobrenom"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a link"
-msgstr "Escriviu un enllaç"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a nickname"
+#~ msgstr "Escriviu un sobrenom"
 
-msgctxt "Used in add contact page"
-msgid "Give your contact a nickname. Only you can see it."
-msgstr "Doneu un sobrenom al contacte. Només vós podreu veure'l."
+#~ msgctxt "Button in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Afegiu un contacte"
 
-msgctxt "Used in add contact page"
-msgid "Enter a nickname"
-msgstr "Escriviu un sobrenom"
+#~ msgid "Next"
+#~ msgstr "Endavant"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a nickname"
-msgstr "Escriviu un sobrenom"
+#~ msgctxt "Title in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Afegiu un contacte"
 
-msgctxt "Button in add contact page"
-msgid "Add contact"
-msgstr "Afegiu un contacte"
+#~ msgid "Delete contact"
+#~ msgstr "Suprimeix aquest contacte"
 
-msgid "Next"
-msgstr "Endavant"
+#~ msgid "Password"
+#~ msgstr "Contrasenya"
 
-msgctxt "Title in add contact page"
-msgid "Add contact"
-msgstr "Afegiu un contacte"
+#~ msgctxt "Button in login page"
+#~ msgid "Log in"
+#~ msgstr "Inicia sessió"
 
-msgid "Delete contact"
-msgstr "Suprimeix aquest contacte"
+#~ msgctxt "Used in login page after entering the password"
+#~ msgid "Logging in"
+#~ msgstr "S'està iniciant sessió"
 
-msgid "Password"
-msgstr "Contrasenya"
+#~ msgid "No contact selected"
+#~ msgstr "Cap contacte seleccionat"
 
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Inicia sessió"
+#~ msgctxt "Accessibility text in main menu"
+#~ msgid "Add contact"
+#~ msgstr "Afegiu un contacte"
 
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "S'està iniciant sessió"
+#~ msgid "Back"
+#~ msgstr "Enrere"
 
-msgid "About Briar GTK"
-msgstr ""
+#~ msgid "Welcome to Briar"
+#~ msgstr "Benvingut a Briar"
 
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr ""
+#~ msgid "Choose your nickname"
+#~ msgstr "Trieu el sobrenom"
 
-msgid "No contact selected"
-msgstr "Cap contacte seleccionat"
+#~ msgid "Create Account"
+#~ msgstr "Crea el compte"
 
-msgid "Select a contact to start chatting"
-msgstr ""
+#~ msgid "Confirm Contact Deletion"
+#~ msgstr "Confirmeu la supressió del contacte"
 
-msgctxt "Accessibility text in main menu"
-msgid "Add contact"
-msgstr "Afegiu un contacte"
+#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+#~ msgstr "Segur que voleu suprimir aquest contacte i tots els missatges que us heu intercanviat?"
 
-msgid "Main menu"
-msgstr ""
+#~ msgid "Please enter a nickname"
+#~ msgstr "Escriviu un sobrenom"
 
-msgid "Back"
-msgstr "Enrere"
+#~ msgid "Please enter a link"
+#~ msgstr "Escriviu un enllaç"
 
-msgid "Chat menu"
-msgstr ""
-
-msgid "Welcome to Briar"
-msgstr "Benvingut a Briar"
-
-msgid "Choose your nickname"
-msgstr "Trieu el sobrenom"
-
-msgid "Confirm Password"
-msgstr ""
-
-msgid "Create Account"
-msgstr "Crea el compte"
-
-msgid "Creating Account"
-msgstr ""
-
-msgid "Localization Lab Translation Teams"
-msgstr ""
-
-msgid "Using code by"
-msgstr ""
-
-msgid "Briar functionality by"
-msgstr ""
-
-msgid "Myself"
-msgstr ""
-
-msgid "Are you sure you want to exit?"
-msgstr ""
-
-msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
-
-msgid "Confirm Contact Deletion"
-msgstr "Confirmeu la supressió del contacte"
-
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "Segur que voleu suprimir aquest contacte i tots els missatges que us heu intercanviat?"
-
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr ""
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "Escriviu un sobrenom"
-
-msgid "The passwords do not match"
-msgstr ""
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "Escriviu un enllaç"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Escriviu l'enllaç del vostre contacte i no el vostre enllaç"
+#~ msgid "Enter your contact's link, not your own"
+#~ msgstr "Escriviu l'enllaç del vostre contacte i no el vostre enllaç"

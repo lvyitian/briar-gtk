@@ -154,162 +154,107 @@ msgstr ""
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give this link to the contact you want to add"
+#~ msgstr "برای افزودن مخاطب این پیوند را به او بدهید"
 
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter the link from your contact here"
+#~ msgstr "پیوند آمده از مخاطب خود را اینجا وارد کنید"
 
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Contact's link"
+#~ msgstr "پیوند مخاطب"
 
-msgctxt "Used in add contact page"
-msgid "Give this link to the contact you want to add"
-msgstr "برای افزودن مخاطب این پیوند را به او بدهید"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a link"
+#~ msgstr "لطفا یک پیوند وارد کنید"
 
-msgctxt "Used in add contact page"
-msgid "Enter the link from your contact here"
-msgstr "پیوند آمده از مخاطب خود را اینجا وارد کنید"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give your contact a nickname. Only you can see it."
+#~ msgstr "به مخاطب خود یک نام مستعار بدهید. فقط شما قادر به دیدن آن می باشید."
 
-msgctxt "Used in add contact page"
-msgid "Contact's link"
-msgstr "پیوند مخاطب"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter a nickname"
+#~ msgstr "یک نام مستعار وارد کنید"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a link"
-msgstr "لطفا یک پیوند وارد کنید"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a nickname"
+#~ msgstr "لطفا یک نام مستعار وارد کنید"
 
-msgctxt "Used in add contact page"
-msgid "Give your contact a nickname. Only you can see it."
-msgstr "به مخاطب خود یک نام مستعار بدهید. فقط شما قادر به دیدن آن می باشید."
+#~ msgctxt "Button in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "افزودن مخاطب"
 
-msgctxt "Used in add contact page"
-msgid "Enter a nickname"
-msgstr "یک نام مستعار وارد کنید"
+#~ msgid "Next"
+#~ msgstr "بعد"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a nickname"
-msgstr "لطفا یک نام مستعار وارد کنید"
+#~ msgctxt "Title in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "افزودن مخاطب"
 
-msgctxt "Button in add contact page"
-msgid "Add contact"
-msgstr "افزودن مخاطب"
+#~ msgid "Delete contact"
+#~ msgstr "حذف مخاطب"
 
-msgid "Next"
-msgstr "بعد"
+#~ msgid "Password"
+#~ msgstr "گذرواژه"
 
-msgctxt "Title in add contact page"
-msgid "Add contact"
-msgstr "افزودن مخاطب"
+#~ msgctxt "Button in login page"
+#~ msgid "Log in"
+#~ msgstr "ورود"
 
-msgid "Delete contact"
-msgstr "حذف مخاطب"
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "نوشتن پیام"
 
-msgid "Password"
-msgstr "گذرواژه"
+#~ msgctxt "Accessibility text in main menu"
+#~ msgid "Add contact"
+#~ msgstr "افزودن مخاطب"
 
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "ورود"
+#~ msgid "Back"
+#~ msgstr "قبل"
 
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr ""
+#~ msgid "Chat menu"
+#~ msgstr "منوی گفتگو"
 
-msgid "About Briar GTK"
-msgstr ""
+#~ msgid "Welcome to Briar"
+#~ msgstr "به Briar خوش آمدید"
 
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "نوشتن پیام"
+#~ msgid "Choose your nickname"
+#~ msgstr "نام مستعار خود را انتخاب کنید"
 
-msgid "No contact selected"
-msgstr ""
+#~ msgid "Confirm Password"
+#~ msgstr "تأیید رمز عبور"
 
-msgid "Select a contact to start chatting"
-msgstr ""
+#~ msgid "Create Account"
+#~ msgstr "ایجاد حساب کاربری"
 
-msgctxt "Accessibility text in main menu"
-msgid "Add contact"
-msgstr "افزودن مخاطب"
+#~ msgid "Creating Account"
+#~ msgstr "در حال ایجاد حساب کاربری"
 
-msgid "Main menu"
-msgstr ""
+#~ msgid "Are you sure you want to exit?"
+#~ msgstr "آیا مطمئن هستید که می‌خواهید خارج شوید؟"
 
-msgid "Back"
-msgstr "قبل"
+#~ msgid "Confirm Contact Deletion"
+#~ msgstr "تایید حذف مخاطب"
 
-msgid "Chat menu"
-msgstr "منوی گفتگو"
+#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+#~ msgstr "آیا مطمئن هستید که میخواهید این مخاطب و تمام پیام های تبادل شده با آن را حذف کنید؟"
 
-msgid "Welcome to Briar"
-msgstr "به Briar خوش آمدید"
+#~ msgid "Please enter a password"
+#~ msgstr "لطفا رمز عبور را وارد"
 
-msgid "Choose your nickname"
-msgstr "نام مستعار خود را انتخاب کنید"
+#~ msgid "Please enter a nickname"
+#~ msgstr "لطفا یک نام مستعار وارد کنید"
 
-msgid "Confirm Password"
-msgstr "تأیید رمز عبور"
+#~ msgid "The passwords do not match"
+#~ msgstr "رمز عبور تطابق ندارد"
 
-msgid "Create Account"
-msgstr "ایجاد حساب کاربری"
+#~ msgid "Please enter a link"
+#~ msgstr "لطفا یک پیوند وارد کنید"
 
-msgid "Creating Account"
-msgstr "در حال ایجاد حساب کاربری"
-
-msgid "Localization Lab Translation Teams"
-msgstr ""
-
-msgid "Using code by"
-msgstr ""
-
-msgid "Briar functionality by"
-msgstr ""
-
-msgid "Myself"
-msgstr ""
-
-msgid "Are you sure you want to exit?"
-msgstr "آیا مطمئن هستید که می‌خواهید خارج شوید؟"
-
-msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
-
-msgid "Confirm Contact Deletion"
-msgstr "تایید حذف مخاطب"
-
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "آیا مطمئن هستید که میخواهید این مخاطب و تمام پیام های تبادل شده با آن را حذف کنید؟"
-
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr "لطفا رمز عبور را وارد"
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "لطفا یک نام مستعار وارد کنید"
-
-msgid "The passwords do not match"
-msgstr "رمز عبور تطابق ندارد"
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "لطفا یک پیوند وارد کنید"
-
-msgid "Enter your contact's link, not your own"
-msgstr "به جای پیوند خود، پیوند مخاطب را وارد کنید"
+#~ msgid "Enter your contact's link, not your own"
+#~ msgstr "به جای پیوند خود، پیوند مخاطب را وارد کنید"
 
 #~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
 #~ msgid "Myself"

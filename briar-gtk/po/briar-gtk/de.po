@@ -30,147 +30,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Briar"
-msgstr "Briar"
-
-msgid "Secure messaging, anywhere"
-msgstr "Sicher kommunizieren, überall"
-
-msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-msgstr "Briar ist eine Messaging-App für Aktivisten, Journalisten und jeden, der eine sichere, einfache und robuste Art der Kommunikation benötigt. Im Gegensatz zu herkömmlichen Messaging-Apps benötigt Briar keinen zentralen Server. Nachrichten werden direkt zwischen den Endgeräten der Benutzer ausgetauscht. Wenn das Internet ausfällt, kann Briar diese auch über Bluetooth oder WLAN austauschen, um den Informationsaustausch in einer Krise aufrecht zu erhalten. Mit einer Internet Verbindung synchronisiert sich Briar über das Tor-Netzwerk und schützt so die Benutzer und ihre Kontakte vor Überwachung."
-
-msgid "The Briar Project"
-msgstr "Das Briar-Projekt"
-
-msgid "Main window showing two contacts and chat"
-msgstr "Hauptfenster mit zwei Kontakten und Chat"
-
-msgid "Welcome screen with registration"
-msgstr "Willkommensbildschirm mit Registrierung"
-
-msgid "Adding contacts at a distance"
-msgstr "Kontakt in der Ferne hinzufügen"
-
-msgid "Main window with two contacts and about dialog"
-msgstr "Hauptfenster mit zwei Kontakten und dem \"Über\"-Dialog"
-
-msgid "Improvements in this version:"
-msgstr "Verbesserungen in dieser Version:"
-
-msgid "Improved notification support"
-msgstr "Verbesserte Unterstützung für Benachrichtigungen"
-
-msgid "Showing number of unread messages in contact list"
-msgstr "Anzeige der Zahl ungelesener Nachrichten in der Kontaktliste"
-
-msgid "Support for changing contacts' names"
-msgstr "Unterstützung für das Ändern von Kontaktnamen"
-
-msgid "Support for deleting all messages of a chat"
-msgstr "Unterstützung für das Löschen aller Nachrichten eines Chats"
-
-msgid "Indication of messages' delivery states"
-msgstr "Anzeige des Nachrichtenstatus in Chats"
-
-msgid "Migration to briar_wrapper 0.0.5"
-msgstr "Migration zu briar_wrapper 0.0.5"
-
-msgid "Many more minor improvements"
-msgstr "Viele weitere kleine Verbesserungen"
-
-msgid "Translations into many languages:"
-msgstr "Übersetzung in viele Sprachen:"
-
-msgid "Albanian"
-msgstr "Albanisch"
-
-msgid "Catalan"
-msgstr "Katalanisch"
-
-msgid "Chinese (Simplified)"
-msgstr "Chinesisch (Vereinfacht)"
-
-msgid "Esperanto"
-msgstr "Esperanto"
-
-msgid "Dutch"
-msgstr "Niederländisch"
-
-msgid "French"
-msgstr "Französisch"
-
-msgid "Galician"
-msgstr "Galizisch"
-
-msgid "Icelandic"
-msgstr "Isländisch"
-
-msgid "Italian"
-msgstr "Italienisch"
-
-msgid "Lithuanian"
-msgstr "Litauisch"
-
-msgid "Persian"
-msgstr "Persisch"
-
-msgid "Russian"
-msgstr "Russisch"
-
-msgid "Thai"
-msgstr "Thailändisch"
-
-msgid "Basic notification support"
-msgstr "Grundlegende Unterstützung für Benachrichtigungen"
-
-msgid "Support for contact deletion"
-msgstr "Unterstützung für das Löschen von Kontakten"
-
-msgid "Hugely improved chat UI"
-msgstr "Deutlich verbesserte Chat UI"
-
-msgid "Full Spanish and German translations"
-msgstr "Vollständige spanische und deutsche Übersetzung"
-
-msgid "Migration to libhandy 1.0"
-msgstr "Migration zu libhandy 1.0"
-
-msgid "Migration to briar_wrapper 0.0.4"
-msgstr "Migration zu briar_wrapper 0.0.4"
-
-msgid "Show online status of contacts in contact list (#19)"
-msgstr "Anzeige des Onlinestatus von Kontakten in der Kontaktliste (#19)"
-
-msgid "Support copying content in messages (#51)"
-msgstr "Unterstützung für das Kopieren von Nachrichteninhalten (#51)"
-
-msgid "Fix bug with Briar messages not having text (#56)"
-msgstr "Fehler behoben, dass Briar-Nachrichten keinen Text haben (#56)"
-
-msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr "Fehler behoben, durch den der Name eines Kontakts in privaten Nachrichten nicht angezeigt wurde (#55)"
-
-msgid "Update Briar core to version 1.2.9"
-msgstr "Aktualisierung vom Briar-Kern auf Version 1.2.9"
-
-msgid "Lots of software tests"
-msgstr "Viele Softwaretests"
-
-msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr "Das erste Alpha-Release von Briar GTK. Es können Kontakte in der Ferne hinzugefügt und private Chats genutzt werden. Andere Funktionen, wie Gruppen, Foren und Blogs folgen."
-
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr "Copyright © 2019-2020 Das Briar-Projekt"
-
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr "Briar-App für GTK-Desktop und Mobilgeräte"
-
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr "Besuche die Webseite von Briar GTK"
-
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
 msgstr "Gib diesen Link dem Kontakt, den du hinzufügen möchtest"
@@ -315,6 +174,147 @@ msgstr "Bitte gib einen Link ein"
 
 msgid "Enter your contact's link, not your own"
 msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
+
+msgctxt "Used in about dialog"
+msgid "Copyright © 2019-2020 The Briar Project"
+msgstr "Copyright © 2019-2020 Das Briar-Projekt"
+
+msgctxt "Used in about dialog"
+msgid "A Briar client for GTK desktop and mobile devices"
+msgstr "Briar-App für GTK-Desktop und Mobilgeräte"
+
+msgctxt "Used in about dialog to get to website"
+msgid "Visit Briar GTK website"
+msgstr "Besuche die Webseite von Briar GTK"
+
+#~ msgid "Briar"
+#~ msgstr "Briar"
+
+#~ msgid "Secure messaging, anywhere"
+#~ msgstr "Sicher kommunizieren, überall"
+
+#~ msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
+#~ msgstr "Briar ist eine Messaging-App für Aktivisten, Journalisten und jeden, der eine sichere, einfache und robuste Art der Kommunikation benötigt. Im Gegensatz zu herkömmlichen Messaging-Apps benötigt Briar keinen zentralen Server. Nachrichten werden direkt zwischen den Endgeräten der Benutzer ausgetauscht. Wenn das Internet ausfällt, kann Briar diese auch über Bluetooth oder WLAN austauschen, um den Informationsaustausch in einer Krise aufrecht zu erhalten. Mit einer Internet Verbindung synchronisiert sich Briar über das Tor-Netzwerk und schützt so die Benutzer und ihre Kontakte vor Überwachung."
+
+#~ msgid "The Briar Project"
+#~ msgstr "Das Briar-Projekt"
+
+#~ msgid "Main window showing two contacts and chat"
+#~ msgstr "Hauptfenster mit zwei Kontakten und Chat"
+
+#~ msgid "Welcome screen with registration"
+#~ msgstr "Willkommensbildschirm mit Registrierung"
+
+#~ msgid "Adding contacts at a distance"
+#~ msgstr "Kontakt in der Ferne hinzufügen"
+
+#~ msgid "Main window with two contacts and about dialog"
+#~ msgstr "Hauptfenster mit zwei Kontakten und dem \"Über\"-Dialog"
+
+#~ msgid "Improvements in this version:"
+#~ msgstr "Verbesserungen in dieser Version:"
+
+#~ msgid "Improved notification support"
+#~ msgstr "Verbesserte Unterstützung für Benachrichtigungen"
+
+#~ msgid "Showing number of unread messages in contact list"
+#~ msgstr "Anzeige der Zahl ungelesener Nachrichten in der Kontaktliste"
+
+#~ msgid "Support for changing contacts' names"
+#~ msgstr "Unterstützung für das Ändern von Kontaktnamen"
+
+#~ msgid "Support for deleting all messages of a chat"
+#~ msgstr "Unterstützung für das Löschen aller Nachrichten eines Chats"
+
+#~ msgid "Indication of messages' delivery states"
+#~ msgstr "Anzeige des Nachrichtenstatus in Chats"
+
+#~ msgid "Migration to briar_wrapper 0.0.5"
+#~ msgstr "Migration zu briar_wrapper 0.0.5"
+
+#~ msgid "Many more minor improvements"
+#~ msgstr "Viele weitere kleine Verbesserungen"
+
+#~ msgid "Translations into many languages:"
+#~ msgstr "Übersetzung in viele Sprachen:"
+
+#~ msgid "Albanian"
+#~ msgstr "Albanisch"
+
+#~ msgid "Catalan"
+#~ msgstr "Katalanisch"
+
+#~ msgid "Chinese (Simplified)"
+#~ msgstr "Chinesisch (Vereinfacht)"
+
+#~ msgid "Esperanto"
+#~ msgstr "Esperanto"
+
+#~ msgid "Dutch"
+#~ msgstr "Niederländisch"
+
+#~ msgid "French"
+#~ msgstr "Französisch"
+
+#~ msgid "Galician"
+#~ msgstr "Galizisch"
+
+#~ msgid "Icelandic"
+#~ msgstr "Isländisch"
+
+#~ msgid "Italian"
+#~ msgstr "Italienisch"
+
+#~ msgid "Lithuanian"
+#~ msgstr "Litauisch"
+
+#~ msgid "Persian"
+#~ msgstr "Persisch"
+
+#~ msgid "Russian"
+#~ msgstr "Russisch"
+
+#~ msgid "Thai"
+#~ msgstr "Thailändisch"
+
+#~ msgid "Basic notification support"
+#~ msgstr "Grundlegende Unterstützung für Benachrichtigungen"
+
+#~ msgid "Support for contact deletion"
+#~ msgstr "Unterstützung für das Löschen von Kontakten"
+
+#~ msgid "Hugely improved chat UI"
+#~ msgstr "Deutlich verbesserte Chat UI"
+
+#~ msgid "Full Spanish and German translations"
+#~ msgstr "Vollständige spanische und deutsche Übersetzung"
+
+#~ msgid "Migration to libhandy 1.0"
+#~ msgstr "Migration zu libhandy 1.0"
+
+#~ msgid "Migration to briar_wrapper 0.0.4"
+#~ msgstr "Migration zu briar_wrapper 0.0.4"
+
+#~ msgid "Show online status of contacts in contact list (#19)"
+#~ msgstr "Anzeige des Onlinestatus von Kontakten in der Kontaktliste (#19)"
+
+#~ msgid "Support copying content in messages (#51)"
+#~ msgstr "Unterstützung für das Kopieren von Nachrichteninhalten (#51)"
+
+#~ msgid "Fix bug with Briar messages not having text (#56)"
+#~ msgstr "Fehler behoben, dass Briar-Nachrichten keinen Text haben (#56)"
+
+#~ msgid "Fix bug with contact's name not showing in private messages (#55)"
+#~ msgstr "Fehler behoben, durch den der Name eines Kontakts in privaten Nachrichten nicht angezeigt wurde (#55)"
+
+#~ msgid "Update Briar core to version 1.2.9"
+#~ msgstr "Aktualisierung vom Briar-Kern auf Version 1.2.9"
+
+#~ msgid "Lots of software tests"
+#~ msgstr "Viele Softwaretests"
+
+#~ msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
+#~ msgstr "Das erste Alpha-Release von Briar GTK. Es können Kontakte in der Ferne hinzugefügt und private Chats genutzt werden. Andere Funktionen, wie Gruppen, Foren und Blogs folgen."
 
 #~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
 #~ msgid "Nico Alt"

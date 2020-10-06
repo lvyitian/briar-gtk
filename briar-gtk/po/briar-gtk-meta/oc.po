@@ -150,159 +150,78 @@ msgstr ""
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give this link to the contact you want to add"
+#~ msgstr "Donatz aqueste ligam al contacte que volètz ajustar"
 
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter the link from your contact here"
+#~ msgstr "Picatz lo ligam del contacte aquí"
 
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Contact's link"
+#~ msgstr "Ligam del contacte"
 
-msgctxt "Used in add contact page"
-msgid "Give this link to the contact you want to add"
-msgstr "Donatz aqueste ligam al contacte que volètz ajustar"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a link"
+#~ msgstr "Mercés de picar un ligam"
 
-msgctxt "Used in add contact page"
-msgid "Enter the link from your contact here"
-msgstr "Picatz lo ligam del contacte aquí"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give your contact a nickname. Only you can see it."
+#~ msgstr "Donatz un escais-nom a vòstre contacte. Pas que vosautres poiretz lo veire."
 
-msgctxt "Used in add contact page"
-msgid "Contact's link"
-msgstr "Ligam del contacte"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter a nickname"
+#~ msgstr "Picatz l’escais-nom"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a link"
-msgstr "Mercés de picar un ligam"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a nickname"
+#~ msgstr "Mercés de picar un escais-nom"
 
-msgctxt "Used in add contact page"
-msgid "Give your contact a nickname. Only you can see it."
-msgstr "Donatz un escais-nom a vòstre contacte. Pas que vosautres poiretz lo veire."
+#~ msgctxt "Button in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Ajustar un contacte"
 
-msgctxt "Used in add contact page"
-msgid "Enter a nickname"
-msgstr "Picatz l’escais-nom"
+#~ msgid "Next"
+#~ msgstr "Seguent"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a nickname"
-msgstr "Mercés de picar un escais-nom"
+#~ msgctxt "Title in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Ajustar un contacte"
 
-msgctxt "Button in add contact page"
-msgid "Add contact"
-msgstr "Ajustar un contacte"
+#~ msgid "Delete contact"
+#~ msgstr "Suprimir lo contacte"
 
-msgid "Next"
-msgstr "Seguent"
+#~ msgid "Password"
+#~ msgstr "Senhal"
 
-msgctxt "Title in add contact page"
-msgid "Add contact"
-msgstr "Ajustar un contacte"
+#~ msgctxt "Accessibility text in main menu"
+#~ msgid "Add contact"
+#~ msgstr "Ajustar un contacte"
 
-msgid "Delete contact"
-msgstr "Suprimir lo contacte"
+#~ msgid "Back"
+#~ msgstr "Precedent"
 
-msgid "Password"
-msgstr "Senhal"
+#~ msgid "Welcome to Briar"
+#~ msgstr "La benvenguda a Briar"
 
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr ""
+#~ msgid "Choose your nickname"
+#~ msgstr "Causir un escais-nom"
 
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr ""
+#~ msgid "Create Account"
+#~ msgstr "Crear un compte"
 
-msgid "About Briar GTK"
-msgstr ""
+#~ msgid "Confirm Contact Deletion"
+#~ msgstr "Confirmatz la supression del contacte"
 
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr ""
+#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+#~ msgstr "Sètz segur de voler suprimir lo contacte e los messatges ligats a el ?"
 
-msgid "No contact selected"
-msgstr ""
+#~ msgid "Please enter a nickname"
+#~ msgstr "Mercés de picar un escais-nom"
 
-msgid "Select a contact to start chatting"
-msgstr ""
+#~ msgid "Please enter a link"
+#~ msgstr "Mercés de picar un ligam"
 
-msgctxt "Accessibility text in main menu"
-msgid "Add contact"
-msgstr "Ajustar un contacte"
-
-msgid "Main menu"
-msgstr ""
-
-msgid "Back"
-msgstr "Precedent"
-
-msgid "Chat menu"
-msgstr ""
-
-msgid "Welcome to Briar"
-msgstr "La benvenguda a Briar"
-
-msgid "Choose your nickname"
-msgstr "Causir un escais-nom"
-
-msgid "Confirm Password"
-msgstr ""
-
-msgid "Create Account"
-msgstr "Crear un compte"
-
-msgid "Creating Account"
-msgstr ""
-
-msgid "Localization Lab Translation Teams"
-msgstr ""
-
-msgid "Using code by"
-msgstr ""
-
-msgid "Briar functionality by"
-msgstr ""
-
-msgid "Myself"
-msgstr ""
-
-msgid "Are you sure you want to exit?"
-msgstr ""
-
-msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
-
-msgid "Confirm Contact Deletion"
-msgstr "Confirmatz la supression del contacte"
-
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "Sètz segur de voler suprimir lo contacte e los messatges ligats a el ?"
-
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr ""
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "Mercés de picar un escais-nom"
-
-msgid "The passwords do not match"
-msgstr ""
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "Mercés de picar un ligam"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Picatz lo ligam del contacte, non pas lo vòstre"
+#~ msgid "Enter your contact's link, not your own"
+#~ msgstr "Picatz lo ligam del contacte, non pas lo vòstre"

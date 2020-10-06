@@ -154,159 +154,89 @@ msgstr ""
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give this link to the contact you want to add"
+#~ msgstr "Adja oda ezt a linket annak a kapcsolatának, akit hozzá szeretne adni"
 
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter the link from your contact here"
+#~ msgstr "Írj a be a linket a kapcsolatától ide"
 
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Contact's link"
+#~ msgstr "Kapcsolat linkje"
 
-msgctxt "Used in add contact page"
-msgid "Give this link to the contact you want to add"
-msgstr "Adja oda ezt a linket annak a kapcsolatának, akit hozzá szeretne adni"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a link"
+#~ msgstr "Kérjük adja meg a linket"
 
-msgctxt "Used in add contact page"
-msgid "Enter the link from your contact here"
-msgstr "Írj a be a linket a kapcsolatától ide"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give your contact a nickname. Only you can see it."
+#~ msgstr "Adja meg a kontakt becenevét. Csak ön láthatja."
 
-msgctxt "Used in add contact page"
-msgid "Contact's link"
-msgstr "Kapcsolat linkje"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter a nickname"
+#~ msgstr "Becenév megadása"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a link"
-msgstr "Kérjük adja meg a linket"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a nickname"
+#~ msgstr "Kérjük adjon meg becenevet"
 
-msgctxt "Used in add contact page"
-msgid "Give your contact a nickname. Only you can see it."
-msgstr "Adja meg a kontakt becenevét. Csak ön láthatja."
+#~ msgctxt "Button in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Kapcsolat hozzáadása"
 
-msgctxt "Used in add contact page"
-msgid "Enter a nickname"
-msgstr "Becenév megadása"
+#~ msgid "Next"
+#~ msgstr "Következő"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a nickname"
-msgstr "Kérjük adjon meg becenevet"
+#~ msgctxt "Title in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Kapcsolat hozzáadása"
 
-msgctxt "Button in add contact page"
-msgid "Add contact"
-msgstr "Kapcsolat hozzáadása"
+#~ msgid "Delete contact"
+#~ msgstr "Kapcsolat törlése"
 
-msgid "Next"
-msgstr "Következő"
+#~ msgid "Password"
+#~ msgstr "Jelszó"
 
-msgctxt "Title in add contact page"
-msgid "Add contact"
-msgstr "Kapcsolat hozzáadása"
+#~ msgctxt "Button in login page"
+#~ msgid "Log in"
+#~ msgstr "Belépés"
 
-msgid "Delete contact"
-msgstr "Kapcsolat törlése"
+#~ msgctxt "Used in login page after entering the password"
+#~ msgid "Logging in"
+#~ msgstr "Belépés"
 
-msgid "Password"
-msgstr "Jelszó"
+#~ msgid "No contact selected"
+#~ msgstr "Nincs kapcsolat kiválasztva"
 
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Belépés"
+#~ msgctxt "Accessibility text in main menu"
+#~ msgid "Add contact"
+#~ msgstr "Kapcsolat hozzáadása"
 
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "Belépés"
+#~ msgid "Back"
+#~ msgstr "Vissza"
 
-msgid "About Briar GTK"
-msgstr ""
+#~ msgid "Welcome to Briar"
+#~ msgstr "Köszöntjük a Briar-ban"
 
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr ""
+#~ msgid "Choose your nickname"
+#~ msgstr "Felhasználónév választása"
 
-msgid "No contact selected"
-msgstr "Nincs kapcsolat kiválasztva"
+#~ msgid "Create Account"
+#~ msgstr "Fiók létrehozása"
 
-msgid "Select a contact to start chatting"
-msgstr ""
+#~ msgid "Confirm Contact Deletion"
+#~ msgstr "Kapcsolat törlésének megerősítése"
 
-msgctxt "Accessibility text in main menu"
-msgid "Add contact"
-msgstr "Kapcsolat hozzáadása"
+#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+#~ msgstr "Biztosan eltávolítja ezt a kapcsolatot és minden vele történt üzenetváltását?"
 
-msgid "Main menu"
-msgstr ""
+#~ msgid "Please enter a nickname"
+#~ msgstr "Kérjük adjon meg becenevet"
 
-msgid "Back"
-msgstr "Vissza"
+#~ msgid "Please enter a link"
+#~ msgstr "Kérjük adja meg a linket"
 
-msgid "Chat menu"
-msgstr ""
-
-msgid "Welcome to Briar"
-msgstr "Köszöntjük a Briar-ban"
-
-msgid "Choose your nickname"
-msgstr "Felhasználónév választása"
-
-msgid "Confirm Password"
-msgstr ""
-
-msgid "Create Account"
-msgstr "Fiók létrehozása"
-
-msgid "Creating Account"
-msgstr ""
-
-msgid "Localization Lab Translation Teams"
-msgstr ""
-
-msgid "Using code by"
-msgstr ""
-
-msgid "Briar functionality by"
-msgstr ""
-
-msgid "Myself"
-msgstr ""
-
-msgid "Are you sure you want to exit?"
-msgstr ""
-
-msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
-
-msgid "Confirm Contact Deletion"
-msgstr "Kapcsolat törlésének megerősítése"
-
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "Biztosan eltávolítja ezt a kapcsolatot és minden vele történt üzenetváltását?"
-
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr ""
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "Kérjük adjon meg becenevet"
-
-msgid "The passwords do not match"
-msgstr ""
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "Kérjük adja meg a linket"
-
-msgid "Enter your contact's link, not your own"
-msgstr "A kapcsolata linkjét adja meg, ne a sajátját"
+#~ msgid "Enter your contact's link, not your own"
+#~ msgstr "A kapcsolata linkjét adja meg, ne a sajátját"

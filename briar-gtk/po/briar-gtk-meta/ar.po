@@ -159,159 +159,99 @@ msgstr ""
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give this link to the contact you want to add"
+#~ msgstr "أرسلوا هذا الرّابط لجهة الاتصال التي تودّون إضافتها"
 
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter the link from your contact here"
+#~ msgstr "أدخلوا الرّابط المرسل من جهة الاتصال هنا"
 
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Contact's link"
+#~ msgstr "رابط جهة الاتصال"
 
-msgctxt "Used in add contact page"
-msgid "Give this link to the contact you want to add"
-msgstr "أرسلوا هذا الرّابط لجهة الاتصال التي تودّون إضافتها"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a link"
+#~ msgstr "يرجى إدخال رابط"
 
-msgctxt "Used in add contact page"
-msgid "Enter the link from your contact here"
-msgstr "أدخلوا الرّابط المرسل من جهة الاتصال هنا"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give your contact a nickname. Only you can see it."
+#~ msgstr ">إعطاء اسم مستعار لجهة الاتصال بإمكانكم رؤيته فق."
 
-msgctxt "Used in add contact page"
-msgid "Contact's link"
-msgstr "رابط جهة الاتصال"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter a nickname"
+#~ msgstr "إدخال اسم مستعار"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a link"
-msgstr "يرجى إدخال رابط"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a nickname"
+#~ msgstr "يرجى إدخال اسم مستعار"
 
-msgctxt "Used in add contact page"
-msgid "Give your contact a nickname. Only you can see it."
-msgstr ">إعطاء اسم مستعار لجهة الاتصال بإمكانكم رؤيته فق."
+#~ msgctxt "Button in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "إضافة جهة إتصال"
 
-msgctxt "Used in add contact page"
-msgid "Enter a nickname"
-msgstr "إدخال اسم مستعار"
+#~ msgid "Next"
+#~ msgstr "التالي"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a nickname"
-msgstr "يرجى إدخال اسم مستعار"
+#~ msgctxt "Title in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "إضافة جهة إتصال"
 
-msgctxt "Button in add contact page"
-msgid "Add contact"
-msgstr "إضافة جهة إتصال"
+#~ msgid "Delete contact"
+#~ msgstr "حذف جهة الإتصال"
 
-msgid "Next"
-msgstr "التالي"
+#~ msgid "Password"
+#~ msgstr "كلمة السّر"
 
-msgctxt "Title in add contact page"
-msgid "Add contact"
-msgstr "إضافة جهة إتصال"
+#~ msgctxt "Button in login page"
+#~ msgid "Log in"
+#~ msgstr "لِج"
 
-msgid "Delete contact"
-msgstr "حذف جهة الإتصال"
+#~ msgctxt "Used in login page after entering the password"
+#~ msgid "Logging in"
+#~ msgstr "جاري تسجيل الدخول"
 
-msgid "Password"
-msgstr "كلمة السّر"
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "كتابة رسالة"
 
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "لِج"
+#~ msgctxt "Accessibility text in main menu"
+#~ msgid "Add contact"
+#~ msgstr "إضافة جهة إتصال"
 
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "جاري تسجيل الدخول"
+#~ msgid "Back"
+#~ msgstr "السابق"
 
-msgid "About Briar GTK"
-msgstr ""
+#~ msgid "Welcome to Briar"
+#~ msgstr "مرحبًا بك في Briar (براير)"
 
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "كتابة رسالة"
+#~ msgid "Choose your nickname"
+#~ msgstr "اختيار اسمك المستعار"
 
-msgid "No contact selected"
-msgstr ""
+#~ msgid "Confirm Password"
+#~ msgstr "تأكيد كلمة السر"
 
-msgid "Select a contact to start chatting"
-msgstr ""
+#~ msgid "Create Account"
+#~ msgstr "إنشاء الحساب"
 
-msgctxt "Accessibility text in main menu"
-msgid "Add contact"
-msgstr "إضافة جهة إتصال"
+#~ msgid "Creating Account"
+#~ msgstr "إنشاء الحساب"
 
-msgid "Main menu"
-msgstr ""
+#~ msgid "Confirm Contact Deletion"
+#~ msgstr "تأكيد حذف جهة الإتصال"
 
-msgid "Back"
-msgstr "السابق"
+#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+#~ msgstr "هل أنت متأكد/ة من أنك تريد حذف جهة الإتصال هذه وكل الرسائل المتبادلة بينكما؟"
 
-msgid "Chat menu"
-msgstr ""
+#~ msgid "Please enter a password"
+#~ msgstr "يُرجى إدخال كلمة السر"
 
-msgid "Welcome to Briar"
-msgstr "مرحبًا بك في Briar (براير)"
+#~ msgid "Please enter a nickname"
+#~ msgstr "يرجى إدخال اسم مستعار"
 
-msgid "Choose your nickname"
-msgstr "اختيار اسمك المستعار"
+#~ msgid "Please enter a link"
+#~ msgstr "يرجى إدخال رابط"
 
-msgid "Confirm Password"
-msgstr "تأكيد كلمة السر"
-
-msgid "Create Account"
-msgstr "إنشاء الحساب"
-
-msgid "Creating Account"
-msgstr "إنشاء الحساب"
-
-msgid "Localization Lab Translation Teams"
-msgstr ""
-
-msgid "Using code by"
-msgstr ""
-
-msgid "Briar functionality by"
-msgstr ""
-
-msgid "Myself"
-msgstr ""
-
-msgid "Are you sure you want to exit?"
-msgstr ""
-
-msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
-
-msgid "Confirm Contact Deletion"
-msgstr "تأكيد حذف جهة الإتصال"
-
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "هل أنت متأكد/ة من أنك تريد حذف جهة الإتصال هذه وكل الرسائل المتبادلة بينكما؟"
-
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr "يُرجى إدخال كلمة السر"
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "يرجى إدخال اسم مستعار"
-
-msgid "The passwords do not match"
-msgstr ""
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "يرجى إدخال رابط"
-
-msgid "Enter your contact's link, not your own"
-msgstr "يرجى إخال رابط جهة الاتصال، وليس رابطكم"
+#~ msgid "Enter your contact's link, not your own"
+#~ msgstr "يرجى إخال رابط جهة الاتصال، وليس رابطكم"

@@ -23,147 +23,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Briar"
-msgstr ""
-
-msgid "Secure messaging, anywhere"
-msgstr ""
-
-msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-msgstr ""
-
-msgid "The Briar Project"
-msgstr ""
-
-msgid "Main window showing two contacts and chat"
-msgstr ""
-
-msgid "Welcome screen with registration"
-msgstr ""
-
-msgid "Adding contacts at a distance"
-msgstr ""
-
-msgid "Main window with two contacts and about dialog"
-msgstr ""
-
-msgid "Improvements in this version:"
-msgstr ""
-
-msgid "Improved notification support"
-msgstr ""
-
-msgid "Showing number of unread messages in contact list"
-msgstr ""
-
-msgid "Support for changing contacts' names"
-msgstr ""
-
-msgid "Support for deleting all messages of a chat"
-msgstr ""
-
-msgid "Indication of messages' delivery states"
-msgstr ""
-
-msgid "Migration to briar_wrapper 0.0.5"
-msgstr ""
-
-msgid "Many more minor improvements"
-msgstr ""
-
-msgid "Translations into many languages:"
-msgstr ""
-
-msgid "Albanian"
-msgstr ""
-
-msgid "Catalan"
-msgstr ""
-
-msgid "Chinese (Simplified)"
-msgstr ""
-
-msgid "Esperanto"
-msgstr ""
-
-msgid "Dutch"
-msgstr ""
-
-msgid "French"
-msgstr "فرانسیسی"
-
-msgid "Galician"
-msgstr ""
-
-msgid "Icelandic"
-msgstr ""
-
-msgid "Italian"
-msgstr ""
-
-msgid "Lithuanian"
-msgstr ""
-
-msgid "Persian"
-msgstr "فارسی"
-
-msgid "Russian"
-msgstr "روسی"
-
-msgid "Thai"
-msgstr ""
-
-msgid "Basic notification support"
-msgstr ""
-
-msgid "Support for contact deletion"
-msgstr ""
-
-msgid "Hugely improved chat UI"
-msgstr ""
-
-msgid "Full Spanish and German translations"
-msgstr ""
-
-msgid "Migration to libhandy 1.0"
-msgstr ""
-
-msgid "Migration to briar_wrapper 0.0.4"
-msgstr ""
-
-msgid "Show online status of contacts in contact list (#19)"
-msgstr ""
-
-msgid "Support copying content in messages (#51)"
-msgstr ""
-
-msgid "Fix bug with Briar messages not having text (#56)"
-msgstr ""
-
-msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr ""
-
-msgid "Update Briar core to version 1.2.9"
-msgstr ""
-
-msgid "Lots of software tests"
-msgstr ""
-
-msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr ""
-
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
-
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
-
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
-
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
 msgstr ""
@@ -308,3 +167,24 @@ msgstr ""
 
 msgid "Enter your contact's link, not your own"
 msgstr ""
+
+msgctxt "Used in about dialog"
+msgid "Copyright © 2019-2020 The Briar Project"
+msgstr ""
+
+msgctxt "Used in about dialog"
+msgid "A Briar client for GTK desktop and mobile devices"
+msgstr ""
+
+msgctxt "Used in about dialog to get to website"
+msgid "Visit Briar GTK website"
+msgstr ""
+
+#~ msgid "French"
+#~ msgstr "فرانسیسی"
+
+#~ msgid "Persian"
+#~ msgstr "فارسی"
+
+#~ msgid "Russian"
+#~ msgstr "روسی"

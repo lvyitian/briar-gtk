@@ -152,159 +152,82 @@ msgstr ""
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give this link to the contact you want to add"
+#~ msgstr "Eman esteka hau gehitu nahi duzun kontaktuari"
 
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter the link from your contact here"
+#~ msgstr "Sartu hemen zure kontaktuaren esteka"
 
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Contact's link"
+#~ msgstr "Kontaktuaren esteka"
 
-msgctxt "Used in add contact page"
-msgid "Give this link to the contact you want to add"
-msgstr "Eman esteka hau gehitu nahi duzun kontaktuari"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a link"
+#~ msgstr "Sartu esteka bat"
 
-msgctxt "Used in add contact page"
-msgid "Enter the link from your contact here"
-msgstr "Sartu hemen zure kontaktuaren esteka"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give your contact a nickname. Only you can see it."
+#~ msgstr "Eman ezizena zure kontaktuari. Zuk ikusi dezakezu, beste inork ez"
 
-msgctxt "Used in add contact page"
-msgid "Contact's link"
-msgstr "Kontaktuaren esteka"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter a nickname"
+#~ msgstr "Sartu ezizen bat"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a link"
-msgstr "Sartu esteka bat"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a nickname"
+#~ msgstr "Sartu ezizen bat"
 
-msgctxt "Used in add contact page"
-msgid "Give your contact a nickname. Only you can see it."
-msgstr "Eman ezizena zure kontaktuari. Zuk ikusi dezakezu, beste inork ez"
+#~ msgctxt "Button in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Gehitu kontaktua"
 
-msgctxt "Used in add contact page"
-msgid "Enter a nickname"
-msgstr "Sartu ezizen bat"
+#~ msgid "Next"
+#~ msgstr "Hurrengoa"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a nickname"
-msgstr "Sartu ezizen bat"
+#~ msgctxt "Title in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Gehitu kontaktua"
 
-msgctxt "Button in add contact page"
-msgid "Add contact"
-msgstr "Gehitu kontaktua"
+#~ msgid "Delete contact"
+#~ msgstr "Ezabatu kontaktua"
 
-msgid "Next"
-msgstr "Hurrengoa"
+#~ msgid "Password"
+#~ msgstr "Pasahitza"
 
-msgctxt "Title in add contact page"
-msgid "Add contact"
-msgstr "Gehitu kontaktua"
+#~ msgctxt "Used in login page after entering the password"
+#~ msgid "Logging in"
+#~ msgstr "Saioa hasten"
 
-msgid "Delete contact"
-msgstr "Ezabatu kontaktua"
+#~ msgctxt "Accessibility text in main menu"
+#~ msgid "Add contact"
+#~ msgstr "Gehitu kontaktua"
 
-msgid "Password"
-msgstr "Pasahitza"
+#~ msgid "Back"
+#~ msgstr "Atzera"
 
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr ""
+#~ msgid "Welcome to Briar"
+#~ msgstr "Ongi etorri Briar-era"
 
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "Saioa hasten"
+#~ msgid "Choose your nickname"
+#~ msgstr "Aukeratu zure ezizena"
 
-msgid "About Briar GTK"
-msgstr ""
+#~ msgid "Create Account"
+#~ msgstr "Sortu kontua"
 
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr ""
+#~ msgid "Confirm Contact Deletion"
+#~ msgstr "Baieztatu kontaktua ezabatzea"
 
-msgid "No contact selected"
-msgstr ""
+#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+#~ msgstr "Ziur zaude kontaktu hau eta berarekin trukatutako mezu guztiak kendu nahi dituzula?"
 
-msgid "Select a contact to start chatting"
-msgstr ""
+#~ msgid "Please enter a nickname"
+#~ msgstr "Sartu ezizen bat"
 
-msgctxt "Accessibility text in main menu"
-msgid "Add contact"
-msgstr "Gehitu kontaktua"
+#~ msgid "Please enter a link"
+#~ msgstr "Sartu esteka bat"
 
-msgid "Main menu"
-msgstr ""
-
-msgid "Back"
-msgstr "Atzera"
-
-msgid "Chat menu"
-msgstr ""
-
-msgid "Welcome to Briar"
-msgstr "Ongi etorri Briar-era"
-
-msgid "Choose your nickname"
-msgstr "Aukeratu zure ezizena"
-
-msgid "Confirm Password"
-msgstr ""
-
-msgid "Create Account"
-msgstr "Sortu kontua"
-
-msgid "Creating Account"
-msgstr ""
-
-msgid "Localization Lab Translation Teams"
-msgstr ""
-
-msgid "Using code by"
-msgstr ""
-
-msgid "Briar functionality by"
-msgstr ""
-
-msgid "Myself"
-msgstr ""
-
-msgid "Are you sure you want to exit?"
-msgstr ""
-
-msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
-
-msgid "Confirm Contact Deletion"
-msgstr "Baieztatu kontaktua ezabatzea"
-
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "Ziur zaude kontaktu hau eta berarekin trukatutako mezu guztiak kendu nahi dituzula?"
-
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr ""
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "Sartu ezizen bat"
-
-msgid "The passwords do not match"
-msgstr ""
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "Sartu esteka bat"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Sartu zure kontaktuaren esteka, ez zurea"
+#~ msgid "Enter your contact's link, not your own"
+#~ msgstr "Sartu zure kontaktuaren esteka, ez zurea"

@@ -156,159 +156,91 @@ msgstr ""
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give this link to the contact you want to add"
+#~ msgstr "Ge den här länken till kontakten du vill lägga till"
 
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter the link from your contact here"
+#~ msgstr "Skriv in länken från din kontakt här"
 
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Contact's link"
+#~ msgstr "Kontaktens länk"
 
-msgctxt "Used in add contact page"
-msgid "Give this link to the contact you want to add"
-msgstr "Ge den här länken till kontakten du vill lägga till"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a link"
+#~ msgstr "Skriv in en länk"
 
-msgctxt "Used in add contact page"
-msgid "Enter the link from your contact here"
-msgstr "Skriv in länken från din kontakt här"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give your contact a nickname. Only you can see it."
+#~ msgstr "Ge din kontakt ett smeknamn. Bara du kan se detta."
 
-msgctxt "Used in add contact page"
-msgid "Contact's link"
-msgstr "Kontaktens länk"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter a nickname"
+#~ msgstr "Skriv ett smeknamn"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a link"
-msgstr "Skriv in en länk"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a nickname"
+#~ msgstr "Skriv in ett smeknamn"
 
-msgctxt "Used in add contact page"
-msgid "Give your contact a nickname. Only you can see it."
-msgstr "Ge din kontakt ett smeknamn. Bara du kan se detta."
+#~ msgctxt "Button in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Lägg till kontakt"
 
-msgctxt "Used in add contact page"
-msgid "Enter a nickname"
-msgstr "Skriv ett smeknamn"
+#~ msgid "Next"
+#~ msgstr "Nästa"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a nickname"
-msgstr "Skriv in ett smeknamn"
+#~ msgctxt "Title in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Lägg till kontakt"
 
-msgctxt "Button in add contact page"
-msgid "Add contact"
-msgstr "Lägg till kontakt"
+#~ msgid "Delete contact"
+#~ msgstr "Radera kontakt"
 
-msgid "Next"
-msgstr "Nästa"
+#~ msgid "Password"
+#~ msgstr "Lösenord"
 
-msgctxt "Title in add contact page"
-msgid "Add contact"
-msgstr "Lägg till kontakt"
+#~ msgctxt "Button in login page"
+#~ msgid "Log in"
+#~ msgstr "Logga in"
 
-msgid "Delete contact"
-msgstr "Radera kontakt"
+#~ msgid "No contact selected"
+#~ msgstr "Ingen kontakt vald"
 
-msgid "Password"
-msgstr "Lösenord"
+#~ msgctxt "Accessibility text in main menu"
+#~ msgid "Add contact"
+#~ msgstr "Lägg till kontakt"
 
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Logga in"
+#~ msgid "Back"
+#~ msgstr "Tillbaka"
 
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr ""
+#~ msgid "Welcome to Briar"
+#~ msgstr "Välkommen till Briar"
 
-msgid "About Briar GTK"
-msgstr ""
+#~ msgid "Choose your nickname"
+#~ msgstr "Skapa användarnamn "
 
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr ""
+#~ msgid "Confirm Password"
+#~ msgstr "Bekräfta lösenord"
 
-msgid "No contact selected"
-msgstr "Ingen kontakt vald"
+#~ msgid "Create Account"
+#~ msgstr "Skapa konto "
 
-msgid "Select a contact to start chatting"
-msgstr ""
+#~ msgid "Creating Account"
+#~ msgstr "Skapar Konto"
 
-msgctxt "Accessibility text in main menu"
-msgid "Add contact"
-msgstr "Lägg till kontakt"
+#~ msgid "Confirm Contact Deletion"
+#~ msgstr "Bekräfta radering av kontakt"
 
-msgid "Main menu"
-msgstr ""
+#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+#~ msgstr "Är du säker att du vill radera denna kontakt och alla meddelanden?"
 
-msgid "Back"
-msgstr "Tillbaka"
+#~ msgid "Please enter a nickname"
+#~ msgstr "Skriv in ett smeknamn"
 
-msgid "Chat menu"
-msgstr ""
+#~ msgid "Please enter a link"
+#~ msgstr "Skriv in en länk"
 
-msgid "Welcome to Briar"
-msgstr "Välkommen till Briar"
-
-msgid "Choose your nickname"
-msgstr "Skapa användarnamn "
-
-msgid "Confirm Password"
-msgstr "Bekräfta lösenord"
-
-msgid "Create Account"
-msgstr "Skapa konto "
-
-msgid "Creating Account"
-msgstr "Skapar Konto"
-
-msgid "Localization Lab Translation Teams"
-msgstr ""
-
-msgid "Using code by"
-msgstr ""
-
-msgid "Briar functionality by"
-msgstr ""
-
-msgid "Myself"
-msgstr ""
-
-msgid "Are you sure you want to exit?"
-msgstr ""
-
-msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
-
-msgid "Confirm Contact Deletion"
-msgstr "Bekräfta radering av kontakt"
-
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "Är du säker att du vill radera denna kontakt och alla meddelanden?"
-
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr ""
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "Skriv in ett smeknamn"
-
-msgid "The passwords do not match"
-msgstr ""
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "Skriv in en länk"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Skriv in länken du fick från din kontakt, inte din egna länk"
+#~ msgid "Enter your contact's link, not your own"
+#~ msgstr "Skriv in länken du fick från din kontakt, inte din egna länk"

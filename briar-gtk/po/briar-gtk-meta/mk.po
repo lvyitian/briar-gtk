@@ -151,159 +151,82 @@ msgstr ""
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give this link to the contact you want to add"
+#~ msgstr "Испрати го овој линк до контактот што сакаш да го додадеш"
 
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter the link from your contact here"
+#~ msgstr "Внеси го линкот од твојот контакт овде"
 
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Contact's link"
+#~ msgstr "Линк на контактот"
 
-msgctxt "Used in add contact page"
-msgid "Give this link to the contact you want to add"
-msgstr "Испрати го овој линк до контактот што сакаш да го додадеш"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a link"
+#~ msgstr "Ве молиме внесете линк"
 
-msgctxt "Used in add contact page"
-msgid "Enter the link from your contact here"
-msgstr "Внеси го линкот од твојот контакт овде"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give your contact a nickname. Only you can see it."
+#~ msgstr "Дај му на твојот контакт прекар. Само ти ќе можеш да го видиш."
 
-msgctxt "Used in add contact page"
-msgid "Contact's link"
-msgstr "Линк на контактот"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter a nickname"
+#~ msgstr "Внеси прекар"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a link"
-msgstr "Ве молиме внесете линк"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a nickname"
+#~ msgstr "Ве молиме внесете прекар"
 
-msgctxt "Used in add contact page"
-msgid "Give your contact a nickname. Only you can see it."
-msgstr "Дај му на твојот контакт прекар. Само ти ќе можеш да го видиш."
+#~ msgctxt "Button in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Додај контакт"
 
-msgctxt "Used in add contact page"
-msgid "Enter a nickname"
-msgstr "Внеси прекар"
+#~ msgid "Next"
+#~ msgstr "Следно"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a nickname"
-msgstr "Ве молиме внесете прекар"
+#~ msgctxt "Title in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Додај контакт"
 
-msgctxt "Button in add contact page"
-msgid "Add contact"
-msgstr "Додај контакт"
+#~ msgid "Delete contact"
+#~ msgstr "Избриши контакт"
 
-msgid "Next"
-msgstr "Следно"
+#~ msgid "Password"
+#~ msgstr "Лозинка"
 
-msgctxt "Title in add contact page"
-msgid "Add contact"
-msgstr "Додај контакт"
+#~ msgctxt "Button in login page"
+#~ msgid "Log in"
+#~ msgstr "Најави се"
 
-msgid "Delete contact"
-msgstr "Избриши контакт"
+#~ msgctxt "Accessibility text in main menu"
+#~ msgid "Add contact"
+#~ msgstr "Додај контакт"
 
-msgid "Password"
-msgstr "Лозинка"
+#~ msgid "Back"
+#~ msgstr "Назад"
 
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Најави се"
+#~ msgid "Welcome to Briar"
+#~ msgstr "Добредојде во Briar"
 
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr ""
+#~ msgid "Choose your nickname"
+#~ msgstr "Одберете корисничко име"
 
-msgid "About Briar GTK"
-msgstr ""
+#~ msgid "Create Account"
+#~ msgstr "Создади сметка"
 
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr ""
+#~ msgid "Confirm Contact Deletion"
+#~ msgstr "Потврди бришење на контакт"
 
-msgid "No contact selected"
-msgstr ""
+#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+#~ msgstr "Дали сте сигурни дека сакате да го избришете овој контакт и сите пораки поврзани со него?"
 
-msgid "Select a contact to start chatting"
-msgstr ""
+#~ msgid "Please enter a nickname"
+#~ msgstr "Ве молиме внесете прекар"
 
-msgctxt "Accessibility text in main menu"
-msgid "Add contact"
-msgstr "Додај контакт"
+#~ msgid "Please enter a link"
+#~ msgstr "Ве молиме внесете линк"
 
-msgid "Main menu"
-msgstr ""
-
-msgid "Back"
-msgstr "Назад"
-
-msgid "Chat menu"
-msgstr ""
-
-msgid "Welcome to Briar"
-msgstr "Добредојде во Briar"
-
-msgid "Choose your nickname"
-msgstr "Одберете корисничко име"
-
-msgid "Confirm Password"
-msgstr ""
-
-msgid "Create Account"
-msgstr "Создади сметка"
-
-msgid "Creating Account"
-msgstr ""
-
-msgid "Localization Lab Translation Teams"
-msgstr ""
-
-msgid "Using code by"
-msgstr ""
-
-msgid "Briar functionality by"
-msgstr ""
-
-msgid "Myself"
-msgstr ""
-
-msgid "Are you sure you want to exit?"
-msgstr ""
-
-msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
-
-msgid "Confirm Contact Deletion"
-msgstr "Потврди бришење на контакт"
-
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "Дали сте сигурни дека сакате да го избришете овој контакт и сите пораки поврзани со него?"
-
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr ""
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "Ве молиме внесете прекар"
-
-msgid "The passwords do not match"
-msgstr ""
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "Ве молиме внесете линк"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Внеси го линкот на твојот контакт, а не својот линк"
+#~ msgid "Enter your contact's link, not your own"
+#~ msgstr "Внеси го линкот на твојот контакт, а не својот линк"

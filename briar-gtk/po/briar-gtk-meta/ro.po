@@ -155,159 +155,92 @@ msgstr ""
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
 
-msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give this link to the contact you want to add"
+#~ msgstr "Dați această adresă contactului pe care doriți să-l adăugați"
 
-msgctxt "Used in about dialog"
-msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter the link from your contact here"
+#~ msgstr "Introduceți adresa contactului dumneavoastră aici"
 
-msgctxt "Used in about dialog to get to website"
-msgid "Visit Briar GTK website"
-msgstr ""
+#~ msgctxt "Used in add contact page"
+#~ msgid "Contact's link"
+#~ msgstr "Adresa contactului"
 
-msgctxt "Used in add contact page"
-msgid "Give this link to the contact you want to add"
-msgstr "Dați această adresă contactului pe care doriți să-l adăugați"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a link"
+#~ msgstr "Vă rugăm să introduceți o adresă"
 
-msgctxt "Used in add contact page"
-msgid "Enter the link from your contact here"
-msgstr "Introduceți adresa contactului dumneavoastră aici"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Give your contact a nickname. Only you can see it."
+#~ msgstr "Introduceți un nume pentru contact. Vizibil doar pentru dumneavoastră."
 
-msgctxt "Used in add contact page"
-msgid "Contact's link"
-msgstr "Adresa contactului"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Enter a nickname"
+#~ msgstr "Introduceți un nume"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a link"
-msgstr "Vă rugăm să introduceți o adresă"
+#~ msgctxt "Used in add contact page"
+#~ msgid "Please enter a nickname"
+#~ msgstr "Vă rugăm să introduceți un nume"
 
-msgctxt "Used in add contact page"
-msgid "Give your contact a nickname. Only you can see it."
-msgstr "Introduceți un nume pentru contact. Vizibil doar pentru dumneavoastră."
+#~ msgctxt "Button in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Adaugă contact"
 
-msgctxt "Used in add contact page"
-msgid "Enter a nickname"
-msgstr "Introduceți un nume"
+#~ msgid "Next"
+#~ msgstr "Înainte"
 
-msgctxt "Used in add contact page"
-msgid "Please enter a nickname"
-msgstr "Vă rugăm să introduceți un nume"
+#~ msgctxt "Title in add contact page"
+#~ msgid "Add contact"
+#~ msgstr "Adaugă contact"
 
-msgctxt "Button in add contact page"
-msgid "Add contact"
-msgstr "Adaugă contact"
+#~ msgid "Delete contact"
+#~ msgstr "Șterge contactul"
 
-msgid "Next"
-msgstr "Înainte"
+#~ msgid "Password"
+#~ msgstr "Parola"
 
-msgctxt "Title in add contact page"
-msgid "Add contact"
-msgstr "Adaugă contact"
+#~ msgctxt "Button in login page"
+#~ msgid "Log in"
+#~ msgstr "Autentificare"
 
-msgid "Delete contact"
-msgstr "Șterge contactul"
+#~ msgctxt "Used in login page after entering the password"
+#~ msgid "Logging in"
+#~ msgstr "Autentificare"
 
-msgid "Password"
-msgstr "Parola"
+#~ msgctxt "Accessibility text in main menu"
+#~ msgid "Add contact"
+#~ msgstr "Adaugă contact"
 
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Autentificare"
+#~ msgid "Back"
+#~ msgstr "Înapoi"
 
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "Autentificare"
+#~ msgid "Welcome to Briar"
+#~ msgstr "Bine ați venit la Briar"
 
-msgid "About Briar GTK"
-msgstr ""
+#~ msgid "Choose your nickname"
+#~ msgstr "Alegeți-vă numele de utilizator"
 
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr ""
+#~ msgid "Confirm Password"
+#~ msgstr "Confirmare parolă"
 
-msgid "No contact selected"
-msgstr ""
+#~ msgid "Create Account"
+#~ msgstr "Creează un cont"
 
-msgid "Select a contact to start chatting"
-msgstr ""
+#~ msgid "Creating Account"
+#~ msgstr "Crearea contului"
 
-msgctxt "Accessibility text in main menu"
-msgid "Add contact"
-msgstr "Adaugă contact"
+#~ msgid "Confirm Contact Deletion"
+#~ msgstr "Confirmare ștergere contact"
 
-msgid "Main menu"
-msgstr ""
+#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+#~ msgstr "Sigur doriți să ștergeți acest contact și toate mesajele schimbate?"
 
-msgid "Back"
-msgstr "Înapoi"
+#~ msgid "Please enter a nickname"
+#~ msgstr "Vă rugăm să introduceți un nume"
 
-msgid "Chat menu"
-msgstr ""
+#~ msgid "Please enter a link"
+#~ msgstr "Vă rugăm să introduceți o adresă"
 
-msgid "Welcome to Briar"
-msgstr "Bine ați venit la Briar"
-
-msgid "Choose your nickname"
-msgstr "Alegeți-vă numele de utilizator"
-
-msgid "Confirm Password"
-msgstr "Confirmare parolă"
-
-msgid "Create Account"
-msgstr "Creează un cont"
-
-msgid "Creating Account"
-msgstr "Crearea contului"
-
-msgid "Localization Lab Translation Teams"
-msgstr ""
-
-msgid "Using code by"
-msgstr ""
-
-msgid "Briar functionality by"
-msgstr ""
-
-msgid "Myself"
-msgstr ""
-
-msgid "Are you sure you want to exit?"
-msgstr ""
-
-msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
-
-msgid "Confirm Contact Deletion"
-msgstr "Confirmare ștergere contact"
-
-msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "Sigur doriți să ștergeți acest contact și toate mesajele schimbate?"
-
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr ""
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "Vă rugăm să introduceți un nume"
-
-msgid "The passwords do not match"
-msgstr ""
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "Vă rugăm să introduceți o adresă"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Introduceți adresa contactului, nu cea personală"
+#~ msgid "Enter your contact's link, not your own"
+#~ msgstr "Introduceți adresa contactului, nu cea personală"

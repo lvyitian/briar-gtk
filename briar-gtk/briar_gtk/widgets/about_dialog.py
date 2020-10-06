@@ -39,7 +39,7 @@ class AboutDialogWidget():
             #  "Used in about dialog; it's prefixed by 'Translated by'"
             "Localization Lab Translation Teams"
         )
-        localization_lab_url = "https://wiki.localizationlab.org/index.php/Projects"
+        localization_lab_url = "https://wiki.localizationlab.org/index.php/Projects"  # noqa
         translation_description = f"{translation_teams} {localization_lab_url}"
         self._about_dialog.set_translator_credits(
             translation_description

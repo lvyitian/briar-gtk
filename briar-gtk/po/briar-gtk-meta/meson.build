@@ -2,4 +2,4 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-i18n.gettext('briar-gtk', preset: 'glib')
+i18n.gettext('briar-gtk-meta', preset: 'glib')

@@ -6,7 +6,7 @@ desktop_file = i18n.merge_file(
   input: 'app.briar.gtk.desktop.in',
   output: 'app.briar.gtk.desktop',
   type: 'desktop',
-  po_dir: '../po',
+  po_dir: '../po/briar-gtk',
   install: true,
   install_dir: join_paths(get_option('datadir'), 'applications')
 )
@@ -21,7 +21,7 @@ endif
 appstream_file = i18n.merge_file(
   input: 'app.briar.gtk.metainfo.xml.in',
   output: 'app.briar.gtk.metainfo.xml',
-  po_dir: '../po',
+  po_dir: '../po/briar-gtk-meta',
   install: true,
   install_dir: join_paths(get_option('datadir'), 'metainfo')
 )

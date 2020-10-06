@@ -6,20 +6,28 @@
 # Initial version from GNOME Lollypop
 # https://gitlab.gnome.org/World/lollypop/blob/1.0.2/generate_data.sh
 
-cd briar-gtk/po
-# git pull https://www.transifex.com/otf/briar/
->briar-gtk.pot
-for file in ../data/app.briar.gtk.metainfo.xml.in ../data/ui/about_dialog.ui.in ../data/ui/*.ui $(find "../briar_gtk" -name '*.py');
-do
-xgettext --from-code=UTF-8 --no-location --no-wrap --keyword="_t:1c,2" -j $file -o briar-gtk.pot
-done
->LINGUAS
-for po in *.po
-do
-msgmerge --no-wrap -N $po briar-gtk.pot > /tmp/$$language_new.po
-mv /tmp/$$language_new.po $po
-language=${po%.po}
-echo $language >>LINGUAS
-done
-sed -i -e '/^"POT-Creation-Date: /d' briar-gtk.pot
-sed -i -e '/^"POT-Creation-Date: /d' *.po
+function generate_translations()
+{
+    >$1
+    for file in "${@:2}";
+    do
+        xgettext --from-code=UTF-8 --no-location --no-wrap -j $file -o $1
+    done
+    >LINGUAS
+    for po in *.po
+    do
+        msgmerge --no-wrap -N $po $1 > /tmp/$$language_new.po
+        mv /tmp/$$language_new.po $po
+        language=${po%.po}
+        echo $language >>LINGUAS
+    done
+    sed -i -e '/^"POT-Creation-Date: /d' $1
+    sed -i -e '/^"POT-Creation-Date: /d' *.po
+}
+
+cd briar-gtk/po/briar-gtk
+generate_translations "briar-gtk.pot" ../../data/ui/*.ui $(find "../../briar_gtk" -name '*.py') ../../data/ui/about_dialog.ui.in 
+
+cd ../briar-gtk-meta
+generate_translations "briar-gtk-meta.pot" ../../data/app.briar.gtk.metainfo.xml.in
+

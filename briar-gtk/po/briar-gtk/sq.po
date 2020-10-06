@@ -1,0 +1,334 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# erinm, 2020
+# Bujar Tafili, 2020
+# Besnik Bleta <besnik@programeshqip.org>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
+"Language-Team: Albanian (https://www.transifex.com/otf/teams/76528/sq/)\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Briar"
+msgstr "Briar"
+
+msgid "Secure messaging, anywhere"
+msgstr "Shkëmbim mesazhesh i sigurt, kudo"
+
+msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
+msgstr "Briar është një aplikacion për shkëmbim mesazhesh, i konceptuar për veprimtarë, gazetarë, dhe cilido tjetër që ka nevojë për një mënyrë të sigurt, të lehtë dhe të fuqishme komunikimi. Ndryshe nga aplikacionet tradicionale, Briar-i nuk bazohet në një shërbyes qendror - mesazhet njëkohësohen drejtpërdrejt mes pajisjeve të përdoruesve. Nëse s’ka internet, Briar-i mund të bëjë njëkohësimin me Bluetooth ose Wi-Fi, duke mbajtur kështu rrjedhën e informacioneve në rast krizash. Nëse ka Internet, Briar-i mund të bëjë njëkohësimet përmes rrjetit Tor, duke i mbrojtur përdoruesit dhe marrëdhëniet e tyre nga survejimi."
+
+msgid "The Briar Project"
+msgstr "Projekti Briar"
+
+msgid "Main window showing two contacts and chat"
+msgstr "Dritare kryesore, ku shfaqen dy kontakte dhe një fjalosje"
+
+msgid "Welcome screen with registration"
+msgstr "Skenë mirëseardhjeje me regjistrim"
+
+msgid "Adding contacts at a distance"
+msgstr "Shtim kontaktesh në largësi"
+
+msgid "Main window with two contacts and about dialog"
+msgstr "Dritare kryesore me dy kontakte dhe dialogun Mbi"
+
+msgid "Improvements in this version:"
+msgstr "Përmirësime në këtë version:"
+
+msgid "Improved notification support"
+msgstr "Mbulim i përmirësuar njoftimesh"
+
+msgid "Showing number of unread messages in contact list"
+msgstr "Shfaqje numri mesazhesh të palexuar te listë kontaktesh"
+
+msgid "Support for changing contacts' names"
+msgstr "Mbulim për ndryshim emrash kontaktesh"
+
+msgid "Support for deleting all messages of a chat"
+msgstr "Mbulim për fshirje të krejt mesazheve në një fjalosje"
+
+msgid "Indication of messages' delivery states"
+msgstr "Tregim gjendjeje dërgimi mesazhesh"
+
+msgid "Migration to briar_wrapper 0.0.5"
+msgstr "Migrim te briar_wrapper 0.0.5"
+
+msgid "Many more minor improvements"
+msgstr "Mjaft përmirësime të tjera të vockla"
+
+msgid "Translations into many languages:"
+msgstr "Përkthime në mjaft gjuhë"
+
+msgid "Albanian"
+msgstr "Shqip"
+
+msgid "Catalan"
+msgstr "Katalanase"
+
+msgid "Chinese (Simplified)"
+msgstr "Kinezisht (E thjeshtuar)"
+
+msgid "Esperanto"
+msgstr "Esperanto"
+
+msgid "Dutch"
+msgstr "Holandisht"
+
+msgid "French"
+msgstr "Frëngjisht"
+
+msgid "Galician"
+msgstr "Galicisht"
+
+msgid "Icelandic"
+msgstr "Islandisht"
+
+msgid "Italian"
+msgstr "Italisht"
+
+msgid "Lithuanian"
+msgstr "Lituanisht"
+
+msgid "Persian"
+msgstr "Persisht"
+
+msgid "Russian"
+msgstr "Rusisht"
+
+msgid "Thai"
+msgstr "Tajlandisht"
+
+msgid "Basic notification support"
+msgstr "Mbulim njoftimesh elementare"
+
+msgid "Support for contact deletion"
+msgstr "Mbulim për fshirje kontaktesh"
+
+msgid "Hugely improved chat UI"
+msgstr "UI fjalosjeje e përmirësuar në masë të madhe"
+
+msgid "Full Spanish and German translations"
+msgstr "Përkthime të plota në spanjisht dhe gjermanisht"
+
+msgid "Migration to libhandy 1.0"
+msgstr "Migrim te libhandy 1.0"
+
+msgid "Migration to briar_wrapper 0.0.4"
+msgstr "Migrim te briar_wrapper 0.0.4"
+
+msgid "Show online status of contacts in contact list (#19)"
+msgstr "Shfaq gjendje “në linjë” të kontakteve në listë kontaktesh (#19)"
+
+msgid "Support copying content in messages (#51)"
+msgstr "Mbulim për kopjim lënde te mesazhet (#51)"
+
+msgid "Fix bug with Briar messages not having text (#56)"
+msgstr "Ndreqje të mete mospasjeje tekst në mesazhe Briar (#56)"
+
+msgid "Fix bug with contact's name not showing in private messages (#55)"
+msgstr "Ndreqje të mete mosshfaqjeje emri kontakti në mesazhe private (#55)"
+
+msgid "Update Briar core to version 1.2.9"
+msgstr "Përditësim i bazës së Briar-it me versionin 1.2.9"
+
+msgid "Lots of software tests"
+msgstr "Plot testime software-i"
+
+msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
+msgstr "Hedhja e parë fare në qarkullim e një versioni alpha të Briar GTK. Lejon shtim kontaktesh së largëti dhe fjalosje me ta në fjalosje private. Janë për t’u sendërtuar funksione të tjera, të tillë si grupe, forume dhe blogje."
+
+msgctxt "Used in about dialog"
+msgid "Copyright © 2019-2020 The Briar Project"
+msgstr "Të drejta kopjimi © 2019-2020 The Briar Project"
+
+msgctxt "Used in about dialog"
+msgid "A Briar client for GTK desktop and mobile devices"
+msgstr "Një klient Briar për desktop GTK dhe pajisje celulare"
+
+msgctxt "Used in about dialog to get to website"
+msgid "Visit Briar GTK website"
+msgstr "Vizitoni sajtin e Briar GTK"
+
+msgctxt "Used in add contact page"
+msgid "Give this link to the contact you want to add"
+msgstr "Jepjani këtë lidhje kontaktit që doni të shtoni"
+
+msgctxt "Used in add contact page"
+msgid "Enter the link from your contact here"
+msgstr "Jepni këtu lidhjen prej kontaktit tuaj"
+
+msgctxt "Used in add contact page"
+msgid "Contact's link"
+msgstr "Lidhje e kontaktit"
+
+msgctxt "Used in add contact page"
+msgid "Please enter a link"
+msgstr "Ju lutemi, jepni një lidhje"
+
+msgctxt "Used in add contact page"
+msgid "Give your contact a nickname. Only you can see it."
+msgstr "Jepini kontaktit tuaj një nofkë. Vetëm ju mund ta shihni."
+
+msgctxt "Used in add contact page"
+msgid "Enter a nickname"
+msgstr "Jepni një nofkë"
+
+msgctxt "Used in add contact page"
+msgid "Please enter a nickname"
+msgstr "Ju lutemi, jepni një nofkë"
+
+msgctxt "Button in add contact page"
+msgid "Add contact"
+msgstr "Shtoni kontakt"
+
+msgid "Next"
+msgstr "Pasuesi"
+
+msgctxt "Title in add contact page"
+msgid "Add contact"
+msgstr "Shtoni kontakt"
+
+msgid "Delete contact"
+msgstr "Fshije kontaktin"
+
+msgid "Password"
+msgstr "Fjalëkalim"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "Hyni"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "Po hyhet"
+
+msgid "About Briar GTK"
+msgstr "Mbi Briar GTK"
+
+msgctxt "Used in input field in main window"
+msgid "Type Message"
+msgstr "Shtypni Mesazh"
+
+msgid "No contact selected"
+msgstr "S’ka kontakt të përzgjedhur"
+
+msgid "Select a contact to start chatting"
+msgstr "Që të filloni të fjaloseni, përzgjidhni një kontakt"
+
+msgctxt "Accessibility text in main menu"
+msgid "Add contact"
+msgstr "Shtoni kontakt"
+
+msgid "Main menu"
+msgstr "Menuja kryesore"
+
+msgid "Back"
+msgstr "Mbrapsht"
+
+msgid "Chat menu"
+msgstr "Menu fjalosjeje"
+
+msgid "Welcome to Briar"
+msgstr "Mirë se vini në Briar"
+
+msgid "Choose your nickname"
+msgstr "Zgjidhni nofkën tuaj"
+
+msgid "Confirm Password"
+msgstr "Ripohoni Fjalëkalimin"
+
+msgid "Create Account"
+msgstr "Krijoni Llogari"
+
+msgid "Creating Account"
+msgstr "Po Krijohet Llogari"
+
+msgid "Localization Lab Translation Teams"
+msgstr ""
+
+msgid "Using code by"
+msgstr ""
+
+msgid "Briar functionality by"
+msgstr ""
+
+msgid "Myself"
+msgstr ""
+
+msgid "Are you sure you want to exit?"
+msgstr "Jeni i sigurt se doni të dilet?"
+
+msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+msgstr "Pasi të mbyllni Briar-in, s’do të merrni më mesazhe, as do të dërgohen ata pezull. Që të jeni i lidhur me kontaktet tuaja, mbajeni Briar-in të hapur."
+
+msgid "Confirm Contact Deletion"
+msgstr "Ripohoni Fshirje Kontakti"
+
+msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+msgstr "Jeni i sigurt se doni të hiqet ky kontakt dhe krejt mesazhet e shkëmbyer me këtë kontakt?"
+
+msgid "Contact added"
+msgstr ""
+
+msgid "New private message"
+msgstr ""
+
+msgid "Please enter a password"
+msgstr "Ju lutemi, jepni një fjalëkalim"
+
+msgid "Couldn't log in"
+msgstr "S’u bë dot hyrja"
+
+msgid "Please enter a nickname"
+msgstr "Ju lutemi, jepni një nofkë"
+
+msgid "The passwords do not match"
+msgstr "Fjalëkalimet s’përputhen"
+
+msgid "Couldn't register account"
+msgstr "S’u regjistrua dot llogari"
+
+msgid "Please enter a link"
+msgstr "Ju lutemi, jepni një lidhje"
+
+msgid "Enter your contact's link, not your own"
+msgstr "Jepni lidhjen e kontaktit tuaj, jo tuajën"
+
+#~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
+#~ msgid "Nico Alt"
+#~ msgstr "Nico Alt"
+
+#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
+#~ msgid "Using code by"
+#~ msgstr "Me përdorim kodi nga"
+
+#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
+#~ msgid "Briar functionality by"
+#~ msgstr "Funksionet Briar nga"
+
+#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
+#~ msgid "Myself"
+#~ msgstr "Unë"
+
+#~ msgctxt "Notification"
+#~ msgid "Contact added"
+#~ msgstr "Kontakti u shtua"
+
+#~ msgctxt "Notification"
+#~ msgid "New private message"
+#~ msgstr "Mesazh i ri privat"

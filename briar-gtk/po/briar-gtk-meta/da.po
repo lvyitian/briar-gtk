@@ -4,9 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# erinm, 2020
-# Casper Petersen <casper_petersen@hotmail.com>, 2020
-# Aesthese, 2020
 # KIA <kia___@hushmail.com>, 2020
 # cacapo <handelsehorisont@gmail.com>, 2020
 #
@@ -15,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Last-Translator: cacapo <handelsehorisont@gmail.com>, 2020\n"
 "Language-Team: Danish (https://www.transifex.com/otf/teams/76528/da/)\n"
 "Language: da\n"
@@ -152,16 +149,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgid "Next"
-#~ msgstr "Næste"
-
-#~ msgid "Password"
-#~ msgstr "Adgangskode"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "Log ind"
-
-#~ msgid "Back"
-#~ msgstr "Tilbage"

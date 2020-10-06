@@ -4,11 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Sivarajah Bagerathan <bagerathan@gmail.com>, 2020
-# erinm, 2020
-# Giovanni Pellerano <giovanni.pellerano@evilaliv3.org>, 2020
-# git12a <git12@openmailbox.org>, 2020
-# Balaji Ravichandran <rbalajives@gmail.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
@@ -16,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
 "Language-Team: Tamil (https://www.transifex.com/otf/teams/76528/ta/)\n"
 "Language: ta\n"
@@ -153,43 +148,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "புனைப்பெயரை உள்ளிடு"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "உங்கள் புனைப்பெயரை உள்ளிடு"
-
-#~ msgid "Next"
-#~ msgstr "அடுத்த"
-
-#~ msgid "Password"
-#~ msgstr "கடவுச்சொல்"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "உள் நுழை"
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "உள்நுழைந்துகிறது"
-
-#~ msgid "Back"
-#~ msgstr "மீண்டும்"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "வணக்கம்!"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "உங்கள் புனைப்பெயரை தேர்வு செய்க"
-
-#~ msgid "Create Account"
-#~ msgstr "கணக்கை உருவாக்குக"
-
-#~ msgid "Creating Account"
-#~ msgstr "கணக்கு உருவாக்கப்படுகின்றது"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "உங்கள் புனைப்பெயரை உள்ளிடு"

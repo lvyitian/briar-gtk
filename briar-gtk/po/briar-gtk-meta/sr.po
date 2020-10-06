@@ -3,19 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# erinm, 2020
-# Igor Raznatovic, 2020
-# Slobodan Simić <slsimic@gmail.com>, 2020
-# Aleksa Ristić, 2020
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Aleksa Ristić, 2020\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Language-Team: Serbian (https://www.transifex.com/otf/teams/76528/sr/)\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -151,30 +144,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgid "Next"
-#~ msgstr "Следеће"
-
-#~ msgid "Delete contact"
-#~ msgstr "Izbrišite kontakt"
-
-#~ msgid "Password"
-#~ msgstr "Lozinka"
-
-#~ msgid "Back"
-#~ msgstr "Назад"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Dobrodosli u Briar"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Izaberite vaš nadimak"
-
-#~ msgid "Create Account"
-#~ msgstr "Kreirajte račun"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "Potvrdite brisanje kontakta"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "Jeste li sigurni da želite da uklonite ovaj kontakt i sve poruke koje ste razmijenili?"

@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# erinm, 2020
 # SoftInterlingua <>, 2020
 #
 #, fuzzy
@@ -12,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Last-Translator: SoftInterlingua <>, 2020\n"
 "Language-Team: Interlingua (https://www.transifex.com/otf/teams/76528/ia/)\n"
 "Language: ia\n"
@@ -149,65 +148,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "Insere hic le ligamine ab tu contacto"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "Ligamine de contacto"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a link"
-#~ msgstr "Per favor insere un ligamine"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "Insere un pseudonymo"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "Per favor insere un pseudonymo"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Adder contacto"
-
-#~ msgid "Next"
-#~ msgstr "Sequente"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Adder contacto"
-
-#~ msgid "Delete contact"
-#~ msgstr "Deler contacto"
-
-#~ msgid "Password"
-#~ msgstr "Contrasigno"
-
-#~ msgid "About Briar GTK"
-#~ msgstr "A proposito de Briar GTK"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "Adder contacto"
-
-#~ msgid "Back"
-#~ msgstr "Retro"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Benvenite a Briar"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Selige tu pseudonymo"
-
-#~ msgid "Create Account"
-#~ msgstr "Crear conto"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "Per favor insere un pseudonymo"
-
-#~ msgid "Please enter a link"
-#~ msgstr "Per favor insere un ligamine"

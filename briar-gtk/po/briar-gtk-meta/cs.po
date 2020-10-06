@@ -3,21 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# erinm, 2020
-# Šimon Bořek, 2020
-# Jiri Brebera, 2020
-# Miroslav Kučera <mkucera66@seznam.cz>, 2020
-# A5h8d0wf0x <littleslyfoxie28@gmail.com>, 2020
-# Walter Klosse <walter.klosse@protonmail.com>, 2020
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Walter Klosse <walter.klosse@protonmail.com>, 2020\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Language-Team: Czech (https://www.transifex.com/otf/teams/76528/cs/)\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -153,57 +144,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "Vložit přezdívku"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Přidat kontakt"
-
-#~ msgid "Next"
-#~ msgstr "Další"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Přidat kontakt"
-
-#~ msgid "Delete contact"
-#~ msgstr "Odstranit kontakt"
-
-#~ msgid "Password"
-#~ msgstr "Heslo"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "Přihlášení"
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "Přihlašování"
-
-#~ msgid "No contact selected"
-#~ msgstr "Nevybrán žádný kontakt"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "Přidat kontakt"
-
-#~ msgid "Back"
-#~ msgstr "Zpět"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Vítejte v Briar"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Zvolte si uživatelské jméno"
-
-#~ msgid "Create Account"
-#~ msgstr "Vytvořit účet"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "Potvrdit odstranění kontaktu"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "Jste si jisti, že chcete odstranit kontakt a všechny související zprávy s tímto kontaktem?"

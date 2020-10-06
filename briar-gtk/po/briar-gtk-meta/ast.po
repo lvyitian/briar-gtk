@@ -3,17 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Xuacu Saturio <xuacusk8@gmail.com>, 2020
-# erinm, 2020
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: erinm, 2020\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Language-Team: Asturian (https://www.transifex.com/otf/teams/76528/ast/)\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
@@ -149,24 +144,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgid "Next"
-#~ msgstr "Siguiente"
-
-#~ msgid "Delete contact"
-#~ msgstr "Desaniciar contactu"
-
-#~ msgid "Password"
-#~ msgstr "Contraseña"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Afáyate'n Briar"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Escueyi un alcuñu"
-
-#~ msgid "Create Account"
-#~ msgstr "Crear cuenta"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "Confirmar desaniciu del contactu"

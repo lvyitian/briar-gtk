@@ -3,19 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# erinm, 2020
-# Tabiha Tanha <tabihatanha@yandex.com>, 2020
-# code smite <codesmite@gmail.com>, 2020
-# Tasneem Khalil <tasneem.khalil@gmail.com>, 2020
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Tasneem Khalil <tasneem.khalil@gmail.com>, 2020\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Language-Team: Bengali (https://www.transifex.com/otf/teams/76528/bn/)\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
@@ -151,38 +144,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgid "Next"
-#~ msgstr "পরবর্তী"
-
-#~ msgid "Delete contact"
-#~ msgstr "পরিচিতি মুছে দিন"
-
-#~ msgid "Password"
-#~ msgstr "পাসওয়ার্ড"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "লগইন "
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "লগ ইন হচ্ছে"
-
-#~ msgid "Back"
-#~ msgstr "পেছনে"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Briar এ স্বাগতম"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "আপনার ডাকনাম বেছে নিন"
-
-#~ msgid "Create Account"
-#~ msgstr "অ্যাকাউন্ট তৈরি করুন"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "যোগাযোগ মুছে ফেলা নিশ্চিত করুন"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "আপনি কি এই পরিচিতিটি এবং এই পরিচিতিটির সাথে বিনিময়কৃত সকল বার্তা মুছে ফেলতে চান?"

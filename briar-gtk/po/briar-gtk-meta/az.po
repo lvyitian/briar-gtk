@@ -3,18 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# erinm, 2020
-# ferhad.necef, 2020
-# Nikafn <appone6@gmail.com>, 2020
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Nikafn <appone6@gmail.com>, 2020\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Language-Team: Azerbaijani (https://www.transifex.com/otf/teams/76528/az/)\n"
 "Language: az\n"
 "MIME-Version: 1.0\n"
@@ -150,90 +144,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give this link to the contact you want to add"
-#~ msgstr "Əlavə etmək istədiyiniz kontakt üçün bu linki verin"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "Kontaktın linkini buraya daxil edin"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "Kontaktın linki"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a link"
-#~ msgstr "Zəhmət olmasa linki daxil edin"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give your contact a nickname. Only you can see it."
-#~ msgstr "Niklə kontakt saxlayın. Bunu ancaq siz görəcəksiniz. "
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "Ad daxil et"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "Zəhmət olmasa adı daxil edin"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Kontankt əlavə et"
-
-#~ msgid "Next"
-#~ msgstr "Növbəti"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Kontankt əlavə et"
-
-#~ msgid "Delete contact"
-#~ msgstr "Kontakt silin"
-
-#~ msgid "Password"
-#~ msgstr "Şifrə"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "Daxil ol"
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "Giriş"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "Kontankt əlavə et"
-
-#~ msgid "Back"
-#~ msgstr "Geri"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Briar-a xoş gəlmisiniz!"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Nik seçin"
-
-#~ msgid "Create Account"
-#~ msgstr "Hesab yaradın"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "Kontaktın silinməsini təsdiqləyin"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "Bu kontaktı və bu kontaktla əvəzlənən bütün mesajları silmək istədiyinizə əminsinizmi?"
-
-#~ msgid "Contact added"
-#~ msgstr "Əlaqə əlavə edildi"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "Zəhmət olmasa adı daxil edin"
-
-#~ msgid "Please enter a link"
-#~ msgstr "Zəhmət olmasa linki daxil edin"
-
-#~ msgid "Enter your contact's link, not your own"
-#~ msgstr "Kontaktınızın linkini daxil edin, özünüzü deyil"

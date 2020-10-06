@@ -4,8 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# erinm, 2020
-# smari <smari@mailpile.is>, 2020
 # Sveinn í Felli <sv1@fellsnet.is>, 2020
 #
 #, fuzzy
@@ -13,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2020\n"
 "Language-Team: Icelandic (https://www.transifex.com/otf/teams/76528/is/)\n"
 "Language: is\n"
@@ -150,160 +148,3 @@ msgstr "Miklar prófanir á hugbúnaðnum"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Allra fyrsta alfa-prófunarútgáfa Briar GTK. Hún gerir kleift að bæta við tengiliðum í fjarlægð og að spjalla við þá í einkaspjalli. Eftir er að koma upp öðrum eiginleikum, eins og hópum, spjallsvæðum (forum) og bloggum."
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Höfundarréttur © 2019-2020 Briar-verkefnið"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "A Briar client for GTK desktop and mobile devices"
-#~ msgstr "Briar-forrit fyrir GTK-skjáborðsumhverfi og snjalltæki"
-
-#~ msgctxt "Used in about dialog to get to website"
-#~ msgid "Visit Briar GTK website"
-#~ msgstr "Heimsækja Briar GTK vefsvæðið"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give this link to the contact you want to add"
-#~ msgstr "Gefðu þennan tengil til tengiliðarins sem þú ætlar að bæta við"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "Settu hér inn tengilinn frá tengiliðnum þínum"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "Tengill á tengilið"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a link"
-#~ msgstr "Settu inn tengil"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give your contact a nickname. Only you can see it."
-#~ msgstr "Gefðu tengiliðnum þínum stuttnefni/gælunafn. Einungis þú getur séð það."
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "Settu inn stuttnefni"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "Settu inn stuttnefni"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Bæta við tengilið"
-
-#~ msgid "Next"
-#~ msgstr "Næsta"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Bæta við tengilið"
-
-#~ msgid "Delete contact"
-#~ msgstr "Eyða tengilið"
-
-#~ msgid "Password"
-#~ msgstr "Lykilorð"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "Innskráning"
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "Skrái inn"
-
-#~ msgid "About Briar GTK"
-#~ msgstr "Um Briar GTK"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Skrifaðu skilaboð"
-
-#~ msgid "No contact selected"
-#~ msgstr "Enginn tengiliður valinn"
-
-#~ msgid "Select a contact to start chatting"
-#~ msgstr "Veldu tengilið til að hefja spjall"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "Bæta við tengilið"
-
-#~ msgid "Main menu"
-#~ msgstr "Aðalvalmynd"
-
-#~ msgid "Back"
-#~ msgstr "Til baka"
-
-#~ msgid "Chat menu"
-#~ msgstr "Spjallvalmynd"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Velkomin í Briar"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Veldu þér stuttnefni"
-
-#~ msgid "Confirm Password"
-#~ msgstr "Staðfestu lykilorð"
-
-#~ msgid "Create Account"
-#~ msgstr "Búa til notandaaðgang"
-
-#~ msgid "Creating Account"
-#~ msgstr "Bý til notandaaðgang"
-
-#~ msgid "Localization Lab Translation Teams"
-#~ msgstr "Þýðingateymi Localization Lab"
-
-#~ msgid "Using code by"
-#~ msgstr "Notar kóða frá"
-
-#~ msgid "Briar functionality by"
-#~ msgstr "Briar-virkni frá"
-
-#~ msgid "Myself"
-#~ msgstr "Ég sjálfur"
-
-#~ msgid "Are you sure you want to exit?"
-#~ msgstr "Ertu viss um að þú viljir hætta?"
-
-#~ msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-#~ msgstr "Eftir að þú lokar Briar geturðu ekki lengur tekið á móti eða sent skilaboð í bið. Haltu Briar opnu til að haldast tengd/ur við tengiliðina þína."
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "Staðfesta eyðingu tengiliðar"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "Ertu viss að þú viljir fjarlægja þennan tengilið ásamt öllum þeim skilaboðum sem ykkur hafa farið á milli?"
-
-#~ msgid "Contact added"
-#~ msgstr "Tengilið bætt við"
-
-#~ msgid "New private message"
-#~ msgstr "Ný einkaskilaboð"
-
-#~ msgid "Please enter a password"
-#~ msgstr "Settu inn lykilorð"
-
-#~ msgid "Couldn't log in"
-#~ msgstr "Gat ekki skráð inn"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "Settu inn stuttnefni"
-
-#~ msgid "The passwords do not match"
-#~ msgstr "Lykilorðin stemma ekki"
-
-#~ msgid "Couldn't register account"
-#~ msgstr "Mistókst að skrá nýjan aðgang"
-
-#~ msgid "Please enter a link"
-#~ msgstr "Settu inn tengil"
-
-#~ msgid "Enter your contact's link, not your own"
-#~ msgstr "Settu inn tengilinn frá tengiliðnum þínum, ekki þinn eigin"

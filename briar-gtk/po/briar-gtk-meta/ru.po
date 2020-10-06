@@ -4,26 +4,21 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# IvanLykov <chabib@list.ru>, 2020
-# Sergey Smirnov <cj75300@gmail.com>, 2020
-# user users <sigaint517@sigaint.org>, 2020
-# ef005e17e021122df91e94cfd230e8e8_7db01f8 <be69bc900298e9d9f543903b9318d7cd_576514>, 2020
-# Đorđe Marušić <djordje@hzontal.org>, 2020
-# Stanislav <mineinfo80@gmail.com>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
 # Martus Translations <translations@martus.org>, 2020
 # erinm, 2020
 # Imran Aliyev <mr.imranaliyev@gmail.com>, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # Николай Кочкин <urfiner@gmail.com>, 2020
 # Andrey, 2020
+# Stanislav <mineinfo80@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Andrey, 2020\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
+"Last-Translator: Stanislav <mineinfo80@gmail.com>, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/76528/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -159,151 +154,3 @@ msgstr "Большое количество тестов программног�
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Это самый первый альфа-релиз Briar GTK. Он позволяет добавлять контакты удаленно и общаться с ними в приватных чатах. Другие функции, такие как группы, форумы и блоги, будут реализованы позже."
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Copyright © 2019-2020 The Briar Project"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "A Briar client for GTK desktop and mobile devices"
-#~ msgstr "Клиент Briar для настольных и мобильных устройств GTK."
-
-#~ msgctxt "Used in about dialog to get to website"
-#~ msgid "Visit Briar GTK website"
-#~ msgstr "Посетить веб-сайт Briar GTK"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give this link to the contact you want to add"
-#~ msgstr "Передайте эту ссылку контакту, который вы хотите добавить."
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "Введите ссылку от вашего контакта здесь"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "Ссылка контакта"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a link"
-#~ msgstr "Пожалуйста, введите ссылку"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give your contact a nickname. Only you can see it."
-#~ msgstr "Дайте вашему контакту ник. Увидеть его сможете только вы."
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "Введите ник"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "Пожалуйста, введите ник"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Добавить контакт"
-
-#~ msgid "Next"
-#~ msgstr "Далее"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Добавить контакт"
-
-#~ msgid "Delete contact"
-#~ msgstr "Удалить контакт"
-
-#~ msgid "Password"
-#~ msgstr "Пароль"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "Авторизоваться"
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "Происходит вход в систему"
-
-#~ msgid "About Briar GTK"
-#~ msgstr "О Briar GTK"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Введите сообщение"
-
-#~ msgid "No contact selected"
-#~ msgstr "Контакт не выбран"
-
-#~ msgid "Select a contact to start chatting"
-#~ msgstr "Выберите контакт, чтобы начать чат"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "Добавить контакт"
-
-#~ msgid "Main menu"
-#~ msgstr "Основное меню"
-
-#~ msgid "Back"
-#~ msgstr "Назад"
-
-#~ msgid "Chat menu"
-#~ msgstr "Меню чата"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Добро пожаловать в Briar"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Придумайте псевдоним"
-
-#~ msgid "Confirm Password"
-#~ msgstr "Подтвердите пароль"
-
-#~ msgid "Create Account"
-#~ msgstr "Создать учетную запись"
-
-#~ msgid "Creating Account"
-#~ msgstr "Создание учетной записи"
-
-#~ msgid "Using code by"
-#~ msgstr "Используя код"
-
-#~ msgid "Briar functionality by"
-#~ msgstr "Функциональность Briar обеспечивается"
-
-#~ msgid "Myself"
-#~ msgstr "Я"
-
-#~ msgid "Are you sure you want to exit?"
-#~ msgstr "Вы уверены, что хотите выйти?"
-
-#~ msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-#~ msgstr "После закрытия Briar, вы больше не сможете ни получать и отправлять сообщения, ожидающие своей очереди. Оставьте Briar открытым, чтобы оставаться на связи со своими контактами."
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "Подтвердите удаление контакта"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "Вы действительно хотите удалить этот контакт и все связанные с ним сообщения?"
-
-#~ msgid "Please enter a password"
-#~ msgstr "Пожалуйста, введите пароль"
-
-#~ msgid "Couldn't log in"
-#~ msgstr "Не удалось войти"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "Пожалуйста, введите ник"
-
-#~ msgid "The passwords do not match"
-#~ msgstr "Пароли не совпадают"
-
-#~ msgid "Couldn't register account"
-#~ msgstr "Не удалось зарегистрировать аккаунт"
-
-#~ msgid "Please enter a link"
-#~ msgstr "Пожалуйста, введите ссылку"
-
-#~ msgid "Enter your contact's link, not your own"
-#~ msgstr "Введите ссылку вашего контакта, а не свою"

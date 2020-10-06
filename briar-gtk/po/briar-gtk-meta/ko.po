@@ -4,9 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# erinm, 2020
-# Florencia Herra Vega <flohdot@gmail.com>, 2020
-# Kyf Lee <coughingmouse@gmail.com>, 2020
 # SEPT____ <xpressengine3@mail.beo.kr>, 2020
 #
 #, fuzzy
@@ -14,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Last-Translator: SEPT____ <xpressengine3@mail.beo.kr>, 2020\n"
 "Language-Team: Korean (https://www.transifex.com/otf/teams/76528/ko/)\n"
 "Language: ko\n"
@@ -151,86 +148,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give this link to the contact you want to add"
-#~ msgstr "추가하고 싶은 지인에게 이 링크를 보내세요"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "지인 분에게서 받은 링크를 여기에 입력하세요"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "지인 분의 링크"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a link"
-#~ msgstr "링크를 입력하세요"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give your contact a nickname. Only you can see it."
-#~ msgstr "연락처에 별명을 붙이세요. 다른 사람에게는 보여지지 않습니다."
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "별명을 입력하세요"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "별명을 입력하세요"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "연락처 추가하기"
-
-#~ msgid "Next"
-#~ msgstr "다음"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "연락처 추가하기"
-
-#~ msgid "Delete contact"
-#~ msgstr "연락처 삭제하기"
-
-#~ msgid "Password"
-#~ msgstr "비밀번호"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "로그인"
-
-#~ msgid "No contact selected"
-#~ msgstr "No contact selected"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "연락처 추가하기"
-
-#~ msgid "Back"
-#~ msgstr "뒤로"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Briar에 오신 것을 환영합니다"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "별명을 정하세요"
-
-#~ msgid "Create Account"
-#~ msgstr "계정 만들기"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "연락처 삭제 확인"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "정말로 이 연락처, 그리고 이 연락처와의 메시지를 모두 제거하시겠어요?"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "별명을 입력하세요"
-
-#~ msgid "Please enter a link"
-#~ msgstr "링크를 입력하세요"
-
-#~ msgid "Enter your contact's link, not your own"
-#~ msgstr "자신이 아니고 지인 분의 링크를 입력해 주세요"

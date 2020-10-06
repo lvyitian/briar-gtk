@@ -4,8 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# translator42, 2020
-# Elias Nykrem <bloodaxeNOR@protonmail.com>, 2020
 # Allan Nordhøy <epost@anotheragency.no>, 2020
 #
 #, fuzzy
@@ -13,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2020\n"
 "Language-Team: Norwegian Bokmål (Norway) (https://www.transifex.com/otf/teams/76528/nb_NO/)\n"
 "Language: nb_NO\n"
@@ -150,69 +148,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give this link to the contact you want to add"
-#~ msgstr "Gi denne lenken til kontakten du ønsker å legge til"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "Tast inn lenken fra din kontakt her"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "Kontaktens lenke"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give your contact a nickname. Only you can see it."
-#~ msgstr "Gi din kontakt et kallenavn. Bare du kan se det."
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "Tast inn et kallenavn"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Legg til kontakt"
-
-#~ msgid "Next"
-#~ msgstr "Neste"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Legg til kontakt"
-
-#~ msgid "Delete contact"
-#~ msgstr "Slett kontakt"
-
-#~ msgid "Password"
-#~ msgstr "Passord"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "Logg inn"
-
-#~ msgid "No contact selected"
-#~ msgstr "Ingen kontakter valgt"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "Legg til kontakt"
-
-#~ msgid "Back"
-#~ msgstr "Tilbake"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Velkommen til Briar"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Velg kallenavn"
-
-#~ msgid "Create Account"
-#~ msgstr "Opprett konto"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "Bekreft sletting av kontakt"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "Er du sikker på at du vil fjerne denne kontakten og alle meldinger utvekslet med denne kontakten?"

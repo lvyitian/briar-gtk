@@ -4,10 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# erinm, 2020
-# Heitor <heitor.real@gmail.com>, 2020
-# Francisco Huerta <francisco.huerta@davinci-ti.es>, 2020
-# Oscar Guardiola <Oscar.Guardiola@davinci-ti.es>, 2020
 # Xosé M. <correo@xmgz.eu>, 2020
 #
 #, fuzzy
@@ -15,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Last-Translator: Xosé M. <correo@xmgz.eu>, 2020\n"
 "Language-Team: Galician (https://www.transifex.com/otf/teams/76528/gl/)\n"
 "Language: gl\n"
@@ -152,144 +148,3 @@ msgstr "Moitos test do software"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "A Briar client for GTK desktop and mobile devices"
-#~ msgstr "Cliente Briar para escritorios GTK e dispositivos móbiles"
-
-#~ msgctxt "Used in about dialog to get to website"
-#~ msgid "Visit Briar GTK website"
-#~ msgstr "Visita a web de Briar GTK"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give this link to the contact you want to add"
-#~ msgstr "Envíe esta ligazón ao contacto que quere engadir"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "Introducir aquí a ligazón do seu contacto"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "Ligazón do contacto"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a link"
-#~ msgstr "Por favor introduza ligazón"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give your contact a nickname. Only you can see it."
-#~ msgstr "Déalle un alcume ao contacto. Só vostede pode velo."
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "Introducir alcume"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "Por favor introduza un alcume"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Engadir contacto"
-
-#~ msgid "Next"
-#~ msgstr "Seguinte"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Engadir contacto"
-
-#~ msgid "Delete contact"
-#~ msgstr "Eliminar contacto"
-
-#~ msgid "Password"
-#~ msgstr "Contrasinal"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "Acceder"
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "Conectando"
-
-#~ msgid "About Briar GTK"
-#~ msgstr "Acerca de Briar GTK"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Escribe mensaxe"
-
-#~ msgid "No contact selected"
-#~ msgstr "Sen contacto seleccionado"
-
-#~ msgid "Select a contact to start chatting"
-#~ msgstr "Escolle un contacto para iniciar a conversa"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "Engadir contacto"
-
-#~ msgid "Main menu"
-#~ msgstr "Menú principal"
-
-#~ msgid "Back"
-#~ msgstr "Anterior"
-
-#~ msgid "Chat menu"
-#~ msgstr "Menú da conversa"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Benvida a Briar"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Escolle o teu alcume"
-
-#~ msgid "Confirm Password"
-#~ msgstr "Confirmar contrasinal"
-
-#~ msgid "Create Account"
-#~ msgstr "Crea a conta"
-
-#~ msgid "Creating Account"
-#~ msgstr "Crear conta"
-
-#~ msgid "Using code by"
-#~ msgstr "Usando código por"
-
-#~ msgid "Briar functionality by"
-#~ msgstr "Briar funciona grazas a"
-
-#~ msgid "Myself"
-#~ msgstr "Min mesma"
-
-#~ msgid "Are you sure you want to exit?"
-#~ msgstr "Tes a certeza de querer saír?"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "Confirme a eliminación do contacto"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "Segura de querer eliminar este contacto e todas as mensaxes que intercambiaron?"
-
-#~ msgid "Please enter a password"
-#~ msgstr "Escribe un contrasinal"
-
-#~ msgid "Couldn't log in"
-#~ msgstr "Non puideches conectar"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "Por favor introduza un alcume"
-
-#~ msgid "The passwords do not match"
-#~ msgstr "Os contrasinais non coinciden"
-
-#~ msgid "Couldn't register account"
-#~ msgstr "Non se puido rexistrar a conta"
-
-#~ msgid "Please enter a link"
-#~ msgstr "Por favor introduza ligazón"
-
-#~ msgid "Enter your contact's link, not your own"
-#~ msgstr "Introduza a ligazón do contacto, non o propio"

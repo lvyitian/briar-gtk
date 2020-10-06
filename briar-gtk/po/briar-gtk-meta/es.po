@@ -4,13 +4,11 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Roberto M.F., 2020
-# Đorđe Marušić <djordje@hzontal.org>, 2020
-# Martus Translations <translations@martus.org>, 2020
-# erinm, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # strel, 2020
 # akwizgran <michael@briarproject.org>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+# Martus Translations <translations@martus.org>, 2020
+# erinm, 2020
 # Zuhualime Akoochimoya, 2020
 #
 #, fuzzy
@@ -18,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Last-Translator: Zuhualime Akoochimoya, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/otf/teams/76528/es/)\n"
 "Language: es\n"
@@ -155,160 +153,3 @@ msgstr "Muchas pruebas de software"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "El primerísimo lanzamiento alfa de Briar GTK. Permite añadir contactos a distancia y chatear con ellos en forma privada. Otras funciones como grupos, foros y blogs tienen que ser implementadas."
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Copyright © 2019-2020 The Briar Project"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "A Briar client for GTK desktop and mobile devices"
-#~ msgstr "Briar para GTK en escritorios y dispositivos móviles"
-
-#~ msgctxt "Used in about dialog to get to website"
-#~ msgid "Visit Briar GTK website"
-#~ msgstr "Visitar la página web de Briar GTK"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give this link to the contact you want to add"
-#~ msgstr "Dá este enlace al contacto que quieres añadir"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "Ingresa aquí el enlace de tu contacto"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "Enlace del contacto"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a link"
-#~ msgstr "Introduce un enlace, por favor"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give your contact a nickname. Only you can see it."
-#~ msgstr "Introduce un apodo para tu contacto. Solo tú puedes verlo."
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "Introduce un apodo"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "Por favor, introduce un apodo"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Añadir el contacto"
-
-#~ msgid "Next"
-#~ msgstr "Seguir"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Añadir el contacto"
-
-#~ msgid "Delete contact"
-#~ msgstr "Eliminar contacto"
-
-#~ msgid "Password"
-#~ msgstr "Contraseña"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "Iniciar sesión"
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "Iniciando sesión"
-
-#~ msgid "About Briar GTK"
-#~ msgstr "Acerca de Briar GTK"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Tipear mensaje"
-
-#~ msgid "No contact selected"
-#~ msgstr "Ningún contacto seleccionado"
-
-#~ msgid "Select a contact to start chatting"
-#~ msgstr "Selecciona un contacto para empezar a chatear"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "Añadir el contacto"
-
-#~ msgid "Main menu"
-#~ msgstr "Menú principal"
-
-#~ msgid "Back"
-#~ msgstr "Regresar"
-
-#~ msgid "Chat menu"
-#~ msgstr "Menú chat"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Bienvenida a Briar"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Elige tu apodo"
-
-#~ msgid "Confirm Password"
-#~ msgstr "Confirmar contraseña"
-
-#~ msgid "Create Account"
-#~ msgstr "Crear cuenta"
-
-#~ msgid "Creating Account"
-#~ msgstr "Creando cuenta"
-
-#~ msgid "Localization Lab Translation Teams"
-#~ msgstr "Equipos de Traducción de Localization Lab"
-
-#~ msgid "Using code by"
-#~ msgstr "Con código de"
-
-#~ msgid "Briar functionality by"
-#~ msgstr "Funcionalidad de Briar de"
-
-#~ msgid "Myself"
-#~ msgstr "Yo"
-
-#~ msgid "Are you sure you want to exit?"
-#~ msgstr "¿Estás seguro que quieres salir?"
-
-#~ msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-#~ msgstr "Cuando cierres Briar, ya no recibirás o enviarás mensajes pendientes. Mantenlo abierto para permanecer conectado con tus contactos."
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "Confirmar eliminación de contacto"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "¿Seguro que quieres eliminar este contacto y todos los mensajes intercambiados con él?"
-
-#~ msgid "Contact added"
-#~ msgstr "Se añadió el contacto"
-
-#~ msgid "New private message"
-#~ msgstr "Nuevo mensaje privado"
-
-#~ msgid "Please enter a password"
-#~ msgstr "Por favor, introduce una contraseña"
-
-#~ msgid "Couldn't log in"
-#~ msgstr "No pude entrar a la cuenta"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "Por favor, introduce un apodo"
-
-#~ msgid "The passwords do not match"
-#~ msgstr "Las contraseñas no coinciden"
-
-#~ msgid "Couldn't register account"
-#~ msgstr "No pude registrar la cuenta"
-
-#~ msgid "Please enter a link"
-#~ msgstr "Introduce un enlace, por favor"
-
-#~ msgid "Enter your contact's link, not your own"
-#~ msgstr "Introduce el enlace del contacto, no el de ti"

@@ -4,21 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# erinm, 2020
-# Cristina Lupu <cristina@cji.ro>, 2020
-# Vitalie Ciubotaru <vitalie@ciubotaru.tk>, 2020
-# Licaon_Kter, 2020
 # titus <titus0818@gmail.com>, 2020
-# Predator <Predator@windowslive.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
+# Predator <Predator@windowslive.com>, 2020
+# Licaon_Kter, 2020
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
+"Last-Translator: Licaon_Kter, 2020\n"
 "Language-Team: Romanian (https://www.transifex.com/otf/teams/76528/ro/)\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -154,93 +151,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give this link to the contact you want to add"
-#~ msgstr "Dați această adresă contactului pe care doriți să-l adăugați"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "Introduceți adresa contactului dumneavoastră aici"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "Adresa contactului"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a link"
-#~ msgstr "Vă rugăm să introduceți o adresă"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give your contact a nickname. Only you can see it."
-#~ msgstr "Introduceți un nume pentru contact. Vizibil doar pentru dumneavoastră."
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "Introduceți un nume"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "Vă rugăm să introduceți un nume"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Adaugă contact"
-
-#~ msgid "Next"
-#~ msgstr "Înainte"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "Adaugă contact"
-
-#~ msgid "Delete contact"
-#~ msgstr "Șterge contactul"
-
-#~ msgid "Password"
-#~ msgstr "Parola"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "Autentificare"
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "Autentificare"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "Adaugă contact"
-
-#~ msgid "Back"
-#~ msgstr "Înapoi"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Bine ați venit la Briar"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Alegeți-vă numele de utilizator"
-
-#~ msgid "Confirm Password"
-#~ msgstr "Confirmare parolă"
-
-#~ msgid "Create Account"
-#~ msgstr "Creează un cont"
-
-#~ msgid "Creating Account"
-#~ msgstr "Crearea contului"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "Confirmare ștergere contact"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "Sigur doriți să ștergeți acest contact și toate mesajele schimbate?"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "Vă rugăm să introduceți un nume"
-
-#~ msgid "Please enter a link"
-#~ msgstr "Vă rugăm să introduceți o adresă"
-
-#~ msgid "Enter your contact's link, not your own"
-#~ msgstr "Introduceți adresa contactului, nu cea personală"

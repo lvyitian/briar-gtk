@@ -4,9 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# zxcsd <jenisjpl@gmail.com>, 2020
-# Giovanni Pellerano <giovanni.pellerano@evilaliv3.org>, 2020
-# ION, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
@@ -14,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
 "Language-Team: Hebrew (https://www.transifex.com/otf/teams/76528/he/)\n"
 "Language: he\n"
@@ -151,93 +148,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give this link to the contact you want to add"
-#~ msgstr "תן את הקישור הזה לאיש הקשר שאתה רוצה להוסיף"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "הכנס את הקישור מאיש הקשר שלך כאן"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "קישור של איש קשר"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a link"
-#~ msgstr "אנא הכנס קישור"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give your contact a nickname. Only you can see it."
-#~ msgstr "תן כינוי אל איש הקשר שלך. רק אתה יכול לראות אותו."
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "הכנס כינוי"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "אנא הכנס כינוי"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "הוסף איש קשר"
-
-#~ msgid "Next"
-#~ msgstr "הבא"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "הוסף איש קשר"
-
-#~ msgid "Delete contact"
-#~ msgstr "מחק איש קשר"
-
-#~ msgid "Password"
-#~ msgstr "סיסמה"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "התחבר"
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "התחברות"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "הוסף איש קשר"
-
-#~ msgid "Back"
-#~ msgstr "הקודם"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "ברוך הבא אל Briar"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "בחר את הכינוי שלך"
-
-#~ msgid "Confirm Password"
-#~ msgstr "אשר סיסמה"
-
-#~ msgid "Create Account"
-#~ msgstr "צור חשבון"
-
-#~ msgid "Creating Account"
-#~ msgstr "יצירת חשבון"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "אשר מחיקת איש קשר"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "האם אתה בטוח שאתה רוצה למחוק איש קשר זה ואת כל ההודעות שהוחלפו עם איש קשר זה?"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "אנא הכנס כינוי"
-
-#~ msgid "Please enter a link"
-#~ msgstr "אנא הכנס קישור"
-
-#~ msgid "Enter your contact's link, not your own"
-#~ msgstr "הכנס את הקישור של איש הקשר שלך, לא את שלך"

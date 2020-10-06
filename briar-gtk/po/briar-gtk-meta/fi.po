@@ -4,9 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# erinm, 2020
-# translator42, 2020
-# Jorma Karvonen <karvonen.jorma@gmail.com>, 2020
 # outolumo <outolumo@gmail.com>, 2020
 # kytv <killyourtv@i2pmail.org>, 2020
 #
@@ -15,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Last-Translator: kytv <killyourtv@i2pmail.org>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/otf/teams/76528/fi/)\n"
 "Language: fi\n"
@@ -152,38 +149,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgid "Next"
-#~ msgstr "Seuraava"
-
-#~ msgid "Delete contact"
-#~ msgstr "Poista yhteystieto"
-
-#~ msgid "Password"
-#~ msgstr "Salasana"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "Kirjaudu sisään"
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "Kirjaudutaan"
-
-#~ msgid "Back"
-#~ msgstr "Takaisin"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Tervetuloa Briariin"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Valitse nimimerkki"
-
-#~ msgid "Create Account"
-#~ msgstr "Luo tili"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "Vahvista yhteystiedon poistaminen"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "Oletko varma, että haluat poistaa tämän yhteyshenkilön ja kaikki hänen kanssa vaihdetut viestit?"

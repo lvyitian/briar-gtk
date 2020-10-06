@@ -4,10 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Ahmed Noor Kader Mustajir Md Eusoff (kader) <sir.ade@gmail.com>, 2020
-# guardianproject <root@guardianproject.info>, 2020
-# akwizgran <michael@briarproject.org>, 2020
-# Fawwaz Hadi, 2020
 # Fawwaz Hadi, 2020
 #
 #, fuzzy
@@ -15,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Last-Translator: Fawwaz Hadi, 2020\n"
 "Language-Team: Malay (https://www.transifex.com/otf/teams/76528/ms/)\n"
 "Language: ms\n"
@@ -152,18 +148,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgid "Next"
-#~ msgstr "Seterusnya"
-
-#~ msgid "Delete contact"
-#~ msgstr "Padam kenalan"
-
-#~ msgid "No contact selected"
-#~ msgstr "Tiada kenalan dipilih"
-
-#~ msgid "Back"
-#~ msgstr "Kembali"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "Pilih nama samaran anda:"

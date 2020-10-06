@@ -3,18 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# erinm, 2020
-# Kalyan Dikshit <dikshitrocks93@gmail.com>, 2020
-# imcmjha . <chandramohanjha@tuta.io>, 2020
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: imcmjha . <chandramohanjha@tuta.io>, 2020\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
 "Language-Team: Hindi (https://www.transifex.com/otf/teams/76528/hi/)\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -150,79 +144,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give this link to the contact you want to add"
-#~ msgstr "आप जिस संपर्क को जोड़ना चाहते हैं, उसे यह लिंक दें"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "यहां अपने संपर्क से लिंक दर्ज करें"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "संपर्क का लिंक"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a link"
-#~ msgstr "कृपया एक लिंक डालें।"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give your contact a nickname. Only you can see it."
-#~ msgstr "अपने संपर्क को एक उपनाम दें। केवल आप इसे देख सकते हैं।"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "एक उपनाम दर्ज करें"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "कृपया एक उपनाम दर्ज करें"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "संपर्क जोड़ें"
-
-#~ msgid "Next"
-#~ msgstr "अगला"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "संपर्क जोड़ें"
-
-#~ msgid "Delete contact"
-#~ msgstr "संपर्क मिटा दें"
-
-#~ msgid "Password"
-#~ msgstr "पासवर्ड"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "संपर्क जोड़ें"
-
-#~ msgid "Back"
-#~ msgstr "पिछला"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "Briar में आपका स्वागत है"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "आपका मुंहबोला नाम चुनें"
-
-#~ msgid "Create Account"
-#~ msgstr "खाता बनाएं"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "संपर्क हटाने की पुष्टि करें"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "क्या आप निश्चित हैं कि आप इस संपर्क और सभी संदेशों को इस संपर्क से निकाला जाना चाहते हैं?"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "कृपया एक उपनाम दर्ज करें"
-
-#~ msgid "Please enter a link"
-#~ msgstr "कृपया एक लिंक डालें।"
-
-#~ msgid "Enter your contact's link, not your own"
-#~ msgstr "अपना संपर्क का लिंक दर्ज करें, अपना नहीं"

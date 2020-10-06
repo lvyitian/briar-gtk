@@ -4,25 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Megan DeBlois <megan.deblois@gmail.com>, 2020
-# Rima Sghaier, 2020
-# Ali <aboshanab_@hotmail.com>, 2020
-# Ahmad Gharbeia <gharbeia@gmail.com>, 2020
 # akwizgran <michael@briarproject.org>, 2020
-# Layla Taha <layla@asl19.org>, 2020
-# Haroon Ali <haroon.ali2018@protonmail.com>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
 # Martus Translations <translations@martus.org>, 2020
 # erinm, 2020
 # محيي الدين <tx99h4@hotmail.com>, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
+"Last-Translator: محيي الدين <tx99h4@hotmail.com>, 2020\n"
 "Language-Team: Arabic (https://www.transifex.com/otf/teams/76528/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -158,100 +152,3 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give this link to the contact you want to add"
-#~ msgstr "أرسلوا هذا الرّابط لجهة الاتصال التي تودّون إضافتها"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter the link from your contact here"
-#~ msgstr "أدخلوا الرّابط المرسل من جهة الاتصال هنا"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Contact's link"
-#~ msgstr "رابط جهة الاتصال"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a link"
-#~ msgstr "يرجى إدخال رابط"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Give your contact a nickname. Only you can see it."
-#~ msgstr ">إعطاء اسم مستعار لجهة الاتصال بإمكانكم رؤيته فق."
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Enter a nickname"
-#~ msgstr "إدخال اسم مستعار"
-
-#~ msgctxt "Used in add contact page"
-#~ msgid "Please enter a nickname"
-#~ msgstr "يرجى إدخال اسم مستعار"
-
-#~ msgctxt "Button in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "إضافة جهة إتصال"
-
-#~ msgid "Next"
-#~ msgstr "التالي"
-
-#~ msgctxt "Title in add contact page"
-#~ msgid "Add contact"
-#~ msgstr "إضافة جهة إتصال"
-
-#~ msgid "Delete contact"
-#~ msgstr "حذف جهة الإتصال"
-
-#~ msgid "Password"
-#~ msgstr "كلمة السّر"
-
-#~ msgctxt "Button in login page"
-#~ msgid "Log in"
-#~ msgstr "لِج"
-
-#~ msgctxt "Used in login page after entering the password"
-#~ msgid "Logging in"
-#~ msgstr "جاري تسجيل الدخول"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "كتابة رسالة"
-
-#~ msgctxt "Accessibility text in main menu"
-#~ msgid "Add contact"
-#~ msgstr "إضافة جهة إتصال"
-
-#~ msgid "Back"
-#~ msgstr "السابق"
-
-#~ msgid "Welcome to Briar"
-#~ msgstr "مرحبًا بك في Briar (براير)"
-
-#~ msgid "Choose your nickname"
-#~ msgstr "اختيار اسمك المستعار"
-
-#~ msgid "Confirm Password"
-#~ msgstr "تأكيد كلمة السر"
-
-#~ msgid "Create Account"
-#~ msgstr "إنشاء الحساب"
-
-#~ msgid "Creating Account"
-#~ msgstr "إنشاء الحساب"
-
-#~ msgid "Confirm Contact Deletion"
-#~ msgstr "تأكيد حذف جهة الإتصال"
-
-#~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "هل أنت متأكد/ة من أنك تريد حذف جهة الإتصال هذه وكل الرسائل المتبادلة بينكما؟"
-
-#~ msgid "Please enter a password"
-#~ msgstr "يُرجى إدخال كلمة السر"
-
-#~ msgid "Please enter a nickname"
-#~ msgstr "يرجى إدخال اسم مستعار"
-
-#~ msgid "Please enter a link"
-#~ msgstr "يرجى إدخال رابط"
-
-#~ msgid "Enter your contact's link, not your own"
-#~ msgstr "يرجى إخال رابط جهة الاتصال، وليس رابطكم"

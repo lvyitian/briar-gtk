@@ -226,6 +226,9 @@ msgstr ""
 #~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 #~ msgstr "Bu kontaktı və bu kontaktla əvəzlənən bütün mesajları silmək istədiyinizə əminsinizmi?"
 
+#~ msgid "Contact added"
+#~ msgstr "Əlaqə əlavə edildi"
+
 #~ msgid "Please enter a nickname"
 #~ msgstr "Zəhmət olmasa adı daxil edin"
 
@@ -234,7 +237,3 @@ msgstr ""
 
 #~ msgid "Enter your contact's link, not your own"
 #~ msgstr "Kontaktınızın linkini daxil edin, özünüzü deyil"
-
-#~ msgctxt "Notification"
-#~ msgid "Contact added"
-#~ msgstr "Əlaqə əlavə edildi"

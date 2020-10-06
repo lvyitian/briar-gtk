@@ -253,6 +253,15 @@ msgstr ""
 #~ msgid "Creating Account"
 #~ msgstr "Kreanta konto"
 
+#~ msgid "Using code by"
+#~ msgstr "Kun kodo de"
+
+#~ msgid "Briar functionality by"
+#~ msgstr "Briar-a funkcieco de"
+
+#~ msgid "Myself"
+#~ msgstr "Min mem"
+
 #~ msgid "Are you sure you want to exit?"
 #~ msgstr "Vi estas certe vi volas ĉesi?"
 
@@ -279,15 +288,3 @@ msgstr ""
 
 #~ msgid "Enter your contact's link, not your own"
 #~ msgstr "Entajpu vian ligon de kontakto, ne vian"
-
-#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-#~ msgid "Using code by"
-#~ msgstr "Kun kodo de"
-
-#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
-#~ msgid "Briar functionality by"
-#~ msgstr "Briar-a funkcieco de"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "Min mem"

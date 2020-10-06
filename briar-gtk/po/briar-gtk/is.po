@@ -117,16 +117,16 @@ msgid "Creating Account"
 msgstr "Bý til notandaaðgang"
 
 msgid "Localization Lab Translation Teams"
-msgstr ""
+msgstr "Þýðingateymi Localization Lab"
 
 msgid "Using code by"
-msgstr ""
+msgstr "Notar kóða frá"
 
 msgid "Briar functionality by"
-msgstr ""
+msgstr "Briar-virkni frá"
 
 msgid "Myself"
-msgstr ""
+msgstr "Ég sjálfur"
 
 msgid "Are you sure you want to exit?"
 msgstr "Ertu viss um að þú viljir hætta?"
@@ -141,10 +141,10 @@ msgid "Are you sure that you want to remove this contact and all messages exchan
 msgstr "Ertu viss að þú viljir fjarlægja þennan tengilið ásamt öllum þeim skilaboðum sem ykkur hafa farið á milli?"
 
 msgid "Contact added"
-msgstr ""
+msgstr "Tengilið bætt við"
 
 msgid "New private message"
-msgstr ""
+msgstr "Ný einkaskilaboð"
 
 msgid "Please enter a password"
 msgstr "Settu inn lykilorð"
@@ -307,27 +307,3 @@ msgstr "Heimsækja Briar GTK vefsvæðið"
 
 #~ msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 #~ msgstr "Allra fyrsta alfa-prófunarútgáfa Briar GTK. Hún gerir kleift að bæta við tengiliðum í fjarlægð og að spjalla við þá í einkaspjalli. Eftir er að koma upp öðrum eiginleikum, eins og hópum, spjallsvæðum (forum) og bloggum."
-
-#~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-#~ msgid "Nico Alt"
-#~ msgstr "Nico Alt"
-
-#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-#~ msgid "Using code by"
-#~ msgstr "Notar kóða frá"
-
-#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
-#~ msgid "Briar functionality by"
-#~ msgstr "Briar-virkni frá"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "Ég sjálfur"
-
-#~ msgctxt "Notification"
-#~ msgid "Contact added"
-#~ msgstr "Tengilið bætt við"
-
-#~ msgctxt "Notification"
-#~ msgid "New private message"
-#~ msgstr "Ný einkaskilaboð"

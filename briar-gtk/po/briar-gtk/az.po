@@ -141,7 +141,7 @@ msgid "Are you sure that you want to remove this contact and all messages exchan
 msgstr "Bu kontaktı və bu kontaktla əvəzlənən bütün mesajları silmək istədiyinizə əminsinizmi?"
 
 msgid "Contact added"
-msgstr ""
+msgstr "Əlaqə əlavə edildi"
 
 msgid "New private message"
 msgstr ""
@@ -178,7 +178,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgctxt "Notification"
-#~ msgid "Contact added"
-#~ msgstr "Əlaqə əlavə edildi"

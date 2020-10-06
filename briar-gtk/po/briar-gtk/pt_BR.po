@@ -14,10 +14,10 @@
 # Caio Volpato <caio.volpato@riseup.net>, 2020
 # André Almeida <andrefalmeida@protonmail.com>, 2020
 # Adrian . <tekohax@disroot.org>, 2020
-# Evandro <evandro.92@hotmail.com>, 2020
 # Joeffison Silvério de Andrade <joeffison@gmail.com>, 2020
 # 0ed9961fdd2c469a85d0f0ef7ce7865b, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
+# Evandro <evandro.92@hotmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
+"Last-Translator: Evandro <evandro.92@hotmail.com>, 2020\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/otf/teams/76528/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -152,7 +152,7 @@ msgid "Are you sure that you want to remove this contact and all messages exchan
 msgstr "Você tem certeza que quer remover este contato e todas mensagens trocadas com ele?"
 
 msgid "Contact added"
-msgstr ""
+msgstr "Contato adicionado"
 
 msgid "New private message"
 msgstr ""
@@ -222,7 +222,3 @@ msgstr ""
 
 #~ msgid "Thai"
 #~ msgstr "Tailandês"
-
-#~ msgctxt "Notification"
-#~ msgid "Contact added"
-#~ msgstr "Contato adicionado"

@@ -6,9 +6,9 @@
 # Translators:
 # YFdyh000 <yfdyh000@gmail.com>, 2020
 # 高垚鑫, 2020
-# QWERT Eric, 2020
 # Chaos, 2020
 # Yunfei Zhang <zsdr@protonmail.com>, 2020
+# QWERT Eric, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Yunfei Zhang <zsdr@protonmail.com>, 2020\n"
+"Last-Translator: QWERT Eric, 2020\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/otf/teams/76528/zh-Hans/)\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgid "Welcome screen with registration"
 msgstr "带注册的欢迎界面"
 
 msgid "Adding contacts at a distance"
-msgstr ""
+msgstr "远距离添加联系人"
 
 msgid "Main window with two contacts and about dialog"
 msgstr "有两个联系人和关于对话框的主窗口"
@@ -52,73 +52,73 @@ msgid "Improvements in this version:"
 msgstr "此版本中的改进："
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "改进了通知支持"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "在联系人列表中显示未读消息数"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "支持更改联系人名字"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "支持删除会话的所有消息"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "消息传递状态的指示 "
 
 msgid "Migration to briar_wrapper 0.0.5"
-msgstr ""
+msgstr "迁移到 briar_wrapper 0.0.5"
 
 msgid "Many more minor improvements"
 msgstr "更多的小改进"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "多语种翻译："
 
 msgid "Albanian"
-msgstr ""
+msgstr "阿尔巴尼亚语"
 
 msgid "Catalan"
-msgstr ""
+msgstr "加泰罗尼亚语"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "中文 (简体)"
 
 msgid "Esperanto"
-msgstr ""
+msgstr "世界语"
 
 msgid "Dutch"
-msgstr ""
+msgstr "荷兰语"
 
 msgid "French"
-msgstr ""
+msgstr "法语"
 
 msgid "Galician"
-msgstr ""
+msgstr "加利西亚语 "
 
 msgid "Icelandic"
-msgstr ""
+msgstr "冰岛语"
 
 msgid "Italian"
-msgstr ""
+msgstr "意大利语"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "立陶宛语"
 
 msgid "Persian"
-msgstr ""
+msgstr "波斯语"
 
 msgid "Russian"
-msgstr ""
+msgstr "俄语"
 
 msgid "Thai"
-msgstr ""
+msgstr "泰语"
 
 msgid "Basic notification support"
 msgstr "基本的通知支持"
 
 msgid "Support for contact deletion"
-msgstr ""
+msgstr "支持删除联系人"
 
 msgid "Hugely improved chat UI"
 msgstr "大大改进了聊天界面"
@@ -151,7 +151,11 @@ msgid "Lots of software tests"
 msgstr "许多软件测试"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr ""
+msgstr "这是Briar GTK的第一个alpha版本。它允许远程添加联系人，并在私人聊天中与他们聊天。其他功能，如群组，论坛和博客将被实现。"
+
+#~ msgctxt "Used in about dialog"
+#~ msgid "Copyright © 2019-2020 The Briar Project"
+#~ msgstr "版权所有 © 2019-2020 The Briar Project"
 
 #~ msgctxt "Used in about dialog"
 #~ msgid "A Briar client for GTK desktop and mobile devices"
@@ -255,14 +259,35 @@ msgstr ""
 #~ msgid "Creating Account"
 #~ msgstr "正在创建账户"
 
+#~ msgid "Localization Lab Translation Teams"
+#~ msgstr "本地化实验室 翻译团队"
+
+#~ msgid "Using code by"
+#~ msgstr "使用下列项目的代码"
+
+#~ msgid "Briar functionality by"
+#~ msgstr "Briar 功能由下列组件驱动"
+
+#~ msgid "Myself"
+#~ msgstr "我自己"
+
 #~ msgid "Are you sure you want to exit?"
 #~ msgstr "你确定要退出吗？"
+
+#~ msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+#~ msgstr "一旦您关闭Briar，您将不再能接收或发送待发送的消息。要与你的联系人保持联系，请保持Briar在开启状态。"
 
 #~ msgid "Confirm Contact Deletion"
 #~ msgstr "确认删除联系人"
 
 #~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 #~ msgstr "确认要删除该联系人和与之交流的所有消息吗？"
+
+#~ msgid "Contact added"
+#~ msgstr "联系人已添加"
+
+#~ msgid "New private message"
+#~ msgstr "新私信"
 
 #~ msgid "Please enter a password"
 #~ msgstr "请输入一个密码"
@@ -284,11 +309,3 @@ msgstr ""
 
 #~ msgid "Enter your contact's link, not your own"
 #~ msgstr "输入您联系人的链接，不要输入您自己的"
-
-#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-#~ msgid "Using code by"
-#~ msgstr "使用下列项目的代码"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "我自己"

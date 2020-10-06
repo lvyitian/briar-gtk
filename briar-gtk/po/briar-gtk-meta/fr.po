@@ -259,8 +259,20 @@ msgstr "La toute première version alpha de Briar GTK. Elle permet d’ajouter 
 #~ msgid "Creating Account"
 #~ msgstr "Création du compte"
 
+#~ msgid "Localization Lab Translation Teams"
+#~ msgstr "les équipes de traduction du Labo de localisation"
+
+#~ msgid "Using code by"
+#~ msgstr "Utilise du code par"
+
+#~ msgid "Briar functionality by"
+#~ msgstr "Fonctionnalité Briar par"
+
+#~ msgid "Myself"
+#~ msgstr "Moi"
+
 #~ msgid "Are you sure you want to exit?"
-#~ msgstr "Souhaitez-vous vraiment fermer l’appli ?"
+#~ msgstr "Voulez-vous vraiment fermer l’appli ?"
 
 #~ msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 #~ msgstr "Après avoir fermé Briar, vous ne recevrez plus de messages ni n’enverrez les messages en attente. Gardez Briar en fonction pour rester connecté avec vos contacts."
@@ -269,7 +281,13 @@ msgstr "La toute première version alpha de Briar GTK. Elle permet d’ajouter 
 #~ msgstr "Confirmer la suppression du contact"
 
 #~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-#~ msgstr "Souhaitez-vous vraiment supprimer ce contact et tous les messages associés ?"
+#~ msgstr "Voulez-vous vraiment supprimer ce contact et tous les messages associés ?"
+
+#~ msgid "Contact added"
+#~ msgstr "Le contact a été ajouté"
+
+#~ msgid "New private message"
+#~ msgstr "Nouveau message privé"
 
 #~ msgid "Please enter a password"
 #~ msgstr "Veuillez saisir un mot de passe"
@@ -291,27 +309,3 @@ msgstr "La toute première version alpha de Briar GTK. Elle permet d’ajouter 
 
 #~ msgid "Enter your contact's link, not your own"
 #~ msgstr "Saisissez le lien de votre contact, pas le vôtre"
-
-#~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-#~ msgid "Nico Alt"
-#~ msgstr "Nico Alt"
-
-#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-#~ msgid "Using code by"
-#~ msgstr "Utilise du code de"
-
-#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
-#~ msgid "Briar functionality by"
-#~ msgstr "Fonctionnalité Briar par"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "Moi-même"
-
-#~ msgctxt "Notification"
-#~ msgid "Contact added"
-#~ msgstr "Le contact a été ajouté"
-
-#~ msgctxt "Notification"
-#~ msgid "New private message"
-#~ msgstr "Nouveau message privé"

@@ -3,12 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Leo, 2020
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"Last-Translator: Leo, 2020\n"
 "Language-Team: Pushto (https://www.transifex.com/otf/teams/76528/ps/)\n"
 "Language: ps\n"
 "MIME-Version: 1.0\n"
@@ -144,3 +148,12 @@ msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr ""
+
+#~ msgid "Next"
+#~ msgstr "بل"
+
+#~ msgid "Password"
+#~ msgstr "تېرنويى"
+
+#~ msgid "Create Account"
+#~ msgstr "ګڼون پنځول"

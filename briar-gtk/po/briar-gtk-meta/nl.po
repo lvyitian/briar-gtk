@@ -6,12 +6,12 @@
 # Translators:
 # Pander <pander@users.sourceforge.net>, 2020
 # erinm, 2020
-# akwizgran <michael@briarproject.org>, 2020
 # Thom, 2020
-# Heimen Stoffels <vistausss@outlook.com>, 2020
 # Anne Mügge <info@numijneigenwebsite.nl>, 2020
 # Volluta <volluta@tutanota.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
+# Heimen Stoffels <vistausss@outlook.com>, 2020
+# akwizgran <michael@briarproject.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
+"Last-Translator: akwizgran <michael@briarproject.org>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/otf/teams/76528/nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -258,6 +258,15 @@ msgstr ""
 #~ msgid "Creating Account"
 #~ msgstr "Account maken"
 
+#~ msgid "Using code by"
+#~ msgstr "Gebruikt code van"
+
+#~ msgid "Briar functionality by"
+#~ msgstr "Briar-functionaliteit door"
+
+#~ msgid "Myself"
+#~ msgstr "Ik"
+
 #~ msgid "Are you sure you want to exit?"
 #~ msgstr "Weet je zeker dat u Briar wilt afsluiten?"
 
@@ -266,6 +275,9 @@ msgstr ""
 
 #~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 #~ msgstr "Weet je zeker dat je dit contact en alle bijbehorende berichten wilt verwijderen?"
+
+#~ msgid "Contact added"
+#~ msgstr "Contactpersoon is toegevoegd"
 
 #~ msgid "Please enter a password"
 #~ msgstr "Voer a.u.b. een wachtwoord in"
@@ -287,19 +299,3 @@ msgstr ""
 
 #~ msgid "Enter your contact's link, not your own"
 #~ msgstr "Voer de link van jouw contact in, niet de jouwe"
-
-#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-#~ msgid "Using code by"
-#~ msgstr "Gebruikt code van"
-
-#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
-#~ msgid "Briar functionality by"
-#~ msgstr "Briar-functionaliteit door"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "Ik"
-
-#~ msgctxt "Notification"
-#~ msgid "Contact added"
-#~ msgstr "Contactpersoon is toegevoegd"

@@ -257,6 +257,18 @@ msgstr "Allra fyrsta alfa-prófunarútgáfa Briar GTK. Hún gerir kleift að bæ
 #~ msgid "Creating Account"
 #~ msgstr "Bý til notandaaðgang"
 
+#~ msgid "Localization Lab Translation Teams"
+#~ msgstr "Þýðingateymi Localization Lab"
+
+#~ msgid "Using code by"
+#~ msgstr "Notar kóða frá"
+
+#~ msgid "Briar functionality by"
+#~ msgstr "Briar-virkni frá"
+
+#~ msgid "Myself"
+#~ msgstr "Ég sjálfur"
+
 #~ msgid "Are you sure you want to exit?"
 #~ msgstr "Ertu viss um að þú viljir hætta?"
 
@@ -268,6 +280,12 @@ msgstr "Allra fyrsta alfa-prófunarútgáfa Briar GTK. Hún gerir kleift að bæ
 
 #~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 #~ msgstr "Ertu viss að þú viljir fjarlægja þennan tengilið ásamt öllum þeim skilaboðum sem ykkur hafa farið á milli?"
+
+#~ msgid "Contact added"
+#~ msgstr "Tengilið bætt við"
+
+#~ msgid "New private message"
+#~ msgstr "Ný einkaskilaboð"
 
 #~ msgid "Please enter a password"
 #~ msgstr "Settu inn lykilorð"
@@ -289,27 +307,3 @@ msgstr "Allra fyrsta alfa-prófunarútgáfa Briar GTK. Hún gerir kleift að bæ
 
 #~ msgid "Enter your contact's link, not your own"
 #~ msgstr "Settu inn tengilinn frá tengiliðnum þínum, ekki þinn eigin"
-
-#~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-#~ msgid "Nico Alt"
-#~ msgstr "Nico Alt"
-
-#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-#~ msgid "Using code by"
-#~ msgstr "Notar kóða frá"
-
-#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
-#~ msgid "Briar functionality by"
-#~ msgstr "Briar-virkni frá"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "Ég sjálfur"
-
-#~ msgctxt "Notification"
-#~ msgid "Contact added"
-#~ msgstr "Tengilið bætt við"
-
-#~ msgctxt "Notification"
-#~ msgid "New private message"
-#~ msgstr "Ný einkaskilaboð"

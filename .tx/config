@@ -14,4 +14,3 @@ minimum_perc = 0
 source_file = briar-gtk/po/briar-gtk-meta/briar-gtk-meta.pot
 source_lang = en
 type = PO
-

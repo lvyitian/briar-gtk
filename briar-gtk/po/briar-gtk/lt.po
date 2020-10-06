@@ -116,16 +116,16 @@ msgid "Creating Account"
 msgstr "Paskyros sukūrimas"
 
 msgid "Localization Lab Translation Teams"
-msgstr ""
+msgstr "Localization Lab vertimo komandos"
 
 msgid "Using code by"
-msgstr ""
+msgstr "Naudojamas kodas pagal"
 
 msgid "Briar functionality by"
-msgstr ""
+msgstr "Briar funkcionalumas pagal"
 
 msgid "Myself"
-msgstr ""
+msgstr "Aš"
 
 msgid "Are you sure you want to exit?"
 msgstr "Ar tikrai norite išeiti?"
@@ -140,10 +140,10 @@ msgid "Are you sure that you want to remove this contact and all messages exchan
 msgstr "Ar tikrai norite pašalinti šį adresatą ir visas žinutes, kuriomis apsikeitėte su šiuo adresatu ?"
 
 msgid "Contact added"
-msgstr ""
+msgstr "Kontaktas pridėtas"
 
 msgid "New private message"
-msgstr ""
+msgstr "Nauja privati žinutė"
 
 msgid "Please enter a password"
 msgstr "Įveskite slaptažodį"
@@ -306,27 +306,3 @@ msgstr "Apsilankyti Briar GTK internetinėje svetainėje"
 
 #~ msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 #~ msgstr "Pati pirmoji Briar GTK alfa laida. Ji leidžia jums pridėti adresatus per atstumą bei bendrauti su jais privačiuose pokalbiuose. Kitos funkcijos, tokios kaip grupės, forumai ir tinklaraščiai, dar bus įgyvendintos."
-
-#~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-#~ msgid "Nico Alt"
-#~ msgstr "Nico Alt"
-
-#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-#~ msgid "Using code by"
-#~ msgstr "Naudojamas kodas pagal"
-
-#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
-#~ msgid "Briar functionality by"
-#~ msgstr "Briar funkcionalumas pagal"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "Aš"
-
-#~ msgctxt "Notification"
-#~ msgid "Contact added"
-#~ msgstr "Kontaktas pridėtas"
-
-#~ msgctxt "Notification"
-#~ msgid "New private message"
-#~ msgstr "Nauja privati žinutė"

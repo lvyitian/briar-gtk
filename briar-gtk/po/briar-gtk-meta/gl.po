@@ -7,8 +7,8 @@
 # erinm, 2020
 # Heitor <heitor.real@gmail.com>, 2020
 # Francisco Huerta <francisco.huerta@davinci-ti.es>, 2020
-# Xosé M. <correo@xmgz.eu>, 2020
 # Oscar Guardiola <Oscar.Guardiola@davinci-ti.es>, 2020
+# Xosé M. <correo@xmgz.eu>, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Oscar Guardiola <Oscar.Guardiola@davinci-ti.es>, 2020\n"
+"Last-Translator: Xosé M. <correo@xmgz.eu>, 2020\n"
 "Language-Team: Galician (https://www.transifex.com/otf/teams/76528/gl/)\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -255,6 +255,15 @@ msgstr ""
 #~ msgid "Creating Account"
 #~ msgstr "Crear conta"
 
+#~ msgid "Using code by"
+#~ msgstr "Usando código por"
+
+#~ msgid "Briar functionality by"
+#~ msgstr "Briar funciona grazas a"
+
+#~ msgid "Myself"
+#~ msgstr "Min mesma"
+
 #~ msgid "Are you sure you want to exit?"
 #~ msgstr "Tes a certeza de querer saír?"
 
@@ -284,15 +293,3 @@ msgstr ""
 
 #~ msgid "Enter your contact's link, not your own"
 #~ msgstr "Introduza a ligazón do contacto, non o propio"
-
-#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-#~ msgid "Using code by"
-#~ msgstr "Usando código por"
-
-#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
-#~ msgid "Briar functionality by"
-#~ msgstr "Briar funciona grazas a"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "Min mesma"

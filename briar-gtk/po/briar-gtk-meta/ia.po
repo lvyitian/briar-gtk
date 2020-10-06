@@ -70,7 +70,7 @@ msgid "Many more minor improvements"
 msgstr ""
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Traductiones a multe linguas:"
 
 msgid "Albanian"
 msgstr ""
@@ -186,6 +186,9 @@ msgstr ""
 
 #~ msgid "Password"
 #~ msgstr "Contrasigno"
+
+#~ msgid "About Briar GTK"
+#~ msgstr "A proposito de Briar GTK"
 
 #~ msgctxt "Accessibility text in main menu"
 #~ msgid "Add contact"

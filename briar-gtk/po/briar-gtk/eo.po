@@ -120,13 +120,13 @@ msgid "Localization Lab Translation Teams"
 msgstr ""
 
 msgid "Using code by"
-msgstr ""
+msgstr "Kun kodo de"
 
 msgid "Briar functionality by"
-msgstr ""
+msgstr "Briar-a funkcieco de"
 
 msgid "Myself"
-msgstr ""
+msgstr "Min mem"
 
 msgid "Are you sure you want to exit?"
 msgstr "Vi estas certe vi volas ĉesi?"
@@ -211,15 +211,3 @@ msgstr "Vizitu Briar-on GTK-an retejon"
 
 #~ msgid "Lots of software tests"
 #~ msgstr "Multaj programaraj testoj"
-
-#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-#~ msgid "Using code by"
-#~ msgstr "Kun kodo de"
-
-#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
-#~ msgid "Briar functionality by"
-#~ msgstr "Briar-a funkcieco de"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "Min mem"

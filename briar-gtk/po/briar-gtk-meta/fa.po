@@ -4,12 +4,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Goudarz Jafari <goudarz.jafari@gmail.com>, 2020
 # Reza Ghasemi, 2020
 # Martus Translations <translations@martus.org>, 2020
 # AJ, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # NoProfile, 2020
+# Goudarz Jafari <goudarz.jafari@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: NoProfile, 2020\n"
+"Last-Translator: Goudarz Jafari <goudarz.jafari@gmail.com>, 2020\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/76528/fa/)\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -232,6 +232,9 @@ msgstr ""
 #~ msgid "Creating Account"
 #~ msgstr "در حال ایجاد حساب کاربری"
 
+#~ msgid "Myself"
+#~ msgstr "خودم"
+
 #~ msgid "Are you sure you want to exit?"
 #~ msgstr "آیا مطمئن هستید که می‌خواهید خارج شوید؟"
 
@@ -255,7 +258,3 @@ msgstr ""
 
 #~ msgid "Enter your contact's link, not your own"
 #~ msgstr "به جای پیوند خود، پیوند مخاطب را وارد کنید"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "خودم"

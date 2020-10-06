@@ -7,14 +7,14 @@
 # 1ed4e60ee66958c827a8962eeb50f715_b700974, 2020
 # erinm, 2020
 # Florencia Herra Vega <flohdot@gmail.com>, 2020
-# akwizgran <michael@briarproject.org>, 2020
+# nautilusx, 2020
 # n3niu, 2020
 # Eike Fulda <e50389.fulda@gmx.de>, 2020
-# nautilusx, 2020
-# Ettore Atalan <atalanttore@googlemail.com>, 2020
 # Lars Schimmer <echelon@i2pmail.org>, 2020
-# Nico Alt, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
+# Ettore Atalan <atalanttore@googlemail.com>, 2020
+# akwizgran <michael@briarproject.org>, 2020
+# Nico Alt, 2020
 #
 #, fuzzy
 msgid ""
@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
+"Last-Translator: Nico Alt, 2020\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/76528/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -265,6 +265,18 @@ msgstr "Das erste Alpha-Release von Briar GTK. Es können Kontakte in der Ferne 
 #~ msgid "Creating Account"
 #~ msgstr "Konto wird erstellt"
 
+#~ msgid "Localization Lab Translation Teams"
+#~ msgstr "Localization Lab Übersetzungsteams"
+
+#~ msgid "Using code by"
+#~ msgstr "Benutzt Code von"
+
+#~ msgid "Briar functionality by"
+#~ msgstr "Briar-Funktionalität von"
+
+#~ msgid "Myself"
+#~ msgstr "Ich"
+
 #~ msgid "Are you sure you want to exit?"
 #~ msgstr "Willst du Briar wirklich beenden?"
 
@@ -276,6 +288,12 @@ msgstr "Das erste Alpha-Release von Briar GTK. Es können Kontakte in der Ferne 
 
 #~ msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 #~ msgstr "Bist du sicher, dass du diesen Kontakt und alle dazugehörigen Nachrichten löschen möchtest?"
+
+#~ msgid "Contact added"
+#~ msgstr "Kontakt hinzugefügt"
+
+#~ msgid "New private message"
+#~ msgstr "Neue private Nachricht"
 
 #~ msgid "Please enter a password"
 #~ msgstr "Bitte gib ein Passwort ein"
@@ -297,27 +315,3 @@ msgstr "Das erste Alpha-Release von Briar GTK. Es können Kontakte in der Ferne 
 
 #~ msgid "Enter your contact's link, not your own"
 #~ msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
-
-#~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-#~ msgid "Nico Alt"
-#~ msgstr "Nico Alt"
-
-#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-#~ msgid "Using code by"
-#~ msgstr "Benutzt Code von"
-
-#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
-#~ msgid "Briar functionality by"
-#~ msgstr "Briar-Funktionalität von"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "Ich"
-
-#~ msgctxt "Notification"
-#~ msgid "Contact added"
-#~ msgstr "Kontakt hinzugefügt"
-
-#~ msgctxt "Notification"
-#~ msgid "New private message"
-#~ msgstr "Neue private Nachricht"

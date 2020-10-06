@@ -6,8 +6,8 @@
 # Translators:
 # erinm, 2020
 # Bujar Tafili, 2020
-# Besnik Bleta <besnik@programeshqip.org>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
+# Besnik Bleta <besnik@programeshqip.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2020\n"
 "Language-Team: Albanian (https://www.transifex.com/otf/teams/76528/sq/)\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
@@ -118,16 +118,16 @@ msgid "Creating Account"
 msgstr "Po Krijohet Llogari"
 
 msgid "Localization Lab Translation Teams"
-msgstr ""
+msgstr "Ekipet e Përkthimit në Localization Lab"
 
 msgid "Using code by"
-msgstr ""
+msgstr "Me përdorim kodi nga"
 
 msgid "Briar functionality by"
-msgstr ""
+msgstr "Funksionet Briar nga"
 
 msgid "Myself"
-msgstr ""
+msgstr "Unë"
 
 msgid "Are you sure you want to exit?"
 msgstr "Jeni i sigurt se doni të dilet?"
@@ -142,10 +142,10 @@ msgid "Are you sure that you want to remove this contact and all messages exchan
 msgstr "Jeni i sigurt se doni të hiqet ky kontakt dhe krejt mesazhet e shkëmbyer me këtë kontakt?"
 
 msgid "Contact added"
-msgstr ""
+msgstr "Kontakti u shtua"
 
 msgid "New private message"
-msgstr ""
+msgstr "Mesazh i ri privat"
 
 msgid "Please enter a password"
 msgstr "Ju lutemi, jepni një fjalëkalim"
@@ -308,27 +308,3 @@ msgstr "Vizitoni sajtin e Briar GTK"
 
 #~ msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 #~ msgstr "Hedhja e parë fare në qarkullim e një versioni alpha të Briar GTK. Lejon shtim kontaktesh së largëti dhe fjalosje me ta në fjalosje private. Janë për t’u sendërtuar funksione të tjera, të tillë si grupe, forume dhe blogje."
-
-#~ msgctxt "Used in about dialog; replace Nico with yourself to get credited in your translation; multiple persons can be added by adding new lines"
-#~ msgid "Nico Alt"
-#~ msgstr "Nico Alt"
-
-#~ msgctxt "Used in about dialog to credit other programs like GNOME Fractal"
-#~ msgid "Using code by"
-#~ msgstr "Me përdorim kodi nga"
-
-#~ msgctxt "Used in about dialog to credit Briar components like its REST API"
-#~ msgid "Briar functionality by"
-#~ msgstr "Funksionet Briar nga"
-
-#~ msgctxt "Used in message history to indicate that message isby the user itself, not by its contact"
-#~ msgid "Myself"
-#~ msgstr "Unë"
-
-#~ msgctxt "Notification"
-#~ msgid "Contact added"
-#~ msgstr "Kontakti u shtua"
-
-#~ msgctxt "Notification"
-#~ msgid "New private message"
-#~ msgstr "Mesazh i ri privat"

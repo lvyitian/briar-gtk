@@ -75,7 +75,7 @@ msgid "Logging in"
 msgstr ""
 
 msgid "About Briar GTK"
-msgstr ""
+msgstr "A proposito de Briar GTK"
 
 msgctxt "Used in input field in main window"
 msgid "Type Message"
@@ -177,3 +177,6 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
+
+#~ msgid "Translations into many languages:"
+#~ msgstr "Traductiones a multe linguas:"

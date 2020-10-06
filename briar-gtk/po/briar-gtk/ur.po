@@ -5,9 +5,9 @@
 #
 # Translators:
 # erinm, 2020
+# Ali Kamran <kamran@digitalrightsfoundation.pk>, 2020
 # Sarfaraz Ahmed, 2020
 # b33a4006134bb6ee62b30fc0fac5cec6, 2020
-# Ali Kamran <kamran@digitalrightsfoundation.pk>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Ali Kamran <kamran@digitalrightsfoundation.pk>, 2020\n"
+"Last-Translator: b33a4006134bb6ee62b30fc0fac5cec6, 2020\n"
 "Language-Team: Urdu (https://www.transifex.com/otf/teams/76528/ur/)\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
@@ -179,12 +179,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "French"
-#~ msgstr "فرانسیسی"
-
-#~ msgid "Persian"
-#~ msgstr "فارسی"
-
-#~ msgid "Russian"
-#~ msgstr "روسی"

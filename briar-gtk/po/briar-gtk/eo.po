@@ -178,36 +178,3 @@ msgstr "Briar-an klienton pro labortablaj kaj porteblaj aparatoj."
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Vizitu Briar-on GTK-an retejon"
-
-#~ msgid "Briar"
-#~ msgstr "Briar"
-
-#~ msgid "Secure messaging, anywhere"
-#~ msgstr "Sekura tujmesaĝado, ie ajn"
-
-#~ msgid "The Briar Project"
-#~ msgstr "La Briar-a Projekto"
-
-#~ msgid "Main window showing two contacts and chat"
-#~ msgstr "Ĉefa fenestro prezentanta du kontaktojn kaj babilan"
-
-#~ msgid "Welcome screen with registration"
-#~ msgstr "Bonvena ekrano kun registrado"
-
-#~ msgid "Main window with two contacts and about dialog"
-#~ msgstr "Ĉefa fenestro kun du kontaktoj kaj pridialogujo"
-
-#~ msgid "Improvements in this version:"
-#~ msgstr "Plibonigoj en ĉi tiu versio"
-
-#~ msgid "Basic notification support"
-#~ msgstr "Baza sciiga subteno"
-
-#~ msgid "Hugely improved chat UI"
-#~ msgstr "Multegen bonigis babilan uzulinterfacon"
-
-#~ msgid "Full Spanish and German translations"
-#~ msgstr "Tutaj hispanaj kaj germanaj tradukadoj"
-
-#~ msgid "Lots of software tests"
-#~ msgstr "Multaj programaraj testoj"

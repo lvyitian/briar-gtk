@@ -11,7 +11,6 @@
 # Thomas Walls <thomasw@tutanota.com>, 2020
 # Stefan Gagner <stefan@mei-ya.se>, 2020
 # Daniel <d-transifex@lublin.se>, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -19,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
+"Last-Translator: Daniel <d-transifex@lublin.se>, 2020\n"
 "Language-Team: Swedish (https://www.transifex.com/otf/teams/76528/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -183,15 +182,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-#~ msgstr "Briar är en meddelandeapp designad för aktivister, journalister och andra som behöver ett säkert, lätt och robust sätt att kommunicera. Till skillnad från traditionella meddelandeappar förlitar sig Briar inte på någon central server ­– meddelanden synkroniseras direkt mellan användarnas enheter. Om internet är nere kan Briar synka via Bluetooth eller Wi-Fi, vilket låter informationen flöda under i krissituation. Om internet är tillgängligt kan Briar synkronisera via Tor-nätverket, vilket skyddar användare och deras relationer från övervakning."
-
-#~ msgid "Chinese (Simplified)"
-#~ msgstr "Kinesiska (Enkel)"
-
-#~ msgid "French"
-#~ msgstr "Franska"
-
-#~ msgid "Russian"
-#~ msgstr "Ryska"

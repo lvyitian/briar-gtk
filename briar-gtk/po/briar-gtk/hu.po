@@ -5,11 +5,9 @@
 #
 # Translators:
 # erinm, 2020
-# Henrik Bayer <henrik.bayer@protonmail.com>, 2020
-# David Webb, 2020
-# vargaviktor <viktor.varga@gmail.com>, 2020
-# AdminLMH <lehetmashogy@i2pmail.org>, 2020
 # benewfy <benewfy@gmail.com>, 2020
+# Henrik Bayer <henrik.bayer@protonmail.com>, 2020
+# vargaviktor <viktor.varga@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -17,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: benewfy <benewfy@gmail.com>, 2020\n"
+"Last-Translator: vargaviktor <viktor.varga@gmail.com>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/otf/teams/76528/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -181,18 +179,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-#~ msgstr "Briar egy üzenetküldő alkalmazás, amit aktivisták, újságírók és bárki olyan számára terveztek, akinek szüksége van biztonságos és megbízható módon kommunikálni. A hagyományos üzenetküldő alkalmazásokkal ellentétben a Briar nem függ egy központi szervertől, az üzenetek közvetlenül a felhasználók készülékei között szinkronizálódnak. Ha az internet nem elérhető, a Briar Bluetooth vagy Wi-Fi kapcsolaton keresztül szinkronizál. Amikor az interent elérhető, a Briar a Tor hálózaton keresztül szinkronizál, megvédve a felhasználókat és kapcsolataikat a megfigyeléstől."
-
-#~ msgid "Dutch"
-#~ msgstr "Holland"
-
-#~ msgid "French"
-#~ msgstr "Francia"
-
-#~ msgid "Italian"
-#~ msgstr "Olasz"
-
-#~ msgid "Russian"
-#~ msgstr "Orosz"

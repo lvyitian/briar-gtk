@@ -5,11 +5,9 @@
 #
 # Translators:
 # Pander <pander@users.sourceforge.net>, 2020
+# Anne Mügge <info@numijneigenwebsite.nl>, 2020
 # erinm, 2020
 # Thom, 2020
-# Anne Mügge <info@numijneigenwebsite.nl>, 2020
-# Volluta <volluta@tutanota.com>, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # Heimen Stoffels <vistausss@outlook.com>, 2020
 # akwizgran <michael@briarproject.org>, 2020
 #
@@ -183,90 +181,3 @@ msgstr "Briar applicatie voor GTK-ondersteunde desktop- en mobiele apparaten"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Bezoek de website van Briar GTK"
-
-#~ msgid "Briar"
-#~ msgstr "Briar"
-
-#~ msgid "Secure messaging, anywhere"
-#~ msgstr "Veilig communiceren, waar dan ook"
-
-#~ msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-#~ msgstr "Briar is een berichten app ontworpen voor activisten, journalisten en wie dan ook die een veilige, gemakkelijke en robuste manier nodig heeft voor communicatie. Niet zoals traditionele berichtenapps maakt Briar geen gebruik van een centrale server - berichten worden direct tussen de apparaten van gebruikers gesynchroniseerd. Als het internet het niet doet kan Briar synchroniseren d.m.v. Bluetooth of wifi, zodat de informatie blijft ronstromen tijdens een crisis. Als het internet het wel doet kan Briar Synchroniseren over het Tor netwerk, en beschermt het gebruikers en hun verhoudingen van surveillance."
-
-#~ msgid "The Briar Project"
-#~ msgstr "Het Briar Project"
-
-#~ msgid "Main window showing two contacts and chat"
-#~ msgstr "Hoofdvenster, toont twee contacten en een gesprek"
-
-#~ msgid "Welcome screen with registration"
-#~ msgstr "Welkomstscherm met registratie"
-
-#~ msgid "Main window with two contacts and about dialog"
-#~ msgstr "Hoofdvenster, toont twee contacten en een toelichting."
-
-#~ msgid "Improvements in this version:"
-#~ msgstr "Verbeteringen in deze versie."
-
-#~ msgid "Many more minor improvements"
-#~ msgstr "Vele andere kleine verbeteringen"
-
-#~ msgid "Albanian"
-#~ msgstr "Albanees"
-
-#~ msgid "Chinese (Simplified)"
-#~ msgstr "Chinees (vereenvoudigd)"
-
-#~ msgid "Esperanto"
-#~ msgstr "Esperanto"
-
-#~ msgid "Dutch"
-#~ msgstr "Nederlands"
-
-#~ msgid "French"
-#~ msgstr "Frans"
-
-#~ msgid "Italian"
-#~ msgstr "Italiaans"
-
-#~ msgid "Persian"
-#~ msgstr "Perzisch"
-
-#~ msgid "Russian"
-#~ msgstr "Russisch"
-
-#~ msgid "Thai"
-#~ msgstr "Thai"
-
-#~ msgid "Basic notification support"
-#~ msgstr "Basisondersteuning voor meldingen"
-
-#~ msgid "Hugely improved chat UI"
-#~ msgstr "Gigantische verbeteringen aan gespreksinterface"
-
-#~ msgid "Full Spanish and German translations"
-#~ msgstr "Volledige vertaling in Spaans en Duits"
-
-#~ msgid "Migration to libhandy 1.0"
-#~ msgstr "Migratie naar libhandy 1.0"
-
-#~ msgid "Migration to briar_wrapper 0.0.4"
-#~ msgstr "Migratie naar briar_wrapper 0.0.4"
-
-#~ msgid "Show online status of contacts in contact list (#19)"
-#~ msgstr "Toon online status of contacten in contacten lijst (#19)"
-
-#~ msgid "Support copying content in messages (#51)"
-#~ msgstr "Ondersteuning voor kopiëren van inhoud in berichten (#51)"
-
-#~ msgid "Fix bug with Briar messages not having text (#56)"
-#~ msgstr "Bug opgelost: Briar berichten tonen geen inhoud (#56)"
-
-#~ msgid "Fix bug with contact's name not showing in private messages (#55)"
-#~ msgstr "Bug opgelost waarin naam gebruiker niet getoond werd in privégesprekken"
-
-#~ msgid "Update Briar core to version 1.2.9"
-#~ msgstr "Briar core geupdate naar versie 1.2.9"
-
-#~ msgid "Lots of software tests"
-#~ msgstr "Heel veel software testen"

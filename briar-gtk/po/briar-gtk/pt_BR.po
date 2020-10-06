@@ -6,17 +6,15 @@
 # Translators:
 # Martus Translations <translations@martus.org>, 2020
 # Eduardo Bonsi, 2020
+# Joeffison Silvério de Andrade <joeffison@gmail.com>, 2020
+# 0ed9961fdd2c469a85d0f0ef7ce7865b, 2020
 # Vitoria Vernalha <vernalhavitoria@gmail.com>, 2020
 # jose, 2020
 # Đorđe Marušić <djordje@hzontal.org>, 2020
-# sobeitnow0 <sobeitnow0@gmail.com>, 2020
 # erinm, 2020
 # Caio Volpato <caio.volpato@riseup.net>, 2020
 # André Almeida <andrefalmeida@protonmail.com>, 2020
 # Adrian . <tekohax@disroot.org>, 2020
-# Joeffison Silvério de Andrade <joeffison@gmail.com>, 2020
-# 0ed9961fdd2c469a85d0f0ef7ce7865b, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # Evandro <evandro.92@hotmail.com>, 2020
 #
 #, fuzzy
@@ -189,36 +187,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "Briar"
-#~ msgstr "Briar"
-
-#~ msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-#~ msgstr "Briar é um aplicativo de mensagens desenvolvido para ativistas, jornalistas e todos aqueles e aquelas que precisam de uma maneira segura, fácil e robusta para se comunicar. Diferente dos aplicativos de mensagens tradicionais, o Briar não depende de um servidor central – as mensagens são sincronizadas diretamente entre os aparelhos dos usuários. Se não houver conexão com a internet, o Briar pode se manter sincronizado através do Bluetooth ou Wi-Fi, mantendo assim a informação fluindo em uma crise. Se houver conexão com a internet, o Briar pode se conectar através da rede Tor, protegendo os usuários e suas relações da vigilância."
-
-#~ msgid "The Briar Project"
-#~ msgstr "O projeto Briar"
-
-#~ msgid "Chinese (Simplified)"
-#~ msgstr "Chinês (Simplificado)"
-
-#~ msgid "Esperanto"
-#~ msgstr "Esperanto"
-
-#~ msgid "Dutch"
-#~ msgstr "Holandês"
-
-#~ msgid "French"
-#~ msgstr "Francês"
-
-#~ msgid "Italian"
-#~ msgstr "Italiano"
-
-#~ msgid "Persian"
-#~ msgstr "Persa"
-
-#~ msgid "Russian"
-#~ msgstr "Russo"
-
-#~ msgid "Thai"
-#~ msgstr "Tailandês"

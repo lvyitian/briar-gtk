@@ -4,11 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Reza Ghasemi, 2020
 # Martus Translations <translations@martus.org>, 2020
 # AJ, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # NoProfile, 2020
+# Reza Ghasemi, 2020
 # Goudarz Jafari <goudarz.jafari@gmail.com>, 2020
 #
 #, fuzzy
@@ -181,42 +180,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "Briar"
-#~ msgstr "Briar"
-
-#~ msgid "Secure messaging, anywhere"
-#~ msgstr "پیام‌رسان امن، در هر کجا"
-
-#~ msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-#~ msgstr "Briar یک برنامه پیام رسان می باشد که برای فعالان، روزنامه نگاران و هر کسی که نیازمند یک راه امن، راحت و پیشرفته برای ارتباط با دیگران است می باشد. برخلاف برنامه‌ های پیام‌رسان‌ مرسوم، Briar به سرور متمرکز اتکا ندارد - پیام ها به صورت مستقیم بین دستگاه کاربران همگام می شود. اگر اینترنت کار نکند، Briar می‌تواند از طریق بلوتوث یا وای‌-فای همگام سازی کرده، جریان اطلاعات را در زمان بحران نگه دارد. اگر اینترنت کار کند، Briar می‌تواند برای محافظت کاربران و وابط آن ها از از شنود، از طریق شبکه تور همگام سازی کند."
-
-#~ msgid "The Briar Project"
-#~ msgstr "پروژه Briar"
-
-#~ msgid "Albanian"
-#~ msgstr "آلبانیایی"
-
-#~ msgid "Chinese (Simplified)"
-#~ msgstr "زبان چینی ساده شده"
-
-#~ msgid "Esperanto"
-#~ msgstr "اسپرانتو"
-
-#~ msgid "Dutch"
-#~ msgstr "هلندی"
-
-#~ msgid "French"
-#~ msgstr "فرانسوی"
-
-#~ msgid "Italian"
-#~ msgstr "ايتاليايی"
-
-#~ msgid "Persian"
-#~ msgstr "فارسی"
-
-#~ msgid "Russian"
-#~ msgstr "روسی"
-
-#~ msgid "Thai"
-#~ msgstr "تايلندی"

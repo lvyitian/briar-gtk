@@ -179,18 +179,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "Dutch"
-#~ msgstr "독일어"
-
-#~ msgid "French"
-#~ msgstr "프랑스어"
-
-#~ msgid "Galician"
-#~ msgstr "갈리시아어"
-
-#~ msgid "Italian"
-#~ msgstr "이탈리아어"
-
-#~ msgid "Russian"
-#~ msgstr "러시아어"

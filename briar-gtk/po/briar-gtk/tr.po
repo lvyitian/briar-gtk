@@ -13,7 +13,6 @@
 # mahmut özcan <mahmutozcan@protonmail.com>, 2020
 # T. E. Kalayci <tekrei@gmail.com>, 2020
 # Ferdi YLDZ <eceyldz1122@gmail.com>, 2020
-# Emre Deniz, 2020
 #
 #, fuzzy
 msgid ""
@@ -21,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Emre Deniz, 2020\n"
+"Last-Translator: Ferdi YLDZ <eceyldz1122@gmail.com>, 2020\n"
 "Language-Team: Turkish (https://www.transifex.com/otf/teams/76528/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -185,9 +184,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-#~ msgstr "Briar aktivistler ve gazeteciler başta olmak üzere güvenli, kolay ve sağlam bir iletişim isteyen herkes için tasarlanmış bir ileti sistemidir. Geleneksel ileti sistemlerinin aksine Briar merkezi bir sunucu kullanmaz, iletiler doğrudan kullanıcıların aygıtları arasında eşleştirilir. Briar, eğer İnternet yoksa Bluetooth veya Wi-Fi aracılığıyla da iletileri iletebilir, böylece kriz durumlarında bilgi akışını sürdürür. İnternet varken Briar Tor ağı aracılığıyla iletim sağlar, böylece kullanıcıları ve ilişkilerini gözetimden korumuş olur.  "
-
-#~ msgid "Russian"
-#~ msgstr "Rusça"

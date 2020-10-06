@@ -179,6 +179,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-#~ msgstr "Briar, aktibista, kazetari, edo komunikatzeko modu seguru, erraz eta sendo baten beharra duen edonorentzat diseinatutako mezularitza aplikazio bat da. Mezularitza aplikazio tradizionalek ez bezala Briar-ek ez du zerbitzari zentral baten beharrik, mezuak erabiltzaileen gailuen artean sinkronizatzen dira zuzenean. Internet erabilgarri ez badago, Briar-ek, Bluetooth edo WiFi bidez sinkronizatu daiteke, larrialdietan ere informazioak aurrera egin dezan. Internet erabilgarri badago, Briar Tor sarearen bidez sinkronizatu daiteke, erabiltzaileak eta bere erlazioak zelatakeriaren aurrean babestuz."

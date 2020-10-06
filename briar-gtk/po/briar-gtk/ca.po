@@ -5,8 +5,8 @@
 #
 # Translators:
 # Jordi Mas <jmas@softcatala.org>, 2020
-# Bartges90, 2020
 # Benny Beat <bennybeat@gmail.com>, 2020
+# Bartges90, 2020
 # Joan Bitlloch <joanbit@gmail.com>, 2020
 # Sebas Vila <svilamarta@gmail.com>, 2020
 # Jaime Muñoz Martín <jmmartin_5@outlook.com>, 2020
@@ -181,42 +181,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "Briar"
-#~ msgstr "Briar"
-
-#~ msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-#~ msgstr "El Briar és una aplicació de missatgeria dissenyada per a activistes, periodistes i qualsevol persona en general que necessiti una manera segura, fàcil i robsuta de comunicar-se. Al contrari que les aplicacions tradicionals, el Briar no depèn d'un servidor central: els missatges se sincronitzen directament entre els dispositius dels usuaris. Si Internet cau, el Briar pot continuar funcionant mitjançant Bluetooth o Wi-Fi, mantenint el flux fins i tot amb aquesta situació caòtica. Amb un funcionament normal d'Internet, el Briar es pot sincronitzar a través de la xarxa Tor, protegint els usuaris i les seves comunicacions d'ulls indiscrets."
-
-#~ msgid "The Briar Project"
-#~ msgstr "El Projecte Briar"
-
-#~ msgid "Main window showing two contacts and chat"
-#~ msgstr "Finestra principal mostrant dos contactes i xat"
-
-#~ msgid "Welcome screen with registration"
-#~ msgstr "Pantalla de benvinguda amb registre"
-
-#~ msgid "Improvements in this version:"
-#~ msgstr "Millores d'aquesta versió:"
-
-#~ msgid "Many more minor improvements"
-#~ msgstr "Moltíssimes millores de menor importància"
-
-#~ msgid "Basic notification support"
-#~ msgstr "Suport bàsic de notificacions"
-
-#~ msgid "Hugely improved chat UI"
-#~ msgstr "Interfície gràfica altament millorada"
-
-#~ msgid "Full Spanish and German translations"
-#~ msgstr "Traduccions completes en alemany i espanyol"
-
-#~ msgid "Migration to libhandy 1.0"
-#~ msgstr "Migració a libhandy 1.0"
-
-#~ msgid "Migration to briar_wrapper 0.0.4"
-#~ msgstr "Migració a briar_wrapper 0.0.4"
-
-#~ msgid "Show online status of contacts in contact list (#19)"
-#~ msgstr "Mostra l'estat en línia al llistat de contactes (#19)"

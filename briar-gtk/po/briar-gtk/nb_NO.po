@@ -5,8 +5,8 @@
 #
 # Translators:
 # translator42, 2020
-# Elias Nykrem <bloodaxeNOR@protonmail.com>, 2020
 # Allan Nordhøy <epost@anotheragency.no>, 2020
+# Elias Nykrem <bloodaxeNOR@protonmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2020\n"
+"Last-Translator: Elias Nykrem <bloodaxeNOR@protonmail.com>, 2020\n"
 "Language-Team: Norwegian Bokmål (Norway) (https://www.transifex.com/otf/teams/76528/nb_NO/)\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
@@ -178,6 +178,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "Russian"
-#~ msgstr "Russisk"

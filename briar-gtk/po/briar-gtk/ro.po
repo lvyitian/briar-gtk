@@ -6,11 +6,9 @@
 # Translators:
 # erinm, 2020
 # Cristina Lupu <cristina@cji.ro>, 2020
+# titus <titus0818@gmail.com>, 2020
 # Vitalie Ciubotaru <vitalie@ciubotaru.tk>, 2020
 # Licaon_Kter, 2020
-# titus <titus0818@gmail.com>, 2020
-# Predator <Predator@windowslive.com>, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -18,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
+"Last-Translator: Licaon_Kter, 2020\n"
 "Language-Team: Romanian (https://www.transifex.com/otf/teams/76528/ro/)\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -182,33 +180,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "Briar"
-#~ msgstr "Briar"
-
-#~ msgid "Chinese (Simplified)"
-#~ msgstr "Chineză (simplificată)"
-
-#~ msgid "Esperanto"
-#~ msgstr "Esperanto"
-
-#~ msgid "Dutch"
-#~ msgstr "Olandez"
-
-#~ msgid "French"
-#~ msgstr "Francez"
-
-#~ msgid "Galician"
-#~ msgstr "Galician"
-
-#~ msgid "Italian"
-#~ msgstr "Italian"
-
-#~ msgid "Persian"
-#~ msgstr "Persană"
-
-#~ msgid "Russian"
-#~ msgstr "Rus"
-
-#~ msgid "Thai"
-#~ msgstr "Thai"

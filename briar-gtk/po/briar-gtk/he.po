@@ -7,7 +7,6 @@
 # zxcsd <jenisjpl@gmail.com>, 2020
 # Giovanni Pellerano <giovanni.pellerano@evilaliv3.org>, 2020
 # ION, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
+"Last-Translator: ION, 2020\n"
 "Language-Team: Hebrew (https://www.transifex.com/otf/teams/76528/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -179,18 +178,3 @@ msgstr ""
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr ""
-
-#~ msgid "Chinese (Simplified)"
-#~ msgstr "סינית (פשוטה)"
-
-#~ msgid "French"
-#~ msgstr "צרפתית"
-
-#~ msgid "Persian"
-#~ msgstr "פרסית"
-
-#~ msgid "Russian"
-#~ msgstr "רוסית"
-
-#~ msgid "Thai"
-#~ msgstr "תאילנדית"

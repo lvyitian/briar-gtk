@@ -2,9 +2,16 @@
 host = https://www.transifex.com
 
 [briar.briar-gtk-pot]
-file_filter = briar-gtk/po/<lang>.po
+file_filter = briar-gtk/po/briar-gtk/<lang>.po
 minimum_perc = 0
-source_file = briar-gtk/po/briar-gtk.pot
+source_file = briar-gtk/po/briar-gtk/briar-gtk.pot
+source_lang = en
+type = PO
+
+[briar.briar-gtk-meta-pot]
+file_filter = briar-gtk/po/briar-gtk-meta/<lang>.po
+minimum_perc = 0
+source_file = briar-gtk/po/briar-gtk-meta/briar-gtk-meta.pot
 source_lang = en
 type = PO
 

@@ -163,7 +163,7 @@ See [TRANSLATION.md](./TRANSLATION.md) for more information.
 
 From time to time, translations and Flatpak's Python dependencies should be
 updated. The former can be done with
-`tools/generate-data.sh`, the latter using
+`tools/update-translations.sh`, the latter using
 [flatpak-builder-tools](https://github.com/flatpak/flatpak-builder-tools).
 
 ## Design Goals

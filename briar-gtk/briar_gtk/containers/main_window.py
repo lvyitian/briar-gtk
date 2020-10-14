@@ -16,6 +16,7 @@ from briar_gtk.define import APP, NOTIFICATION_CONTACT_ADDED
 from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
 from briar_gtk.widgets.about_dialog import AboutDialogWidget
 from briar_gtk.widgets.contact_row import ContactRowWidget
+from briar_gtk.widgets.edit_dialog import EditDialog
 
 
 class MainWindowContainer(Container):
@@ -90,6 +91,26 @@ class MainWindowContainer(Container):
         self.contact_name_label.set_text("")
         self._current_contact_id = 0
         self.builder.get_object("chat_menu_button").hide()
+
+    def open_change_contact_alias_dialog(self):
+        if self._current_contact_id == 0:
+            raise Exception("Can't change contact alias with ID 0")
+
+        confirmation_dialog = EditDialog(
+            parent=APP().window,
+            flags=Gtk.DialogFlags.MODAL,
+            placeholder=self._get_contact_name(self._current_contact_id)
+        )
+
+        confirmation_dialog.set_title(_("Change contact name"))
+
+        response = confirmation_dialog.run()
+        user_alias = confirmation_dialog.get_entry().get_text()
+        confirmation_dialog.destroy()
+        if (response == Gtk.ResponseType.OK) and (user_alias != ''):
+            Contacts(APP().api).set_alias(self._current_contact_id, user_alias)
+            self.contact_name_label.set_text(user_alias)
+            self._refresh_contacts()
 
     def open_delete_contact_dialog(self):
         if self._current_contact_id == 0:

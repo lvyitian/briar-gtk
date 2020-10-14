@@ -24,6 +24,7 @@ class WindowActions(Actions):
     def _setup_actions(self):
         self._setup_back_to_sidebar_action()
         self._setup_delete_contact_action()
+        self._setup_change_alias_contact_action()
         self._setup_open_about_page_action()
         self._setup_open_add_contact_action()
         self._setup_open_main_window_action()
@@ -38,6 +39,10 @@ class WindowActions(Actions):
     def _setup_delete_contact_action(self):
         self._setup_action("delete-contact-dialog", None,
                            self._delete_contact_dialog)
+
+    def _setup_change_alias_contact_action(self):
+        self._setup_action("change-alias-contact-dialog", None,
+                           self._change_alias_contact_dialog)
 
     def _setup_open_about_page_action(self):
         self._setup_action("open-about-dialog", None, self._open_about_page)
@@ -60,6 +65,10 @@ class WindowActions(Actions):
     # pylint: disable=unused-argument
     def _delete_contact_dialog(self, action, parameter):
         self.widget.current_container.open_delete_contact_dialog()
+
+    # pylint: disable=unused-argument
+    def _change_alias_contact_dialog(self, action, parameter):
+        self.widget.current_container.open_change_contact_alias_dialog()
 
     # pylint: disable=unused-argument
     def _open_about_page(self, action, parameter):

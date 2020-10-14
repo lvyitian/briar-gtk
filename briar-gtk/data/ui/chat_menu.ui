@@ -22,6 +22,20 @@
         <property name="orientation">vertical</property>
         <property name="width_request">200</property>
         <child>
+          <object class="GtkModelButton" id="edit-alias-menu-entry">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="action_name">win.change-alias-contact-dialog</property>
+            <property name="text" translatable="yes">Change contact name</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
           <object class="GtkModelButton" id="delete-menu-entry">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
@@ -32,7 +46,7 @@
           <packing>
             <property name="expand">False</property>
             <property name="fill">True</property>
-            <property name="position">0</property>
+            <property name="position">1</property>
           </packing>
         </child>
       </object>

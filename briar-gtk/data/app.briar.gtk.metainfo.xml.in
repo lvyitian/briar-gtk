@@ -74,7 +74,7 @@
           <li>Support for changing contacts' names</li>
           <li>Support for deleting all messages of a chat</li>
           <li>Indication of messages' delivery states</li>
-          <li>Migration to briar_wrapper 0.0.5</li>
+          <li>Migration to briar_wrapper 0.0.6</li>
           <li>Many more minor improvements</li>
         </ul>
         <p>
@@ -82,18 +82,23 @@
         </p>
         <ul>
           <li>Albanian</li>
+          <li>Arabic</li>
           <li>Catalan</li>
           <li>Chinese (Simplified)</li>
           <li>Esperanto</li>
           <li>Dutch</li>
           <li>French</li>
           <li>Galician</li>
+          <li>Hungarian</li>
           <li>Icelandic</li>
           <li>Italian</li>
           <li>Lithuanian</li>
           <li>Persian</li>
+          <li>Portuguese (Brazil)</li>
           <li>Russian</li>
+          <li>Swedish</li>
           <li>Thai</li>
+          <li>Turkish</li>
         </ul>
       </description>
       <url>https://code.briarproject.org/briar/briar-gtk/-/tags/0.1.0-beta2</url>

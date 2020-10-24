@@ -67,8 +67,8 @@ msgstr "Soporte para eliminar todos los mensajes de un chat"
 msgid "Indication of messages' delivery states"
 msgstr "Indicación de estado de entrega de los mensajes"
 
-msgid "Migration to briar_wrapper 0.0.5"
-msgstr "Migración a briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
+msgstr ""
 
 msgid "Many more minor improvements"
 msgstr "Muchas más mejoras menores"
@@ -78,6 +78,9 @@ msgstr "Traducciones a muchos lenguajes:"
 
 msgid "Albanian"
 msgstr "Albanés"
+
+msgid "Arabic"
+msgstr ""
 
 msgid "Catalan"
 msgstr "Catalán"
@@ -97,6 +100,12 @@ msgstr "Francés"
 msgid "Galician"
 msgstr "Gallego"
 
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
 msgid "Icelandic"
 msgstr "Islandés"
 
@@ -109,11 +118,20 @@ msgstr "Lituano"
 msgid "Persian"
 msgstr "Persa"
 
+msgid "Portuguese (Brazil)"
+msgstr ""
+
 msgid "Russian"
 msgstr "Ruso"
 
+msgid "Swedish"
+msgstr ""
+
 msgid "Thai"
 msgstr "Tailandés"
+
+msgid "Turkish"
+msgstr ""
 
 msgid "Basic notification support"
 msgstr "Soporte de notificación básico"
@@ -153,3 +171,6 @@ msgstr "Muchas pruebas de software"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "El primerísimo lanzamiento alfa de Briar GTK. Permite añadir contactos a distancia y chatear con ellos en forma privada. Otras funciones como grupos, foros y blogs tienen que ser implementadas."
+
+#~ msgid "Migration to briar_wrapper 0.0.5"
+#~ msgstr "Migración a briar_wrapper 0.0.5"

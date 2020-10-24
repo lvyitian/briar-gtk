@@ -11,8 +11,8 @@
 # Gökhan Kalayci <gkmediagokhan@gmail.com>, 2020
 # dersteppenwolfx, 2020
 # mahmut özcan <mahmutozcan@protonmail.com>, 2020
-# T. E. Kalayci <tekrei@gmail.com>, 2020
 # Ferdi YLDZ <eceyldz1122@gmail.com>, 2020
+# T. E. Kalayci <tekrei@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Ferdi YLDZ <eceyldz1122@gmail.com>, 2020\n"
+"Last-Translator: T. E. Kalayci <tekrei@gmail.com>, 2020\n"
 "Language-Team: Turkish (https://www.transifex.com/otf/teams/76528/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -67,6 +67,12 @@ msgctxt "Title in add contact page"
 msgid "Add contact"
 msgstr "Kişi ekle"
 
+msgid "Change contact name"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
+
 msgid "Delete contact"
 msgstr "Kişiyi sil"
 
@@ -82,30 +88,30 @@ msgid "Logging in"
 msgstr "Giriş yapılıyor"
 
 msgid "About Briar GTK"
-msgstr ""
+msgstr "Briar GTK Hakkında"
 
 msgctxt "Used in input field in main window"
 msgid "Type Message"
-msgstr ""
+msgstr "İletiyi Yazın"
 
 msgid "No contact selected"
 msgstr "Kişi seçilmedi"
 
 msgid "Select a contact to start chatting"
-msgstr ""
+msgstr "Bir kişi seçin ve sohbete başlayın"
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
 msgstr "Kişi ekle"
 
 msgid "Main menu"
-msgstr ""
+msgstr "Ana menü"
 
 msgid "Back"
 msgstr "Geri"
 
 msgid "Chat menu"
-msgstr ""
+msgstr "Sohbet Menüsü"
 
 msgid "Welcome to Briar"
 msgstr "Briar'a Hoşgeldiniz"
@@ -114,30 +120,39 @@ msgid "Choose your nickname"
 msgstr "Kullanıcı adınızı belirleyin"
 
 msgid "Confirm Password"
-msgstr ""
+msgstr "Parolayı Doğrula"
 
 msgid "Create Account"
 msgstr "Hesap Oluştur"
 
 msgid "Creating Account"
+msgstr "Hesap Oluşturma"
+
+msgid "Change"
 msgstr ""
 
 msgid "Localization Lab Translation Teams"
-msgstr ""
+msgstr "Lozalication Lab Yerelleştirme Ekipleri"
 
 msgid "Using code by"
-msgstr ""
+msgstr "Kodunu kullandıklarımız"
 
 msgid "Briar functionality by"
-msgstr ""
+msgstr "Briar işlevselliği"
 
 msgid "Myself"
-msgstr ""
+msgstr "Ben"
 
 msgid "Are you sure you want to exit?"
-msgstr ""
+msgstr "Çıkmak istediğinizden emin misiniz?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+msgstr "Briarı kapattığınızda ileti alamayacak veya beklemede olanları gönderemeyeceksiniz. Kişilerinizle bağlantıda kalmak için Briar'ı açık tutun."
+
+msgid "Confirm Message Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to delete all messages?"
 msgstr ""
 
 msgid "Confirm Contact Deletion"
@@ -147,25 +162,25 @@ msgid "Are you sure that you want to remove this contact and all messages exchan
 msgstr "Bu kişiyi ve bu kişiyle ilgili tüm iletileri kaldırmak istediğinize emin misiniz?"
 
 msgid "Contact added"
-msgstr ""
+msgstr "Kişi eklendi"
 
 msgid "New private message"
-msgstr ""
+msgstr "Yeni özel ileti"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "Lütfen bir parola girin"
 
 msgid "Couldn't log in"
-msgstr ""
+msgstr "Oturum açılamıyor"
 
 msgid "Please enter a nickname"
 msgstr "Lütfen bir takma ad girin"
 
 msgid "The passwords do not match"
-msgstr ""
+msgstr "Parolalar eşleşmiyor"
 
 msgid "Couldn't register account"
-msgstr ""
+msgstr "Hesap oluşturulamıyor"
 
 msgid "Please enter a link"
 msgstr "Lütfen bir bağlantı girin"
@@ -175,12 +190,12 @@ msgstr "Kişinizin bağlantısını girin, kendi bağlantınızı değil"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+msgstr "Copyright © 2019-2020 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+msgstr "GTK Masaüstü ve mobil aygıtlar için Biar istemcisi"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr ""
+msgstr "Briar GTK web sitesini ziyaret edin"

@@ -4,11 +4,11 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Random_R, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # c6497ab8ee8a3906bb861267dec9a84b_bc40ce0 <0329ec65fa3a66db7a8a2a698d66d850_156421>, 2020
 # Giuseppe Pignataro <rogepix@gmail.com>, 2020
 # SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020
+# Random_R, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020\n"
+"Last-Translator: Random_R, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/otf/teams/76528/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -52,34 +52,37 @@ msgid "Improvements in this version:"
 msgstr "Migliorie in questa versione:"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "Supporto migliorato alle notifiche"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "Visualizzazione numero messaggi non letti nei contatti"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "Supporto alla modifica del nome dei contatti"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "Supporto all'eliminazione di tutti i messaggi di una chat"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "Indicazione dello stato di consegna dei messaggi"
 
-msgid "Migration to briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
 msgstr ""
 
 msgid "Many more minor improvements"
 msgstr "Molte altre migliorie minori"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Traduzione in molte lingue:"
 
 msgid "Albanian"
 msgstr "Albanese"
 
-msgid "Catalan"
+msgid "Arabic"
 msgstr ""
+
+msgid "Catalan"
+msgstr "Catalano"
 
 msgid "Chinese (Simplified)"
 msgstr "Cinese (Semplificato)"
@@ -96,23 +99,38 @@ msgstr "Francese"
 msgid "Galician"
 msgstr "Gallego"
 
-msgid "Icelandic"
+msgid "Hebrew"
 msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
+msgid "Icelandic"
+msgstr "Islandese"
 
 msgid "Italian"
 msgstr "Italiano"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Lituano"
 
 msgid "Persian"
 msgstr "Persiano"
 
+msgid "Portuguese (Brazil)"
+msgstr ""
+
 msgid "Russian"
 msgstr "Russo"
 
+msgid "Swedish"
+msgstr ""
+
 msgid "Thai"
 msgstr "Thai"
+
+msgid "Turkish"
+msgstr ""
 
 msgid "Basic notification support"
 msgstr "Supporto base alle notifiche"
@@ -152,3 +170,6 @@ msgstr "Numerosi test del software"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "La primissima versione alfa di Briar GTK. Consente l'aggiunta di contatti a distanza e di conversare con essi in chat private. Altre funzioni come i gruppi, i forum e i blog devono essere implementate."
+
+#~ msgid "Migration to briar_wrapper 0.0.5"
+#~ msgstr "Migrazione a briar_wrapper 0.0.5"

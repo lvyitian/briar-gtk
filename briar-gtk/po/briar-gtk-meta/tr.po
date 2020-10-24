@@ -22,130 +22,151 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid "Briar"
-msgstr ""
+msgstr "Briar"
 
 msgid "Secure messaging, anywhere"
-msgstr ""
+msgstr "Güvenli mesajlaşma, nerede olursa olsun"
 
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
 msgstr "Briar aktivistler ve gazeteciler başta olmak üzere güvenli, kolay ve sağlam bir iletişim isteyen herkes için tasarlanmış bir ileti sistemidir. Geleneksel ileti sistemlerinin aksine Briar merkezi bir sunucu kullanmaz, iletiler doğrudan kullanıcıların aygıtları arasında eşleştirilir. Briar, eğer İnternet yoksa Bluetooth veya Wi-Fi aracılığıyla da iletileri iletebilir, böylece kriz durumlarında bilgi akışını sürdürür. İnternet varken Briar Tor ağı aracılığıyla iletim sağlar, böylece kullanıcıları ve ilişkilerini gözetimden korumuş olur.  "
 
 msgid "The Briar Project"
-msgstr ""
+msgstr "Briar Projesi"
 
 msgid "Main window showing two contacts and chat"
-msgstr ""
+msgstr "İki kişiyi ve sohbeti gösteren ana pencere"
 
 msgid "Welcome screen with registration"
-msgstr ""
+msgstr "Kayıtlılar için hoşgeldiniz ekranı"
 
 msgid "Adding contacts at a distance"
-msgstr ""
+msgstr "Uzaktaki kişileri ekleme"
 
 msgid "Main window with two contacts and about dialog"
-msgstr ""
+msgstr "İki kişiyi ve hakkında penceresini gösteren ana pencere"
 
 msgid "Improvements in this version:"
-msgstr ""
+msgstr "Bu sürümdeki yenilikler:"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "İyileştirilmiş bildiri desteği"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "Kişi listesindeki okunmamış iletilerin sayısını gösterme"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "Kişilerin isimlerini değiştirme desteği"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "Bir sohbetteki tüm iletileri silme desteği"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "İletilerin iletilme durumlarının belirtilmesi"
 
-msgid "Migration to briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
 msgstr ""
 
 msgid "Many more minor improvements"
-msgstr ""
+msgstr "Bir çok küçük yenilik"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Bir çok dile yerelleştirme:"
 
 msgid "Albanian"
+msgstr "Arnavutça"
+
+msgid "Arabic"
 msgstr ""
 
 msgid "Catalan"
-msgstr ""
+msgstr "Katalanca"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Çince (Yalınlaştırılmış)"
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Felemenkçe"
 
 msgid "French"
-msgstr ""
+msgstr "Fransızca"
 
 msgid "Galician"
+msgstr "Galiçyaca"
+
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hungarian"
 msgstr ""
 
 msgid "Icelandic"
-msgstr ""
+msgstr "İzlandaca"
 
 msgid "Italian"
-msgstr ""
+msgstr "İtalyanca"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litvanca"
 
 msgid "Persian"
+msgstr "Farsça"
+
+msgid "Portuguese (Brazil)"
 msgstr ""
 
 msgid "Russian"
 msgstr "Rusça"
 
+msgid "Swedish"
+msgstr ""
+
 msgid "Thai"
+msgstr "Tayca"
+
+msgid "Turkish"
 msgstr ""
 
 msgid "Basic notification support"
-msgstr ""
+msgstr "Basit bildiri desteği"
 
 msgid "Support for contact deletion"
-msgstr ""
+msgstr "Kişi silme desteği"
 
 msgid "Hugely improved chat UI"
-msgstr ""
+msgstr "Oldukça geliştirilmiş sohbet kullanıcı arayüzü"
 
 msgid "Full Spanish and German translations"
-msgstr ""
+msgstr "Tamamlanmış İspanyolca ve Almanca yerelleştirmeleri"
 
 msgid "Migration to libhandy 1.0"
-msgstr ""
+msgstr "libhandy 1.0 sürümüne geçiş"
 
 msgid "Migration to briar_wrapper 0.0.4"
-msgstr ""
+msgstr "briar_wrapper 0.0.4 sürümüne geçiş"
 
 msgid "Show online status of contacts in contact list (#19)"
-msgstr ""
+msgstr "Kişi listesinde kişilerin çevrimiçi durumunu gösterme (#19)"
 
 msgid "Support copying content in messages (#51)"
-msgstr ""
+msgstr "İletilerdeki içeriği kopyalama desteği (#51)"
 
 msgid "Fix bug with Briar messages not having text (#56)"
-msgstr ""
+msgstr "Briar iletilerinde metin olmaması hatasının düzeltilmesi (#56)"
 
 msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr ""
+msgstr "Kişilerin isimlerinin özel iletilerde görüntülenmemesi hatasının düzeltilmesi (#55)"
 
 msgid "Update Briar core to version 1.2.9"
-msgstr ""
+msgstr "Briar çekirdeğini 1.2.9 sürümüne güncelleme"
 
 msgid "Lots of software tests"
-msgstr ""
+msgstr "Bir çok yazılım testi"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr ""
+msgstr "Briar GTK ilk alfa sürümü. Uzaktan kişi eklemenizi ve onlarla gizli bir şekilde sohbet etmenizi sağlar. Gruplar, forumlar ve bloglar gibi diğer işlevler zamanla geliştirilecek."
+
+#~ msgid "Migration to briar_wrapper 0.0.5"
+#~ msgstr "briar_wrapper 0.0.5 sürümüne geçiş"

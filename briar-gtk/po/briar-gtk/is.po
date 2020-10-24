@@ -61,6 +61,12 @@ msgctxt "Title in add contact page"
 msgid "Add contact"
 msgstr "Bæta við tengilið"
 
+msgid "Change contact name"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
+
 msgid "Delete contact"
 msgstr "Eyða tengilið"
 
@@ -116,6 +122,9 @@ msgstr "Búa til notandaaðgang"
 msgid "Creating Account"
 msgstr "Bý til notandaaðgang"
 
+msgid "Change"
+msgstr ""
+
 msgid "Localization Lab Translation Teams"
 msgstr "Þýðingateymi Localization Lab"
 
@@ -133,6 +142,12 @@ msgstr "Ertu viss um að þú viljir hætta?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "Eftir að þú lokar Briar geturðu ekki lengur tekið á móti eða sent skilaboð í bið. Haltu Briar opnu til að haldast tengd/ur við tengiliðina þína."
+
+msgid "Confirm Message Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to delete all messages?"
+msgstr ""
 
 msgid "Confirm Contact Deletion"
 msgstr "Staðfesta eyðingu tengiliðar"

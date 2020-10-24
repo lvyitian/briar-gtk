@@ -62,7 +62,7 @@ msgstr ""
 msgid "Indication of messages' delivery states"
 msgstr ""
 
-msgid "Migration to briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
 msgstr ""
 
 msgid "Many more minor improvements"
@@ -72,6 +72,9 @@ msgid "Translations into many languages:"
 msgstr ""
 
 msgid "Albanian"
+msgstr ""
+
+msgid "Arabic"
 msgstr ""
 
 msgid "Catalan"
@@ -92,6 +95,12 @@ msgstr ""
 msgid "Galician"
 msgstr ""
 
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
 msgid "Icelandic"
 msgstr ""
 
@@ -104,11 +113,20 @@ msgstr ""
 msgid "Persian"
 msgstr ""
 
+msgid "Portuguese (Brazil)"
+msgstr ""
+
 msgid "Russian"
 msgstr "உருசியம்"
 
+msgid "Swedish"
+msgstr ""
+
 msgid "Thai"
 msgstr "தாய்(மொழி)"
+
+msgid "Turkish"
+msgstr ""
 
 msgid "Basic notification support"
 msgstr ""

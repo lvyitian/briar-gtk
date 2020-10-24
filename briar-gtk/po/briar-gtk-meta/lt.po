@@ -62,8 +62,8 @@ msgstr "Visų pokalbio žinučių ištrynimo palaikymas"
 msgid "Indication of messages' delivery states"
 msgstr "Žinučių pristatymo būsenos rodymas"
 
-msgid "Migration to briar_wrapper 0.0.5"
-msgstr "Perkėlimas į briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
+msgstr ""
 
 msgid "Many more minor improvements"
 msgstr "Daugybė smulkių patobulinimų"
@@ -73,6 +73,9 @@ msgstr "Vertimai į daugelį kalbų:"
 
 msgid "Albanian"
 msgstr "Albanų"
+
+msgid "Arabic"
+msgstr ""
 
 msgid "Catalan"
 msgstr "Katalonų"
@@ -92,6 +95,12 @@ msgstr "Prancūzų"
 msgid "Galician"
 msgstr "Galisų"
 
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
 msgid "Icelandic"
 msgstr "Islandų"
 
@@ -104,11 +113,20 @@ msgstr "Lietuvių"
 msgid "Persian"
 msgstr "Persų"
 
+msgid "Portuguese (Brazil)"
+msgstr ""
+
 msgid "Russian"
 msgstr "Rusų"
 
+msgid "Swedish"
+msgstr ""
+
 msgid "Thai"
 msgstr "Tajų"
+
+msgid "Turkish"
+msgstr ""
 
 msgid "Basic notification support"
 msgstr "Bazinis pranešimų palaikymas"
@@ -148,3 +166,6 @@ msgstr "Daug programinės įrangos testavimų"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Pati pirmoji Briar GTK alfa laida. Ji leidžia jums pridėti adresatus per atstumą bei bendrauti su jais privačiuose pokalbiuose. Kitos funkcijos, tokios kaip grupės, forumai ir tinklaraščiai, dar bus įgyvendintos."
+
+#~ msgid "Migration to briar_wrapper 0.0.5"
+#~ msgstr "Perkėlimas į briar_wrapper 0.0.5"

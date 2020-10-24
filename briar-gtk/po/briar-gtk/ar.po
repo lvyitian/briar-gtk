@@ -5,15 +5,14 @@
 #
 # Translators:
 # erinm, 2020
-# Megan DeBlois <megan.deblois@gmail.com>, 2020
 # محيي الدين <tx99h4@hotmail.com>, 2020
 # Rima Sghaier, 2020
 # Ali <aboshanab_@hotmail.com>, 2020
-# Ahmad Gharbeia <gharbeia@gmail.com>, 2020
 # akwizgran <michael@briarproject.org>, 2020
 # Layla Taha <layla@asl19.org>, 2020
 # Haroon Ali <haroon.ali2018@protonmail.com>, 2020
 # Nico Alt, 2020
+# mazen777 <mazen.sos.alkatlabee@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -21,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Nico Alt, 2020\n"
+"Last-Translator: mazen777 <mazen.sos.alkatlabee@gmail.com>, 2020\n"
 "Language-Team: Arabic (https://www.transifex.com/otf/teams/76528/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +46,7 @@ msgstr "يرجى إدخال رابط"
 
 msgctxt "Used in add contact page"
 msgid "Give your contact a nickname. Only you can see it."
-msgstr ">إعطاء اسم مستعار لجهة الاتصال بإمكانكم رؤيته فق."
+msgstr "إعطاء اسم مستعار لجهة الاتصال بإمكانكم رؤيته فق."
 
 msgctxt "Used in add contact page"
 msgid "Enter a nickname"
@@ -68,6 +67,12 @@ msgctxt "Title in add contact page"
 msgid "Add contact"
 msgstr "إضافة جهة إتصال"
 
+msgid "Change contact name"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
+
 msgid "Delete contact"
 msgstr "حذف جهة الإتصال"
 
@@ -76,37 +81,37 @@ msgstr "كلمة السّر"
 
 msgctxt "Button in login page"
 msgid "Log in"
-msgstr "لِج"
+msgstr "تسجيل الدخول"
 
 msgctxt "Used in login page after entering the password"
 msgid "Logging in"
 msgstr "جاري تسجيل الدخول"
 
 msgid "About Briar GTK"
-msgstr ""
+msgstr "عن Briar GTK"
 
 msgctxt "Used in input field in main window"
 msgid "Type Message"
 msgstr "كتابة رسالة"
 
 msgid "No contact selected"
-msgstr ""
+msgstr "لايوجد جهات اتصال مفتوحة"
 
 msgid "Select a contact to start chatting"
-msgstr ""
+msgstr "اختر جهة اتصال لبدء المحادثة"
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
 msgstr "إضافة جهة إتصال"
 
 msgid "Main menu"
-msgstr ""
+msgstr "القائمة الرئيسية"
 
 msgid "Back"
 msgstr "السابق"
 
 msgid "Chat menu"
-msgstr ""
+msgstr "قائمة المحادثة"
 
 msgid "Welcome to Briar"
 msgstr "مرحبًا بك في Briar (براير)"
@@ -121,52 +126,61 @@ msgid "Create Account"
 msgstr "إنشاء الحساب"
 
 msgid "Creating Account"
-msgstr "إنشاء الحساب"
+msgstr "جاري إنشاء الحساب"
+
+msgid "Change"
+msgstr ""
 
 msgid "Localization Lab Translation Teams"
-msgstr ""
+msgstr "فريق الترجمة من Localization Lab"
 
 msgid "Using code by"
-msgstr ""
+msgstr "تم استخدام كود"
 
 msgid "Briar functionality by"
-msgstr ""
+msgstr "الأداء الوظيفي ل Briar"
 
 msgid "Myself"
 msgstr "أنا"
 
 msgid "Are you sure you want to exit?"
-msgstr ""
+msgstr "هل تريد فعلاً الخروج من Briar؟"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+msgstr "حالما تغلق Briar لن تتلقى أي رسائل و لن تتمكن من تعليق الرسائل بانتظار ولوج المتلقي للإنترنت. إبق Briar مفتوح من أجل متصلاً مع جهات الاتصال.  "
+
+msgid "Confirm Message Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to delete all messages?"
 msgstr ""
 
 msgid "Confirm Contact Deletion"
 msgstr "تأكيد حذف جهة الإتصال"
 
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "هل أنت متأكد/ة من أنك تريد حذف جهة الإتصال هذه وكل الرسائل المتبادلة بينكما؟"
+msgstr "هل أنت متأكد من أنك تريد حذف جهة الإتصال هذه وكل الرسائل المتبادلة بينكما؟"
 
 msgid "Contact added"
 msgstr "تم إضافة جهة إتصال"
 
 msgid "New private message"
-msgstr ""
+msgstr "رسالة جديدة من محادثة"
 
 msgid "Please enter a password"
 msgstr "يُرجى إدخال كلمة السر"
 
 msgid "Couldn't log in"
-msgstr ""
+msgstr "لم يتم تسجيل الدخول"
 
 msgid "Please enter a nickname"
 msgstr "يرجى إدخال اسم مستعار"
 
 msgid "The passwords do not match"
-msgstr ""
+msgstr "كلمات السر غير متطابقة"
 
 msgid "Couldn't register account"
-msgstr ""
+msgstr "تعذر إنشاء تسجيل جديد"
 
 msgid "Please enter a link"
 msgstr "يرجى إدخال رابط"
@@ -176,12 +190,12 @@ msgstr "يرجى إخال رابط جهة الاتصال، وليس رابطكم
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+msgstr "حقوق النشر © 2020-2019 مشروع Briar"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+msgstr "عميل Briar ل GTK الحاسوب والأجهزة النقالة"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr ""
+msgstr "يمكنكم زيارة موقع Briar"

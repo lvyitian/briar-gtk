@@ -44,7 +44,7 @@ msgid "Welcome screen with registration"
 msgstr ""
 
 msgid "Adding contacts at a distance"
-msgstr ""
+msgstr "افزودن مخاطب از راه دور"
 
 msgid "Main window with two contacts and about dialog"
 msgstr ""
@@ -67,7 +67,7 @@ msgstr ""
 msgid "Indication of messages' delivery states"
 msgstr ""
 
-msgid "Migration to briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
 msgstr ""
 
 msgid "Many more minor improvements"
@@ -79,8 +79,11 @@ msgstr ""
 msgid "Albanian"
 msgstr "آلبانیایی"
 
-msgid "Catalan"
+msgid "Arabic"
 msgstr ""
+
+msgid "Catalan"
+msgstr "کاتالان"
 
 msgid "Chinese (Simplified)"
 msgstr "زبان چینی ساده شده"
@@ -97,8 +100,14 @@ msgstr "فرانسوی"
 msgid "Galician"
 msgstr ""
 
-msgid "Icelandic"
+msgid "Hebrew"
 msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
+msgid "Icelandic"
+msgstr "ایسلندی"
 
 msgid "Italian"
 msgstr "ايتاليايی"
@@ -109,11 +118,20 @@ msgstr ""
 msgid "Persian"
 msgstr "فارسی"
 
+msgid "Portuguese (Brazil)"
+msgstr ""
+
 msgid "Russian"
 msgstr "روسی"
 
+msgid "Swedish"
+msgstr ""
+
 msgid "Thai"
 msgstr "تايلندی"
+
+msgid "Turkish"
+msgstr ""
 
 msgid "Basic notification support"
 msgstr ""

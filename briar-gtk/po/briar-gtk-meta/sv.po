@@ -6,6 +6,7 @@
 # Translators:
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Daniel <d-transifex@lublin.se>, 2020
+# Sebastian Rasmussen <sebras@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Daniel <d-transifex@lublin.se>, 2020\n"
+"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>, 2020\n"
 "Language-Team: Swedish (https://www.transifex.com/otf/teams/76528/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -22,130 +23,151 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Briar"
-msgstr ""
+msgstr "Briar"
 
 msgid "Secure messaging, anywhere"
-msgstr ""
+msgstr "Säkra meddelanden, överalllt"
 
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
 msgstr "Briar är en meddelandeapp designad för aktivister, journalister och andra som behöver ett säkert, lätt och robust sätt att kommunicera. Till skillnad från traditionella meddelandeappar förlitar sig Briar inte på någon central server ­– meddelanden synkroniseras direkt mellan användarnas enheter. Om internet är nere kan Briar synka via Bluetooth eller Wi-Fi, vilket låter informationen flöda under i krissituation. Om internet är tillgängligt kan Briar synkronisera via Tor-nätverket, vilket skyddar användare och deras relationer från övervakning."
 
 msgid "The Briar Project"
-msgstr ""
+msgstr "Briar-projektet"
 
 msgid "Main window showing two contacts and chat"
-msgstr ""
+msgstr "Huvudfönstret visar två kontakter och chatt"
 
 msgid "Welcome screen with registration"
-msgstr ""
+msgstr "Välkomstskärm med registrering"
 
 msgid "Adding contacts at a distance"
-msgstr ""
+msgstr "Lägga till kontakter på avstånd"
 
 msgid "Main window with two contacts and about dialog"
-msgstr ""
+msgstr "Huvudfönster med två kontakter och Om-dialogruta"
 
 msgid "Improvements in this version:"
-msgstr ""
+msgstr "Förbättringar i denna version:"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "Förbättrat aviseringsstöd"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "Visa antal olästa meddelanden i kontaktlistan"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "Stöd för att ändra namn för kontakter"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "Stöd för att ta bort alla meddelanden från en chatt"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "Indikering av leveransstatus för meddelanden"
 
-msgid "Migration to briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
 msgstr ""
 
 msgid "Many more minor improvements"
-msgstr ""
+msgstr "Flertalet mindre förbättringar"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Översättningar till många språk:"
 
 msgid "Albanian"
+msgstr "Albanska"
+
+msgid "Arabic"
 msgstr ""
 
 msgid "Catalan"
-msgstr ""
+msgstr "Katalanska"
 
 msgid "Chinese (Simplified)"
 msgstr "Kinesiska (Enkel)"
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Holländska"
 
 msgid "French"
 msgstr "Franska"
 
 msgid "Galician"
+msgstr "Galiciska"
+
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hungarian"
 msgstr ""
 
 msgid "Icelandic"
-msgstr ""
+msgstr "Isländska"
 
 msgid "Italian"
-msgstr ""
+msgstr "Italienska"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litauiska"
 
 msgid "Persian"
+msgstr "Persiska"
+
+msgid "Portuguese (Brazil)"
 msgstr ""
 
 msgid "Russian"
 msgstr "Ryska"
 
+msgid "Swedish"
+msgstr ""
+
 msgid "Thai"
+msgstr "Thailändska"
+
+msgid "Turkish"
 msgstr ""
 
 msgid "Basic notification support"
-msgstr ""
+msgstr "Grundläggande aviseringsstöd"
 
 msgid "Support for contact deletion"
-msgstr ""
+msgstr "Stöd för borttagning av kontakter"
 
 msgid "Hugely improved chat UI"
-msgstr ""
+msgstr "Enormt förbättrat användargränssnitt för chattning"
 
 msgid "Full Spanish and German translations"
-msgstr ""
+msgstr "Fullständig översättning till spanska och tyska"
 
 msgid "Migration to libhandy 1.0"
-msgstr ""
+msgstr "Migrering till libhandy 1.0"
 
 msgid "Migration to briar_wrapper 0.0.4"
-msgstr ""
+msgstr "Migrering till briar_wrapper 0.0.4"
 
 msgid "Show online status of contacts in contact list (#19)"
-msgstr ""
+msgstr "Visa onlinestatus för kontakter i kontaktlistan (#19)"
 
 msgid "Support copying content in messages (#51)"
-msgstr ""
+msgstr "Stöd för att kopiera innehåll i meddelanden (#51)"
 
 msgid "Fix bug with Briar messages not having text (#56)"
-msgstr ""
+msgstr "Åtgärda bugg då Briar-meddelanden saknade text (#56)"
 
 msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr ""
+msgstr "Åtgärda bugg då namn för kontakt inte visades i privata meddelanden (#55)"
 
 msgid "Update Briar core to version 1.2.9"
-msgstr ""
+msgstr "Uppdatera Briar-kärnan till version 1.2.9"
 
 msgid "Lots of software tests"
-msgstr ""
+msgstr "Många programvarutester"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr ""
+msgstr "Den allra första alfa-versionen av Briar GTK. Den tillåter tilläggning av kontakter på avstånd och att chatta med dem i privata chattar. Andra funktioner så som grupper, forum och bloggar väntar på att implementeras."
+
+#~ msgid "Migration to briar_wrapper 0.0.5"
+#~ msgstr "Migration till briar_wrapper 0.0.5"

@@ -4,10 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# AO <ao@localizationlab.org>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Martus Translations <translations@martus.org>, 2020
 # Towinet, 2020
+# AO <ao@localizationlab.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Towinet, 2020\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2020\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/76528/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr "Briar est une appli de messagerie conçue pour les activistes, les journalistes et quiconque a besoin d’un moyen sécurisé, simple et robuste de communiquer. Contrairement aux applis traditionnelles de messageries, Briar ne dépend pas d’un serveur centralisé. Les messages sont synchronisés directement entre les machines des utilisateurs. Si Internet est inaccessible, Briar peut se synchroniser par Bluetooth ou Wi-Fi, ce qui permet à l’information de circuler lors d’une crise. Si Internet est accessible, Briar peut se synchroniser par le réseau Tor, protégeant ainsi les utilisateurs et leurs relations contre la surveillance."
 
 msgid "The Briar Project"
-msgstr "Le projet Briar"
+msgstr "Le Projet Briar"
 
 msgid "Main window showing two contacts and chat"
 msgstr "Fenêtre principale qui affiche deux contacts et une conversation"
@@ -65,17 +65,20 @@ msgstr "Possibilité de supprimer tous les messages d’une conversation"
 msgid "Indication of messages' delivery states"
 msgstr "Indication de l’état de remise des messages"
 
-msgid "Migration to briar_wrapper 0.0.5"
-msgstr "Migration vers briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
+msgstr ""
 
 msgid "Many more minor improvements"
-msgstr "De nombreuses petites améliorations"
+msgstr "De nombreuses autres petites améliorations"
 
 msgid "Translations into many languages:"
 msgstr "Traductions dans de nombreuses langues :"
 
 msgid "Albanian"
 msgstr "Albanais"
+
+msgid "Arabic"
+msgstr ""
 
 msgid "Catalan"
 msgstr "Catalan"
@@ -95,6 +98,12 @@ msgstr "Français"
 msgid "Galician"
 msgstr "Galicien"
 
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
 msgid "Icelandic"
 msgstr "Islandais"
 
@@ -107,11 +116,20 @@ msgstr "Lituanien"
 msgid "Persian"
 msgstr "Persan"
 
+msgid "Portuguese (Brazil)"
+msgstr ""
+
 msgid "Russian"
 msgstr "Russe"
 
+msgid "Swedish"
+msgstr ""
+
 msgid "Thai"
 msgstr "Thaï"
+
+msgid "Turkish"
+msgstr ""
 
 msgid "Basic notification support"
 msgstr "Prise en charge simple des notifications"
@@ -147,7 +165,10 @@ msgid "Update Briar core to version 1.2.9"
 msgstr "Mise à jour du noyau de Briar à la version 1.2.9"
 
 msgid "Lots of software tests"
-msgstr "De nombreux essais logiciels"
+msgstr "De nombreux essais du logiciel"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "La toute première version alpha de Briar GTK. Elle permet d’ajouter des contacts à distance et de dialoguer avec eux dans des conversations privées. D’autres fonctions telles que les groupes, les forums et les blogues sont à venir."
+
+#~ msgid "Migration to briar_wrapper 0.0.5"
+#~ msgstr "Migration vers briar_wrapper 0.0.5"

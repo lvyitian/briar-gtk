@@ -62,6 +62,12 @@ msgctxt "Title in add contact page"
 msgid "Add contact"
 msgstr "Kapcsolat hozzáadása"
 
+msgid "Change contact name"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
+
 msgid "Delete contact"
 msgstr "Kapcsolat törlése"
 
@@ -77,30 +83,30 @@ msgid "Logging in"
 msgstr "Belépés"
 
 msgid "About Briar GTK"
-msgstr ""
+msgstr "A Briar GTK névjegye"
 
 msgctxt "Used in input field in main window"
 msgid "Type Message"
-msgstr ""
+msgstr "üzenet írása"
 
 msgid "No contact selected"
 msgstr "Nincs kapcsolat kiválasztva"
 
 msgid "Select a contact to start chatting"
-msgstr ""
+msgstr "Válassz egy kapcsolatot a csevegés indításához"
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
 msgstr "Kapcsolat hozzáadása"
 
 msgid "Main menu"
-msgstr ""
+msgstr "Főmenü"
 
 msgid "Back"
 msgstr "Vissza"
 
 msgid "Chat menu"
-msgstr ""
+msgstr "Csevegés menü"
 
 msgid "Welcome to Briar"
 msgstr "Köszöntjük a Briar-ban"
@@ -109,30 +115,39 @@ msgid "Choose your nickname"
 msgstr "Felhasználónév választása"
 
 msgid "Confirm Password"
-msgstr ""
+msgstr "Jelszó megerősítése"
 
 msgid "Create Account"
 msgstr "Fiók létrehozása"
 
 msgid "Creating Account"
+msgstr "Fiók létrehozása"
+
+msgid "Change"
 msgstr ""
 
 msgid "Localization Lab Translation Teams"
-msgstr ""
+msgstr "Localization Lab fordító csoportok"
 
 msgid "Using code by"
-msgstr ""
+msgstr "A következő kódok használatával:"
 
 msgid "Briar functionality by"
-msgstr ""
+msgstr "Briar funkcionalitást biztosítja:"
 
 msgid "Myself"
-msgstr ""
+msgstr "Én"
 
 msgid "Are you sure you want to exit?"
-msgstr ""
+msgstr "Biztosan szeretne kilépni?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+msgstr "Ha egyszer bezárja a Briar-t, nem tud üzeneteket fogadni, vagy elküldeni a várakozókat. Tartsa a Briar-t nyitva, hogy kapcsolatban maradjon a kontaktjaival."
+
+msgid "Confirm Message Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to delete all messages?"
 msgstr ""
 
 msgid "Confirm Contact Deletion"
@@ -142,25 +157,25 @@ msgid "Are you sure that you want to remove this contact and all messages exchan
 msgstr "Biztosan eltávolítja ezt a kapcsolatot és minden vele történt üzenetváltását?"
 
 msgid "Contact added"
-msgstr ""
+msgstr "Kapcsolat hozzáadva"
 
 msgid "New private message"
-msgstr ""
+msgstr "Új privát üzenet"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "Kérjük adjon meg egy jelszót"
 
 msgid "Couldn't log in"
-msgstr ""
+msgstr "Sikertelen belépés"
 
 msgid "Please enter a nickname"
 msgstr "Kérjük adjon meg becenevet"
 
 msgid "The passwords do not match"
-msgstr ""
+msgstr "A jelszavak nem egyeznek"
 
 msgid "Couldn't register account"
-msgstr ""
+msgstr "Nem sikerült fiókot regisztrálni"
 
 msgid "Please enter a link"
 msgstr "Kérjük adja meg a linket"
@@ -170,12 +185,12 @@ msgstr "A kapcsolata linkjét adja meg, ne a sajátját"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+msgstr "Copyright © 2019-2020 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+msgstr "Egy Briar kliens GTK desktop-ra és mobil eszközökre"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr ""
+msgstr "Látogassa meg a Briar GTK weboldalát"

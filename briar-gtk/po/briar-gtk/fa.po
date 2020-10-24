@@ -7,8 +7,8 @@
 # Martus Translations <translations@martus.org>, 2020
 # AJ, 2020
 # NoProfile, 2020
-# Reza Ghasemi, 2020
 # Goudarz Jafari <goudarz.jafari@gmail.com>, 2020
+# Reza Ghasemi, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Goudarz Jafari <goudarz.jafari@gmail.com>, 2020\n"
+"Last-Translator: Reza Ghasemi, 2020\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/76528/fa/)\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -63,6 +63,12 @@ msgctxt "Title in add contact page"
 msgid "Add contact"
 msgstr "افزودن مخاطب"
 
+msgid "Change contact name"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
+
 msgid "Delete contact"
 msgstr "حذف مخاطب"
 
@@ -78,24 +84,24 @@ msgid "Logging in"
 msgstr ""
 
 msgid "About Briar GTK"
-msgstr ""
+msgstr "درباره Briar GTK"
 
 msgctxt "Used in input field in main window"
 msgid "Type Message"
 msgstr "نوشتن پیام"
 
 msgid "No contact selected"
-msgstr ""
+msgstr "هیچ مخاطبی انتخاب نشده است"
 
 msgid "Select a contact to start chatting"
-msgstr ""
+msgstr "یک مخاطب برای شروع مکالمه انتخاب کنید"
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
 msgstr "افزودن مخاطب"
 
 msgid "Main menu"
-msgstr ""
+msgstr "منو اصلی"
 
 msgid "Back"
 msgstr "قبل"
@@ -118,8 +124,11 @@ msgstr "ایجاد حساب کاربری"
 msgid "Creating Account"
 msgstr "در حال ایجاد حساب کاربری"
 
-msgid "Localization Lab Translation Teams"
+msgid "Change"
 msgstr ""
+
+msgid "Localization Lab Translation Teams"
+msgstr "تیم های ترجمه Localization Lab"
 
 msgid "Using code by"
 msgstr ""
@@ -136,6 +145,12 @@ msgstr "آیا مطمئن هستید که می‌خواهید خارج شوید�
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr ""
 
+msgid "Confirm Message Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to delete all messages?"
+msgstr ""
+
 msgid "Confirm Contact Deletion"
 msgstr "تایید حذف مخاطب"
 
@@ -143,10 +158,10 @@ msgid "Are you sure that you want to remove this contact and all messages exchan
 msgstr "آیا مطمئن هستید که میخواهید این مخاطب و تمام پیام های تبادل شده با آن را حذف کنید؟"
 
 msgid "Contact added"
-msgstr ""
+msgstr "مخاطب اضافه شد"
 
 msgid "New private message"
-msgstr ""
+msgstr "پیام خصوصی جدید"
 
 msgid "Please enter a password"
 msgstr "لطفا رمز عبور را وارد"
@@ -175,8 +190,8 @@ msgstr ""
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+msgstr "کلاینت Briar برای دستگاه های موبایل و GTK دسکتاپ"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr ""
+msgstr "مراجعه به سایت Briar GTK"

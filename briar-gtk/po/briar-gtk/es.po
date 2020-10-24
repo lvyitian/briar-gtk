@@ -63,6 +63,12 @@ msgctxt "Title in add contact page"
 msgid "Add contact"
 msgstr "Añadir el contacto"
 
+msgid "Change contact name"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
+
 msgid "Delete contact"
 msgstr "Eliminar contacto"
 
@@ -118,6 +124,9 @@ msgstr "Crear cuenta"
 msgid "Creating Account"
 msgstr "Creando cuenta"
 
+msgid "Change"
+msgstr ""
+
 msgid "Localization Lab Translation Teams"
 msgstr "Equipos de Traducción de Localization Lab"
 
@@ -135,6 +144,12 @@ msgstr "¿Estás seguro que quieres salir?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "Cuando cierres Briar, ya no recibirás o enviarás mensajes pendientes. Mantenlo abierto para permanecer conectado con tus contactos."
+
+msgid "Confirm Message Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to delete all messages?"
+msgstr ""
 
 msgid "Confirm Contact Deletion"
 msgstr "Confirmar eliminación de contacto"
@@ -171,7 +186,7 @@ msgstr "Introduce el enlace del contacto, no el de ti"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr "Copyright © 2019-2020 The Briar Project"
+msgstr "Copyright © 2019-2020 El Proyecto Briar"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"

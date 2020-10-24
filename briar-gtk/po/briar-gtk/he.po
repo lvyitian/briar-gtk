@@ -61,6 +61,12 @@ msgctxt "Title in add contact page"
 msgid "Add contact"
 msgstr "הוסף איש קשר"
 
+msgid "Change contact name"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
+
 msgid "Delete contact"
 msgstr "מחק איש קשר"
 
@@ -76,30 +82,30 @@ msgid "Logging in"
 msgstr "התחברות"
 
 msgid "About Briar GTK"
-msgstr ""
+msgstr "אודות Briar GTK"
 
 msgctxt "Used in input field in main window"
 msgid "Type Message"
-msgstr ""
+msgstr "הקלד הודעה"
 
 msgid "No contact selected"
-msgstr ""
+msgstr "איש קשר לא נבחר"
 
 msgid "Select a contact to start chatting"
-msgstr ""
+msgstr "בחר איש קשר כדי להתחיל להתכתב"
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
 msgstr "הוסף איש קשר"
 
 msgid "Main menu"
-msgstr ""
+msgstr "תפריט ראשי"
 
 msgid "Back"
 msgstr "הקודם"
 
 msgid "Chat menu"
-msgstr ""
+msgstr "תפריט התכתבות"
 
 msgid "Welcome to Briar"
 msgstr "ברוך הבא אל Briar"
@@ -116,22 +122,31 @@ msgstr "צור חשבון"
 msgid "Creating Account"
 msgstr "יצירת חשבון"
 
-msgid "Localization Lab Translation Teams"
+msgid "Change"
 msgstr ""
+
+msgid "Localization Lab Translation Teams"
+msgstr "צוותי התרגום של Localization Lab"
 
 msgid "Using code by"
-msgstr ""
+msgstr "משתמש בקוד מאת"
 
 msgid "Briar functionality by"
-msgstr ""
+msgstr "תפקודיות Briar מאת"
 
 msgid "Myself"
-msgstr ""
+msgstr "אני"
 
 msgid "Are you sure you want to exit?"
-msgstr ""
+msgstr "האם אתה בטוח שאתה רוצה לצאת?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+msgstr "ברגע שתסגור את Briar, לא תקבל יותר הודעות או תשלח הודעות ממתינות. השאר את Briar פתוח כדי להישאר מחובר עם אנשי הקשר שלך."
+
+msgid "Confirm Message Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to delete all messages?"
 msgstr ""
 
 msgid "Confirm Contact Deletion"
@@ -141,25 +156,25 @@ msgid "Are you sure that you want to remove this contact and all messages exchan
 msgstr "האם אתה בטוח שאתה רוצה למחוק איש קשר זה ואת כל ההודעות שהוחלפו עם איש קשר זה?"
 
 msgid "Contact added"
-msgstr ""
+msgstr "איש קשר התווסף"
 
 msgid "New private message"
-msgstr ""
+msgstr "הודעה פרטית חדשה"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "אנא הכנס סיסמה"
 
 msgid "Couldn't log in"
-msgstr ""
+msgstr "לא ניתן להיכנס"
 
 msgid "Please enter a nickname"
 msgstr "אנא הכנס כינוי"
 
 msgid "The passwords do not match"
-msgstr ""
+msgstr "הסיסמאות אינן תואמות"
 
 msgid "Couldn't register account"
-msgstr ""
+msgstr "לא ניתן לרשום חשבון"
 
 msgid "Please enter a link"
 msgstr "אנא הכנס קישור"
@@ -169,12 +184,12 @@ msgstr "הכנס את הקישור של איש הקשר שלך, לא את שלך
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+msgstr "זכות יוצרים © 2019-2020 מיזם Briar"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+msgstr "לקוח Briar עבור שולחן עבודה GTK ומכשירים ניידים"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr ""
+msgstr "בקר באתר של Briar GTK"

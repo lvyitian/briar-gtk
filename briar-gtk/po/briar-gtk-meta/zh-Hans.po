@@ -4,7 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# QWERT Eric, 2020
+# POIUY, 2020
+# ff98sha, 2020
 #
 #, fuzzy
 msgid ""
@@ -12,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: QWERT Eric, 2020\n"
+"Last-Translator: ff98sha, 2020\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/otf/teams/76528/zh-Hans/)\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -24,10 +25,10 @@ msgid "Briar"
 msgstr "Briar"
 
 msgid "Secure messaging, anywhere"
-msgstr "安全的信息收发，不论何处"
+msgstr "安全收发信息，不论何处"
 
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-msgstr "Briar是一款为活动人士、记者和其他需要安全、轻松和强大的通信方式的人设计的消息应用。与传统的消息应用不同，Briar不依赖中央服务器-消息在用户设备之间直接同步。即便互联网中断，Briar也可以通过蓝牙或Wi-Fi进行同步，在危机中保持信息流通。如果互联网连接正常，Briar可以通过Tor网络进行同步，从而保护用户及其关系不受监视。"
+msgstr "Briar 是一款为活动人士、记者和其他需要安全、轻松和强大的通信方式的人设计的消息应用。与传统的消息应用不同，Briar 不依赖中央服务器-消息在用户设备之间直接同步。即便互联网中断，Briar 也可以通过蓝牙或 Wi-Fi 进行同步，在危机中保持信息流通。如果互联网连接正常，Briar 可以通过 Tor 网络进行同步，从而保护用户及其关系不受监视。"
 
 msgid "The Briar Project"
 msgstr "Briar 项目"
@@ -62,8 +63,8 @@ msgstr "支持删除会话的所有消息"
 msgid "Indication of messages' delivery states"
 msgstr "消息传递状态的指示 "
 
-msgid "Migration to briar_wrapper 0.0.5"
-msgstr "迁移到 briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
+msgstr ""
 
 msgid "Many more minor improvements"
 msgstr "更多的小改进"
@@ -74,11 +75,14 @@ msgstr "多语种翻译："
 msgid "Albanian"
 msgstr "阿尔巴尼亚语"
 
+msgid "Arabic"
+msgstr ""
+
 msgid "Catalan"
 msgstr "加泰罗尼亚语"
 
 msgid "Chinese (Simplified)"
-msgstr "中文 (简体)"
+msgstr "简体中文"
 
 msgid "Esperanto"
 msgstr "世界语"
@@ -92,6 +96,12 @@ msgstr "法语"
 msgid "Galician"
 msgstr "加利西亚语 "
 
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
 msgid "Icelandic"
 msgstr "冰岛语"
 
@@ -104,11 +114,20 @@ msgstr "立陶宛语"
 msgid "Persian"
 msgstr "波斯语"
 
+msgid "Portuguese (Brazil)"
+msgstr ""
+
 msgid "Russian"
 msgstr "俄语"
 
+msgid "Swedish"
+msgstr ""
+
 msgid "Thai"
 msgstr "泰语"
+
+msgid "Turkish"
+msgstr ""
 
 msgid "Basic notification support"
 msgstr "基本的通知支持"
@@ -123,7 +142,7 @@ msgid "Full Spanish and German translations"
 msgstr "完整的西班牙语和德语翻译"
 
 msgid "Migration to libhandy 1.0"
-msgstr "迁移到libhandy 1.0"
+msgstr "迁移到 libhandy 1.0"
 
 msgid "Migration to briar_wrapper 0.0.4"
 msgstr "迁移到 briar_wrapper 0.0.4"
@@ -135,16 +154,19 @@ msgid "Support copying content in messages (#51)"
 msgstr "支持复制消息中的内容(#51)"
 
 msgid "Fix bug with Briar messages not having text (#56)"
-msgstr "修正Briar消息没有文本的错误(#56)"
+msgstr "修正 Briar 消息没有文本的错误 (#56)"
 
 msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr "修正了联系人的名字在私人信息中不显示的错误(#55)"
+msgstr "修正了联系人的名字在私人信息中不显示的错误 (#55)"
 
 msgid "Update Briar core to version 1.2.9"
-msgstr "升级 Briar 核心到1.2.9 版本"
+msgstr "升级 Briar 核心到 1.2.9 版本"
 
 msgid "Lots of software tests"
 msgstr "许多软件测试"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr "这是Briar GTK的第一个alpha版本。它允许远程添加联系人，并在私人聊天中与他们聊天。其他功能，如群组，论坛和博客将被实现。"
+msgstr "这是 Briar GTK 的第一个 alpha 版本。它允许远程添加联系人，并在私人聊天中与他们聊天。其他功能，如群组，论坛和博客将被实现。"
+
+#~ msgid "Migration to briar_wrapper 0.0.5"
+#~ msgstr "迁移到 briar_wrapper 0.0.5"

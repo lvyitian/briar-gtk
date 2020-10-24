@@ -63,6 +63,12 @@ msgctxt "Title in add contact page"
 msgid "Add contact"
 msgstr "Aggiungi contatto"
 
+msgid "Change contact name"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
+
 msgid "Delete contact"
 msgstr "Elimina contatto"
 
@@ -118,8 +124,11 @@ msgstr "Crea account"
 msgid "Creating Account"
 msgstr "Creazione account"
 
-msgid "Localization Lab Translation Teams"
+msgid "Change"
 msgstr ""
+
+msgid "Localization Lab Translation Teams"
+msgstr "Gruppi di traduzione di Localization Lab"
 
 msgid "Using code by"
 msgstr "Utilizzo di codice da"
@@ -136,6 +145,12 @@ msgstr "Vuoi veramente uscire?"
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "Una volta chiuso Briar, non riceverai più messaggi e non invierai quelli in attesa. Tieni aperto Briar per restare connesso con i tuoi contatti."
 
+msgid "Confirm Message Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to delete all messages?"
+msgstr ""
+
 msgid "Confirm Contact Deletion"
 msgstr "Conferma cancellazione contatto"
 
@@ -143,10 +158,10 @@ msgid "Are you sure that you want to remove this contact and all messages exchan
 msgstr "Vuoi veramente rimuovere questo contatto e tutti i messaggi scambiati con esso?"
 
 msgid "Contact added"
-msgstr ""
+msgstr "Contatto aggiunto"
 
 msgid "New private message"
-msgstr ""
+msgstr "Nuovo messaggio privato"
 
 msgid "Please enter a password"
 msgstr "Inserisci una password"

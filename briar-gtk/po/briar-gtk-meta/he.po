@@ -5,6 +5,7 @@
 #
 # Translators:
 # Adam Lynn <adam@opentechfund.org>, 2020
+# ION, 2020
 #
 #, fuzzy
 msgid ""
@@ -12,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
+"Last-Translator: ION, 2020\n"
 "Language-Team: Hebrew (https://www.transifex.com/otf/teams/76528/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -21,130 +22,151 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 msgid "Briar"
-msgstr ""
+msgstr "Briar"
 
 msgid "Secure messaging, anywhere"
-msgstr ""
+msgstr "תכתובת מאובטחת, בכל מקום"
 
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-msgstr ""
+msgstr "Briar הוא יישום התכתבות שמתוכנן עבור פעילנים, עיתונאים, וכל אחד אחר שצריך דרך בטוחה, קלה וחסונה לתקשר. לא כמו יישומי התכתבות מסורתיים, Briar אינו מסתמך על שרת מרכזי - הודעות מסונכרנות ישירות בין מכשירי המשתמשים. במקרה שהאינטרנט נפל, Briar יכול לסנכרן באמצעות Bluetooth או Wi-Fi, מה ששומר על זרימת המידע בזמן משבר. אם האינטרנט פעיל, Briar יכול לסנכרן באמצעות רשת Tor, מה שמגן על משתמשים ומערכות היחסים שלהם מפני מעקב סמוי."
 
 msgid "The Briar Project"
-msgstr ""
+msgstr "מיזם Briar"
 
 msgid "Main window showing two contacts and chat"
-msgstr ""
+msgstr "חלון ראשי מראה שני אנשי קשר והתכתבות"
 
 msgid "Welcome screen with registration"
-msgstr ""
+msgstr "מסך ברוך הבא עם הרשמה"
 
 msgid "Adding contacts at a distance"
-msgstr ""
+msgstr "הוספת אנשי קשר ממרחק"
 
 msgid "Main window with two contacts and about dialog"
-msgstr ""
+msgstr "חלון ראשי עם שני אנשי קשר ודו שיח אודות"
 
 msgid "Improvements in this version:"
-msgstr ""
+msgstr "שיפורים בגרסה זו:"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "תמיכה משופרת בהתראות"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "נראות מספר של הודעות שלא נקראו ברשימת אנשי הקשר"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "תמיכה בשינוי שמות של אנשי קשר"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "תמיכה במחיקת כל ההודעות של התכתבות"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "חיווי של מצבי מסירה של הודעות"
 
-msgid "Migration to briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
 msgstr ""
 
 msgid "Many more minor improvements"
-msgstr ""
+msgstr "עוד הרבה שיפורים זעירים"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "תרגומים אל שפות רבות:"
 
 msgid "Albanian"
+msgstr "אלבנית"
+
+msgid "Arabic"
 msgstr ""
 
 msgid "Catalan"
-msgstr ""
+msgstr "קטלאנית"
 
 msgid "Chinese (Simplified)"
 msgstr "סינית (פשוטה)"
 
 msgid "Esperanto"
-msgstr ""
+msgstr "אספרנטו"
 
 msgid "Dutch"
-msgstr ""
+msgstr "הולנדית"
 
 msgid "French"
 msgstr "צרפתית"
 
 msgid "Galician"
+msgstr "גליציאנית"
+
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hungarian"
 msgstr ""
 
 msgid "Icelandic"
-msgstr ""
+msgstr "איסלנדית"
 
 msgid "Italian"
-msgstr ""
+msgstr "איטלקית"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "ליטאית"
 
 msgid "Persian"
 msgstr "פרסית"
 
+msgid "Portuguese (Brazil)"
+msgstr ""
+
 msgid "Russian"
 msgstr "רוסית"
+
+msgid "Swedish"
+msgstr ""
 
 msgid "Thai"
 msgstr "תאילנדית"
 
-msgid "Basic notification support"
+msgid "Turkish"
 msgstr ""
+
+msgid "Basic notification support"
+msgstr "תמיכה בסיסית בהתראות"
 
 msgid "Support for contact deletion"
-msgstr ""
+msgstr "תמיכה במחיקת אנשי קשר"
 
 msgid "Hugely improved chat UI"
-msgstr ""
+msgstr "UI התכתבות משופר באופן ענק"
 
 msgid "Full Spanish and German translations"
-msgstr ""
+msgstr "תרגומים מלאים בספרדית ובגרמנית"
 
 msgid "Migration to libhandy 1.0"
-msgstr ""
+msgstr "מעבר אל libhandy 1.0"
 
 msgid "Migration to briar_wrapper 0.0.4"
-msgstr ""
+msgstr "מעבר אל briar_wrapper 0.0.4"
 
 msgid "Show online status of contacts in contact list (#19)"
-msgstr ""
+msgstr "נראות מעמד מקוון של אנשי קשר ברשימת אנשי הקשר (#19)"
 
 msgid "Support copying content in messages (#51)"
-msgstr ""
+msgstr "תמיכה בהעתקת תוכן בהודעות (#51)"
 
 msgid "Fix bug with Briar messages not having text (#56)"
-msgstr ""
+msgstr "תיקון תקל עם הודעות Briar שאין להן מלל (#56)"
 
 msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr ""
+msgstr "תיקון תקל עם שם של איש קשר שאינו נראה בהודעות פרטיות (#55)"
 
 msgid "Update Briar core to version 1.2.9"
-msgstr ""
+msgstr "עדכון ליבת Briar אל גרסה 1.2.9"
 
 msgid "Lots of software tests"
-msgstr ""
+msgstr "מלא בדיקות תוכנה"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr ""
+msgstr "שחרור האלפא הראשון של Briar GTK. הוא מתיר הודפת אנשי קשר באופן מרוחק והתכתבות איתם בתכתובות פרטיות. תפקודים אחרים כמו קבוצות, פורומים ובלוגים יוטמעו בעתיד."
+
+#~ msgid "Migration to briar_wrapper 0.0.5"
+#~ msgstr "מעבר אל briar_wrapper 0.0.5"

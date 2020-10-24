@@ -8,7 +8,7 @@
 # 高垚鑫, 2020
 # Chaos, 2020
 # Yunfei Zhang <zsdr@protonmail.com>, 2020
-# QWERT Eric, 2020
+# POIUY, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: QWERT Eric, 2020\n"
+"Last-Translator: POIUY, 2020\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/otf/teams/76528/zh-Hans/)\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -62,6 +62,12 @@ msgstr "下一步"
 msgctxt "Title in add contact page"
 msgid "Add contact"
 msgstr "添加联系人"
+
+msgid "Change contact name"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
 
 msgid "Delete contact"
 msgstr "删除联系人"
@@ -118,6 +124,9 @@ msgstr "创建帐户"
 msgid "Creating Account"
 msgstr "正在创建账户"
 
+msgid "Change"
+msgstr ""
+
 msgid "Localization Lab Translation Teams"
 msgstr "本地化实验室 翻译团队"
 
@@ -135,6 +144,12 @@ msgstr "你确定要退出吗？"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "一旦您关闭Briar，您将不再能接收或发送待发送的消息。要与你的联系人保持联系，请保持Briar在开启状态。"
+
+msgid "Confirm Message Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to delete all messages?"
+msgstr ""
 
 msgid "Confirm Contact Deletion"
 msgstr "确认删除联系人"

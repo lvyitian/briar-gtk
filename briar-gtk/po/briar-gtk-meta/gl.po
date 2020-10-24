@@ -39,7 +39,7 @@ msgid "Welcome screen with registration"
 msgstr "Pantalla de ben vida e rexistro"
 
 msgid "Adding contacts at a distance"
-msgstr ""
+msgstr "Engadir contactos a distancia"
 
 msgid "Main window with two contacts and about dialog"
 msgstr "Pantalla principal con dous contactos e Acerca de"
@@ -48,73 +48,91 @@ msgid "Improvements in this version:"
 msgstr "Melloras nesta versión:"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "Mellora no soporte de notificacións"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "Mostra número de mensaxes non lidas na lista de contactos"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "Soporte para cambiar o nome dos contactos"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "Soporte para eliminar mensaxes dunha conversa"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "Indicación do estado de entrega das mensaxes"
 
-msgid "Migration to briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
 msgstr ""
 
 msgid "Many more minor improvements"
 msgstr "Moitas melloras menores"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Tradución a varios idiomas:"
 
 msgid "Albanian"
+msgstr "Albanés"
+
+msgid "Arabic"
 msgstr ""
 
 msgid "Catalan"
-msgstr ""
+msgstr "Catalán"
 
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Chinés (Simplificado)"
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Neerlandés"
 
 msgid "French"
-msgstr ""
+msgstr "Francés"
 
 msgid "Galician"
+msgstr "Galego"
+
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hungarian"
 msgstr ""
 
 msgid "Icelandic"
-msgstr ""
+msgstr "Islandés"
 
 msgid "Italian"
-msgstr ""
+msgstr "Italiano"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Lituano"
 
 msgid "Persian"
+msgstr "Persa"
+
+msgid "Portuguese (Brazil)"
 msgstr ""
 
 msgid "Russian"
+msgstr "Ruso"
+
+msgid "Swedish"
 msgstr ""
 
 msgid "Thai"
+msgstr "Thai"
+
+msgid "Turkish"
 msgstr ""
 
 msgid "Basic notification support"
 msgstr "Soporte básico para notificacións"
 
 msgid "Support for contact deletion"
-msgstr ""
+msgstr "Permite eliminar contactos"
 
 msgid "Hugely improved chat UI"
 msgstr "Grandes melloras na interface"
@@ -147,4 +165,7 @@ msgid "Lots of software tests"
 msgstr "Moitos test do software"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr ""
+msgstr "Primeira versión alpha de Briar GTK. Permite engadir contactos de xeito remoto e conversar con eles de xeito privado. Outras funcións como grupos, foros e blogs aínda non se implementaron."
+
+#~ msgid "Migration to briar_wrapper 0.0.5"
+#~ msgstr "Migración a briar_wrapper 0.0.5"

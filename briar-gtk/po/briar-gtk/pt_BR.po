@@ -70,6 +70,12 @@ msgctxt "Title in add contact page"
 msgid "Add contact"
 msgstr "Adicionar contato"
 
+msgid "Change contact name"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
+
 msgid "Delete contact"
 msgstr "Apagar contato"
 
@@ -125,6 +131,9 @@ msgstr "Criar Conta"
 msgid "Creating Account"
 msgstr "Criando conta"
 
+msgid "Change"
+msgstr ""
+
 msgid "Localization Lab Translation Teams"
 msgstr ""
 
@@ -141,6 +150,12 @@ msgid "Are you sure you want to exit?"
 msgstr ""
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+msgstr ""
+
+msgid "Confirm Message Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to delete all messages?"
 msgstr ""
 
 msgid "Confirm Contact Deletion"

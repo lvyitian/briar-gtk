@@ -61,6 +61,12 @@ msgctxt "Title in add contact page"
 msgid "Add contact"
 msgstr "Shtoni kontakt"
 
+msgid "Change contact name"
+msgstr ""
+
+msgid "Delete all messages"
+msgstr ""
+
 msgid "Delete contact"
 msgstr "Fshije kontaktin"
 
@@ -116,6 +122,9 @@ msgstr "Krijoni Llogari"
 msgid "Creating Account"
 msgstr "Po Krijohet Llogari"
 
+msgid "Change"
+msgstr ""
+
 msgid "Localization Lab Translation Teams"
 msgstr "Ekipet e Përkthimit në Localization Lab"
 
@@ -133,6 +142,12 @@ msgstr "Jeni i sigurt se doni të dilet?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "Pasi të mbyllni Briar-in, s’do të merrni më mesazhe, as do të dërgohen ata pezull. Që të jeni i lidhur me kontaktet tuaja, mbajeni Briar-in të hapur."
+
+msgid "Confirm Message Deletion"
+msgstr ""
+
+msgid "Are you sure that you want to delete all messages?"
+msgstr ""
 
 msgid "Confirm Contact Deletion"
 msgstr "Ripohoni Fshirje Kontakti"

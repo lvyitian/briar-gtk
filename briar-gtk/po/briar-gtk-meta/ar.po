@@ -9,6 +9,7 @@
 # Martus Translations <translations@martus.org>, 2020
 # erinm, 2020
 # محيي الدين <tx99h4@hotmail.com>, 2020
+# mazen777 <mazen.sos.alkatlabee@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: محيي الدين <tx99h4@hotmail.com>, 2020\n"
+"Last-Translator: mazen777 <mazen.sos.alkatlabee@gmail.com>, 2020\n"
 "Language-Team: Arabic (https://www.transifex.com/otf/teams/76528/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -28,13 +29,13 @@ msgid "Briar"
 msgstr "Briar (براير)"
 
 msgid "Secure messaging, anywhere"
-msgstr ""
+msgstr "التواصل بأمان في أيِّ مكان"
 
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
 msgstr ""
 
 msgid "The Briar Project"
-msgstr ""
+msgstr "مشروع Briar"
 
 msgid "Main window showing two contacts and chat"
 msgstr ""
@@ -66,7 +67,7 @@ msgstr ""
 msgid "Indication of messages' delivery states"
 msgstr ""
 
-msgid "Migration to briar_wrapper 0.0.5"
+msgid "Migration to briar_wrapper 0.0.6"
 msgstr ""
 
 msgid "Many more minor improvements"
@@ -77,6 +78,9 @@ msgstr ""
 
 msgid "Albanian"
 msgstr "Shqip"
+
+msgid "Arabic"
+msgstr ""
 
 msgid "Catalan"
 msgstr ""
@@ -96,6 +100,12 @@ msgstr "French"
 msgid "Galician"
 msgstr ""
 
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
 msgid "Icelandic"
 msgstr ""
 
@@ -108,11 +118,20 @@ msgstr ""
 msgid "Persian"
 msgstr "Persian"
 
+msgid "Portuguese (Brazil)"
+msgstr ""
+
 msgid "Russian"
 msgstr "Russian"
 
+msgid "Swedish"
+msgstr ""
+
 msgid "Thai"
 msgstr "التايلندية"
+
+msgid "Turkish"
+msgstr ""
 
 msgid "Basic notification support"
 msgstr ""

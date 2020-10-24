@@ -99,6 +99,8 @@ class PrivateChatContainer(Container):
             # Abusing idle_add function here because otherwise the message box
             # is too small and scrolling cuts out messages
             GLib.idle_add(self._add_message, message)
+            if message.get("read", True) is False:
+                GLib.idle_add(private_chat.mark_read, message["id"])
         socket_listener = APP().api.socket_listener
         signal_id = socket_listener.connect("ConversationMessageReceivedEvent",
                                             self._add_message_async)
@@ -120,8 +122,12 @@ class PrivateChatContainer(Container):
         return "text" not in message
 
     def _add_message_async(self, message):
-        if message["data"]["contactId"] == self._contact_id:
-            GLib.idle_add(self._add_message_and_scroll, message["data"])
+        if message["data"]["contactId"] != self._contact_id:
+            return
+        GLib.idle_add(self._add_message_and_scroll, message["data"])
+        if message["data"].get("read", True) is False:
+            private_chat = PrivateChat(APP().api, self._contact_id)
+            GLib.idle_add(private_chat.mark_read, message["data"]["id"])
 
     def _add_message_and_scroll(self, message):
         self._add_message(message)

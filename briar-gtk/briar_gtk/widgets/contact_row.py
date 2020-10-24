@@ -17,6 +17,10 @@ class ContactRowWidget(Gtk.ListBoxRow):
     def _setup_view(self, contact):
         name = ContactRowWidget._get_contact_name(contact)
         contact_label = ContactRowWidget._create_contact_label(name)
+        unread_count = str(contact['unreadCount'])
+        contact_unread_count = ContactRowWidget._create_unread_count(
+            unread_count
+        )
         connected = contact["connected"]
         contact_state = ContactRowWidget._create_contact_state(connected)
         contact_box = ContactRowWidget._create_contact_box()
@@ -24,6 +28,7 @@ class ContactRowWidget(Gtk.ListBoxRow):
 
         contact_box.pack_start(contact_label, True, True, 0)
         contact_box.pack_end(contact_state, False, False, 0)
+        contact_box.pack_end(contact_unread_count, False, False, 0)
         contact_event_box.add(contact_box)
         self.add(contact_event_box)
 
@@ -44,6 +49,17 @@ class ContactRowWidget(Gtk.ListBoxRow):
         contact_label.set_halign(Gtk.Align.START)
         contact_label.set_ellipsize(Pango.EllipsizeMode.END)
         return contact_label
+
+    @staticmethod
+    def _create_unread_count(unread_count):
+        if unread_count == "0":
+            return Gtk.EventBox()
+        unread_count_label = Gtk.Label.new(unread_count)
+        unread_count_label.set_valign(Gtk.Align.CENTER)
+        unread_count_label.set_halign(Gtk.Align.START)
+        style = unread_count_label.get_style_context()
+        style.add_class("notify-badge")
+        return unread_count_label
 
     @staticmethod
     def _create_contact_state(connected):

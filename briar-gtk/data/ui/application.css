@@ -91,3 +91,17 @@ row .timestamp {
   border: none;
 }
 
+/**
+  From GNOME Fractal
+  https://gitlab.gnome.org/GNOME/fractal/-/blob/4.4.0/fractal-gtk/res/app.css#L5
+**/
+.notify-badge {
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+  font-size: 0.7em;
+  border-radius: 8px;
+  min-width: 0.7em;
+  padding: 2px 5px;
+}
+

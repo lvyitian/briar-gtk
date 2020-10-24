@@ -9,6 +9,7 @@ from gettext import gettext as _
 from gi.repository import Gio, GLib, Gtk
 
 from briar_wrapper.models.contacts import Contacts
+from briar_wrapper.models.private_chat import PrivateChat
 
 from briar_gtk.container import Container
 from briar_gtk.containers.private_chat import PrivateChatContainer
@@ -112,6 +113,24 @@ class MainWindowContainer(Container):
             self.contact_name_label.set_text(user_alias)
             self._refresh_contacts()
 
+    def open_delete_all_messages_dialog(self):
+        if self._current_contact_id == 0:
+            raise Exception("Can't delete all messages with contact ID 0")
+
+        confirmation_dialog = Gtk.MessageDialog(
+            transient_for=APP().window,
+            flags=Gtk.DialogFlags.MODAL,
+            message_type=Gtk.MessageType.WARNING,
+            buttons=Gtk.ButtonsType.OK_CANCEL,
+            text=_("Confirm Message Deletion"),
+        )
+        confirmation_dialog.format_secondary_text(
+            _("Are you sure that you want to delete all messages?")
+        )
+
+        confirmation_dialog.connect("response", self._delete_all_messages)
+        confirmation_dialog.show_all()
+
     def open_delete_contact_dialog(self):
         if self._current_contact_id == 0:
             raise Exception("Can't delete contact with ID 0")
@@ -130,6 +149,14 @@ class MainWindowContainer(Container):
 
         confirmation_dialog.connect("response", self._delete_contact)
         confirmation_dialog.show_all()
+
+    def _delete_all_messages(self, widget, response_id):
+        if response_id == Gtk.ResponseType.OK:
+            private_chat = PrivateChat(APP().api, self._current_contact_id)
+            private_chat.delete_all_messages()
+            self._refresh_contacts()
+            self.show_sidebar()
+        widget.destroy()
 
     def _delete_contact(self, widget, response_id):
         if response_id == Gtk.ResponseType.OK:

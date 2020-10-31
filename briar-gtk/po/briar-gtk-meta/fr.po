@@ -5,8 +5,8 @@
 #
 # Translators:
 # Adam Lynn <adam@opentechfund.org>, 2020
-# Martus Translations <translations@martus.org>, 2020
 # Towinet, 2020
+# Martus Translations <translations@martus.org>, 2020
 # AO <ao@localizationlab.org>, 2020
 #
 #, fuzzy
@@ -66,7 +66,7 @@ msgid "Indication of messages' delivery states"
 msgstr "Indication de l’état de remise des messages"
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "Migration vers briar_wrapper 0.0.6"
 
 msgid "Many more minor improvements"
 msgstr "De nombreuses autres petites améliorations"
@@ -78,7 +78,7 @@ msgid "Albanian"
 msgstr "Albanais"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arabe"
 
 msgid "Catalan"
 msgstr "Catalan"
@@ -99,10 +99,10 @@ msgid "Galician"
 msgstr "Galicien"
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Hébreu"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Hongrois"
 
 msgid "Icelandic"
 msgstr "Islandais"
@@ -110,26 +110,32 @@ msgstr "Islandais"
 msgid "Italian"
 msgstr "Italien"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
 msgstr "Lituanien"
+
+msgid "Macedonian"
+msgstr ""
 
 msgid "Persian"
 msgstr "Persan"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portugais (Brésil)"
 
 msgid "Russian"
 msgstr "Russe"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Suédois"
 
 msgid "Thai"
 msgstr "Thaï"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Turc"
 
 msgid "Basic notification support"
 msgstr "Prise en charge simple des notifications"
@@ -169,6 +175,3 @@ msgstr "De nombreux essais du logiciel"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "La toute première version alpha de Briar GTK. Elle permet d’ajouter des contacts à distance et de dialoguer avec eux dans des conversations privées. D’autres fonctions telles que les groupes, les forums et les blogues sont à venir."
-
-#~ msgid "Migration to briar_wrapper 0.0.5"
-#~ msgstr "Migration vers briar_wrapper 0.0.5"

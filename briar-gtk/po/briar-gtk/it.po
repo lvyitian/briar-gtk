@@ -9,6 +9,7 @@
 # HostFat <hostfat@gmail.com>, 2020
 # SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020
 # Random_R, 2020
+# Davide Dopesick <metalcaster7@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Random_R, 2020\n"
+"Last-Translator: Davide Dopesick <metalcaster7@gmail.com>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/otf/teams/76528/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -64,10 +65,10 @@ msgid "Add contact"
 msgstr "Aggiungi contatto"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "Cambia il nome del contatto"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "Elimina tutti i messaggi"
 
 msgid "Delete contact"
 msgstr "Elimina contatto"
@@ -125,7 +126,7 @@ msgid "Creating Account"
 msgstr "Creazione account"
 
 msgid "Change"
-msgstr ""
+msgstr "Cambia"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Gruppi di traduzione di Localization Lab"
@@ -146,10 +147,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr "Una volta chiuso Briar, non riceverai più messaggi e non invierai quelli in attesa. Tieni aperto Briar per restare connesso con i tuoi contatti."
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "Conferma l'eliminazione dei messaggi"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "Sei sicuro di voler eliminare tutti i messaggi?"
 
 msgid "Confirm Contact Deletion"
 msgstr "Conferma cancellazione contatto"

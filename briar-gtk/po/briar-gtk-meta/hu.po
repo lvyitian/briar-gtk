@@ -4,10 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# AdminLMH <lehetmashogy@i2pmail.org>, 2020
-# benewfy <benewfy@gmail.com>, 2020
 # David Webb, 2020
 # vargaviktor <viktor.varga@gmail.com>, 2020
+# AdminLMH <lehetmashogy@i2pmail.org>, 2020
+# benewfy <benewfy@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: vargaviktor <viktor.varga@gmail.com>, 2020\n"
+"Last-Translator: benewfy <benewfy@gmail.com>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/otf/teams/76528/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgid "Albanian"
 msgstr "Albán"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arab"
 
 msgid "Catalan"
 msgstr "Katalán"
@@ -102,7 +102,7 @@ msgid "Hebrew"
 msgstr ""
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Magyar"
 
 msgid "Icelandic"
 msgstr "Izlandi"
@@ -110,8 +110,14 @@ msgstr "Izlandi"
 msgid "Italian"
 msgstr "Olasz"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
 msgstr "Litván"
+
+msgid "Macedonian"
+msgstr ""
 
 msgid "Persian"
 msgstr "Perzsa"
@@ -123,13 +129,13 @@ msgid "Russian"
 msgstr "Orosz"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Svéd"
 
 msgid "Thai"
 msgstr "Thai"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Török"
 
 msgid "Basic notification support"
 msgstr ""

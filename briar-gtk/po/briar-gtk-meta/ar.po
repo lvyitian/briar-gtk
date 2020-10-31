@@ -6,10 +6,11 @@
 # Translators:
 # akwizgran <michael@briarproject.org>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
-# Martus Translations <translations@martus.org>, 2020
-# erinm, 2020
 # محيي الدين <tx99h4@hotmail.com>, 2020
 # mazen777 <mazen.sos.alkatlabee@gmail.com>, 2020
+# ducki2p <ducki2p@gmail.com>, 2020
+# Martus Translations <translations@martus.org>, 2020
+# erinm, 2020
 #
 #, fuzzy
 msgid ""
@@ -17,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: mazen777 <mazen.sos.alkatlabee@gmail.com>, 2020\n"
+"Last-Translator: erinm, 2020\n"
 "Language-Team: Arabic (https://www.transifex.com/otf/teams/76528/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -80,7 +81,7 @@ msgid "Albanian"
 msgstr "Shqip"
 
 msgid "Arabic"
-msgstr ""
+msgstr "العربية"
 
 msgid "Catalan"
 msgstr ""
@@ -101,10 +102,10 @@ msgid "Galician"
 msgstr ""
 
 msgid "Hebrew"
-msgstr ""
+msgstr "العبرية"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "المجرية"
 
 msgid "Icelandic"
 msgstr ""
@@ -112,7 +113,13 @@ msgstr ""
 msgid "Italian"
 msgstr "Italian"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
+msgstr ""
+
+msgid "Macedonian"
 msgstr ""
 
 msgid "Persian"
@@ -125,13 +132,13 @@ msgid "Russian"
 msgstr "Russian"
 
 msgid "Swedish"
-msgstr ""
+msgstr "السويدية"
 
 msgid "Thai"
 msgstr "التايلندية"
 
 msgid "Turkish"
-msgstr ""
+msgstr "التركية"
 
 msgid "Basic notification support"
 msgstr ""

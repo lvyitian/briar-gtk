@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# Sebastian Rasmussen <sebras@gmail.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Daniel <d-transifex@lublin.se>, 2020
-# Sebastian Rasmussen <sebras@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>, 2020\n"
+"Last-Translator: Daniel <d-transifex@lublin.se>, 2020\n"
 "Language-Team: Swedish (https://www.transifex.com/otf/teams/76528/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -65,7 +65,7 @@ msgid "Indication of messages' delivery states"
 msgstr "Indikering av leveransstatus för meddelanden"
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "Migrering till briar_wrapper 0.0.6"
 
 msgid "Many more minor improvements"
 msgstr "Flertalet mindre förbättringar"
@@ -77,7 +77,7 @@ msgid "Albanian"
 msgstr "Albanska"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arabiska"
 
 msgid "Catalan"
 msgstr "Katalanska"
@@ -98,10 +98,10 @@ msgid "Galician"
 msgstr "Galiciska"
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebreiska"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Ungerska"
 
 msgid "Icelandic"
 msgstr "Isländska"
@@ -109,26 +109,32 @@ msgstr "Isländska"
 msgid "Italian"
 msgstr "Italienska"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
 msgstr "Litauiska"
+
+msgid "Macedonian"
+msgstr ""
 
 msgid "Persian"
 msgstr "Persiska"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portugisiska (Brasilien)"
 
 msgid "Russian"
 msgstr "Ryska"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Svenska"
 
 msgid "Thai"
 msgstr "Thailändska"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Turkiska"
 
 msgid "Basic notification support"
 msgstr "Grundläggande aviseringsstöd"
@@ -168,6 +174,3 @@ msgstr "Många programvarutester"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Den allra första alfa-versionen av Briar GTK. Den tillåter tilläggning av kontakter på avstånd och att chatta med dem i privata chattar. Andra funktioner så som grupper, forum och bloggar väntar på att implementeras."
-
-#~ msgid "Migration to briar_wrapper 0.0.5"
-#~ msgstr "Migration till briar_wrapper 0.0.5"

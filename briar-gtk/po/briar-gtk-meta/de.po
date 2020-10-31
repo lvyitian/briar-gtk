@@ -5,13 +5,14 @@
 #
 # Translators:
 # 1ed4e60ee66958c827a8962eeb50f715_b700974, 2020
-# Ettore Atalan <atalanttore@googlemail.com>, 2020
 # akwizgran <michael@briarproject.org>, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # Lars Schimmer <echelon@i2pmail.org>, 2020
-# nautilusx, 2020
 # Eike Fulda <e50389.fulda@gmx.de>, 2020
 # Nico Alt, 2020
+# ducki2p <ducki2p@gmail.com>, 2020
+# Ettore Atalan <atalanttore@googlemail.com>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
+# nautilusx, 2020
 #
 #, fuzzy
 msgid ""
@@ -19,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Nico Alt, 2020\n"
+"Last-Translator: nautilusx, 2020\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/76528/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -70,7 +71,7 @@ msgid "Indication of messages' delivery states"
 msgstr "Anzeige des Nachrichtenstatus in Chats"
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "Migration zu briar_wrapper 0.0.6"
 
 msgid "Many more minor improvements"
 msgstr "Viele weitere kleine Verbesserungen"
@@ -82,7 +83,7 @@ msgid "Albanian"
 msgstr "Albanisch"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arabisch"
 
 msgid "Catalan"
 msgstr "Katalanisch"
@@ -103,10 +104,10 @@ msgid "Galician"
 msgstr "Galizisch"
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebräisch"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Ungarisch"
 
 msgid "Icelandic"
 msgstr "Isländisch"
@@ -114,26 +115,32 @@ msgstr "Isländisch"
 msgid "Italian"
 msgstr "Italienisch"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
 msgstr "Litauisch"
+
+msgid "Macedonian"
+msgstr ""
 
 msgid "Persian"
 msgstr "Persisch"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portugiesisch (Brasilien)"
 
 msgid "Russian"
 msgstr "Russisch"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Schwedisch"
 
 msgid "Thai"
 msgstr "Thailändisch"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Türkisch"
 
 msgid "Basic notification support"
 msgstr "Grundlegende Unterstützung für Benachrichtigungen"
@@ -173,6 +180,3 @@ msgstr "Viele Softwaretests"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Das erste Alpha-Release von Briar GTK. Es können Kontakte in der Ferne hinzugefügt und private Chats genutzt werden. Andere Funktionen, wie Gruppen, Foren und Blogs folgen."
-
-#~ msgid "Migration to briar_wrapper 0.0.5"
-#~ msgstr "Migration zu briar_wrapper 0.0.5"

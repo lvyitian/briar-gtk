@@ -7,12 +7,15 @@
 # 1ed4e60ee66958c827a8962eeb50f715_b700974, 2020
 # erinm, 2020
 # Florencia Herra Vega <flohdot@gmail.com>, 2020
-# nautilusx, 2020
 # n3niu, 2020
 # Eike Fulda <e50389.fulda@gmx.de>, 2020
 # Ettore Atalan <atalanttore@googlemail.com>, 2020
 # akwizgran <michael@briarproject.org>, 2020
 # Nico Alt, 2020
+# Ashoka <martin.tastler@posteo.de>, 2020
+# nautilusx, 2020
+# Anatol <onon@riseup.net>, 2020
+# Heiko Braun <transifex@heiko-braun.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -20,7 +23,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Nico Alt, 2020\n"
+"Last-Translator: Heiko Braun <transifex@heiko-braun.org>, 2020\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/76528/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -68,10 +71,10 @@ msgid "Add contact"
 msgstr "Kontakt hinzufügen"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "Kontaktnamen ändern"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "Alle Nachrichten löschen"
 
 msgid "Delete contact"
 msgstr "Kontakt löschen"
@@ -129,7 +132,7 @@ msgid "Creating Account"
 msgstr "Konto wird erstellt"
 
 msgid "Change"
-msgstr ""
+msgstr "Ändern"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Localization Lab Übersetzungsteams"
@@ -150,10 +153,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr "Sobald du Briar schließt, wirst du keine ausstehenden Nachrichten mehr empfangen oder senden können. Lass Briar offen, um mit deinen Kontakten in Verbindung zu bleiben."
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "Löschen der Nachrichten bestätigen"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "Bist du sicher, dass du alle Nachrichten löschen willst?"
 
 msgid "Confirm Contact Deletion"
 msgstr "Löschen des Kontakts bestätigen"

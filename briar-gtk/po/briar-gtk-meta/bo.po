@@ -75,7 +75,7 @@ msgid "Albanian"
 msgstr ""
 
 msgid "Arabic"
-msgstr ""
+msgstr "ཨ་རབ།"
 
 msgid "Catalan"
 msgstr ""
@@ -107,7 +107,13 @@ msgstr ""
 msgid "Italian"
 msgstr ""
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
+msgstr ""
+
+msgid "Macedonian"
 msgstr ""
 
 msgid "Persian"

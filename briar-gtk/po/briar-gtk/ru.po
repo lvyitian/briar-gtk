@@ -12,6 +12,7 @@
 # Đorđe Marušić <djordje@hzontal.org>, 2020
 # Valeriy Khegay <justflee@tuta.io>, 2020
 # Andrey, 2020
+# Leonid Evdokimov <leon+transifex@darkk.net.ru>, 2020
 #
 #, fuzzy
 msgid ""
@@ -19,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Andrey, 2020\n"
+"Last-Translator: Leonid Evdokimov <leon+transifex@darkk.net.ru>, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/76528/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -67,10 +68,10 @@ msgid "Add contact"
 msgstr "Добавить контакт"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "Изменить имя контакта"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "Удалить все сообщения"
 
 msgid "Delete contact"
 msgstr "Удалить контакт"
@@ -128,7 +129,7 @@ msgid "Creating Account"
 msgstr "Создание учетной записи"
 
 msgid "Change"
-msgstr ""
+msgstr "Изменить"
 
 msgid "Localization Lab Translation Teams"
 msgstr " Команда переводчиков Localization Lab"
@@ -149,10 +150,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr "После закрытия Briar, вы больше не сможете ни получать и отправлять сообщения, ожидающие своей очереди. Оставьте Briar открытым, чтобы оставаться на связи со своими контактами."
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "Подтверждение удаления сообщений"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "Вы уверены, что хотите удалить все сообщения?"
 
 msgid "Confirm Contact Deletion"
 msgstr "Подтвердите удаление контакта"

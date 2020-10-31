@@ -8,7 +8,10 @@
 # Đorđe Marušić <djordje@hzontal.org>, 2020
 # strel, 2020
 # akwizgran <michael@briarproject.org>, 2020
+# 0f759dd1ea6c4c76cedc299039ca4f23_7584d04 <454cc45058db9632179dc8079c0c1af3_5311>, 2020
+# Anatoli Pena <djanatoli@gmail.com>, 2020
 # Zuhualime Akoochimoya, 2020
+# wuniversales, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Zuhualime Akoochimoya, 2020\n"
+"Last-Translator: wuniversales, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/otf/teams/76528/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -64,10 +67,10 @@ msgid "Add contact"
 msgstr "Añadir el contacto"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "Cambiar nombre del contacto"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "Eliminar todos los mensajes"
 
 msgid "Delete contact"
 msgstr "Eliminar contacto"
@@ -125,7 +128,7 @@ msgid "Creating Account"
 msgstr "Creando cuenta"
 
 msgid "Change"
-msgstr ""
+msgstr "Cambio "
 
 msgid "Localization Lab Translation Teams"
 msgstr "Equipos de Traducción de Localization Lab"
@@ -146,10 +149,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr "Cuando cierres Briar, ya no recibirás o enviarás mensajes pendientes. Mantenlo abierto para permanecer conectado con tus contactos."
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "Confirmar la eliminación del mensaje"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "¿Estás seguro de que deseas eliminar todos los mensajes?"
 
 msgid "Confirm Contact Deletion"
 msgstr "Confirmar eliminación de contacto"

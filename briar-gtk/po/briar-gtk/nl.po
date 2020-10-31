@@ -4,12 +4,14 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Pander <pander@users.sourceforge.net>, 2020
 # Anne Mügge <info@numijneigenwebsite.nl>, 2020
 # erinm, 2020
 # Thom, 2020
 # Heimen Stoffels <vistausss@outlook.com>, 2020
 # akwizgran <michael@briarproject.org>, 2020
+# Pander <pander@users.sourceforge.net>, 2020
+# Nathan Follens, 2020
+# Thinkwell, 2020
 #
 #, fuzzy
 msgid ""
@@ -17,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: akwizgran <michael@briarproject.org>, 2020\n"
+"Last-Translator: Thinkwell, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/otf/teams/76528/nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -65,10 +67,10 @@ msgid "Add contact"
 msgstr "Contact toevoegen"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "Verander naam van contact"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "Verwijder alle berichten"
 
 msgid "Delete contact"
 msgstr "Contact verwijderen"
@@ -126,7 +128,7 @@ msgid "Creating Account"
 msgstr "Account maken"
 
 msgid "Change"
-msgstr ""
+msgstr "Wijzigen"
 
 msgid "Localization Lab Translation Teams"
 msgstr ""
@@ -147,10 +149,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr ""
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "Bevestig verwijderen berichten"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "Weet je zeker dat je alle berichten wil verwijderen?"
 
 msgid "Confirm Contact Deletion"
 msgstr "Bevestig verwijderen van contact"

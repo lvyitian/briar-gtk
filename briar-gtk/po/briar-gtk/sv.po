@@ -10,8 +10,10 @@
 # Florencia Herra Vega <flohdot@gmail.com>, 2020
 # Thomas Walls <thomasw@tutanota.com>, 2020
 # Stefan Gagner <stefan@mei-ya.se>, 2020
-# Daniel <d-transifex@lublin.se>, 2020
 # Sebastian Rasmussen <sebras@gmail.com>, 2020
+# Steve Dougherty, 2020
+# Jonatan Nyberg <jonatan.nyberg.karl@gmail.com>, 2020
+# Daniel <d-transifex@lublin.se>, 2020
 #
 #, fuzzy
 msgid ""
@@ -19,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>, 2020\n"
+"Last-Translator: Daniel <d-transifex@lublin.se>, 2020\n"
 "Language-Team: Swedish (https://www.transifex.com/otf/teams/76528/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -67,10 +69,10 @@ msgid "Add contact"
 msgstr "Lägg till kontakt"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "Ändra namn på kontakt"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "Ta bort alla meddelanden"
 
 msgid "Delete contact"
 msgstr "Radera kontakt"
@@ -128,7 +130,7 @@ msgid "Creating Account"
 msgstr "Skapar Konto"
 
 msgid "Change"
-msgstr ""
+msgstr "Ändra"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Översättningsgrupper hos Localization Lab"
@@ -149,10 +151,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr "När du stänger briar kommer du inte längre att ta emot eller skicka väntade meddelanden. Håll Briar öppet för att förbli ansluten till dina kontakter."
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "Bekräfta meddelande borttagning"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "Är du säker på att du vill ta bort alla meddelanden?"
 
 msgid "Confirm Contact Deletion"
 msgstr "Bekräfta radering av kontakt"

@@ -10,8 +10,8 @@
 # Florencia Herra Vega <flohdot@gmail.com>, 2020
 # Gökhan Kalayci <gkmediagokhan@gmail.com>, 2020
 # dersteppenwolfx, 2020
-# mahmut özcan <mahmutozcan@protonmail.com>, 2020
 # Ferdi YLDZ <eceyldz1122@gmail.com>, 2020
+# mahmut özcan <mahmutozcan@protonmail.com>, 2020
 # T. E. Kalayci <tekrei@gmail.com>, 2020
 #
 #, fuzzy
@@ -68,10 +68,10 @@ msgid "Add contact"
 msgstr "Kişi ekle"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "Kişi adını değiştir"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "Tüm iletileri sil"
 
 msgid "Delete contact"
 msgstr "Kişiyi sil"
@@ -129,7 +129,7 @@ msgid "Creating Account"
 msgstr "Hesap Oluşturma"
 
 msgid "Change"
-msgstr ""
+msgstr "Değişiklik"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Lozalication Lab Yerelleştirme Ekipleri"
@@ -150,10 +150,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr "Briarı kapattığınızda ileti alamayacak veya beklemede olanları gönderemeyeceksiniz. Kişilerinizle bağlantıda kalmak için Briar'ı açık tutun."
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "İleti Silmeyi Onayla"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "Tüm iletileri silmek istediğinizden emin misiniz?"
 
 msgid "Confirm Contact Deletion"
 msgstr "Kişi Silmeyi Onayla"

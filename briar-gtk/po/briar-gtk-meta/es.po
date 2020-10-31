@@ -7,6 +7,7 @@
 # strel, 2020
 # akwizgran <michael@briarproject.org>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
+# ducki2p <ducki2p@gmail.com>, 2020
 # Martus Translations <translations@martus.org>, 2020
 # erinm, 2020
 # Zuhualime Akoochimoya, 2020
@@ -68,7 +69,7 @@ msgid "Indication of messages' delivery states"
 msgstr "Indicación de estado de entrega de los mensajes"
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "Migración a briar_wrapper 0.0.6"
 
 msgid "Many more minor improvements"
 msgstr "Muchas más mejoras menores"
@@ -80,7 +81,7 @@ msgid "Albanian"
 msgstr "Albanés"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Árabe"
 
 msgid "Catalan"
 msgstr "Catalán"
@@ -101,10 +102,10 @@ msgid "Galician"
 msgstr "Gallego"
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebreo"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Húngaro"
 
 msgid "Icelandic"
 msgstr "Islandés"
@@ -112,26 +113,32 @@ msgstr "Islandés"
 msgid "Italian"
 msgstr "Italiano"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
 msgstr "Lituano"
+
+msgid "Macedonian"
+msgstr ""
 
 msgid "Persian"
 msgstr "Persa"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portugués (Brasil)"
 
 msgid "Russian"
 msgstr "Ruso"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Sueco"
 
 msgid "Thai"
 msgstr "Tailandés"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Turco"
 
 msgid "Basic notification support"
 msgstr "Soporte de notificación básico"
@@ -171,6 +178,3 @@ msgstr "Muchas pruebas de software"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "El primerísimo lanzamiento alfa de Briar GTK. Permite añadir contactos a distancia y chatear con ellos en forma privada. Otras funciones como grupos, foros y blogs tienen que ser implementadas."
-
-#~ msgid "Migration to briar_wrapper 0.0.5"
-#~ msgstr "Migración a briar_wrapper 0.0.5"

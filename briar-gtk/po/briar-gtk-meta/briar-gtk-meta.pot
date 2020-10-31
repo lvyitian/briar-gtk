@@ -103,7 +103,13 @@ msgstr ""
 msgid "Italian"
 msgstr ""
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
+msgstr ""
+
+msgid "Macedonian"
 msgstr ""
 
 msgid "Persian"

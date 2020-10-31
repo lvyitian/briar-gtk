@@ -8,6 +8,8 @@
 # AJ, 2020
 # NoProfile, 2020
 # Goudarz Jafari <goudarz.jafari@gmail.com>, 2020
+# b0b47d46632b78a09a40de799fda9a65, 2020
+# Mostafa Ahangarha <ahangarha@riseup.net>, 2020
 # Reza Ghasemi, 2020
 #
 #, fuzzy
@@ -64,10 +66,10 @@ msgid "Add contact"
 msgstr "افزودن مخاطب"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "تغییر نام مخاطب"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "حذف تمام پیام ها"
 
 msgid "Delete contact"
 msgstr "حذف مخاطب"
@@ -125,7 +127,7 @@ msgid "Creating Account"
 msgstr "در حال ایجاد حساب کاربری"
 
 msgid "Change"
-msgstr ""
+msgstr "تغییر"
 
 msgid "Localization Lab Translation Teams"
 msgstr "تیم های ترجمه Localization Lab"
@@ -146,10 +148,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr ""
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "تایید حذف پیام"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "آیا از حذف تمام پیام‌ ها اطمینان دارید؟"
 
 msgid "Confirm Contact Deletion"
 msgstr "تایید حذف مخاطب"

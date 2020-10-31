@@ -63,10 +63,10 @@ msgid "Add contact"
 msgstr "Kapcsolat hozzáadása"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "Kapcsolat nevének megváltoztatása"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "Minden üzenet törlése"
 
 msgid "Delete contact"
 msgstr "Kapcsolat törlése"
@@ -124,7 +124,7 @@ msgid "Creating Account"
 msgstr "Fiók létrehozása"
 
 msgid "Change"
-msgstr ""
+msgstr "Módosítás"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Localization Lab fordító csoportok"
@@ -145,10 +145,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr "Ha egyszer bezárja a Briar-t, nem tud üzeneteket fogadni, vagy elküldeni a várakozókat. Tartsa a Briar-t nyitva, hogy kapcsolatban maradjon a kontaktjaival."
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "Üzenet törlés megerősítése"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "Biztos, hogy szeretné törölni összes üzenetét?"
 
 msgid "Confirm Contact Deletion"
 msgstr "Kapcsolat törlésének megerősítése"

@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Besnik Bleta <besnik@programeshqip.org>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Bujar Tafili, 2020
+# Besnik Bleta <besnik@programeshqip.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Bujar Tafili, 2020\n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2020\n"
 "Language-Team: Albanian (https://www.transifex.com/otf/teams/76528/sq/)\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
@@ -65,7 +65,7 @@ msgid "Indication of messages' delivery states"
 msgstr "Tregim gjendjeje dërgimi mesazhesh"
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "Migrim te briar_wrapper 0.0.6"
 
 msgid "Many more minor improvements"
 msgstr "Mjaft përmirësime të tjera të vockla"
@@ -77,7 +77,7 @@ msgid "Albanian"
 msgstr "Shqip"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arabisht"
 
 msgid "Catalan"
 msgstr "Katalanase"
@@ -98,10 +98,10 @@ msgid "Galician"
 msgstr "Galicisht"
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebraisht"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Hungarisht"
 
 msgid "Icelandic"
 msgstr "Islandisht"
@@ -109,26 +109,32 @@ msgstr "Islandisht"
 msgid "Italian"
 msgstr "Italisht"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
 msgstr "Lituanisht"
+
+msgid "Macedonian"
+msgstr ""
 
 msgid "Persian"
 msgstr "Persisht"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portugalisht (Brazil)"
 
 msgid "Russian"
 msgstr "Rusisht"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Suedisht"
 
 msgid "Thai"
 msgstr "Tajlandisht"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Turqisht"
 
 msgid "Basic notification support"
 msgstr "Mbulim njoftimesh elementare"
@@ -168,6 +174,3 @@ msgstr "Plot testime software-i"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Hedhja e parë fare në qarkullim e një versioni alpha të Briar GTK. Lejon shtim kontaktesh së largëti dhe fjalosje me ta në fjalosje private. Janë për t’u sendërtuar funksione të tjera, të tillë si grupe, forume dhe blogje."
-
-#~ msgid "Migration to briar_wrapper 0.0.5"
-#~ msgstr "Migrim te briar_wrapper 0.0.5"

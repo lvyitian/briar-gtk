@@ -9,10 +9,10 @@
 # Rima Sghaier, 2020
 # Ali <aboshanab_@hotmail.com>, 2020
 # akwizgran <michael@briarproject.org>, 2020
-# Layla Taha <layla@asl19.org>, 2020
 # Haroon Ali <haroon.ali2018@protonmail.com>, 2020
 # Nico Alt, 2020
 # mazen777 <mazen.sos.alkatlabee@gmail.com>, 2020
+# Layla Taha <layla@asl19.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: mazen777 <mazen.sos.alkatlabee@gmail.com>, 2020\n"
+"Last-Translator: Layla Taha <layla@asl19.org>, 2020\n"
 "Language-Team: Arabic (https://www.transifex.com/otf/teams/76528/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -68,10 +68,10 @@ msgid "Add contact"
 msgstr "إضافة جهة إتصال"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "تعديل إسم جهة الاتصال"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "حذف جميع الرّسائل "
 
 msgid "Delete contact"
 msgstr "حذف جهة الإتصال"
@@ -129,7 +129,7 @@ msgid "Creating Account"
 msgstr "جاري إنشاء الحساب"
 
 msgid "Change"
-msgstr ""
+msgstr "تعديل"
 
 msgid "Localization Lab Translation Teams"
 msgstr "فريق الترجمة من Localization Lab"
@@ -150,10 +150,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr "حالما تغلق Briar لن تتلقى أي رسائل و لن تتمكن من تعليق الرسائل بانتظار ولوج المتلقي للإنترنت. إبق Briar مفتوح من أجل متصلاً مع جهات الاتصال.  "
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "تأكيد حذف الرّسالة"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "هل أنتم متأكّدون من حذف جميع الرّسائل؟ "
 
 msgid "Confirm Contact Deletion"
 msgstr "تأكيد حذف جهة الإتصال"

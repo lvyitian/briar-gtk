@@ -64,7 +64,7 @@ msgid "Indication of messages' delivery states"
 msgstr "İletilerin iletilme durumlarının belirtilmesi"
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "briar_wrapper 0.0.6 sürümüne geçiş"
 
 msgid "Many more minor improvements"
 msgstr "Bir çok küçük yenilik"
@@ -76,7 +76,7 @@ msgid "Albanian"
 msgstr "Arnavutça"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arapça"
 
 msgid "Catalan"
 msgstr "Katalanca"
@@ -97,10 +97,10 @@ msgid "Galician"
 msgstr "Galiçyaca"
 
 msgid "Hebrew"
-msgstr ""
+msgstr "İbranice"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Macarca"
 
 msgid "Icelandic"
 msgstr "İzlandaca"
@@ -108,26 +108,32 @@ msgstr "İzlandaca"
 msgid "Italian"
 msgstr "İtalyanca"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
 msgstr "Litvanca"
+
+msgid "Macedonian"
+msgstr ""
 
 msgid "Persian"
 msgstr "Farsça"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portekizce (Brezilya)"
 
 msgid "Russian"
 msgstr "Rusça"
 
 msgid "Swedish"
-msgstr ""
+msgstr "İsveççe"
 
 msgid "Thai"
 msgstr "Tayca"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Türkçe"
 
 msgid "Basic notification support"
 msgstr "Basit bildiri desteği"
@@ -167,6 +173,3 @@ msgstr "Bir çok yazılım testi"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Briar GTK ilk alfa sürümü. Uzaktan kişi eklemenizi ve onlarla gizli bir şekilde sohbet etmenizi sağlar. Gruplar, forumlar ve bloglar gibi diğer işlevler zamanla geliştirilecek."
-
-#~ msgid "Migration to briar_wrapper 0.0.5"
-#~ msgstr "briar_wrapper 0.0.5 sürümüne geçiş"

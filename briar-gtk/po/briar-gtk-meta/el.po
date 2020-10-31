@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# Alex <hestia@riseup.net>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # LaScapigliata <ditri2000@hotmail.com>, 2020
 # Elektra M. <safiragon@yahoo.gr>, 2020
@@ -77,7 +78,7 @@ msgid "Albanian"
 msgstr "Αλβανικά"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Αραβικά"
 
 msgid "Catalan"
 msgstr ""
@@ -98,10 +99,10 @@ msgid "Galician"
 msgstr ""
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Εβραϊκά"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Ουγγρικά"
 
 msgid "Icelandic"
 msgstr ""
@@ -109,7 +110,13 @@ msgstr ""
 msgid "Italian"
 msgstr "Ιταλικά"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
+msgstr ""
+
+msgid "Macedonian"
 msgstr ""
 
 msgid "Persian"
@@ -122,13 +129,13 @@ msgid "Russian"
 msgstr "Ρώσικα"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Σουηδικά"
 
 msgid "Thai"
 msgstr "Ταϋλανδέζικα"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Τούρκικα"
 
 msgid "Basic notification support"
 msgstr ""

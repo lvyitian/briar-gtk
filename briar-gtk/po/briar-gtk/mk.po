@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Matej Plavevski <matej.plavevski+github@gmail.com>, 2020
+# Zarko Gjurov <zarkogjurov@gmail.com>, 2020
+# Liljana Ackovska <liljanagjurova@gmail.com>, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"Last-Translator: Liljana Ackovska <liljanagjurova@gmail.com>, 2020\n"
+"Language-Team: Macedonian (https://www.transifex.com/otf/teams/76528/mk/)\n"
+"Language: mk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+
+msgctxt "Used in add contact page"
+msgid "Give this link to the contact you want to add"
+msgstr "Испрати го овој линк до контактот што сакаш да го додадеш"
+
+msgctxt "Used in add contact page"
+msgid "Enter the link from your contact here"
+msgstr "Внеси го линкот од твојот контакт овде"
+
+msgctxt "Used in add contact page"
+msgid "Contact's link"
+msgstr "Линк на контактот"
+
+msgctxt "Used in add contact page"
+msgid "Please enter a link"
+msgstr "Ве молиме внесете линк"
+
+msgctxt "Used in add contact page"
+msgid "Give your contact a nickname. Only you can see it."
+msgstr "Дај му на твојот контакт прекар. Само ти ќе можеш да го видиш."
+
+msgctxt "Used in add contact page"
+msgid "Enter a nickname"
+msgstr "Внеси прекар"
+
+msgctxt "Used in add contact page"
+msgid "Please enter a nickname"
+msgstr "Ве молиме внесете прекар"
+
+msgctxt "Button in add contact page"
+msgid "Add contact"
+msgstr "Додај контакт"
+
+msgid "Next"
+msgstr "Следно"
+
+msgctxt "Title in add contact page"
+msgid "Add contact"
+msgstr "Додај контакт"
+
+msgid "Change contact name"
+msgstr "Промена на име на контакт"
+
+msgid "Delete all messages"
+msgstr "Избриши ги сите пораки"
+
+msgid "Delete contact"
+msgstr "Избриши контакт"
+
+msgid "Password"
+msgstr "Лозинка"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "Најави се"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "Најавување"
+
+msgid "About Briar GTK"
+msgstr "За Briar GTK"
+
+msgctxt "Used in input field in main window"
+msgid "Type Message"
+msgstr "Напиши порака"
+
+msgid "No contact selected"
+msgstr "Нема одбрани контакти"
+
+msgid "Select a contact to start chatting"
+msgstr "Одберете контакт за да почнете разговор"
+
+msgctxt "Accessibility text in main menu"
+msgid "Add contact"
+msgstr "Додај контакт"
+
+msgid "Main menu"
+msgstr "Главно мени"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Chat menu"
+msgstr "Разговор мени"
+
+msgid "Welcome to Briar"
+msgstr "Добредојде во Briar"
+
+msgid "Choose your nickname"
+msgstr "Одберете корисничко име"
+
+msgid "Confirm Password"
+msgstr "Потврди лозинка"
+
+msgid "Create Account"
+msgstr "Создади сметка"
+
+msgid "Creating Account"
+msgstr "Создавање сметка"
+
+msgid "Change"
+msgstr "Промени"
+
+msgid "Localization Lab Translation Teams"
+msgstr "Localization Lab Тимови за превод"
+
+msgid "Using code by"
+msgstr "Користење код од"
+
+msgid "Briar functionality by"
+msgstr "Briar функционалност од"
+
+msgid "Myself"
+msgstr "Себеси"
+
+msgid "Are you sure you want to exit?"
+msgstr "Дали сте сигурни дека сакате да излезете?"
+
+msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+msgstr "Кога еднаш сте го затвориле Briar, повеќе нема да добивате пораки или да ги испратите оние кои се на чекање. Чувајте го Briar отворен за да останете поврзани со вашите контакти."
+
+msgid "Confirm Message Deletion"
+msgstr "Потврди бришење на порака"
+
+msgid "Are you sure that you want to delete all messages?"
+msgstr "Дали сте сигурни дека сакате да ги избришете сите пораки?"
+
+msgid "Confirm Contact Deletion"
+msgstr "Потврди бришење на контакт"
+
+msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+msgstr "Дали сте сигурни дека сакате да го избришете овој контакт и сите пораки поврзани со него?"
+
+msgid "Contact added"
+msgstr "Додаден контакт"
+
+msgid "New private message"
+msgstr "Нова приватна порака"
+
+msgid "Please enter a password"
+msgstr "Ве молиме внесете лозинка"
+
+msgid "Couldn't log in"
+msgstr "Не можеше да се најави"
+
+msgid "Please enter a nickname"
+msgstr "Ве молиме внесете прекар"
+
+msgid "The passwords do not match"
+msgstr "Лозинките не се исти"
+
+msgid "Couldn't register account"
+msgstr "Сметката не можеше да се регистрира"
+
+msgid "Please enter a link"
+msgstr "Ве молиме внесете линк"
+
+msgid "Enter your contact's link, not your own"
+msgstr "Внеси го линкот на твојот контакт, а не својот линк"
+
+msgctxt "Used in about dialog"
+msgid "Copyright © 2019-2020 The Briar Project"
+msgstr "Copyright © 2019-2020 The Briar Project"
+
+msgctxt "Used in about dialog"
+msgid "A Briar client for GTK desktop and mobile devices"
+msgstr "Briar клинет за GTK десктоп и мобилни уреди"
+
+msgctxt "Used in about dialog to get to website"
+msgid "Visit Briar GTK website"
+msgstr "Посетете ја веб страната на Briar GTK "

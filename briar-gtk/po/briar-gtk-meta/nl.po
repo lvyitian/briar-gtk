@@ -4,10 +4,11 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Anne Mügge <info@numijneigenwebsite.nl>, 2020
 # akwizgran <michael@briarproject.org>, 2020
-# Adam Lynn <adam@opentechfund.org>, 2020
 # Volluta <volluta@tutanota.com>, 2020
+# ducki2p <ducki2p@gmail.com>, 2020
+# Anne Mügge <info@numijneigenwebsite.nl>, 2020
+# Adam Lynn <adam@opentechfund.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Volluta <volluta@tutanota.com>, 2020\n"
+"Last-Translator: Adam Lynn <adam@opentechfund.org>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/otf/teams/76528/nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +79,7 @@ msgid "Albanian"
 msgstr "Albanees"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arabisch"
 
 msgid "Catalan"
 msgstr ""
@@ -99,10 +100,10 @@ msgid "Galician"
 msgstr ""
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebreeuws"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Hongaars"
 
 msgid "Icelandic"
 msgstr ""
@@ -110,7 +111,13 @@ msgstr ""
 msgid "Italian"
 msgstr "Italiaans"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
+msgstr ""
+
+msgid "Macedonian"
 msgstr ""
 
 msgid "Persian"
@@ -123,13 +130,13 @@ msgid "Russian"
 msgstr "Russisch"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Zweeds"
 
 msgid "Thai"
 msgstr "Thai"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Turks"
 
 msgid "Basic notification support"
 msgstr "Basisondersteuning voor meldingen"

@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# POIUY, 2020
 # ff98sha, 2020
+# POIUY, 2020
 #
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: ff98sha, 2020\n"
+"Last-Translator: POIUY, 2020\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/otf/teams/76528/zh-Hans/)\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgid "Indication of messages' delivery states"
 msgstr "消息传递状态的指示 "
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "迁移到briar_wrapper 0.0.6"
 
 msgid "Many more minor improvements"
 msgstr "更多的小改进"
@@ -76,7 +76,7 @@ msgid "Albanian"
 msgstr "阿尔巴尼亚语"
 
 msgid "Arabic"
-msgstr ""
+msgstr "阿拉伯语"
 
 msgid "Catalan"
 msgstr "加泰罗尼亚语"
@@ -97,10 +97,10 @@ msgid "Galician"
 msgstr "加利西亚语 "
 
 msgid "Hebrew"
-msgstr ""
+msgstr "希伯来语"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "匈牙利语"
 
 msgid "Icelandic"
 msgstr "冰岛语"
@@ -108,26 +108,32 @@ msgstr "冰岛语"
 msgid "Italian"
 msgstr "意大利语"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
 msgstr "立陶宛语"
+
+msgid "Macedonian"
+msgstr ""
 
 msgid "Persian"
 msgstr "波斯语"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "葡萄牙语 (巴西)"
 
 msgid "Russian"
 msgstr "俄语"
 
 msgid "Swedish"
-msgstr ""
+msgstr "瑞典语"
 
 msgid "Thai"
 msgstr "泰语"
 
 msgid "Turkish"
-msgstr ""
+msgstr "土耳其语"
 
 msgid "Basic notification support"
 msgstr "基本的通知支持"
@@ -167,6 +173,3 @@ msgstr "许多软件测试"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "这是 Briar GTK 的第一个 alpha 版本。它允许远程添加联系人，并在私人聊天中与他们聊天。其他功能，如群组，论坛和博客将被实现。"
-
-#~ msgid "Migration to briar_wrapper 0.0.5"
-#~ msgstr "迁移到 briar_wrapper 0.0.5"

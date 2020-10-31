@@ -5,8 +5,8 @@
 #
 # Translators:
 # erinm, 2020
-# Bujar Tafili, 2020
-# Besnik Bleta <besnik@programeshqip.org>, 2020
+# SEPT____ <xpressengine3@mail.beo.kr>, 2020
+# Iso Lee, 2020
 #
 #, fuzzy
 msgid ""
@@ -14,182 +14,182 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2020\n"
-"Language-Team: Albanian (https://www.transifex.com/otf/teams/76528/sq/)\n"
-"Language: sq\n"
+"Last-Translator: Iso Lee, 2020\n"
+"Language-Team: Korean (https://www.transifex.com/otf/teams/76528/ko/)\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
-msgstr "Jepjani këtë lidhje kontaktit që doni të shtoni"
+msgstr "추가하고 싶은 지인에게 이 링크를 보내세요"
 
 msgctxt "Used in add contact page"
 msgid "Enter the link from your contact here"
-msgstr "Jepni këtu lidhjen prej kontaktit tuaj"
+msgstr "지인에게 받은 링크를 여기에 입력하세요"
 
 msgctxt "Used in add contact page"
 msgid "Contact's link"
-msgstr "Lidhje e kontaktit"
+msgstr "상대방의 링크"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a link"
-msgstr "Ju lutemi, jepni një lidhje"
+msgstr "링크를 입력하세요"
 
 msgctxt "Used in add contact page"
 msgid "Give your contact a nickname. Only you can see it."
-msgstr "Jepini kontaktit tuaj një nofkë. Vetëm ju mund ta shihni."
+msgstr "연락처에 별명을 붙이세요. 다른 사람에게는 보여지지 않습니다."
 
 msgctxt "Used in add contact page"
 msgid "Enter a nickname"
-msgstr "Jepni një nofkë"
+msgstr "별명을 입력하세요"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a nickname"
-msgstr "Ju lutemi, jepni një nofkë"
+msgstr "별명을 입력하세요"
 
 msgctxt "Button in add contact page"
 msgid "Add contact"
-msgstr "Shtoni kontakt"
+msgstr "연락처 추가하기"
 
 msgid "Next"
-msgstr "Pasuesi"
+msgstr "다음"
 
 msgctxt "Title in add contact page"
 msgid "Add contact"
-msgstr "Shtoni kontakt"
+msgstr "연락처 추가하기"
 
 msgid "Change contact name"
-msgstr "Ndryshoni emër kontakti"
+msgstr "연락처 이름 바꾸기"
 
 msgid "Delete all messages"
-msgstr "Fshiji krejt mesazhet"
+msgstr "모든 메시지 지우기"
 
 msgid "Delete contact"
-msgstr "Fshije kontaktin"
+msgstr "연락처 삭제하기"
 
 msgid "Password"
-msgstr "Fjalëkalim"
+msgstr "비밀번호"
 
 msgctxt "Button in login page"
 msgid "Log in"
-msgstr "Hyni"
+msgstr "로그인"
 
 msgctxt "Used in login page after entering the password"
 msgid "Logging in"
-msgstr "Po hyhet"
+msgstr "로그인 중"
 
 msgid "About Briar GTK"
-msgstr "Mbi Briar GTK"
+msgstr "Briar GTK 소개"
 
 msgctxt "Used in input field in main window"
 msgid "Type Message"
-msgstr "Shtypni Mesazh"
+msgstr "메시지 입력하기"
 
 msgid "No contact selected"
-msgstr "S’ka kontakt të përzgjedhur"
+msgstr "선택된 연락처 없음"
 
 msgid "Select a contact to start chatting"
-msgstr "Që të filloni të fjaloseni, përzgjidhni një kontakt"
+msgstr "연락처를 선택해 채팅을 시작하세요"
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
-msgstr "Shtoni kontakt"
+msgstr "연락처 추가하기"
 
 msgid "Main menu"
-msgstr "Menuja kryesore"
+msgstr "메인 메뉴"
 
 msgid "Back"
-msgstr "Mbrapsht"
+msgstr "뒤로"
 
 msgid "Chat menu"
-msgstr "Menu fjalosjeje"
+msgstr "채팅 메뉴"
 
 msgid "Welcome to Briar"
-msgstr "Mirë se vini në Briar"
+msgstr "Briar에 오신 것을 환영합니다"
 
 msgid "Choose your nickname"
-msgstr "Zgjidhni nofkën tuaj"
+msgstr "별명을 정하세요"
 
 msgid "Confirm Password"
-msgstr "Ripohoni Fjalëkalimin"
+msgstr "비밀번호 확인"
 
 msgid "Create Account"
-msgstr "Krijoni Llogari"
+msgstr "계정 만들기"
 
 msgid "Creating Account"
-msgstr "Po Krijohet Llogari"
+msgstr "계성 생성"
 
 msgid "Change"
-msgstr "Ndryshoje"
+msgstr "바꾸기"
 
 msgid "Localization Lab Translation Teams"
-msgstr "Ekipet e Përkthimit në Localization Lab"
+msgstr "Localization Lab 번역 팀"
 
 msgid "Using code by"
-msgstr "Me përdorim kodi nga"
+msgstr "다음 프로젝트의 코드를 사용했습니다."
 
 msgid "Briar functionality by"
-msgstr "Funksionet Briar nga"
+msgstr "다음 Briar 기능을 사용했습니다."
 
 msgid "Myself"
-msgstr "Unë"
+msgstr "내가 보낸 메시지"
 
 msgid "Are you sure you want to exit?"
-msgstr "Jeni i sigurt se doni të dilet?"
+msgstr "정말 나가려고 하시나요?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr "Pasi të mbyllni Briar-in, s’do të merrni më mesazhe, as do të dërgohen ata pezull. Që të jeni i lidhur me kontaktet tuaja, mbajeni Briar-in të hapur."
+msgstr "Briar를 닫으면 메시지를 받을 수 없고 아직 안 보낸 메시지가 보내지지 않습니다. 지인과 계속 연결하시려면 Briar를 닫지 마세요."
 
 msgid "Confirm Message Deletion"
-msgstr "Ripohoni Fshirje Mesazhesh"
+msgstr "메시지 삭제 확인"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr "Jeni i sigurt se doni të fshihen krejt mesazhet?"
+msgstr "정말로 모든 메시지를 지우려고 하나요?"
 
 msgid "Confirm Contact Deletion"
-msgstr "Ripohoni Fshirje Kontakti"
+msgstr "연락처 삭제 확인"
 
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "Jeni i sigurt se doni të hiqet ky kontakt dhe krejt mesazhet e shkëmbyer me këtë kontakt?"
+msgstr "정말로 이 연락처, 그리고 이 연락처와의 메시지를 모두 제거하시겠어요?"
 
 msgid "Contact added"
-msgstr "Kontakti u shtua"
+msgstr "연락처 추가됨"
 
 msgid "New private message"
-msgstr "Mesazh i ri privat"
+msgstr "새 메시지"
 
 msgid "Please enter a password"
-msgstr "Ju lutemi, jepni një fjalëkalim"
+msgstr "비밀번호를 입력하세요"
 
 msgid "Couldn't log in"
-msgstr "S’u bë dot hyrja"
+msgstr "로그인 할 수 없었습니다"
 
 msgid "Please enter a nickname"
-msgstr "Ju lutemi, jepni një nofkë"
+msgstr "별명을 입력하세요"
 
 msgid "The passwords do not match"
-msgstr "Fjalëkalimet s’përputhen"
+msgstr "비밀번호가 일치하지 않습니다"
 
 msgid "Couldn't register account"
-msgstr "S’u regjistrua dot llogari"
+msgstr "계정을 생성할 수 없었습니다"
 
 msgid "Please enter a link"
-msgstr "Ju lutemi, jepni një lidhje"
+msgstr "링크를 입력하세요"
 
 msgid "Enter your contact's link, not your own"
-msgstr "Jepni lidhjen e kontaktit tuaj, jo tuajën"
+msgstr "자신이 아니고 상대방의 링크를 입력해 주세요"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr "Të drejta kopjimi © 2019-2020 The Briar Project"
+msgstr "Copyright © 2019-2020 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr "Një klient Briar për desktop GTK dhe pajisje celulare"
+msgstr "컴퓨터와 모바일의 GTK 환경을 위한 Briar 클라이언트"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr "Vizitoni sajtin e Briar GTK"
+msgstr "Briar GTK 웹사이트 방문하"

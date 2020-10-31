@@ -76,7 +76,7 @@ msgid "Albanian"
 msgstr ""
 
 msgid "Arabic"
-msgstr ""
+msgstr "アラビア語"
 
 msgid "Catalan"
 msgstr ""
@@ -97,10 +97,10 @@ msgid "Galician"
 msgstr ""
 
 msgid "Hebrew"
-msgstr ""
+msgstr "ヘブライ語"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "ハンガリー語"
 
 msgid "Icelandic"
 msgstr ""
@@ -108,7 +108,13 @@ msgstr ""
 msgid "Italian"
 msgstr "イタリア語"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
+msgstr ""
+
+msgid "Macedonian"
 msgstr ""
 
 msgid "Persian"
@@ -121,13 +127,13 @@ msgid "Russian"
 msgstr "ロシア語"
 
 msgid "Swedish"
-msgstr ""
+msgstr "スウェーデン語"
 
 msgid "Thai"
 msgstr ""
 
 msgid "Turkish"
-msgstr ""
+msgstr "トルコ語"
 
 msgid "Basic notification support"
 msgstr ""

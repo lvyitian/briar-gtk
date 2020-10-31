@@ -6,6 +6,8 @@
 # Translators:
 # outolumo <outolumo@gmail.com>, 2020
 # kytv <killyourtv@i2pmail.org>, 2020
+# Jorma Karvonen <karvonen.jorma@gmail.com>, 2020
+# oselotti, 2020
 #
 #, fuzzy
 msgid ""
@@ -13,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: kytv <killyourtv@i2pmail.org>, 2020\n"
+"Last-Translator: oselotti, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/otf/teams/76528/fi/)\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +78,7 @@ msgid "Albanian"
 msgstr ""
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arabia"
 
 msgid "Catalan"
 msgstr ""
@@ -100,7 +102,7 @@ msgid "Hebrew"
 msgstr ""
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Unkari"
 
 msgid "Icelandic"
 msgstr ""
@@ -108,7 +110,13 @@ msgstr ""
 msgid "Italian"
 msgstr "Italia"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
+msgstr ""
+
+msgid "Macedonian"
 msgstr ""
 
 msgid "Persian"
@@ -121,13 +129,13 @@ msgid "Russian"
 msgstr "Venäjä"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Ruotsi"
 
 msgid "Thai"
 msgstr ""
 
 msgid "Turkish"
-msgstr ""
+msgstr "turkki"
 
 msgid "Basic notification support"
 msgstr ""

@@ -4,9 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# Verdulo :-), 2020
+# Warton <businesshehe@yahoo.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Marcin Januchta <marcin.januchta@gmail.com>, 2020
-# Verdulo :-), 2020
 #
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Verdulo :-), 2020\n"
+"Last-Translator: Marcin Januchta <marcin.januchta@gmail.com>, 2020\n"
 "Language-Team: Polish (https://www.transifex.com/otf/teams/76528/pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +78,7 @@ msgid "Albanian"
 msgstr ""
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arabski"
 
 msgid "Catalan"
 msgstr ""
@@ -98,10 +99,10 @@ msgid "Galician"
 msgstr "Galicyjski"
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebrajski"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Węgierski"
 
 msgid "Icelandic"
 msgstr ""
@@ -109,7 +110,13 @@ msgstr ""
 msgid "Italian"
 msgstr "Włoski"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
+msgstr ""
+
+msgid "Macedonian"
 msgstr ""
 
 msgid "Persian"
@@ -122,13 +129,13 @@ msgid "Russian"
 msgstr "Rosyjski"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Szwedzki"
 
 msgid "Thai"
 msgstr "Tajski"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Turecki"
 
 msgid "Basic notification support"
 msgstr ""

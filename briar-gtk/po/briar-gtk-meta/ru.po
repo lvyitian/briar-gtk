@@ -5,12 +5,13 @@
 #
 # Translators:
 # Adam Lynn <adam@opentechfund.org>, 2020
-# Martus Translations <translations@martus.org>, 2020
-# erinm, 2020
 # Imran Aliyev <mr.imranaliyev@gmail.com>, 2020
 # Николай Кочкин <urfiner@gmail.com>, 2020
 # Stanislav <mineinfo80@gmail.com>, 2020
 # Andrey, 2020
+# ducki2p <ducki2p@gmail.com>, 2020
+# Martus Translations <translations@martus.org>, 2020
+# erinm, 2020
 #
 #, fuzzy
 msgid ""
@@ -18,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Andrey, 2020\n"
+"Last-Translator: erinm, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/76528/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +82,7 @@ msgid "Albanian"
 msgstr "Албанский"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Арабский"
 
 msgid "Catalan"
 msgstr "Каталонский"
@@ -102,10 +103,10 @@ msgid "Galician"
 msgstr "Галицкий"
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Иврит"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Венгерский"
 
 msgid "Icelandic"
 msgstr "Исландский"
@@ -113,8 +114,14 @@ msgstr "Исландский"
 msgid "Italian"
 msgstr "Итальянский"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
 msgstr "Литовский"
+
+msgid "Macedonian"
+msgstr ""
 
 msgid "Persian"
 msgstr "Персидский"
@@ -126,13 +133,13 @@ msgid "Russian"
 msgstr "Русский"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Svenska"
 
 msgid "Thai"
 msgstr "Тайский"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Турецкий"
 
 msgid "Basic notification support"
 msgstr "Поддержка базовых уведомлений"
@@ -172,6 +179,3 @@ msgstr "Большое количество тестов программног�
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Это самый первый альфа-релиз Briar GTK. Он позволяет добавлять контакты удаленно и общаться с ними в приватных чатах. Другие функции, такие как группы, форумы и блоги, будут реализованы позже."
-
-#~ msgid "Migration to briar_wrapper 0.0.5"
-#~ msgstr "Миграция на briar_wrapper 0.0.5"

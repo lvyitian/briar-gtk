@@ -64,10 +64,10 @@ msgid "Add contact"
 msgstr "Engadir contacto"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "Cambiar o nome do contacto"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "Borrar todas as mensaxes"
 
 msgid "Delete contact"
 msgstr "Eliminar contacto"
@@ -125,7 +125,7 @@ msgid "Creating Account"
 msgstr "Crear conta"
 
 msgid "Change"
-msgstr ""
+msgstr "Cambiar"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Equipos de Tradución Localization Lab"
@@ -146,10 +146,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr "Unha vez pechada Briar, non poderás recibir ou enviar mensaxes pendentes. Mantén Briar aberta para permanecer conectada cos teus contactos."
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "Confirmar borrado de mensaxes"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "Seguro que queres borrar todas as mensaxes?"
 
 msgid "Confirm Contact Deletion"
 msgstr "Confirme a eliminación do contacto"

@@ -4,9 +4,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# erinm, 2020
-# Bujar Tafili, 2020
-# Besnik Bleta <besnik@programeshqip.org>, 2020
+# Benny Beat <bennybeat@gmail.com>, 2020
+# Bartges90, 2020
+# Joan Bitlloch <joanbit@gmail.com>, 2020
+# Adolfo Jayme-Barrientos, 2020
+# Jaime Muñoz Martín <jmmartin_5@outlook.com>, 2020
+# Matemàtic Anònim <matematic@autistici.org>, 2020
+# Sebas Vila <svilamarta@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -14,9 +18,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2020\n"
-"Language-Team: Albanian (https://www.transifex.com/otf/teams/76528/sq/)\n"
-"Language: sq\n"
+"Last-Translator: Sebas Vila <svilamarta@gmail.com>, 2020\n"
+"Language-Team: Catalan (https://www.transifex.com/otf/teams/76528/ca/)\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,172 +28,172 @@ msgstr ""
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
-msgstr "Jepjani këtë lidhje kontaktit që doni të shtoni"
+msgstr "Lliureu aquest enllaç al contacte que voleu afegir"
 
 msgctxt "Used in add contact page"
 msgid "Enter the link from your contact here"
-msgstr "Jepni këtu lidhjen prej kontaktit tuaj"
+msgstr "Escriviu l'enllaç del vostre contacte"
 
 msgctxt "Used in add contact page"
 msgid "Contact's link"
-msgstr "Lidhje e kontaktit"
+msgstr "Enllaç del contacte"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a link"
-msgstr "Ju lutemi, jepni një lidhje"
+msgstr "Escriviu un enllaç"
 
 msgctxt "Used in add contact page"
 msgid "Give your contact a nickname. Only you can see it."
-msgstr "Jepini kontaktit tuaj një nofkë. Vetëm ju mund ta shihni."
+msgstr "Doneu un sobrenom al contacte. Només vós podreu veure'l."
 
 msgctxt "Used in add contact page"
 msgid "Enter a nickname"
-msgstr "Jepni një nofkë"
+msgstr "Escriviu un sobrenom"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a nickname"
-msgstr "Ju lutemi, jepni një nofkë"
+msgstr "Escriviu un sobrenom"
 
 msgctxt "Button in add contact page"
 msgid "Add contact"
-msgstr "Shtoni kontakt"
+msgstr "Afegiu un contacte"
 
 msgid "Next"
-msgstr "Pasuesi"
+msgstr "Endavant"
 
 msgctxt "Title in add contact page"
 msgid "Add contact"
-msgstr "Shtoni kontakt"
+msgstr "Afegiu un contacte"
 
 msgid "Change contact name"
-msgstr "Ndryshoni emër kontakti"
+msgstr "Canvia el nom del contacte"
 
 msgid "Delete all messages"
-msgstr "Fshiji krejt mesazhet"
+msgstr "Suprimeix tots els missatges"
 
 msgid "Delete contact"
-msgstr "Fshije kontaktin"
+msgstr "Suprimeix aquest contacte"
 
 msgid "Password"
-msgstr "Fjalëkalim"
+msgstr "Contrasenya"
 
 msgctxt "Button in login page"
 msgid "Log in"
-msgstr "Hyni"
+msgstr "Inicia sessió"
 
 msgctxt "Used in login page after entering the password"
 msgid "Logging in"
-msgstr "Po hyhet"
+msgstr "S'està iniciant sessió"
 
 msgid "About Briar GTK"
-msgstr "Mbi Briar GTK"
+msgstr "Quant a Briar GTK"
 
 msgctxt "Used in input field in main window"
 msgid "Type Message"
-msgstr "Shtypni Mesazh"
+msgstr "Escriviu un missatge"
 
 msgid "No contact selected"
-msgstr "S’ka kontakt të përzgjedhur"
+msgstr "Cap contacte seleccionat"
 
 msgid "Select a contact to start chatting"
-msgstr "Që të filloni të fjaloseni, përzgjidhni një kontakt"
+msgstr "Trieu un contacte per conversar"
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
-msgstr "Shtoni kontakt"
+msgstr "Afegiu un contacte"
 
 msgid "Main menu"
-msgstr "Menuja kryesore"
+msgstr "Menú principal"
 
 msgid "Back"
-msgstr "Mbrapsht"
+msgstr "Enrere"
 
 msgid "Chat menu"
-msgstr "Menu fjalosjeje"
+msgstr "Menú de conversa"
 
 msgid "Welcome to Briar"
-msgstr "Mirë se vini në Briar"
+msgstr "Benvingut a Briar"
 
 msgid "Choose your nickname"
-msgstr "Zgjidhni nofkën tuaj"
+msgstr "Trieu el vostre sobrenom"
 
 msgid "Confirm Password"
-msgstr "Ripohoni Fjalëkalimin"
+msgstr "Confirmeu la contrasenya"
 
 msgid "Create Account"
-msgstr "Krijoni Llogari"
+msgstr "Crea el compte"
 
 msgid "Creating Account"
-msgstr "Po Krijohet Llogari"
+msgstr "Crea un compte"
 
 msgid "Change"
-msgstr "Ndryshoje"
+msgstr "Canvia"
 
 msgid "Localization Lab Translation Teams"
-msgstr "Ekipet e Përkthimit në Localization Lab"
+msgstr "Equips de traductors del laboratori de localitzacions"
 
 msgid "Using code by"
-msgstr "Me përdorim kodi nga"
+msgstr "Usa codi de"
 
 msgid "Briar functionality by"
-msgstr "Funksionet Briar nga"
+msgstr "Funcionalitat de Briar a càrrec de "
 
 msgid "Myself"
-msgstr "Unë"
+msgstr "Jo"
 
 msgid "Are you sure you want to exit?"
-msgstr "Jeni i sigurt se doni të dilet?"
+msgstr "Segur que voleu tancar?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr "Pasi të mbyllni Briar-in, s’do të merrni më mesazhe, as do të dërgohen ata pezull. Që të jeni i lidhur me kontaktet tuaja, mbajeni Briar-in të hapur."
+msgstr "Una vegada tanqueu Briar, ni rebreu cap més missatge ni s'enviaran els pendents d'enviar. manteniu Briar obert si voleu estar connectat amb els vostre contactes."
 
 msgid "Confirm Message Deletion"
-msgstr "Ripohoni Fshirje Mesazhesh"
+msgstr "Confirmeu la supressió dels missatges"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr "Jeni i sigurt se doni të fshihen krejt mesazhet?"
+msgstr "Esteu segur que voleu suprimir tots els missatges?"
 
 msgid "Confirm Contact Deletion"
-msgstr "Ripohoni Fshirje Kontakti"
+msgstr "Confirmeu la supressió del contacte"
 
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "Jeni i sigurt se doni të hiqet ky kontakt dhe krejt mesazhet e shkëmbyer me këtë kontakt?"
+msgstr "Segur que voleu suprimir aquest contacte i tots els missatges que us heu intercanviat?"
 
 msgid "Contact added"
-msgstr "Kontakti u shtua"
+msgstr "S'ha afegit el contacte"
 
 msgid "New private message"
-msgstr "Mesazh i ri privat"
+msgstr "Missatge privat nou"
 
 msgid "Please enter a password"
-msgstr "Ju lutemi, jepni një fjalëkalim"
+msgstr "Escriviu la vostra constrasenya"
 
 msgid "Couldn't log in"
-msgstr "S’u bë dot hyrja"
+msgstr "No s'ha pogut entrar"
 
 msgid "Please enter a nickname"
-msgstr "Ju lutemi, jepni një nofkë"
+msgstr "Escriviu un sobrenom"
 
 msgid "The passwords do not match"
-msgstr "Fjalëkalimet s’përputhen"
+msgstr "Les contrasenyes no coincideixen"
 
 msgid "Couldn't register account"
-msgstr "S’u regjistrua dot llogari"
+msgstr "No s'ha pogut registrar el compte"
 
 msgid "Please enter a link"
-msgstr "Ju lutemi, jepni një lidhje"
+msgstr "Escriviu un enllaç"
 
 msgid "Enter your contact's link, not your own"
-msgstr "Jepni lidhjen e kontaktit tuaj, jo tuajën"
+msgstr "Escriviu l'enllaç del vostre contacte i no el vostre enllaç"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr "Të drejta kopjimi © 2019-2020 The Briar Project"
+msgstr "Copyright © 2019-2020 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr "Një klient Briar për desktop GTK dhe pajisje celulare"
+msgstr "Client de Briar per escriptori GTK i dispositius mòbils"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr "Vizitoni sajtin e Briar GTK"
+msgstr "Visiteu la web de Briar"

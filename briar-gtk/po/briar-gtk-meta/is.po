@@ -107,8 +107,14 @@ msgstr "Íslenska"
 msgid "Italian"
 msgstr "Ítalska"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
 msgstr "Litháíska"
+
+msgid "Macedonian"
+msgstr ""
 
 msgid "Persian"
 msgstr "Persneska"
@@ -166,6 +172,3 @@ msgstr "Miklar prófanir á hugbúnaðnum"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Allra fyrsta alfa-prófunarútgáfa Briar GTK. Hún gerir kleift að bæta við tengiliðum í fjarlægð og að spjalla við þá í einkaspjalli. Eftir er að koma upp öðrum eiginleikum, eins og hópum, spjallsvæðum (forum) og bloggum."
-
-#~ msgid "Migration to briar_wrapper 0.0.5"
-#~ msgstr "Yfirfærsla í to briar_wrapper 0.0.5"

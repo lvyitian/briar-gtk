@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Андрій Бандура <andriykopanytsia@gmail.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
+# Андрій Бандура <andriykopanytsia@gmail.com>, 2020
 # Любомир <n.lyubomyr@gmail.com>, 2020
 #
 #, fuzzy
@@ -77,7 +77,7 @@ msgid "Albanian"
 msgstr ""
 
 msgid "Arabic"
-msgstr ""
+msgstr "Арабська"
 
 msgid "Catalan"
 msgstr ""
@@ -98,10 +98,10 @@ msgid "Galician"
 msgstr ""
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Іврит"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Угорська"
 
 msgid "Icelandic"
 msgstr ""
@@ -109,7 +109,13 @@ msgstr ""
 msgid "Italian"
 msgstr "Італійська"
 
+msgid "Korean"
+msgstr ""
+
 msgid "Lithuanian"
+msgstr ""
+
+msgid "Macedonian"
 msgstr ""
 
 msgid "Persian"
@@ -128,7 +134,7 @@ msgid "Thai"
 msgstr "Тайська"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Турецька"
 
 msgid "Basic notification support"
 msgstr ""

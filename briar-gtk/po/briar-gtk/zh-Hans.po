@@ -6,9 +6,10 @@
 # Translators:
 # YFdyh000 <yfdyh000@gmail.com>, 2020
 # 高垚鑫, 2020
-# Chaos, 2020
 # Yunfei Zhang <zsdr@protonmail.com>, 2020
 # POIUY, 2020
+# Chaos, 2020
+# Beta Ba <linsui@inbox.lv>, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: POIUY, 2020\n"
+"Last-Translator: Beta Ba <linsui@inbox.lv>, 2020\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/otf/teams/76528/zh-Hans/)\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -64,10 +65,10 @@ msgid "Add contact"
 msgstr "添加联系人"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "更改联系人姓名"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "删除全部消息"
 
 msgid "Delete contact"
 msgstr "删除联系人"
@@ -125,7 +126,7 @@ msgid "Creating Account"
 msgstr "正在创建账户"
 
 msgid "Change"
-msgstr ""
+msgstr "更改"
 
 msgid "Localization Lab Translation Teams"
 msgstr "本地化实验室 翻译团队"
@@ -146,10 +147,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr "一旦您关闭Briar，您将不再能接收或发送待发送的消息。要与你的联系人保持联系，请保持Briar在开启状态。"
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "确认删除消息"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "您确定要删除所有消息吗？"
 
 msgid "Confirm Contact Deletion"
 msgstr "确认删除联系人"

@@ -61,10 +61,10 @@ msgid "Add contact"
 msgstr "Pridėti adresatą"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "Pakeisti adresato vardą"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "Ištrinti visas žinutes"
 
 msgid "Delete contact"
 msgstr "Ištrinti adresatą"
@@ -122,7 +122,7 @@ msgid "Creating Account"
 msgstr "Paskyros sukūrimas"
 
 msgid "Change"
-msgstr ""
+msgstr "Pakeisti"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Localization Lab vertimo komandos"
@@ -143,10 +143,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr "Užvėrę Briar, nebegalėsite gauti ar siųsti laukiančių žinučių. Palikite Briar atvertą, kad palaikytumėte ryšį su savo adresatais."
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "Patvirtinkite žinutės ištrynimą"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "Ar tikrai norite ištrinti visas žinutes?"
 
 msgid "Confirm Contact Deletion"
 msgstr "Patvirtinkite adresato ištrynimą"

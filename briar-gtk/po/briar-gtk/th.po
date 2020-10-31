@@ -5,9 +5,9 @@
 #
 # Translators:
 # Martus Translations <translations@martus.org>, 2020
-# sirawat daengchon <sirawat.gang@gmail.com>, 2020
 # Krittiya Chankasem <ordinaryjane@gmail.com>, 2020
 # bact' <arthit@gmail.com>, 2020
+# sirawat daengchon <sirawat.gang@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: bact' <arthit@gmail.com>, 2020\n"
+"Last-Translator: sirawat daengchon <sirawat.gang@gmail.com>, 2020\n"
 "Language-Team: Thai (https://www.transifex.com/otf/teams/76528/th/)\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -63,10 +63,10 @@ msgid "Add contact"
 msgstr "เพิ่มผู้ติดต่อ"
 
 msgid "Change contact name"
-msgstr ""
+msgstr "เปลี่ยนชื่อผู้ติดต่อ"
 
 msgid "Delete all messages"
-msgstr ""
+msgstr "ลบข้อความทั้งหมด"
 
 msgid "Delete contact"
 msgstr "ลบผู้ติดต่อ"
@@ -124,7 +124,7 @@ msgid "Creating Account"
 msgstr ""
 
 msgid "Change"
-msgstr ""
+msgstr "เปลี่ยนแปลง"
 
 msgid "Localization Lab Translation Teams"
 msgstr ""
@@ -145,10 +145,10 @@ msgid "Once you close Briar, you'll no longer receive messages nor send pending 
 msgstr ""
 
 msgid "Confirm Message Deletion"
-msgstr ""
+msgstr "ยืนยันการลบข้อความ"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr ""
+msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องการลบข้อความทั้งหมด?"
 
 msgid "Confirm Contact Deletion"
 msgstr "ยืนยันการลบผู้ติดต่อ"

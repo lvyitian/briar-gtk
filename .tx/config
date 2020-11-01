@@ -1,5 +1,7 @@
 [main]
 host = https://www.transifex.com
+lang_map = zh-Hans: zh_CN, zh-Hant: zh_TW
+
 
 [briar.briar-gtk-pot]
 file_filter = briar-gtk/po/briar-gtk/<lang>.po

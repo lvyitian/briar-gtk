@@ -1,3 +1,37 @@
+briar-gtk (0.1.0-beta2-1) UNRELEASED; urgency=medium
+
+  * Improved notification support
+  * Showing number of unread messages in contact list
+  * Support for changing contacts' names
+  * Support for deleting all messages of a chat
+  * Indication of messages' delivery states
+  * Migration to briar_wrapper 0.0.6
+  * Many more minor improvements
+  * Translations into many languages:
+  * Albanian
+  * Arabic
+  * Catalan
+  * Chinese (Simplified)
+  * Esperanto
+  * Dutch
+  * French
+  * Galician
+  * Hebrew
+  * Hungarian
+  * Icelandic
+  * Italian
+  * Korean
+  * Lithuanian
+  * Macedonian
+  * Persian
+  * Portuguese (Brazil)
+  * Russian
+  * Swedish
+  * Thai
+  * Turkish
+
+ -- Nico Alt <nicoalt@posteo.org>  Sun, 01 Nov 2020 17:25:32 +0000
+
 briar-gtk (0.1.0-beta1-1) UNRELEASED; urgency=medium
 
   * Basic notification support

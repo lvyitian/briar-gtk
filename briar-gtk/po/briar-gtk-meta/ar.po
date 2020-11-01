@@ -9,8 +9,8 @@
 # محيي الدين <tx99h4@hotmail.com>, 2020
 # mazen777 <mazen.sos.alkatlabee@gmail.com>, 2020
 # ducki2p <ducki2p@gmail.com>, 2020
-# Martus Translations <translations@martus.org>, 2020
 # erinm, 2020
+# Martus Translations <translations@martus.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: erinm, 2020\n"
+"Last-Translator: Martus Translations <translations@martus.org>, 2020\n"
 "Language-Team: Arabic (https://www.transifex.com/otf/teams/76528/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -114,7 +114,7 @@ msgid "Italian"
 msgstr "Italian"
 
 msgid "Korean"
-msgstr ""
+msgstr "الكورية"
 
 msgid "Lithuanian"
 msgstr ""

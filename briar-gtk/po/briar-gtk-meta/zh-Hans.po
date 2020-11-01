@@ -82,7 +82,7 @@ msgid "Catalan"
 msgstr "加泰罗尼亚语"
 
 msgid "Chinese (Simplified)"
-msgstr "简体中文"
+msgstr "中文 (简体)"
 
 msgid "Esperanto"
 msgstr "世界语"
@@ -109,13 +109,13 @@ msgid "Italian"
 msgstr "意大利语"
 
 msgid "Korean"
-msgstr ""
+msgstr "韩语"
 
 msgid "Lithuanian"
 msgstr "立陶宛语"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "马其顿语"
 
 msgid "Persian"
 msgstr "波斯语"

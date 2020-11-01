@@ -113,7 +113,7 @@ msgid "Italian"
 msgstr "ايتاليايی"
 
 msgid "Korean"
-msgstr ""
+msgstr "کره ای"
 
 msgid "Lithuanian"
 msgstr ""

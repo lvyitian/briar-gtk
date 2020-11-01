@@ -110,7 +110,7 @@ msgid "Italian"
 msgstr "อิตาลี"
 
 msgid "Korean"
-msgstr ""
+msgstr "เกาหลี"
 
 msgid "Lithuanian"
 msgstr "ลิทัวเนีย"

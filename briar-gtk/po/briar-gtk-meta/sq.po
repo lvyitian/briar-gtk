@@ -110,13 +110,13 @@ msgid "Italian"
 msgstr "Italisht"
 
 msgid "Korean"
-msgstr ""
+msgstr "Koreanisht"
 
 msgid "Lithuanian"
 msgstr "Lituanisht"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Maqedonisht"
 
 msgid "Persian"
 msgstr "Persisht"

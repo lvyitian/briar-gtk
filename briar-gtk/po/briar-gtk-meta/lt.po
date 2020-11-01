@@ -108,13 +108,13 @@ msgid "Italian"
 msgstr "Italų"
 
 msgid "Korean"
-msgstr ""
+msgstr "Korėjiečių"
 
 msgid "Lithuanian"
 msgstr "Lietuvių"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Makedoniečių"
 
 msgid "Persian"
 msgstr "Persų"

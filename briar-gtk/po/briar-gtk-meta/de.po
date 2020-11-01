@@ -10,8 +10,8 @@
 # Eike Fulda <e50389.fulda@gmx.de>, 2020
 # Nico Alt, 2020
 # ducki2p <ducki2p@gmail.com>, 2020
-# Ettore Atalan <atalanttore@googlemail.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
+# Ettore Atalan <atalanttore@googlemail.com>, 2020
 # nautilusx, 2020
 #
 #, fuzzy
@@ -116,13 +116,13 @@ msgid "Italian"
 msgstr "Italienisch"
 
 msgid "Korean"
-msgstr ""
+msgstr "Koreanisch"
 
 msgid "Lithuanian"
 msgstr "Litauisch"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Mazedonisch"
 
 msgid "Persian"
 msgstr "Persisch"

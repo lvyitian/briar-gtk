@@ -111,7 +111,7 @@ msgid "Italian"
 msgstr "Włoski"
 
 msgid "Korean"
-msgstr ""
+msgstr "Koreański"
 
 msgid "Lithuanian"
 msgstr ""

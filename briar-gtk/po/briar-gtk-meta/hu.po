@@ -5,9 +5,9 @@
 #
 # Translators:
 # David Webb, 2020
-# vargaviktor <viktor.varga@gmail.com>, 2020
 # AdminLMH <lehetmashogy@i2pmail.org>, 2020
 # benewfy <benewfy@gmail.com>, 2020
+# vargaviktor <viktor.varga@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: benewfy <benewfy@gmail.com>, 2020\n"
+"Last-Translator: vargaviktor <viktor.varga@gmail.com>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/otf/teams/76528/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -36,43 +36,43 @@ msgid "The Briar Project"
 msgstr "A Briar Project"
 
 msgid "Main window showing two contacts and chat"
-msgstr ""
+msgstr "A fő ablak két kapcsolattal és chatszobával"
 
 msgid "Welcome screen with registration"
 msgstr "Üdvözlő képernyő regisztrációval"
 
 msgid "Adding contacts at a distance"
-msgstr ""
+msgstr "Távoli kapcsolat hozzá adása"
 
 msgid "Main window with two contacts and about dialog"
-msgstr ""
+msgstr "A fő ablak két kapcsolattal és Névjegy ablakkal"
 
 msgid "Improvements in this version:"
 msgstr "Fejlesztések ebben a verzióban:"
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "Fejlesztett értesítés támogatás"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "Az olvasatlan üzenetek számának megjelenítése a kapcsolati listában"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "A kapcsolat nevének módosítása támogatása"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "A chat minden üzenetének törlésének támogatása"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "Az üzentek kézbesítési állapotának jelzése"
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "Migráció briar_wrapper 0.0.6-ra"
 
 msgid "Many more minor improvements"
-msgstr ""
+msgstr "További kisebb fejlesztések"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "Fordítás sok nyelvre:"
 
 msgid "Albanian"
 msgstr "Albán"
@@ -99,7 +99,7 @@ msgid "Galician"
 msgstr "Galíciai"
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Héber"
 
 msgid "Hungarian"
 msgstr "Magyar"
@@ -111,19 +111,19 @@ msgid "Italian"
 msgstr "Olasz"
 
 msgid "Korean"
-msgstr ""
+msgstr "Koreai"
 
 msgid "Lithuanian"
 msgstr "Litván"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Macedón"
 
 msgid "Persian"
 msgstr "Perzsa"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portugál (Brazíl)"
 
 msgid "Russian"
 msgstr "Orosz"
@@ -138,40 +138,40 @@ msgid "Turkish"
 msgstr "Török"
 
 msgid "Basic notification support"
-msgstr ""
+msgstr "Alap értesítés támogatás"
 
 msgid "Support for contact deletion"
-msgstr ""
+msgstr "Kapcsolat törlés támogatás"
 
 msgid "Hugely improved chat UI"
-msgstr ""
+msgstr "Erősen fejlesztett chat felület"
 
 msgid "Full Spanish and German translations"
-msgstr ""
+msgstr "Teljes német és spanyol fordítás"
 
 msgid "Migration to libhandy 1.0"
-msgstr ""
+msgstr "Migráció libhandy 1.0-ra"
 
 msgid "Migration to briar_wrapper 0.0.4"
-msgstr ""
+msgstr "Migráció briar_wrapper 0.0.4-ra"
 
 msgid "Show online status of contacts in contact list (#19)"
-msgstr ""
+msgstr "A kapcsolatok online állapotának megjelenítése a kapcsolati listában (#19)"
 
 msgid "Support copying content in messages (#51)"
-msgstr ""
+msgstr "A tartalom másolásának támogatása az üzenetekben (#51)"
 
 msgid "Fix bug with Briar messages not having text (#56)"
-msgstr ""
+msgstr "A szöveg nélküli Briar üzenetek hiba javítása (#56)"
 
 msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr ""
+msgstr "A kapcsolat neve nem jelenik meg a privát üzenetekben hiba javítása (#55)"
 
 msgid "Update Briar core to version 1.2.9"
-msgstr ""
+msgstr "A Briar core frissítése 1.2.9 verzióra"
 
 msgid "Lots of software tests"
-msgstr ""
+msgstr "Sok szoftver teszt"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr ""
+msgstr "A nagyon alfa verziója a Briar GTK-nak. Lehetővé teszi a távoli kapcsolat hozzáadást és velük a privát chatet. A többi funkció, mint csoportok, fórumok és blogok még implementálásra várnak. "

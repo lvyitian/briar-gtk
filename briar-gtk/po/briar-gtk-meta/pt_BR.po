@@ -10,8 +10,8 @@
 # sobeitnow0 <sobeitnow0@gmail.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # blueboy, 2020
-# Joeffison Silvério de Andrade <joeffison@gmail.com>, 2020
 # d2a1c0553b066c52cfa88aee59fb0a24_01576bb <4182f3a2687f8f13fc7aa6d70f42bdc0_191097>, 2020
+# Joeffison Silvério de Andrade <joeffison@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: d2a1c0553b066c52cfa88aee59fb0a24_01576bb <4182f3a2687f8f13fc7aa6d70f42bdc0_191097>, 2020\n"
+"Last-Translator: Joeffison Silvério de Andrade <joeffison@gmail.com>, 2020\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/otf/teams/76528/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -115,7 +115,7 @@ msgid "Italian"
 msgstr "Italiano"
 
 msgid "Korean"
-msgstr ""
+msgstr "Coreano"
 
 msgid "Lithuanian"
 msgstr ""

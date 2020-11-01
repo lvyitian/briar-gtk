@@ -114,13 +114,13 @@ msgid "Italian"
 msgstr "Italiano"
 
 msgid "Korean"
-msgstr ""
+msgstr "Coreano"
 
 msgid "Lithuanian"
 msgstr "Lituano"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Macedonio"
 
 msgid "Persian"
 msgstr "Persa"

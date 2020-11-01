@@ -6,9 +6,9 @@
 # Translators:
 # Predator <Predator@windowslive.com>, 2020
 # Licaon_Kter, 2020
-# titus <titus0818@gmail.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # polearnik <polearnik@mail.ru>, 2020
+# titus <titus0818@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: polearnik <polearnik@mail.ru>, 2020\n"
+"Last-Translator: titus <titus0818@gmail.com>, 2020\n"
 "Language-Team: Romanian (https://www.transifex.com/otf/teams/76528/ro/)\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -112,7 +112,7 @@ msgid "Italian"
 msgstr "Italian"
 
 msgid "Korean"
-msgstr ""
+msgstr "Korean"
 
 msgid "Lithuanian"
 msgstr ""

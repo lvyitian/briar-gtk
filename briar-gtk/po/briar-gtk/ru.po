@@ -11,8 +11,8 @@
 # ef005e17e021122df91e94cfd230e8e8_7db01f8 <be69bc900298e9d9f543903b9318d7cd_576514>, 2020
 # Đorđe Marušić <djordje@hzontal.org>, 2020
 # Valeriy Khegay <justflee@tuta.io>, 2020
-# Andrey, 2020
 # Leonid Evdokimov <leon+transifex@darkk.net.ru>, 2020
+# Andrey, 2020
 #
 #, fuzzy
 msgid ""
@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Leonid Evdokimov <leon+transifex@darkk.net.ru>, 2020\n"
+"Last-Translator: Andrey, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/76528/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"

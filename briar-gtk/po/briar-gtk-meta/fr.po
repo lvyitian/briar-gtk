@@ -6,8 +6,8 @@
 # Translators:
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Towinet, 2020
-# AO <ao@localizationlab.org>, 2020
 # Martus Translations <translations@martus.org>, 2020
+# AO <ao@localizationlab.org>, 2020
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Martus Translations <translations@martus.org>, 2020\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2020\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/76528/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -117,7 +117,7 @@ msgid "Lithuanian"
 msgstr "Lituanien"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Macédonien"
 
 msgid "Persian"
 msgstr "Persan"

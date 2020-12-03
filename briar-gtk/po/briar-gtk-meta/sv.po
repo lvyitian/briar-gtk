@@ -7,6 +7,7 @@
 # Sebastian Rasmussen <sebras@gmail.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Daniel <d-transifex@lublin.se>, 2020
+# Jonatan Nyberg <jonatan.nyberg.karl@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Daniel <d-transifex@lublin.se>, 2020\n"
+"Last-Translator: Jonatan Nyberg <jonatan.nyberg.karl@gmail.com>, 2020\n"
 "Language-Team: Swedish (https://www.transifex.com/otf/teams/76528/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -110,13 +111,13 @@ msgid "Italian"
 msgstr "Italienska"
 
 msgid "Korean"
-msgstr ""
+msgstr "Koreanska"
 
 msgid "Lithuanian"
 msgstr "Litauiska"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Makedonska"
 
 msgid "Persian"
 msgstr "Persiska"

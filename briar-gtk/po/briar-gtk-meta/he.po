@@ -109,13 +109,13 @@ msgid "Italian"
 msgstr "איטלקית"
 
 msgid "Korean"
-msgstr ""
+msgstr "קוריאנית"
 
 msgid "Lithuanian"
 msgstr "ליטאית"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "מקדונית"
 
 msgid "Persian"
 msgstr "פרסית"

@@ -63,7 +63,7 @@ msgid "Indication of messages' delivery states"
 msgstr "Afhendingarstaða skilaboða gefin til kynna"
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "Yfirfærsla í to briar_wrapper 0.0.6"
 
 msgid "Many more minor improvements"
 msgstr "Margar minni endurbætur"
@@ -75,7 +75,7 @@ msgid "Albanian"
 msgstr "Albanska"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arabíska"
 
 msgid "Catalan"
 msgstr "Katalónska"
@@ -96,10 +96,10 @@ msgid "Galician"
 msgstr "Galisíska"
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebreska"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Ungverska"
 
 msgid "Icelandic"
 msgstr "Íslenska"
@@ -108,31 +108,31 @@ msgid "Italian"
 msgstr "Ítalska"
 
 msgid "Korean"
-msgstr ""
+msgstr "Kóreska"
 
 msgid "Lithuanian"
 msgstr "Litháíska"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Makedónska"
 
 msgid "Persian"
 msgstr "Persneska"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portúgalska (Brasilía)"
 
 msgid "Russian"
 msgstr "Rússneska"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Sænska"
 
 msgid "Thai"
 msgstr "Tælenska"
 
 msgid "Turkish"
-msgstr ""
+msgstr "Tyrkneska"
 
 msgid "Basic notification support"
 msgstr "Grunnstuðningur við tilkynningar"

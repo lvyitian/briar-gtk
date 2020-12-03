@@ -8,10 +8,9 @@
 # Imran Aliyev <mr.imranaliyev@gmail.com>, 2020
 # Николай Кочкин <urfiner@gmail.com>, 2020
 # Stanislav <mineinfo80@gmail.com>, 2020
-# Andrey, 2020
-# ducki2p <ducki2p@gmail.com>, 2020
 # erinm, 2020
 # Martus Translations <translations@martus.org>, 2020
+# Andrey, 2020
 #
 #, fuzzy
 msgid ""
@@ -19,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Martus Translations <translations@martus.org>, 2020\n"
+"Last-Translator: Andrey, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/76528/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -70,7 +69,7 @@ msgid "Indication of messages' delivery states"
 msgstr "Индикация состояния доставки сообщений"
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "Миграция на briar_wrapper 0.0.6"
 
 msgid "Many more minor improvements"
 msgstr "Много других незначительных улучшений"
@@ -121,19 +120,19 @@ msgid "Lithuanian"
 msgstr "Литовский"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Македонский"
 
 msgid "Persian"
 msgstr "Персидский"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Португальский (Бразилия)"
 
 msgid "Russian"
 msgstr "Русский"
 
 msgid "Swedish"
-msgstr "Svenska"
+msgstr "Шведский"
 
 msgid "Thai"
 msgstr "Тайский"

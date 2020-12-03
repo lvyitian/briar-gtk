@@ -4,11 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Predator <Predator@windowslive.com>, 2020
-# Licaon_Kter, 2020
+# titus <titus0818@gmail.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # polearnik <polearnik@mail.ru>, 2020
-# titus <titus0818@gmail.com>, 2020
+# Licaon_Kter, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: titus <titus0818@gmail.com>, 2020\n"
+"Last-Translator: Licaon_Kter, 2020\n"
 "Language-Team: Romanian (https://www.transifex.com/otf/teams/76528/ro/)\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -28,13 +27,13 @@ msgid "Briar"
 msgstr "Briar"
 
 msgid "Secure messaging, anywhere"
-msgstr ""
+msgstr "Mesagerie securizată, oriunde"
 
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-msgstr ""
+msgstr "Briar este o aplicație de mesagerie concepută pentru activiști, jurnaliști și oricine altcineva care are nevoie de o modalitate sigură, ușoară și robustă de a comunica. Spre deosebire de aplicațiile tradiționale de mesagerie, Briar nu se bazează pe un server central - mesajele sunt sincronizate direct între dispozitivele utilizatorilor. Dacă internetul nu este disponibil, Briar poate sincroniza prin Bluetooth sau Wi-Fi, permițând schimbul de informații într-o situație de criză. Dacă internetul este disponibil, Briar poate sincroniza prin intermediul rețelei Tor, protejând utilizatorii și relațiile lor de supraveghere."
 
 msgid "The Briar Project"
-msgstr ""
+msgstr "Proiectul Briar"
 
 msgid "Main window showing two contacts and chat"
 msgstr ""
@@ -76,13 +75,13 @@ msgid "Translations into many languages:"
 msgstr ""
 
 msgid "Albanian"
-msgstr ""
+msgstr "Albaneză"
 
 msgid "Arabic"
-msgstr "Arab"
+msgstr "Arabă"
 
 msgid "Catalan"
-msgstr ""
+msgstr "Catalană"
 
 msgid "Chinese (Simplified)"
 msgstr "Chineză (simplificată)"
@@ -91,52 +90,52 @@ msgid "Esperanto"
 msgstr "Esperanto"
 
 msgid "Dutch"
-msgstr "Olandez"
+msgstr "Olandeză"
 
 msgid "French"
-msgstr "Francez"
+msgstr "Franceză"
 
 msgid "Galician"
-msgstr "Galician"
+msgstr "Galeză"
 
 msgid "Hebrew"
-msgstr "Hebrew"
+msgstr "Ebraică"
 
 msgid "Hungarian"
-msgstr "Ungar"
+msgstr "Maghiară"
 
 msgid "Icelandic"
-msgstr ""
+msgstr "Islandeză"
 
 msgid "Italian"
-msgstr "Italian"
+msgstr "Italiană"
 
 msgid "Korean"
-msgstr "Korean"
+msgstr "Coreeană"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Lituaniană"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Macedoneană"
 
 msgid "Persian"
 msgstr "Persană"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portugheză (Brazilia)"
 
 msgid "Russian"
-msgstr "Rus"
+msgstr "Rusă"
 
 msgid "Swedish"
 msgstr "Suedeză"
 
 msgid "Thai"
-msgstr "Thai"
+msgstr "Thailandeză"
 
 msgid "Turkish"
-msgstr "Turc"
+msgstr "Turcă"
 
 msgid "Basic notification support"
 msgstr ""
@@ -175,4 +174,4 @@ msgid "Lots of software tests"
 msgstr ""
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr ""
+msgstr "Prima versiune alfa a Briar GTK. Acesta permite adăugarea de contacte de la distanță și discuții private cu ei. Alte funcții, cum ar fi grupurile, forumurile și blog-urile urmează să fie implementate."

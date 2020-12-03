@@ -6,10 +6,10 @@
 # Translators:
 # Giuseppe Pignataro <rogepix@gmail.com>, 2020
 # SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020
-# Random_R, 2020
 # ironbishop <ironbishop@fsfe.org>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # c6497ab8ee8a3906bb861267dec9a84b_bc40ce0 <0329ec65fa3a66db7a8a2a698d66d850_156421>, 2020
+# Random_R, 2020
 #
 #, fuzzy
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: c6497ab8ee8a3906bb861267dec9a84b_bc40ce0 <0329ec65fa3a66db7a8a2a698d66d850_156421>, 2020\n"
+"Last-Translator: Random_R, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/otf/teams/76528/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgid "Indication of messages' delivery states"
 msgstr "Indicazione dello stato di consegna dei messaggi"
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "Migrazione a briar_wrapper 0.0.6"
 
 msgid "Many more minor improvements"
 msgstr "Molte altre migliorie minori"
@@ -119,13 +119,13 @@ msgid "Lithuanian"
 msgstr "Lituano"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Macedone"
 
 msgid "Persian"
 msgstr "Persiano"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portoghese (Brasile)"
 
 msgid "Russian"
 msgstr "Russo"

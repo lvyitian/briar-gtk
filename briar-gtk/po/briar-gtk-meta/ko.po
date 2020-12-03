@@ -48,6 +48,12 @@ msgstr "두 연락처와 소개 다이로그가 떠 있는 메인 창"
 msgid "Improvements in this version:"
 msgstr "이번 버전에서 개선된 부분은 다음과 같습니다."
 
+msgid "Support for mobile devices (AArch64/ARM)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.12"
+msgstr ""
+
 msgid "Improved notification support"
 msgstr "알림 기능 개선"
 

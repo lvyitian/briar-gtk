@@ -50,6 +50,12 @@ msgstr "Huvudfönster med två kontakter och Om-dialogruta"
 msgid "Improvements in this version:"
 msgstr "Förbättringar i denna version:"
 
+msgid "Support for mobile devices (AArch64/ARM)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.12"
+msgstr ""
+
 msgid "Improved notification support"
 msgstr "Förbättrat aviseringsstöd"
 

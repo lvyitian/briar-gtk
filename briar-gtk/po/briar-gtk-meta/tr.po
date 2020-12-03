@@ -48,6 +48,12 @@ msgstr "İki kişiyi ve hakkında penceresini gösteren ana pencere"
 msgid "Improvements in this version:"
 msgstr "Bu sürümdeki yenilikler:"
 
+msgid "Support for mobile devices (AArch64/ARM)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.12"
+msgstr ""
+
 msgid "Improved notification support"
 msgstr "İyileştirilmiş bildiri desteği"
 

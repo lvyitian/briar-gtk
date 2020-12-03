@@ -49,6 +49,12 @@ msgstr ""
 msgid "Improvements in this version:"
 msgstr ""
 
+msgid "Support for mobile devices (AArch64/ARM)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.12"
+msgstr ""
+
 msgid "Improved notification support"
 msgstr ""
 

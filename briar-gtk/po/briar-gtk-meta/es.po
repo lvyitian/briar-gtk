@@ -53,6 +53,12 @@ msgstr "La ventana principal con dos contactos y el diálogo \"Acerca de\""
 msgid "Improvements in this version:"
 msgstr "Mejoras en esta versión:"
 
+msgid "Support for mobile devices (AArch64/ARM)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.12"
+msgstr ""
+
 msgid "Improved notification support"
 msgstr "Soporte de notificación mejorado"
 

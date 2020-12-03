@@ -47,6 +47,12 @@ msgstr "Aðalgluggi sem sýnir tvo tengiliði og upplýsingaglugga"
 msgid "Improvements in this version:"
 msgstr "Endurbætur í þessari útgáfu:"
 
+msgid "Support for mobile devices (AArch64/ARM)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.12"
+msgstr ""
+
 msgid "Improved notification support"
 msgstr "Bættur stuðningur við tilkynningar"
 

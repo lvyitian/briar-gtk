@@ -52,6 +52,12 @@ msgstr "Finestra principale con due contatti e le informazioni di applicazione"
 msgid "Improvements in this version:"
 msgstr "Migliorie in questa versione:"
 
+msgid "Support for mobile devices (AArch64/ARM)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.12"
+msgstr ""
+
 msgid "Improved notification support"
 msgstr "Supporto migliorato alle notifiche"
 

@@ -21,7 +21,7 @@ def test_startup_container_at_init(mocker, startup_container, window_actions,
     window = Window()
 
     startup_container.assert_called_once_with(window)
-    window.current_container.show_all.assert_called_once()
+    window._current_view.show_all.assert_called_once()
 
 
 def test_window_actions_at_init(mocker, startup_container, window_actions,
@@ -35,13 +35,13 @@ def test_window_add_at_init(mocker, startup_container, window_actions,
                             window_add, window_resize):
     window = Window()
 
-    window_add.assert_called_once_with(window.current_container)
+    window_add.assert_called_once_with(window._current_view)
 
 
 def test_show_main_container(main_window_container, mocker,
                              startup_container, window_actions,
                              window_add, window_resize):
-    Window().show_main_container()
+    Window().show_main_window_view()
 
     main_window_container.assert_called_once()
 
@@ -51,9 +51,9 @@ def test_show_main_shown(main_window_container, mocker,
                          window_add, window_resize):
     window = Window()
 
-    window.show_main_container()
+    window.show_main_window_view()
 
-    window.current_container.show_all.assert_called_once()
+    window._current_view.show_all.assert_called_once()
 
 
 def test_show_main_add(main_window_container, mocker,
@@ -62,9 +62,9 @@ def test_show_main_add(main_window_container, mocker,
     window = Window()
     window_add = mocker.patch(MODULE % "Window.add")
 
-    window.show_main_container()
+    window.show_main_window_view()
 
-    window_add.assert_called_once_with(window.current_container)
+    window_add.assert_called_once_with(window._current_view)
 
 
 def test_show_main_destroy_old(main_window_container, mocker,
@@ -72,9 +72,9 @@ def test_show_main_destroy_old(main_window_container, mocker,
                                window_add, window_resize):
     window = Window()
     current_container_mock = mocker.MagicMock()
-    window.current_container = current_container_mock
+    window._current_view = current_container_mock
 
-    window.show_main_container()
+    window.show_main_window_view()
 
     current_container_mock.destroy.assert_called_once()
 

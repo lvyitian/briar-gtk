@@ -22,18 +22,21 @@ class Window(Gtk.ApplicationWindow):
     DEFAULT_WINDOW_SIZE = (900, 600)
 
     def __init__(self):
+        self.main_window_controller = None
         self._initialize_gtk_application_window()
         WindowActions(self)
         self._setup_content()
         self._setup_focus_listener()
 
-    def show_main_container(self):
-        self.current_container.destroy()
-        self._setup_main_container()
+    def show_main_window_view(self):
+        self._current_view.destroy()
+        self._setup_main_window_view()
 
-    def show_add_contact_container(self):
-        self.current_container.destroy()
-        self._setup_add_contact_container()
+    def show_add_contact_view(self):
+        self._current_view.destroy()
+        if self.main_window_controller is not None:
+            self.main_window_controller = None
+        self._setup_add_contact_view()
 
     # pylint: disable=arguments-differ,unused-argument
     def do_delete_event(self, event):
@@ -70,7 +73,7 @@ class Window(Gtk.ApplicationWindow):
 
     def _setup_content(self):
         self._resize_window(self.DEFAULT_WINDOW_SIZE)
-        self._setup_startup_container()
+        self._setup_startup_view()
 
     def _setup_focus_listener(self):
         self.connect("focus-in-event", self._on_focus_change)
@@ -93,25 +96,24 @@ class Window(Gtk.ApplicationWindow):
                isinstance(size[0], int) and\
                isinstance(size[1], int)
 
-    def _setup_container(self, container):
-        self.current_container = container
-        self.current_container.show_all()
-        self.add(self.current_container)
+    def _setup_view(self, view):
+        self._current_view = view
+        self._current_view.show_all()
+        self.add(self._current_view)
 
-    def _setup_startup_container(self):
-        self._setup_container(StartupView(self))
+    def _setup_startup_view(self):
+        self._setup_view(StartupView(self))
 
-    def _setup_main_container(self):
+    def _setup_main_window_view(self):
         builder = self._setup_builder()
         main_window_view = MainWindowView(builder, self)
-        main_window_controller = MainWindowController(
+        self.main_window_controller = MainWindowController(
             main_window_view, builder)
-        self._setup_container(main_window_view)
+        self._setup_view(main_window_view)
         builder.get_object("chat_menu_button").hide()  # TODO: Make default
-        self.current_controller = main_window_controller
 
-    def _setup_add_contact_container(self):
-        self._setup_container(AddContactView())
+    def _setup_add_contact_view(self):
+        self._setup_view(AddContactView())
 
     def _setup_builder(self):
         builder = Gtk.Builder.new()

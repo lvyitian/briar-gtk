@@ -63,7 +63,7 @@ class AddContactView(Gtk.Overlay):
             return
         alias_error_label.hide()
         self._add_contact()
-        APP().window.show_main_container()
+        APP().window.show_main_window_view()
 
     def _setup_view(self):
         self._add_from_resource(self.ADD_CONTACT_UI)

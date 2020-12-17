@@ -2,15 +2,10 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-import os
-
-from gi.repository import Gtk
-
-from briar_gtk.define import RESOURCES_DIR
 from briar_gtk.widgets.contact_row import ContactRowWidget
 
 
-class SidebarView():
+class SidebarView:
 
     def __init__(self, builder):
         self._builder = builder

@@ -2,16 +2,8 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-import os
 
-from gi.repository import Gtk
-
-from briar_gtk.define import RESOURCES_DIR
-
-
-class PrivateChatView():
-
-    _current_private_chat_widget = None
+class PrivateChatView:
 
     def __init__(self, builder):
         self._builder = builder

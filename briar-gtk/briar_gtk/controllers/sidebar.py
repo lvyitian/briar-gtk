@@ -2,15 +2,12 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from gi.repository import Gio, GLib
+from gi.repository import GLib
 
 from briar_wrapper.models.contacts import Contacts
 
-from briar_gtk.define import APP, NOTIFICATION_CONTACT_ADDED
-from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
 
-
-class SidebarController():
+class SidebarController:
 
     def __init__(self, sidebar_view, api):
         self._sidebar_view = sidebar_view
@@ -34,7 +31,7 @@ class SidebarController():
         socket_listener = self._api.socket_listener
         self._setup_contact_added_listeners(socket_listener)
         self._setup_message_received_listeners(socket_listener)
-        self._setup_contact_connection_listener(socket_listener)
+        self._setup_contact_connection_listener()
 
     def _load_contacts(self, selected_row=-1):
         self.contacts_list = self._contacts.get()
@@ -51,7 +48,7 @@ class SidebarController():
                                             self._refresh_contacts_async)
         self._signals.append(signal_id)
 
-    def _setup_contact_connection_listener(self, socket_listener):
+    def _setup_contact_connection_listener(self):
         callback = self._refresh_contact_connection_state
         signal_ids = self._contacts.watch_connections(callback)
         self._signals.extend(signal_ids)

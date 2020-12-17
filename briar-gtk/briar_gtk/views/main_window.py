@@ -7,8 +7,6 @@
 
 from gi.repository import Gtk
 
-from briar_gtk.define import APP
-
 
 class MainWindowView(Gtk.Overlay):
 
@@ -24,8 +22,10 @@ class MainWindowView(Gtk.Overlay):
         main_window_stack = builder.get_object("main_window_stack")
         main_window_stack.show_all()
         self.add(main_window_stack)
+        builder.get_object("chat_menu_button").hide()
 
-    def _setup_headerbar_stack_holder(self, builder, window):
+    @staticmethod
+    def _setup_headerbar_stack_holder(builder, window):
         headerbar_stack_holder = builder.get_object("headerbar_stack_holder")
         headerbar_stack_holder.show_all()
         window.set_titlebar(headerbar_stack_holder)

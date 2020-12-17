@@ -9,13 +9,11 @@ from briar_wrapper.models.contacts import Contacts
 from briar_wrapper.models.private_chat import PrivateChat
 
 from briar_gtk.containers.private_chat import PrivateChatContainer
-from briar_gtk.controllers.chat_menu import ChatMenuController
 from briar_gtk.define import APP
-from briar_gtk.views.chat_menu import ChatMenuView
 from briar_gtk.widgets.edit_dialog import EditDialog
 
 
-class PrivateChatController():
+class PrivateChatController:
 
     _current_contact_id = 0
 
@@ -24,10 +22,6 @@ class PrivateChatController():
         self._sidebar_controller = sidebar_controller
         self._builder = builder
         self._api = api
-
-        self._chat_menu_view = ChatMenuView()
-        self._chat_menu_controller = ChatMenuController(
-            self._chat_menu_view, api)
 
     def close_private_chat(self):  # formerly `show_sidebar`
         main_window_leaflet = self._builder.get_object("main_window_leaflet")
@@ -117,7 +111,8 @@ class PrivateChatController():
         self._setup_private_chat_widget(contact_name, contact_id)
         self._current_contact_id = contact_id
 
-    def _get_contact_name(self, contact_id):
+    @staticmethod
+    def _get_contact_name(contact_id):
         name = ""
         for contact in Contacts(APP().api).get():
             if contact["contactId"] == contact_id:
@@ -172,8 +167,6 @@ class PrivateChatController():
         children = history_container.get_children()
         for child in children:
             child.destroy()
-        if hasattr(self, "_selected_contact"):
-            del self._selected_contact
 
     def _setup_private_chat_widget(self, contact_name, contact_id):
         self._current_private_chat_widget = PrivateChatContainer(

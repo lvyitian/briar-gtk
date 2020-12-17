@@ -64,7 +64,8 @@ class WindowActions(Actions):
 
     # pylint: disable=unused-argument
     def _back_to_sidebar(self, action, parameter):
-        if isinstance(self.widget.main_window_controller, MainWindowController):
+        if isinstance(self.widget.main_window_controller,
+                      MainWindowController):
             self.widget.main_window_controller.close_private_chat()
 
     # pylint: disable=unused-argument

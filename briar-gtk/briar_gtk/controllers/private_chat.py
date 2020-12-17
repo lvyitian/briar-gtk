@@ -12,10 +12,12 @@ from briar_gtk.define import APP
 from briar_gtk.widgets.edit_dialog import EditDialog
 
 
+# pylint: disable=too-many-arguments
 class PrivateChatController:
     _current_contact_id = 0
 
-    def __init__(self, contact_id, private_chat_view, sidebar_controller, builder, api):
+    def __init__(self, contact_id, private_chat_view, sidebar_controller,
+                 builder, api):
         self._private_chat_view = private_chat_view
         self._sidebar_controller = sidebar_controller
         self._builder = builder

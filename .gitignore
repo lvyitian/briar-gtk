@@ -6,3 +6,5 @@ flatpak-repo
 _build
 _install
 __pycache__
+.idea
+venv

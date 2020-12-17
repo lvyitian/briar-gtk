@@ -1,18 +1,18 @@
 # Copyright (c) 2019 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
-
+import os
 from gettext import gettext as _
+from gi.repository import Gtk
 
 from briar_wrapper.models.contacts import Contacts
 
 from briar_gtk.actions.add_contact import AddContactActions
 from briar_gtk.actions.prefixes import ADD_CONTACT_PREFIX
-from briar_gtk.container import Container
-from briar_gtk.define import APP
+from briar_gtk.define import APP, RESOURCES_DIR
 
 
-class AddContactContainer(Container):
+class AddContactView(Gtk.Overlay):
 
     ADD_CONTACT_UI = "add_contact.ui"
     STACK_NAME = "add_contact_flow_stack"
@@ -20,6 +20,7 @@ class AddContactContainer(Container):
 
     def __init__(self):
         super().__init__()
+        self.builder = Gtk.Builder()
         AddContactActions(self)
         self._setup_view()
         self._load_content()
@@ -71,6 +72,11 @@ class AddContactContainer(Container):
         self._setup_add_contact_flow_stack()
         self._setup_add_contact_flow_headers()
         self._setup_link_enter_listener()
+
+    def _add_from_resource(self, ui_filename):
+        self.builder.add_from_resource(
+            os.path.join(RESOURCES_DIR, ui_filename)
+        )
 
     def _load_content(self):
         contacts = Contacts(APP().api)

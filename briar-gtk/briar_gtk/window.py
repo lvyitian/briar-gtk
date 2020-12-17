@@ -8,7 +8,7 @@ from gettext import gettext as _
 from gi.repository import Gio, Gtk
 
 from briar_gtk.actions.window import WindowActions
-from briar_gtk.containers.add_contact import AddContactContainer
+from briar_gtk.views.add_contact import AddContactView
 from briar_gtk.controllers.main_window import MainWindowController
 from briar_gtk.views.main_window import MainWindowView
 from briar_gtk.containers.startup import StartupContainer
@@ -111,7 +111,7 @@ class Window(Gtk.ApplicationWindow):
         self.current_controller = main_window_controller
 
     def _setup_add_contact_container(self):
-        self._setup_container(AddContactContainer())
+        self._setup_container(AddContactView())
 
     def _setup_builder(self):
         builder = Gtk.Builder.new()

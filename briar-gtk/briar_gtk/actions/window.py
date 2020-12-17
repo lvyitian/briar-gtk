@@ -93,4 +93,4 @@ class WindowActions(Actions):
 
     # pylint: disable=unused-argument
     def _open_private_chat(self, action, contact_id):
-        self.widget.current_container.open_private_chat(contact_id.get_int32())
+        self.widget.current_controller.open_private_chat(contact_id.get_int32())

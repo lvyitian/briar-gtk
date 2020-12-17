@@ -33,10 +33,8 @@ class MainWindowView(Gtk.Overlay):
     def __init__(self, builder):
         super().__init__()
         self._builder = builder
-        self._signals = list()
 
         self._setup_view()
-        self._load_content()
 
     @property
     def main_window_leaflet(self):
@@ -78,12 +76,6 @@ class MainWindowView(Gtk.Overlay):
     def open_about_page():
         about_dialog = AboutDialogWidget()
         about_dialog.show()
-
-    def open_private_chat(self, contact_id):
-        contact_name = self._get_contact_name(contact_id)
-        self._prepare_chat_view(contact_name)
-        self._setup_private_chat_widget(contact_name, contact_id)
-        self._current_contact_id = contact_id
 
     def show_sidebar(self):
         self.main_window_leaflet.set_visible_child(
@@ -168,54 +160,11 @@ class MainWindowView(Gtk.Overlay):
             self.show_sidebar()
         widget.destroy()
 
-    def _prepare_chat_view(self, contact_name):
-        if self._no_chat_opened():
-            self.chat_placeholder.hide()
-        else:
-            self._clear_history_container()
-
-        self.chat_view.show()
-        self.main_window_leaflet.set_visible_child(
-            self.main_content_container)
-        self.contact_name_label.set_text(contact_name)
-        self._builder.get_object("chat_menu_button").show()
-
-    def _setup_private_chat_widget(self, contact_name, contact_id):
-        self._current_private_chat_widget = PrivateChatContainer(
-            contact_name, contact_id)
-        self.history_container.add(self._current_private_chat_widget)
-        self.history_container.show_all()
-
-        self._disconnect_chat_entry_signals()
-        self._chat_entry_signal_id = self.chat_entry.connect(
-            "activate", self._on_chat_entry_activate
-        )
-        self.chat_entry.grab_focus()
-
-    def _on_chat_entry_activate(self, widget):
-        if len(widget.get_text()) == 0:
-            return
-        self._current_private_chat_widget.send_message(widget)
-        self._refresh_contacts()
-
     def _disconnect_chat_entry_signals(self):
         if not hasattr(self, "_chat_entry_signal_id"):
             return
         self.chat_entry.disconnect(self._chat_entry_signal_id)
         del self._chat_entry_signal_id
-
-    def _no_chat_opened(self):
-        return self.chat_placeholder.get_visible()
-
-    def _get_contact_name(self, contact_id):
-        name = ""
-        for contact in Contacts(APP().api).get():
-            if contact["contactId"] == contact_id:
-                name = contact["author"]["name"]
-                if "alias" in contact:
-                    name = contact["alias"]
-                break
-        return name
 
     def _clear_history_container(self):
         children = self.history_container.get_children()
@@ -227,7 +176,6 @@ class MainWindowView(Gtk.Overlay):
     def _setup_view(self):
         self._setup_main_window_stack()
         self._setup_headerbar_stack_holder()
-        self._setup_destroy_listener()
 
     def _setup_main_window_stack(self):
         main_window_stack = self._builder.get_object("main_window_stack")
@@ -239,56 +187,6 @@ class MainWindowView(Gtk.Overlay):
             "headerbar_stack_holder")
         headerbar_stack_holder.show_all()
         APP().window.set_titlebar(headerbar_stack_holder)
-
-    def _setup_destroy_listener(self):
-        self.connect("destroy", self._on_destroy)
-
-    # pylint: disable=unused-argument
-    def _on_destroy(self, widget):
-        self._disconnect_signals()
-
-    def _disconnect_signals(self):
-        self._sidebar_controller.disconnect_signals()
-        for signal in self._signals:
-            APP().api.socket_listener.disconnect(signal)
-
-    # pylint: disable=no-member
-    def _load_content(self):
-        socket_listener = APP().api.socket_listener
-        self._setup_contact_added_listeners(socket_listener)
-        self._setup_message_received_listeners(socket_listener)
-
-    def _setup_contact_added_listeners(self, socket_listener):
-        signal_id = socket_listener.connect("ContactAddedEvent",
-                                            self._notify_contact_added)
-        self._signals.append(signal_id)
-
-    def _setup_message_received_listeners(self, socket_listener):
-        signal_id = socket_listener.connect("ConversationMessageReceivedEvent",
-                                            self._notify_message_received)
-        self._signals.append(signal_id)
-
-    # pylint: disable=unused-argument
-    def _notify_contact_added(self, message):
-        self._notify(
-            _("Contact added"),  # context: "Notification"
-            NOTIFICATION_CONTACT_ADDED
-        )
-
-    # pylint: disable=unused-argument
-    def _notify_message_received(self, message):
-        self._notify(
-            _("New private message"),  # context: "Notification"
-            NOTIFICATION_PRIVATE_MESSAGE
-        )
-
-    @staticmethod
-    def _notify(title, identifier):
-        if APP().window.is_active():
-            return
-        notification = Gio.Notification.new(title)
-        notification.set_priority(Gio.NotificationPriority.HIGH)
-        APP().send_notification(identifier, notification)
 
     def _refresh_contacts(self):
         self._sidebar_controller.refresh_contacts()

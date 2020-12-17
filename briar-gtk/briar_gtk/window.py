@@ -107,6 +107,7 @@ class Window(Gtk.ApplicationWindow):
         main_window_controller = MainWindowController(
             main_window_view, builder)
         self._setup_container(main_window_view)
+        self.current_controller = main_window_controller
 
     def _setup_add_contact_container(self):
         self._setup_container(AddContactContainer())

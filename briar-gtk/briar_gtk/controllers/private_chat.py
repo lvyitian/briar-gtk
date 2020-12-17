@@ -8,7 +8,7 @@ from gi.repository import Gtk
 from briar_wrapper.models.contacts import Contacts
 from briar_wrapper.models.private_chat import PrivateChat
 
-from briar_gtk.containers.private_chat import PrivateChatContainer
+from briar_gtk.private_chat_container import PrivateChatContainer
 from briar_gtk.define import APP
 from briar_gtk.widgets.edit_dialog import EditDialog
 

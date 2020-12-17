@@ -14,8 +14,14 @@ from briar_wrapper.models.contacts import Contacts
 from briar_wrapper.models.private_chat import PrivateChat
 
 from briar_gtk.containers.private_chat import PrivateChatContainer
+from briar_gtk.controllers.main_menu import MainMenuController
+from briar_gtk.controllers.private_chat import PrivateChatController
+from briar_gtk.controllers.sidebar import SidebarController
 from briar_gtk.define import APP, NOTIFICATION_CONTACT_ADDED, RESOURCES_DIR
 from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
+from briar_gtk.views.main_menu import MainMenuView
+from briar_gtk.views.private_chat import PrivateChatView
+from briar_gtk.views.sidebar import SidebarView
 from briar_gtk.widgets.about_dialog import AboutDialogWidget
 from briar_gtk.widgets.contact_row import ContactRowWidget
 from briar_gtk.widgets.edit_dialog import EditDialog
@@ -23,44 +29,61 @@ from briar_gtk.widgets.edit_dialog import EditDialog
 
 class MainWindowView(Gtk.Overlay):
 
-    CONTAINER_UI = "main_window.ui"
     MAIN_MENU_UI = "main_menu.ui"
     CHAT_MENU_UI = "chat_menu.ui"
+    MAIN_WINDOW_UI = "main_window.ui"
 
     _current_contact_id = 0
     _current_private_chat_widget = None
 
     def __init__(self):
         super().__init__()
-        self.builder = Gtk.Builder()
+        self._builder = Gtk.Builder()
+        self._add_from_resource(self.MAIN_MENU_UI)
+        self._add_from_resource(self.CHAT_MENU_UI)
+        self._add_from_resource(self.MAIN_WINDOW_UI)
+        self._builder.connect_signals(self)
+
+        self._sidebar_view = SidebarView(self._builder)
+        self._sidebar_controller = SidebarController(
+            self._sidebar_view, APP().api)
+
+        self._private_chat_view = PrivateChatView(self._builder)
+        self._private_chat_controller = PrivateChatController(
+            self._private_chat_view, APP().api)
+
+        self._main_menu_view = MainMenuView()
+        self._main_menu_controller = MainMenuController(
+            self._main_menu_view, APP().api)
+
         self._signals = list()
         self._setup_view()
         self._load_content()
 
     def _add_from_resource(self, ui_filename):
-        self.builder.add_from_resource(
+        self._builder.add_from_resource(
             os.path.join(RESOURCES_DIR, ui_filename)
         )
 
     @property
     def main_window_leaflet(self):
-        return self.builder.get_object("main_window_leaflet")
+        return self._builder.get_object("main_window_leaflet")
 
     @property
     def contact_name_label(self):
-        return self.builder.get_object("contact_name")
+        return self._builder.get_object("contact_name")
 
     @property
     def contacts_list_box(self):
-        return self.builder.get_object("contacts_list_box")
+        return self._builder.get_object("contacts_list_box")
 
     @property
     def main_content_stack(self):
-        return self.builder.get_object("main_content_stack")
+        return self._builder.get_object("main_content_stack")
 
     @property
     def main_content_container(self):
-        return self.builder.get_object("main_content_container")
+        return self._builder.get_object("main_content_container")
 
     @property
     def chat_placeholder(self):
@@ -72,11 +95,11 @@ class MainWindowView(Gtk.Overlay):
 
     @property
     def history_container(self):
-        return self.builder.get_object("history_container")
+        return self._builder.get_object("history_container")
 
     @property
     def chat_entry(self):
-        return self.builder.get_object("chat_entry")
+        return self._builder.get_object("chat_entry")
 
     @staticmethod
     def open_about_page():
@@ -91,14 +114,14 @@ class MainWindowView(Gtk.Overlay):
 
     def show_sidebar(self):
         self.main_window_leaflet.set_visible_child(
-            self.builder.get_object("sidebar_box"))
+            self._builder.get_object("sidebar_box"))
         self.chat_view.hide()
         self.chat_placeholder.show()
         self._clear_history_container()
         self.contacts_list_box.unselect_all()
         self.contact_name_label.set_text("")
         self._current_contact_id = 0
-        self.builder.get_object("chat_menu_button").hide()
+        self._builder.get_object("chat_menu_button").hide()
 
     def open_change_contact_alias_dialog(self):
         if self._current_contact_id == 0:
@@ -182,7 +205,7 @@ class MainWindowView(Gtk.Overlay):
         self.main_window_leaflet.set_visible_child(
             self.main_content_container)
         self.contact_name_label.set_text(contact_name)
-        self.builder.get_object("chat_menu_button").show()
+        self._builder.get_object("chat_menu_button").show()
 
     def _setup_private_chat_widget(self, contact_name, contact_id):
         self._current_private_chat_widget = PrivateChatContainer(
@@ -213,7 +236,7 @@ class MainWindowView(Gtk.Overlay):
 
     def _get_contact_name(self, contact_id):
         name = ""
-        for contact in self.contacts_list:
+        for contact in Contacts(APP().api).get():
             if contact["contactId"] == contact_id:
                 name = contact["author"]["name"]
                 if "alias" in contact:
@@ -229,24 +252,17 @@ class MainWindowView(Gtk.Overlay):
             del self._selected_contact
 
     def _setup_view(self):
-        self._add_from_resource(self.MAIN_MENU_UI)
-        self._add_from_resource(self.CHAT_MENU_UI)
-        self._add_from_resource(self.CONTAINER_UI)
-        self.builder.connect_signals(self)
-
         self._setup_main_window_stack()
         self._setup_headerbar_stack_holder()
-        self.contact_name_label.set_text("")
-        self.builder.get_object("chat_menu_button").hide()
         self._setup_destroy_listener()
 
     def _setup_main_window_stack(self):
-        main_window_stack = self.builder.get_object("main_window_stack")
+        main_window_stack = self._builder.get_object("main_window_stack")
         main_window_stack.show_all()
         self.add(main_window_stack)
 
     def _setup_headerbar_stack_holder(self):
-        headerbar_stack_holder = self.builder.get_object(
+        headerbar_stack_holder = self._builder.get_object(
             "headerbar_stack_holder")
         headerbar_stack_holder.show_all()
         APP().window.set_titlebar(headerbar_stack_holder)
@@ -259,59 +275,25 @@ class MainWindowView(Gtk.Overlay):
         self._disconnect_signals()
 
     def _disconnect_signals(self):
+        self._sidebar_controller.disconnect_signals()
         for signal in self._signals:
             APP().api.socket_listener.disconnect(signal)
 
     # pylint: disable=no-member
     def _load_content(self):
-        self._contacts = Contacts(APP().api)
-        self._load_contacts()
         socket_listener = APP().api.socket_listener
         self._setup_contact_added_listeners(socket_listener)
         self._setup_message_received_listeners(socket_listener)
-        self._setup_contact_connection_listener(socket_listener)
-
-    def _load_contacts(self):
-        self.contacts_list = self._contacts.get()
-
-        selected_contact = -1
-        if hasattr(self, "_selected_contact"):
-            selected_contact = self._selected_contact
-
-        for contact in self.contacts_list:
-            contact_row = ContactRowWidget(contact)
-            self.contacts_list_box.add(contact_row)
-            if contact["contactId"] == selected_contact:
-                self.contacts_list_box.select_row(contact_row)
 
     def _setup_contact_added_listeners(self, socket_listener):
-        signal_id = socket_listener.connect("ContactAddedEvent",
-                                            self._refresh_contacts_async)
-        self._signals.append(signal_id)
         signal_id = socket_listener.connect("ContactAddedEvent",
                                             self._notify_contact_added)
         self._signals.append(signal_id)
 
     def _setup_message_received_listeners(self, socket_listener):
         signal_id = socket_listener.connect("ConversationMessageReceivedEvent",
-                                            self._refresh_contacts_async)
-        self._signals.append(signal_id)
-        signal_id = socket_listener.connect("ConversationMessageReceivedEvent",
                                             self._notify_message_received)
         self._signals.append(signal_id)
-
-    def _setup_contact_connection_listener(self, socket_listener):
-        callback = self._refresh_contact_connection_state
-        signal_ids = self._contacts.watch_connections(callback)
-        self._signals.extend(signal_ids)
-
-    # pylint: disable=unused-argument
-    def _refresh_contacts_async(self, message):
-        GLib.idle_add(self._refresh_contacts)
-
-    # pylint: disable=unused-argument
-    def _refresh_contact_connection_state(self, contact_id, connected):
-        self._refresh_contacts_async(None)
 
     # pylint: disable=unused-argument
     def _notify_contact_added(self, message):
@@ -336,17 +318,4 @@ class MainWindowView(Gtk.Overlay):
         APP().send_notification(identifier, notification)
 
     def _refresh_contacts(self):
-        self._save_selected_row()
-        self._clear_contact_list()
-        self._load_contacts()
-
-    def _save_selected_row(self):
-        row = self.contacts_list_box.get_selected_row()
-        if row is None:
-            return
-        self._selected_contact = row.get_action_target_value().get_int32()
-
-    def _clear_contact_list(self):
-        contacts_list_box_children = self.contacts_list_box.get_children()
-        for child in contacts_list_box_children:
-            child.destroy()
+        self._sidebar_controller.refresh_contacts()

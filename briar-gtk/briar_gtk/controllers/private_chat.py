@@ -14,7 +14,6 @@ from briar_gtk.widgets.edit_dialog import EditDialog
 
 
 class PrivateChatController:
-
     _current_contact_id = 0
 
     def __init__(self, private_chat_view, sidebar_controller, builder, api):

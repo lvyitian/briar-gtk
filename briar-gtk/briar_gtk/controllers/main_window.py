@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from briar_gtk.controllers.notification import NotificationController
+from briar_gtk.handlers.notification import NotificationHandler
 from briar_gtk.controllers.private_chat import PrivateChatController
 from briar_gtk.controllers.sidebar import SidebarController
 from briar_gtk.define import APP
@@ -42,12 +42,12 @@ class MainWindowController:
         self._private_chat_controller.open_private_chat(contact_id)
 
     def _setup_children(self):
-        self._setup_notification_controller()
+        self._setup_notification_handler()
         self._setup_sidebar_controller()
         self._setup_private_chat_controller()
 
-    def _setup_notification_controller(self):
-        self._notification_controller = NotificationController()
+    def _setup_notification_handler(self):
+        self._notification_handler = NotificationHandler()
 
     def _setup_sidebar_controller(self):
         sidebar_view = SidebarView(self._builder)
@@ -69,6 +69,6 @@ class MainWindowController:
 
     def _disconnect_signals(self):
         self._sidebar_controller.disconnect_signals()
-        self._notification_controller.disconnect_signals()
+        self._notification_handler.disconnect_signals()
         for signal in self._signals:
             APP().api.socket_listener.disconnect(signal)

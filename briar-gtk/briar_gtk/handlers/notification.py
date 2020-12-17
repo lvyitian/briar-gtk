@@ -9,7 +9,7 @@ from briar_gtk.define import APP, NOTIFICATION_CONTACT_ADDED
 from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
 
 
-class NotificationController():
+class NotificationHandler:
 
     def __init__(self):
         self._signals = list()

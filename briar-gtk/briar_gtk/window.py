@@ -11,7 +11,7 @@ from briar_gtk.actions.window import WindowActions
 from briar_gtk.views.add_contact import AddContactView
 from briar_gtk.controllers.main_window import MainWindowController
 from briar_gtk.views.main_window import MainWindowView
-from briar_gtk.containers.startup import StartupContainer
+from briar_gtk.views.startup import StartupView
 from briar_gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
 from briar_gtk.define import NOTIFICATION_CONTACT_ADDED
 from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE, RESOURCES_DIR
@@ -99,7 +99,7 @@ class Window(Gtk.ApplicationWindow):
         self.add(self.current_container)
 
     def _setup_startup_container(self):
-        self._setup_container(StartupContainer(self))
+        self._setup_container(StartupView(self))
 
     def _setup_main_container(self):
         builder = self._setup_builder()

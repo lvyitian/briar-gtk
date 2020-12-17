@@ -2,13 +2,14 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from briar_gtk.container import Container
+from gi.repository import Gtk
+
 from briar_gtk.views.login import LoginView
 from briar_gtk.views.registration import RegistrationView
 from briar_gtk.define import APP
 
 
-class StartupContainer(Container):
+class StartupView(Gtk.Overlay):
 
     def __init__(self, window):
         super().__init__()

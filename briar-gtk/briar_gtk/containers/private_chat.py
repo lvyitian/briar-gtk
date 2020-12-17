@@ -4,24 +4,24 @@
 #
 # Initial version based on GNOME Fractal
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
-
+import os
 import time
 
 from gi.repository import GLib, Gtk, Handy
 
 from briar_wrapper.models.private_chat import PrivateChat
 
-from briar_gtk.container import Container
-from briar_gtk.define import APP
+from briar_gtk.define import APP, RESOURCES_DIR
 from briar_gtk.widgets.private_message import PrivateMessageWidget
 
 
-class PrivateChatContainer(Container):
+class PrivateChatContainer(Gtk.Overlay):
 
     CONTAINER_UI = "private_chat.ui"
 
     def __init__(self, contact_name, contact_id):
         super().__init__()
+        self.builder = Gtk.Builder()
 
         self._signals = list()
         self._contact_name = contact_name
@@ -79,6 +79,11 @@ class PrivateChatContainer(Container):
 
         self.builder.connect_signals(self)
         self._setup_destroy_listener()
+
+    def _add_from_resource(self, ui_filename):
+        self.builder.add_from_resource(
+            os.path.join(RESOURCES_DIR, ui_filename)
+        )
 
     def _setup_destroy_listener(self):
         self.connect("destroy", self._on_destroy)

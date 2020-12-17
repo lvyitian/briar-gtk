@@ -44,8 +44,6 @@ class MainWindowController:
             self._private_chat_controller = None
 
     def open_private_chat(self, contact_id):
-        if self._private_chat_controller is not None:
-            raise Exception("Private Chat is already open")
         private_chat_view = PrivateChatView(self._builder)
         self._private_chat_controller = PrivateChatController(
             contact_id, private_chat_view, self._sidebar_controller,

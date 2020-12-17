@@ -107,10 +107,9 @@ class PrivateChatController:
         confirmation_dialog.show_all()
 
     def open_private_chat(self, contact_id):
-        print(f"Contact id: {contact_id}")
         contact_name = self._get_contact_name(contact_id)
         self._prepare_chat_view(contact_name)
-        self._setup_private_chat_widget(contact_id)
+        self._setup_private_chat_widget(contact_name, contact_id)
         self._current_contact_id = contact_id
 
     @staticmethod
@@ -170,8 +169,8 @@ class PrivateChatController:
         for child in children:
             child.destroy()
 
-    def _setup_private_chat_widget(self, contact_id):
-        self._private_chat_view.setup_view(contact_id)
+    def _setup_private_chat_widget(self, contact_name, contact_id):
+        self._private_chat_view.setup_view(contact_name, contact_id)
         self._private_chat_view.load_content()
         history_container = self._builder.get_object("history_container")
         history_container.add(self._private_chat_view)

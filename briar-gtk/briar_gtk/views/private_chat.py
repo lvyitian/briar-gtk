@@ -49,7 +49,8 @@ class PrivateChatView(Gtk.Overlay):
         widget.set_text("")
         GLib.idle_add(self._scroll_to_bottom)
 
-    def setup_view(self, contact_id):
+    def setup_view(self, contact_name, contact_id):
+        self._contact_name = contact_name
         self._contact_id = contact_id
         self._add_from_resource(self.CONTAINER_UI)
 

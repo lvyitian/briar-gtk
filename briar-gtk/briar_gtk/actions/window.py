@@ -81,7 +81,7 @@ class WindowActions(Actions):
 
     # pylint: disable=unused-argument
     def _open_about_page(self, action, parameter):
-        self.widget.current_container.open_about_page()
+        self.widget.current_controller.open_about_page()
 
     # pylint: disable=unused-argument
     def _open_add_contact(self, action, parameter):

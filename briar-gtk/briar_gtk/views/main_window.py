@@ -20,7 +20,6 @@ from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
 from briar_gtk.views.main_menu import MainMenuView
 from briar_gtk.views.private_chat import PrivateChatView
 from briar_gtk.views.sidebar import SidebarView
-from briar_gtk.widgets.about_dialog import AboutDialogWidget
 from briar_gtk.widgets.contact_row import ContactRowWidget
 from briar_gtk.widgets.edit_dialog import EditDialog
 
@@ -71,11 +70,6 @@ class MainWindowView(Gtk.Overlay):
     @property
     def chat_entry(self):
         return self._builder.get_object("chat_entry")
-
-    @staticmethod
-    def open_about_page():
-        about_dialog = AboutDialogWidget()
-        about_dialog.show()
 
     def show_sidebar(self):
         self.main_window_leaflet.set_visible_child(

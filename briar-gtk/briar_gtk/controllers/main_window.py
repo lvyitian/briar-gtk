@@ -12,6 +12,7 @@ from briar_gtk.define import APP
 from briar_gtk.views.main_menu import MainMenuView
 from briar_gtk.views.private_chat import PrivateChatView
 from briar_gtk.views.sidebar import SidebarView
+from briar_gtk.widgets.about_dialog import AboutDialogWidget
 
 
 class MainWindowController():
@@ -24,6 +25,11 @@ class MainWindowController():
         self._setup_children()
         self._load_content()
         self._setup_destroy_listener()
+
+    @staticmethod
+    def open_about_page():
+        about_dialog = AboutDialogWidget()
+        about_dialog.show()
 
     def open_private_chat(self, contact_id):
         contact_name = self._get_contact_name(contact_id)

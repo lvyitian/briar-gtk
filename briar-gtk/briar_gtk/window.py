@@ -103,7 +103,7 @@ class Window(Gtk.ApplicationWindow):
 
     def _setup_main_container(self):
         builder = self._setup_builder()
-        main_window_view = MainWindowView(builder)
+        main_window_view = MainWindowView(builder, self)
         main_window_controller = MainWindowController(
             main_window_view, builder)
         self._setup_container(main_window_view)

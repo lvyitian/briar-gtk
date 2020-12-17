@@ -11,6 +11,8 @@ from briar_gtk.define import RESOURCES_DIR
 
 class PrivateChatView():
 
+    _current_private_chat_widget = None
+
     def __init__(self, builder):
         self._builder = builder
         self._setup_view()

@@ -10,7 +10,7 @@ from gi.repository import GLib
 
 from briar_gtk.actions.actions import Actions
 from briar_gtk.actions.prefixes import WINDOW_PREFIX
-from briar_gtk.views.main_window import MainWindowView
+from briar_gtk.controllers.main_window import MainWindowController
 from briar_gtk.define import APP
 
 
@@ -64,16 +64,16 @@ class WindowActions(Actions):
 
     # pylint: disable=unused-argument
     def _back_to_sidebar(self, action, parameter):
-        if isinstance(self.widget.current_container, MainWindowView):
-            self.widget.current_container.show_sidebar()
+        if isinstance(self.widget.current_controller, MainWindowController):
+            self.widget.current_controller.close_private_chat()
 
     # pylint: disable=unused-argument
     def _delete_all_messages_dialog(self, action, parameter):
-        self.widget.current_container.open_delete_all_messages_dialog()
+        self.widget.current_controller.open_delete_all_messages_dialog()
 
     # pylint: disable=unused-argument
     def _delete_contact_dialog(self, action, parameter):
-        self.widget.current_container.open_delete_contact_dialog()
+        self.widget.current_controller.open_delete_contact_dialog()
 
     # pylint: disable=unused-argument
     def _change_alias_contact_dialog(self, action, parameter):

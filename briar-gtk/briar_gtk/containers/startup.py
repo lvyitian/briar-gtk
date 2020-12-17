@@ -4,7 +4,7 @@
 
 from briar_gtk.container import Container
 from briar_gtk.views.login import LoginView
-from briar_gtk.containers.registration import RegistrationContainer
+from briar_gtk.views.registration import RegistrationView
 from briar_gtk.define import APP
 
 
@@ -15,7 +15,7 @@ class StartupContainer(Container):
         self._setup_view(window)
 
     def _setup_view(self, window):
-        container = RegistrationContainer(window)
+        container = RegistrationView(window)
         if APP().api.has_account():
             container = LoginView(window)
 

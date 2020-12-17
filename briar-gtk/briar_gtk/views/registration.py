@@ -1,18 +1,17 @@
 # Copyright (c) 2019 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
-
+import os
 from gettext import gettext as _
 
-from gi.repository import GLib
+from gi.repository import GLib, Gtk
 
 from briar_gtk.actions.registration import RegistrationActions
 from briar_gtk.actions.prefixes import REGISTRATION_PREFIX
-from briar_gtk.container import Container
-from briar_gtk.define import APP
+from briar_gtk.define import APP, RESOURCES_DIR
 
 
-class RegistrationContainer(Container):
+class RegistrationView(Gtk.Overlay):
 
     REGISTRATION_UI = "registration.ui"
     STACK_NAME = "registration_flow_stack"
@@ -20,6 +19,7 @@ class RegistrationContainer(Container):
 
     def __init__(self, window):
         super().__init__()
+        self.builder = Gtk.Builder()
         RegistrationActions(self)
         self._window = window
         self._setup_view()
@@ -69,6 +69,11 @@ class RegistrationContainer(Container):
         self._setup_registration_flow_stack()
         self._setup_registration_flow_headers()
         self._setup_nickname_enter_listener()
+
+    def _add_from_resource(self, ui_filename):
+        self.builder.add_from_resource(
+            os.path.join(RESOURCES_DIR, ui_filename)
+        )
 
     def _setup_registration_flow_stack(self):
         self.registration_flow_stack = self.builder.get_object(self.STACK_NAME)

@@ -27,24 +27,36 @@ class MainWindowController:
         about_dialog.show()
 
     def open_change_contact_alias_dialog(self):
-        self._private_chat_controller.open_change_contact_alias_dialog()
+        if self._private_chat_controller is not None:
+            self._private_chat_controller.open_change_contact_alias_dialog()
 
     def open_delete_all_messages_dialog(self):
-        self._private_chat_controller.open_delete_all_messages_dialog()
+        if self._private_chat_controller is not None:
+            self._private_chat_controller.open_delete_all_messages_dialog()
 
     def open_delete_contact_dialog(self):
-        self._private_chat_controller.open_delete_contact_dialog()
+        if self._private_chat_controller is not None:
+            self._private_chat_controller.open_delete_contact_dialog()
 
     def close_private_chat(self):
-        self._private_chat_controller.close_private_chat()
+        if self._private_chat_controller is not None:
+            self._private_chat_controller.close_private_chat()
+            self._private_chat_controller = None
 
     def open_private_chat(self, contact_id):
-        self._private_chat_controller.open_private_chat(contact_id)
+        if self._private_chat_controller is not None:
+            raise Exception("Private Chat is already open")
+        private_chat_view = PrivateChatView(self._builder)
+        self._private_chat_controller = PrivateChatController(
+            contact_id, private_chat_view, self._sidebar_controller,
+            self._builder, APP().api)
 
     def _setup_children(self):
         self._setup_notification_handler()
         self._setup_sidebar_controller()
-        self._setup_private_chat_controller()
+        self._private_chat_controller = None
+        contact_name_label = self._builder.get_object("contact_name")
+        contact_name_label.set_text("")
 
     def _setup_notification_handler(self):
         self._notification_handler = NotificationHandler()
@@ -53,12 +65,6 @@ class MainWindowController:
         sidebar_view = SidebarView(self._builder)
         self._sidebar_controller = SidebarController(
             sidebar_view, APP().api)
-
-    def _setup_private_chat_controller(self):
-        private_chat_view = PrivateChatView(self._builder)
-        self._private_chat_controller = PrivateChatController(
-            private_chat_view, self._sidebar_controller,
-            self._builder, APP().api)
 
     def _setup_destroy_listener(self):
         self._main_window_view.connect("destroy", self._on_destroy)

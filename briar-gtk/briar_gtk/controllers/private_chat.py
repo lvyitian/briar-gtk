@@ -8,7 +8,6 @@ from gi.repository import Gtk
 from briar_wrapper.models.contacts import Contacts
 from briar_wrapper.models.private_chat import PrivateChat
 
-from briar_gtk.private_chat_container import PrivateChatContainer
 from briar_gtk.define import APP
 from briar_gtk.widgets.edit_dialog import EditDialog
 
@@ -16,11 +15,12 @@ from briar_gtk.widgets.edit_dialog import EditDialog
 class PrivateChatController:
     _current_contact_id = 0
 
-    def __init__(self, private_chat_view, sidebar_controller, builder, api):
+    def __init__(self, contact_id, private_chat_view, sidebar_controller, builder, api):
         self._private_chat_view = private_chat_view
         self._sidebar_controller = sidebar_controller
         self._builder = builder
         self._api = api
+        self.open_private_chat(contact_id)
 
     def close_private_chat(self):  # formerly `show_sidebar`
         main_window_leaflet = self._builder.get_object("main_window_leaflet")
@@ -105,9 +105,10 @@ class PrivateChatController:
         confirmation_dialog.show_all()
 
     def open_private_chat(self, contact_id):
+        print(f"Contact id: {contact_id}")
         contact_name = self._get_contact_name(contact_id)
         self._prepare_chat_view(contact_name)
-        self._setup_private_chat_widget(contact_name, contact_id)
+        self._setup_private_chat_widget(contact_id)
         self._current_contact_id = contact_id
 
     @staticmethod
@@ -167,11 +168,11 @@ class PrivateChatController:
         for child in children:
             child.destroy()
 
-    def _setup_private_chat_widget(self, contact_name, contact_id):
-        self._current_private_chat_widget = PrivateChatContainer(
-            contact_name, contact_id)
+    def _setup_private_chat_widget(self, contact_id):
+        self._private_chat_view.setup_view(contact_id)
+        self._private_chat_view.load_content()
         history_container = self._builder.get_object("history_container")
-        history_container.add(self._current_private_chat_widget)
+        history_container.add(self._private_chat_view)
         history_container.show_all()
 
         self._disconnect_chat_entry_signals()
@@ -191,5 +192,5 @@ class PrivateChatController:
     def _on_chat_entry_activate(self, widget):
         if len(widget.get_text()) == 0:
             return
-        self._current_private_chat_widget.send_message(widget)
+        self._private_chat_view.send_message(widget)
         self._sidebar_controller.refresh_contacts()

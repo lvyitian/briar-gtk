@@ -5,22 +5,23 @@
 # Initial version based on GNOME Fractal
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
+import os
+
 from gettext import gettext as _
 from gi.repository import Gio, GLib, Gtk
 
 from briar_wrapper.models.contacts import Contacts
 from briar_wrapper.models.private_chat import PrivateChat
 
-from briar_gtk.container import Container
 from briar_gtk.containers.private_chat import PrivateChatContainer
-from briar_gtk.define import APP, NOTIFICATION_CONTACT_ADDED
+from briar_gtk.define import APP, NOTIFICATION_CONTACT_ADDED, RESOURCES_DIR
 from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
 from briar_gtk.widgets.about_dialog import AboutDialogWidget
 from briar_gtk.widgets.contact_row import ContactRowWidget
 from briar_gtk.widgets.edit_dialog import EditDialog
 
 
-class MainWindowContainer(Container):
+class MainWindowView(Gtk.Overlay):
 
     CONTAINER_UI = "main_window.ui"
     MAIN_MENU_UI = "main_menu.ui"
@@ -31,9 +32,15 @@ class MainWindowContainer(Container):
 
     def __init__(self):
         super().__init__()
+        self.builder = Gtk.Builder()
         self._signals = list()
         self._setup_view()
         self._load_content()
+
+    def _add_from_resource(self, ui_filename):
+        self.builder.add_from_resource(
+            os.path.join(RESOURCES_DIR, ui_filename)
+        )
 
     @property
     def main_window_leaflet(self):

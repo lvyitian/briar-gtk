@@ -7,7 +7,7 @@ from gi.repository import Gio, Gtk
 
 from briar_gtk.actions.window import WindowActions
 from briar_gtk.containers.add_contact import AddContactContainer
-from briar_gtk.containers.main_window import MainWindowContainer
+from briar_gtk.views.main_window import MainWindowView
 from briar_gtk.containers.startup import StartupContainer
 from briar_gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
 from briar_gtk.define import NOTIFICATION_CONTACT_ADDED
@@ -99,7 +99,7 @@ class Window(Gtk.ApplicationWindow):
         self._setup_container(StartupContainer(self))
 
     def _setup_main_container(self):
-        self._setup_container(MainWindowContainer())
+        self._setup_container(MainWindowView())
 
     def _setup_add_contact_container(self):
         self._setup_container(AddContactContainer())

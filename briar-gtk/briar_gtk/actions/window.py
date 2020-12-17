@@ -10,7 +10,7 @@ from gi.repository import GLib
 
 from briar_gtk.actions.actions import Actions
 from briar_gtk.actions.prefixes import WINDOW_PREFIX
-from briar_gtk.containers.main_window import MainWindowContainer
+from briar_gtk.views.main_window import MainWindowView
 from briar_gtk.define import APP
 
 
@@ -64,7 +64,7 @@ class WindowActions(Actions):
 
     # pylint: disable=unused-argument
     def _back_to_sidebar(self, action, parameter):
-        if isinstance(self.widget.current_container, MainWindowContainer):
+        if isinstance(self.widget.current_container, MainWindowView):
             self.widget.current_container.show_sidebar()
 
     # pylint: disable=unused-argument

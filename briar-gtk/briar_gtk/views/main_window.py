@@ -21,7 +21,6 @@ from briar_gtk.views.main_menu import MainMenuView
 from briar_gtk.views.private_chat import PrivateChatView
 from briar_gtk.views.sidebar import SidebarView
 from briar_gtk.widgets.contact_row import ContactRowWidget
-from briar_gtk.widgets.edit_dialog import EditDialog
 
 
 class MainWindowView(Gtk.Overlay):
@@ -81,26 +80,6 @@ class MainWindowView(Gtk.Overlay):
         self.contact_name_label.set_text("")
         self._current_contact_id = 0
         self._builder.get_object("chat_menu_button").hide()
-
-    def open_change_contact_alias_dialog(self):
-        if self._current_contact_id == 0:
-            raise Exception("Can't change contact alias with ID 0")
-
-        confirmation_dialog = EditDialog(
-            parent=APP().window,
-            flags=Gtk.DialogFlags.MODAL,
-            placeholder=self._get_contact_name(self._current_contact_id)
-        )
-
-        confirmation_dialog.set_title(_("Change contact name"))
-
-        response = confirmation_dialog.run()
-        user_alias = confirmation_dialog.get_entry().get_text()
-        confirmation_dialog.destroy()
-        if (response == Gtk.ResponseType.OK) and (user_alias != ''):
-            Contacts(APP().api).set_alias(self._current_contact_id, user_alias)
-            self.contact_name_label.set_text(user_alias)
-            self._refresh_contacts()
 
     def open_delete_all_messages_dialog(self):
         if self._current_contact_id == 0:

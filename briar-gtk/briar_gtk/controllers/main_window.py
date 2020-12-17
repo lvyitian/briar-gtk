@@ -2,6 +2,9 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
+from gettext import gettext as _
+from gi.repository import Gtk
+
 from briar_wrapper.models.contacts import Contacts
 
 from briar_gtk.containers.private_chat import PrivateChatContainer
@@ -13,6 +16,7 @@ from briar_gtk.views.main_menu import MainMenuView
 from briar_gtk.views.private_chat import PrivateChatView
 from briar_gtk.views.sidebar import SidebarView
 from briar_gtk.widgets.about_dialog import AboutDialogWidget
+from briar_gtk.widgets.edit_dialog import EditDialog
 
 
 class MainWindowController():
@@ -30,6 +34,27 @@ class MainWindowController():
     def open_about_page():
         about_dialog = AboutDialogWidget()
         about_dialog.show()
+
+    def open_change_contact_alias_dialog(self):
+        if self._current_contact_id == 0:
+            raise Exception("Can't change contact alias with ID 0")
+
+        confirmation_dialog = EditDialog(
+            parent=APP().window,
+            flags=Gtk.DialogFlags.MODAL,
+            placeholder=self._get_contact_name(self._current_contact_id)
+        )
+
+        confirmation_dialog.set_title(_("Change contact name"))
+
+        response = confirmation_dialog.run()
+        user_alias = confirmation_dialog.get_entry().get_text()
+        confirmation_dialog.destroy()
+        if (response == Gtk.ResponseType.OK) and (user_alias != ''):
+            Contacts(APP().api).set_alias(self._current_contact_id, user_alias)
+            contact_name_label = self._builder.get_object("contact_name")
+            contact_name_label.set_text(user_alias)
+            self._sidebar_controller.refresh_contacts()
 
     def open_private_chat(self, contact_id):
         contact_name = self._get_contact_name(contact_id)

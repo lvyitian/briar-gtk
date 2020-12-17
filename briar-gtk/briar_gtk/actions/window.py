@@ -77,7 +77,7 @@ class WindowActions(Actions):
 
     # pylint: disable=unused-argument
     def _change_alias_contact_dialog(self, action, parameter):
-        self.widget.current_container.open_change_contact_alias_dialog()
+        self.widget.current_controller.open_change_contact_alias_dialog()
 
     # pylint: disable=unused-argument
     def _open_about_page(self, action, parameter):

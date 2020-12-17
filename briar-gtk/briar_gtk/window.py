@@ -2,16 +2,19 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
+import os
+
 from gettext import gettext as _
 from gi.repository import Gio, Gtk
 
 from briar_gtk.actions.window import WindowActions
 from briar_gtk.containers.add_contact import AddContactContainer
+from briar_gtk.controllers.main_window import MainWindowController
 from briar_gtk.views.main_window import MainWindowView
 from briar_gtk.containers.startup import StartupContainer
 from briar_gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
 from briar_gtk.define import NOTIFICATION_CONTACT_ADDED
-from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
+from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE, RESOURCES_DIR
 
 
 class Window(Gtk.ApplicationWindow):
@@ -99,7 +102,25 @@ class Window(Gtk.ApplicationWindow):
         self._setup_container(StartupContainer(self))
 
     def _setup_main_container(self):
-        self._setup_container(MainWindowView())
+        builder = self._setup_builder()
+        main_window_view = MainWindowView(builder)
+        main_window_controller = MainWindowController(
+            main_window_view, builder)
+        self._setup_container(main_window_view)
 
     def _setup_add_contact_container(self):
         self._setup_container(AddContactContainer())
+
+    def _setup_builder(self):
+        builder = Gtk.Builder.new()
+        builder.add_from_resource(
+            os.path.join(RESOURCES_DIR, "main_menu.ui")
+        )
+        builder.add_from_resource(
+            os.path.join(RESOURCES_DIR, "chat_menu.ui")
+        )
+        builder.add_from_resource(
+            os.path.join(RESOURCES_DIR, "main_window.ui")
+        )
+        builder.connect_signals(self)
+        return builder

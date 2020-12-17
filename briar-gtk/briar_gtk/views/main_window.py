@@ -5,8 +5,6 @@
 # Initial version based on GNOME Fractal
 # https://gitlab.gnome.org/GNOME/fractal/-/tags/4.2.2
 
-import os
-
 from gettext import gettext as _
 from gi.repository import Gio, GLib, Gtk
 
@@ -17,7 +15,7 @@ from briar_gtk.containers.private_chat import PrivateChatContainer
 from briar_gtk.controllers.main_menu import MainMenuController
 from briar_gtk.controllers.private_chat import PrivateChatController
 from briar_gtk.controllers.sidebar import SidebarController
-from briar_gtk.define import APP, NOTIFICATION_CONTACT_ADDED, RESOURCES_DIR
+from briar_gtk.define import APP, NOTIFICATION_CONTACT_ADDED
 from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
 from briar_gtk.views.main_menu import MainMenuView
 from briar_gtk.views.private_chat import PrivateChatView
@@ -29,41 +27,16 @@ from briar_gtk.widgets.edit_dialog import EditDialog
 
 class MainWindowView(Gtk.Overlay):
 
-    MAIN_MENU_UI = "main_menu.ui"
-    CHAT_MENU_UI = "chat_menu.ui"
-    MAIN_WINDOW_UI = "main_window.ui"
-
     _current_contact_id = 0
     _current_private_chat_widget = None
 
-    def __init__(self):
+    def __init__(self, builder):
         super().__init__()
-        self._builder = Gtk.Builder()
-        self._add_from_resource(self.MAIN_MENU_UI)
-        self._add_from_resource(self.CHAT_MENU_UI)
-        self._add_from_resource(self.MAIN_WINDOW_UI)
-        self._builder.connect_signals(self)
-
-        self._sidebar_view = SidebarView(self._builder)
-        self._sidebar_controller = SidebarController(
-            self._sidebar_view, APP().api)
-
-        self._private_chat_view = PrivateChatView(self._builder)
-        self._private_chat_controller = PrivateChatController(
-            self._private_chat_view, APP().api)
-
-        self._main_menu_view = MainMenuView()
-        self._main_menu_controller = MainMenuController(
-            self._main_menu_view, APP().api)
-
+        self._builder = builder
         self._signals = list()
+
         self._setup_view()
         self._load_content()
-
-    def _add_from_resource(self, ui_filename):
-        self._builder.add_from_resource(
-            os.path.join(RESOURCES_DIR, ui_filename)
-        )
 
     @property
     def main_window_leaflet(self):

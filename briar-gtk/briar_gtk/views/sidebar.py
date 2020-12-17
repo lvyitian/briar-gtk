@@ -19,6 +19,7 @@ class SidebarView():
         self._clear_contact_list()
 
         for contact in contact_list:
+            print(contact)
             contact_row = ContactRowWidget(contact)
             contacts_list_box = self._builder.get_object("contacts_list_box")
             contacts_list_box.add(contact_row)

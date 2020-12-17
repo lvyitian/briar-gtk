@@ -1,18 +1,17 @@
 # Copyright (c) 2019 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
-
+import os
 from gettext import gettext as _
 
-from gi.repository import GLib
+from gi.repository import GLib, Gtk
 
 from briar_gtk.actions.login import LoginActions
 from briar_gtk.actions.prefixes import LOGIN_PREFIX
-from briar_gtk.container import Container
-from briar_gtk.define import APP
+from briar_gtk.define import APP, RESOURCES_DIR
 
 
-class LoginContainer(Container):
+class LoginView(Gtk.Overlay):
 
     LOGIN_UI = "login.ui"
     STACK_NAME = "login_flow_stack"
@@ -20,6 +19,7 @@ class LoginContainer(Container):
 
     def __init__(self, window):
         super().__init__()
+        self.builder = Gtk.Builder()
         LoginActions(self)
         self._window = window
         self._setup_view()
@@ -38,6 +38,11 @@ class LoginContainer(Container):
         self._setup_login_flow_stack()
         self._setup_login_flow_headers()
         self._setup_enter_listener()
+
+    def _add_from_resource(self, ui_filename):
+        self.builder.add_from_resource(
+            os.path.join(RESOURCES_DIR, ui_filename)
+        )
 
     def _setup_login_flow_stack(self):
         self.login_flow_stack = self.builder.get_object(self.STACK_NAME)

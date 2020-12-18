@@ -68,6 +68,7 @@ class PrivateChatController:
             contact_name_label = self._builder.get_object("contact_name")
             contact_name_label.set_text(user_alias)
             self._sidebar_controller.refresh_contacts()
+            # TODO: Update name in chat history
 
     def open_delete_all_messages_dialog(self):
         if self._current_contact_id == 0:

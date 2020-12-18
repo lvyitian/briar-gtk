@@ -13,6 +13,8 @@ from briar_gtk.define import APP, RESOURCES_DIR
 
 class LoginView(Gtk.Overlay):
 
+    # TODO: Move more logic into LoginController
+
     LOGIN_UI = "login.ui"
     STACK_NAME = "login_flow_stack"
     HEADERS_NAME = "login_flow_headers"

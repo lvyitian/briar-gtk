@@ -10,7 +10,7 @@ from gi.repository import GLib
 
 from briar_gtk.actions.actions import Actions
 from briar_gtk.actions.prefixes import WINDOW_PREFIX
-from briar_gtk.controllers.main_window import MainWindowController
+from briar_gtk.presenters.main_window import MainWindowPresenter
 from briar_gtk.define import APP
 
 
@@ -64,25 +64,25 @@ class WindowActions(Actions):
 
     # pylint: disable=unused-argument
     def _back_to_sidebar(self, action, parameter):
-        if isinstance(self.widget.main_window_controller,
-                      MainWindowController):
-            self.widget.main_window_controller.close_private_chat()
+        if isinstance(self.widget.main_window_presenter,
+                      MainWindowPresenter):
+            self.widget.main_window_presenter.close_private_chat()
 
     # pylint: disable=unused-argument
     def _delete_all_messages_dialog(self, action, parameter):
-        self.widget.main_window_controller.open_delete_all_messages_dialog()
+        self.widget.main_window_presenter.open_delete_all_messages_dialog()
 
     # pylint: disable=unused-argument
     def _delete_contact_dialog(self, action, parameter):
-        self.widget.main_window_controller.open_delete_contact_dialog()
+        self.widget.main_window_presenter.open_delete_contact_dialog()
 
     # pylint: disable=unused-argument
     def _change_alias_contact_dialog(self, action, parameter):
-        self.widget.main_window_controller.open_change_contact_alias_dialog()
+        self.widget.main_window_presenter.open_change_contact_alias_dialog()
 
     # pylint: disable=unused-argument
     def _open_about_page(self, action, parameter):
-        self.widget.main_window_controller.open_about_page()
+        self.widget.main_window_presenter.open_about_page()
 
     # pylint: disable=unused-argument
     def _open_add_contact(self, action, parameter):
@@ -94,5 +94,5 @@ class WindowActions(Actions):
 
     # pylint: disable=unused-argument
     def _open_private_chat(self, action, contact_id):
-        self.widget.main_window_controller.open_private_chat(
+        self.widget.main_window_presenter.open_private_chat(
             contact_id.get_int32())

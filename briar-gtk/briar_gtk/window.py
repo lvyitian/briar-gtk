@@ -9,7 +9,7 @@ from gi.repository import Gio, Gtk
 
 from briar_gtk.actions.window import WindowActions
 from briar_gtk.views.add_contact import AddContactView
-from briar_gtk.controllers.main_window import MainWindowController
+from briar_gtk.presenters.main_window import MainWindowPresenter
 from briar_gtk.views.main_window import MainWindowView
 from briar_gtk.views.startup import StartupView
 from briar_gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
@@ -22,7 +22,7 @@ class Window(Gtk.ApplicationWindow):
     DEFAULT_WINDOW_SIZE = (900, 600)
 
     def __init__(self):
-        self.main_window_controller = None
+        self.main_window_presenter = None
         self._initialize_gtk_application_window()
         WindowActions(self)
         self._setup_content()
@@ -34,8 +34,8 @@ class Window(Gtk.ApplicationWindow):
 
     def show_add_contact_view(self):
         self._current_view.destroy()
-        if self.main_window_controller is not None:
-            self.main_window_controller = None
+        if self.main_window_presenter is not None:
+            self.main_window_presenter = None
         self._setup_add_contact_view()
 
     # pylint: disable=arguments-differ,unused-argument
@@ -107,7 +107,7 @@ class Window(Gtk.ApplicationWindow):
     def _setup_main_window_view(self):
         builder = self._setup_builder()
         main_window_view = MainWindowView(builder, self)
-        self.main_window_controller = MainWindowController(
+        self.main_window_presenter = MainWindowPresenter(
             main_window_view, builder)
         self._setup_view(main_window_view)
         builder.get_object("chat_menu_button").hide()  # TODO: Make default

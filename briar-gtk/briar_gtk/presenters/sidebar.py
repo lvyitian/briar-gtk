@@ -7,7 +7,7 @@ from gi.repository import GLib
 from briar_wrapper.models.contacts import Contacts
 
 
-class SidebarController:
+class SidebarPresenter:
 
     def __init__(self, sidebar_view, api):
         self._sidebar_view = sidebar_view

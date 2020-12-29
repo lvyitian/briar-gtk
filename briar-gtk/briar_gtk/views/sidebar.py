@@ -7,7 +7,7 @@ from briar_gtk.widgets.contact_row import ContactRowWidget
 
 class SidebarView:
 
-    # TODO: Move more logic into SidebarController
+    # TODO: Move more logic into SidebarPresenter
 
     def __init__(self, builder):
         self._builder = builder

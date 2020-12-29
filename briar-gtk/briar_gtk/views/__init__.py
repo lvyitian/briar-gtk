@@ -2,5 +2,5 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 """
-Views displaying data in Briar GTK
+Views (of MVP pattern) displaying data in Briar GTK
 """

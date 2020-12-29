@@ -18,7 +18,7 @@ from briar_gtk.widgets.private_message import PrivateMessageWidget
 # pylint: disable=too-many-instance-attributes
 class PrivateChatView(Gtk.Overlay):
 
-    # TODO: Move more logic into PrivateChatController
+    # TODO: Move more logic into PrivateChatPresenter
 
     CONTAINER_UI = "private_chat.ui"
 

@@ -14,7 +14,7 @@ from briar_gtk.define import APP, RESOURCES_DIR
 
 class AddContactView(Gtk.Overlay):
 
-    # TODO: Move more logic into AddContactController
+    # TODO: Move more logic into AddContactPresenter
 
     ADD_CONTACT_UI = "add_contact.ui"
     STACK_NAME = "add_contact_flow_stack"

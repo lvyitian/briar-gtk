@@ -13,7 +13,7 @@ from briar_gtk.define import APP, RESOURCES_DIR
 
 class RegistrationView(Gtk.Overlay):
 
-    # TODO: Move more logic into RegistrationController
+    # TODO: Move more logic into RegistrationPresenter
 
     REGISTRATION_UI = "registration.ui"
     STACK_NAME = "registration_flow_stack"

@@ -13,13 +13,13 @@ from briar_gtk.widgets.edit_dialog import EditDialog
 
 
 # pylint: disable=too-many-arguments
-class PrivateChatController:
+class PrivateChatPresenter:
     _current_contact_id = 0
 
-    def __init__(self, contact_id, private_chat_view, sidebar_controller,
+    def __init__(self, contact_id, private_chat_view, sidebar_presenter,
                  builder, api):
         self._private_chat_view = private_chat_view
-        self._sidebar_controller = sidebar_controller
+        self._sidebar_presenter = sidebar_presenter
         self._builder = builder
         self._api = api
         self.open_private_chat(contact_id)
@@ -67,7 +67,7 @@ class PrivateChatController:
             Contacts(APP().api).set_alias(self._current_contact_id, user_alias)
             contact_name_label = self._builder.get_object("contact_name")
             contact_name_label.set_text(user_alias)
-            self._sidebar_controller.refresh_contacts()
+            self._sidebar_presenter.refresh_contacts()
             # TODO: Update name in chat history
 
     def open_delete_all_messages_dialog(self):
@@ -128,14 +128,14 @@ class PrivateChatController:
         if response_id == Gtk.ResponseType.OK:
             private_chat = PrivateChat(APP().api, self._current_contact_id)
             private_chat.delete_all_messages()
-            self._sidebar_controller.refresh_contacts()
+            self._sidebar_presenter.refresh_contacts()
             self.close_private_chat()
         widget.destroy()
 
     def _delete_contact(self, widget, response_id):
         if response_id == Gtk.ResponseType.OK:
             Contacts(APP().api).delete(self._current_contact_id)
-            self._sidebar_controller.refresh_contacts()
+            self._sidebar_presenter.refresh_contacts()
             self.close_private_chat()
         widget.destroy()
 
@@ -195,4 +195,4 @@ class PrivateChatController:
         if len(widget.get_text()) == 0:
             return
         self._private_chat_view.send_message(widget)
-        self._sidebar_controller.refresh_contacts()
+        self._sidebar_presenter.refresh_contacts()

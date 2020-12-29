@@ -26,6 +26,7 @@ class AddContactView(Gtk.Overlay):
         AddContactActions(self)
         self._setup_view()
         self._load_content()
+        self.show_all()
 
     @property
     def alias_entry(self):

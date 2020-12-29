@@ -36,6 +36,7 @@ class PrivateChatView(Gtk.Overlay):
         private_chat = PrivateChat(APP().api, self._contact_id)
         private_chat.send(message)
 
+        # TODO: Doesn't work after Ctrl + W
         self._add_message(
             {
                 "text": message,

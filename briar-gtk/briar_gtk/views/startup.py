@@ -14,6 +14,7 @@ class StartupView(Gtk.Overlay):
     def __init__(self, window):
         super().__init__()
         self._setup_view(window)
+        self.show_all()
 
     def _setup_view(self, window):
         container = RegistrationView(window)

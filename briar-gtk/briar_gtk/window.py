@@ -9,12 +9,11 @@ from gi.repository import Gio, Gtk
 
 from briar_gtk.actions.window import WindowActions
 from briar_gtk.views.add_contact import AddContactView
-from briar_gtk.presenters.main_window import MainWindowPresenter
 from briar_gtk.views.main_window import MainWindowView
 from briar_gtk.views.startup import StartupView
 from briar_gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
 from briar_gtk.define import NOTIFICATION_CONTACT_ADDED
-from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE, RESOURCES_DIR
+from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE
 
 
 class Window(Gtk.ApplicationWindow):
@@ -22,20 +21,16 @@ class Window(Gtk.ApplicationWindow):
     DEFAULT_WINDOW_SIZE = (900, 600)
 
     def __init__(self):
-        self.main_window_presenter = None
+        self.current_view = None
         self._initialize_gtk_application_window()
         WindowActions(self)
         self._setup_content()
         self._setup_focus_listener()
 
     def show_main_window_view(self):
-        self._current_view.destroy()
         self._setup_main_window_view()
 
     def show_add_contact_view(self):
-        self._current_view.destroy()
-        if self.main_window_presenter is not None:
-            self.main_window_presenter = None
         self._setup_add_contact_view()
 
     # pylint: disable=arguments-differ,unused-argument
@@ -97,34 +92,16 @@ class Window(Gtk.ApplicationWindow):
                isinstance(size[1], int)
 
     def _setup_view(self, view):
-        self._current_view = view
-        self._current_view.show_all()
-        self.add(self._current_view)
+        if isinstance(self.current_view, Gtk.Overlay):
+            self.current_view.destroy()
+        self.current_view = view
+        self.add(self.current_view)
 
     def _setup_startup_view(self):
         self._setup_view(StartupView(self))
 
     def _setup_main_window_view(self):
-        builder = self._setup_builder()
-        main_window_view = MainWindowView(builder, self)
-        self.main_window_presenter = MainWindowPresenter(
-            main_window_view, builder)
-        self._setup_view(main_window_view)
-        builder.get_object("chat_menu_button").hide()  # TODO: Make default
+        self._setup_view(MainWindowView(self))
 
     def _setup_add_contact_view(self):
         self._setup_view(AddContactView())
-
-    def _setup_builder(self):
-        builder = Gtk.Builder.new()
-        builder.add_from_resource(
-            os.path.join(RESOURCES_DIR, "main_menu.ui")
-        )
-        builder.add_from_resource(
-            os.path.join(RESOURCES_DIR, "chat_menu.ui")
-        )
-        builder.add_from_resource(
-            os.path.join(RESOURCES_DIR, "main_window.ui")
-        )
-        builder.connect_signals(self)
-        return builder

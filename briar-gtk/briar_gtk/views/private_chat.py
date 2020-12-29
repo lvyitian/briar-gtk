@@ -89,7 +89,7 @@ class PrivateChatView(Gtk.Overlay):
 
     def _setup_clamp(self):
         clamp = Handy.Clamp.new()
-        clamp.set_maximum_size(800)
+        clamp.set_maximum_size(800)  # same as in main_window.ui
         clamp.set_tightening_threshold(600)
         clamp.set_hexpand(True)
         clamp.set_vexpand(True)

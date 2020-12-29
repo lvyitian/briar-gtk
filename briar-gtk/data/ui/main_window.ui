@@ -114,16 +114,20 @@
                           <object class="GtkBox">
                             <property name="visible">True</property>
                             <child>
-                              <object class="GtkEntry" id="chat_entry">
+                              <object class="HdyClamp">
                                 <property name="visible">True</property>
-                                <property name="can_focus">True</property>
-                                <property name="placeholder_text" translatable="yes" context="Used in input field in main window">Type Message</property>
-                                <property name="show_emoji_icon">True</property>
+                                <property name="maximum_size">800</property> <!-- Same as in PrivateChatView -->
+                                <property name="tightening_threshold">600</property>
+                                <property name="hexpand">True</property>
+                                <child>
+                                  <object class="GtkEntry" id="chat_entry">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                    <property name="placeholder_text" translatable="yes" context="Used in input field in main window">Type Message</property>
+                                    <property name="show_emoji_icon">True</property>
+                                  </object>
+                                </child>
                               </object>
-                              <packing>
-                                <property name="expand">True</property>
-                                <property name="fill">True</property>
-                              </packing>
                             </child>
                             <style>
                               <class name="message-input-area" />

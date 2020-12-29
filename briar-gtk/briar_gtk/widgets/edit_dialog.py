@@ -7,6 +7,7 @@ from gi.repository import Gtk
 
 
 class EditDialog(Gtk.Dialog):
+
     def __init__(self, parent: "Gtk.Window", flags: "Gtk.DialogFlags",
                  placeholder: str, text: str = ""):
         Gtk.Dialog.__init__(
@@ -22,17 +23,17 @@ class EditDialog(Gtk.Dialog):
         )
         self.set_default_size(150, 100)
 
-        self.__alias_entry = Gtk.Entry()
-        self.__alias_entry.set_text(placeholder)
-        self.__alias_entry.set_size_request(250, 0)
+        self._alias_entry = Gtk.Entry()
+        self._alias_entry.set_text(placeholder)
+        self._alias_entry.set_size_request(250, 0)
 
         dialog_box = self.get_content_area()
 
         dialog_text = Gtk.Label(label=text)
         dialog_box.add(dialog_text)
 
-        dialog_box.add(self.__alias_entry)
+        dialog_box.add(self._alias_entry)
         self.show_all()
 
     def get_entry(self) -> "Gtk.Entry":
-        return self.__alias_entry
+        return self._alias_entry

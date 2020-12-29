@@ -65,13 +65,14 @@ class WindowActions(Actions):
     # pylint: disable=unused-argument
     def _back_to_sidebar(self, action, parameter):
         if not isinstance(self.widget.current_view, MainWindowView):
-            return  # No Exception thrown because shortcut may come from other view
+            return  # No Exception because shortcut can come from other view
         self.widget.current_view.presenter.close_private_chat()
 
     # pylint: disable=unused-argument
     def _delete_all_messages_dialog(self, action, parameter):
         if not isinstance(self.widget.current_view, MainWindowView):
-            raise Exception("Should delete all messages only from MainWindowView")
+            raise Exception(
+                "Should delete all messages only from MainWindowView")
         self.widget.current_view.presenter.open_delete_all_messages_dialog()
 
     # pylint: disable=unused-argument
@@ -103,5 +104,7 @@ class WindowActions(Actions):
     # pylint: disable=unused-argument
     def _open_private_chat(self, action, contact_id):
         if not isinstance(self.widget.current_view, MainWindowView):
-            raise Exception("Should open private chat only from MainWindowView")
-        self.widget.current_view.presenter.open_private_chat(contact_id.get_int32())
+            raise Exception(
+                "Should open private chat only from MainWindowView")
+        self.widget.current_view.presenter.open_private_chat(
+            contact_id.get_int32())

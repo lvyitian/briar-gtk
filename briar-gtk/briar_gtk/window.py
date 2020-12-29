@@ -2,8 +2,6 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-import os
-
 from gettext import gettext as _
 from gi.repository import Gio, Gtk
 

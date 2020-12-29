@@ -1,16 +1,16 @@
 # Copyright (c) 2020 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
-
+from briar_gtk.define import APP
+from briar_gtk.presenters.sidebar import SidebarPresenter
 from briar_gtk.widgets.contact_row import ContactRowWidget
 
 
 class SidebarView:
 
-    # TODO: Move more logic into SidebarPresenter
-
     def __init__(self, builder):
         self._builder = builder
+        self.presenter = SidebarPresenter(self, APP().api)
 
     def show_contacts(self, contact_list, selected_contact):
         self._clear_contact_list()

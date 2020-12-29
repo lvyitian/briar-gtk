@@ -17,11 +17,9 @@ class MainWindowView(Gtk.Overlay):
 
     def __init__(self, window):
         super().__init__()
-        builder = self._setup_builder()
-        self.presenter = MainWindowPresenter(self, builder)
-        self._setup_view(builder, window)
-        self.show_all()
-        builder.get_object("chat_menu_button").hide()  # TODO: Make default
+        self.builder = self._setup_builder()
+        self.presenter = MainWindowPresenter(self)
+        self._setup_view(window)
 
     def _setup_builder(self):
         builder = Gtk.Builder.new()
@@ -37,18 +35,19 @@ class MainWindowView(Gtk.Overlay):
         builder.connect_signals(self)
         return builder
 
-    def _setup_view(self, builder, window):
-        self._setup_main_window_stack(builder)
-        self._setup_headerbar_stack_holder(builder, window)
+    def _setup_view(self, window):
+        self._setup_main_window_stack()
+        self._setup_header_bar_stack_holder(window)
 
-    def _setup_main_window_stack(self, builder):
-        main_window_stack = builder.get_object("main_window_stack")
+    def _setup_main_window_stack(self):
+        main_window_stack = self.builder.get_object("main_window_stack")
         main_window_stack.show_all()
         self.add(main_window_stack)
-        builder.get_object("chat_menu_button").hide()
+        self.show_all()
 
-    @staticmethod
-    def _setup_headerbar_stack_holder(builder, window):
-        headerbar_stack_holder = builder.get_object("headerbar_stack_holder")
-        headerbar_stack_holder.show_all()
-        window.set_titlebar(headerbar_stack_holder)
+    def _setup_header_bar_stack_holder(self, window):
+        header_bar_stack_holder = self.builder.get_object(
+            "headerbar_stack_holder")
+        header_bar_stack_holder.show_all()
+        self.builder.get_object("chat_menu_button").hide()
+        window.set_titlebar(header_bar_stack_holder)

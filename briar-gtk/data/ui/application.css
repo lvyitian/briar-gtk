@@ -21,7 +21,7 @@
 
 .messages-history {
   background-color: @theme_base_color;
-  padding: 0 18px 18px;
+  padding: 0 4px 4px;
 }
 
 .history-view {

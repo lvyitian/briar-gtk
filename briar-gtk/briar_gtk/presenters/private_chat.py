@@ -87,8 +87,8 @@ class PrivateChatPresenter:
         confirmation_dialog.show_all()
 
     def open_emoji_menu(self):
-        chat_entry = self._view.builder.get_object("chat_entry")
-        chat_entry.emit("insert-emoji")
+        chat_input = self._view.builder.get_object("chat_input")
+        chat_input.emit("insert-emoji")
 
     def close_private_chat(self):  # formerly `show_sidebar`
         main_content_stack = self._view.builder.get_object(
@@ -101,7 +101,7 @@ class PrivateChatPresenter:
         self._set_contact_name_label("")
         self._view.contact_id = 0
         self._hide_chat_menu_button()
-        self._disconnect_chat_entry_signals()
+        self._disconnect_chat_input_signals()
 
     def disconnect_signals(self):
         for signal in self._signals:
@@ -168,7 +168,7 @@ class PrivateChatPresenter:
         self._setup_message_listener()
         self._mark_messages_read(messages, private_chat)
         self._setup_history_container()
-        self._setup_chat_entry()
+        self._setup_chat_input()
 
     def _setup_message_listener(self):
         # TODO: Move into briar_wrapper by adding function to PrivateChatModel
@@ -188,14 +188,14 @@ class PrivateChatPresenter:
         history_container.add(self._view)
         history_container.show_all()
 
-    def _setup_chat_entry(self):
-        chat_entry = self._view.builder.get_object("chat_entry")
-        self._chat_entry_signal_id = chat_entry.connect(
-            "key-press-event", self._on_chat_entry_activate
+    def _setup_chat_input(self):
+        chat_input = self._view.builder.get_object("chat_input")
+        self._chat_input_signal_id = chat_input.connect(
+            "key-press-event", self._on_chat_input_activate
         )
         # TODO: Activate vscrollbar only if needed (to save space)
         # https://github.com/dino/dino/blob/231df1/main/src/ui/chat_input/chat_text_view.vala#L51
-        chat_entry.grab_focus()
+        chat_input.grab_focus()
 
     @staticmethod
     def _hide_chat_view(main_content_stack):
@@ -243,14 +243,14 @@ class PrivateChatPresenter:
         for child in children:
             child.destroy()
 
-    def _disconnect_chat_entry_signals(self):
-        if not hasattr(self, "_chat_entry_signal_id"):
+    def _disconnect_chat_input_signals(self):
+        if not hasattr(self, "_chat_input_signal_id"):
             return
-        chat_entry = self._view.builder.get_object("chat_entry")
-        chat_entry.disconnect(self._chat_entry_signal_id)
-        del self._chat_entry_signal_id
+        chat_input = self._view.builder.get_object("chat_input")
+        chat_input.disconnect(self._chat_input_signal_id)
+        del self._chat_input_signal_id
 
-    def _on_chat_entry_activate(self, widget, event):
+    def _on_chat_input_activate(self, widget, event):
         # Return is pressed
         if Gdk.keyval_name(event.keyval) != 'Return':
             return False

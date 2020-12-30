@@ -103,15 +103,6 @@ class PrivateChatPresenter:
         self._hide_chat_menu_button()
         self._disconnect_chat_entry_signals()
 
-    def send_message(self):
-        chat_entry = self._view.builder.get_object("chat_entry")
-        # Text does not only contain whitespace
-        if len(self._get_text_from_text_view(chat_entry).strip()) == 0:
-            return False
-        self._send_message(chat_entry)
-        self._sidebar_presenter.refresh_contacts()
-        return True
-
     def disconnect_signals(self):
         for signal in self._signals:
             APP().api.socket_listener.disconnect(signal)

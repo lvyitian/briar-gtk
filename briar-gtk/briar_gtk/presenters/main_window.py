@@ -53,6 +53,10 @@ class MainWindowPresenter:
             self._view.builder, contact_id, self._sidebar_presenter)
         self._private_chat_presenter = private_chat_view.presenter
 
+    def send_message(self):
+        if isinstance(self._private_chat_presenter, PrivateChatPresenter):
+            self._private_chat_presenter.send_message()
+
     def _setup_destroy_listener(self):
         self._view.connect("destroy", self._on_destroy)
 

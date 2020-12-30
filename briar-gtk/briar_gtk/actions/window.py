@@ -31,6 +31,7 @@ class WindowActions(Actions):
         self._setup_open_emoji_menu_action()
         self._setup_open_main_window_action()
         self._setup_open_private_chat_action()
+        self._setup_send_message_action()
 
     def _setup_back_to_sidebar_action(self):
         self._setup_action("back-to-sidebar", None, self._back_to_sidebar)
@@ -65,6 +66,9 @@ class WindowActions(Actions):
     def _setup_open_private_chat_action(self):
         self._setup_action("open-private-chat", GLib.VariantType.new("i"),
                            self._open_private_chat)
+
+    def _setup_send_message_action(self):
+        self._setup_action("send-message", None, self._send_message)
 
     # pylint: disable=unused-argument
     def _back_to_sidebar(self, action, parameter):
@@ -118,3 +122,9 @@ class WindowActions(Actions):
                 "Should open private chat only from MainWindowView")
         self.widget.current_view.presenter.open_private_chat(
             contact_id.get_int32())
+
+    # pylint: disable=unused-argument
+    def _send_message(self, action, parameter):
+        if not isinstance(self.widget.current_view, MainWindowView):
+            raise Exception("Should send message only from MainWindowView")
+        self.widget.current_view.presenter.send_message()

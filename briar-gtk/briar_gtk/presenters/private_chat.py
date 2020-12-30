@@ -5,7 +5,7 @@
 import time
 
 from gettext import gettext as _
-from gi.repository import Gtk, GLib
+from gi.repository import Gdk, Gtk, GLib
 
 from briar_wrapper.models.contacts import Contacts
 from briar_wrapper.models.private_chat import PrivateChat
@@ -187,7 +187,7 @@ class PrivateChatPresenter:
     def _setup_chat_entry(self):
         chat_entry = self._view.builder.get_object("chat_entry")
         self._chat_entry_signal_id = chat_entry.connect(
-            "activate", self._on_chat_entry_activate
+            "key-press-event", self._on_chat_entry_activate
         )
         chat_entry.grab_focus()
 
@@ -244,14 +244,29 @@ class PrivateChatPresenter:
         chat_entry.disconnect(self._chat_entry_signal_id)
         del self._chat_entry_signal_id
 
-    def _on_chat_entry_activate(self, widget):
-        if len(widget.get_text()) == 0:
-            return
+    def _on_chat_entry_activate(self, widget, event):
+        # Return is pressed
+        if Gdk.keyval_name(event.keyval) != 'Return':
+            return False
+        # Shift is not pressed
+        if (event.state & Gdk.ModifierType.SHIFT_MASK) == Gdk.ModifierType.SHIFT_MASK:  # noqa
+            return False
+        # Text does not only contain whitespace
+        if len(self._get_text_from_text_view(widget).strip()) == 0:
+            return False
         self._send_message(widget)
         self._sidebar_presenter.refresh_contacts()
+        return True
+
+    @staticmethod
+    def _get_text_from_text_view(widget):
+        text_buffer = widget.get_buffer()
+        start_iter = text_buffer.get_start_iter()
+        end_iter = text_buffer.get_end_iter()
+        return text_buffer.get_text(start_iter, end_iter, True)
 
     def _send_message(self, widget):
-        message = widget.get_text()
+        message = self._get_text_from_text_view(widget)
         private_chat = PrivateChat(APP().api, self._view.contact_id)
         private_chat.send(message)
 
@@ -268,5 +283,5 @@ class PrivateChatPresenter:
 
                 "timestamp": int(round(time.time() * 1000))
             })
-        widget.set_text("")
+        widget.get_buffer().set_text("")
         GLib.idle_add(self._view.scroll_to_bottom)

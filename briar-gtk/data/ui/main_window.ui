@@ -6,6 +6,8 @@
 
   Based on parts of GNOME Fractal
   https://gitlab.gnome.org/GNOME/fractal/blob/4.2.2/fractal-gtk/res/ui/main_window.ui
+  and Dino
+  https://github.com/dino/dino/blob/v0.2.0/main/data/theme.css
 -->
 <interface>
   <requires lib="gtk+" version="3.22"/>
@@ -117,66 +119,89 @@
                             <property name="tightening_threshold">600</property>
                             <property name="hexpand">True</property>
                             <child>
-                              <object class="GtkBox">
+                              <object class="GtkFrame">
                                 <property name="visible">True</property>
+                                <property name="margin">14</property>
                                 <child>
-                                  <object class="GtkButton" id="entry_emoji_button">
+                                  <object class="GtkBox">
                                     <property name="visible">True</property>
-                                    <property name="can_focus">True</property>
-                                    <property name="action_name">win.open-emoji-menu</property>
                                     <child>
-                                      <object class="GtkImage">
+                                      <object class="GtkButton" id="entry_emoji_button">
                                         <property name="visible">True</property>
                                         <property name="can_focus">False</property>
-                                        <property name="icon_name">face-smile-symbolic</property>
-                                      </object>
-                                    </child>
-                                    <accessibility>
+                                        <property name="margin-top">3</property>
+                                        <property name="margin-bottom">3</property>
+                                        <property name="vexpand">False</property>
+                                        <property name="valign">start</property>
+                                        <property name="relief">none</property>
+                                        <property name="action_name">win.open-emoji-menu</property>
+                                        <child>
+                                          <object class="GtkImage">
+                                            <property name="visible">True</property>
+                                            <property name="can_focus">False</property>
+                                            <property name="icon_name">face-smile-symbolic</property>
+                                          </object>
+                                        </child>
+                                        <accessibility>
 
-                                    </accessibility>
-                                    <child internal-child="accessible">
-                                      <object class="AtkObject" id="a11y-entry_emoji_button">
-                                        <property name="AtkObject::accessible_name" translatable="yes">Show emojis</property>
+                                        </accessibility>
+                                        <child internal-child="accessible">
+                                          <object class="AtkObject" id="a11y-entry_emoji_button">
+                                            <property name="AtkObject::accessible_name" translatable="yes">Show emojis</property>
+                                          </object>
+                                        </child>
+                                        <style>
+                                          <class name="message-input-button" />
+                                        </style>
                                       </object>
                                     </child>
-                                  </object>
-                                </child>
-                                <child>
-                                  <object class="GtkScrolledWindow">
-                                    <property name="visible">True</property>
-                                    <property name="hexpand">True</property>
-                                    <property name="shadow_type">in</property>
-                                    <property name="border_width">3</property>
                                     <child>
-                                      <object class="GtkTextView" id="chat_entry">
+                                      <object class="GtkScrolledWindow">
                                         <property name="visible">True</property>
-                                        <property name="can_focus">True</property>
-                                        <property name="wrap_mode">word-char</property>
+                                        <property name="propagate_natural_height">True</property>
+                                        <property name="max_content_height">300</property>
+                                        <child>
+                                          <object class="GtkTextView" id="chat_entry">
+                                            <property name="visible">True</property>
+                                            <property name="can_focus">True</property>
+                                            <property name="hexpand">True</property>
+                                            <property name="valign">center</property>
+                                            <property name="wrap_mode">word-char</property>
+                                          </object>
+                                        </child>
+                                        <style>
+                                          <class name="message-input-area" />
+                                        </style>
                                       </object>
                                     </child>
-                                    <style>
-                                      <class name="message-input-area" />
-                                    </style>
-                                  </object>
-                                </child>
-                                <child>
-                                  <object class="GtkButton" id="entry_send_button">
-                                    <property name="visible">True</property>
-                                    <property name="can_focus">True</property>
-                                    <property name="action_name">win.send-message</property>
                                     <child>
-                                      <object class="GtkImage">
+                                      <object class="GtkButton" id="entry_send_button">
                                         <property name="visible">True</property>
                                         <property name="can_focus">False</property>
-                                        <property name="icon_name">media-playback-start</property>
-                                      </object>
-                                    </child>
-                                    <accessibility>
+                                        <property name="margin-top">3</property>
+                                        <property name="margin-bottom">3</property>
+                                        <property name="vexpand">False</property>
+                                        <property name="valign">start</property>
+                                        <property name="relief">none</property>
+                                        <property name="action_name">win.send-message</property>
+                                        <child>
+                                          <object class="GtkImage">
+                                            <property name="visible">True</property>
+                                            <property name="can_focus">False</property>
+                                            <property name="icon_name">media-playback-start</property>
+                                          </object>
+                                        </child>
+                                        <accessibility>
 
-                                    </accessibility>
-                                    <child internal-child="accessible">
-                                      <object class="AtkObject" id="a11y-entry_send_button">
-                                        <property name="AtkObject::accessible_name" translatable="yes">Send</property>
+                                        </accessibility>
+                                        <child internal-child="accessible">
+                                          <object class="AtkObject" id="a11y-entry_send_button">
+                                            <property name="AtkObject::accessible_name" translatable="yes">Send</property>
+                                          </object>
+                                        </child>
+                                        <style>
+                                          <class name="message-input-button" />
+                                        </style>
                                       </object>
                                     </child>
                                   </object>
@@ -185,6 +210,9 @@
                             </child>
                           </object>
                         </child>
+                        <style>
+                          <class name="chat-view" />
+                        </style>
                       </object>
                       <packing>
                         <property name="expand">True</property>

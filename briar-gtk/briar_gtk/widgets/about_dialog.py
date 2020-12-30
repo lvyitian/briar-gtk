@@ -55,6 +55,7 @@ class AboutDialogWidget():
         code_use_list = [
             "GNOME Fractal https://wiki.gnome.org/Apps/Fractal",
             "GNOME Lollypop https://wiki.gnome.org/Apps/Lollypop",
+            "Dino https://dino.im/",
         ]
         self._about_dialog.add_credit_section(
             code_use_title, code_use_list

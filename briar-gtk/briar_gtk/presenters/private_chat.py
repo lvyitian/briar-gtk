@@ -202,6 +202,8 @@ class PrivateChatPresenter:
         self._chat_entry_signal_id = chat_entry.connect(
             "key-press-event", self._on_chat_entry_activate
         )
+        # TODO: Activate vscrollbar only if needed (to save space)
+        # https://github.com/dino/dino/blob/231df1/main/src/ui/chat_input/chat_text_view.vala#L51
         chat_entry.grab_focus()
 
     @staticmethod

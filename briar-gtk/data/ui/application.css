@@ -5,6 +5,8 @@
 
   Based on parts of GNOME Fractal
   https://gitlab.gnome.org/GNOME/fractal/blob/4.2.2/fractal-gtk/res/app.css
+  and Dino
+  https://github.com/dino/dino/blob/v0.2.0/main/data/theme.css
 **/
 
 /** Dialog like windows **/
@@ -15,13 +17,21 @@
 
 /** Main window **/
 
+.chat-view {
+  background-color: @theme_base_color;
+}
+
+.chat-view frame border {
+  border-radius: 4px;
+}
+
 .messages-box {
   background-color: @theme_base_color;
 }
 
 .messages-history {
   background-color: @theme_base_color;
-  padding: 0 4px 4px;
+  padding: 0 4px 0;
 }
 
 .history-view {
@@ -37,18 +47,23 @@
   -gtk-outline-radius: 9999px;
 }
 
-.message-input-area {
-  padding: 6px;
+.message-input-button {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  min-height: 0;
+  min-width: 24px;
+  padding: 7px 5px;
+  color: alpha(@theme_fg_color, 0.7);
+  outline: none;
 }
 
-.message-input-focused {
-  border: 2px solid #1f78d1;
-  padding: 5px;
+.message-input-button:hover {
+    color: @theme_selected_bg_color;
 }
 
 .messages-scroll {
   background-color: @theme_base_color;
-  border-bottom: 1px solid @borders;
 }
 
 .chat-placeholder-title {

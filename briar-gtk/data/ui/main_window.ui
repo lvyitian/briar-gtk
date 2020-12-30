@@ -126,7 +126,7 @@
                                   <object class="GtkBox">
                                     <property name="visible">True</property>
                                     <child>
-                                      <object class="GtkScrolledWindow">
+                                      <object class="GtkScrolledWindow" id="chat_input_scroll">
                                         <property name="visible">True</property>
                                         <property name="margin">6</property>
                                         <property name="propagate_natural_height">True</property>

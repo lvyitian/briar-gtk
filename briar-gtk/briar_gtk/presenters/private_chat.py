@@ -193,9 +193,29 @@ class PrivateChatPresenter:
         self._chat_input_signal_id = chat_input.connect(
             "key-press-event", self._on_chat_input_activate
         )
-        # TODO: Activate vscrollbar only if needed (to save space)
-        # https://github.com/dino/dino/blob/231df1/main/src/ui/chat_input/chat_text_view.vala#L51
+        self._setup_vscrollbar_listener()
         chat_input.grab_focus()
+
+    def _setup_vscrollbar_listener(self):
+        chat_input_scroll = self._view.builder.get_object("chat_input_scroll")
+        vscollbar = chat_input_scroll.get_vscrollbar()
+        self._vscrollbar_min_height = vscollbar.get_preferred_height()[0]
+
+        vadjustment = chat_input_scroll.get_vadjustment()
+        vadjustment.connect_after("notify", self._on_upper_notify)
+
+    # pylint: disable=unused-argument, line-too-long
+    def _on_upper_notify(self, g_object, param_spec):  # noqa
+        """
+        https://github.com/dino/dino/blob/v0.2.0/main/src/ui/chat_input/chat_text_view.vala#L51
+        """
+        chat_input_scroll = self._view.builder.get_object("chat_input_scroll")
+        vadjustment = chat_input_scroll.get_vadjustment()
+        vadjustment.value = vadjustment.get_upper() - vadjustment.get_page_size()  # noqa
+
+        # Hack for vscrollbar not requiring space and making TextView higher
+        vscollbar = chat_input_scroll.get_vscrollbar()
+        vscollbar.set_visible(vadjustment.get_upper() > chat_input_scroll.get_max_content_height() - 2 * self._vscrollbar_min_height)  # noqa
 
     @staticmethod
     def _hide_chat_view(main_content_stack):

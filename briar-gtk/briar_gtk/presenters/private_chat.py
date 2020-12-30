@@ -86,6 +86,10 @@ class PrivateChatPresenter:
         confirmation_dialog.connect("response", self._delete_contact)
         confirmation_dialog.show_all()
 
+    def open_emoji_menu(self):
+        chat_entry = self._view.builder.get_object("chat_entry")
+        chat_entry.emit("insert-emoji")
+
     def close_private_chat(self):  # formerly `show_sidebar`
         main_content_stack = self._view.builder.get_object(
             "main_content_stack")

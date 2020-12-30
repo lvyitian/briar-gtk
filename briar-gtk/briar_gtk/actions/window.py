@@ -28,6 +28,7 @@ class WindowActions(Actions):
         self._setup_change_alias_contact_action()
         self._setup_open_about_page_action()
         self._setup_open_add_contact_action()
+        self._setup_open_emoji_menu_action()
         self._setup_open_main_window_action()
         self._setup_open_private_chat_action()
 
@@ -54,6 +55,9 @@ class WindowActions(Actions):
 
     def _setup_open_add_contact_action(self):
         self._setup_action("open-add-contact", None, self._open_add_contact)
+
+    def _setup_open_emoji_menu_action(self):
+        self._setup_action("open-emoji-menu", None, self._open_emoji_menu)
 
     def _setup_open_main_window_action(self):
         self._setup_action("open-main-window", None, self._open_main_window)
@@ -96,6 +100,12 @@ class WindowActions(Actions):
     # pylint: disable=unused-argument
     def _open_add_contact(self, action, parameter):
         self.widget.show_add_contact_view()
+
+    # pylint: disable=unused-argument
+    def _open_emoji_menu(self, action, parameter):
+        if not isinstance(self.widget.current_view, MainWindowView):
+            raise Exception("Should open emoji menu only from MainWindowView")
+        self.widget.current_view.presenter.open_emoji_menu()
 
     # pylint: disable=unused-argument
     def _open_main_window(self, action, parameter):

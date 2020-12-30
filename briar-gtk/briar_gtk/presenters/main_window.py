@@ -38,6 +38,10 @@ class MainWindowPresenter:
         if isinstance(self._private_chat_presenter, PrivateChatPresenter):
             self._private_chat_presenter.open_delete_contact_dialog()
 
+    def open_emoji_menu(self):
+        if isinstance(self._private_chat_presenter, PrivateChatPresenter):
+            self._private_chat_presenter.open_emoji_menu()
+
     def close_private_chat(self):
         if isinstance(self._private_chat_presenter, PrivateChatPresenter):
             self._private_chat_presenter.close_private_chat()

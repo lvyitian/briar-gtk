@@ -205,7 +205,7 @@ class PrivateChatPresenter:
         vadjustment.connect_after("notify", self._on_upper_notify)
 
     # pylint: disable=unused-argument, line-too-long
-    def _on_upper_notify(self, g_object, param_spec):  # noqa
+    def _on_upper_notify(self, g_object, param_spec):
         """
         https://github.com/dino/dino/blob/v0.2.0/main/src/ui/chat_input/chat_text_view.vala#L51
         """
@@ -275,7 +275,8 @@ class PrivateChatPresenter:
         if Gdk.keyval_name(event.keyval) != 'Return':
             return False
         # Shift is not pressed
-        if (event.state & Gdk.ModifierType.SHIFT_MASK) == Gdk.ModifierType.SHIFT_MASK:  # noqa
+        if (event.state & Gdk.ModifierType.SHIFT_MASK) == \
+                Gdk.ModifierType.SHIFT_MASK:
             return False
         # Text does not only contain whitespace
         if len(self._get_text_from_text_view(widget).strip()) == 0:

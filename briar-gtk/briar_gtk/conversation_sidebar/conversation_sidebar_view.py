@@ -1,8 +1,10 @@
 # Copyright (c) 2020-2021 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
+
 from briar_gtk.define import APP
-from briar_gtk.conversation_sidebar.conversation_sidebar_presenter import SidebarPresenter
+from briar_gtk.conversation_sidebar.conversation_sidebar_presenter import \
+    SidebarPresenter
 from briar_gtk.conversation_sidebar.contact_row import ContactRowWidget
 
 

@@ -6,7 +6,8 @@ from briar_gtk.notification_handler import NotificationHandler
 from briar_gtk.private_chat.private_chat_presenter import PrivateChatPresenter
 from briar_gtk.define import APP
 from briar_gtk.private_chat.private_chat_view import PrivateChatView
-from briar_gtk.conversation_sidebar.conversation_sidebar_view import SidebarView
+from briar_gtk.conversation_sidebar.conversation_sidebar_view import \
+    SidebarView
 from briar_gtk.conversation.about_dialog import AboutDialogWidget
 
 

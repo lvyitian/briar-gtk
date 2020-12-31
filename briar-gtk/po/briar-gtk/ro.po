@@ -5,7 +5,10 @@
 #
 # Translators:
 # erinm, 2020
-# Moo, 2020
+# Cristina Lupu <cristina@cji.ro>, 2020
+# titus <titus0818@gmail.com>, 2020
+# Vitalie Ciubotaru <vitalie@ciubotaru.tk>, 2020
+# Licaon_Kter, 2020
 #
 #, fuzzy
 msgid ""
@@ -13,186 +16,186 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Moo, 2020\n"
-"Language-Team: Lithuanian (https://www.transifex.com/otf/teams/76528/lt/)\n"
-"Language: lt\n"
+"Last-Translator: Licaon_Kter, 2020\n"
+"Language-Team: Romanian (https://www.transifex.com/otf/teams/76528/ro/)\n"
+"Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
-msgstr "Perduokite šią nuorodą adresatui, kurį norite pridėti"
+msgstr "Dați această adresă contactului pe care doriți să-l adăugați"
 
 msgctxt "Used in add contact page"
 msgid "Enter the link from your contact here"
-msgstr "Čia įveskite iš adresato gautą nuorodą"
+msgstr "Introduceți adresa contactului dumneavoastră aici"
 
 msgctxt "Used in add contact page"
 msgid "Contact's link"
-msgstr "Adresato nuoroda"
+msgstr "Adresa contactului"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a link"
-msgstr "Įveskite nuorodą"
+msgstr "Vă rugăm să introduceți o adresă"
 
 msgctxt "Used in add contact page"
 msgid "Give your contact a nickname. Only you can see it."
-msgstr "Suteikite savo adresatui slapyvardį. Slapyvardį matysite tik jūs."
+msgstr "Introduceți un nume pentru contact. Vizibil doar pentru dumneavoastră."
 
 msgctxt "Used in add contact page"
 msgid "Enter a nickname"
-msgstr "Įveskite slapyvardį"
+msgstr "Introduceți un nume"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a nickname"
-msgstr "Įveskite slapyvardį"
+msgstr "Vă rugăm să introduceți un nume"
 
 msgctxt "Button in add contact page"
 msgid "Add contact"
-msgstr "Pridėti adresatą"
+msgstr "Adaugă contact"
 
 msgid "Next"
-msgstr "Kitas"
+msgstr "Înainte"
 
 msgctxt "Title in add contact page"
 msgid "Add contact"
-msgstr "Pridėti adresatą"
+msgstr "Adaugă contact"
 
 msgid "Change contact name"
-msgstr "Pakeisti adresato vardą"
+msgstr "Schimbă nume contact"
 
 msgid "Delete all messages"
-msgstr "Ištrinti visas žinutes"
+msgstr "Șterge toate mesajele"
 
 msgid "Delete contact"
-msgstr "Ištrinti adresatą"
+msgstr "Șterge contactul"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
 msgstr ""
 
 msgid "No contact selected"
-msgstr "Nepasirinktas kontaktas"
+msgstr "Nici un contact selectat"
 
 msgid "Select a contact to start chatting"
-msgstr "Pasirinkite adresatą norėdami pradėti pokalbį"
+msgstr ""
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
-msgstr "Pridėti adresatą"
+msgstr "Adaugă contact"
 
 msgid "Main menu"
-msgstr "Pagrindinis meniu"
+msgstr ""
 
 msgid "Back"
-msgstr "Atgal"
+msgstr "Înapoi"
 
 msgid "Chat menu"
-msgstr "Pokalbio meniu"
+msgstr ""
 
 msgid "Password"
-msgstr "Slaptažodis"
+msgstr "Parola"
 
 msgctxt "Button in login page"
 msgid "Log in"
-msgstr "Prisijungti"
+msgstr "Autentificare"
 
 msgctxt "Used in login page after entering the password"
 msgid "Logging in"
-msgstr "Prisijungiama"
+msgstr "Autentificare"
 
 msgid "About Briar GTK"
-msgstr "Apie Briar GTK"
+msgstr "Despre Briar GTK"
 
 msgid "Welcome to Briar"
-msgstr "Sveiki atvykę į Briar"
+msgstr "Bine ați venit la Briar"
 
 msgid "Choose your nickname"
-msgstr "Pasirinkite savo slapyvardį"
+msgstr "Alegeți-vă numele de utilizator"
 
 msgid "Confirm Password"
-msgstr "Pakartokite slaptažodį"
+msgstr "Confirmare parolă"
 
 msgid "Create Account"
-msgstr "Sukurti paskyrą"
+msgstr "Creează un cont"
 
 msgid "Creating Account"
-msgstr "Paskyros sukūrimas"
+msgstr "Crearea contului"
 
 msgid "Please enter a nickname"
-msgstr "Įveskite slapyvardį"
+msgstr "Vă rugăm să introduceți un nume"
 
 msgid "Please enter a password"
-msgstr "Įveskite slaptažodį"
+msgstr ""
 
 msgid "The passwords do not match"
-msgstr "Slaptažodžiai nesutampa"
+msgstr ""
 
 msgid "Couldn't register account"
-msgstr "Nepavyko registruoti paskyros"
+msgstr ""
 
 msgid "Couldn't log in"
-msgstr "Nepavyko prisijungti"
+msgstr ""
 
 msgid "Localization Lab Translation Teams"
-msgstr "Localization Lab vertimo komandos"
+msgstr ""
 
 msgid "Using code by"
-msgstr "Naudojamas kodas pagal"
+msgstr ""
 
 msgid "Briar functionality by"
-msgstr "Briar funkcionalumas pagal"
+msgstr ""
 
 msgid "Please enter a link"
-msgstr "Įveskite nuorodą"
+msgstr "Vă rugăm să introduceți o adresă"
 
 msgid "Enter your contact's link, not your own"
-msgstr "Įveskite ne savo, o adresato nuorodą"
+msgstr "Introduceți adresa contactului, nu cea personală"
 
 msgid "Contact added"
-msgstr "Kontaktas pridėtas"
+msgstr ""
 
 msgid "New private message"
-msgstr "Nauja privati žinutė"
+msgstr ""
 
 msgid "Are you sure you want to exit?"
-msgstr "Ar tikrai norite išeiti?"
+msgstr ""
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr "Užvėrę Briar, nebegalėsite gauti ar siųsti laukiančių žinučių. Palikite Briar atvertą, kad palaikytumėte ryšį su savo adresatais."
+msgstr ""
 
 msgid "Change"
-msgstr "Pakeisti"
+msgstr "Modifică"
 
 msgid "Confirm Message Deletion"
-msgstr "Patvirtinkite žinutės ištrynimą"
+msgstr "Confirmare ștergere mesaj"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr "Ar tikrai norite ištrinti visas žinutes?"
+msgstr "Sigur doriți să ștergeți toate mesajele?"
 
 msgid "Confirm Contact Deletion"
-msgstr "Patvirtinkite adresato ištrynimą"
+msgstr "Confirmare ștergere contact"
 
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "Ar tikrai norite pašalinti šį adresatą ir visas žinutes, kuriomis apsikeitėte su šiuo adresatu ?"
+msgstr "Sigur doriți să ștergeți acest contact și toate mesajele schimbate?"
 
 msgid "Myself"
-msgstr "Aš"
+msgstr ""
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr "Autorių teisės © 2019-2020 Briar projektas"
+msgstr ""
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr "Briar kliento programa, skirta darbalaukio ir mobiliesiems įrenginiams"
+msgstr ""
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr "Apsilankyti Briar GTK internetinėje svetainėje"
+msgstr ""
 
 #~ msgctxt "Used in input field in main window"
 #~ msgid "Type Message"
-#~ msgstr "Rašykite žinutę"
+#~ msgstr "Tastați mesajul"

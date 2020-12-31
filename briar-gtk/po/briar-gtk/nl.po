@@ -75,23 +75,9 @@ msgstr "Verwijder alle berichten"
 msgid "Delete contact"
 msgstr "Contact verwijderen"
 
-msgid "Password"
-msgstr "Wachtwoord"
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Inloggen"
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "Aan het inloggen"
-
-msgid "About Briar GTK"
-msgstr "Over Briar GTK"
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "Type een bericht"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
+msgstr ""
 
 msgid "No contact selected"
 msgstr "Geen contact geselecteerd"
@@ -112,6 +98,20 @@ msgstr "Terug"
 msgid "Chat menu"
 msgstr "Chat menu"
 
+msgid "Password"
+msgstr "Wachtwoord"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "Inloggen"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "Aan het inloggen"
+
+msgid "About Briar GTK"
+msgstr "Over Briar GTK"
+
 msgid "Welcome to Briar"
 msgstr "Welkom bij Briar"
 
@@ -127,8 +127,20 @@ msgstr "Account maken"
 msgid "Creating Account"
 msgstr "Account maken"
 
-msgid "Change"
-msgstr "Wijzigen"
+msgid "Please enter a nickname"
+msgstr "Geef a.u.b. een gebruikersnaam op"
+
+msgid "Please enter a password"
+msgstr "Voer a.u.b. een wachtwoord in"
+
+msgid "The passwords do not match"
+msgstr "De wachtwoorden komen niet overeen"
+
+msgid "Couldn't register account"
+msgstr "Registratie is mislukt"
+
+msgid "Couldn't log in"
+msgstr "Inloggen is mislukt"
 
 msgid "Localization Lab Translation Teams"
 msgstr ""
@@ -139,14 +151,26 @@ msgstr "Gebruikt code van"
 msgid "Briar functionality by"
 msgstr "Briar-functionaliteit door"
 
-msgid "Myself"
-msgstr "Ik"
+msgid "Please enter a link"
+msgstr "Voer a.u.b. een link in."
+
+msgid "Enter your contact's link, not your own"
+msgstr "Voer de link van jouw contact in, niet de jouwe"
+
+msgid "Contact added"
+msgstr "Contactpersoon is toegevoegd"
+
+msgid "New private message"
+msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr "Weet je zeker dat u Briar wilt afsluiten?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr ""
+
+msgid "Change"
+msgstr "Wijzigen"
 
 msgid "Confirm Message Deletion"
 msgstr "Bevestig verwijderen berichten"
@@ -160,32 +184,8 @@ msgstr "Bevestig verwijderen van contact"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Weet je zeker dat je dit contact en alle bijbehorende berichten wilt verwijderen?"
 
-msgid "Contact added"
-msgstr "Contactpersoon is toegevoegd"
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr "Voer a.u.b. een wachtwoord in"
-
-msgid "Couldn't log in"
-msgstr "Inloggen is mislukt"
-
-msgid "Please enter a nickname"
-msgstr "Geef a.u.b. een gebruikersnaam op"
-
-msgid "The passwords do not match"
-msgstr "De wachtwoorden komen niet overeen"
-
-msgid "Couldn't register account"
-msgstr "Registratie is mislukt"
-
-msgid "Please enter a link"
-msgstr "Voer a.u.b. een link in."
-
-msgid "Enter your contact's link, not your own"
-msgstr "Voer de link van jouw contact in, niet de jouwe"
+msgid "Myself"
+msgstr "Ik"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
@@ -198,3 +198,7 @@ msgstr "Briar applicatie voor GTK-ondersteunde desktop- en mobiele apparaten"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Bezoek de website van Briar GTK"
+
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "Type een bericht"

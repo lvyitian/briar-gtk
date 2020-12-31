@@ -33,6 +33,9 @@ msgstr "Veilig communiceren, waar dan ook"
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
 msgstr "Briar is een berichten app ontworpen voor activisten, journalisten en wie dan ook die een veilige, gemakkelijke en robuste manier nodig heeft voor communicatie. Niet zoals traditionele berichtenapps maakt Briar geen gebruik van een centrale server - berichten worden direct tussen de apparaten van gebruikers gesynchroniseerd. Als het internet het niet doet kan Briar synchroniseren d.m.v. Bluetooth of wifi, zodat de informatie blijft ronstromen tijdens een crisis. Als het internet het wel doet kan Briar Synchroniseren over het Tor netwerk, en beschermt het gebruikers en hun verhoudingen van surveillance."
 
+msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
+msgstr ""
+
 msgid "The Briar Project"
 msgstr "Het Briar Project"
 
@@ -55,6 +58,9 @@ msgid "Support for mobile devices (AArch64/ARM)"
 msgstr ""
 
 msgid "Update Briar core to version 1.2.12"
+msgstr ""
+
+msgid "Translation into Romanian"
 msgstr ""
 
 msgid "Improved notification support"

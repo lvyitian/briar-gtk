@@ -76,23 +76,9 @@ msgstr "Tüm iletileri sil"
 msgid "Delete contact"
 msgstr "Kişiyi sil"
 
-msgid "Password"
-msgstr "Parola"
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Giriş yap"
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "Giriş yapılıyor"
-
-msgid "About Briar GTK"
-msgstr "Briar GTK Hakkında"
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "İletiyi Yazın"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
+msgstr ""
 
 msgid "No contact selected"
 msgstr "Kişi seçilmedi"
@@ -113,6 +99,20 @@ msgstr "Geri"
 msgid "Chat menu"
 msgstr "Sohbet Menüsü"
 
+msgid "Password"
+msgstr "Parola"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "Giriş yap"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "Giriş yapılıyor"
+
+msgid "About Briar GTK"
+msgstr "Briar GTK Hakkında"
+
 msgid "Welcome to Briar"
 msgstr "Briar'a Hoşgeldiniz"
 
@@ -128,8 +128,20 @@ msgstr "Hesap Oluştur"
 msgid "Creating Account"
 msgstr "Hesap Oluşturma"
 
-msgid "Change"
-msgstr "Değişiklik"
+msgid "Please enter a nickname"
+msgstr "Lütfen bir takma ad girin"
+
+msgid "Please enter a password"
+msgstr "Lütfen bir parola girin"
+
+msgid "The passwords do not match"
+msgstr "Parolalar eşleşmiyor"
+
+msgid "Couldn't register account"
+msgstr "Hesap oluşturulamıyor"
+
+msgid "Couldn't log in"
+msgstr "Oturum açılamıyor"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Lozalication Lab Yerelleştirme Ekipleri"
@@ -140,14 +152,26 @@ msgstr "Kodunu kullandıklarımız"
 msgid "Briar functionality by"
 msgstr "Briar işlevselliği"
 
-msgid "Myself"
-msgstr "Ben"
+msgid "Please enter a link"
+msgstr "Lütfen bir bağlantı girin"
+
+msgid "Enter your contact's link, not your own"
+msgstr "Kişinizin bağlantısını girin, kendi bağlantınızı değil"
+
+msgid "Contact added"
+msgstr "Kişi eklendi"
+
+msgid "New private message"
+msgstr "Yeni özel ileti"
 
 msgid "Are you sure you want to exit?"
 msgstr "Çıkmak istediğinizden emin misiniz?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "Briarı kapattığınızda ileti alamayacak veya beklemede olanları gönderemeyeceksiniz. Kişilerinizle bağlantıda kalmak için Briar'ı açık tutun."
+
+msgid "Change"
+msgstr "Değişiklik"
 
 msgid "Confirm Message Deletion"
 msgstr "İleti Silmeyi Onayla"
@@ -161,32 +185,8 @@ msgstr "Kişi Silmeyi Onayla"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Bu kişiyi ve bu kişiyle ilgili tüm iletileri kaldırmak istediğinize emin misiniz?"
 
-msgid "Contact added"
-msgstr "Kişi eklendi"
-
-msgid "New private message"
-msgstr "Yeni özel ileti"
-
-msgid "Please enter a password"
-msgstr "Lütfen bir parola girin"
-
-msgid "Couldn't log in"
-msgstr "Oturum açılamıyor"
-
-msgid "Please enter a nickname"
-msgstr "Lütfen bir takma ad girin"
-
-msgid "The passwords do not match"
-msgstr "Parolalar eşleşmiyor"
-
-msgid "Couldn't register account"
-msgstr "Hesap oluşturulamıyor"
-
-msgid "Please enter a link"
-msgstr "Lütfen bir bağlantı girin"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Kişinizin bağlantısını girin, kendi bağlantınızı değil"
+msgid "Myself"
+msgstr "Ben"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
@@ -199,3 +199,7 @@ msgstr "GTK Masaüstü ve mobil aygıtlar için Biar istemcisi"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Briar GTK web sitesini ziyaret edin"
+
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "İletiyi Yazın"

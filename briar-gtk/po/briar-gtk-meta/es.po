@@ -10,6 +10,7 @@
 # ducki2p <ducki2p@gmail.com>, 2020
 # Martus Translations <translations@martus.org>, 2020
 # erinm, 2020
+# Nico Alt, 2020
 # Zuhualime Akoochimoya, 2020
 #
 #, fuzzy
@@ -35,6 +36,9 @@ msgstr "Mensajería segura, en cualquier lado"
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
 msgstr "Briar es una aplicación de mensajería diseñada para activistas, periodistas y cualquier otra persona que necesita una forma segura, fácil y robusta de comunicación. A diferencia de las aplicaciones de mensajería tradicionales, Briar no necesita un servidor central – los mensajes son sincronizados directamente entre los dispositivos de los usuarios. Si no hay conexión a internet disponible, Briar puede sincronizarse vía Bluetooth o WiFi, manteniendo la información fluyendo en crisis. Si Internet está disponible, Briar puede sincronizarse vía red Tor, protegiendo a los usuarios y sus relaciones de la vigilancia."
 
+msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
+msgstr ""
+
 msgid "The Briar Project"
 msgstr "El Proyecto Briar"
 
@@ -54,9 +58,12 @@ msgid "Improvements in this version:"
 msgstr "Mejoras en esta versión:"
 
 msgid "Support for mobile devices (AArch64/ARM)"
-msgstr ""
+msgstr "Soporte para dispositivos móviles (AArch64/ARM)"
 
 msgid "Update Briar core to version 1.2.12"
+msgstr "Actualizar Briar Principal a la versión 1.2.12"
+
+msgid "Translation into Romanian"
 msgstr ""
 
 msgid "Improved notification support"

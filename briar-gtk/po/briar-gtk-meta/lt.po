@@ -29,6 +29,9 @@ msgstr "Saugus susirašinėjimas, bet kur"
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
 msgstr "Briar yra žinučių perdavimo programėlė, skirta aktyvistams, žurnalistams ir visiems kitiems, kam reikia saugaus, lengvo ir veiksmingo bendravimo būdo. Kitaip nei kitos tradicinės žinučių perdavimo programėlės, Briar nepasikliauja centriniu serveriu - žinutės yra sinchronizuojamos tiesiogiai tarp naudotojų įrenginių. Jei nėra interneto, Briar gali sinchronizuotis per Bluetooth ar belaidį ryšį (Wi-Fi), kad palaikytų informacijos perdavimą kriziniais atvejais. Jei internetas veikia, Briar gali sinchronizuotis per Tor tinklą, apsaugodama naudotojus ir jų tarpusavio ryšius nuo stebėjimo."
 
+msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
+msgstr ""
+
 msgid "The Briar Project"
 msgstr "Briar projektas"
 
@@ -48,9 +51,12 @@ msgid "Improvements in this version:"
 msgstr "Šioje versijoje pristatyti patobulinimai:"
 
 msgid "Support for mobile devices (AArch64/ARM)"
-msgstr ""
+msgstr "Mobiliųjų įrenginių palaikymas (AArch64/ARM)"
 
 msgid "Update Briar core to version 1.2.12"
+msgstr "Atnaujinti Briar branduolį iki versijos 1.2.12"
+
+msgid "Translation into Romanian"
 msgstr ""
 
 msgid "Improved notification support"

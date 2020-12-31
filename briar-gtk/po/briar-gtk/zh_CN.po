@@ -7,9 +7,9 @@
 # YFdyh000 <yfdyh000@gmail.com>, 2020
 # 高垚鑫, 2020
 # Yunfei Zhang <zsdr@protonmail.com>, 2020
-# POIUY, 2020
-# Chaos, 2020
+# QWERT Eric, 2020
 # Beta Ba <linsui@inbox.lv>, 2020
+# Chaos, 2020
 #
 #, fuzzy
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Beta Ba <linsui@inbox.lv>, 2020\n"
+"Last-Translator: Chaos, 2020\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/otf/teams/76528/zh-Hans/)\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -73,23 +73,9 @@ msgstr "删除全部消息"
 msgid "Delete contact"
 msgstr "删除联系人"
 
-msgid "Password"
-msgstr "密码"
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "登录"
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "登录中"
-
-msgid "About Briar GTK"
-msgstr "关于 Briar GTK"
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "输入消息"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
+msgstr ""
 
 msgid "No contact selected"
 msgstr "没有联系人被选中"
@@ -110,6 +96,20 @@ msgstr "返回"
 msgid "Chat menu"
 msgstr "聊天菜单"
 
+msgid "Password"
+msgstr "密码"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "登录"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "登录中"
+
+msgid "About Briar GTK"
+msgstr "关于 Briar GTK"
+
 msgid "Welcome to Briar"
 msgstr "欢迎来到 Briar"
 
@@ -125,26 +125,50 @@ msgstr "创建帐户"
 msgid "Creating Account"
 msgstr "正在创建账户"
 
-msgid "Change"
-msgstr "更改"
+msgid "Please enter a nickname"
+msgstr "请输入一个昵称"
+
+msgid "Please enter a password"
+msgstr "请输入一个密码"
+
+msgid "The passwords do not match"
+msgstr "密码不匹配"
+
+msgid "Couldn't register account"
+msgstr "无法注册帐户"
+
+msgid "Couldn't log in"
+msgstr "无法登录"
 
 msgid "Localization Lab Translation Teams"
 msgstr "本地化实验室 翻译团队"
 
 msgid "Using code by"
-msgstr "使用下列项目的代码"
+msgstr "采用了下列项目的代码"
 
 msgid "Briar functionality by"
 msgstr "Briar 功能由下列组件驱动"
 
-msgid "Myself"
-msgstr "我自己"
+msgid "Please enter a link"
+msgstr "请输入一个链接"
+
+msgid "Enter your contact's link, not your own"
+msgstr "输入您联系人的链接，不要输入您自己的"
+
+msgid "Contact added"
+msgstr "联系人已添加"
+
+msgid "New private message"
+msgstr "新私信"
 
 msgid "Are you sure you want to exit?"
 msgstr "你确定要退出吗？"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr "一旦您关闭Briar，您将不再能接收或发送待发送的消息。要与你的联系人保持联系，请保持Briar在开启状态。"
+msgstr "一旦您关闭 Briar，您将无法接收或发送待发送的消息。要与你的联系人保持联系，请保持 Briar 在开启状态。"
+
+msgid "Change"
+msgstr "更改"
 
 msgid "Confirm Message Deletion"
 msgstr "确认删除消息"
@@ -158,32 +182,8 @@ msgstr "确认删除联系人"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "确认要删除该联系人和与之交流的所有消息吗？"
 
-msgid "Contact added"
-msgstr "联系人已添加"
-
-msgid "New private message"
-msgstr "新私信"
-
-msgid "Please enter a password"
-msgstr "请输入一个密码"
-
-msgid "Couldn't log in"
-msgstr "无法登录"
-
-msgid "Please enter a nickname"
-msgstr "请输入一个昵称"
-
-msgid "The passwords do not match"
-msgstr "密码不匹配"
-
-msgid "Couldn't register account"
-msgstr "无法注册帐户"
-
-msgid "Please enter a link"
-msgstr "请输入一个链接"
-
-msgid "Enter your contact's link, not your own"
-msgstr "输入您联系人的链接，不要输入您自己的"
+msgid "Myself"
+msgstr "我自己"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
@@ -191,8 +191,12 @@ msgstr "版权所有 © 2019-2020 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr "用于GTK桌面和移动设备的Briar客户端"
+msgstr "用于 GTK 桌面和移动设备的 Briar 客户端"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr "访问 Briar GTK网站"
+msgstr "访问 Briar GTK 网站"
+
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "输入消息"

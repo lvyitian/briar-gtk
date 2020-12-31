@@ -77,23 +77,9 @@ msgstr "Ta bort alla meddelanden"
 msgid "Delete contact"
 msgstr "Radera kontakt"
 
-msgid "Password"
-msgstr "Lösenord"
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Logga in"
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "Loggar in"
-
-msgid "About Briar GTK"
-msgstr "Om Briar GTK"
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "Skriv meddelande"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
+msgstr ""
 
 msgid "No contact selected"
 msgstr "Ingen kontakt vald"
@@ -114,6 +100,20 @@ msgstr "Tillbaka"
 msgid "Chat menu"
 msgstr "Chattmeny"
 
+msgid "Password"
+msgstr "Lösenord"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "Logga in"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "Loggar in"
+
+msgid "About Briar GTK"
+msgstr "Om Briar GTK"
+
 msgid "Welcome to Briar"
 msgstr "Välkommen till Briar"
 
@@ -129,8 +129,20 @@ msgstr "Skapa konto "
 msgid "Creating Account"
 msgstr "Skapar Konto"
 
-msgid "Change"
-msgstr "Ändra"
+msgid "Please enter a nickname"
+msgstr "Skriv in ett smeknamn"
+
+msgid "Please enter a password"
+msgstr "Ange ett lösenord"
+
+msgid "The passwords do not match"
+msgstr "Lösenorden överensstämmer inte"
+
+msgid "Couldn't register account"
+msgstr "Kunde inte registrera konto"
+
+msgid "Couldn't log in"
+msgstr "Kunde inte logga in"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Översättningsgrupper hos Localization Lab"
@@ -141,14 +153,26 @@ msgstr "Använder kod från"
 msgid "Briar functionality by"
 msgstr "Briar-funktionalitet från"
 
-msgid "Myself"
-msgstr "Mig själv"
+msgid "Please enter a link"
+msgstr "Skriv in en länk"
+
+msgid "Enter your contact's link, not your own"
+msgstr "Skriv in länken du fick från din kontakt, inte din egna länk"
+
+msgid "Contact added"
+msgstr "Kontakt tillagd"
+
+msgid "New private message"
+msgstr "Nytt privat meddelande"
 
 msgid "Are you sure you want to exit?"
 msgstr "Är du säker på att du vill avsluta?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "När du stänger briar kommer du inte längre att ta emot eller skicka väntade meddelanden. Håll Briar öppet för att förbli ansluten till dina kontakter."
+
+msgid "Change"
+msgstr "Ändra"
 
 msgid "Confirm Message Deletion"
 msgstr "Bekräfta meddelande borttagning"
@@ -162,32 +186,8 @@ msgstr "Bekräfta radering av kontakt"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Är du säker att du vill radera denna kontakt och alla meddelanden?"
 
-msgid "Contact added"
-msgstr "Kontakt tillagd"
-
-msgid "New private message"
-msgstr "Nytt privat meddelande"
-
-msgid "Please enter a password"
-msgstr "Ange ett lösenord"
-
-msgid "Couldn't log in"
-msgstr "Kunde inte logga in"
-
-msgid "Please enter a nickname"
-msgstr "Skriv in ett smeknamn"
-
-msgid "The passwords do not match"
-msgstr "Lösenorden överensstämmer inte"
-
-msgid "Couldn't register account"
-msgstr "Kunde inte registrera konto"
-
-msgid "Please enter a link"
-msgstr "Skriv in en länk"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Skriv in länken du fick från din kontakt, inte din egna länk"
+msgid "Myself"
+msgstr "Mig själv"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
@@ -200,3 +200,7 @@ msgstr "En Briar-klient för GTK-skrivbordet och mobila enheter"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Besök Briar GTK:s webbplats"
+
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "Skriv meddelande"

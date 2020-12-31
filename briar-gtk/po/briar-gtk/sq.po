@@ -70,23 +70,9 @@ msgstr "Fshiji krejt mesazhet"
 msgid "Delete contact"
 msgstr "Fshije kontaktin"
 
-msgid "Password"
-msgstr "Fjalëkalim"
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Hyni"
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "Po hyhet"
-
-msgid "About Briar GTK"
-msgstr "Mbi Briar GTK"
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "Shtypni Mesazh"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
+msgstr ""
 
 msgid "No contact selected"
 msgstr "S’ka kontakt të përzgjedhur"
@@ -107,6 +93,20 @@ msgstr "Mbrapsht"
 msgid "Chat menu"
 msgstr "Menu fjalosjeje"
 
+msgid "Password"
+msgstr "Fjalëkalim"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "Hyni"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "Po hyhet"
+
+msgid "About Briar GTK"
+msgstr "Mbi Briar GTK"
+
 msgid "Welcome to Briar"
 msgstr "Mirë se vini në Briar"
 
@@ -122,8 +122,20 @@ msgstr "Krijoni Llogari"
 msgid "Creating Account"
 msgstr "Po Krijohet Llogari"
 
-msgid "Change"
-msgstr "Ndryshoje"
+msgid "Please enter a nickname"
+msgstr "Ju lutemi, jepni një nofkë"
+
+msgid "Please enter a password"
+msgstr "Ju lutemi, jepni një fjalëkalim"
+
+msgid "The passwords do not match"
+msgstr "Fjalëkalimet s’përputhen"
+
+msgid "Couldn't register account"
+msgstr "S’u regjistrua dot llogari"
+
+msgid "Couldn't log in"
+msgstr "S’u bë dot hyrja"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Ekipet e Përkthimit në Localization Lab"
@@ -134,14 +146,26 @@ msgstr "Me përdorim kodi nga"
 msgid "Briar functionality by"
 msgstr "Funksionet Briar nga"
 
-msgid "Myself"
-msgstr "Unë"
+msgid "Please enter a link"
+msgstr "Ju lutemi, jepni një lidhje"
+
+msgid "Enter your contact's link, not your own"
+msgstr "Jepni lidhjen e kontaktit tuaj, jo tuajën"
+
+msgid "Contact added"
+msgstr "Kontakti u shtua"
+
+msgid "New private message"
+msgstr "Mesazh i ri privat"
 
 msgid "Are you sure you want to exit?"
 msgstr "Jeni i sigurt se doni të dilet?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "Pasi të mbyllni Briar-in, s’do të merrni më mesazhe, as do të dërgohen ata pezull. Që të jeni i lidhur me kontaktet tuaja, mbajeni Briar-in të hapur."
+
+msgid "Change"
+msgstr "Ndryshoje"
 
 msgid "Confirm Message Deletion"
 msgstr "Ripohoni Fshirje Mesazhesh"
@@ -155,32 +179,8 @@ msgstr "Ripohoni Fshirje Kontakti"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Jeni i sigurt se doni të hiqet ky kontakt dhe krejt mesazhet e shkëmbyer me këtë kontakt?"
 
-msgid "Contact added"
-msgstr "Kontakti u shtua"
-
-msgid "New private message"
-msgstr "Mesazh i ri privat"
-
-msgid "Please enter a password"
-msgstr "Ju lutemi, jepni një fjalëkalim"
-
-msgid "Couldn't log in"
-msgstr "S’u bë dot hyrja"
-
-msgid "Please enter a nickname"
-msgstr "Ju lutemi, jepni një nofkë"
-
-msgid "The passwords do not match"
-msgstr "Fjalëkalimet s’përputhen"
-
-msgid "Couldn't register account"
-msgstr "S’u regjistrua dot llogari"
-
-msgid "Please enter a link"
-msgstr "Ju lutemi, jepni një lidhje"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Jepni lidhjen e kontaktit tuaj, jo tuajën"
+msgid "Myself"
+msgstr "Unë"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
@@ -193,3 +193,7 @@ msgstr "Një klient Briar për desktop GTK dhe pajisje celulare"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Vizitoni sajtin e Briar GTK"
+
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "Shtypni Mesazh"

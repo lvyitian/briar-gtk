@@ -74,23 +74,9 @@ msgstr "حذف تمام پیام ها"
 msgid "Delete contact"
 msgstr "حذف مخاطب"
 
-msgid "Password"
-msgstr "گذرواژه"
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "ورود"
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
 msgstr ""
-
-msgid "About Briar GTK"
-msgstr "درباره Briar GTK"
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "نوشتن پیام"
 
 msgid "No contact selected"
 msgstr "هیچ مخاطبی انتخاب نشده است"
@@ -111,6 +97,20 @@ msgstr "قبل"
 msgid "Chat menu"
 msgstr "منوی گفتگو"
 
+msgid "Password"
+msgstr "گذرواژه"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "ورود"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr ""
+
+msgid "About Briar GTK"
+msgstr "درباره Briar GTK"
+
 msgid "Welcome to Briar"
 msgstr "به Briar خوش آمدید"
 
@@ -126,26 +126,50 @@ msgstr "ایجاد حساب کاربری"
 msgid "Creating Account"
 msgstr "در حال ایجاد حساب کاربری"
 
-msgid "Change"
-msgstr "تغییر"
+msgid "Please enter a nickname"
+msgstr "لطفا یک نام مستعار وارد کنید"
+
+msgid "Please enter a password"
+msgstr "لطفا رمز عبور را وارد"
+
+msgid "The passwords do not match"
+msgstr "رمز عبور تطابق ندارد"
+
+msgid "Couldn't register account"
+msgstr "عدم موفقیت در ثبت حساب کاربری"
+
+msgid "Couldn't log in"
+msgstr ""
 
 msgid "Localization Lab Translation Teams"
 msgstr "تیم های ترجمه Localization Lab"
 
 msgid "Using code by"
-msgstr ""
+msgstr "استفاده از کد توسط"
 
 msgid "Briar functionality by"
 msgstr ""
 
-msgid "Myself"
-msgstr "خودم"
+msgid "Please enter a link"
+msgstr "لطفا یک پیوند وارد کنید"
+
+msgid "Enter your contact's link, not your own"
+msgstr "به جای پیوند خود، پیوند مخاطب را وارد کنید"
+
+msgid "Contact added"
+msgstr "مخاطب اضافه شد"
+
+msgid "New private message"
+msgstr "پیام خصوصی جدید"
 
 msgid "Are you sure you want to exit?"
 msgstr "آیا مطمئن هستید که می‌خواهید خارج شوید؟"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr ""
+
+msgid "Change"
+msgstr "تغییر"
 
 msgid "Confirm Message Deletion"
 msgstr "تایید حذف پیام"
@@ -159,36 +183,12 @@ msgstr "تایید حذف مخاطب"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "آیا مطمئن هستید که میخواهید این مخاطب و تمام پیام های تبادل شده با آن را حذف کنید؟"
 
-msgid "Contact added"
-msgstr "مخاطب اضافه شد"
-
-msgid "New private message"
-msgstr "پیام خصوصی جدید"
-
-msgid "Please enter a password"
-msgstr "لطفا رمز عبور را وارد"
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr "لطفا یک نام مستعار وارد کنید"
-
-msgid "The passwords do not match"
-msgstr "رمز عبور تطابق ندارد"
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr "لطفا یک پیوند وارد کنید"
-
-msgid "Enter your contact's link, not your own"
-msgstr "به جای پیوند خود، پیوند مخاطب را وارد کنید"
+msgid "Myself"
+msgstr "خودم"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+msgstr "کپی‌رایت © 2020-2019 پروژه Briar"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -197,3 +197,7 @@ msgstr "کلاینت Briar برای دستگاه های موبایل و GTK دس
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "مراجعه به سایت Briar GTK"
+
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "نوشتن پیام"

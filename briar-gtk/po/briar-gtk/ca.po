@@ -74,23 +74,9 @@ msgstr "Suprimeix tots els missatges"
 msgid "Delete contact"
 msgstr "Suprimeix aquest contacte"
 
-msgid "Password"
-msgstr "Contrasenya"
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Inicia sessió"
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "S'està iniciant sessió"
-
-msgid "About Briar GTK"
-msgstr "Quant a Briar GTK"
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "Escriviu un missatge"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
+msgstr ""
 
 msgid "No contact selected"
 msgstr "Cap contacte seleccionat"
@@ -111,6 +97,20 @@ msgstr "Enrere"
 msgid "Chat menu"
 msgstr "Menú de conversa"
 
+msgid "Password"
+msgstr "Contrasenya"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "Inicia sessió"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "S'està iniciant sessió"
+
+msgid "About Briar GTK"
+msgstr "Quant a Briar GTK"
+
 msgid "Welcome to Briar"
 msgstr "Benvingut a Briar"
 
@@ -126,8 +126,20 @@ msgstr "Crea el compte"
 msgid "Creating Account"
 msgstr "Crea un compte"
 
-msgid "Change"
-msgstr "Canvia"
+msgid "Please enter a nickname"
+msgstr "Escriviu un sobrenom"
+
+msgid "Please enter a password"
+msgstr "Escriviu la vostra constrasenya"
+
+msgid "The passwords do not match"
+msgstr "Les contrasenyes no coincideixen"
+
+msgid "Couldn't register account"
+msgstr "No s'ha pogut registrar el compte"
+
+msgid "Couldn't log in"
+msgstr "No s'ha pogut entrar"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Equips de traductors del laboratori de localitzacions"
@@ -138,14 +150,26 @@ msgstr "Usa codi de"
 msgid "Briar functionality by"
 msgstr "Funcionalitat de Briar a càrrec de "
 
-msgid "Myself"
-msgstr "Jo"
+msgid "Please enter a link"
+msgstr "Escriviu un enllaç"
+
+msgid "Enter your contact's link, not your own"
+msgstr "Escriviu l'enllaç del vostre contacte i no el vostre enllaç"
+
+msgid "Contact added"
+msgstr "S'ha afegit el contacte"
+
+msgid "New private message"
+msgstr "Missatge privat nou"
 
 msgid "Are you sure you want to exit?"
 msgstr "Segur que voleu tancar?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "Una vegada tanqueu Briar, ni rebreu cap més missatge ni s'enviaran els pendents d'enviar. manteniu Briar obert si voleu estar connectat amb els vostre contactes."
+
+msgid "Change"
+msgstr "Canvia"
 
 msgid "Confirm Message Deletion"
 msgstr "Confirmeu la supressió dels missatges"
@@ -159,32 +183,8 @@ msgstr "Confirmeu la supressió del contacte"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Segur que voleu suprimir aquest contacte i tots els missatges que us heu intercanviat?"
 
-msgid "Contact added"
-msgstr "S'ha afegit el contacte"
-
-msgid "New private message"
-msgstr "Missatge privat nou"
-
-msgid "Please enter a password"
-msgstr "Escriviu la vostra constrasenya"
-
-msgid "Couldn't log in"
-msgstr "No s'ha pogut entrar"
-
-msgid "Please enter a nickname"
-msgstr "Escriviu un sobrenom"
-
-msgid "The passwords do not match"
-msgstr "Les contrasenyes no coincideixen"
-
-msgid "Couldn't register account"
-msgstr "No s'ha pogut registrar el compte"
-
-msgid "Please enter a link"
-msgstr "Escriviu un enllaç"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Escriviu l'enllaç del vostre contacte i no el vostre enllaç"
+msgid "Myself"
+msgstr "Jo"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
@@ -197,3 +197,7 @@ msgstr "Client de Briar per escriptori GTK i dispositius mòbils"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visiteu la web de Briar"
+
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "Escriviu un missatge"

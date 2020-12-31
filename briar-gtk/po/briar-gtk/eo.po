@@ -70,23 +70,9 @@ msgstr ""
 msgid "Delete contact"
 msgstr "Forigi kontakton"
 
-msgid "Password"
-msgstr "Pasvorto"
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Ensaluti"
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "Ensalutanta"
-
-msgid "About Briar GTK"
-msgstr "Pri Briar-o GTK-a"
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "Entajpi mesaĝon"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
+msgstr ""
 
 msgid "No contact selected"
 msgstr "Neniu kontakto elektis"
@@ -107,6 +93,20 @@ msgstr "Reen"
 msgid "Chat menu"
 msgstr "Babila menuo"
 
+msgid "Password"
+msgstr "Pasvorto"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "Ensaluti"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "Ensalutanta"
+
+msgid "About Briar GTK"
+msgstr "Pri Briar-o GTK-a"
+
 msgid "Welcome to Briar"
 msgstr "Bonvenon al Briar"
 
@@ -122,8 +122,20 @@ msgstr "Krei konton"
 msgid "Creating Account"
 msgstr "Kreanta konto"
 
-msgid "Change"
-msgstr ""
+msgid "Please enter a nickname"
+msgstr "Bonvole entajpi alnomon"
+
+msgid "Please enter a password"
+msgstr "Bonvole entajpi pasvorton"
+
+msgid "The passwords do not match"
+msgstr "La pasvortoj estas malsama."
+
+msgid "Couldn't register account"
+msgstr "Ne povas registri konton"
+
+msgid "Couldn't log in"
+msgstr "Ne povas ensaluti"
 
 msgid "Localization Lab Translation Teams"
 msgstr ""
@@ -134,13 +146,25 @@ msgstr "Kun kodo de"
 msgid "Briar functionality by"
 msgstr "Briar-a funkcieco de"
 
-msgid "Myself"
-msgstr "Min mem"
+msgid "Please enter a link"
+msgstr "Bonvole entajpi ligon"
+
+msgid "Enter your contact's link, not your own"
+msgstr "Entajpu vian ligon de kontakto, ne vian"
+
+msgid "Contact added"
+msgstr ""
+
+msgid "New private message"
+msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr "Vi estas certe vi volas ĉesi?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+msgstr ""
+
+msgid "Change"
 msgstr ""
 
 msgid "Confirm Message Deletion"
@@ -155,32 +179,8 @@ msgstr "Confirmi kontaktan forigon"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr ""
 
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr "Bonvole entajpi pasvorton"
-
-msgid "Couldn't log in"
-msgstr "Ne povas ensaluti"
-
-msgid "Please enter a nickname"
-msgstr "Bonvole entajpi alnomon"
-
-msgid "The passwords do not match"
-msgstr "La pasvortoj estas malsama."
-
-msgid "Couldn't register account"
-msgstr "Ne povas registri konton"
-
-msgid "Please enter a link"
-msgstr "Bonvole entajpi ligon"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Entajpu vian ligon de kontakto, ne vian"
+msgid "Myself"
+msgstr "Min mem"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
@@ -193,3 +193,7 @@ msgstr "Briar-an klienton pro labortablaj kaj porteblaj aparatoj."
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Vizitu Briar-on GTK-an retejon"
+
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "Entajpi mesaĝon"

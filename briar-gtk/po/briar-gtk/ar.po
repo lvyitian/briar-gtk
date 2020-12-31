@@ -76,23 +76,9 @@ msgstr "حذف جميع الرّسائل "
 msgid "Delete contact"
 msgstr "حذف جهة الإتصال"
 
-msgid "Password"
-msgstr "كلمة السّر"
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "تسجيل الدخول"
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "جاري تسجيل الدخول"
-
-msgid "About Briar GTK"
-msgstr "عن Briar GTK"
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "كتابة رسالة"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
+msgstr ""
 
 msgid "No contact selected"
 msgstr "لايوجد جهات اتصال مفتوحة"
@@ -113,6 +99,20 @@ msgstr "السابق"
 msgid "Chat menu"
 msgstr "قائمة المحادثة"
 
+msgid "Password"
+msgstr "كلمة السّر"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "تسجيل الدخول"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "جاري تسجيل الدخول"
+
+msgid "About Briar GTK"
+msgstr "عن Briar GTK"
+
 msgid "Welcome to Briar"
 msgstr "مرحبًا بك في Briar (براير)"
 
@@ -128,8 +128,20 @@ msgstr "إنشاء الحساب"
 msgid "Creating Account"
 msgstr "جاري إنشاء الحساب"
 
-msgid "Change"
-msgstr "تعديل"
+msgid "Please enter a nickname"
+msgstr "يرجى إدخال اسم مستعار"
+
+msgid "Please enter a password"
+msgstr "يُرجى إدخال كلمة السر"
+
+msgid "The passwords do not match"
+msgstr "كلمات السر غير متطابقة"
+
+msgid "Couldn't register account"
+msgstr "تعذر إنشاء تسجيل جديد"
+
+msgid "Couldn't log in"
+msgstr "لم يتم تسجيل الدخول"
 
 msgid "Localization Lab Translation Teams"
 msgstr "فريق الترجمة من Localization Lab"
@@ -140,14 +152,26 @@ msgstr "تم استخدام كود"
 msgid "Briar functionality by"
 msgstr "الأداء الوظيفي ل Briar"
 
-msgid "Myself"
-msgstr "أنا"
+msgid "Please enter a link"
+msgstr "يرجى إدخال رابط"
+
+msgid "Enter your contact's link, not your own"
+msgstr "يرجى إخال رابط جهة الاتصال، وليس رابطكم"
+
+msgid "Contact added"
+msgstr "تم إضافة جهة إتصال"
+
+msgid "New private message"
+msgstr "رسالة جديدة من محادثة"
 
 msgid "Are you sure you want to exit?"
 msgstr "هل تريد فعلاً الخروج من Briar؟"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "حالما تغلق Briar لن تتلقى أي رسائل و لن تتمكن من تعليق الرسائل بانتظار ولوج المتلقي للإنترنت. إبق Briar مفتوح من أجل متصلاً مع جهات الاتصال.  "
+
+msgid "Change"
+msgstr "تعديل"
 
 msgid "Confirm Message Deletion"
 msgstr "تأكيد حذف الرّسالة"
@@ -161,32 +185,8 @@ msgstr "تأكيد حذف جهة الإتصال"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "هل أنت متأكد من أنك تريد حذف جهة الإتصال هذه وكل الرسائل المتبادلة بينكما؟"
 
-msgid "Contact added"
-msgstr "تم إضافة جهة إتصال"
-
-msgid "New private message"
-msgstr "رسالة جديدة من محادثة"
-
-msgid "Please enter a password"
-msgstr "يُرجى إدخال كلمة السر"
-
-msgid "Couldn't log in"
-msgstr "لم يتم تسجيل الدخول"
-
-msgid "Please enter a nickname"
-msgstr "يرجى إدخال اسم مستعار"
-
-msgid "The passwords do not match"
-msgstr "كلمات السر غير متطابقة"
-
-msgid "Couldn't register account"
-msgstr "تعذر إنشاء تسجيل جديد"
-
-msgid "Please enter a link"
-msgstr "يرجى إدخال رابط"
-
-msgid "Enter your contact's link, not your own"
-msgstr "يرجى إخال رابط جهة الاتصال، وليس رابطكم"
+msgid "Myself"
+msgstr "أنا"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
@@ -199,3 +199,7 @@ msgstr "عميل Briar ل GTK الحاسوب والأجهزة النقالة"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "يمكنكم زيارة موقع Briar"
+
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "كتابة رسالة"

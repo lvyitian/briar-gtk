@@ -79,23 +79,9 @@ msgstr "Alle Nachrichten löschen"
 msgid "Delete contact"
 msgstr "Kontakt löschen"
 
-msgid "Password"
-msgstr "Passwort"
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "Anmelden"
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "Anmeldung"
-
-msgid "About Briar GTK"
-msgstr "Über Briar GTK"
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "Nachricht eingeben"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
+msgstr ""
 
 msgid "No contact selected"
 msgstr "Kein Kontakt ausgewählt"
@@ -116,6 +102,20 @@ msgstr "Zurück"
 msgid "Chat menu"
 msgstr "Chat-Menü"
 
+msgid "Password"
+msgstr "Passwort"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "Anmelden"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "Anmeldung"
+
+msgid "About Briar GTK"
+msgstr "Über Briar GTK"
+
 msgid "Welcome to Briar"
 msgstr "Willkommen bei Briar"
 
@@ -131,8 +131,20 @@ msgstr "Konto erstellen"
 msgid "Creating Account"
 msgstr "Konto wird erstellt"
 
-msgid "Change"
-msgstr "Ändern"
+msgid "Please enter a nickname"
+msgstr "Bitte gib einen Benutzernamen ein"
+
+msgid "Please enter a password"
+msgstr "Bitte gib ein Passwort ein"
+
+msgid "The passwords do not match"
+msgstr "Die Passwörter stimmen nicht überein"
+
+msgid "Couldn't register account"
+msgstr "Konto konnte nicht angelegt werden"
+
+msgid "Couldn't log in"
+msgstr "Anmeldung fehlgeschlagen"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Localization Lab Übersetzungsteams"
@@ -143,14 +155,26 @@ msgstr "Benutzt Code von"
 msgid "Briar functionality by"
 msgstr "Briar-Funktionalität von"
 
-msgid "Myself"
-msgstr "Ich"
+msgid "Please enter a link"
+msgstr "Bitte gib einen Link ein"
+
+msgid "Enter your contact's link, not your own"
+msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
+
+msgid "Contact added"
+msgstr "Kontakt hinzugefügt"
+
+msgid "New private message"
+msgstr "Neue private Nachricht"
 
 msgid "Are you sure you want to exit?"
 msgstr "Willst du Briar wirklich beenden?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "Sobald du Briar schließt, wirst du keine ausstehenden Nachrichten mehr empfangen oder senden können. Lass Briar offen, um mit deinen Kontakten in Verbindung zu bleiben."
+
+msgid "Change"
+msgstr "Ändern"
 
 msgid "Confirm Message Deletion"
 msgstr "Löschen der Nachrichten bestätigen"
@@ -164,32 +188,8 @@ msgstr "Löschen des Kontakts bestätigen"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "Bist du sicher, dass du diesen Kontakt und alle dazugehörigen Nachrichten löschen möchtest?"
 
-msgid "Contact added"
-msgstr "Kontakt hinzugefügt"
-
-msgid "New private message"
-msgstr "Neue private Nachricht"
-
-msgid "Please enter a password"
-msgstr "Bitte gib ein Passwort ein"
-
-msgid "Couldn't log in"
-msgstr "Anmeldung fehlgeschlagen"
-
-msgid "Please enter a nickname"
-msgstr "Bitte gib einen Benutzernamen ein"
-
-msgid "The passwords do not match"
-msgstr "Die Passwörter stimmen nicht überein"
-
-msgid "Couldn't register account"
-msgstr "Konto konnte nicht angelegt werden"
-
-msgid "Please enter a link"
-msgstr "Bitte gib einen Link ein"
-
-msgid "Enter your contact's link, not your own"
-msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
+msgid "Myself"
+msgstr "Ich"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
@@ -202,3 +202,7 @@ msgstr "Briar-App für GTK-Desktop und Mobilgeräte"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Besuche die Webseite von Briar GTK"
+
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "Nachricht eingeben"

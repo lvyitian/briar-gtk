@@ -64,22 +64,8 @@ msgstr ""
 msgid "Delete contact"
 msgstr ""
 
-msgid "Password"
-msgstr ""
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr ""
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr ""
-
-msgid "About Briar GTK"
-msgstr ""
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
 msgstr ""
 
 msgid "No contact selected"
@@ -101,6 +87,20 @@ msgstr ""
 msgid "Chat menu"
 msgstr ""
 
+msgid "Password"
+msgstr ""
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr ""
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr ""
+
+msgid "About Briar GTK"
+msgstr ""
+
 msgid "Welcome to Briar"
 msgstr ""
 
@@ -116,7 +116,19 @@ msgstr ""
 msgid "Creating Account"
 msgstr ""
 
-msgid "Change"
+msgid "Please enter a nickname"
+msgstr ""
+
+msgid "Please enter a password"
+msgstr ""
+
+msgid "The passwords do not match"
+msgstr ""
+
+msgid "Couldn't register account"
+msgstr ""
+
+msgid "Couldn't log in"
 msgstr ""
 
 msgid "Localization Lab Translation Teams"
@@ -128,13 +140,25 @@ msgstr ""
 msgid "Briar functionality by"
 msgstr ""
 
-msgid "Myself"
+msgid "Please enter a link"
+msgstr ""
+
+msgid "Enter your contact's link, not your own"
+msgstr ""
+
+msgid "Contact added"
+msgstr ""
+
+msgid "New private message"
 msgstr ""
 
 msgid "Are you sure you want to exit?"
 msgstr ""
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+msgstr ""
+
+msgid "Change"
 msgstr ""
 
 msgid "Confirm Message Deletion"
@@ -149,31 +173,7 @@ msgstr ""
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr ""
 
-msgid "Contact added"
-msgstr ""
-
-msgid "New private message"
-msgstr ""
-
-msgid "Please enter a password"
-msgstr ""
-
-msgid "Couldn't log in"
-msgstr ""
-
-msgid "Please enter a nickname"
-msgstr ""
-
-msgid "The passwords do not match"
-msgstr ""
-
-msgid "Couldn't register account"
-msgstr ""
-
-msgid "Please enter a link"
-msgstr ""
-
-msgid "Enter your contact's link, not your own"
+msgid "Myself"
 msgstr ""
 
 msgctxt "Used in about dialog"

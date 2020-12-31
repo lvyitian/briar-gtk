@@ -70,23 +70,9 @@ msgstr "모든 메시지 지우기"
 msgid "Delete contact"
 msgstr "연락처 삭제하기"
 
-msgid "Password"
-msgstr "비밀번호"
-
-msgctxt "Button in login page"
-msgid "Log in"
-msgstr "로그인"
-
-msgctxt "Used in login page after entering the password"
-msgid "Logging in"
-msgstr "로그인 중"
-
-msgid "About Briar GTK"
-msgstr "Briar GTK 소개"
-
-msgctxt "Used in input field in main window"
-msgid "Type Message"
-msgstr "메시지 입력하기"
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
+msgstr ""
 
 msgid "No contact selected"
 msgstr "선택된 연락처 없음"
@@ -107,6 +93,20 @@ msgstr "뒤로"
 msgid "Chat menu"
 msgstr "채팅 메뉴"
 
+msgid "Password"
+msgstr "비밀번호"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "로그인"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "로그인 중"
+
+msgid "About Briar GTK"
+msgstr "Briar GTK 소개"
+
 msgid "Welcome to Briar"
 msgstr "Briar에 오신 것을 환영합니다"
 
@@ -122,8 +122,20 @@ msgstr "계정 만들기"
 msgid "Creating Account"
 msgstr "계성 생성"
 
-msgid "Change"
-msgstr "바꾸기"
+msgid "Please enter a nickname"
+msgstr "별명을 입력하세요"
+
+msgid "Please enter a password"
+msgstr "비밀번호를 입력하세요"
+
+msgid "The passwords do not match"
+msgstr "비밀번호가 일치하지 않습니다"
+
+msgid "Couldn't register account"
+msgstr "계정을 생성할 수 없었습니다"
+
+msgid "Couldn't log in"
+msgstr "로그인 할 수 없었습니다"
 
 msgid "Localization Lab Translation Teams"
 msgstr "Localization Lab 번역 팀"
@@ -134,14 +146,26 @@ msgstr "다음 프로젝트의 코드를 사용했습니다."
 msgid "Briar functionality by"
 msgstr "다음 Briar 기능을 사용했습니다."
 
-msgid "Myself"
-msgstr "내가 보낸 메시지"
+msgid "Please enter a link"
+msgstr "링크를 입력하세요"
+
+msgid "Enter your contact's link, not your own"
+msgstr "자신이 아니고 상대방의 링크를 입력해 주세요"
+
+msgid "Contact added"
+msgstr "연락처 추가됨"
+
+msgid "New private message"
+msgstr "새 메시지"
 
 msgid "Are you sure you want to exit?"
 msgstr "정말 나가려고 하시나요?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "Briar를 닫으면 메시지를 받을 수 없고 아직 안 보낸 메시지가 보내지지 않습니다. 지인과 계속 연결하시려면 Briar를 닫지 마세요."
+
+msgid "Change"
+msgstr "바꾸기"
 
 msgid "Confirm Message Deletion"
 msgstr "메시지 삭제 확인"
@@ -155,32 +179,8 @@ msgstr "연락처 삭제 확인"
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
 msgstr "정말로 이 연락처, 그리고 이 연락처와의 메시지를 모두 제거하시겠어요?"
 
-msgid "Contact added"
-msgstr "연락처 추가됨"
-
-msgid "New private message"
-msgstr "새 메시지"
-
-msgid "Please enter a password"
-msgstr "비밀번호를 입력하세요"
-
-msgid "Couldn't log in"
-msgstr "로그인 할 수 없었습니다"
-
-msgid "Please enter a nickname"
-msgstr "별명을 입력하세요"
-
-msgid "The passwords do not match"
-msgstr "비밀번호가 일치하지 않습니다"
-
-msgid "Couldn't register account"
-msgstr "계정을 생성할 수 없었습니다"
-
-msgid "Please enter a link"
-msgstr "링크를 입력하세요"
-
-msgid "Enter your contact's link, not your own"
-msgstr "자신이 아니고 상대방의 링크를 입력해 주세요"
+msgid "Myself"
+msgstr "내가 보낸 메시지"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
@@ -193,3 +193,7 @@ msgstr "컴퓨터와 모바일의 GTK 환경을 위한 Briar 클라이언트"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Briar GTK 웹사이트 방문하"
+
+#~ msgctxt "Used in input field in main window"
+#~ msgid "Type Message"
+#~ msgstr "메시지 입력하기"

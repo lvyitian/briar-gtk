@@ -6,6 +6,7 @@
 # Translators:
 # Emre Deniz, 2020
 # T. E. Kalayci <tekrei@gmail.com>, 2020
+# mahmut özcan <mahmutozcan@protonmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: T. E. Kalayci <tekrei@gmail.com>, 2020\n"
+"Last-Translator: mahmut özcan <mahmutozcan@protonmail.com>, 2020\n"
 "Language-Team: Turkish (https://www.transifex.com/otf/teams/76528/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -29,6 +30,9 @@ msgstr "Güvenli mesajlaşma, nerede olursa olsun"
 
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
 msgstr "Briar aktivistler ve gazeteciler başta olmak üzere güvenli, kolay ve sağlam bir iletişim isteyen herkes için tasarlanmış bir ileti sistemidir. Geleneksel ileti sistemlerinin aksine Briar merkezi bir sunucu kullanmaz, iletiler doğrudan kullanıcıların aygıtları arasında eşleştirilir. Briar, eğer İnternet yoksa Bluetooth veya Wi-Fi aracılığıyla da iletileri iletebilir, böylece kriz durumlarında bilgi akışını sürdürür. İnternet varken Briar Tor ağı aracılığıyla iletim sağlar, böylece kullanıcıları ve ilişkilerini gözetimden korumuş olur.  "
+
+msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
+msgstr ""
 
 msgid "The Briar Project"
 msgstr "Briar Projesi"
@@ -49,9 +53,12 @@ msgid "Improvements in this version:"
 msgstr "Bu sürümdeki yenilikler:"
 
 msgid "Support for mobile devices (AArch64/ARM)"
-msgstr ""
+msgstr "Mobil aygıt desteği (AArch64/ARM)"
 
 msgid "Update Briar core to version 1.2.12"
+msgstr "Briar çekirdeğini 1.2.12 sürümüne güncelleyin"
+
+msgid "Translation into Romanian"
 msgstr ""
 
 msgid "Improved notification support"

@@ -1,4 +1,4 @@
-# Copyright (c) 2020 Nico Alt
+# Copyright (c) 2020-2021 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
@@ -10,7 +10,7 @@ from gi.repository import Gtk
 from briar_gtk.define import APP, RESOURCES_DIR
 
 
-class AboutDialogWidget():
+class AboutDialogWidget:
 
     ABOUT_UI = "about_dialog.ui"
 

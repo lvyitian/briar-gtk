@@ -1,4 +1,4 @@
-# Copyright (c) 2019 Nico Alt
+# Copyright (c) 2019-2021 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 #
@@ -10,7 +10,7 @@ import os
 from gi.repository import Gtk
 
 from briar_gtk.define import RESOURCES_DIR
-from briar_gtk.presenters.main_window import MainWindowPresenter
+from briar_gtk.conversation.conversation_presenter import MainWindowPresenter
 
 
 class MainWindowView(Gtk.Overlay):

@@ -1,5 +1,5 @@
 # Copyright (c) 2014-2020 Cedric Bellegarde <cedric.bellegarde@adishatz.org>
-# Copyright (c) 2020 Nico Alt
+# Copyright (c) 2020-2021 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 #
@@ -11,7 +11,7 @@ from gi.repository import GLib
 from briar_gtk.actions.actions import Actions
 from briar_gtk.actions.prefixes import WINDOW_PREFIX
 from briar_gtk.define import APP
-from briar_gtk.views.main_window import MainWindowView
+from briar_gtk.conversation.conversation_view import MainWindowView
 
 
 class WindowActions(Actions):

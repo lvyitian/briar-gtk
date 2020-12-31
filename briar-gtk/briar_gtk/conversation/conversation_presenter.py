@@ -1,4 +1,4 @@
-# Copyright (c) 2020 Nico Alt
+# Copyright (c) 2020-2021 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
@@ -7,7 +7,7 @@ from briar_gtk.presenters.private_chat import PrivateChatPresenter
 from briar_gtk.define import APP
 from briar_gtk.views.private_chat import PrivateChatView
 from briar_gtk.views.sidebar import SidebarView
-from briar_gtk.widgets.about_dialog import AboutDialogWidget
+from briar_gtk.conversation.about_dialog import AboutDialogWidget
 
 
 class MainWindowPresenter:

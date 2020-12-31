@@ -19,6 +19,9 @@
       the Tor network, protecting users and their relationships from
       surveillance.
     </p>
+    <p>
+      Note: Currently only private chats via Tor are supported in Briar GTK.
+    </p>
   </description>
 
   <launchable type="desktop-id">app.briar.gtk.desktop</launchable>

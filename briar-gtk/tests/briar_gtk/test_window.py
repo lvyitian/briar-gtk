@@ -41,7 +41,7 @@ def test_window_add_at_init(mocker, startup_container, window_actions,
 def test_show_main_container(main_window_container, mocker,
                              startup_container, window_actions,
                              window_add, window_resize):
-    Window().show_main_window_view()
+    Window().show_conversation_view()
 
     main_window_container.assert_called_once()
 
@@ -51,7 +51,7 @@ def test_show_main_shown(main_window_container, mocker,
                          window_add, window_resize):
     window = Window()
 
-    window.show_main_window_view()
+    window.show_conversation_view()
 
     window.current_view.show_all.assert_called_once()
 
@@ -62,7 +62,7 @@ def test_show_main_add(main_window_container, mocker,
     window = Window()
     window_add = mocker.patch(MODULE % "Window.add")
 
-    window.show_main_window_view()
+    window.show_conversation_view()
 
     window_add.assert_called_once_with(window.current_view)
 
@@ -74,7 +74,7 @@ def test_show_main_destroy_old(main_window_container, mocker,
     current_container_mock = mocker.MagicMock()
     window.current_view = current_container_mock
 
-    window.show_main_window_view()
+    window.show_conversation_view()
 
     current_container_mock.destroy.assert_called_once()
 

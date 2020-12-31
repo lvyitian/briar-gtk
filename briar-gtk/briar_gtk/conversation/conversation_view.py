@@ -30,19 +30,19 @@ class MainWindowView(Gtk.Overlay):
             os.path.join(RESOURCES_DIR, "chat_menu.ui")
         )
         builder.add_from_resource(
-            os.path.join(RESOURCES_DIR, "main_window.ui")
+            os.path.join(RESOURCES_DIR, "conversation.ui")
         )
         builder.connect_signals(self)
         return builder
 
     def _setup_view(self, window):
-        self._setup_main_window_stack()
+        self._setup_conversation_stack()
         self._setup_header_bar_stack_holder(window)
 
-    def _setup_main_window_stack(self):
-        main_window_stack = self.builder.get_object("main_window_stack")
-        main_window_stack.show_all()
-        self.add(main_window_stack)
+    def _setup_conversation_stack(self):
+        conversation_stack = self.builder.get_object("conversation_stack")
+        conversation_stack.show_all()
+        self.add(conversation_stack)
         self.show_all()
 
     def _setup_header_bar_stack_holder(self, window):

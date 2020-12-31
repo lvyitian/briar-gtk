@@ -11,11 +11,11 @@
 -->
 <interface>
   <requires lib="gtk+" version="3.22"/>
-  <object class="GtkStack" id="main_window_stack">
+  <object class="GtkStack" id="conversation_stack">
     <property name="can_focus">False</property>
     <property name="hhomogeneous">False</property>
     <child>
-      <object class="HdyLeaflet" id="main_window_leaflet">
+      <object class="HdyLeaflet" id="conversation_leaflet">
         <property name="child-transition-duration" bind-source="header_leaflet" bind-property="child-transition-duration" bind-flags="bidirectional|sync-create"/>
         <property name="transition-type" bind-source="header_leaflet" bind-property="transition-type" bind-flags="bidirectional|sync-create"/>
         <property name="mode-transition-duration" bind-source="header_leaflet" bind-property="mode-transition-duration" bind-flags="bidirectional|sync-create"/>

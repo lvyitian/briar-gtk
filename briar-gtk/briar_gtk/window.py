@@ -25,8 +25,8 @@ class Window(Gtk.ApplicationWindow):
         self._setup_content()
         self._setup_focus_listener()
 
-    def show_main_window_view(self):
-        self._setup_main_window_view()
+    def show_conversation_view(self):
+        self._setup_conversation_view()
 
     def show_add_contact_view(self):
         self._setup_add_contact_view()
@@ -98,7 +98,7 @@ class Window(Gtk.ApplicationWindow):
     def _setup_startup_view(self):
         self._setup_view(StartupView(self))
 
-    def _setup_main_window_view(self):
+    def _setup_conversation_view(self):
         self._setup_view(MainWindowView(self))
 
     def _setup_add_contact_view(self):

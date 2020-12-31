@@ -82,7 +82,7 @@ class LoginView(Gtk.Overlay):
     def _login_completed(self, succeeded):
         function = self._login_failed
         if succeeded:
-            function = self._window.show_main_window_view
+            function = self._window.show_conversation_view
         GLib.idle_add(function)
 
     def _login_failed(self):

@@ -4,9 +4,9 @@
     <file compressed="true">application.css</file>
     <file compressed="true" preprocess="xml-stripblanks">add_contact.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">chat_menu.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">conversation.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">login.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">main_menu.ui</file>
-    <file compressed="true" preprocess="xml-stripblanks">main_window.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">private_chat.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">registration.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">about_dialog.ui</file>

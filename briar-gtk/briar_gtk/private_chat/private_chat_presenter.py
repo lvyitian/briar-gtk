@@ -145,11 +145,11 @@ class PrivateChatPresenter:
         chat_view.show()
 
     def _show_main_content_container(self):
-        main_window_leaflet = self._view.builder.get_object(
-            "main_window_leaflet")
+        conversation_leaflet = self._view.builder.get_object(
+            "conversation_leaflet")
         main_content_container = self._view.builder.get_object(
             "main_content_container")
-        main_window_leaflet.set_visible_child(main_content_container)
+        conversation_leaflet.set_visible_child(main_content_container)
 
     def _set_contact_name_label(self, contact_name):
         contact_name_label = self._view.builder.get_object("contact_name")
@@ -237,10 +237,10 @@ class PrivateChatPresenter:
         chat_menu_button.hide()
 
     def _show_sidebar_box(self):
-        main_window_leaflet = self._view.builder.get_object(
-            "main_window_leaflet")
+        conversation_leaflet = self._view.builder.get_object(
+            "conversation_leaflet")
         sidebar_box = self._view.builder.get_object("sidebar_box")
-        main_window_leaflet.set_visible_child(sidebar_box)
+        conversation_leaflet.set_visible_child(sidebar_box)
 
     def _delete_all_messages(self, widget, response_id):
         if response_id == Gtk.ResponseType.OK:

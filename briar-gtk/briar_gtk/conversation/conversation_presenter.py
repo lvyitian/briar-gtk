@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-from briar_gtk.handlers.notification import NotificationHandler
+from briar_gtk.notification_handler import NotificationHandler
 from briar_gtk.private_chat.private_chat_presenter import PrivateChatPresenter
 from briar_gtk.define import APP
 from briar_gtk.private_chat.private_chat_view import PrivateChatView

@@ -1,4 +1,4 @@
-# Copyright (c) 2019 Nico Alt
+# Copyright (c) 2019-2021 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 import os
@@ -7,7 +7,7 @@ from gi.repository import Gtk
 
 from briar_wrapper.models.contacts import Contacts
 
-from briar_gtk.actions.add_contact import AddContactActions
+from briar_gtk.add_contact.add_contact_actions import AddContactActions
 from briar_gtk.actions.prefixes import ADD_CONTACT_PREFIX
 from briar_gtk.define import APP, RESOURCES_DIR
 

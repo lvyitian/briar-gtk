@@ -1,4 +1,4 @@
-# Copyright (c) 2019-2020 Nico Alt
+# Copyright (c) 2019-2021 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 #
@@ -11,8 +11,8 @@ from gi.repository import GLib, Gtk, Handy
 from briar_wrapper.models.private_chat import PrivateChat
 
 from briar_gtk.define import APP, RESOURCES_DIR
-from briar_gtk.presenters.private_chat import PrivateChatPresenter
-from briar_gtk.widgets.private_message import PrivateMessageWidget
+from briar_gtk.private_chat.private_chat_presenter import PrivateChatPresenter
+from briar_gtk.private_chat.private_message import PrivateMessageWidget
 
 
 # pylint: disable=too-many-instance-attributes

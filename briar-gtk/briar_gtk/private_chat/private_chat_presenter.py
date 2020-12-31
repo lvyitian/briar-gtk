@@ -1,4 +1,4 @@
-# Copyright (c) 2020 Nico Alt
+# Copyright (c) 2020-2021 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
@@ -11,7 +11,7 @@ from briar_wrapper.models.contacts import Contacts
 from briar_wrapper.models.private_chat import PrivateChat
 
 from briar_gtk.define import APP
-from briar_gtk.widgets.edit_dialog import EditDialog
+from briar_gtk.private_chat.edit_dialog import EditDialogWidget
 
 
 # pylint: disable=too-many-arguments
@@ -32,7 +32,7 @@ class PrivateChatPresenter:
         if self._view.contact_id == 0:
             raise Exception("Can't change contact alias with ID 0")
 
-        confirmation_dialog = EditDialog(
+        confirmation_dialog = EditDialogWidget(
             parent=APP().window,
             flags=Gtk.DialogFlags.MODAL,
             placeholder=self._get_contact_name(self._view.contact_id)

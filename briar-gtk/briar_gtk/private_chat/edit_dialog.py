@@ -6,7 +6,7 @@ from gettext import gettext as _
 from gi.repository import Gtk
 
 
-class EditDialog(Gtk.Dialog):
+class EditDialogWidget(Gtk.Dialog):
 
     def __init__(self, parent: "Gtk.Window", flags: "Gtk.DialogFlags",
                  placeholder: str, text: str = ""):

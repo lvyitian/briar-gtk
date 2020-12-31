@@ -1,4 +1,4 @@
-# Copyright (c) 2019 Nico Alt
+# Copyright (c) 2019-2021 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 import os
@@ -6,7 +6,7 @@ from gettext import gettext as _
 
 from gi.repository import GLib, Gtk
 
-from briar_gtk.actions.login import LoginActions
+from briar_gtk.startup.login_actions import LoginActions
 from briar_gtk.actions.prefixes import LOGIN_PREFIX
 from briar_gtk.define import APP, RESOURCES_DIR
 

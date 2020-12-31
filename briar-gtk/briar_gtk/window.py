@@ -8,7 +8,7 @@ from gi.repository import Gio, Gtk
 from briar_gtk.actions.window import WindowActions
 from briar_gtk.add_contact.add_contact_view import AddContactView
 from briar_gtk.views.main_window import MainWindowView
-from briar_gtk.views.startup import StartupView
+from briar_gtk.startup.startup_view import StartupView
 from briar_gtk.define import APP, APPLICATION_ID, APPLICATION_NAME
 from briar_gtk.define import NOTIFICATION_CONTACT_ADDED
 from briar_gtk.define import NOTIFICATION_PRIVATE_MESSAGE

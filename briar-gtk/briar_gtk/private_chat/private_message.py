@@ -8,7 +8,7 @@
 from datetime import datetime
 
 from gettext import gettext as _
-from gi.repository import Gtk
+from gi.repository import Gtk, Pango
 
 
 class PrivateMessageWidget(Gtk.ListBoxRow):
@@ -119,6 +119,7 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
     def _create_body_content(text):
         body_content = Gtk.Label.new(text)
         body_content.set_line_wrap(True)
+        body_content.set_line_wrap_mode(Pango.WrapMode.WORD_CHAR)
         body_content.set_halign(Gtk.Align.START)
         body_content.set_selectable(True)
         body_content.set_xalign(0)

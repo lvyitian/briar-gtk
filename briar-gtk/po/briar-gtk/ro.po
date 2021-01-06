@@ -8,7 +8,7 @@
 # Cristina Lupu <cristina@cji.ro>, 2020
 # titus <titus0818@gmail.com>, 2020
 # Vitalie Ciubotaru <vitalie@ciubotaru.tk>, 2020
-# Licaon_Kter, 2020
+# Licaon_Kter, 2021
 #
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Licaon_Kter, 2020\n"
+"Last-Translator: Licaon_Kter, 2021\n"
 "Language-Team: Romanian (https://www.transifex.com/otf/teams/76528/ro/)\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -74,26 +74,26 @@ msgstr "Șterge contactul"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "Arată meniul cu emoticoane"
 
 msgid "No contact selected"
 msgstr "Nici un contact selectat"
 
 msgid "Select a contact to start chatting"
-msgstr ""
+msgstr "Selectați un contact pentru a începe o conversație"
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
 msgstr "Adaugă contact"
 
 msgid "Main menu"
-msgstr ""
+msgstr "Meniu principal"
 
 msgid "Back"
 msgstr "Înapoi"
 
 msgid "Chat menu"
-msgstr ""
+msgstr "Meniu conversație"
 
 msgid "Password"
 msgstr "Parola"
@@ -128,25 +128,25 @@ msgid "Please enter a nickname"
 msgstr "Vă rugăm să introduceți un nume"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "Vă rugăm să introduceți o parolă"
 
 msgid "The passwords do not match"
-msgstr ""
+msgstr "Parolele nu se potrivesc"
 
 msgid "Couldn't register account"
-msgstr ""
+msgstr "Nu s-a putut înregistra un cont"
 
 msgid "Couldn't log in"
-msgstr ""
+msgstr "Nu s-a putut face autentificarea"
 
 msgid "Localization Lab Translation Teams"
-msgstr ""
+msgstr "Echipa de traduceri Localization Lab"
 
 msgid "Using code by"
-msgstr ""
+msgstr "Folosind cod"
 
 msgid "Briar functionality by"
-msgstr ""
+msgstr "Funcționalitate Briar"
 
 msgid "Please enter a link"
 msgstr "Vă rugăm să introduceți o adresă"
@@ -155,16 +155,16 @@ msgid "Enter your contact's link, not your own"
 msgstr "Introduceți adresa contactului, nu cea personală"
 
 msgid "Contact added"
-msgstr ""
+msgstr "Contact adăugat"
 
 msgid "New private message"
-msgstr ""
+msgstr "Mesaj privat nou"
 
 msgid "Are you sure you want to exit?"
-msgstr ""
+msgstr "Sunteți siguri că doriți să ieșiți?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
+msgstr "Odată Briar închis, nu veți mai primi mesaje și nu veți trimite mesajele în curs. Păstrați Briar deschis pentru a sta conectați la contactele dumneavoastră."
 
 msgid "Change"
 msgstr "Modifică"
@@ -182,20 +182,16 @@ msgid "Are you sure that you want to remove this contact and all messages exchan
 msgstr "Sigur doriți să ștergeți acest contact și toate mesajele schimbate?"
 
 msgid "Myself"
-msgstr ""
+msgstr "Eu"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2020 The Briar Project"
-msgstr ""
+msgstr "Drepturi de autor © 2019-2020 Proiectul Briar"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
-msgstr ""
+msgstr "Un client Briar pentru calculatoare și dispozitive mobile cu GTK"
 
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
-msgstr ""
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Tastați mesajul"
+msgstr "Vizitare site Briar GTK"

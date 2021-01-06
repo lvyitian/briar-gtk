@@ -11,8 +11,8 @@
 # Gökhan Kalayci <gkmediagokhan@gmail.com>, 2020
 # dersteppenwolfx, 2020
 # Ferdi YLDZ <eceyldz1122@gmail.com>, 2020
-# mahmut özcan <mahmutozcan@protonmail.com>, 2020
 # T. E. Kalayci <tekrei@gmail.com>, 2020
+# mahmut özcan <mahmutozcan@protonmail.com>, 2021
 #
 #, fuzzy
 msgid ""
@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: T. E. Kalayci <tekrei@gmail.com>, 2020\n"
+"Last-Translator: mahmut özcan <mahmutozcan@protonmail.com>, 2021\n"
 "Language-Team: Turkish (https://www.transifex.com/otf/teams/76528/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "Kişiyi sil"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "Duygu simgeleri menüsünü göster"
 
 msgid "No contact selected"
 msgstr "Kişi seçilmedi"
@@ -199,7 +199,3 @@ msgstr "GTK Masaüstü ve mobil aygıtlar için Biar istemcisi"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Briar GTK web sitesini ziyaret edin"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "İletiyi Yazın"

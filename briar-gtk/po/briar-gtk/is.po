@@ -193,7 +193,3 @@ msgstr "Briar-forrit fyrir GTK-skjáborðsumhverfi og snjalltæki"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Heimsækja Briar GTK vefsvæðið"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Skrifaðu skilaboð"

@@ -193,7 +193,3 @@ msgstr "Briar-an klienton pro labortablaj kaj porteblaj aparatoj."
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Vizitu Briar-on GTK-an retejon"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Entajpi mesaĝon"

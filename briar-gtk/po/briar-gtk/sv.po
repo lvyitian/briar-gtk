@@ -200,7 +200,3 @@ msgstr "En Briar-klient för GTK-skrivbordet och mobila enheter"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Besök Briar GTK:s webbplats"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Skriv meddelande"

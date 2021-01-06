@@ -13,9 +13,9 @@
 # akwizgran <michael@briarproject.org>, 2020
 # Nico Alt, 2020
 # Ashoka <martin.tastler@posteo.de>, 2020
-# nautilusx, 2020
 # Anatol <onon@riseup.net>, 2020
 # Heiko Braun <transifex@heiko-braun.org>, 2020
+# nautilusx, 2020
 #
 #, fuzzy
 msgid ""
@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Heiko Braun <transifex@heiko-braun.org>, 2020\n"
+"Last-Translator: nautilusx, 2020\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/76528/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +81,7 @@ msgstr "Kontakt löschen"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "Emoji-Menü anzeigen"
 
 msgid "No contact selected"
 msgstr "Kein Kontakt ausgewählt"
@@ -202,7 +202,3 @@ msgstr "Briar-App für GTK-Desktop und Mobilgeräte"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Besuche die Webseite von Briar GTK"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Nachricht eingeben"

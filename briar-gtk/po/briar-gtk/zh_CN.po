@@ -7,9 +7,9 @@
 # YFdyh000 <yfdyh000@gmail.com>, 2020
 # 高垚鑫, 2020
 # Yunfei Zhang <zsdr@protonmail.com>, 2020
-# QWERT Eric, 2020
 # Beta Ba <linsui@inbox.lv>, 2020
 # Chaos, 2020
+# QWERT Eric, 2021
 #
 #, fuzzy
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Chaos, 2020\n"
+"Last-Translator: QWERT Eric, 2021\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/otf/teams/76528/zh-Hans/)\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -75,7 +75,7 @@ msgstr "删除联系人"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "显示表情符号菜单"
 
 msgid "No contact selected"
 msgstr "没有联系人被选中"
@@ -196,7 +196,3 @@ msgstr "用于 GTK 桌面和移动设备的 Briar 客户端"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "访问 Briar GTK 网站"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "输入消息"

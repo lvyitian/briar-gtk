@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Moo, 2020
+# Moo, 2021
 #
 #, fuzzy
 msgid ""
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Moo, 2020\n"
+"Last-Translator: Moo, 2021\n"
 "Language-Team: Lithuanian (https://www.transifex.com/otf/teams/76528/lt/)\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr "Briar yra žinučių perdavimo programėlė, skirta aktyvistams, žurnalistams ir visiems kitiems, kam reikia saugaus, lengvo ir veiksmingo bendravimo būdo. Kitaip nei kitos tradicinės žinučių perdavimo programėlės, Briar nepasikliauja centriniu serveriu - žinutės yra sinchronizuojamos tiesiogiai tarp naudotojų įrenginių. Jei nėra interneto, Briar gali sinchronizuotis per Bluetooth ar belaidį ryšį (Wi-Fi), kad palaikytų informacijos perdavimą kriziniais atvejais. Jei internetas veikia, Briar gali sinchronizuotis per Tor tinklą, apsaugodama naudotojus ir jų tarpusavio ryšius nuo stebėjimo."
 
 msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
-msgstr ""
+msgstr "Pastaba: Šiuo metu Briar GTK programoje yra palaikomi tik privatūs pokalbiai per Tor."
 
 msgid "The Briar Project"
 msgstr "Briar projektas"
@@ -57,7 +57,7 @@ msgid "Update Briar core to version 1.2.12"
 msgstr "Atnaujinti Briar branduolį iki versijos 1.2.12"
 
 msgid "Translation into Romanian"
-msgstr ""
+msgstr "Vertimas į rumunų kalbą"
 
 msgid "Improved notification support"
 msgstr "Patobulintas pranešimų palaikymas"

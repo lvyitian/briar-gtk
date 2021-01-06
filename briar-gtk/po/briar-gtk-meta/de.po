@@ -11,8 +11,8 @@
 # ducki2p <ducki2p@gmail.com>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Ettore Atalan <atalanttore@googlemail.com>, 2020
-# nautilusx, 2020
 # Nico Alt, 2020
+# nautilusx, 2020
 #
 #, fuzzy
 msgid ""
@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Nico Alt, 2020\n"
+"Last-Translator: nautilusx, 2020\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/76528/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr "Briar ist eine Messaging-App für Aktivisten, Journalisten und jeden, der eine sichere, einfache und robuste Art der Kommunikation benötigt. Im Gegensatz zu herkömmlichen Messaging-Apps benötigt Briar keinen zentralen Server. Nachrichten werden direkt zwischen den Endgeräten der Benutzer ausgetauscht. Wenn das Internet ausfällt, kann Briar diese auch über Bluetooth oder WLAN austauschen, um den Informationsaustausch in einer Krise aufrecht zu erhalten. Mit einer Internet Verbindung synchronisiert sich Briar über das Tor-Netzwerk und schützt so die Benutzer und ihre Kontakte vor Überwachung."
 
 msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
-msgstr ""
+msgstr "Hinweis: Derzeit werden in Briar GTK nur private Chats über Tor unterstützt."
 
 msgid "The Briar Project"
 msgstr "Das Briar-Projekt"
@@ -65,7 +65,7 @@ msgid "Update Briar core to version 1.2.12"
 msgstr "Aktualisierung des Briar-Kerns auf Version 1.2.12"
 
 msgid "Translation into Romanian"
-msgstr ""
+msgstr "Übersetzung ins Rumänische"
 
 msgid "Improved notification support"
 msgstr "Verbesserte Unterstützung für Benachrichtigungen"

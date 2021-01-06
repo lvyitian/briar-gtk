@@ -197,7 +197,3 @@ msgstr "کلاینت Briar برای دستگاه های موبایل و GTK دس
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "مراجعه به سایت Briar GTK"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "نوشتن پیام"

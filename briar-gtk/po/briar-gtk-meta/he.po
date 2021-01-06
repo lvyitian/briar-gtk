@@ -5,7 +5,7 @@
 #
 # Translators:
 # Adam Lynn <adam@opentechfund.org>, 2020
-# ION, 2020
+# ION, 2021
 #
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: ION, 2020\n"
+"Last-Translator: ION, 2021\n"
 "Language-Team: Hebrew (https://www.transifex.com/otf/teams/76528/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr "Briar הוא יישום התכתבות שמתוכנן עבור פעילנים, עיתונאים, וכל אחד אחר שצריך דרך בטוחה, קלה וחסונה לתקשר. לא כמו יישומי התכתבות מסורתיים, Briar אינו מסתמך על שרת מרכזי - הודעות מסונכרנות ישירות בין מכשירי המשתמשים. במקרה שהאינטרנט נפל, Briar יכול לסנכרן באמצעות Bluetooth או Wi-Fi, מה ששומר על זרימת המידע בזמן משבר. אם האינטרנט פעיל, Briar יכול לסנכרן באמצעות רשת Tor, מה שמגן על משתמשים ומערכות היחסים שלהם מפני מעקב סמוי."
 
 msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
-msgstr ""
+msgstr "הערה: כרגע רק התכתבויות פרטיות באמצעות Tor נתמכות ב־Briar GTK."
 
 msgid "The Briar Project"
 msgstr "מיזם Briar"
@@ -52,13 +52,13 @@ msgid "Improvements in this version:"
 msgstr "שיפורים בגרסה זו:"
 
 msgid "Support for mobile devices (AArch64/ARM)"
-msgstr ""
+msgstr "תמיכה במכשירים ניידים (AArch64/ARM)"
 
 msgid "Update Briar core to version 1.2.12"
-msgstr ""
+msgstr "עדכון ליבת Briar אל גרסה 1.2.12"
 
 msgid "Translation into Romanian"
-msgstr ""
+msgstr "תרגום אל רומנית"
 
 msgid "Improved notification support"
 msgstr "תמיכה משופרת בהתראות"

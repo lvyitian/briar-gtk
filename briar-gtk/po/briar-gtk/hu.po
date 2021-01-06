@@ -194,7 +194,3 @@ msgstr "Egy Briar kliens GTK desktop-ra és mobil eszközökre"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Látogassa meg a Briar GTK weboldalát"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "üzenet írása"

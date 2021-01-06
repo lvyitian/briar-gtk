@@ -6,6 +6,7 @@
 # Translators:
 # Đorđe Marušić <djordje@hzontal.org>, 2020
 # AO <ao@localizationlab.org>, 2020
+# Christophe Laurent <krisportable@gmail.com>, 2021
 #
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: AO <ao@localizationlab.org>, 2020\n"
+"Last-Translator: Christophe Laurent <krisportable@gmail.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/76528/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -71,7 +72,7 @@ msgstr "Supprimer le contact"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "Afficher menu émoji"
 
 msgid "No contact selected"
 msgstr "Aucun contact n’est sélectionné"
@@ -192,7 +193,3 @@ msgstr "Un client Briar fondé sur GTK pour ordinateur et appareils mobiles"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visiter le site Web de Briar GTK"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Rédigez une message"

@@ -6,7 +6,7 @@
 # Translators:
 # zxcsd <jenisjpl@gmail.com>, 2020
 # Giovanni Pellerano <giovanni.pellerano@evilaliv3.org>, 2020
-# ION, 2020
+# ION, 2021
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: ION, 2020\n"
+"Last-Translator: ION, 2021\n"
 "Language-Team: Hebrew (https://www.transifex.com/otf/teams/76528/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "מחק איש קשר"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "הראה תפריט אימוג'י"
 
 msgid "No contact selected"
 msgstr "איש קשר לא נבחר"
@@ -193,7 +193,3 @@ msgstr "לקוח Briar עבור שולחן עבודה GTK ומכשירים ני�
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "בקר באתר של Briar GTK"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "הקלד הודעה"

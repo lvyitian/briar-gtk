@@ -8,6 +8,7 @@
 # Towinet, 2020
 # Martus Translations <translations@martus.org>, 2020
 # AO <ao@localizationlab.org>, 2020
+# Christophe Laurent <krisportable@gmail.com>, 2021
 #
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: AO <ao@localizationlab.org>, 2020\n"
+"Last-Translator: Christophe Laurent <krisportable@gmail.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/76528/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +34,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr "Briar est une appli de messagerie conçue pour les activistes, les journalistes et quiconque a besoin d’un moyen sécurisé, simple et robuste de communiquer. Contrairement aux applis traditionnelles de messageries, Briar ne dépend pas d’un serveur centralisé. Les messages sont synchronisés directement entre les machines des utilisateurs. Si Internet est inaccessible, Briar peut se synchroniser par Bluetooth ou Wi-Fi, ce qui permet à l’information de circuler lors d’une crise. Si Internet est accessible, Briar peut se synchroniser par le réseau Tor, protégeant ainsi les utilisateurs et leurs relations contre la surveillance."
 
 msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
-msgstr ""
+msgstr "Note Bene : actuellement seuls les chats privés sont supporté dans Briar GTK"
 
 msgid "The Briar Project"
 msgstr "Le Projet Briar"

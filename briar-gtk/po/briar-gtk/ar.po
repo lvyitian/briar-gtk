@@ -199,7 +199,3 @@ msgstr "عميل Briar ل GTK الحاسوب والأجهزة النقالة"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "يمكنكم زيارة موقع Briar"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "كتابة رسالة"

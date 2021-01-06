@@ -195,7 +195,3 @@ msgstr "Cliente Briar para escritorios GTK e dispositivos móbiles"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visita a web de Briar GTK"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Escribe mensaxe"

@@ -193,7 +193,3 @@ msgstr "컴퓨터와 모바일의 GTK 환경을 위한 Briar 클라이언트"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Briar GTK 웹사이트 방문하"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "메시지 입력하기"

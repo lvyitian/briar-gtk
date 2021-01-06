@@ -72,7 +72,7 @@ msgstr "Fshije kontaktin"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "Shfaq menu emoji-sh"
 
 msgid "No contact selected"
 msgstr "S’ka kontakt të përzgjedhur"
@@ -193,7 +193,3 @@ msgstr "Një klient Briar për desktop GTK dhe pajisje celulare"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Vizitoni sajtin e Briar GTK"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Shtypni Mesazh"

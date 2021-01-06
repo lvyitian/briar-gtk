@@ -5,7 +5,7 @@
 #
 # Translators:
 # erinm, 2020
-# Moo, 2020
+# Moo, 2021
 #
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Moo, 2020\n"
+"Last-Translator: Moo, 2021\n"
 "Language-Team: Lithuanian (https://www.transifex.com/otf/teams/76528/lt/)\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -71,7 +71,7 @@ msgstr "Ištrinti adresatą"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "Rodyti jaustukų meniu"
 
 msgid "No contact selected"
 msgstr "Nepasirinktas kontaktas"
@@ -192,7 +192,3 @@ msgstr "Briar kliento programa, skirta darbalaukio ir mobiliesiems įrenginiams"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Apsilankyti Briar GTK internetinėje svetainėje"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Rašykite žinutę"

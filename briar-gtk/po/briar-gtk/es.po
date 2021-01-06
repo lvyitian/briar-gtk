@@ -10,8 +10,8 @@
 # akwizgran <michael@briarproject.org>, 2020
 # 0f759dd1ea6c4c76cedc299039ca4f23_7584d04 <454cc45058db9632179dc8079c0c1af3_5311>, 2020
 # Anatoli Pena <djanatoli@gmail.com>, 2020
-# Zuhualime Akoochimoya, 2020
 # wuniversales, 2020
+# Zuhualime Akoochimoya, 2020
 #
 #, fuzzy
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: wuniversales, 2020\n"
+"Last-Translator: Zuhualime Akoochimoya, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/otf/teams/76528/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr "Eliminar contacto"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "Mostrar menú de emojis"
 
 msgid "No contact selected"
 msgstr "Ningún contacto seleccionado"
@@ -198,7 +198,3 @@ msgstr "Briar para GTK en escritorios y dispositivos móviles"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visitar la página web de Briar GTK"
-
-#~ msgctxt "Used in input field in main window"
-#~ msgid "Type Message"
-#~ msgstr "Tipear mensaje"

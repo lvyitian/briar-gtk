@@ -5,7 +5,7 @@
 #
 # Translators:
 # ff98sha, 2020
-# QWERT Eric, 2020
+# QWERT Eric, 2021
 #
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: QWERT Eric, 2020\n"
+"Last-Translator: QWERT Eric, 2021\n"
 "Language-Team: Chinese Simplified (https://www.transifex.com/otf/teams/76528/zh-Hans/)\n"
 "Language: zh-Hans\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr "Briar 是一款为活动人士、记者和其他需要安全、轻松和强大的通信方式的人设计的消息应用。与传统的消息应用不同，Briar 不依赖中央服务器-消息在用户设备之间直接同步。即便互联网中断，Briar 也可以通过蓝牙或 Wi-Fi 进行同步，在危机中保持信息流通。如果互联网连接正常，Briar 可以通过 Tor 网络进行同步，从而保护用户及其关系不受监视。"
 
 msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
-msgstr ""
+msgstr "注意：目前  Briar GTK. 仅支持通过 Tor 网络进行的私聊。"
 
 msgid "The Briar Project"
 msgstr "Briar 项目"
@@ -58,7 +58,7 @@ msgid "Update Briar core to version 1.2.12"
 msgstr "更新 Briar 核心到 1.2.12 版本"
 
 msgid "Translation into Romanian"
-msgstr ""
+msgstr "翻译到罗马尼亚语"
 
 msgid "Improved notification support"
 msgstr "改进了通知支持"

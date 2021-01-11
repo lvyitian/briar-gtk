@@ -100,24 +100,23 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
     def _make_timestamp_relative(timestamp):
         time = datetime.fromtimestamp(timestamp)
         time_diff = (datetime.now() - time).total_seconds()
-
-        time_use_gen = lambda x, y: int(x // y) if x >= y else ''
-        time_term_gen = lambda x, y: x+'s' if y > 1 and x[-1] != '.' else x
-        time_list = ['day', 'hr.', 'min.']
+        time_slices_list = ['day', 'hr.', 'min.']
         seconds_list = [86400, 3600, 60]
-
-        time_use, time_term = '', ''
-        for t, s in zip(time_list, seconds_list):
-            time_use = time_use_gen(time_diff, s)
-            if time_use:
-                time_term = time_term_gen(t, time_use)
+        time_passed, time_slice = '', ''
+        for time_slices, seconds in zip(time_slices_list, seconds_list):
+            if time_diff >= seconds:
+                time_passed = int(time_diff // seconds)
+            if time_passed:
+                time_slice = time_slices
+                if time_passed > 1 and time_slices[-1] != '.':
+                    time_slice += 's'
                 break
-
-        time_relative = '{} {} ago'.format(time_use, time_term) if time_use \
-                            else 'now'
-        if time_term in ['days', 'day']:
+        if time_passed:
+            time_relative = '{} {} ago'.format(time_passed, time_slice)
+        else:
+            time_relative = 'now'
+        if time_slice in ['days', 'day']:
             time_relative += ', {}'.format(datetime.strftime(time, '%H:%M %p'))
-
         return time_relative
 
     @staticmethod

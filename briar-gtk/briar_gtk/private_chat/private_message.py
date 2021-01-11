@@ -88,7 +88,7 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
 
     @staticmethod
     def _create_date_info(timestamp):
-        time = PrivateMessageWidget._make_timestamp_readable(timestamp)
+        time = PrivateMessageWidget._make_timestamp_relative(timestamp)
         date_label = Gtk.Label.new(time)
         date_label.set_justify(Gtk.Justification.RIGHT)
         date_label.set_valign(Gtk.Align.START)
@@ -97,12 +97,28 @@ class PrivateMessageWidget(Gtk.ListBoxRow):
         return date_label
 
     @staticmethod
-    def _make_timestamp_readable(timestamp):
+    def _make_timestamp_relative(timestamp):
         time = datetime.fromtimestamp(timestamp)
-        current_time = datetime.today()
-        if time.date() == current_time.date():
-            return time.strftime("%H:%M")
-        return time.strftime("%x %H:%M")
+        time_diff = (datetime.now() - time).total_seconds()
+
+        time_use_gen = lambda x, y: int(x // y) if x >= y else ''
+        time_term_gen = lambda x, y: x+'s' if y > 1 and x[-1] != '.' else x
+        time_list = ['day', 'hr.', 'min.']
+        seconds_list = [86400, 3600, 60]
+
+        time_use, time_term = '', ''
+        for t, s in zip(time_list, seconds_list):
+            time_use = time_use_gen(time_diff, s)
+            if time_use:
+                time_term = time_term_gen(t, time_use)
+                break
+
+        time_relative = '{} {} ago'.format(time_use, time_term) if time_use \
+                            else 'now'
+        if time_term in ['days', 'day']:
+            time_relative += ', {}'.format(datetime.strftime(time, '%H:%M %p'))
+
+        return time_relative
 
     @staticmethod
     def _create_info(username_info, delivery_state_info, date_info):

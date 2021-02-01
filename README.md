@@ -13,7 +13,9 @@ Currently, it only supports private chats.
 
 For regular updates, check out the Briar tag on
 [Nico Alt's blog](https://nico.dorfbrunnen.eu/tags/briar/)
-([RSS feed](https://nico.dorfbrunnen.eu/tags/briar/index.xml)).
+([RSS feed](https://nico.dorfbrunnen.eu/tags/briar/index.xml))
+and watch the
+[milestones of this repo](https://code.briarproject.org/briar/briar-gtk/-/milestones).
 
 ## Installation
 

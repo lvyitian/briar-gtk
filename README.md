@@ -3,11 +3,11 @@
 [![pipeline status](https://code.briarproject.org/briar/briar-gtk/badges/main/pipeline.svg)](https://code.briarproject.org/briar/briar-gtk/commits/main)
 [![coverage report](https://code.briarproject.org/briar/briar-gtk/badges/main/coverage.svg)](https://code.briarproject.org/briar/briar-gtk/commits/main)
 
-A GTK app for [Briar](https://briar.app), built with Python and GNOME Builder.
+A GTK app for [Briar](https://briar.app), bringing secure messaging to your desktop and mobile devices.
 It uses [briar_wrapper](https://code.briarproject.org/briar/python-briar-wrapper) and the
 [Briar REST API](https://code.briarproject.org/briar/briar/blob/master/briar-headless/README.md)
-and therefore requires Java.
-Currently, it only supports private chats.
+and therefore requires Java and Python.
+Currently, it only supports private chats and requires a x86 Linux.
 
 ![Screenshot of Briar GTK showing conversation screen with two contacts and open chat with Alice](tools/screenshots/briar-gtk-screenshot-1.png)
 
@@ -101,6 +101,8 @@ flatpak run app.briar.gtk
 
 ### Directly from source
 
+_Warning: This hasn't been tested yet._
+
 After cloning this Git repository, don't forget to initialize the briar-wrapper submodule:
 ```
 git submodule update --init
@@ -124,7 +126,8 @@ pip3 install -r requirements.txt
 You also need to build
 [Briar Headless](https://code.briarproject.org/briar/briar/-/tree/master/briar-headless).
 Check its readme to learn how to do it. You can also use
-[builds provided by Nico Alt](https://media.dorfbrunnen.eu/briar/)
+builds provided by The Briar Project, e.g.
+[briarproject.org/jar/briar-headless-1.2.14.jar](https://briarproject.org/jar/briar-headless-1.2.14.jar),
 and put the .jar file at _~/.local/share/java/briar-headless.jar_.
 Make sure to have _java_ (e.g. `openjdk-11-jdk`) installed.
 
@@ -197,20 +200,16 @@ If you're using Flatpak, you need to change `Exec` to `/usr/bin/flatpak run app.
 
 ### How can I run this on the Librem 5?
 
-Whether you own a Librem 5 or
+Briar GTK doesn't _yet_ run on the Librem 5, because
+ARM support is still pending
+in briar-headless ([#1854](https://code.briarproject.org/briar/briar/-/issues/1854)).
+
+Later on, whether you own a Librem 5 or
 [set up an emulator](https://developer.puri.sm/Librem5/Development_Environment/Boards/emulators.html),
 you can install Briar GTK easily using Flatpak.
 
-Before you start, you have to install some dependencies:
-
-```bash
-sudo apt install flatpak-builder elfutils
-```
-
-You can then [follow the instructions from above](#developers).
-Note that you need to modify everything a little bit to work on the Librem's arm platform
-(not needed for the emulator):
-[#49](https://code.briarproject.org/briar/briar-gtk/-/issues/49).
+If you want to hack support yourself, take a look at
+[`briar-ship-no-tor-binary.patch` and more in this article](https://nico.dorfbrunnen.eu/posts/2021/briar-remote/).
 
 ---
 

@@ -267,7 +267,7 @@ class PrivateChatPresenter:
 
     def _on_chat_input_activate(self, widget, event):
         # Return is pressed
-        if Gdk.keyval_name(event.keyval) != 'Return':
+        if Gdk.keyval_name(event.keyval) not in ('Return', 'KP_Enter'):
             return False
         # Shift is not pressed
         if (event.state & Gdk.ModifierType.SHIFT_MASK) == \

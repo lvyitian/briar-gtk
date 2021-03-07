@@ -97,7 +97,6 @@ class PrivateChatPresenter:
         self._show_chat_placeholder(main_content_stack)
         self._show_sidebar_box()
         self._clear_history_container()
-        self._unselect_contact()
         self._set_contact_name_label("")
         self._view.contact_id = 0
         self._hide_chat_menu_button()
@@ -227,10 +226,6 @@ class PrivateChatPresenter:
         chat_placeholder = main_content_stack.get_child_by_name(
             "chat_placeholder")
         chat_placeholder.show()
-
-    def _unselect_contact(self):
-        contacts_list_box = self._view.builder.get_object("contacts_list_box")
-        contacts_list_box.unselect_all()
 
     def _hide_chat_menu_button(self):
         chat_menu_button = self._view.builder.get_object("chat_menu_button")

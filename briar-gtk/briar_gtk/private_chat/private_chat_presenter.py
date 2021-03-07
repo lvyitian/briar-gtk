@@ -201,7 +201,7 @@ class PrivateChatPresenter:
         self._vscrollbar_min_height = vscollbar.get_preferred_height()[0]
 
         vadjustment = chat_input_scroll.get_vadjustment()
-        vadjustment.connect_after("notify", self._on_upper_notify)
+        vadjustment.connect_after("notify::upper", self._on_upper_notify)
 
     # pylint: disable=unused-argument, line-too-long
     def _on_upper_notify(self, g_object, param_spec):
@@ -210,7 +210,7 @@ class PrivateChatPresenter:
         """
         chat_input_scroll = self._view.builder.get_object("chat_input_scroll")
         vadjustment = chat_input_scroll.get_vadjustment()
-        vadjustment.value = vadjustment.get_upper() - vadjustment.get_page_size()  # noqa
+        vadjustment.set_value(vadjustment.get_upper() - vadjustment.get_page_size())  # noqa
 
         # Hack for vscrollbar not requiring space and making TextView higher
         vscollbar = chat_input_scroll.get_vscrollbar()
@@ -272,7 +272,8 @@ class PrivateChatPresenter:
         # Shift is not pressed
         if (event.state & Gdk.ModifierType.SHIFT_MASK) == \
                 Gdk.ModifierType.SHIFT_MASK:
-            return False
+            widget.get_buffer().insert_at_cursor("\n", 1)
+            return True
         # Text does not only contain whitespace
         if len(self._get_text_from_text_view(widget).strip()) == 0:
             return False

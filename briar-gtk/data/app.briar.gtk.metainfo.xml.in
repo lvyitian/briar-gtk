@@ -71,15 +71,18 @@
   </custom>
 
   <releases>
-    <release version="0.1.0-beta3" date="2020-12-03">
+    <release version="0.1.0-beta3" date="2021-03-20">
       <description>
         <p>
           Improvements in this version:
         </p>
         <ul>
-          <li>Support for mobile devices (AArch64/ARM)</li>
-          <li>Update Briar core to version 1.2.12</li>
-          <li>Translation into Romanian</li>
+          <li>Compose messages with multiple lines</li>
+          <li>Fix bug that crashes Briar GTK when sending/receiving long messages</li>
+          <li>Handle errors while adding contacts</li>
+          <li>Support for mobile devices (AArch64, ARMv7)</li>
+          <li>Update Briar core to version 1.2.17</li>
+          <li>Translation into Romanian and Burmese</li>
         </ul>
       </description>
       <url>https://code.briarproject.org/briar/briar-gtk/-/tags/0.1.0-beta3</url>

@@ -10,6 +10,7 @@
 # Reza Ghasemi, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Martus Translations <translations@martus.org>, 2020
+# Vox, 2021
 #
 #, fuzzy
 msgid ""
@@ -17,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Martus Translations <translations@martus.org>, 2020\n"
+"Last-Translator: Vox, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/76528/fa/)\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -35,58 +36,67 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr "Briar یک برنامه پیام رسان می باشد که برای فعالان، روزنامه نگاران و هر کسی که نیازمند یک راه امن، راحت و پیشرفته برای ارتباط با دیگران است می باشد. برخلاف برنامه‌ های پیام‌رسان‌ مرسوم، Briar به سرور متمرکز اتکا ندارد - پیام ها به صورت مستقیم بین دستگاه کاربران همگام می شود. اگر اینترنت کار نکند، Briar می‌تواند از طریق بلوتوث یا وای‌-فای همگام سازی کرده، جریان اطلاعات را در زمان بحران نگه دارد. اگر اینترنت کار کند، Briar می‌تواند برای محافظت کاربران و وابط آن ها از از شنود، از طریق شبکه تور همگام سازی کند."
 
 msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
-msgstr ""
+msgstr "توجه: در حال حاضر تنها چت خصوصی از طریق تور در Briar GTK پشتیبانی می‌شود."
 
 msgid "The Briar Project"
 msgstr "پروژه Briar"
 
 msgid "Main window showing two contacts and chat"
-msgstr ""
+msgstr "پنجره اصلی دو مخاطب و چت را نمایش می‌دهد"
 
 msgid "Welcome screen with registration"
-msgstr ""
+msgstr "صفحه خوش‌آمدگویی با ثبت‌نام"
 
 msgid "Adding contacts at a distance"
 msgstr "افزودن مخاطب از راه دور"
 
 msgid "Main window with two contacts and about dialog"
-msgstr ""
+msgstr "پنجره اصلی با دو مخاطب و درباره‌ی گفتگو"
 
 msgid "Improvements in this version:"
+msgstr "بهبودها در این نسخه:"
+
+msgid "Compose messages with multiple lines"
 msgstr ""
 
-msgid "Support for mobile devices (AArch64/ARM)"
+msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
 msgstr ""
 
-msgid "Update Briar core to version 1.2.12"
+msgid "Handle errors while adding contacts"
 msgstr ""
 
-msgid "Translation into Romanian"
+msgid "Support for mobile devices (AArch64, ARMv7)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.17"
+msgstr ""
+
+msgid "Translation into Romanian and Burmese"
 msgstr ""
 
 msgid "Improved notification support"
-msgstr ""
+msgstr "بهبود پشتیبانی از اعلان"
 
 msgid "Showing number of unread messages in contact list"
-msgstr ""
+msgstr "نمایش تعداد پیام‌های خوانده نشده در فهرست مخاطبان"
 
 msgid "Support for changing contacts' names"
-msgstr ""
+msgstr "پشتیبانی از تغییر نام مخاطب"
 
 msgid "Support for deleting all messages of a chat"
-msgstr ""
+msgstr "پشتیبانی از حذف تمام پیام‌ها در یک چت"
 
 msgid "Indication of messages' delivery states"
-msgstr ""
+msgstr "علامت وضعیت رسیدن پیام"
 
 msgid "Migration to briar_wrapper 0.0.6"
-msgstr ""
+msgstr "مهاجرت به briar_wrapper 0.0.6"
 
 msgid "Many more minor improvements"
-msgstr ""
+msgstr "و بسیاری بهبود جزئی دیگر"
 
 msgid "Translations into many languages:"
-msgstr ""
+msgstr "ترجمه به زبان‌های مختلف:"
 
 msgid "Albanian"
 msgstr "آلبانیایی"
@@ -110,7 +120,7 @@ msgid "French"
 msgstr "فرانسوی"
 
 msgid "Galician"
-msgstr ""
+msgstr "گالیسیایی"
 
 msgid "Hebrew"
 msgstr "عبری"
@@ -128,22 +138,22 @@ msgid "Korean"
 msgstr "کره ای"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "لیتوانیایی"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "مقدونی"
 
 msgid "Persian"
 msgstr "فارسی"
 
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "پرتغالی (برزیل)"
 
 msgid "Russian"
 msgstr "روسی"
 
 msgid "Swedish"
-msgstr ""
+msgstr "سوئدی"
 
 msgid "Thai"
 msgstr "تايلندی"
@@ -152,40 +162,49 @@ msgid "Turkish"
 msgstr "ترکی"
 
 msgid "Basic notification support"
-msgstr ""
+msgstr "پشتیبانی از اعلان ساده"
 
 msgid "Support for contact deletion"
-msgstr ""
+msgstr "پشتیبانی از حذف مخاطب"
 
 msgid "Hugely improved chat UI"
-msgstr ""
+msgstr "بهبود گسترده رابط کاربری چت"
 
 msgid "Full Spanish and German translations"
-msgstr ""
+msgstr "ترجمه کامل اسپانیایی و آلمانی"
 
 msgid "Migration to libhandy 1.0"
-msgstr ""
+msgstr "مهاجرت به libhandy 1.0"
 
 msgid "Migration to briar_wrapper 0.0.4"
-msgstr ""
+msgstr "مهاجرت به briar_wrapper 0.0.4"
 
 msgid "Show online status of contacts in contact list (#19)"
-msgstr ""
+msgstr "نمایش وضعیت آنلاین بودن مخاطب در فهرست مخاطبان (#19)"
 
 msgid "Support copying content in messages (#51)"
-msgstr ""
+msgstr "پشتیبانی از کپی‌کردن محتوا در پیام‌ها (#51)"
 
 msgid "Fix bug with Briar messages not having text (#56)"
-msgstr ""
+msgstr "رفع اشکال عدم نمایش متن پیام با Briar (برایر) (#56)"
 
 msgid "Fix bug with contact's name not showing in private messages (#55)"
-msgstr ""
+msgstr "رفع اشکال در عدم نمایش نام مخاطب در پیام خصوصی (#55)"
 
 msgid "Update Briar core to version 1.2.9"
-msgstr ""
+msgstr "بروزرسانی هسته Briar (برایر) به نسخه 1.2.9"
 
 msgid "Lots of software tests"
-msgstr ""
+msgstr "و بسیاری تست نرم‌افزاری دیگر"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
-msgstr ""
+msgstr "انتشار اولین نسخه آلفا Briar GTK. این نسخه اجازه‌ی افزودن دستی مخاطب و گفتگو با آن‌ها در چت خصوصی را می‌دهد. کاربردهای دیگر مانند گروه‌ها، فروم‌ها و بلاگ‌ها افزوده خواهند شد."
+
+#~ msgid "Support for mobile devices (AArch64/ARM)"
+#~ msgstr "پشتیبانی از تلفن‌های همراه (AArch64/ARM)"
+
+#~ msgid "Update Briar core to version 1.2.12"
+#~ msgstr "بروزرسانی هسته Briar (برایر) به نسخه 1.2.12"
+
+#~ msgid "Translation into Romanian"
+#~ msgstr "ترجمه به رومانیایی"

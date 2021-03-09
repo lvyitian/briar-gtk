@@ -52,14 +52,23 @@ msgstr "Dritare kryesore me dy kontakte dhe dialogun Mbi"
 msgid "Improvements in this version:"
 msgstr "Përmirësime në këtë version:"
 
-msgid "Support for mobile devices (AArch64/ARM)"
-msgstr "Mbulim për pajisje celulare (AArch64/ARM)"
+msgid "Compose messages with multiple lines"
+msgstr ""
 
-msgid "Update Briar core to version 1.2.12"
-msgstr "Përditësim i bazës së Briar-it me versionin 1.2.12"
+msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
+msgstr ""
 
-msgid "Translation into Romanian"
-msgstr "Përkthim në rumanisht"
+msgid "Handle errors while adding contacts"
+msgstr ""
+
+msgid "Support for mobile devices (AArch64, ARMv7)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.17"
+msgstr ""
+
+msgid "Translation into Romanian and Burmese"
+msgstr ""
 
 msgid "Improved notification support"
 msgstr "Mbulim i përmirësuar njoftimesh"
@@ -186,3 +195,12 @@ msgstr "Plot testime software-i"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Hedhja e parë fare në qarkullim e një versioni alpha të Briar GTK. Lejon shtim kontaktesh së largëti dhe fjalosje me ta në fjalosje private. Janë për t’u sendërtuar funksione të tjera, të tillë si grupe, forume dhe blogje."
+
+#~ msgid "Support for mobile devices (AArch64/ARM)"
+#~ msgstr "Mbulim për pajisje celulare (AArch64/ARM)"
+
+#~ msgid "Update Briar core to version 1.2.12"
+#~ msgstr "Përditësim i bazës së Briar-it me versionin 1.2.12"
+
+#~ msgid "Translation into Romanian"
+#~ msgstr "Përkthim në rumanisht"

@@ -155,6 +155,42 @@ msgstr "请输入一个链接"
 msgid "Enter your contact's link, not your own"
 msgstr "输入您联系人的链接，不要输入您自己的"
 
+msgid "Invalid link"
+msgstr ""
+
+msgid "There was an error adding the contact"
+msgstr ""
+
+#, python-format
+msgid "Contact %s already exists"
+msgstr ""
+
+msgid "Pending contact updated"
+msgstr ""
+
+msgid "An error occurred while updating the pending contact"
+msgstr ""
+
+msgid "Duplicate Link"
+msgstr ""
+
+#, python-format
+msgid "You already have a pending contact with this link: %s"
+msgstr ""
+
+#, python-format
+msgid "Are %s and %s the same person?"
+msgstr ""
+
+#, python-format
+msgid ""
+"%s and %s sent you the same link.\n"
+"\n"
+"One of them may be trying to discover who your contacts are.\n"
+"\n"
+"Don't tell them you received the same link from someone else."
+msgstr ""
+
 msgid "Contact added"
 msgstr "联系人已添加"
 
@@ -186,8 +222,8 @@ msgid "Myself"
 msgstr "我自己"
 
 msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr "版权所有 © 2019-2020 The Briar Project"
+msgid "Copyright © 2019-2021 The Briar Project"
+msgstr ""
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -196,3 +232,7 @@ msgstr "用于 GTK 桌面和移动设备的 Briar 客户端"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "访问 Briar GTK 网站"
+
+#~ msgctxt "Used in about dialog"
+#~ msgid "Copyright © 2019-2020 The Briar Project"
+#~ msgstr "版权所有 © 2019-2020 The Briar Project"

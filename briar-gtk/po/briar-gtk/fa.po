@@ -11,6 +11,7 @@
 # b0b47d46632b78a09a40de799fda9a65, 2020
 # Mostafa Ahangarha <ahangarha@riseup.net>, 2020
 # Reza Ghasemi, 2020
+# Vox, 2021
 #
 #, fuzzy
 msgid ""
@@ -18,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Reza Ghasemi, 2020\n"
+"Last-Translator: Vox, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/76528/fa/)\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +77,7 @@ msgstr "حذف مخاطب"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "نمایش منوی ایموجی"
 
 msgid "No contact selected"
 msgstr "هیچ مخاطبی انتخاب نشده است"
@@ -106,7 +107,7 @@ msgstr "ورود"
 
 msgctxt "Used in login page after entering the password"
 msgid "Logging in"
-msgstr ""
+msgstr "در حال ورود"
 
 msgid "About Briar GTK"
 msgstr "درباره Briar GTK"
@@ -139,7 +140,7 @@ msgid "Couldn't register account"
 msgstr "عدم موفقیت در ثبت حساب کاربری"
 
 msgid "Couldn't log in"
-msgstr ""
+msgstr "مشکل در ورود"
 
 msgid "Localization Lab Translation Teams"
 msgstr "تیم های ترجمه Localization Lab"
@@ -148,13 +149,49 @@ msgid "Using code by"
 msgstr "استفاده از کد توسط"
 
 msgid "Briar functionality by"
-msgstr ""
+msgstr "اجرا توسط"
 
 msgid "Please enter a link"
 msgstr "لطفا یک پیوند وارد کنید"
 
 msgid "Enter your contact's link, not your own"
 msgstr "به جای پیوند خود، پیوند مخاطب را وارد کنید"
+
+msgid "Invalid link"
+msgstr ""
+
+msgid "There was an error adding the contact"
+msgstr ""
+
+#, python-format
+msgid "Contact %s already exists"
+msgstr ""
+
+msgid "Pending contact updated"
+msgstr ""
+
+msgid "An error occurred while updating the pending contact"
+msgstr ""
+
+msgid "Duplicate Link"
+msgstr ""
+
+#, python-format
+msgid "You already have a pending contact with this link: %s"
+msgstr ""
+
+#, python-format
+msgid "Are %s and %s the same person?"
+msgstr ""
+
+#, python-format
+msgid ""
+"%s and %s sent you the same link.\n"
+"\n"
+"One of them may be trying to discover who your contacts are.\n"
+"\n"
+"Don't tell them you received the same link from someone else."
+msgstr ""
 
 msgid "Contact added"
 msgstr "مخاطب اضافه شد"
@@ -166,7 +203,7 @@ msgid "Are you sure you want to exit?"
 msgstr "آیا مطمئن هستید که می‌خواهید خارج شوید؟"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr ""
+msgstr "به محض بستن Briar (برایر) دیگر قادر به دریافت و یا ارسال پیام نخواهید بود. برای متصل ماندن به مخاطبین خود، برنامه را باز نگه‌دارید."
 
 msgid "Change"
 msgstr "تغییر"
@@ -187,8 +224,8 @@ msgid "Myself"
 msgstr "خودم"
 
 msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr "کپی‌رایت © 2020-2019 پروژه Briar"
+msgid "Copyright © 2019-2021 The Briar Project"
+msgstr ""
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -197,3 +234,7 @@ msgstr "کلاینت Briar برای دستگاه های موبایل و GTK دس
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "مراجعه به سایت Briar GTK"
+
+#~ msgctxt "Used in about dialog"
+#~ msgid "Copyright © 2019-2020 The Briar Project"
+#~ msgstr "کپی‌رایت © 2020-2019 پروژه Briar"

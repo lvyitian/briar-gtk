@@ -5,8 +5,7 @@
 #
 # Translators:
 # Đorđe Marušić <djordje@hzontal.org>, 2020
-# AO <ao@localizationlab.org>, 2020
-# Christophe Laurent <krisportable@gmail.com>, 2021
+# AO <ao@localizationlab.org>, 2021
 #
 #, fuzzy
 msgid ""
@@ -14,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Christophe Laurent <krisportable@gmail.com>, 2021\n"
+"Last-Translator: AO <ao@localizationlab.org>, 2021\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/76528/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +71,7 @@ msgstr "Supprimer le contact"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr "Afficher menu émoji"
+msgstr "Afficher le menu des émojis"
 
 msgid "No contact selected"
 msgstr "Aucun contact n’est sélectionné"
@@ -152,6 +151,42 @@ msgstr "Veuillez saisir un lien"
 msgid "Enter your contact's link, not your own"
 msgstr "Saisissez le lien de votre contact, pas le vôtre"
 
+msgid "Invalid link"
+msgstr ""
+
+msgid "There was an error adding the contact"
+msgstr ""
+
+#, python-format
+msgid "Contact %s already exists"
+msgstr ""
+
+msgid "Pending contact updated"
+msgstr ""
+
+msgid "An error occurred while updating the pending contact"
+msgstr ""
+
+msgid "Duplicate Link"
+msgstr ""
+
+#, python-format
+msgid "You already have a pending contact with this link: %s"
+msgstr ""
+
+#, python-format
+msgid "Are %s and %s the same person?"
+msgstr ""
+
+#, python-format
+msgid ""
+"%s and %s sent you the same link.\n"
+"\n"
+"One of them may be trying to discover who your contacts are.\n"
+"\n"
+"Don't tell them you received the same link from someone else."
+msgstr ""
+
 msgid "Contact added"
 msgstr "Le contact a été ajouté"
 
@@ -183,8 +218,8 @@ msgid "Myself"
 msgstr "Moi"
 
 msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr "Tous droits réservés © 2019 à 2020 Le projet Briar"
+msgid "Copyright © 2019-2021 The Briar Project"
+msgstr ""
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -193,3 +228,7 @@ msgstr "Un client Briar fondé sur GTK pour ordinateur et appareils mobiles"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visiter le site Web de Briar GTK"
+
+#~ msgctxt "Used in about dialog"
+#~ msgid "Copyright © 2019-2020 The Briar Project"
+#~ msgstr "Tous droits réservés © 2019 à 2020 Le projet Briar"

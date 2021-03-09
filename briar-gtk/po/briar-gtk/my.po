@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Ei Mon Theint <eimon2298@gmail.com>, 2021
+# Tun Naung Win <hellisenough@gmail.com>, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2020-09-18 11:09+0000\n"
+"Last-Translator: Tun Naung Win <hellisenough@gmail.com>, 2021\n"
+"Language-Team: Burmese (https://www.transifex.com/otf/teams/76528/my/)\n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "Used in add contact page"
+msgid "Give this link to the contact you want to add"
+msgstr "သင်ထည့်ချင်သည့် အဆက်အသွယ်အား ဤလင့်ခ်ကို ပေးပါ။"
+
+msgctxt "Used in add contact page"
+msgid "Enter the link from your contact here"
+msgstr "သင်၏အဆက်အသွယ်မှ လင့်ခ်ကို ဤနေရာတွင် ဖြည့်ပါ။"
+
+msgctxt "Used in add contact page"
+msgid "Contact's link"
+msgstr "အဆက်အသွယ်၏ လင့်ခ်"
+
+msgctxt "Used in add contact page"
+msgid "Please enter a link"
+msgstr "ကျေးဇူးပြု၍ လင့်ခ်အား ထည့်သွင်းပါ။"
+
+msgctxt "Used in add contact page"
+msgid "Give your contact a nickname. Only you can see it."
+msgstr "သင်၏ အဆက်အသွယ်အား နာမည်ပြောင်ပေးပါ။ ဤသည်ကို သင်သာလျှင် မြင်နိုင်ပါသည်။"
+
+msgctxt "Used in add contact page"
+msgid "Enter a nickname"
+msgstr "နာမည်ပြောင် ထည့်သွင်းရန်"
+
+msgctxt "Used in add contact page"
+msgid "Please enter a nickname"
+msgstr "နာမည်ပြောင်အား ထည့်သွင်းပါ။"
+
+msgctxt "Button in add contact page"
+msgid "Add contact"
+msgstr "အဆက်အသွယ် ထည့်ရန်"
+
+msgid "Next"
+msgstr "ရှေ့သို့"
+
+msgctxt "Title in add contact page"
+msgid "Add contact"
+msgstr "အဆက်အသွယ် ထည့်ရန်"
+
+msgid "Change contact name"
+msgstr "အဆက်အသွယ် အမည်အား ပြောင်းရန်"
+
+msgid "Delete all messages"
+msgstr "စာအသွားအလာများ အားလုံးအား အပြီးဖျက်ပါ။"
+
+msgid "Delete contact"
+msgstr "အဆက်အသွယ်ကို အပြီးပယ်ဖျက်ရန်။"
+
+msgctxt "Accessibility text in chat input field"
+msgid "Show emoji menu"
+msgstr "ခံစားချက်ပုံရုပ် စာမျက်နှာအားပြသပါ။"
+
+msgid "No contact selected"
+msgstr "အဆက်အသွယ်အား မရွေးချယ်ရသေးပါ။"
+
+msgid "Select a contact to start chatting"
+msgstr "စကားစတင်ပြောဆိုရန် အဆက်အသွယ်တစ်ခုအား ရွေးချယ်ပါ။"
+
+msgctxt "Accessibility text in main menu"
+msgid "Add contact"
+msgstr "အဆက်အသွယ် ထည့်သည်။"
+
+msgid "Main menu"
+msgstr "ပင်မစာမျက်နှာ"
+
+msgid "Back"
+msgstr "နောက်သို့"
+
+msgid "Chat menu"
+msgstr "စကားပြော စာမျက်နှာ"
+
+msgid "Password"
+msgstr "စကားဝှက်"
+
+msgctxt "Button in login page"
+msgid "Log in"
+msgstr "အကောင့်ဝင်ရောက်သည်။"
+
+msgctxt "Used in login page after entering the password"
+msgid "Logging in"
+msgstr "အကောင့်ဝင်ရောက်နေသည်။"
+
+msgid "About Briar GTK"
+msgstr "ဘရိုင်ယာ GTK အကြောင်း"
+
+msgid "Welcome to Briar"
+msgstr "Briar မှကြိုဆိုပါသည်။"
+
+msgid "Choose your nickname"
+msgstr "နာမည်ပြောင်အားရွေးချယ်ပါ။"
+
+msgid "Confirm Password"
+msgstr "စကားဝှက်အား အတည်ပြုပါ။"
+
+msgid "Create Account"
+msgstr "အကောင့်ဖွင့်သည်။"
+
+msgid "Creating Account"
+msgstr "အကောင့်အားဖွင့်နေသည်။"
+
+msgid "Please enter a nickname"
+msgstr "နာမည်ပြောင်အား ထည့်သွင်းပါ။"
+
+msgid "Please enter a password"
+msgstr "စကားဝှက်အား ထည့်သွင်းပါ။"
+
+msgid "The passwords do not match"
+msgstr "စကားဝှက်များ ကိုက်ညီမှုမရှိပါ။"
+
+msgid "Couldn't register account"
+msgstr "အကောင့်အား မှတ်ပုံတင်၍ မရနိုင်ပါ။"
+
+msgid "Couldn't log in"
+msgstr "အကောင့်ဝင်၍မရနိုင်ပါ။"
+
+msgid "Localization Lab Translation Teams"
+msgstr "Localization Lab Translation Teams"
+
+msgid "Using code by"
+msgstr "သုံးထားသောကုဒ်ပိုင်ရှင်များ"
+
+msgid "Briar functionality by"
+msgstr "ဘရိုင်ယာသုံးနိုင်စွမ်းပံ့ပိုးသူ"
+
+msgid "Please enter a link"
+msgstr "လင့်ခ်ထည့်ပေးပါ"
+
+msgid "Enter your contact's link, not your own"
+msgstr "သင်မဟုတ်သော သင့်အဆက်အသွယ်၏လင့်ခ်ကို ထည့်ပါ"
+
+msgid "Invalid link"
+msgstr ""
+
+msgid "There was an error adding the contact"
+msgstr ""
+
+#, python-format
+msgid "Contact %s already exists"
+msgstr ""
+
+msgid "Pending contact updated"
+msgstr ""
+
+msgid "An error occurred while updating the pending contact"
+msgstr ""
+
+msgid "Duplicate Link"
+msgstr ""
+
+#, python-format
+msgid "You already have a pending contact with this link: %s"
+msgstr ""
+
+#, python-format
+msgid "Are %s and %s the same person?"
+msgstr ""
+
+#, python-format
+msgid ""
+"%s and %s sent you the same link.\n"
+"\n"
+"One of them may be trying to discover who your contacts are.\n"
+"\n"
+"Don't tell them you received the same link from someone else."
+msgstr ""
+
+msgid "Contact added"
+msgstr "အဆက်အသွယ်ထည့်ပြီးပါပြီ"
+
+msgid "New private message"
+msgstr "အတွင်းရေးမက်ဆေ့ချ်အသစ်"
+
+msgid "Are you sure you want to exit?"
+msgstr "ထွက်မှာသေချာလား။"
+
+msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
+msgstr "Briar အားပိတ်လိုက်သည်နှင့် သင်သည် ဆိုင်းငံ့ထားသော စာအသွားအလာများအပါအဝင် အခြားမည်သည့် စာအသွားအလာကိုမျှလက်ခံရရှိမည်မဟုတ်ပါ။ သင်၏အဆက်အသွယ်များနှင့် ဆက်သွယ်နိုင်ရန် Briar အား ဆက်လက်ဖွင့်ထားပါ။ "
+
+msgid "Change"
+msgstr "ပြောင်းလဲသည်။"
+
+msgid "Confirm Message Deletion"
+msgstr "စာအသွားအလာ ပယ်ဖျက်ခြင်းအား အတည်ပြုမည်။"
+
+msgid "Are you sure that you want to delete all messages?"
+msgstr "စာအသွားအလာများအားလုံးကို အပြီးပယ်ဖျက်ရန် သေချာပါသလား?"
+
+msgid "Confirm Contact Deletion"
+msgstr "အဆက်အသွယ်ကို အပြီးပယ်ဖျက်ခြင်းအား အတည်ပြုမည်။"
+
+msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
+msgstr "ဤအဆက်အသွယ်အပြင် ၎င်းနှင့်ပြောထားသမျှမက်ဆေ့ချ်များအားလုံးကို ဖယ်ရှားချင်တာ သေချာပါသလား။"
+
+msgid "Myself"
+msgstr "ကိုယ်တိုင်"
+
+msgctxt "Used in about dialog"
+msgid "Copyright © 2019-2021 The Briar Project"
+msgstr ""
+
+msgctxt "Used in about dialog"
+msgid "A Briar client for GTK desktop and mobile devices"
+msgstr "GTK ကွန်ပျူတာနှင့် မိုဘိုင်းလ်ကိရိယာများအတွက် ဘရိုင်ယာသုံးစွဲသူ"
+
+msgctxt "Used in about dialog to get to website"
+msgid "Visit Briar GTK website"
+msgstr "ဘရိုင်ယာ GTK ဝဘ်ဆိုက်ကို သွားကြည့်ပါ"
+
+#~ msgctxt "Used in about dialog"
+#~ msgid "Copyright © 2019-2020 The Briar Project"
+#~ msgstr "မူပိုင်ခွင့် © ၂၀၁၉-၂၀၂၀ ဘရိုင်ယာစီမံကိန်း"

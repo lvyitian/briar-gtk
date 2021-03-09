@@ -7,7 +7,7 @@
 # erinm, 2020
 # benewfy <benewfy@gmail.com>, 2020
 # Henrik Bayer <henrik.bayer@protonmail.com>, 2020
-# vargaviktor <viktor.varga@gmail.com>, 2020
+# vargaviktor <viktor.varga@gmail.com>, 2021
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: vargaviktor <viktor.varga@gmail.com>, 2020\n"
+"Last-Translator: vargaviktor <viktor.varga@gmail.com>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/otf/teams/76528/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -73,7 +73,7 @@ msgstr "Kapcsolat törlése"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "Emoji menü megjelenítése"
 
 msgid "No contact selected"
 msgstr "Nincs kapcsolat kiválasztva"
@@ -153,6 +153,42 @@ msgstr "Kérjük adja meg a linket"
 msgid "Enter your contact's link, not your own"
 msgstr "A kapcsolata linkjét adja meg, ne a sajátját"
 
+msgid "Invalid link"
+msgstr ""
+
+msgid "There was an error adding the contact"
+msgstr ""
+
+#, python-format
+msgid "Contact %s already exists"
+msgstr ""
+
+msgid "Pending contact updated"
+msgstr ""
+
+msgid "An error occurred while updating the pending contact"
+msgstr ""
+
+msgid "Duplicate Link"
+msgstr ""
+
+#, python-format
+msgid "You already have a pending contact with this link: %s"
+msgstr ""
+
+#, python-format
+msgid "Are %s and %s the same person?"
+msgstr ""
+
+#, python-format
+msgid ""
+"%s and %s sent you the same link.\n"
+"\n"
+"One of them may be trying to discover who your contacts are.\n"
+"\n"
+"Don't tell them you received the same link from someone else."
+msgstr ""
+
 msgid "Contact added"
 msgstr "Kapcsolat hozzáadva"
 
@@ -184,8 +220,8 @@ msgid "Myself"
 msgstr "Én"
 
 msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr "Copyright © 2019-2020 The Briar Project"
+msgid "Copyright © 2019-2021 The Briar Project"
+msgstr ""
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -194,3 +230,7 @@ msgstr "Egy Briar kliens GTK desktop-ra és mobil eszközökre"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Látogassa meg a Briar GTK weboldalát"
+
+#~ msgctxt "Used in about dialog"
+#~ msgid "Copyright © 2019-2020 The Briar Project"
+#~ msgstr "Copyright © 2019-2020 The Briar Project"

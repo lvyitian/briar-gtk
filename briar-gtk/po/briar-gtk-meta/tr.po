@@ -52,14 +52,23 @@ msgstr "İki kişiyi ve hakkında penceresini gösteren ana pencere"
 msgid "Improvements in this version:"
 msgstr "Bu sürümdeki yenilikler:"
 
-msgid "Support for mobile devices (AArch64/ARM)"
-msgstr "Mobil aygıt desteği (AArch64/ARM)"
+msgid "Compose messages with multiple lines"
+msgstr ""
 
-msgid "Update Briar core to version 1.2.12"
-msgstr "Briar çekirdeğini 1.2.12 sürümüne güncelleyin"
+msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
+msgstr ""
 
-msgid "Translation into Romanian"
-msgstr "Rumenceye Çeviri"
+msgid "Handle errors while adding contacts"
+msgstr ""
+
+msgid "Support for mobile devices (AArch64, ARMv7)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.17"
+msgstr ""
+
+msgid "Translation into Romanian and Burmese"
+msgstr ""
 
 msgid "Improved notification support"
 msgstr "İyileştirilmiş bildiri desteği"
@@ -186,3 +195,12 @@ msgstr "Bir çok yazılım testi"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Briar GTK ilk alfa sürümü. Uzaktan kişi eklemenizi ve onlarla gizli bir şekilde sohbet etmenizi sağlar. Gruplar, forumlar ve bloglar gibi diğer işlevler zamanla geliştirilecek."
+
+#~ msgid "Support for mobile devices (AArch64/ARM)"
+#~ msgstr "Mobil aygıt desteği (AArch64/ARM)"
+
+#~ msgid "Update Briar core to version 1.2.12"
+#~ msgstr "Briar çekirdeğini 1.2.12 sürümüne güncelleyin"
+
+#~ msgid "Translation into Romanian"
+#~ msgstr "Rumenceye Çeviri"

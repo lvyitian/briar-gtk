@@ -5,8 +5,8 @@
 #
 # Translators:
 # Matej Plavevski <matej.plavevski+github@gmail.com>, 2020
-# Zarko Gjurov <zarkogjurov@gmail.com>, 2020
 # Liljana Ackovska <liljanagjurova@gmail.com>, 2020
+# Zarko Gjurov <zarkogjurov@gmail.com>, 2021
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Liljana Ackovska <liljanagjurova@gmail.com>, 2020\n"
+"Last-Translator: Zarko Gjurov <zarkogjurov@gmail.com>, 2021\n"
 "Language-Team: Macedonian (https://www.transifex.com/otf/teams/76528/mk/)\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "Избриши контакт"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr ""
+msgstr "Покажи смајли мени"
 
 msgid "No contact selected"
 msgstr "Нема одбрани контакти"
@@ -152,6 +152,42 @@ msgstr "Ве молиме внесете линк"
 msgid "Enter your contact's link, not your own"
 msgstr "Внеси го линкот на твојот контакт, а не својот линк"
 
+msgid "Invalid link"
+msgstr ""
+
+msgid "There was an error adding the contact"
+msgstr ""
+
+#, python-format
+msgid "Contact %s already exists"
+msgstr ""
+
+msgid "Pending contact updated"
+msgstr ""
+
+msgid "An error occurred while updating the pending contact"
+msgstr ""
+
+msgid "Duplicate Link"
+msgstr ""
+
+#, python-format
+msgid "You already have a pending contact with this link: %s"
+msgstr ""
+
+#, python-format
+msgid "Are %s and %s the same person?"
+msgstr ""
+
+#, python-format
+msgid ""
+"%s and %s sent you the same link.\n"
+"\n"
+"One of them may be trying to discover who your contacts are.\n"
+"\n"
+"Don't tell them you received the same link from someone else."
+msgstr ""
+
 msgid "Contact added"
 msgstr "Додаден контакт"
 
@@ -183,8 +219,8 @@ msgid "Myself"
 msgstr "Себеси"
 
 msgctxt "Used in about dialog"
-msgid "Copyright © 2019-2020 The Briar Project"
-msgstr "Copyright © 2019-2020 The Briar Project"
+msgid "Copyright © 2019-2021 The Briar Project"
+msgstr ""
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -193,3 +229,7 @@ msgstr "Briar клинет за GTK десктоп и мобилни уреди"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Посетете ја веб страната на Briar GTK "
+
+#~ msgctxt "Used in about dialog"
+#~ msgid "Copyright © 2019-2020 The Briar Project"
+#~ msgstr "Copyright © 2019-2020 The Briar Project"

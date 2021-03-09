@@ -51,14 +51,23 @@ msgstr "有两个联系人和关于对话框的主窗口"
 msgid "Improvements in this version:"
 msgstr "此版本中的改进："
 
-msgid "Support for mobile devices (AArch64/ARM)"
-msgstr "移动设备支持 （AArch64/ARM）"
+msgid "Compose messages with multiple lines"
+msgstr ""
 
-msgid "Update Briar core to version 1.2.12"
-msgstr "更新 Briar 核心到 1.2.12 版本"
+msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
+msgstr ""
 
-msgid "Translation into Romanian"
-msgstr "翻译到罗马尼亚语"
+msgid "Handle errors while adding contacts"
+msgstr ""
+
+msgid "Support for mobile devices (AArch64, ARMv7)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.17"
+msgstr ""
+
+msgid "Translation into Romanian and Burmese"
+msgstr ""
 
 msgid "Improved notification support"
 msgstr "改进了通知支持"
@@ -185,3 +194,12 @@ msgstr "许多软件测试"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "这是 Briar GTK 的第一个 alpha 版本。它允许远程添加联系人，并在私人聊天中与他们聊天。其他功能，如群组，论坛和博客将被实现。"
+
+#~ msgid "Support for mobile devices (AArch64/ARM)"
+#~ msgstr "移动设备支持 （AArch64/ARM）"
+
+#~ msgid "Update Briar core to version 1.2.12"
+#~ msgstr "更新 Briar 核心到 1.2.12 版本"
+
+#~ msgid "Translation into Romanian"
+#~ msgstr "翻译到罗马尼亚语"

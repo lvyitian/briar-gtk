@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Tun Naung Win <hellisenough@gmail.com>, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2020-10-06 17:31+0000\n"
+"Last-Translator: Tun Naung Win <hellisenough@gmail.com>, 2021\n"
+"Language-Team: Burmese (https://www.transifex.com/otf/teams/76528/my/)\n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Briar"
+msgstr "ဘရိုင်ယာ"
+
+msgid "Secure messaging, anywhere"
+msgstr "ဘယ်နေရာမှာပဲဖြစ်ဖြစ် လုံခြုံတဲ့မက်ဆေ့ချ်ပေးပို့ခြင်း"
+
+msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
+msgstr "ဘရိုင်ယာဆိုသည်မှာ လုံခြုံမှုရှိ၍ လွယ်ကူလျင်မြန်အားကောင်းသော ဆက်သွယ်ရေးနည်းလမ်းတစ်ခုကိုလိုအပ်သည့် လူမှုရေး (သို့) နိုင်ငံရေး တက်ကြွလှုပ်ရှားသူများ၊ ဂျာနယ်လစ်များအပြင် အခြားမည်သူအတွက်မဆို အထူးဖန်တီးပြုလုပ်ထားသော မက်ဆေ့ချ်ပေးပို့ခြင်းအက်ပ်တစ်ခု ဖြစ်ပါသည်။ သာမန်မက်ဆေ့ချ်ပေးပို့ခြင်းအက်ပ်များနှင့်မတူသည်မှာ ဘရိုင်ယာသည် ဗဟိုပြုဆာဗာတစ်ခုတည်းအပေါ် မှီခိုခြင်းမရှိဘဲ မက်ဆေ့ချ်များကို အသုံးပြုသူများ၏စက်ပစ္စည်းများအချင်းချင်းကြားတွင်သာ တိုက်ရိုက်ကူးလူးပို့ဆောင်ပေးခြင်းဖြစ်ပါသည်။ ကပ်ဘေးများကြုံနေရချိန် အင်တာနက်မရနိုင်လျှင်ပင် ဘရိုင်ယာသည် ဘလူးတုသ် (သို့) ဝိုင်ဖိုင် အသုံးပြုပြီး သတင်းအချက်အလက်များကို ကူးလူးပို့ဆောင်ပေးနေနိုင်ပါသည်။ အင်တာနက်ရရှိပါကလည်း Tor ကွန်ယက်ကို ကြားခံအသုံးပြုပြီး အသုံးပြုသူများနှင့် ၎င်းတို့၏ပတ်သက်ဆက်နွယ်သူများကို ကြားဖြတ်စောင့်ကြည့်ခြင်းမှ ဘရိုင်ယာက ကာကွယ်ပေးထားပါသည်။"
+
+msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
+msgstr "သတိပြုရန် - လက်ရှိတွင် Tor ကိုကြားခံအသုံးပြုသည့် အတွင်းရေးချတ်များကို ဘရိုင်ယာ GTK တွင်သာ ရရှိနိုင်ပါသေးသည်။"
+
+msgid "The Briar Project"
+msgstr "ဘရိုင်ယာစီမံကိန်း"
+
+msgid "Main window showing two contacts and chat"
+msgstr "အဆက်အသွယ်နှစ်ခုနှင့် ချက်ကို ပြသပေးသည့် ပင်မဝင်းဒိုး"
+
+msgid "Welcome screen with registration"
+msgstr "မှတ်ပုံတင်ခြင်းပါဝင်သော ကြိုဆိုသည့်စခရင်"
+
+msgid "Adding contacts at a distance"
+msgstr "အဝေးမှ အဆက်အသွယ်များကို ထည့်သွင်းခြင်း"
+
+msgid "Main window with two contacts and about dialog"
+msgstr "အဆက်အသွယ်နှစ်ခုနှင့် ပြောစကားအကြောင်းပါဝင်သည့် ပင်မဝင်းဒိုး"
+
+msgid "Improvements in this version:"
+msgstr "ဤဗားရှင်းတွင်ပါဝင်သော တိုးတက်မှုများ -"
+
+msgid "Compose messages with multiple lines"
+msgstr ""
+
+msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
+msgstr ""
+
+msgid "Handle errors while adding contacts"
+msgstr ""
+
+msgid "Support for mobile devices (AArch64, ARMv7)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.17"
+msgstr ""
+
+msgid "Translation into Romanian and Burmese"
+msgstr ""
+
+msgid "Improved notification support"
+msgstr "ပိုမိုကောင်းမွန်သော အသိပေးချက်ပံ့ပိုးမှု"
+
+msgid "Showing number of unread messages in contact list"
+msgstr "မဖတ်ရသေးသောမက်ဆေ့ချ်အရေအတွက်ကို အဆက်အသွယ်စာရင်းတွင် ပြသခြင်း"
+
+msgid "Support for changing contacts' names"
+msgstr "အဆက်အသွယ်အမည်များပြောင်းခြင်းကို ပံ့ပိုးမှု"
+
+msgid "Support for deleting all messages of a chat"
+msgstr "ချတ်တစ်ခု၏မက်ဆေ့ချ်များအားလုံးဖျက်ခြင်းကို ပံ့ပိုးမှု"
+
+msgid "Indication of messages' delivery states"
+msgstr "မက်ဆေ့ချ်များ၏ ပို့ဆောင်မှုအခြေအနေကို ညွှန်ပြမှု"
+
+msgid "Migration to briar_wrapper 0.0.6"
+msgstr "briar_wrapper ၀.၀.၆ သို့ ရွှေ့ပြောင်းမှု"
+
+msgid "Many more minor improvements"
+msgstr "အခြားအသေးစားတိုးတက်မှုများစွာ"
+
+msgid "Translations into many languages:"
+msgstr "ဘာသာစကားများစွာသို့ ဘာသာပြန်မှုများ -"
+
+msgid "Albanian"
+msgstr "အယ်လ်ဘေးနီးယား"
+
+msgid "Arabic"
+msgstr "အာရဗစ်"
+
+msgid "Catalan"
+msgstr "ကက်တလန်"
+
+msgid "Chinese (Simplified)"
+msgstr "ရိုးရှင်းသောတရုတ်"
+
+msgid "Esperanto"
+msgstr "အက်စပါရန်တို"
+
+msgid "Dutch"
+msgstr "ဒတ်ချ်"
+
+msgid "French"
+msgstr "ပြင်သစ်"
+
+msgid "Galician"
+msgstr "ဂယ်လီစီယန်"
+
+msgid "Hebrew"
+msgstr "ဟီဘရူး"
+
+msgid "Hungarian"
+msgstr "ဟန်ဂေရီ"
+
+msgid "Icelandic"
+msgstr "အိုက်စလန်"
+
+msgid "Italian"
+msgstr "အီတလီ"
+
+msgid "Korean"
+msgstr "ကိုရီးယား"
+
+msgid "Lithuanian"
+msgstr "လစ်သူရေးနီးယား"
+
+msgid "Macedonian"
+msgstr "မက်စီဒိုးနီးယား"
+
+msgid "Persian"
+msgstr "ပါရှား"
+
+msgid "Portuguese (Brazil)"
+msgstr "ပေါ်တူဂီ (ဘရာဇီး)"
+
+msgid "Russian"
+msgstr "ရုရှ"
+
+msgid "Swedish"
+msgstr "ဆွီဒင်"
+
+msgid "Thai"
+msgstr "ထိုင်း"
+
+msgid "Turkish"
+msgstr "တူရကီ"
+
+msgid "Basic notification support"
+msgstr "အခြေခံအသိပေးချက်ပံ့ပိုးမှု"
+
+msgid "Support for contact deletion"
+msgstr "အဆက်အသွယ်ဖျက်ခြင်းပံ့ပိုးမှု"
+
+msgid "Hugely improved chat UI"
+msgstr "အကြီးအကျယ်ပိုကောင်းလာတဲ့ ချတ် UI"
+
+msgid "Full Spanish and German translations"
+msgstr "စပိန်နှင့် ဂျာမန်ဘာသာစကားများကို အပြည့်အဝဘာသာပြန်ဆိုမှုများ"
+
+msgid "Migration to libhandy 1.0"
+msgstr "libhandy ၁.၀ သို့ ရွှေ့ပြောင်းမှု"
+
+msgid "Migration to briar_wrapper 0.0.4"
+msgstr "briar_wrapper ၀.၀.၄ သို့ ရွှေ့ပြောင်းမှု"
+
+msgid "Show online status of contacts in contact list (#19)"
+msgstr "အဆက်အသွယ်စာရင်းထဲရှိ အဆက်အသွယ်များ၏ အွန်လိုင်းအခြေအနေကို ပြသပေးသည် (#19)"
+
+msgid "Support copying content in messages (#51)"
+msgstr "မက်ဆေ့ချ်ထဲမှအကြောင်းအရာများကူးယူခြင်းကို ပံ့ပိုးမှု"
+
+msgid "Fix bug with Briar messages not having text (#56)"
+msgstr "စာသားမပါသော ဘရိုင်ယာမက်ဆေ့ချ်များ၏ ပြဿနာကို ပြင်ဆင်ထားသည် (#56)"
+
+msgid "Fix bug with contact's name not showing in private messages (#55)"
+msgstr "ကိုယ်ရေးမက်ဆေ့ချ်များတွင် အဆက်အသွယ်အမည်မပေါ်ခြင်းကို ပြင်ဆင်ထားသည် (#55)"
+
+msgid "Update Briar core to version 1.2.9"
+msgstr "ဘရိုင်ယာပင်မကို ဗားရှင်း ၁.၂.၉ သို့ အဆင့်မြှင့်ခြင်း"
+
+msgid "Lots of software tests"
+msgstr "ဆော့ဖ်ဝဲစမ်းသပ်မှုများစွာ"
+
+msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
+msgstr "ဘရိုင်ယာ GTK ၏ အဦးဆုံးစမ်းသပ်ဖန်တီးဆဲထွက်ရှိမှု။ အဆက်အသွယ်များကို အဝေးမှလှမ်းထည့်နိုင်ပြီး ၎င်းတို့နှင့် ကိုယ်ရေးချတ်များတွင် ချတ်လုပ်နိုင်ပါပြီ။ အဖွဲ့များ၊ ဖိုရမ်များနှင့် ဘလော့ဂ်များကဲ့သို့ အခြားလုပ်ဆောင်ချက်များကိုလည်း ထည့်သွင်းဖော်ဆောင်သွားပါမည်။"
+
+#~ msgid "Support for mobile devices (AArch64/ARM)"
+#~ msgstr "မိုဘိုင်းလ်ကိရိယာများ (AArch64/ARM) အတွက် ပံ့ပိုးမှု"
+
+#~ msgid "Update Briar core to version 1.2.12"
+#~ msgstr "ဘရိုင်ယာပင်မကို ဗားရှင်း ၁.၂.၁၂ သို့ အဆင့်မြှင့်ခြင်း"
+
+#~ msgid "Translation into Romanian"
+#~ msgstr "ရိုမေးနီးယာဘာသာစကားသို့ ဘာသာပြန်မှု"

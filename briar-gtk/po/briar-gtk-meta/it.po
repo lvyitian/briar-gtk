@@ -9,7 +9,7 @@
 # ironbishop <ironbishop@fsfe.org>, 2020
 # Adam Lynn <adam@opentechfund.org>, 2020
 # c6497ab8ee8a3906bb861267dec9a84b_bc40ce0 <0329ec65fa3a66db7a8a2a698d66d850_156421>, 2020
-# Random_R, 2020
+# Random_R, 2021
 #
 #, fuzzy
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Random_R, 2020\n"
+"Last-Translator: Random_R, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/otf/teams/76528/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr "Briar è un'app di messaggistica progettata per attivisti, giornalisti e chiunque altro abbia bisogno di un modo sicuro, facile e robusto di comunicare. A differenza delle app di messaggistica tradizionali, Briar non si basa su un server centrale - i messaggi sono sincronizzati direttamente tra i dispositivi degli utenti. Se non c'è internet, Briar può sincronizzare via Bluetooth o Wi-Fi, mantenendo attive le comunicazioni in caso di emergenza. Se c'è internet, Briar può sincronizzare tramite rete Tor, proteggendo gli utenti e le loro relazioni dalla sorveglianza."
 
 msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
-msgstr ""
+msgstr "Nota: attualmente solo le chat private via Tor sono supportate in Briar GTK."
 
 msgid "The Briar Project"
 msgstr "The Briar Project"
@@ -55,13 +55,22 @@ msgstr "Finestra principale con due contatti e le informazioni di applicazione"
 msgid "Improvements in this version:"
 msgstr "Migliorie in questa versione:"
 
-msgid "Support for mobile devices (AArch64/ARM)"
-msgstr "Supporto per dispositivi mobili (AArch64/ARM)"
+msgid "Compose messages with multiple lines"
+msgstr ""
 
-msgid "Update Briar core to version 1.2.12"
-msgstr "Aggiornato Briar core alla versione 1.2.12"
+msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
+msgstr ""
 
-msgid "Translation into Romanian"
+msgid "Handle errors while adding contacts"
+msgstr ""
+
+msgid "Support for mobile devices (AArch64, ARMv7)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.17"
+msgstr ""
+
+msgid "Translation into Romanian and Burmese"
 msgstr ""
 
 msgid "Improved notification support"
@@ -189,3 +198,12 @@ msgstr "Numerosi test del software"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "La primissima versione alfa di Briar GTK. Consente l'aggiunta di contatti a distanza e di conversare con essi in chat private. Altre funzioni come i gruppi, i forum e i blog devono essere implementate."
+
+#~ msgid "Support for mobile devices (AArch64/ARM)"
+#~ msgstr "Supporto per dispositivi mobili (AArch64/ARM)"
+
+#~ msgid "Update Briar core to version 1.2.12"
+#~ msgstr "Aggiornato Briar core alla versione 1.2.12"
+
+#~ msgid "Translation into Romanian"
+#~ msgstr "Traduzione in rumeno"

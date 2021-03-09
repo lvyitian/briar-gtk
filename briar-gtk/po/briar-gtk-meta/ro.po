@@ -8,6 +8,7 @@
 # Adam Lynn <adam@opentechfund.org>, 2020
 # polearnik <polearnik@mail.ru>, 2020
 # Licaon_Kter, 2020
+# Vlad Godoroja <vlad@intpal.com>, 2021
 #
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Licaon_Kter, 2020\n"
+"Last-Translator: Vlad Godoroja <vlad@intpal.com>, 2021\n"
 "Language-Team: Romanian (https://www.transifex.com/otf/teams/76528/ro/)\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +34,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr "Briar este o aplicație de mesagerie concepută pentru activiști, jurnaliști și oricine altcineva care are nevoie de o modalitate sigură, ușoară și robustă de a comunica. Spre deosebire de aplicațiile tradiționale de mesagerie, Briar nu se bazează pe un server central - mesajele sunt sincronizate direct între dispozitivele utilizatorilor. Dacă internetul nu este disponibil, Briar poate sincroniza prin Bluetooth sau Wi-Fi, permițând schimbul de informații într-o situație de criză. Dacă internetul este disponibil, Briar poate sincroniza prin intermediul rețelei Tor, protejând utilizatorii și relațiile lor de supraveghere."
 
 msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
-msgstr ""
+msgstr "Notă: În prezent, chat-urile private în Briar GTK pot fi utilizate doar prin Tor."
 
 msgid "The Briar Project"
 msgstr "Proiectul Briar"
@@ -53,13 +54,22 @@ msgstr ""
 msgid "Improvements in this version:"
 msgstr ""
 
-msgid "Support for mobile devices (AArch64/ARM)"
+msgid "Compose messages with multiple lines"
 msgstr ""
 
-msgid "Update Briar core to version 1.2.12"
+msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
 msgstr ""
 
-msgid "Translation into Romanian"
+msgid "Handle errors while adding contacts"
+msgstr ""
+
+msgid "Support for mobile devices (AArch64, ARMv7)"
+msgstr ""
+
+msgid "Update Briar core to version 1.2.17"
+msgstr ""
+
+msgid "Translation into Romanian and Burmese"
 msgstr ""
 
 msgid "Improved notification support"

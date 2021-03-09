@@ -3,8 +3,18 @@
 # License-Filename: LICENSE.md
 import os
 from gettext import gettext as _
+
 from gi.repository import Gtk
 
+from briar_wrapper.exception import BriarWrapperException
+from briar_wrapper.exceptions.pending_already_exists_contact import \
+    PendingContactAlreadyExistsContact
+from briar_wrapper.exceptions.pending_already_exists_pending_contact import \
+    PendingContactAlreadyExistsPendingContact
+from briar_wrapper.exceptions.pending_invalid_link import \
+    PendingContactInvalidLinkException
+from briar_wrapper.exceptions.pending_invalid_public_key import \
+    PendingContactInvalidPublicKeyException
 from briar_wrapper.models.contacts import Contacts
 
 from briar_gtk.add_contact.add_contact_actions import AddContactActions
@@ -13,7 +23,6 @@ from briar_gtk.define import APP, RESOURCES_DIR
 
 
 class AddContactView(Gtk.Overlay):
-
     # TODO: Move more logic into AddContactPresenter
 
     ADD_CONTACT_UI = "add_contact.ui"
@@ -41,16 +50,15 @@ class AddContactView(Gtk.Overlay):
         return self.builder.get_object("their_link_entry")
 
     def proceed_from_links(self):
-        link_error_label = self.builder.get_object("link_error_label")
         if self._link_is_empty():
-            link_error_label.set_label(_("Please enter a link"))
-            link_error_label.show()
+            error_message = _("Please enter a link")
+            self._show_error_links_page(error_message)
             return
         if self._links_match():
-            link_error_label.show()
-            link_error_label.set_label(
-                _("Enter your contact's link, not your own"))
+            error_message = _("Enter your contact's link, not your own")
+            self._show_error_links_page(error_message)
             return
+        link_error_label = self.builder.get_object("link_error_label")
         link_error_label.hide()
         self._show_alias_page()
 
@@ -66,7 +74,6 @@ class AddContactView(Gtk.Overlay):
             return
         alias_error_label.hide()
         self._add_contact()
-        APP().window.show_conversation_view()
 
     def _setup_view(self):
         self._add_from_resource(self.ADD_CONTACT_UI)
@@ -102,6 +109,11 @@ class AddContactView(Gtk.Overlay):
     def _setup_link_enter_listener(self):
         self.their_link_entry.connect("activate", self._on_link_enter)
 
+    def _show_error_links_page(self, error_message):
+        link_error_label = self.builder.get_object("link_error_label")
+        link_error_label.set_label(error_message)
+        link_error_label.show()
+
     # pylint: disable=unused-argument
     def _on_link_enter(self, widget):
         self.proceed_from_links()
@@ -134,7 +146,121 @@ class AddContactView(Gtk.Overlay):
         return len(alias) == 0
 
     def _add_contact(self):
-        contacts = Contacts(APP().api)
-        their_link = self.their_link_entry.get_text()
         alias = self.alias_entry.get_text()
-        contacts.add_pending(their_link, alias)
+        their_link = self.their_link_entry.get_text()
+        try:
+            contacts = Contacts(APP().api)
+            contacts.add_pending(their_link, alias)
+            APP().window.show_conversation_view()
+        except PendingContactInvalidLinkException:
+            self.show_links_page()
+            error_message = _("Invalid link")
+            self._show_error_links_page(error_message)
+        except PendingContactInvalidPublicKeyException:
+            self.show_links_page()
+            error_message = _("Invalid link")
+            self._show_error_links_page(error_message)
+        except PendingContactAlreadyExistsContact as exception:
+            self._handle_existing_contact(exception.remote_author_name, alias)
+        except PendingContactAlreadyExistsPendingContact as exception:
+            self._handle_existing_pending_contact(exception, alias, their_link)
+        except BriarWrapperException:
+            self.show_links_page()
+            error_message = _("There was an error adding the contact")
+            self._show_error_links_page(error_message)
+
+    def _handle_existing_contact(self, existing_contact_name, alias):
+        callback = lambda widget, response_id: \
+            self._handle_existing_contact_same_person(
+                widget, response_id, existing_contact_name, alias)
+        self._show_same_link_dialog(existing_contact_name, alias, callback)
+
+    def _handle_existing_contact_same_person(self, widget, response_id,
+                                             existing_contact_name, alias):
+        if response_id == Gtk.ResponseType.YES:
+            message = _("Contact %s already exists") % existing_contact_name
+            confirmation_dialog = Gtk.MessageDialog(
+                transient_for=APP().window,
+                flags=Gtk.DialogFlags.MODAL,
+                message_type=Gtk.MessageType.INFO,
+                buttons=Gtk.ButtonsType.OK,
+                text=message,
+            )
+            confirmation_dialog.connect("response", self._on_final_dialog)
+            confirmation_dialog.show_all()
+            widget.destroy()
+        elif response_id == Gtk.ResponseType.NO:
+            self._show_warning_dialog(existing_contact_name, alias)
+            widget.destroy()
+
+    def _handle_existing_pending_contact(self, exception, alias, link):
+        callback = lambda widget, response_id: \
+            self._handle_existing_pending_contact_same_person(
+                widget, response_id, exception, alias, link)
+        self._show_same_link_dialog(exception.pending_contact_alias, alias,
+                                    callback)
+
+    # pylint: disable=too-many-arguments
+    def _handle_existing_pending_contact_same_person(self, widget, response_id,
+                                                     exception, alias, link):
+        if response_id == Gtk.ResponseType.YES:
+            widget.destroy()
+            message = _("Pending contact updated")
+            try:
+                contacts = Contacts(APP().api)
+                contacts.delete_pending(exception.pending_contact_id)
+                contacts.add_pending(link, alias)
+            except BriarWrapperException:
+                message = _(
+                    "An error occurred while updating the pending contact")
+            confirmation_dialog = Gtk.MessageDialog(
+                transient_for=APP().window,
+                flags=Gtk.DialogFlags.MODAL,
+                message_type=Gtk.MessageType.INFO,
+                buttons=Gtk.ButtonsType.OK,
+                text=message,
+            )
+            confirmation_dialog.connect("response", self._on_final_dialog)
+            confirmation_dialog.show_all()
+        elif response_id == Gtk.ResponseType.NO:
+            self._show_warning_dialog(exception.pending_contact_alias, alias)
+            widget.destroy()
+
+    @staticmethod
+    def _show_same_link_dialog(existing_name, alias_name, callback):
+        confirmation_dialog = Gtk.MessageDialog(
+            transient_for=APP().window,
+            flags=Gtk.DialogFlags.MODAL,
+            message_type=Gtk.MessageType.QUESTION,
+            buttons=Gtk.ButtonsType.YES_NO,
+            text=_("Duplicate Link"),
+        )
+        message = _(
+            "You already have a pending contact with this link: %s") % (
+                      existing_name)
+        message = message + "\n\n" + _("Are %s and %s the same person?") % (
+            alias_name, existing_name)
+        confirmation_dialog.format_secondary_text(message)
+
+        confirmation_dialog.connect("response", callback)
+        confirmation_dialog.show_all()
+
+    def _show_warning_dialog(self, name1, name2):
+        confirmation_dialog = Gtk.MessageDialog(
+            transient_for=APP().window,
+            flags=Gtk.DialogFlags.MODAL,
+            message_type=Gtk.MessageType.ERROR,
+            buttons=Gtk.ButtonsType.OK,
+            text=_("Duplicate Link"),
+        )
+        message = _(
+            "%s and %s sent you the same link.\n\nOne of them may be trying to discover who your contacts are.\n\nDon\'t tell them you received the same link from someone else.") % (name1, name2)  # noqa
+        confirmation_dialog.format_secondary_text(message)
+
+        confirmation_dialog.connect("response", self._on_final_dialog)
+        confirmation_dialog.show_all()
+
+    @staticmethod
+    def _on_final_dialog(widget, response_id):
+        widget.destroy()
+        APP().window.show_conversation_view()

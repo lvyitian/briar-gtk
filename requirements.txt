@@ -1,5 +1,5 @@
-# Copyright (c) 2019 Nico Alt
+# Copyright (c) 2019-2021 Nico Alt
 # SPDX-License-Identifier: AGPL-3.0-only
 # License-Filename: LICENSE.md
 
-briar-wrapper>=0.0.6
+git+https://code.briarproject.org/briar/python-briar-wrapper.git@afba642b3a9556661b16220751283b8a2f9fc1c4#egg=briar-wrapper

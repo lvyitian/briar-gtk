@@ -8,8 +8,7 @@ variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 before_script:
-    - apt update && apt install --no-install-recommends -y gir1.2-gtk-3.0 python3-gi python3-pip python3-setuptools
-    - apt install --no-install-recommends -y libhandy-1-dev
+    - apt update && apt install --no-install-recommends -y gir1.2-gtk-3.0 python3-gi python3-pip python3-setuptools libhandy-1-dev git
     - pip3 install -r requirements-dev.txt
 
 stages:

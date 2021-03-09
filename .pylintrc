@@ -5,8 +5,9 @@
 [MASTER]
 
 disable=attribute-defined-outside-init,
-	duplicate-code,
-	fixme,
+        duplicate-code,
+        fixme,
+        line-too-long,
         missing-docstring,
         no-name-in-module,
         too-few-public-methods,

@@ -6,7 +6,7 @@
 # Translators:
 # erinm, 2020
 # Ŝtonĉjo <pierre.soubourou@gmail.com>, 2020
-# Hendur Saga <hendursaga@nerdmail.co>, 2020
+# Hendur Saga <hendursaga@nerdmail.co>, 2021
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Hendur Saga <hendursaga@nerdmail.co>, 2020\n"
+"Last-Translator: Hendur Saga <hendursaga@nerdmail.co>, 2021\n"
 "Language-Team: Esperanto (https://www.transifex.com/otf/teams/76528/eo/)\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
@@ -153,7 +153,7 @@ msgid "Enter your contact's link, not your own"
 msgstr "Entajpu vian ligon de kontakto, ne vian"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Malvalida ligo"
 
 msgid "There was an error adding the contact"
 msgstr ""
@@ -169,7 +169,7 @@ msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Repetita Ligo"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"

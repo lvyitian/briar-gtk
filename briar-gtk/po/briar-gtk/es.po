@@ -4,14 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Roberto M.F., 2020
 # Đorđe Marušić <djordje@hzontal.org>, 2020
 # strel, 2020
 # akwizgran <michael@briarproject.org>, 2020
 # 0f759dd1ea6c4c76cedc299039ca4f23_7584d04 <454cc45058db9632179dc8079c0c1af3_5311>, 2020
 # Anatoli Pena <djanatoli@gmail.com>, 2020
 # wuniversales, 2020
-# Zuhualime Akoochimoya, 2020
+# Juan Jaramillo <juanda097@protonmail.ch>, 2021
+# Roberto M.F., 2021
+# Zuhualime Akoochimoya, 2021
 #
 #, fuzzy
 msgid ""
@@ -19,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Zuhualime Akoochimoya, 2020\n"
+"Last-Translator: Zuhualime Akoochimoya, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/otf/teams/76528/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -158,31 +159,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Introduce el enlace del contacto, no el de ti"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Enlace inválido"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "Hubo un error al añadir el contacto"
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "El contacto %s ya existe"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Contacto pendiente actualizado"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "Ocurrió un error al actualizar el contacto pendiente"
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Duplicar enlace"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Ya tienes un contacto pendiente con este enlace: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "¿Son %s y %s la misma persona?"
 
 #, python-format
 msgid ""
@@ -192,6 +193,9 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s y %s te enviaron el mismo enlace.\n"
+"Uno de ellos puede estar tratando de descubrir quiénes son tus contactos.\n"
+"No le digas que recibiste el mismo enlace de otra persona."
 
 msgid "Contact added"
 msgstr "Se añadió el contacto"
@@ -225,7 +229,7 @@ msgstr "Yo"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "Copyright © 2019-2021 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -234,7 +238,3 @@ msgstr "Briar para GTK en escritorios y dispositivos móviles"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visitar la página web de Briar GTK"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Copyright © 2019-2020 El Proyecto Briar"

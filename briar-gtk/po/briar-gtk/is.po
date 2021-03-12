@@ -153,31 +153,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Settu inn tengilinn frá tengiliðnum þínum, ekki þinn eigin"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Ógildur tengill"
 
 msgid "There was an error adding the contact"
 msgstr ""
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "Tengiliðurinn %s er þegar til"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Tengiliður í bið uppfærður"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Endurtekinn tengill"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Þú ert þegar með tengilið í bið sem er með þessum tengli: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "Eru %s og %s sami einstaklingurinn?"
 
 #, python-format
 msgid ""
@@ -229,7 +229,3 @@ msgstr "Briar-forrit fyrir GTK-skjáborðsumhverfi og snjalltæki"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Heimsækja Briar GTK vefsvæðið"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Höfundarréttur © 2019-2020 Briar-verkefnið"

@@ -6,7 +6,7 @@
 # Translators:
 # erinm, 2020
 # SEPT____ <xpressengine3@mail.beo.kr>, 2020
-# Iso Lee, 2020
+# Iso Lee, 2021
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Iso Lee, 2020\n"
+"Last-Translator: Iso Lee, 2021\n"
 "Language-Team: Korean (https://www.transifex.com/otf/teams/76528/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -153,31 +153,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "자신이 아니고 상대방의 링크를 입력해 주세요"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "잘못된 링크입니다"
 
 msgid "There was an error adding the contact"
 msgstr ""
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "%s의 연락처가 이미 있습니다"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "남은 연락 요청이 있는지 확인했습니다"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "중복되는 링크입니다"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "%s: 이미 이 링크를 통한 연락 요청이 있습니다."
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "%s 님과 %s 님이 같은 사람인가요?"
 
 #, python-format
 msgid ""
@@ -229,7 +229,3 @@ msgstr "컴퓨터와 모바일의 GTK 환경을 위한 Briar 클라이언트"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Briar GTK 웹사이트 방문하"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Copyright © 2019-2020 The Briar Project"

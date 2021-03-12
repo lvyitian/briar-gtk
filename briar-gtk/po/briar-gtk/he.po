@@ -153,31 +153,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "הכנס את הקישור של איש הקשר שלך, לא את שלך"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "קישור בלתי תקף"
 
 msgid "There was an error adding the contact"
 msgstr ""
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "איש הקשר %s קיים כבר"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "איש קשר ממתין עודכן"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "קישור כפול"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "יש לך כבר איש קשר ממתין עם קישור זה: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "האם %s ו־%s הם אותו איש?"
 
 #, python-format
 msgid ""
@@ -229,7 +229,3 @@ msgstr "לקוח Briar עבור שולחן עבודה GTK ומכשירים ני�
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "בקר באתר של Briar GTK"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "זכות יוצרים © 2019-2020 מיזם Briar"

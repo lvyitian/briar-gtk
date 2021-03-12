@@ -158,31 +158,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Voer de link van jouw contact in, niet de jouwe"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Ongeldige link"
 
 msgid "There was an error adding the contact"
 msgstr ""
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "Contact %s bestaat al"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Wachtend contact is bijgewerkt"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Duplicate link"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Je hebt al en wachtend contact met deze link: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "Zijn %s en %s dezelfde persoon?"
 
 #, python-format
 msgid ""
@@ -234,7 +234,3 @@ msgstr "Briar applicatie voor GTK-ondersteunde desktop- en mobiele apparaten"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Bezoek de website van Briar GTK"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Autersrecht © 2019-2021 Het Briarproject"

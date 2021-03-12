@@ -9,14 +9,14 @@
 # Joeffison Silvério de Andrade <joeffison@gmail.com>, 2020
 # 0ed9961fdd2c469a85d0f0ef7ce7865b, 2020
 # Vitoria Vernalha <vernalhavitoria@gmail.com>, 2020
-# jose, 2020
 # Đorđe Marušić <djordje@hzontal.org>, 2020
 # erinm, 2020
 # André Almeida <andrefalmeida@protonmail.com>, 2020
 # Evandro <evandro.92@hotmail.com>, 2020
-# Caio Volpato <caio.volpato@riseup.net>, 2020
 # Adrian . <tekohax@disroot.org>, 2020
 # Jonatas Castro <jonatascosta.17@gmail.com>, 2020
+# Caio Volpato <caio.volpato@riseup.net>, 2021
+# jose, 2021
 #
 #, fuzzy
 msgid ""
@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Jonatas Castro <jonatascosta.17@gmail.com>, 2020\n"
+"Last-Translator: jose, 2021\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/otf/teams/76528/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -163,31 +163,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Insira o link do seu contato, não o seu próprio  "
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Link invalido"
 
 msgid "There was an error adding the contact"
 msgstr ""
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "Contato %s já existe"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Contato pendente atualizado"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Link duplicado"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Você já tem um contato pendente com esse link: %s "
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "%s e %s são a mesma pessoa?"
 
 #, python-format
 msgid ""

@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# Katherine Kay <kaykhinethansoe.ytu@gmail.com>, 2021
 # Ei Mon Theint <eimon2298@gmail.com>, 2021
 # Tun Naung Win <hellisenough@gmail.com>, 2021
 #
@@ -152,31 +153,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "သင်မဟုတ်သော သင့်အဆက်အသွယ်၏လင့်ခ်ကို ထည့်ပါ"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "မဆီလျော်သောလင့်ခ်"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "အဆက်အသွယ်ထည့်ရာတွင် ပြဿနာတစ်ခု ရှိနေသည်"
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "အဆက်အသွယ် %sသည် ရှိပြီးသားဖြစ်သည်"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "ဆိုင်းငံ့ထားသော အဆက်အသွယ်ကို အပ်ဒိတ်လုပ်ပြီး"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "ဆိုင်းငံ့ထားသောအဆက်အသွယ်ကို အပ်ဒိတ်လုပ်နေစဉ် ပြဿနာတစ်ခု ရှိခဲ့သည်"
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "လင့်ခ်ကို ပွားသည်"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "သင့်တွင် ဤလင့်ခ် - %s နှင့်ပတ်သက်သည့် ဆိုင်းငံ့ထားသောအဆက်အသွယ်တစ်ခု ရှိပြီးဖြစ်သည် "
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "%s နှင့် %s သည် တစ်ဦးတည်း ဖြစ်ပါသလား။"
 
 #, python-format
 msgid ""
@@ -186,6 +187,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s နှင့် %s တို့က သင့်ထံ တူညီသောလင့်ခ်ကို ပို့ထားပါသည်။\n"
+"\n"
+"သူတို့နှစ်ဦးအနက် တစ်ဦးက သင့်အဆက်အသွယ်များကို သိရှိရန်ကြိုးစားနေခြင်း ဖြစ်နိုင်ပါသည်။\n"
+"\n"
+"အခြားသူတစ်ဦးထံမှ တူညီသည့်လင့်ခ်ကို လက်ခံရရှိထားကြောင်း သူတို့ကို မပြောပါနှင့်။"
 
 msgid "Contact added"
 msgstr "အဆက်အသွယ်ထည့်ပြီးပါပြီ"
@@ -197,7 +203,7 @@ msgid "Are you sure you want to exit?"
 msgstr "ထွက်မှာသေချာလား။"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr "Briar အားပိတ်လိုက်သည်နှင့် သင်သည် ဆိုင်းငံ့ထားသော စာအသွားအလာများအပါအဝင် အခြားမည်သည့် စာအသွားအလာကိုမျှလက်ခံရရှိမည်မဟုတ်ပါ။ သင်၏အဆက်အသွယ်များနှင့် ဆက်သွယ်နိုင်ရန် Briar အား ဆက်လက်ဖွင့်ထားပါ။ "
+msgstr "ဘရိုင်ယာကိုပိတ်လိုက်သည်နှင့် မည်သည့်မက်ဆေ့ချ်ကိုမျှ လက်ခံမရရှိတော့မည့်အပြင် ဆိုင်းငံ့ထားသည်များကိုလည်း ပို့၍ရတော့မည်မဟုတ်ပါ။ သင့်အဆက်အသွယ်များနှင့် အချိတ်အဆက်မပြတ်စေရန် Briar ကို ဖွင့်ထားပါ။"
 
 msgid "Change"
 msgstr "ပြောင်းလဲသည်။"
@@ -219,7 +225,7 @@ msgstr "ကိုယ်တိုင်"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "မူပိုင်ခွင့် © ၂၀၁၉-၂၀၂၁ ဘရိုင်ယာစီမံကိန်း"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -228,7 +234,3 @@ msgstr "GTK ကွန်ပျူတာနှင့် မိုဘိုင်�
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "ဘရိုင်ယာ GTK ဝဘ်ဆိုက်ကို သွားကြည့်ပါ"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "မူပိုင်ခွင့် © ၂၀၁၉-၂၀၂၀ ဘရိုင်ယာစီမံကိန်း"

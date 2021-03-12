@@ -6,9 +6,9 @@
 # Translators:
 # erinm, 2020
 # Riccardo, 2020
-# HostFat <hostfat@gmail.com>, 2020
 # SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2020
 # Davide Dopesick <metalcaster7@gmail.com>, 2020
+# HostFat <hostfat@gmail.com>, 2021
 # Random_R, 2021
 #
 #, fuzzy
@@ -156,31 +156,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Inserisci il link del contatto, non il tuo"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Link non valido"
 
 msgid "There was an error adding the contact"
 msgstr ""
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "Il contatto %s esiste già"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Contatto in attesa aggiornato"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Duplica il link"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Hai già un contatto in attesa con questo link: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "%s e %s sono la stessa persona?"
 
 #, python-format
 msgid ""
@@ -232,7 +232,3 @@ msgstr "Un client Briar per desktop GTK e dispositivi mobili"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visita il sito di Briar GTK"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Copyright © 2019-2020 The Briar Project"

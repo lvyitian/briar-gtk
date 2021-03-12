@@ -7,12 +7,12 @@
 # erinm, 2020
 # محيي الدين <tx99h4@hotmail.com>, 2020
 # Rima Sghaier, 2020
-# Ali <aboshanab_@hotmail.com>, 2020
 # akwizgran <michael@briarproject.org>, 2020
 # Haroon Ali <haroon.ali2018@protonmail.com>, 2020
 # Nico Alt, 2020
 # mazen777 <mazen.sos.alkatlabee@gmail.com>, 2020
-# Layla Taha <layla@asl19.org>, 2020
+# Ali <aboshanab_@hotmail.com>, 2021
+# Layla Taha <layla@asl19.org>, 2021
 #
 #, fuzzy
 msgid ""
@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Layla Taha <layla@asl19.org>, 2020\n"
+"Last-Translator: Layla Taha <layla@asl19.org>, 2021\n"
 "Language-Team: Arabic (https://www.transifex.com/otf/teams/76528/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -159,31 +159,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "يرجى إخال رابط جهة الاتصال، وليس رابطكم"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "الرّابط غير صالح"
 
 msgid "There was an error adding the contact"
 msgstr ""
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "جهة الإتصال %s بالفعل موجودة"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "تمّ تحديث طلب جهة الاتصال العالق"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "الرّابط مكرّر "
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "لديكم جهة اتصال معلّقة تحمل نفس هذا الرّابط: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "هل %s و%s هما الشّخص ذاته؟ "
 
 #, python-format
 msgid ""
@@ -235,7 +235,3 @@ msgstr "عميل Briar ل GTK الحاسوب والأجهزة النقالة"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "يمكنكم زيارة موقع Briar"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "حقوق النشر © 2020-2019 مشروع Briar"

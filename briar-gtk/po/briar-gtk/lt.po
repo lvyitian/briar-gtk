@@ -152,31 +152,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Įveskite ne savo, o adresato nuorodą"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Neteisinga nuoroda"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "Pridedant adresatą, įvyko klaida"
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "Adresatas %s jau yra"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Laukiantis adresatas atnaujintas"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "Atnaujinant laukiantį adresatą, atsirado klaidų"
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Identiška nuoroda"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Jūs jau turite laukiančią adresato užklausą su šia nuoroda: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "Ar %s ir %s yra tas pats asmuo?"
 
 #, python-format
 msgid ""
@@ -186,6 +186,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s ir %s išsiuntė jums tą pačią nuorodą.\n"
+"\n"
+"Gali būti, kad vienas iš šių asmenų bando sužinoti kas yra jūsų adresatų sąraše.\n"
+"\n"
+"Nesakykite šiems asmenims, kad gavote tokią pačią nuorodą iš kito asmens."
 
 msgid "Contact added"
 msgstr "Kontaktas pridėtas"
@@ -219,7 +224,7 @@ msgstr "Aš"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "Autorių teisės © 2019-2021 Briar projektas"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -228,7 +233,3 @@ msgstr "Briar kliento programa, skirta darbalaukio ir mobiliesiems įrenginiams"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Apsilankyti Briar GTK internetinėje svetainėje"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Autorių teisės © 2019-2020 Briar projektas"

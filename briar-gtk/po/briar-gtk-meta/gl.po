@@ -51,22 +51,22 @@ msgid "Improvements in this version:"
 msgstr "Melloras nesta versión:"
 
 msgid "Compose messages with multiple lines"
-msgstr ""
+msgstr "Escribir mensaxes en múltiples liñas"
 
 msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
-msgstr ""
+msgstr "Arranxo do problema que pecha Briar GTK ao enviar/recibir mensaxes longas"
 
 msgid "Handle errors while adding contacts"
-msgstr ""
+msgstr "Xestión de fallos ao engadir contactos"
 
 msgid "Support for mobile devices (AArch64, ARMv7)"
-msgstr ""
+msgstr "Soporte para dispositivos móbiles (AArch64, ARMv7)"
 
 msgid "Update Briar core to version 1.2.17"
-msgstr ""
+msgstr "Actualizar núcleo de Briar a versión 1.2.17"
 
 msgid "Translation into Romanian and Burmese"
-msgstr ""
+msgstr "Tradución ao Rumanés e Burmese"
 
 msgid "Improved notification support"
 msgstr "Mellora no soporte de notificacións"
@@ -193,12 +193,3 @@ msgstr "Moitos test do software"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Primeira versión alpha de Briar GTK. Permite engadir contactos de xeito remoto e conversar con eles de xeito privado. Outras funcións como grupos, foros e blogs aínda non se implementaron."
-
-#~ msgid "Support for mobile devices (AArch64/ARM)"
-#~ msgstr "Soporte para dispositivos móbiles (AArch64/ARM)"
-
-#~ msgid "Update Briar core to version 1.2.12"
-#~ msgstr "Actualizar o núcleo de Briar á versión 1.2.12"
-
-#~ msgid "Translation into Romanian"
-#~ msgstr "Tradución ó romanés"

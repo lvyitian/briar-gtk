@@ -12,8 +12,8 @@
 # Stefan Gagner <stefan@mei-ya.se>, 2020
 # Steve Dougherty, 2020
 # efef6ec5b435a041fce803c7f8af77d2_2341d43, 2020
-# Daniel <d-transifex@lublin.se>, 2020
 # Sebastian Rasmussen <sebras@gmail.com>, 2021
+# Daniel <d-transifex@lublin.se>, 2021
 #
 #, fuzzy
 msgid ""
@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>, 2021\n"
+"Last-Translator: Daniel <d-transifex@lublin.se>, 2021\n"
 "Language-Team: Swedish (https://www.transifex.com/otf/teams/76528/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -160,31 +160,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Skriv in länken du fick från din kontakt, inte din egna länk"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Felakting länk"
 
 msgid "There was an error adding the contact"
 msgstr ""
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "Kontakten %s finns redan"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Väntande kontakt har uppdaterats"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Kopiera länk"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Du har redan en väntande kontakt med den här länken: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "Är %s och %s samma person?"
 
 #, python-format
 msgid ""
@@ -236,7 +236,3 @@ msgstr "En Briar-klient för GTK-skrivbordet och mobila enheter"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Besök Briar GTK:s webbplats"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Copyright © 2019-2020 Briar-projektet"

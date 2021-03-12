@@ -7,7 +7,6 @@
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Towinet, 2020
 # Martus Translations <translations@martus.org>, 2020
-# Christophe Laurent <krisportable@gmail.com>, 2021
 # AO <ao@localizationlab.org>, 2021
 #
 #, fuzzy
@@ -55,22 +54,22 @@ msgid "Improvements in this version:"
 msgstr "Améliorations dans cette version :"
 
 msgid "Compose messages with multiple lines"
-msgstr ""
+msgstr "Rédaction de messages multilignes"
 
 msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
-msgstr ""
+msgstr "Correctif d’un bogue qui faisait planter Briar GTK lors de l’envoi et de la réception de longs messages"
 
 msgid "Handle errors while adding contacts"
-msgstr ""
+msgstr "Gestion des erreurs lors de l’ajout de contacts"
 
 msgid "Support for mobile devices (AArch64, ARMv7)"
-msgstr ""
+msgstr "Prise en charge des appareils mobiles (AArch64, ARMv7)"
 
 msgid "Update Briar core to version 1.2.17"
-msgstr ""
+msgstr "Mise à jour du noyau de Briar vers la version 1.2.17"
 
 msgid "Translation into Romanian and Burmese"
-msgstr ""
+msgstr "Traduction en roumain et en birman"
 
 msgid "Improved notification support"
 msgstr "Prise en charge améliorée des notifications"
@@ -190,19 +189,10 @@ msgid "Fix bug with contact's name not showing in private messages (#55)"
 msgstr "Correctif de bogue : le nom du contact n’apparaissait pas dans les messages privés (no 55)"
 
 msgid "Update Briar core to version 1.2.9"
-msgstr "Mise à jour du noyau de Briar à la version 1.2.9"
+msgstr "Mise à jour du noyau de Briar vers la version 1.2.9"
 
 msgid "Lots of software tests"
 msgstr "De nombreux essais du logiciel"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "La toute première version alpha de Briar GTK. Elle permet d’ajouter des contacts à distance et de dialoguer avec eux dans des conversations privées. D’autres fonctions telles que les groupes, les forums et les blogues sont à venir."
-
-#~ msgid "Support for mobile devices (AArch64/ARM)"
-#~ msgstr "Assistance pour appareils mobiles (AArch64/ARM)"
-
-#~ msgid "Update Briar core to version 1.2.12"
-#~ msgstr "Mise à jour du noyau de Briar à la version 1.2.12"
-
-#~ msgid "Translation into Romanian"
-#~ msgstr "Traduction en roumain"

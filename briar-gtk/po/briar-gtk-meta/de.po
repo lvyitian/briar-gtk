@@ -13,6 +13,7 @@
 # Ettore Atalan <atalanttore@googlemail.com>, 2020
 # Nico Alt, 2020
 # nautilusx, 2020
+# Heiko Braun <transifex@heiko-braun.org>, 2021
 #
 #, fuzzy
 msgid ""
@@ -20,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: nautilusx, 2020\n"
+"Last-Translator: Heiko Braun <transifex@heiko-braun.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/76528/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -59,22 +60,22 @@ msgid "Improvements in this version:"
 msgstr "Verbesserungen in dieser Version:"
 
 msgid "Compose messages with multiple lines"
-msgstr ""
+msgstr "Erstelle Nachrichten über mehrere Zeilen hinweg"
 
 msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
-msgstr ""
+msgstr "Behebe den Bug, der Briar GTK zum Absturz bringt, wenn lange Nachrichten gesendet/empfangen werden."
 
 msgid "Handle errors while adding contacts"
-msgstr ""
+msgstr "Fehlerbehandlung während des Hinzufügens von Kontakten"
 
 msgid "Support for mobile devices (AArch64, ARMv7)"
-msgstr ""
+msgstr "Unterstützung für mobile Geräte (AArch64, Armv7)"
 
 msgid "Update Briar core to version 1.2.17"
-msgstr ""
+msgstr "Aktualisiere den Briar Kern auf Version 1.2.17"
 
 msgid "Translation into Romanian and Burmese"
-msgstr ""
+msgstr "Übersetzung ins Rumänische und Birmanische"
 
 msgid "Improved notification support"
 msgstr "Verbesserte Unterstützung für Benachrichtigungen"
@@ -201,12 +202,3 @@ msgstr "Viele Softwaretests"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Das erste Alpha-Release von Briar GTK. Es können Kontakte in der Ferne hinzugefügt und private Chats genutzt werden. Andere Funktionen, wie Gruppen, Foren und Blogs folgen."
-
-#~ msgid "Support for mobile devices (AArch64/ARM)"
-#~ msgstr "Unterstützung für Mobilgeräte (AArch64/ARM)"
-
-#~ msgid "Update Briar core to version 1.2.12"
-#~ msgstr "Aktualisierung des Briar-Kerns auf Version 1.2.12"
-
-#~ msgid "Translation into Romanian"
-#~ msgstr "Übersetzung ins Rumänische"

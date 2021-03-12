@@ -10,7 +10,7 @@
 # Adolfo Jayme-Barrientos, 2020
 # Jaime Muñoz Martín <jmmartin_5@outlook.com>, 2020
 # Matemàtic Anònim <matematic@autistici.org>, 2020
-# Sebas Vila <svilamarta@gmail.com>, 2020
+# Sebas Vila <svilamarta@gmail.com>, 2021
 #
 #, fuzzy
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Sebas Vila <svilamarta@gmail.com>, 2020\n"
+"Last-Translator: Sebas Vila <svilamarta@gmail.com>, 2021\n"
 "Language-Team: Catalan (https://www.transifex.com/otf/teams/76528/ca/)\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -157,31 +157,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Escriviu l'enllaç del vostre contacte i no el vostre enllaç"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Enllaç erroni"
 
 msgid "There was an error adding the contact"
 msgstr ""
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "El contacte %s ja existia"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "S'ha actualitzat la sol·licitud de contacte pendent"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Enllaç duplicat"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Teniu una sol·licitud de contacte pendent amb l'enllaç %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "%s i %s són la mateixa persona?"
 
 #, python-format
 msgid ""
@@ -233,7 +233,3 @@ msgstr "Client de Briar per escriptori GTK i dispositius mòbils"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visiteu la web de Briar"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Copyright © 2019-2020 The Briar Project"

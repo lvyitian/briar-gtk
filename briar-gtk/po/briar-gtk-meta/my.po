@@ -30,7 +30,7 @@ msgid "Briar is a messaging app designed for activists, journalists, and anyone 
 msgstr "ဘရိုင်ယာဆိုသည်မှာ လုံခြုံမှုရှိ၍ လွယ်ကူလျင်မြန်အားကောင်းသော ဆက်သွယ်ရေးနည်းလမ်းတစ်ခုကိုလိုအပ်သည့် လူမှုရေး (သို့) နိုင်ငံရေး တက်ကြွလှုပ်ရှားသူများ၊ ဂျာနယ်လစ်များအပြင် အခြားမည်သူအတွက်မဆို အထူးဖန်တီးပြုလုပ်ထားသော မက်ဆေ့ချ်ပေးပို့ခြင်းအက်ပ်တစ်ခု ဖြစ်ပါသည်။ သာမန်မက်ဆေ့ချ်ပေးပို့ခြင်းအက်ပ်များနှင့်မတူသည်မှာ ဘရိုင်ယာသည် ဗဟိုပြုဆာဗာတစ်ခုတည်းအပေါ် မှီခိုခြင်းမရှိဘဲ မက်ဆေ့ချ်များကို အသုံးပြုသူများ၏စက်ပစ္စည်းများအချင်းချင်းကြားတွင်သာ တိုက်ရိုက်ကူးလူးပို့ဆောင်ပေးခြင်းဖြစ်ပါသည်။ ကပ်ဘေးများကြုံနေရချိန် အင်တာနက်မရနိုင်လျှင်ပင် ဘရိုင်ယာသည် ဘလူးတုသ် (သို့) ဝိုင်ဖိုင် အသုံးပြုပြီး သတင်းအချက်အလက်များကို ကူးလူးပို့ဆောင်ပေးနေနိုင်ပါသည်။ အင်တာနက်ရရှိပါကလည်း Tor ကွန်ယက်ကို ကြားခံအသုံးပြုပြီး အသုံးပြုသူများနှင့် ၎င်းတို့၏ပတ်သက်ဆက်နွယ်သူများကို ကြားဖြတ်စောင့်ကြည့်ခြင်းမှ ဘရိုင်ယာက ကာကွယ်ပေးထားပါသည်။"
 
 msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
-msgstr "သတိပြုရန် - လက်ရှိတွင် Tor ကိုကြားခံအသုံးပြုသည့် အတွင်းရေးချတ်များကို ဘရိုင်ယာ GTK တွင်သာ ရရှိနိုင်ပါသေးသည်။"
+msgstr "သတိပြုရန် - လက်ရှိတွင် Tor ကို ကြားခံအသုံးပြုသည့် အတွင်းရေးချတ်များကို ဘရိုင်ယာ GTK တွင်သာ ရရှိနိုင်ပါသေးသည်။"
 
 msgid "The Briar Project"
 msgstr "ဘရိုင်ယာစီမံကိန်း"
@@ -51,22 +51,22 @@ msgid "Improvements in this version:"
 msgstr "ဤဗားရှင်းတွင်ပါဝင်သော တိုးတက်မှုများ -"
 
 msgid "Compose messages with multiple lines"
-msgstr ""
+msgstr "တစ်ကြောင်းထက်ပိုသည့်မက်ဆေ့ချ်များကို ရေးနိုင်ခြင်း"
 
 msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
-msgstr ""
+msgstr "ရှည်လျားသောစာများပို့လျှင် ဘရိုင်ယာ GTK ပျက်ယွင်းခြင်းကို ပြင်ဆင်ခြင်း"
 
 msgid "Handle errors while adding contacts"
-msgstr ""
+msgstr "အဆက်အသွယ်များထည့်ရာတွင်ရှိသည့်ပြဿနာများကို ဖြေရှင်းခြင်း"
 
 msgid "Support for mobile devices (AArch64, ARMv7)"
-msgstr ""
+msgstr "မိုဘိုင်းလ်ကိရိယာများကို ပံ့ပိုးမှု (AArch64၊ ARMv7)"
 
 msgid "Update Briar core to version 1.2.17"
-msgstr ""
+msgstr "ဘရိုင်ယာပင်မကို ဗားရှင်း ၁.၂.၁၇ သို့ အဆင့်မြှင့်ခြင်း"
 
 msgid "Translation into Romanian and Burmese"
-msgstr ""
+msgstr "ရိုမေးနီးယားနှင့် မြန်မာဘာသာသို့ ဘာသာပြန်မှုများ"
 
 msgid "Improved notification support"
 msgstr "ပိုမိုကောင်းမွန်သော အသိပေးချက်ပံ့ပိုးမှု"
@@ -193,12 +193,3 @@ msgstr "ဆော့ဖ်ဝဲစမ်းသပ်မှုများစွ
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "ဘရိုင်ယာ GTK ၏ အဦးဆုံးစမ်းသပ်ဖန်တီးဆဲထွက်ရှိမှု။ အဆက်အသွယ်များကို အဝေးမှလှမ်းထည့်နိုင်ပြီး ၎င်းတို့နှင့် ကိုယ်ရေးချတ်များတွင် ချတ်လုပ်နိုင်ပါပြီ။ အဖွဲ့များ၊ ဖိုရမ်များနှင့် ဘလော့ဂ်များကဲ့သို့ အခြားလုပ်ဆောင်ချက်များကိုလည်း ထည့်သွင်းဖော်ဆောင်သွားပါမည်။"
-
-#~ msgid "Support for mobile devices (AArch64/ARM)"
-#~ msgstr "မိုဘိုင်းလ်ကိရိယာများ (AArch64/ARM) အတွက် ပံ့ပိုးမှု"
-
-#~ msgid "Update Briar core to version 1.2.12"
-#~ msgstr "ဘရိုင်ယာပင်မကို ဗားရှင်း ၁.၂.၁၂ သို့ အဆင့်မြှင့်ခြင်း"
-
-#~ msgid "Translation into Romanian"
-#~ msgstr "ရိုမေးနီးယာဘာသာစကားသို့ ဘာသာပြန်မှု"

@@ -8,11 +8,12 @@
 # erinm, 2020
 # Emma Peel, 2020
 # Florencia Herra Vega <flohdot@gmail.com>, 2020
-# Gökhan Kalayci <gkmediagokhan@gmail.com>, 2020
 # dersteppenwolfx, 2020
 # Ferdi YLDZ <eceyldz1122@gmail.com>, 2020
-# T. E. Kalayci <tekrei@gmail.com>, 2020
 # mahmut özcan <mahmutozcan@protonmail.com>, 2021
+# T. E. Kalayci <tekrei@gmail.com>, 2021
+# Gökhan Kalayci <gkmediagokhan@gmail.com>, 2021
+# Gokdeniz.Kucukali, 2021
 #
 #, fuzzy
 msgid ""
@@ -20,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: mahmut özcan <mahmutozcan@protonmail.com>, 2021\n"
+"Last-Translator: Gokdeniz.Kucukali, 2021\n"
 "Language-Team: Turkish (https://www.transifex.com/otf/teams/76528/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -159,31 +160,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Kişinizin bağlantısını girin, kendi bağlantınızı değil"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Geçersiz bağlantı"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "Kişi eklenirken bir hata oluştu."
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr " %s kişisi zaten var"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Bekleyen kişi güncellendi"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Yinelenen Bağlantı"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Bu bağlantı ile zaten bekleyen bir kişi var: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "%s ve %s aynı kişi mi?"
 
 #, python-format
 msgid ""
@@ -193,6 +194,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s ve %s sana aynı bağlantıyı gönderdi.\n"
+"\n"
+"İkisinden biri kişilerinizin kim olduğunu tespit etmeye çalışıyor olabilir.\n"
+"\n"
+"Hiçbirine başkasından da aynı bağlantıyı aldığınızı söylemeyin."
 
 msgid "Contact added"
 msgstr "Kişi eklendi"
@@ -226,7 +232,7 @@ msgstr "Ben"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "Copyright © 2019-2021 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -235,7 +241,3 @@ msgstr "GTK Masaüstü ve mobil aygıtlar için Biar istemcisi"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Briar GTK web sitesini ziyaret edin"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Copyright © 2019-2020 The Briar Project"

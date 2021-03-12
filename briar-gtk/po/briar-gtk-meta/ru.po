@@ -199,12 +199,3 @@ msgstr "Большое количество тестов программног�
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Это самый первый альфа-релиз Briar GTK. Он позволяет добавлять контакты удаленно и общаться с ними в приватных чатах. Другие функции, такие как группы, форумы и блоги, будут реализованы позже."
-
-#~ msgid "Support for mobile devices (AArch64/ARM)"
-#~ msgstr "Поддержка мобильных устройств (AArch64/ARM)"
-
-#~ msgid "Update Briar core to version 1.2.12"
-#~ msgstr "Обновление ядра Briar до версии 1.2.12"
-
-#~ msgid "Translation into Romanian"
-#~ msgstr "Перевод на румынский"

@@ -6,7 +6,7 @@
 # Translators:
 # erinm, 2020
 # Bujar Tafili, 2020
-# Besnik Bleta <besnik@programeshqip.org>, 2020
+# Besnik Bleta <besnik@programeshqip.org>, 2021
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2020\n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2021\n"
 "Language-Team: Albanian (https://www.transifex.com/otf/teams/76528/sq/)\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
@@ -153,31 +153,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Jepni lidhjen e kontaktit tuaj, jo tuajën"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Lidhje e pavlefshme"
 
 msgid "There was an error adding the contact"
 msgstr ""
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "Kontakti %s ekziston tashmë"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Kontakti pezull u përditësua"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Lidhje e Përsëdytur"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Keni tashmë një kontakt pezull me këtë lidhje: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "A janë %s dhe %s i njëjti person?"
 
 #, python-format
 msgid ""
@@ -229,7 +229,3 @@ msgstr "Një klient Briar për desktop GTK dhe pajisje celulare"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Vizitoni sajtin e Briar GTK"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Të drejta kopjimi © 2019-2020 The Briar Project"

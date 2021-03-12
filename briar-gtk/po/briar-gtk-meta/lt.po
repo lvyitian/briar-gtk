@@ -51,22 +51,22 @@ msgid "Improvements in this version:"
 msgstr "Šioje versijoje pristatyti patobulinimai:"
 
 msgid "Compose messages with multiple lines"
-msgstr ""
+msgstr "Rašyti kelių eilučių žinutes"
 
 msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
-msgstr ""
+msgstr "Pataisyti klaidą, kuri siunčiant/gaunant ilgas žinutes užstrigdina Briar GTK"
 
 msgid "Handle errors while adding contacts"
-msgstr ""
+msgstr "Apdoroti klaidas pridedant adresatus"
 
 msgid "Support for mobile devices (AArch64, ARMv7)"
-msgstr ""
+msgstr "Mobiliųjų įrenginių palaikymas (AArch64, ARMv7)"
 
 msgid "Update Briar core to version 1.2.17"
-msgstr ""
+msgstr "Atnaujinti Briar branduolį iki versijos 1.2.17"
 
 msgid "Translation into Romanian and Burmese"
-msgstr ""
+msgstr "Vertimas į rumunų ir birmiečių kalbas"
 
 msgid "Improved notification support"
 msgstr "Patobulintas pranešimų palaikymas"
@@ -193,12 +193,3 @@ msgstr "Daug programinės įrangos testavimų"
 
 msgid "The very first alpha release of Briar GTK. It allows adding contacts remotely and chatting with them in private chats. Other functions like groups, forums and blogs are to be implemented."
 msgstr "Pati pirmoji Briar GTK alfa laida. Ji leidžia jums pridėti adresatus per atstumą bei bendrauti su jais privačiuose pokalbiuose. Kitos funkcijos, tokios kaip grupės, forumai ir tinklaraščiai, dar bus įgyvendintos."
-
-#~ msgid "Support for mobile devices (AArch64/ARM)"
-#~ msgstr "Mobiliųjų įrenginių palaikymas (AArch64/ARM)"
-
-#~ msgid "Update Briar core to version 1.2.12"
-#~ msgstr "Atnaujinti Briar branduolį iki versijos 1.2.12"
-
-#~ msgid "Translation into Romanian"
-#~ msgstr "Vertimas į rumunų kalbą"

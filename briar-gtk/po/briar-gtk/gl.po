@@ -155,31 +155,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Introduza a ligazón do contacto, non o propio"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Ligazón non válida"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "Algo fallou ao engadir o contacto"
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "O contacto %s xa existe"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Contacto pendente actualizado"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "Ago fallou ao actualizar o contacto pendente"
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Duplicar Ligazón"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Xa ten un contacto pendente con esta ligazón: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "Son %s e %s a mesma persoa?"
 
 #, python-format
 msgid ""
@@ -189,6 +189,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s e %s enviouche a mesma ligazón.\n"
+"\n"
+"Un deles podería estar intentando descubrir os teus contactos.\n"
+"\n"
+"Non lles digas que recibiches a mesma ligazón de alguén máis."
 
 msgid "Contact added"
 msgstr "Contacto engadido"
@@ -222,7 +227,7 @@ msgstr "Min mesma"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "Copyright © 2019-2021 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -231,7 +236,3 @@ msgstr "Cliente Briar para escritorios GTK e dispositivos móbiles"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visita a web de Briar GTK"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Copyright © 2019-2020 The Briar Project"

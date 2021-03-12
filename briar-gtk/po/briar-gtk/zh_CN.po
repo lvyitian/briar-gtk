@@ -5,10 +5,11 @@
 #
 # Translators:
 # YFdyh000 <yfdyh000@gmail.com>, 2020
-# 高垚鑫, 2020
-# Yunfei Zhang <zsdr@protonmail.com>, 2020
-# Beta Ba <linsui@inbox.lv>, 2020
-# Chaos, 2020
+# Torsten Grote, 2021
+# 高垚鑫, 2021
+# Chaos, 2021
+# Beta Ba <linsui@inbox.lv>, 2021
+# Yunfei Zhang <zsdr@protonmail.com>, 2021
 # QWERT Eric, 2021
 #
 #, fuzzy
@@ -156,31 +157,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "输入您联系人的链接，不要输入您自己的"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "无效的链接"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "添加联系人出错"
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "联系人 %s 已存在"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "待处理联系人已更新"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "更新挂起的联系人时发生了一个错误"
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "重复的链接"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "您已经有此链接的待处理联系人：%s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "%s 和 %s 是同一个人吗？"
 
 #, python-format
 msgid ""
@@ -190,6 +191,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s 和 %s 给你发送了同样的链接。\n"
+"\n"
+"他们中的一个可能想知道你的联系人是谁。\n"
+"\n"
+"不要告诉他们你从其他人那里收到了相同的链接。"
 
 msgid "Contact added"
 msgstr "联系人已添加"
@@ -223,7 +229,7 @@ msgstr "我自己"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "版权所有 © 2019-2021 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -232,7 +238,3 @@ msgstr "用于 GTK 桌面和移动设备的 Briar 客户端"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "访问 Briar GTK 网站"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "版权所有 © 2019-2020 The Briar Project"

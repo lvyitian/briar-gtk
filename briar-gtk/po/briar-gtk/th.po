@@ -6,8 +6,8 @@
 # Translators:
 # Martus Translations <translations@martus.org>, 2020
 # Krittiya Chankasem <ordinaryjane@gmail.com>, 2020
-# bact' <arthit@gmail.com>, 2020
 # sirawat daengchon <sirawat.gang@gmail.com>, 2020
+# bact' <arthit@gmail.com>, 2021
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: sirawat daengchon <sirawat.gang@gmail.com>, 2020\n"
+"Last-Translator: bact' <arthit@gmail.com>, 2021\n"
 "Language-Team: Thai (https://www.transifex.com/otf/teams/76528/th/)\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -154,31 +154,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "กรุณาใส่ลิงก์ของผู้ติดต่อของคุณ ไม่ใช่ลิงก์ของคุณเอง"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "ลิงก์ใช้ไม่ได้"
 
 msgid "There was an error adding the contact"
 msgstr ""
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "มีผู้ติดต่อ %s อยู่แล้ว"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "คำขอผู้ติดต่อที่ค้างอยู่ถูกปรับปรุงแล้ว"
 
 msgid "An error occurred while updating the pending contact"
 msgstr ""
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "ลิงก์ซ้ำ"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "คุณมีผู้ติดต่อที่รอตอบรับอยู่ที่ใช้ลิงก์นี้อยู่แล้ว: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "%s และ %s เป็นคนเดียวกันหรือไม่?"
 
 #, python-format
 msgid ""

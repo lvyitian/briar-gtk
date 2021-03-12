@@ -4,18 +4,20 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# 1ed4e60ee66958c827a8962eeb50f715_b700974, 2020
 # erinm, 2020
 # Florencia Herra Vega <flohdot@gmail.com>, 2020
-# n3niu, 2020
 # Eike Fulda <e50389.fulda@gmx.de>, 2020
 # Ettore Atalan <atalanttore@googlemail.com>, 2020
 # akwizgran <michael@briarproject.org>, 2020
 # Nico Alt, 2020
 # Ashoka <martin.tastler@posteo.de>, 2020
 # Anatol <onon@riseup.net>, 2020
-# Heiko Braun <transifex@heiko-braun.org>, 2020
-# nautilusx, 2020
+# 1ed4e60ee66958c827a8962eeb50f715_b700974, 2021
+# nautilusx, 2021
+# n3niu, 2021
+# Armin Fasold <transifex@bebna.de>, 2021
+# Martin Rey, 2021
+# Heiko Braun <transifex@heiko-braun.org>, 2021
 #
 #, fuzzy
 msgid ""
@@ -23,7 +25,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: nautilusx, 2020\n"
+"Last-Translator: Heiko Braun <transifex@heiko-braun.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/76528/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -162,31 +164,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Gib den Link deines Kontakts ein, nicht deinen eigenen"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Ungültiger Link"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "Es gab einen Fehler beim Hinzufügen des Kontaktes."
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "Kontakt %s existiert bereits"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Ausstehender Kontakt aktualisiert"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "Beim Aktualisieren des ausstehenden Kontakts ist ein Fehler aufgetreten"
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Link duplizieren"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Du hast bereits einen Kontakt mit diesem Link ausstehend: %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "Sind %s und %s dieselbe Person?"
 
 #, python-format
 msgid ""
@@ -196,6 +198,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s und %s haben Dir denselben Link geschickt.\n"
+"\n"
+"Es könnte sein, dass einer der beiden versucht herauszubekommen, wer Deine Kontakte sind.\n"
+"\n"
+"Sag ihnen nicht, dass Du denselben Link auch von jemandem anderen bekommen hast."
 
 msgid "Contact added"
 msgstr "Kontakt hinzugefügt"
@@ -229,7 +236,7 @@ msgstr "Ich"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "Copyright © 2019-2021 Das Briar Projekt"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -238,7 +245,3 @@ msgstr "Briar-App für GTK-Desktop und Mobilgeräte"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Besuche die Webseite von Briar GTK"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Copyright © 2019-2020 Das Briar-Projekt"

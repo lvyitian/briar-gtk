@@ -152,31 +152,31 @@ msgid "Enter your contact's link, not your own"
 msgstr "Saisissez le lien de votre contact, pas le vôtre"
 
 msgid "Invalid link"
-msgstr ""
+msgstr "Le lien est invalide"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "Une erreur est survenue lors de l’ajout du contact"
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr ""
+msgstr "Le contact %s existe déjà"
 
 msgid "Pending contact updated"
-msgstr ""
+msgstr "Le contact en attente a été mis à jour"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "Une erreur est survenue lors de la mise à jour du contact en attente"
 
 msgid "Duplicate Link"
-msgstr ""
+msgstr "Lien en double"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr ""
+msgstr "Vous avez déjà un contact en attente avec ce lien : %s"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr ""
+msgstr "%s et %s sont-ils ou sont-elles elles la même personne ?"
 
 #, python-format
 msgid ""
@@ -186,6 +186,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s et %s vous ont envoyé le même lien.\n"
+"\n"
+"L’une de ces personnes pourrait tenter de découvrir qui sont vos contacts.\n"
+"\n"
+"Ne lui dites pas que vous avez reçu le même lien de quelqu’un d’autre."
 
 msgid "Contact added"
 msgstr "Le contact a été ajouté"
@@ -219,7 +224,7 @@ msgstr "Moi"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "Tous droits réservés © 2019 à 2021 Le projet Briar"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"
@@ -228,7 +233,3 @@ msgstr "Un client Briar fondé sur GTK pour ordinateur et appareils mobiles"
 msgctxt "Used in about dialog to get to website"
 msgid "Visit Briar GTK website"
 msgstr "Visiter le site Web de Briar GTK"
-
-#~ msgctxt "Used in about dialog"
-#~ msgid "Copyright © 2019-2020 The Briar Project"
-#~ msgstr "Tous droits réservés © 2019 à 2020 Le projet Briar"

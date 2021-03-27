@@ -54,22 +54,22 @@ msgid "Improvements in this version:"
 msgstr "Fejlesztések ebben a verzióban:"
 
 msgid "Compose messages with multiple lines"
-msgstr ""
+msgstr "Többsoros üzenetek készítése"
 
 msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
-msgstr ""
+msgstr "Annak a hibának a javítása, ami összeomlasztja a Briar GTK-t, amikor túl hosszú üzenetet küld vagy fogad"
 
 msgid "Handle errors while adding contacts"
-msgstr ""
+msgstr "Kapcsolatfelvételi hibák kapcsolat hozzáadásakor"
 
 msgid "Support for mobile devices (AArch64, ARMv7)"
-msgstr ""
+msgstr "Mobileszköz támogatás (AArch64, ARMv7)"
 
 msgid "Update Briar core to version 1.2.17"
-msgstr ""
+msgstr "A Briar core frissítése 1.2.17 verzióra"
 
 msgid "Translation into Romanian and Burmese"
-msgstr ""
+msgstr "Fordítás román és burmai nyelvre"
 
 msgid "Improved notification support"
 msgstr "Fejlesztett értesítés támogatás"

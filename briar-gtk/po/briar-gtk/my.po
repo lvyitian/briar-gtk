@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Katherine Kay <kaykhinethansoe.ytu@gmail.com>, 2021
 # Ei Mon Theint <eimon2298@gmail.com>, 2021
+# Katherine Kay <kaykhinethansoe.ytu@gmail.com>, 2021
 # Tun Naung Win <hellisenough@gmail.com>, 2021
 #
 #, fuzzy
@@ -24,121 +24,121 @@ msgstr ""
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
-msgstr "သင်ထည့်ချင်သည့် အဆက်အသွယ်အား ဤလင့်ခ်ကို ပေးပါ။"
+msgstr "သင်ထည့်ချင်သည့် အဆက်အသွယ်အား ဤလင့်ခ်ကို ပေးပါ"
 
 msgctxt "Used in add contact page"
 msgid "Enter the link from your contact here"
-msgstr "သင်၏အဆက်အသွယ်မှ လင့်ခ်ကို ဤနေရာတွင် ဖြည့်ပါ။"
+msgstr "သင့်အဆက်အသွယ်ထံမှလင့်ခ်ကို ဤနေရာတွင် ဖြည့်ပါ"
 
 msgctxt "Used in add contact page"
 msgid "Contact's link"
-msgstr "အဆက်အသွယ်၏ လင့်ခ်"
+msgstr "အဆက်အသွယ်၏လင့်ခ်"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a link"
-msgstr "ကျေးဇူးပြု၍ လင့်ခ်အား ထည့်သွင်းပါ။"
+msgstr "လင့်ခ်ထည့်သွင်းပေးပါ"
 
 msgctxt "Used in add contact page"
 msgid "Give your contact a nickname. Only you can see it."
-msgstr "သင်၏ အဆက်အသွယ်အား နာမည်ပြောင်ပေးပါ။ ဤသည်ကို သင်သာလျှင် မြင်နိုင်ပါသည်။"
+msgstr "သင့်အဆက်အသွယ်ကို နာမည်ပြောင်ပေးပါ။ ၎င်းကို သင်သာမြင်ပါမည်။"
 
 msgctxt "Used in add contact page"
 msgid "Enter a nickname"
-msgstr "နာမည်ပြောင် ထည့်သွင်းရန်"
+msgstr "နာမည်ပြောင်ထည့်မည်"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a nickname"
-msgstr "နာမည်ပြောင်အား ထည့်သွင်းပါ။"
+msgstr "နာမည်ပြောင်ထည့်သွင်းပေးပါ"
 
 msgctxt "Button in add contact page"
 msgid "Add contact"
-msgstr "အဆက်အသွယ် ထည့်ရန်"
+msgstr "အဆက်အသွယ်ထည့်မည်"
 
 msgid "Next"
 msgstr "ရှေ့သို့"
 
 msgctxt "Title in add contact page"
 msgid "Add contact"
-msgstr "အဆက်အသွယ် ထည့်ရန်"
+msgstr "အဆက်အသွယ်ထည့်မည်"
 
 msgid "Change contact name"
-msgstr "အဆက်အသွယ် အမည်အား ပြောင်းရန်"
+msgstr "အဆက်အသွယ်အမည်ပြောင်းမည်"
 
 msgid "Delete all messages"
-msgstr "စာအသွားအလာများ အားလုံးအား အပြီးဖျက်ပါ။"
+msgstr "မက်ဆေ့ချ်အားလုံးဖျက်မည်"
 
 msgid "Delete contact"
-msgstr "အဆက်အသွယ်ကို အပြီးပယ်ဖျက်ရန်။"
+msgstr "အဆက်အသွယ်ကို ဖျက်မည်"
 
 msgctxt "Accessibility text in chat input field"
 msgid "Show emoji menu"
-msgstr "ခံစားချက်ပုံရုပ် စာမျက်နှာအားပြသပါ။"
+msgstr "ရုပ်ပြောင်မီနူးကို ပြမည်"
 
 msgid "No contact selected"
-msgstr "အဆက်အသွယ်အား မရွေးချယ်ရသေးပါ။"
+msgstr "အဆက်အသွယ်ရွေးမထားပါ"
 
 msgid "Select a contact to start chatting"
-msgstr "စကားစတင်ပြောဆိုရန် အဆက်အသွယ်တစ်ခုအား ရွေးချယ်ပါ။"
+msgstr "စကားစမြည်စပြောရန် အဆက်အသွယ်ရွေးပါ"
 
 msgctxt "Accessibility text in main menu"
 msgid "Add contact"
-msgstr "အဆက်အသွယ် ထည့်သည်။"
+msgstr "အဆက်အသွယ်ထည့်မည်"
 
 msgid "Main menu"
-msgstr "ပင်မစာမျက်နှာ"
+msgstr "ပင်မမီနူး"
 
 msgid "Back"
 msgstr "နောက်သို့"
 
 msgid "Chat menu"
-msgstr "စကားပြော စာမျက်နှာ"
+msgstr "စကားစမြည်မီနူး"
 
 msgid "Password"
 msgstr "စကားဝှက်"
 
 msgctxt "Button in login page"
 msgid "Log in"
-msgstr "အကောင့်ဝင်ရောက်သည်။"
+msgstr "အကောင့်ဝင်မည်"
 
 msgctxt "Used in login page after entering the password"
 msgid "Logging in"
-msgstr "အကောင့်ဝင်ရောက်နေသည်။"
+msgstr "အကောင့်ဝင်နေသည်"
 
 msgid "About Briar GTK"
 msgstr "ဘရိုင်ယာ GTK အကြောင်း"
 
 msgid "Welcome to Briar"
-msgstr "Briar မှကြိုဆိုပါသည်။"
+msgstr "ဘရိုင်ယာမှ ကြိုဆိုပါသည်"
 
 msgid "Choose your nickname"
-msgstr "နာမည်ပြောင်အားရွေးချယ်ပါ။"
+msgstr "သင့်နာမည်ပြောင်ကို ရွေးပါ"
 
 msgid "Confirm Password"
-msgstr "စကားဝှက်အား အတည်ပြုပါ။"
+msgstr "စကားဝှက်ကို အတည်ပြုပါ"
 
 msgid "Create Account"
-msgstr "အကောင့်ဖွင့်သည်။"
+msgstr "အကောင့်ဖွင့်မည်"
 
 msgid "Creating Account"
-msgstr "အကောင့်အားဖွင့်နေသည်။"
+msgstr "အကောင့်ဖွင့်နေသည်"
 
 msgid "Please enter a nickname"
-msgstr "နာမည်ပြောင်အား ထည့်သွင်းပါ။"
+msgstr "နာမည်ပြောင်ထည့်သွင်းပေးပါ"
 
 msgid "Please enter a password"
-msgstr "စကားဝှက်အား ထည့်သွင်းပါ။"
+msgstr "စကားဝှက်ထည့်သွင်းပေးပါ"
 
 msgid "The passwords do not match"
-msgstr "စကားဝှက်များ ကိုက်ညီမှုမရှိပါ။"
+msgstr "စကားဝှက်ကိုက်ညီမှုမရှိပါ"
 
 msgid "Couldn't register account"
-msgstr "အကောင့်အား မှတ်ပုံတင်၍ မရနိုင်ပါ။"
+msgstr "အကောင့်မှတ်ပုံတင်၍ မရပါ"
 
 msgid "Couldn't log in"
-msgstr "အကောင့်ဝင်၍မရနိုင်ပါ။"
+msgstr "အကောင့်ဝင်မရပါ"
 
 msgid "Localization Lab Translation Teams"
-msgstr "Localization Lab Translation Teams"
+msgstr "Localization Lab ဘာသာပြန်အဖွဲ့များ"
 
 msgid "Using code by"
 msgstr "သုံးထားသောကုဒ်ပိုင်ရှင်များ"
@@ -160,7 +160,7 @@ msgstr "အဆက်အသွယ်ထည့်ရာတွင် ပြဿန�
 
 #, python-format
 msgid "Contact %s already exists"
-msgstr "အဆက်အသွယ် %sသည် ရှိပြီးသားဖြစ်သည်"
+msgstr "အဆက်အသွယ် %s သည် ရှိပြီးသားဖြစ်သည်"
 
 msgid "Pending contact updated"
 msgstr "ဆိုင်းငံ့ထားသော အဆက်အသွယ်ကို အပ်ဒိတ်လုပ်ပြီး"
@@ -169,15 +169,15 @@ msgid "An error occurred while updating the pending contact"
 msgstr "ဆိုင်းငံ့ထားသောအဆက်အသွယ်ကို အပ်ဒိတ်လုပ်နေစဉ် ပြဿနာတစ်ခု ရှိခဲ့သည်"
 
 msgid "Duplicate Link"
-msgstr "လင့်ခ်ကို ပွားသည်"
+msgstr "လင့်ခ်ကို ပွားမည်"
 
 #, python-format
 msgid "You already have a pending contact with this link: %s"
-msgstr "သင့်တွင် ဤလင့်ခ် - %s နှင့်ပတ်သက်သည့် ဆိုင်းငံ့ထားသောအဆက်အသွယ်တစ်ခု ရှိပြီးဖြစ်သည် "
+msgstr "သင့်တွင် ဤလင့်ခ် - %s နှင့်ပတ်သက်သည့် ဆိုင်းငံ့ထားသောအဆက်အသွယ်တစ်ခု ရှိပြီးဖြစ်သည်"
 
 #, python-format
 msgid "Are %s and %s the same person?"
-msgstr "%s နှင့် %s သည် တစ်ဦးတည်း ဖြစ်ပါသလား။"
+msgstr "%s နှင့် %s က တစ်ဦးတည်းလား။"
 
 #, python-format
 msgid ""
@@ -203,22 +203,22 @@ msgid "Are you sure you want to exit?"
 msgstr "ထွက်မှာသေချာလား။"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
-msgstr "ဘရိုင်ယာကိုပိတ်လိုက်သည်နှင့် မည်သည့်မက်ဆေ့ချ်ကိုမျှ လက်ခံမရရှိတော့မည့်အပြင် ဆိုင်းငံ့ထားသည်များကိုလည်း ပို့၍ရတော့မည်မဟုတ်ပါ။ သင့်အဆက်အသွယ်များနှင့် အချိတ်အဆက်မပြတ်စေရန် Briar ကို ဖွင့်ထားပါ။"
+msgstr "ဘရိုင်ယာကိုပိတ်လိုက်သည်နှင့် မည်သည့်မက်ဆေ့ချ်ကိုမျှ လက်ခံမရရှိတော့မည့်အပြင် ဆိုင်းငံ့ထားသည်များကိုလည်း ပို့၍ရတော့မည်မဟုတ်ပါ။ သင့်အဆက်အသွယ်များနှင့် အချိတ်အဆက်မပြတ်စေရန် ဘရိုင်ယာကို ဖွင့်ထားပါ။"
 
 msgid "Change"
-msgstr "ပြောင်းလဲသည်။"
+msgstr "ပြောင်းမည်"
 
 msgid "Confirm Message Deletion"
-msgstr "စာအသွားအလာ ပယ်ဖျက်ခြင်းအား အတည်ပြုမည်။"
+msgstr "မက်ဆေ့ချ်ဖျက်ခြင်းကို အတည်ပြုမည်"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr "စာအသွားအလာများအားလုံးကို အပြီးပယ်ဖျက်ရန် သေချာပါသလား?"
+msgstr "မက်ဆေ့ချ်အားလုံးကို ဖျက်ချင်တာသေချာလား။"
 
 msgid "Confirm Contact Deletion"
-msgstr "အဆက်အသွယ်ကို အပြီးပယ်ဖျက်ခြင်းအား အတည်ပြုမည်။"
+msgstr "အဆက်အသွယ်ဖျက်ခြင်းကို အတည်ပြုမည်"
 
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "ဤအဆက်အသွယ်အပြင် ၎င်းနှင့်ပြောထားသမျှမက်ဆေ့ချ်များအားလုံးကို ဖယ်ရှားချင်တာ သေချာပါသလား။"
+msgstr "ဤအဆက်အသွယ်အပြင် ၎င်းနှင့်ပြောထားသမျှမက်ဆေ့ချ်အားလုံးကို ဖယ်ရှားချင်တာ သေချာပါသလား။"
 
 msgid "Myself"
 msgstr "ကိုယ်တိုင်"

@@ -11,8 +11,8 @@
 # Đorđe Marušić <djordje@hzontal.org>, 2020
 # Valeriy Khegay <justflee@tuta.io>, 2020
 # Leonid Evdokimov <leon+transifex@darkk.net.ru>, 2020
-# Andrey, 2021
 # ef005e17e021122df91e94cfd230e8e8_7db01f8 <be69bc900298e9d9f543903b9318d7cd_576514>, 2021
+# Andrey, 2021
 #
 #, fuzzy
 msgid ""
@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: ef005e17e021122df91e94cfd230e8e8_7db01f8 <be69bc900298e9d9f543903b9318d7cd_576514>, 2021\n"
+"Last-Translator: Andrey, 2021\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/76528/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -46,15 +46,15 @@ msgstr "Пожалуйста, введите ссылку"
 
 msgctxt "Used in add contact page"
 msgid "Give your contact a nickname. Only you can see it."
-msgstr "Дайте вашему контакту ник. Увидеть его сможете только вы."
+msgstr "Дайте вашему контакту псевдоним. Увидеть его сможете только вы."
 
 msgctxt "Used in add contact page"
 msgid "Enter a nickname"
-msgstr "Введите ник"
+msgstr "Введите псевдоним"
 
 msgctxt "Used in add contact page"
 msgid "Please enter a nickname"
-msgstr "Пожалуйста, введите ник"
+msgstr "Пожалуйста, введите псевдоним"
 
 msgctxt "Button in add contact page"
 msgid "Add contact"
@@ -129,7 +129,7 @@ msgid "Creating Account"
 msgstr "Создание учетной записи"
 
 msgid "Please enter a nickname"
-msgstr "Пожалуйста, введите ник"
+msgstr "Пожалуйста, введите псевдоним"
 
 msgid "Please enter a password"
 msgstr "Пожалуйста, введите пароль"
@@ -159,10 +159,10 @@ msgid "Enter your contact's link, not your own"
 msgstr "Введите ссылку вашего контакта, а не свою"
 
 msgid "Invalid link"
-msgstr "Неправильная ссылка"
+msgstr "Неверная ссылка"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "Произошла ошибка добавления контакта"
 
 #, python-format
 msgid "Contact %s already exists"
@@ -172,7 +172,7 @@ msgid "Pending contact updated"
 msgstr "Ожидающий контакт обновлен"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "Произошла ошибка при обновлении ожидающего контакта"
 
 msgid "Duplicate Link"
 msgstr "Дублировать ссылку"
@@ -193,6 +193,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s и %s прислали вам ту же ссылку.\n"
+"\n"
+"Один из них, возможно, пытается выяснить, кто ваши контакты.\n"
+"\n"
+"Не сообщайте им, что вы получили ту же самую ссылку от кого-то еще."
 
 msgid "Contact added"
 msgstr "Контакт добавлен"
@@ -226,7 +231,7 @@ msgstr "Я"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "Copyright © 2019-2021 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"

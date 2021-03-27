@@ -5,9 +5,9 @@
 #
 # Translators:
 # Adam Lynn <adam@opentechfund.org>, 2020
-# Daniel <d-transifex@lublin.se>, 2020
 # efef6ec5b435a041fce803c7f8af77d2_2341d43, 2020
 # Sebastian Rasmussen <sebras@gmail.com>, 2021
+# Daniel <d-transifex@lublin.se>, 2021
 #
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>, 2021\n"
+"Last-Translator: Daniel <d-transifex@lublin.se>, 2021\n"
 "Language-Team: Swedish (https://www.transifex.com/otf/teams/76528/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -54,22 +54,22 @@ msgid "Improvements in this version:"
 msgstr "Förbättringar i denna version:"
 
 msgid "Compose messages with multiple lines"
-msgstr ""
+msgstr "Skapa meddelanden med flera rader"
 
 msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
-msgstr ""
+msgstr "Åtgärda bugg som kraschar Briar GTK långa meddelanden skickas/tas emot"
 
 msgid "Handle errors while adding contacts"
-msgstr ""
+msgstr "Hantera fel när kontakter läggs till"
 
 msgid "Support for mobile devices (AArch64, ARMv7)"
-msgstr ""
+msgstr "Stöd för mobila enheter (AArch64, ARMv7)"
 
 msgid "Update Briar core to version 1.2.17"
-msgstr ""
+msgstr "Uppdatera Briar core till version 1.2.17"
 
 msgid "Translation into Romanian and Burmese"
-msgstr ""
+msgstr "Översättning till rumänska och burmesiska"
 
 msgid "Improved notification support"
 msgstr "Förbättrat aviseringsstöd"

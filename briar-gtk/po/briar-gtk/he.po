@@ -7,6 +7,7 @@
 # zxcsd <jenisjpl@gmail.com>, 2020
 # Giovanni Pellerano <giovanni.pellerano@evilaliv3.org>, 2020
 # ION, 2021
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2021
 #
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: ION, 2021\n"
+"Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>, 2021\n"
 "Language-Team: Hebrew (https://www.transifex.com/otf/teams/76528/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 msgctxt "Used in add contact page"
 msgid "Give this link to the contact you want to add"
-msgstr "תן את הקישור הזה לאיש הקשר שאתה רוצה להוסיף"
+msgstr "יש לתת את הקישור הזה לאיש הקשר שברצונך להוסיף"
 
 msgctxt "Used in add contact page"
 msgid "Enter the link from your contact here"
@@ -40,7 +41,7 @@ msgstr "אנא הכנס קישור"
 
 msgctxt "Used in add contact page"
 msgid "Give your contact a nickname. Only you can see it."
-msgstr "תן כינוי אל איש הקשר שלך. רק אתה יכול לראות אותו."
+msgstr "יש לתת את הכינוי לאיש הקשר שלך. רק את/ה יכול/ה לראות אותו."
 
 msgctxt "Used in add contact page"
 msgid "Enter a nickname"
@@ -62,10 +63,10 @@ msgid "Add contact"
 msgstr "הוסף איש קשר"
 
 msgid "Change contact name"
-msgstr "שַׁנֵּה שם איש קשר"
+msgstr "שינוי שם איש הקשר"
 
 msgid "Delete all messages"
-msgstr "מחק את כל ההודעות"
+msgstr "מחיקת כל ההודעות"
 
 msgid "Delete contact"
 msgstr "מחק איש קשר"
@@ -105,7 +106,7 @@ msgid "Logging in"
 msgstr "התחברות"
 
 msgid "About Briar GTK"
-msgstr "אודות Briar GTK"
+msgstr "על אודות Briar GTK"
 
 msgid "Welcome to Briar"
 msgstr "ברוך הבא אל Briar"
@@ -117,7 +118,7 @@ msgid "Confirm Password"
 msgstr "אשר סיסמה"
 
 msgid "Create Account"
-msgstr "צור חשבון"
+msgstr "יצירת חשבון"
 
 msgid "Creating Account"
 msgstr "יצירת חשבון"
@@ -195,32 +196,32 @@ msgid "New private message"
 msgstr "הודעה פרטית חדשה"
 
 msgid "Are you sure you want to exit?"
-msgstr "האם אתה בטוח שאתה רוצה לצאת?"
+msgstr "האם אכן ברצונך רוצה לצאת?"
 
 msgid "Once you close Briar, you'll no longer receive messages nor send pending ones. Keep Briar open to stay connected with your contacts."
 msgstr "ברגע שתסגור את Briar, לא תקבל יותר הודעות או תשלח הודעות ממתינות. השאר את Briar פתוח כדי להישאר מחובר עם אנשי הקשר שלך."
 
 msgid "Change"
-msgstr "שנה"
+msgstr "שינוי"
 
 msgid "Confirm Message Deletion"
 msgstr "אשר מחיקת הודעה"
 
 msgid "Are you sure that you want to delete all messages?"
-msgstr "האם אתה בטוח שאתה רוצה למחוק את כל ההודעות?"
+msgstr "האם אכן ברצונך למחוק את כל ההודעות?"
 
 msgid "Confirm Contact Deletion"
 msgstr "אשר מחיקת איש קשר"
 
 msgid "Are you sure that you want to remove this contact and all messages exchanged with this contact?"
-msgstr "האם אתה בטוח שאתה רוצה למחוק איש קשר זה ואת כל ההודעות שהוחלפו עם איש קשר זה?"
+msgstr "האם אכן ברצונך למחוק איש קשר זה ואת כל ההודעות שהוחלפו עם איש קשר זה?"
 
 msgid "Myself"
 msgstr "אני"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "זכות יוצרים © 2019-2021 מיזם Briar"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"

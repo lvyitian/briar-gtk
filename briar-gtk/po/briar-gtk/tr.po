@@ -11,9 +11,9 @@
 # dersteppenwolfx, 2020
 # Ferdi YLDZ <eceyldz1122@gmail.com>, 2020
 # mahmut özcan <mahmutozcan@protonmail.com>, 2021
-# T. E. Kalayci <tekrei@gmail.com>, 2021
 # Gökhan Kalayci <gkmediagokhan@gmail.com>, 2021
 # Gokdeniz.Kucukali, 2021
+# T. E. Kalayci <tekrei@member.fsf.org>, 2021
 #
 #, fuzzy
 msgid ""
@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Gokdeniz.Kucukali, 2021\n"
+"Last-Translator: T. E. Kalayci <tekrei@member.fsf.org>, 2021\n"
 "Language-Team: Turkish (https://www.transifex.com/otf/teams/76528/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -173,7 +173,7 @@ msgid "Pending contact updated"
 msgstr "Bekleyen kişi güncellendi"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "Beklemedeki kişiyi güncellerken bir hata oluştu."
 
 msgid "Duplicate Link"
 msgstr "Yinelenen Bağlantı"

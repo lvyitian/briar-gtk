@@ -11,6 +11,7 @@
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Martus Translations <translations@martus.org>, 2020
 # Vox, 2021
+# Hamid reza Zaefarani, 2021
 #
 #, fuzzy
 msgid ""
@@ -18,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Vox, 2021\n"
+"Last-Translator: Hamid reza Zaefarani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/76528/fa/)\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -57,22 +58,22 @@ msgid "Improvements in this version:"
 msgstr "بهبودها در این نسخه:"
 
 msgid "Compose messages with multiple lines"
-msgstr ""
+msgstr "نوشتن پیام با چندین خط"
 
 msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
-msgstr ""
+msgstr "رفع اشکالی که Briar GTK هنگام ارسال/دریافت پیام‌های طولانی خراب می‌شود"
 
 msgid "Handle errors while adding contacts"
-msgstr ""
+msgstr "مدیریت خطاها به هنگام افزودن مخاطبان"
 
 msgid "Support for mobile devices (AArch64, ARMv7)"
-msgstr ""
+msgstr "پشتیبانی از تلفن‌های همراه (AArch64, ARMv7)"
 
 msgid "Update Briar core to version 1.2.17"
-msgstr ""
+msgstr "بروزرسانی هسته Briar به نسخه 1.2.17"
 
 msgid "Translation into Romanian and Burmese"
-msgstr ""
+msgstr "ترجمه به رومانیایی و برمه‌ای"
 
 msgid "Improved notification support"
 msgstr "بهبود پشتیبانی از اعلان"

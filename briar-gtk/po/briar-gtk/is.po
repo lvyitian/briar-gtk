@@ -156,7 +156,7 @@ msgid "Invalid link"
 msgstr "Ógildur tengill"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "Villa kom upp við að bæta við tengiliðnum"
 
 #, python-format
 msgid "Contact %s already exists"
@@ -166,7 +166,7 @@ msgid "Pending contact updated"
 msgstr "Tengiliður í bið uppfærður"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "Villa kom upp við að uppfæra tengiliðinn sem er í bið"
 
 msgid "Duplicate Link"
 msgstr "Endurtekinn tengill"
@@ -187,6 +187,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s og %s sendu þér sama tengilinn.\n"
+"\n"
+"Annar þeirra gæti verið að reyna að finna út hverjir tengiliðirnir þínir eru.\n"
+"\n"
+"Ekki segja þeim að þú hafir fengið sama tengil frá einhverjum öðrum."
 
 msgid "Contact added"
 msgstr "Tengilið bætt við"
@@ -220,7 +225,7 @@ msgstr "Ég sjálfur"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "Höfundarréttur © 2019-2021 Briar-verkefnið"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"

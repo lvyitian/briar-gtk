@@ -163,7 +163,7 @@ msgid "Invalid link"
 msgstr "Felakting länk"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "Något gick fel när kontakta skulle läggas till"
 
 #, python-format
 msgid "Contact %s already exists"
@@ -173,7 +173,7 @@ msgid "Pending contact updated"
 msgstr "Väntande kontakt har uppdaterats"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "Något gick fel när väntande kontakt skulle uppdateras"
 
 msgid "Duplicate Link"
 msgstr "Kopiera länk"
@@ -194,6 +194,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%soch %shar skicka samma länk till dig.\n"
+"\n"
+"En av dem kanske försöker ta reda på vilka kontakter du har.\n"
+"\n"
+"Säg inte till någon av dem att du tagit emot samma länk från någon annan. "
 
 msgid "Contact added"
 msgstr "Kontakt tillagd"
@@ -227,7 +232,7 @@ msgstr "Mig själv"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "Copyright © 2019-2021 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"

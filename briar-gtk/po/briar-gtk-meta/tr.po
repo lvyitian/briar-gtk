@@ -5,8 +5,8 @@
 #
 # Translators:
 # Emre Deniz, 2020
-# T. E. Kalayci <tekrei@gmail.com>, 2020
 # mahmut özcan <mahmutozcan@protonmail.com>, 2021
+# T. E. Kalayci <tekrei@member.fsf.org>, 2021
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: mahmut özcan <mahmutozcan@protonmail.com>, 2021\n"
+"Last-Translator: T. E. Kalayci <tekrei@member.fsf.org>, 2021\n"
 "Language-Team: Turkish (https://www.transifex.com/otf/teams/76528/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -53,22 +53,22 @@ msgid "Improvements in this version:"
 msgstr "Bu sürümdeki yenilikler:"
 
 msgid "Compose messages with multiple lines"
-msgstr ""
+msgstr "İletileri çok satırlı bir şekilde oluşturma"
 
 msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
-msgstr ""
+msgstr "Uzun ileti gönderirken/alınırken Briar GTK'yı çökerten hatayı düzeltme"
 
 msgid "Handle errors while adding contacts"
-msgstr ""
+msgstr "Kişileri eklerken hatalarla ilgilenme"
 
 msgid "Support for mobile devices (AArch64, ARMv7)"
-msgstr ""
+msgstr "Mobil aygıtlar için destek (AArch64, ARMv7)"
 
 msgid "Update Briar core to version 1.2.17"
-msgstr ""
+msgstr "Briar çekirdeği 1.2.17 sürümüne güncelleme"
 
 msgid "Translation into Romanian and Burmese"
-msgstr ""
+msgstr "Rumence ve Birmanca'ya çeviri"
 
 msgid "Improved notification support"
 msgstr "İyileştirilmiş bildiri desteği"

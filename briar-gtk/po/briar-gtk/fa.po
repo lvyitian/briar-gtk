@@ -12,6 +12,7 @@
 # Mostafa Ahangarha <ahangarha@riseup.net>, 2020
 # Vox, 2021
 # Reza Ghasemi, 2021
+# Hamid reza Zaefarani, 2021
 #
 #, fuzzy
 msgid ""
@@ -19,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-09-18 11:09+0000\n"
-"Last-Translator: Reza Ghasemi, 2021\n"
+"Last-Translator: Hamid reza Zaefarani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/76528/fa/)\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -161,7 +162,7 @@ msgid "Invalid link"
 msgstr "پیوند نامعتبر"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "هنگام افزودن مخاطب خطایی رخ داد"
 
 #, python-format
 msgid "Contact %s already exists"
@@ -171,7 +172,7 @@ msgid "Pending contact updated"
 msgstr "مخاطب معلق به روز رسانی شد"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "هنگام بروزرسانی مخاطب در‌انتظار خطایی رخ داد"
 
 msgid "Duplicate Link"
 msgstr "پیوند تکراری"
@@ -192,6 +193,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s و %s لینک یکسانی را به شما ارسال کردند.\n"
+"\n"
+"یکی از آن ها ممکن است سعی در شناسایی مخاطبان شما داشته باشد.\n"
+"\n"
+"به آنها نگویید که همان لینک را از شخصی دیگر دریافت کرده‌اید."
 
 msgid "Contact added"
 msgstr "مخاطب اضافه شد"
@@ -225,7 +231,7 @@ msgstr "خودم"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "کپی‌رایت © 2021-2019 پروژه Briar"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"

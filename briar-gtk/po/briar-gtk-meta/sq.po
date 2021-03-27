@@ -6,7 +6,7 @@
 # Translators:
 # Adam Lynn <adam@opentechfund.org>, 2020
 # Bujar Tafili, 2020
-# Besnik Bleta <besnik@programeshqip.org>, 2020
+# Besnik Bleta <besnik@programeshqip.org>, 2021
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2020\n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2021\n"
 "Language-Team: Albanian (https://www.transifex.com/otf/teams/76528/sq/)\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
@@ -53,22 +53,22 @@ msgid "Improvements in this version:"
 msgstr "Përmirësime në këtë version:"
 
 msgid "Compose messages with multiple lines"
-msgstr ""
+msgstr "Hartoni mesazhe me shumë rreshta"
 
 msgid "Fix bug that crashes Briar GTK when sending/receiving long messages"
-msgstr ""
+msgstr "Ndreqje të mete që vithis Briar GTK-në kur dërgohen/merren mesazhe të gjatë"
 
 msgid "Handle errors while adding contacts"
-msgstr ""
+msgstr "Trajtim gabimesh kur shtohen kontakte"
 
 msgid "Support for mobile devices (AArch64, ARMv7)"
-msgstr ""
+msgstr "Mbulim për pajisje celulare (AArch64, ARMv7)"
 
 msgid "Update Briar core to version 1.2.17"
-msgstr ""
+msgstr "Përditëso bazën e Briar-it me versionin 1.2.17"
 
 msgid "Translation into Romanian and Burmese"
-msgstr ""
+msgstr "Përkthim në rumanisht dhe burmeze"
 
 msgid "Improved notification support"
 msgstr "Mbulim i përmirësuar njoftimesh"

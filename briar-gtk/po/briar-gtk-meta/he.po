@@ -6,6 +6,7 @@
 # Translators:
 # Adam Lynn <adam@opentechfund.org>, 2020
 # ION, 2021
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2021
 #
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2020-10-06 17:31+0000\n"
-"Last-Translator: ION, 2021\n"
+"Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>, 2021\n"
 "Language-Team: Hebrew (https://www.transifex.com/otf/teams/76528/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +29,7 @@ msgid "Secure messaging, anywhere"
 msgstr "תכתובת מאובטחת, בכל מקום"
 
 msgid "Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. If the internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance."
-msgstr "Briar הוא יישום התכתבות שמתוכנן עבור פעילנים, עיתונאים, וכל אחד אחר שצריך דרך בטוחה, קלה וחסונה לתקשר. לא כמו יישומי התכתבות מסורתיים, Briar אינו מסתמך על שרת מרכזי - הודעות מסונכרנות ישירות בין מכשירי המשתמשים. במקרה שהאינטרנט נפל, Briar יכול לסנכרן באמצעות Bluetooth או Wi-Fi, מה ששומר על זרימת המידע בזמן משבר. אם האינטרנט פעיל, Briar יכול לסנכרן באמצעות רשת Tor, מה שמגן על משתמשים ומערכות היחסים שלהם מפני מעקב סמוי."
+msgstr "Briar הוא יישום התכתבות שמתוכנן עבור פעילנים, עיתונאים, וכל אחד אחר שצריך דרך בטוחה, קלה וחסונה לתקשר. לא כמו יישומי התכתבות מסורתיים, Briar אינו מסתמך על שרת מרכזי - הודעות מסונכרנות ישירות בין מכשירי המשתמשים. במקרה שהאינטרנט נפל, Briar יכול לסנכרן באמצעות Bluetooth או רשת אלחוטית, מה ששומר על זרימת המידע בזמן משבר. אם האינטרנט פעיל, Briar יכול לסנכרן באמצעות רשת Tor, מה שמגן על משתמשים ומערכות היחסים שלהם מפני מעקב סמוי."
 
 msgid "Note: Currently only private chats via Tor are supported in Briar GTK."
 msgstr "הערה: כרגע רק התכתבויות פרטיות באמצעות Tor נתמכות ב־Briar GTK."
@@ -46,7 +47,7 @@ msgid "Adding contacts at a distance"
 msgstr "הוספת אנשי קשר ממרחק"
 
 msgid "Main window with two contacts and about dialog"
-msgstr "חלון ראשי עם שני אנשי קשר ודו שיח אודות"
+msgstr "חלון ראשי עם שני אנשי קשר ודו־שיח \"על אודות\""
 
 msgid "Improvements in this version:"
 msgstr "שיפורים בגרסה זו:"

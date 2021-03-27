@@ -157,7 +157,7 @@ msgid "Invalid link"
 msgstr "Érvénytelen link"
 
 msgid "There was an error adding the contact"
-msgstr ""
+msgstr "Hiba történt a kapcsolat hozzáadásakor"
 
 #, python-format
 msgid "Contact %s already exists"
@@ -167,7 +167,7 @@ msgid "Pending contact updated"
 msgstr "Várakozó kapcsolat frissítve"
 
 msgid "An error occurred while updating the pending contact"
-msgstr ""
+msgstr "Hiba történt a várakozó kapcsolatok frissítése során"
 
 msgid "Duplicate Link"
 msgstr "Duplikált link"
@@ -188,6 +188,11 @@ msgid ""
 "\n"
 "Don't tell them you received the same link from someone else."
 msgstr ""
+"%s és %s ugyanazt a linket küldte.\n"
+"\n"
+"Egyikük lehet, hogy megpróbálja kikutatni, hogy kik a kapcsolatai.\n"
+"\n"
+"Ne árulja el nekik, hogy ugyanazt a linket már megkapta mástól."
 
 msgid "Contact added"
 msgstr "Kapcsolat hozzáadva"
@@ -221,7 +226,7 @@ msgstr "Én"
 
 msgctxt "Used in about dialog"
 msgid "Copyright © 2019-2021 The Briar Project"
-msgstr ""
+msgstr "Copyright © 2019-2021 The Briar Project"
 
 msgctxt "Used in about dialog"
 msgid "A Briar client for GTK desktop and mobile devices"

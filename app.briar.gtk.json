@@ -73,13 +73,13 @@
             "buildsystem": "simple",
             "build-commands": [
                 "mkdir -p /app/share/java",
-                "install -Dm644 briar-headless.jar /app/share/java/briar-headless.jar"
+                "install -Dm644 briar-headless-linux-x86_64-1.2.19.jar /app/share/java/briar-headless.jar"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://media.dorfbrunnen.eu/briar/jars/015/briar-headless.jar",
-                    "sha512": "2aa3a30f8563da5777256e1b103300140a3d7498c03f6e296027c7a507bfd166f2208439d8c1157e18ae843a66197091a1c89fb0d564fff8bf3445b74ed58af9"
+                    "url": "https://briarproject.org/jar/briar-headless-linux-x86_64-1.2.19.jar",
+                    "sha512": "aa94589b60a9a58da3bb9119367a20557e6548315e58a1457c5a9620932807e38d6027234ca67efbbc4a6afcee5055238dd6b8c9ccd81b9e829d539f87c0c3f9"
                 }
             ]
         },

@@ -67,9 +67,11 @@
                 }
             ]
         },
-
         {
-            "name": "briar-headless",
+            "name": "briar-headless-x86_64",
+            "only-arches": [
+            	"x86_64"
+            ],
             "buildsystem": "simple",
             "build-commands": [
                 "mkdir -p /app/share/java",
@@ -80,6 +82,42 @@
                     "type": "file",
                     "url": "https://briarproject.org/jar/briar-headless-linux-x86_64-1.2.19.jar",
                     "sha512": "aa94589b60a9a58da3bb9119367a20557e6548315e58a1457c5a9620932807e38d6027234ca67efbbc4a6afcee5055238dd6b8c9ccd81b9e829d539f87c0c3f9"
+                }
+            ]
+        },
+        {
+            "name": "briar-headless-aarch64",
+            "only-arches": [
+            	"aarch64"
+            ],
+            "buildsystem": "simple",
+            "build-commands": [
+                "mkdir -p /app/share/java",
+                "install -Dm644 briar-headless-linux-aarch64-1.2.19.jar /app/share/java/briar-headless.jar"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://briarproject.org/jar/briar-headless-linux-aarch64-1.2.19.jar",
+                    "sha512": "7689beaade44a28886b262ecc3e25272df019ddf6b32c729968005c75fe36b53f2ec5ed6959b3430740548b02659f111a18106e4ad423adb60b508e0f27b9b78"
+                }
+            ]
+        },
+        {
+            "name": "briar-headless-arm",
+            "only-arches": [
+            	"arm"
+            ],
+            "buildsystem": "simple",
+            "build-commands": [
+                "mkdir -p /app/share/java",
+                "install -Dm644 briar-headless-linux-armhf-1.2.19.jar /app/share/java/briar-headless.jar"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://briarproject.org/jar/briar-headless-linux-armhf-1.2.19.jar",
+                    "sha512": "92b3d0492e8391914fb38d4d1072e4e6485640d415bb1d8876b5615bf759d5eb9844b82ca95ae843cca8c50988b25d1af78f46ace2f6d9846b8d6e51a7a66a56"
                 }
             ]
         },

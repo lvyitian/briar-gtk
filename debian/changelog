@@ -1,9 +1,12 @@
 briar-gtk (0.1.0-beta3-1) UNRELEASED; urgency=medium
 
-  * Support for mobile devices (AArch64/ARM)
-  * Update Briar core to version 1.2.12
+  * Compose messages with multiple lines
+  * Fix bug that crashes Briar GTK when sending/receiving long messages
+  * Handle errors while adding contacts
+  * Update Briar core to version 1.2.19
+  * Translation into Romanian and Burmese
 
- -- Nico Alt <nicoalt@posteo.org>  Thu, 03 Dec 2020 12:00:00 +0000
+ -- Nico Alt <nicoalt@posteo.org>  Sat, 27 Mar 2021 12:00:00 +0000
 
 briar-gtk (0.1.0-beta2-1) UNRELEASED; urgency=medium
 

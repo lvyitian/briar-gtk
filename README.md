@@ -198,18 +198,11 @@ Exec=/usr/bin/briar-gtk
 
 If you're using Flatpak, you need to change `Exec` to `/usr/bin/flatpak run app.briar.gtk`.
 
-### How can I run this on the Librem 5?
+### How can I run this on the PinePhone/Librem 5?
 
-Briar GTK doesn't _yet_ run on the Librem 5, because
-ARM support is still pending
-in briar-headless ([#1854](https://code.briarproject.org/briar/briar/-/issues/1854)).
-
-Later on, whether you own a Librem 5 or
-[set up an emulator](https://developer.puri.sm/Librem5/Development_Environment/Boards/emulators.html),
-you can install Briar GTK easily using Flatpak.
-
-If you want to hack support yourself, take a look at
-[`briar-ship-no-tor-binary.patch` and more in this article](https://nico.dorfbrunnen.eu/posts/2021/briar-remote/).
+Good news: Briar GTK runs on mobile devices like PinePhone and Librem 5.
+However, there's no official installation method yet, so you have to build it
+yourself. See [the Flatpak Builder section](#flatpak-builder) for more information.
 
 ---
 

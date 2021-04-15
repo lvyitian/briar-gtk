@@ -74,6 +74,10 @@ _testing_). From its readme:
 >
 > `sudo apt install ./*.deb`
 
+### Arch Linux
+
+Arch Linux users can use the [`briar-gtk` package from AUR](https://aur.archlinux.org/packages/briar-gtk/) to install Briar GTK and its dependencies.
+
 ## Developers
 
 ### GNOME Builder

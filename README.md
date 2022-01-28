@@ -1,9 +1,6 @@
 # Briar GTK
 
-[![pipeline status](https://code.briarproject.org/briar/briar-gtk/badges/main/pipeline.svg)](https://code.briarproject.org/briar/briar-gtk/commits/main)
-[![coverage report](https://code.briarproject.org/briar/briar-gtk/badges/main/coverage.svg)](https://code.briarproject.org/briar/briar-gtk/commits/main)
-
-Note: Briar GTK is about to get replaced by [Briar Desktop](https://code.briarproject.org/briar/briar-desktop/) and is therefore no longer under development.
+**Note: As of Jan 21, 2022, Briar GTK is officially deprecated and replaced by [Briar Desktop](https://code.briarproject.org/briar/briar-desktop/).**
 
 A GTK app for [Briar](https://briar.app), bringing secure messaging to your desktop and mobile devices.
 It uses [briar_wrapper](https://code.briarproject.org/briar/python-briar-wrapper) and the
